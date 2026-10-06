@@ -1,0 +1,30 @@
+name: Shopify Cleanup
+title: Case study: cleanup after a Squarespace to Shopify move
+description: A family owned fly fishing shop moved from Squarespace to Shopify and left 3,400 broken URLs and duplicate product paths. An audit and safe theme schema work.
+keywords: Squarespace to Shopify migration, Shopify 404s, Shopify product schema
+updated: 2026-10-06
+---
+<h1>Fly fishing shop: cleaning up after Squarespace to Shopify</h1>
+<p class="lead">A family-owned fly fishing retailer moved its store from Squarespace to Shopify. The new storefront looked better, but the number of indexed pages kept shrinking and search visibility slipped month by month.</p>
+
+<h2>A four-part audit</h2>
+<ul>
+  <li><strong>Duplicate product URLs.</strong> Leftover Squarespace-style paths and Shopify's own collection paths were competing for the same products.</li>
+  <li><strong>More than 3,400 404s</strong> from old URLs that were never redirected.</li>
+  <li><strong>A duplicated FAQ page.</strong></li>
+  <li><strong>Brand misspellings driving most organic traffic</strong>, a sign the shop wasn't being found for the gear it sells.</li>
+  <li><strong>Broken and default meta descriptions</strong> inherited from the theme.</li>
+  <li><strong>Spammy backlinks, slow mobile pages, and almost no presence in AI answers.</strong></li>
+</ul>
+
+<h2>Hands-on work</h2>
+<p>First, a pass through product titles, descriptions, metadata, and category assignments. Then structured data, done in a duplicate of the live theme so the store was never at risk. I added Organization markup and a Product block, then discovered the theme already emitted a more complete Product block of its own. I traced the overlap and left exactly one valid block. Review stars needed the reviews app's metafield namespace confirmed before they could be wired in correctly.</p>
+
+<h2>Checks</h2>
+<p>Structured data validated on sample product pages, crawls compared before and after, and every change previewed in the duplicate theme before publishing.</p>
+
+<h2>Status</h2>
+<p>The audit and the first product pass are delivered. Remaining items, including thin product descriptions and missing categories, are being reviewed with the owner before further edits.</p>
+
+<h2>Lesson</h2>
+<p>A platform move isn't finished when the new store launches. It's finished when every old URL lands somewhere useful and the new theme's markup is checked rather than trusted. See <a href="{root}services/ecommerce-seo/">ecommerce SEO</a>.</p>

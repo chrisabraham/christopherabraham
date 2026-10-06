@@ -1,0 +1,39 @@
+name: JavaScript SEO
+title: JavaScript SEO for React, Next.js, and headless websites
+description: Make JavaScript and headless websites visible to search and AI crawlers: rendering comparisons, crawlable links, prerendering, and code level review.
+keywords: JavaScript SEO, React SEO, Next.js SEO, headless CMS SEO
+updated: 2026-10-06
+---
+<h1>JavaScript and headless SEO</h1>
+<p class="lead">A modern site can look perfect in a browser and nearly empty to a crawler. If your content depends on JavaScript to appear, some crawlers will see it late, some will see part of it, and most AI crawlers will never see it at all. I find the gap and specify the fix in terms your developers can build.</p>
+
+<h2>Why it matters more every year</h2>
+<p>Googlebot renders JavaScript, eventually, in a second pass with limits on time and resources. Bingbot renders less reliably. Most of the crawlers that feed AI assistants, including those from OpenAI, Anthropic, and Perplexity, fetch the HTML and move on. Content that exists only after scripts run is content those systems can't quote.</p>
+
+<h2>Patterns I find again and again</h2>
+<ul>
+  <li><strong>An empty shell.</strong> A single-page app whose server HTML holds one empty root element.</li>
+  <li><strong>Links that aren't links.</strong> Cards and menus that navigate with click handlers instead of real anchor tags, leaving crawlers no path to deeper pages.</li>
+  <li><strong>Content gated on interaction.</strong> Specs, reviews, and FAQs that mount only on scroll, hover, or tab click. Crawlers don't scroll or click.</li>
+  <li><strong>Consent tools blocking content scripts.</strong> A cookie banner holding back the script that builds the article, so bots, which never consent, get a blank page.</li>
+  <li><strong>Head tags set late.</strong> Titles, canonicals, and robots directives written by client-side code, which crawlers may read before or after the change.</li>
+  <li><strong>Soft 404s.</strong> Missing routes that return a 200 status with a "not found" message drawn by the app.</li>
+</ul>
+
+<h2>How I diagnose it</h2>
+<p>For each important template, I compare three versions of the page: the raw HTML from the server, the DOM after rendering, and the text a crawler extracts. Screaming Frog in JavaScript mode, Search Console's URL Inspection live test, and a plain fetch with no scripts at all make the differences obvious. When I have repository access, I read the routes, components, and build configuration to find exactly where the content is gated.</p>
+
+<h2>What the fix usually looks like</h2>
+<ul>
+  <li>Server-side rendering or static prerendering for pages that need to rank.</li>
+  <li>Real anchor links in the server HTML for every navigable item.</li>
+  <li>Interactive effects kept as progressive enhancement, on top of content that's already in the HTML.</li>
+  <li>Head tags rendered on the server, with self-referencing canonicals per route.</li>
+  <li>Proper 404 and 410 status codes for missing routes.</li>
+</ul>
+
+<h2>Stacks I've worked in</h2>
+<p>React and Create React App, Next.js on Vercel and Netlify, Vue, Alpine.js on Magento's Hyvä theme, Sanity and other headless CMSs, Shopify themes, and WordPress builds with heavy page builders. I can open a pull request for metadata and template changes, or hand your developer a spec with acceptance criteria and verify what ships.</p>
+
+<h2>Examples</h2>
+<p>See <a href="{root}case-studies/scroll-gated-products/">product content hidden behind scroll triggers</a>, <a href="{root}case-studies/event-app-links/">a React app with 2,000 unreachable pages</a>, and <a href="{root}case-studies/headless-local/">SEO fixes merged through GitHub on Sanity and Vercel</a>.</p>

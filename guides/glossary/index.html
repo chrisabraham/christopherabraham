@@ -1,0 +1,1059 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SEO and AI search glossary: terms defined in plain English</title>
+<meta name="description" content="Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.">
+<meta name="keywords" content="SEO glossary, AI search terms, SEO definitions">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://christopherabraham.com/guides/glossary/">
+<meta name="author" content="Christopher Abraham">
+<link rel="icon" href="../../logo.png" type="image/png">
+<link rel="apple-touch-icon" href="../../logo.png">
+<link rel="manifest" href="../../manifest.webmanifest">
+<link rel="alternate" type="text/markdown" title="This page as Markdown" href="index.md">
+<link rel="alternate" type="application/rss+xml" title="SEO guides (RSS)" href="../../rss.xml">
+<link rel="alternate" type="application/atom+xml" title="SEO guides by Christopher Abraham" href="../../feed.xml">
+<link rel="alternate" type="text/plain" title="llms.txt" href="../../llms.txt">
+<link rel="sitemap" type="application/xml" href="../../sitemap.xml">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:site_name" content="Christopher Abraham">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SEO and AI search glossary: terms defined in plain English">
+<meta property="og:description" content="Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.">
+<meta property="og:url" content="https://christopherabraham.com/guides/glossary/">
+<meta property="og:image" content="https://christopherabraham.com/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Christopher Abraham, SEO consultant: technical SEO, indexing, schema, and AI search">
+<meta property="article:published_time" content="2026-10-06">
+<meta property="article:modified_time" content="2026-10-06">
+<meta property="article:author" content="https://christopherabraham.com/about/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SEO and AI search glossary: terms defined in plain English">
+<meta name="twitter:description" content="Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.">
+<meta name="twitter:image" content="https://christopherabraham.com/social-card.png">
+<style>
+:root { --orange: #f3b842; --blue: #1d9cd5; --teal: #3ca0b0; --text: #000; --muted: #333; --link: #284a57; --tab: #8cacbb; --bar: #dee7ec; --rule: #c8d3d8; --bg: #fff; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { margin: 0; color: var(--text); background: var(--bg); font: 18px/1.65 Verdana, "Lucida Grande", Lucida, "DejaVu Sans", Helvetica, Arial, sans-serif; }
+.wrap { max-width: 46rem; margin: 0 auto; padding: 0 1rem; }
+a { color: var(--link); text-decoration: underline; text-underline-offset: .15em; overflow-wrap: anywhere; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid #000; outline-offset: 2px; }
+img { max-width: 100%; height: auto; }
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 1rem; top: .5rem; background: #fff; padding: .5rem; z-index: 1; }
+.top { display: flex; align-items: center; gap: .9rem; padding: 1.25rem 0 .9rem; }
+.top > a { flex: none; line-height: 0; }
+.top img { width: 64px; height: 64px; max-width: none; }
+.brand { font-size: 1.6rem; font-weight: bold; color: var(--orange); text-decoration: none; }
+.brand:hover { text-decoration: underline; }
+.tag { margin: 0; color: var(--muted); font-size: .95rem; line-height: 1.4; }
+nav.tabs { border-bottom: 4px solid var(--bar); }
+nav.tabs ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .3rem; }
+nav.tabs li { margin: 0; }
+nav.tabs a { display: block; padding: .4rem .7rem; border: 1px solid var(--tab); border-bottom: none; text-decoration: none; font-size: .9rem; white-space: nowrap; }
+nav.tabs a:hover { background: var(--bar); text-decoration: underline; }
+nav.tabs a[aria-current] { background: var(--bar); color: #000; font-weight: bold; }
+.crumbs { font-size: .9rem; margin: 1rem 0 0; color: var(--muted); }
+.crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; }
+.crumbs li { margin: 0; }
+.crumbs li + li::before { content: "›"; padding: 0 .4em; }
+blockquote { margin: 0 0 1rem; padding: .25rem 0 .25rem 1rem; border-left: 4px solid var(--tab); }
+blockquote p:last-child { color: var(--muted); font-size: .9rem; }
+main { padding: 1.25rem 0 2rem; }
+h1 { color: var(--blue); font-size: 1.75rem; line-height: 1.25; margin: .25rem 0 1rem; }
+h2 { color: var(--teal); font-size: 1.3rem; line-height: 1.3; margin: 2rem 0 .5rem; }
+h3 { font-size: 1.08rem; line-height: 1.35; margin: 1.5rem 0 .4rem; }
+p, ul, ol, dl, table { margin: 0 0 1rem; }
+li { margin-bottom: .4rem; }
+.lead { font-size: 1.1rem; }
+.byline { color: var(--muted); font-size: .9rem; margin-top: -.5rem; }
+.updated { color: var(--muted); font-size: .9rem; margin-top: 2rem; }
+code { font-family: Consolas, Menlo, monospace; font-size: .92em; background: #f2f5f7; padding: 0 .2em; }
+pre { background: #f2f5f7; padding: .75rem; overflow-x: auto; font-size: .9rem; line-height: 1.45; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+th, td { border: 1px solid var(--rule); padding: .4rem .55rem; text-align: left; vertical-align: top; }
+th { background: var(--bar); }
+dt { font-weight: bold; margin-top: 1rem; }
+dd { margin: .2rem 0 0 0; }
+.portrait { float: right; width: 160px; height: 160px; margin: .25rem 0 1rem 1.25rem; border: 1px solid var(--rule); }
+.button { display: inline-block; margin: 0 .5rem .6rem 0; padding: .6rem 1.1rem; border: 2px solid var(--link); background: var(--bar); color: #000; font-weight: bold; text-decoration: none; }
+.button:hover { text-decoration: underline; }
+.related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.contact li { margin-bottom: .6rem; }
+.site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
+.site-footer p { margin: 0 0 .4rem; }
+@media (max-width: 34rem) {
+  body { font-size: 17px; }
+  .top img { width: 52px; height: 52px; }
+  nav.tabs a { padding: .45rem .55rem; }
+  h1 { font-size: 1.5rem; }
+  .portrait { width: 112px; height: 112px; margin-left: 1rem; }
+}
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://christopherabraham.com/#website",
+   "url": "https://christopherabraham.com/",
+   "name": "Christopher Abraham",
+   "inLanguage": "en-US",
+   "publisher": {
+    "@id": "https://christopherabraham.com/#person"
+   }
+  },
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://christopherabraham.com/#service-business",
+   "name": "Christopher Abraham, SEO consultant",
+   "url": "https://christopherabraham.com/",
+   "logo": "https://christopherabraham.com/logo.png",
+   "image": "https://christopherabraham.com/social-card.png",
+   "description": "Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.",
+   "founder": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "employee": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "slogan": "Senior SEO help, from the person who does the work",
+   "email": "cja@well.com",
+   "telephone": "+1-202-352-5051",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+   },
+   "location": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.86,
+    "longitude": -77.1
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Arlington, Virginia"
+    },
+    {
+     "@type": "City",
+     "name": "Alexandria, Virginia"
+    },
+    {
+     "@type": "City",
+     "name": "Washington, District of Columbia"
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Washington, DC metropolitan area"
+    },
+    {
+     "@type": "State",
+     "name": "Virginia",
+     "containedInPlace": {
+      "@type": "Country",
+      "name": "United States"
+     }
+    },
+    {
+     "@type": "Country",
+     "name": "United States",
+     "identifier": "US"
+    },
+    {
+     "@type": "Country",
+     "name": "Canada",
+     "identifier": "CA"
+    },
+    {
+     "@type": "Country",
+     "name": "United Kingdom",
+     "identifier": "GB"
+    },
+    {
+     "@type": "Country",
+     "name": "Ireland",
+     "identifier": "IE"
+    },
+    {
+     "@type": "Country",
+     "name": "Australia",
+     "identifier": "AU"
+    },
+    {
+     "@type": "Country",
+     "name": "New Zealand",
+     "identifier": "NZ"
+    },
+    "Worldwide"
+   ],
+   "knowsLanguage": "en",
+   "knowsAbout": [
+    "Search engine optimization",
+    "Technical SEO",
+    "SEO audits",
+    "Indexing",
+    "Google Search Console",
+    "Bing Webmaster Tools",
+    "JavaScript SEO",
+    "Core Web Vitals",
+    "Cloudflare",
+    "Schema markup",
+    "Structured data",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "AI search",
+    "llms.txt",
+    "301 redirects",
+    "Website migrations",
+    "WordPress",
+    "Yoast SEO",
+    "Rank Math",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Local SEO",
+    "Google Business Profile",
+    "Internal linking",
+    "Metadata"
+   ],
+   "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "value": 1
+   },
+   "contactPoint": [
+    {
+     "@type": "ContactPoint",
+     "contactType": "sales",
+     "email": "cja@well.com",
+     "telephone": "+1-202-352-5051",
+     "areaServed": [
+      "US",
+      "CA",
+      "GB",
+      "IE",
+      "AU",
+      "NZ"
+     ],
+     "availableLanguage": "English"
+    }
+   ],
+   "sameAs": [
+    "https://www.upwork.com/freelancers/~01e0480189d357dd43"
+   ],
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "SEO services by Christopher Abraham",
+    "itemListElement": [
+     {
+      "@type": "OfferCatalog",
+      "name": "Technical SEO",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-audit/#service",
+         "name": "Technical SEO audit",
+         "url": "https://christopherabraham.com/services/seo-audit/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/indexing/#service",
+         "name": "Indexing repair",
+         "url": "https://christopherabraham.com/services/indexing/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/javascript-seo/#service",
+         "name": "JavaScript and headless SEO",
+         "url": "https://christopherabraham.com/services/javascript-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/site-speed/#service",
+         "name": "Core Web Vitals and Cloudflare",
+         "url": "https://christopherabraham.com/services/site-speed/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/search-console/#service",
+         "name": "Search Console, Bing Webmaster Tools, and GA4",
+         "url": "https://christopherabraham.com/services/search-console/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/migrations/#service",
+         "name": "Site migrations and 301 redirects",
+         "url": "https://christopherabraham.com/services/migrations/"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "AI search, schema, and content",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ai-search/#service",
+         "name": "AI SEO, GEO, and AEO",
+         "url": "https://christopherabraham.com/services/ai-search/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/schema/#service",
+         "name": "Schema markup and entity SEO",
+         "url": "https://christopherabraham.com/services/schema/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/on-page-seo/#service",
+         "name": "On-page SEO",
+         "url": "https://christopherabraham.com/services/on-page-seo/"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "Platforms, local, and ongoing work",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/wordpress-seo/#service",
+         "name": "WordPress SEO",
+         "url": "https://christopherabraham.com/services/wordpress-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ecommerce-seo/#service",
+         "name": "Ecommerce SEO",
+         "url": "https://christopherabraham.com/services/ecommerce-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/local-seo/#service",
+         "name": "Local SEO and Google Business Profile",
+         "url": "https://christopherabraham.com/services/local-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-retainer/#service",
+         "name": "Monthly SEO retainer",
+         "url": "https://christopherabraham.com/services/seo-retainer/"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://christopherabraham.com/#person",
+   "name": "Christopher Abraham",
+   "givenName": "Christopher",
+   "familyName": "Abraham",
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://christopherabraham.com/christopher-abraham.jpg",
+    "width": 225,
+    "height": 225,
+    "caption": "Christopher Abraham, SEO consultant"
+   },
+   "url": "https://christopherabraham.com/",
+   "jobTitle": "SEO consultant",
+   "worksFor": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "description": "Christopher Abraham is an independent SEO consultant in Arlington, Virginia, building websites since 1994 and doing SEO since 1998.",
+   "alumniOf": [
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "The George Washington University",
+     "sameAs": "https://en.wikipedia.org/wiki/George_Washington_University"
+    },
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "University of East Anglia",
+     "sameAs": "https://en.wikipedia.org/wiki/University_of_East_Anglia"
+    }
+   ],
+   "award": [
+    "Top Rated on Upwork"
+   ],
+   "homeLocation": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "workLocation": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "nationality": {
+    "@type": "Country",
+    "name": "United States"
+   },
+   "knowsLanguage": "en",
+   "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SEO consultant",
+    "occupationLocation": {
+     "@type": "Country",
+     "name": "United States"
+    },
+    "skills": "Technical SEO, indexing, Google Search Console, schema, Core Web Vitals, migrations, AI search"
+   },
+   "knowsAbout": [
+    "Search engine optimization",
+    "Technical SEO",
+    "SEO audits",
+    "Indexing",
+    "Google Search Console",
+    "Bing Webmaster Tools",
+    "JavaScript SEO",
+    "Core Web Vitals",
+    "Cloudflare",
+    "Schema markup",
+    "Structured data",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "AI search",
+    "llms.txt",
+    "301 redirects",
+    "Website migrations",
+    "WordPress",
+    "Yoast SEO",
+    "Rank Math",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Local SEO",
+    "Google Business Profile",
+    "Internal linking",
+    "Metadata"
+   ],
+   "email": "cja@well.com",
+   "telephone": "+1-202-352-5051",
+   "sameAs": [
+    "https://www.upwork.com/freelancers/~01e0480189d357dd43"
+   ]
+  },
+  {
+   "@type": "Place",
+   "@id": "https://christopherabraham.com/#place",
+   "name": "Arlington, Virginia",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.86,
+    "longitude": -77.1
+   },
+   "containedInPlace": {
+    "@type": "AdministrativeArea",
+    "name": "Arlington County, Virginia",
+    "containedInPlace": {
+     "@type": "State",
+     "name": "Virginia"
+    }
+   }
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://christopherabraham.com/guides/glossary/#webpage",
+   "url": "https://christopherabraham.com/guides/glossary/",
+   "name": "SEO and AI search glossary: terms defined in plain English",
+   "description": "Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.",
+   "isPartOf": {
+    "@id": "https://christopherabraham.com/#website"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "SEO glossary"
+    },
+    {
+     "@type": "Thing",
+     "name": "AI search terms"
+    },
+    {
+     "@type": "Thing",
+     "name": "SEO definitions"
+    }
+   ],
+   "primaryImageOfPage": "https://christopherabraham.com/social-card.png",
+   "inLanguage": "en-US",
+   "dateModified": "2026-10-06",
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "keywords": "SEO glossary, AI search terms, SEO definitions",
+   "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+     "h1",
+     ".lead"
+    ]
+   },
+   "potentialAction": {
+    "@type": "ReadAction",
+    "target": "https://christopherabraham.com/guides/glossary/"
+   },
+   "breadcrumb": {
+    "@id": "https://christopherabraham.com/guides/glossary/#breadcrumb"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://christopherabraham.com/guides/glossary/#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://christopherabraham.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Guides",
+     "item": "https://christopherabraham.com/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Glossary",
+     "item": "https://christopherabraham.com/guides/glossary/"
+    }
+   ]
+  },
+  {
+   "@type": "TechArticle",
+   "@id": "https://christopherabraham.com/guides/glossary/#article",
+   "headline": "Glossary of SEO and AI search terms",
+   "description": "Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.",
+   "url": "https://christopherabraham.com/guides/glossary/",
+   "mainEntityOfPage": {
+    "@id": "https://christopherabraham.com/guides/glossary/#webpage"
+   },
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "publisher": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "datePublished": "2026-10-06",
+   "dateModified": "2026-10-06",
+   "image": "https://christopherabraham.com/social-card.png",
+   "inLanguage": "en-US",
+   "wordCount": 890
+  },
+  {
+   "@type": "DefinedTermSet",
+   "@id": "https://christopherabraham.com/guides/glossary/#terms",
+   "name": "Glossary of SEO and AI search terms",
+   "hasDefinedTerm": [
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#aeo",
+     "name": "AEO (answer engine optimization)",
+     "description": "Shaping pages so that systems which reply with an answer rather than a list of links, from featured snippets to voice assistants to chatbots, can lift a passage and credit it.",
+     "url": "https://christopherabraham.com/guides/glossary/#aeo",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#ai-overviews",
+     "name": "AI Overviews",
+     "description": "The generated summaries Google places on many results pages, citing the sites they borrowed from. AI Mode extends the idea into a back-and-forth conversation.",
+     "url": "https://christopherabraham.com/guides/glossary/#ai-overviews",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#alt-text",
+     "name": "Alt text",
+     "description": "Words attached to an image in the markup that describe it for people using screen readers and give crawlers a clue about the picture's subject.",
+     "url": "https://christopherabraham.com/guides/glossary/#alt-text",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#anchor-text",
+     "name": "Anchor text",
+     "description": "The visible, clickable wording of a hyperlink. When it names the destination's topic, both readers and crawlers know what they'll find.",
+     "url": "https://christopherabraham.com/guides/glossary/#anchor-text",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#bing-webmaster-tools",
+     "name": "Bing Webmaster Tools",
+     "description": "Microsoft's no-cost dashboard for owners, covering crawl, index, and keyword data from Bing, whose index also supplies Copilot and several other assistants.",
+     "url": "https://christopherabraham.com/guides/glossary/#bing-webmaster-tools",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#canonical",
+     "name": "Canonical tag",
+     "description": "A line in a page's head nominating which address should represent a set of duplicate or close copies. Google weighs it heavily but may overrule it.",
+     "url": "https://christopherabraham.com/guides/glossary/#canonical",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#cls",
+     "name": "CLS (Cumulative Layout Shift)",
+     "description": "The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.",
+     "url": "https://christopherabraham.com/guides/glossary/#cls",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#core-web-vitals",
+     "name": "Core Web Vitals",
+     "description": "Three experience scores Google tracks, LCP, INP, and CLS, taken from Chrome users over a rolling four weeks.",
+     "url": "https://christopherabraham.com/guides/glossary/#core-web-vitals",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#crawl-budget",
+     "name": "Crawl budget",
+     "description": "The practical ceiling on how much of a site a search engine will fetch in a given stretch of time. A concern for very large sites and those spawning endless URL variants.",
+     "url": "https://christopherabraham.com/guides/glossary/#crawl-budget",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#crawler",
+     "name": "Crawler",
+     "description": "Software that requests pages on its own to read them, such as Googlebot, Bingbot, GPTBot, or ClaudeBot. People also say bot or spider.",
+     "url": "https://christopherabraham.com/guides/glossary/#crawler",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#entity",
+     "name": "Entity",
+     "description": "A single real-world thing, whether a company, person, place, or product, that search engines and AI models recognize as one concept however a page happens to phrase its name.",
+     "url": "https://christopherabraham.com/guides/glossary/#entity",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#faceted-navigation",
+     "name": "Faceted navigation",
+     "description": "Category filters for attributes like color, size, or price. Left open to crawlers, the combinations can balloon into millions of addresses.",
+     "url": "https://christopherabraham.com/guides/glossary/#faceted-navigation",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#field-data",
+     "name": "Field data",
+     "description": "Speed and responsiveness figures gathered from actual visits, as opposed to one synthetic test run on a single machine.",
+     "url": "https://christopherabraham.com/guides/glossary/#field-data",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#geo",
+     "name": "GEO (generative engine optimization)",
+     "description": "Work aimed at how generative AI tools portray and cite a company or a page. In practice it overlaps almost entirely with AEO and AI SEO.",
+     "url": "https://christopherabraham.com/guides/glossary/#geo",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#google-business-profile",
+     "name": "Google Business Profile",
+     "description": "The free Google listing that puts a business on Maps and in local results, carrying its hours, categories, photos, and reviews.",
+     "url": "https://christopherabraham.com/guides/glossary/#google-business-profile",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#hreflang",
+     "name": "hreflang",
+     "description": "Markup that pairs each language or country edition of a page with the audience that should see it.",
+     "url": "https://christopherabraham.com/guides/glossary/#hreflang",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#index",
+     "name": "Index",
+     "description": "The store of pages a search engine considers eligible for results. Nothing ranks until it's in there.",
+     "url": "https://christopherabraham.com/guides/glossary/#index",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#indexnow",
+     "name": "IndexNow",
+     "description": "A shared ping system: when a page appears, changes, or disappears, the site tells Bing, Yandex, and other members right away instead of waiting for a recrawl.",
+     "url": "https://christopherabraham.com/guides/glossary/#indexnow",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#inp",
+     "name": "INP (Interaction to Next Paint)",
+     "description": "The Core Web Vital that times the gap between a tap, click, or keystroke and the screen's visible response. Aim for 200 ms or lower.",
+     "url": "https://christopherabraham.com/guides/glossary/#inp",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#json-ld",
+     "name": "JSON-LD",
+     "description": "Google's preferred way to write structured data: a JSON object inside its own script element, kept apart from what visitors see.",
+     "url": "https://christopherabraham.com/guides/glossary/#json-ld",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#lcp",
+     "name": "LCP (Largest Contentful Paint)",
+     "description": "The Core Web Vital that times how long the biggest image or text block in the opening view takes to finish drawing. Aim for 2.5 s or lower.",
+     "url": "https://christopherabraham.com/guides/glossary/#lcp",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#llms-txt",
+     "name": "llms.txt",
+     "description": "A suggested standard: a Markdown summary kept at the top level of a domain, pointing language models to the pages most worth reading.",
+     "url": "https://christopherabraham.com/guides/glossary/#llms-txt",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#noindex",
+     "name": "noindex",
+     "description": "A directive, set in a meta tag or a response header, asking search engines to keep a page out of results.",
+     "url": "https://christopherabraham.com/guides/glossary/#noindex",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#orphan-page",
+     "name": "Orphan page",
+     "description": "A page nothing else on the site links to. Only a sitemap entry or an outside link can lead anyone to it.",
+     "url": "https://christopherabraham.com/guides/glossary/#orphan-page",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#redirect-chain",
+     "name": "Redirect chain",
+     "description": "Several redirects strung together before the visitor arrives. Every extra step costs time and can weaken the signals passed along.",
+     "url": "https://christopherabraham.com/guides/glossary/#redirect-chain",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#rendering",
+     "name": "Rendering",
+     "description": "Running a page's scripts to produce what a browser finally shows. Anything that exists only after this step can escape crawlers that skip it.",
+     "url": "https://christopherabraham.com/guides/glossary/#rendering",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#rich-results",
+     "name": "Rich results",
+     "description": "Search listings dressed up with extra details drawn from structured data, like star ratings, prices, or breadcrumb trails.",
+     "url": "https://christopherabraham.com/guides/glossary/#rich-results",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#robots-txt",
+     "name": "robots.txt",
+     "description": "A plain text file at the top of a domain that tells bots which folders to stay out of. It governs fetching; keeping a page out of results takes noindex.",
+     "url": "https://christopherabraham.com/guides/glossary/#robots-txt",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#schema",
+     "name": "Schema markup",
+     "description": "Structured data written in the Schema.org vocabulary to spell out the people, organizations, places, and products on a page.",
+     "url": "https://christopherabraham.com/guides/glossary/#schema",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#search-console",
+     "name": "Search Console",
+     "description": "Google's free owner dashboard: clicks and impressions, index status, Core Web Vitals, and alerts about problems it detects.",
+     "url": "https://christopherabraham.com/guides/glossary/#search-console",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#soft-404",
+     "name": "Soft 404",
+     "description": "A URL that answers with a success code yet shows an empty or not-found page. Google files it with the real 404s.",
+     "url": "https://christopherabraham.com/guides/glossary/#soft-404",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#ssr",
+     "name": "Server-side rendering (SSR)",
+     "description": "Assembling the complete HTML on the server so a crawler gets every word in the first response, no scripts required.",
+     "url": "https://christopherabraham.com/guides/glossary/#ssr",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#three-oh-one",
+     "name": "301 redirect",
+     "description": "A permanent forwarding instruction from an old address to a new one, which passes nearly all of the old page's ranking signals along.",
+     "url": "https://christopherabraham.com/guides/glossary/#three-oh-one",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://christopherabraham.com/guides/glossary/#xml-sitemap",
+     "name": "XML sitemap",
+     "description": "A machine-readable list of the addresses a site wants crawled, often with the date each last changed.",
+     "url": "https://christopherabraham.com/guides/glossary/#xml-sitemap",
+     "inDefinedTermSet": {
+      "@id": "https://christopherabraham.com/guides/glossary/#terms"
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+<header class="top">
+  <a href="../../"><img src="../../logo-128.png" width="64" height="64" alt="Christopher Abraham home"></a>
+  <div>
+    <a class="brand" href="../../">Christopher Abraham</a>
+    <p class="tag">SEO consultant: technical SEO, indexing, schema, and AI search</p>
+  </div>
+</header>
+<nav class="tabs" aria-label="Main">
+  <ul>
+    <li><a href="../../">Home</a></li>
+    <li><a href="../../services/">Services</a></li>
+    <li><a href="../../guides/" aria-current="true">Guides</a></li>
+    <li><a href="../../case-studies/">Case Studies</a></li>
+    <li><a href="../../about/">About</a></li>
+    <li><a href="../../hire-me/">Hire Me</a></li>
+    <li><a href="../../contact/">Contact</a></li>
+  </ul>
+</nav>
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../../guides/">Guides</a></li><li aria-current="page">Glossary</li></ol></nav>
+<main id="main">
+<h1>Glossary of SEO and AI search terms</h1>
+<p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published October 6, 2026</p>
+<p class="lead">The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need.</p>
+
+<dl class="glossary">
+  <dt id="aeo">AEO (answer engine optimization)</dt>
+  <dd>Shaping pages so that systems which reply with an answer rather than a list of links, from featured snippets to voice assistants to chatbots, can lift a passage and credit it.</dd>
+  <dt id="ai-overviews">AI Overviews</dt>
+  <dd>The generated summaries Google places on many results pages, citing the sites they borrowed from. AI Mode extends the idea into a back-and-forth conversation.</dd>
+  <dt id="alt-text">Alt text</dt>
+  <dd>Words attached to an image in the markup that describe it for people using screen readers and give crawlers a clue about the picture's subject.</dd>
+  <dt id="anchor-text">Anchor text</dt>
+  <dd>The visible, clickable wording of a hyperlink. When it names the destination's topic, both readers and crawlers know what they'll find.</dd>
+  <dt id="bing-webmaster-tools">Bing Webmaster Tools</dt>
+  <dd>Microsoft's no-cost dashboard for owners, covering crawl, index, and keyword data from Bing, whose index also supplies Copilot and several other assistants.</dd>
+  <dt id="canonical">Canonical tag</dt>
+  <dd>A line in a page's head nominating which address should represent a set of duplicate or close copies. Google weighs it heavily but may overrule it.</dd>
+  <dt id="cls">CLS (Cumulative Layout Shift)</dt>
+  <dd>The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.</dd>
+  <dt id="core-web-vitals">Core Web Vitals</dt>
+  <dd>Three experience scores Google tracks, LCP, INP, and CLS, taken from Chrome users over a rolling four weeks.</dd>
+  <dt id="crawl-budget">Crawl budget</dt>
+  <dd>The practical ceiling on how much of a site a search engine will fetch in a given stretch of time. A concern for very large sites and those spawning endless URL variants.</dd>
+  <dt id="crawler">Crawler</dt>
+  <dd>Software that requests pages on its own to read them, such as Googlebot, Bingbot, GPTBot, or ClaudeBot. People also say bot or spider.</dd>
+  <dt id="entity">Entity</dt>
+  <dd>A single real-world thing, whether a company, person, place, or product, that search engines and AI models recognize as one concept however a page happens to phrase its name.</dd>
+  <dt id="faceted-navigation">Faceted navigation</dt>
+  <dd>Category filters for attributes like color, size, or price. Left open to crawlers, the combinations can balloon into millions of addresses.</dd>
+  <dt id="field-data">Field data</dt>
+  <dd>Speed and responsiveness figures gathered from actual visits, as opposed to one synthetic test run on a single machine.</dd>
+  <dt id="geo">GEO (generative engine optimization)</dt>
+  <dd>Work aimed at how generative AI tools portray and cite a company or a page. In practice it overlaps almost entirely with AEO and AI SEO.</dd>
+  <dt id="google-business-profile">Google Business Profile</dt>
+  <dd>The free Google listing that puts a business on Maps and in local results, carrying its hours, categories, photos, and reviews.</dd>
+  <dt id="hreflang">hreflang</dt>
+  <dd>Markup that pairs each language or country edition of a page with the audience that should see it.</dd>
+  <dt id="index">Index</dt>
+  <dd>The store of pages a search engine considers eligible for results. Nothing ranks until it's in there.</dd>
+  <dt id="indexnow">IndexNow</dt>
+  <dd>A shared ping system: when a page appears, changes, or disappears, the site tells Bing, Yandex, and other members right away instead of waiting for a recrawl.</dd>
+  <dt id="inp">INP (Interaction to Next Paint)</dt>
+  <dd>The Core Web Vital that times the gap between a tap, click, or keystroke and the screen's visible response. Aim for 200 ms or lower.</dd>
+  <dt id="json-ld">JSON-LD</dt>
+  <dd>Google's preferred way to write structured data: a JSON object inside its own script element, kept apart from what visitors see.</dd>
+  <dt id="lcp">LCP (Largest Contentful Paint)</dt>
+  <dd>The Core Web Vital that times how long the biggest image or text block in the opening view takes to finish drawing. Aim for 2.5 s or lower.</dd>
+  <dt id="llms-txt">llms.txt</dt>
+  <dd>A suggested standard: a Markdown summary kept at the top level of a domain, pointing language models to the pages most worth reading.</dd>
+  <dt id="noindex">noindex</dt>
+  <dd>A directive, set in a meta tag or a response header, asking search engines to keep a page out of results.</dd>
+  <dt id="orphan-page">Orphan page</dt>
+  <dd>A page nothing else on the site links to. Only a sitemap entry or an outside link can lead anyone to it.</dd>
+  <dt id="redirect-chain">Redirect chain</dt>
+  <dd>Several redirects strung together before the visitor arrives. Every extra step costs time and can weaken the signals passed along.</dd>
+  <dt id="rendering">Rendering</dt>
+  <dd>Running a page's scripts to produce what a browser finally shows. Anything that exists only after this step can escape crawlers that skip it.</dd>
+  <dt id="rich-results">Rich results</dt>
+  <dd>Search listings dressed up with extra details drawn from structured data, like star ratings, prices, or breadcrumb trails.</dd>
+  <dt id="robots-txt">robots.txt</dt>
+  <dd>A plain text file at the top of a domain that tells bots which folders to stay out of. It governs fetching; keeping a page out of results takes noindex.</dd>
+  <dt id="schema">Schema markup</dt>
+  <dd>Structured data written in the Schema.org vocabulary to spell out the people, organizations, places, and products on a page.</dd>
+  <dt id="search-console">Search Console</dt>
+  <dd>Google's free owner dashboard: clicks and impressions, index status, Core Web Vitals, and alerts about problems it detects.</dd>
+  <dt id="soft-404">Soft 404</dt>
+  <dd>A URL that answers with a success code yet shows an empty or not-found page. Google files it with the real 404s.</dd>
+  <dt id="ssr">Server-side rendering (SSR)</dt>
+  <dd>Assembling the complete HTML on the server so a crawler gets every word in the first response, no scripts required.</dd>
+  <dt id="three-oh-one">301 redirect</dt>
+  <dd>A permanent forwarding instruction from an old address to a new one, which passes nearly all of the old page's ranking signals along.</dd>
+  <dt id="xml-sitemap">XML sitemap</dt>
+  <dd>A machine-readable list of the addresses a site wants crawled, often with the date each last changed.</dd>
+</dl>
+
+<p>These terms are used throughout the <a href="../../guides/">guides</a> and <a href="../../services/">services</a> pages.</p>
+</main>
+<footer class="site-footer">
+  <p><a href="mailto:cja@well.com">cja@well.com</a> · <a href="tel:+12023525051">+1 202-352-5051</a> · <a href="https://www.upwork.com/freelancers/~01e0480189d357dd43">Hire me on Upwork</a></p>
+  <p>© 2026 Christopher Abraham, Arlington, Virginia · <a href="../../faq/">FAQ</a> · <a href="../../privacy/">Privacy</a> · <a href="../../sitemap/">Site map</a> · <a href="../../guides/glossary/">Glossary</a> · <a href="../../llms.txt">llms.txt</a> · <a href="../../rss.xml">RSS</a></p>
+</footer>
+</div>
+</body>
+</html>

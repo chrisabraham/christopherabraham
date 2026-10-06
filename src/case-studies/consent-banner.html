@@ -1,0 +1,35 @@
+name: Consent Banner
+title: Case study: a cookie consent tool that emptied every review
+description: A bilingual film review site was indexed by Bing but nearly invisible in Google. A consent platform blocked the script that displayed every article to bots.
+keywords: cookie consent SEO, consent mode indexing, WordPress indexing problem
+updated: 2026-10-06
+---
+<h1>Film review site: a consent tool that emptied every article for Google</h1>
+<p class="lead">A WordPress site publishing film reviews in English and Italian had a strange split: Bing indexed it normally, while Google left almost every review out. No crawl errors, no manual action, just a long list of pages marked "Crawled, currently not indexed."</p>
+
+<h2>The engagement</h2>
+<p>A paid diagnosis for the owner, followed by a call to walk through what I found.</p>
+
+<h2>The cause</h2>
+<p>Each review's text sat inside jQuery UI tabs. The site's cookie consent platform was set to prior-consent blocking, holding back scripts until a visitor clicked Accept. One of the scripts held back was the one that initialized the tabs.</p>
+<p>Googlebot never clicks Accept. It visits every page as a visitor who has declined, so it rendered each review with the layout intact and the tab panels empty. Bing processed the pages differently, which explained the gap between the two engines.</p>
+
+<h2>What made it worse</h2>
+<ul>
+  <li>97% of pages carried identical hardcoded H2 headings from the theme.</li>
+  <li>95% of internal links had no anchor text at all.</li>
+</ul>
+<p>Even the parts Google could see said almost nothing that distinguished one review from another.</p>
+
+<h2>Recommendations</h2>
+<ul>
+  <li>Exempt content-building scripts from consent blocking, or put the review text directly in the HTML. Consent rules belong on analytics and advertising scripts, never on the article.</li>
+  <li>Generate H2s from each review's own content.</li>
+  <li>Add descriptive anchor text to internal links.</li>
+</ul>
+
+<h2>How I confirmed it</h2>
+<p>Side-by-side browser sessions, one consenting and one not, showed the tabs empty in the second. The blocked script was identified in the consent platform's settings and matched to the exclusion pattern.</p>
+
+<h2>Why it matters</h2>
+<p>Consent platforms are installed by legal and marketing teams and almost never tested against crawlers. If your site uses one, load a page with consent declined and check what's left. See <a href="{root}guides/page-indexing-report/">reading the Page indexing report</a>.</p>

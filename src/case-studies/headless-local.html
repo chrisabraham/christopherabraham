@@ -1,0 +1,34 @@
+name: Headless Local Business
+title: Case study: SEO merged through GitHub on Sanity and Vercel
+description: A junk removal company on Sanity, Vercel, and GitHub had thin rendered HTML and duplicate metadata. Priorities set, a pull request merged, prerendering checked.
+keywords: Sanity SEO, Vercel SEO, prerendering, headless CMS SEO
+updated: 2026-10-06
+---
+<h1>Junk removal company on a headless stack: SEO through the repository</h1>
+<p class="lead">A local junk removal company had a modern website: content in Sanity, hosting on Vercel, code in GitHub. It also had every classic problem of a client-rendered site, and with no SEO plugin to configure, every fix had to go through code.</p>
+
+<h2>What I found</h2>
+<ul>
+  <li>Client-side rendering left crawlers with thin initial HTML.</li>
+  <li>Many pages shared the same title and meta description.</li>
+  <li>Heading levels were skipped or repeated.</li>
+  <li>Missing pages answered with a 200 status, producing soft 404s.</li>
+  <li>Canonical tags and structured data were missing or inconsistent.</li>
+</ul>
+
+<h2>Division of labor</h2>
+<p>The developer handled the infrastructure: prerendered HTML and deployment changes. I set the order of work, specified what each page type needed, reviewed the developer's changes, and checked the production site independently. For metadata, I made the code changes myself in a pull request that the developer reviewed and merged.</p>
+
+<h2>How the result was checked</h2>
+<ul>
+  <li>Crawls before and after prerendering, comparing extracted text.</li>
+  <li>Raw HTML fetched from production to confirm content was present without scripts.</li>
+  <li>Search Console's live URL test on representative pages.</li>
+  <li>A sitewide review of titles, descriptions, canonicals, and status codes.</li>
+</ul>
+
+<h2>Why this way of working helps</h2>
+<p>On headless sites, SEO lives in templates, routes, and build settings. Working through the team's pull requests means every SEO change has a commit, a reviewer, and an easy rollback, and nobody has to wonder who changed what.</p>
+
+<h2>Status</h2>
+<p>Core fixes are live and verified, with a final audit under way. See <a href="{root}services/javascript-seo/">JavaScript and headless SEO</a>.</p>

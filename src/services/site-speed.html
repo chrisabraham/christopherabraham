@@ -1,0 +1,47 @@
+name: Site Speed
+title: Core Web Vitals and Cloudflare tuning for faster websites
+description: Speed up a website for real visitors: Core Web Vitals diagnosis, image and script cleanup, page caching, and Cloudflare rules that still welcome crawlers.
+keywords: Core Web Vitals, site speed optimization, Cloudflare setup
+updated: 2026-10-06
+---
+<h1>Core Web Vitals and Cloudflare</h1>
+<p class="lead">Slow pages lose visitors before they lose rankings. I find what's making your pages slow for real people on real phones, fix what I can reach, and specify the rest, then confirm the improvement in field data, which is what Google uses.</p>
+
+<h2>The three numbers</h2>
+<ul>
+  <li><strong>Largest Contentful Paint (LCP)</strong>: how long the main content takes to appear. Good is under 2.5 seconds.</li>
+  <li><strong>Interaction to Next Paint (INP)</strong>: how quickly the page responds when someone taps or types. Good is under 200 milliseconds.</li>
+  <li><strong>Cumulative Layout Shift (CLS)</strong>: how much the layout jumps while loading. Good is under 0.1.</li>
+</ul>
+<p>Google judges each at the 75th percentile of real visits over 28 days, which is why a perfect lab score on your laptop can coexist with a failing report in Search Console. My <a href="{root}guides/core-web-vitals/">plain-English guide to Core Web Vitals</a> goes deeper.</p>
+
+<h2>Where the time goes</h2>
+<ul>
+  <li>Hero images served at desktop size to phones, without modern formats or proper sizing.</li>
+  <li>Render-blocking CSS and JavaScript from themes, page builders, and plugins nobody uses anymore.</li>
+  <li>Third-party tags: chat widgets, heatmaps, ad pixels, and tag managers loading tag managers.</li>
+  <li>Slow server response from shared hosting, uncached database queries, or a missing page cache.</li>
+  <li>Web fonts that block text or swap late and shift the layout.</li>
+  <li>Ads and embeds without reserved space.</li>
+</ul>
+
+<h2>Cloudflare, configured carefully</h2>
+<p>Cloudflare can make a site dramatically faster, and it can also block the crawlers you need. I set up caching rules, compression, image optimization, and HTTP/3, and I review security settings so that Googlebot, Bingbot, and the AI crawlers you want are allowed through. Bot-fight modes and "block AI crawlers" switches are decisions, and I make sure they're made on purpose. I also handle DNS moves to Cloudflare without disturbing email records.</p>
+
+<h2>How I work</h2>
+<ol>
+  <li>Pull field data from Search Console and the Chrome UX Report to find which templates fail, on which devices.</li>
+  <li>Profile representative pages in PageSpeed Insights and browser developer tools to find the specific resources at fault.</li>
+  <li>Fix what's within reach: image compression and sizing, caching plugins, script deferral, Cloudflare rules.</li>
+  <li>Write tickets for theme and code changes, with the measurement each should improve.</li>
+  <li>Watch field data over the following 28-day window and report what moved.</li>
+</ol>
+
+<h2>Speed and SEO together</h2>
+<p>Some speed tricks hurt search: lazy loading the main content, deferring scripts that build the page's text, or caching pages with the wrong canonical. I check every optimization against how crawlers see the page, so speed gains don't cost indexing.</p>
+
+<h2>What you receive</h2>
+<p>A short report naming each failing template, the resource responsible, and the expected gain from each fix, followed by a before-and-after comparison once the field data has caught up.</p>
+
+<h2>Platforms</h2>
+<p>WordPress with WP Rocket, LiteSpeed Cache, or W3 Total Cache; WooCommerce; Shopify themes; Magento; static sites; and Next.js. For WordPress specifics, see <a href="{root}services/wordpress-seo/">WordPress SEO</a>.</p>

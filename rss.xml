@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>SEO guides by Christopher Abraham</title>
+  <link>https://christopherabraham.com/guides/</link>
+  <description>Guides to indexing, audits, schema, redirects, site speed, and AI search</description>
+  <language>en-us</language>
+  <lastBuildDate>Tue, 06 Oct 2026 12:00:00 +0000</lastBuildDate>
+  <atom:link href="https://christopherabraham.com/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>How to read the Page indexing report in Search Console</title>
+    <link>https://christopherabraham.com/guides/page-indexing-report/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/page-indexing-report/</guid>
+    <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+    <description>A field guide to Search Console's Page indexing report: what each exclusion reason means, which ones need action, and how to find the template behind them.</description>
+  </item>
+  <item>
+    <title>The AI search readiness checklist</title>
+    <link>https://christopherabraham.com/guides/ai-search-checklist/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/ai-search-checklist/</guid>
+    <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+    <description>A practical checklist for AI search: crawler access, server rendered content, entity schema, answer shaped pages, llms.txt, outside evidence, and measurement.</description>
+  </item>
+  <item>
+    <title>What a technical SEO audit should give you</title>
+    <link>https://christopherabraham.com/guides/seo-audit-deliverables/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/seo-audit-deliverables/</guid>
+    <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+    <description>How to tell a useful technical SEO audit from a tool export: a clear question, evidence for each finding, a ranked plan, developer tickets, and a plain summary.</description>
+  </item>
+  <item>
+    <title>The schema markup a small business actually needs</title>
+    <link>https://christopherabraham.com/guides/small-business-schema/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/small-business-schema/</guid>
+    <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+    <description>Which schema types a small business needs, which to skip, and example structured data for local businesses, services, FAQs, and breadcrumbs, kept accurate.</description>
+  </item>
+  <item>
+    <title>Ten rules for 301 redirects that keep your rankings</title>
+    <link>https://christopherabraham.com/guides/redirect-rules/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/redirect-rules/</guid>
+    <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+    <description>Ten rules for 301 redirects in migrations and redesigns: map one to one, avoid chains, keep redirects for years, use 410 on purpose, and test in bulk.</description>
+  </item>
+  <item>
+    <title>Core Web Vitals in plain English</title>
+    <link>https://christopherabraham.com/guides/core-web-vitals/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/core-web-vitals/</guid>
+    <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+    <description>Core Web Vitals explained without jargon: what LCP, INP, and CLS measure, why lab scores differ from field data, the usual causes, and the fixes that work.</description>
+  </item>
+  <item>
+    <title>Glossary of SEO and AI search terms</title>
+    <link>https://christopherabraham.com/guides/glossary/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/glossary/</guid>
+    <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+    <description>Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.</description>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,60 @@
+name: Page Indexing Report
+title: How to read the Page indexing report in Search Console
+description: A field guide to Search Console's Page indexing report: what each exclusion reason means, which ones need action, and how to find the template behind them.
+type: guide
+published: 2026-10-06
+keywords: Page indexing report, Search Console indexing, crawled not indexed
+updated: 2026-10-06
+---
+<h1>How to read the Page indexing report in Search Console</h1>
+<p class="lead">The Page indexing report is the closest thing Google gives you to a list of its decisions about your site. It's also easy to misread. This guide explains what each reason means, which ones deserve worry, and how to get from a scary number to the one template causing it.</p>
+
+<h2>Where to find it</h2>
+<p>In Google Search Console, open <strong>Indexing</strong>, then <strong>Pages</strong>. The chart shows indexed and not-indexed URLs over time. Below it, the table "Why pages aren't indexed" lists each reason with a count. Click any reason to see example URLs and a trend for that reason alone.</p>
+
+<h2>Rule one: not indexed isn't always bad</h2>
+<p>A healthy site always has excluded URLs. Redirects, deliberate noindex tags, parameter variants pointing to a canonical, and old 404s all belong outside the index. The question is never "why is this number above zero?" It's "are any pages I need in the index sitting in this list?"</p>
+
+<h2>The reasons, sorted by how much attention they deserve</h2>
+<h3>Usually fine</h3>
+<ul>
+  <li><strong>Page with redirect.</strong> The URL redirects elsewhere. Expected after any migration. Check only that the targets are indexed.</li>
+  <li><strong>Alternate page with proper canonical tag.</strong> Google accepted your canonical. Fine when the canonical is the page you intended.</li>
+  <li><strong>Not found (404).</strong> Pages that no longer exist. Fine unless they have links or traffic, in which case they deserve a 301.</li>
+  <li><strong>Excluded by "noindex" tag.</strong> Fine if you put the noindex there on purpose. Scan the examples for pages you didn't mean to hide.</li>
+</ul>
+<h3>Worth a look</h3>
+<ul>
+  <li><strong>Blocked by robots.txt.</strong> Check that no important section or resource is disallowed. A blocked CSS or JavaScript file can break rendering for the pages that need it.</li>
+  <li><strong>Duplicate without user-selected canonical.</strong> Google found near-identical pages and you didn't say which one is primary. Add canonicals or consolidate.</li>
+  <li><strong>Duplicate, Google chose different canonical than user.</strong> Google disagreed with your canonical. Look for internal links, sitemaps, or redirects that point at the other version.</li>
+  <li><strong>Soft 404.</strong> The page returns a success code but looks empty: an out-of-stock product with no content, an empty search result, a client-side "not found" screen.</li>
+  <li><strong>Server error (5xx).</strong> Google got an error when it tried. Even occasional errors slow crawling. Check hosting, firewalls, and rate limits.</li>
+</ul>
+<h3>Usually where the real problem is</h3>
+<ul>
+  <li><strong>Crawled, currently not indexed.</strong> Google fetched the page and decided it wasn't worth indexing. On a site with good content, this is often a rendering problem: the text you see isn't in what Google receives.</li>
+  <li><strong>Discovered, currently not indexed.</strong> Google knows the URL exists but hasn't fetched it. Common on large sites with weak internal linking, slow servers, or floods of low-value URLs competing for crawl attention.</li>
+</ul>
+
+<h2>From a count to a cause</h2>
+<ol>
+  <li><strong>Export the examples.</strong> Each reason lists up to 1,000 example URLs. Export them.</li>
+  <li><strong>Group by pattern.</strong> Sort by URL path. You'll usually see the problem cluster in one directory or page type, such as /product/, /tag/, or /events/.</li>
+  <li><strong>Inspect a sample.</strong> Run URL Inspection on five or six from the cluster, then click <strong>Test live URL</strong> and <strong>View tested page</strong>. Compare the rendered HTML and screenshot with what a visitor sees.</li>
+  <li><strong>Check the content made it.</strong> Search the rendered HTML for a sentence from the page's main content. If it's missing, you've found a rendering problem.</li>
+  <li><strong>Check the signals.</strong> Canonical, robots meta tag, status code, and whether the page is in your sitemap and linked from other pages.</li>
+  <li><strong>Compare with a healthy page.</strong> Find a page of the same type that is indexed. Whatever differs between the two is your lead.</li>
+</ol>
+
+<h2>Make the report work for you</h2>
+<p>Submit separate XML sitemaps for each page type: products, categories, articles, locations. Then filter the Page indexing report by sitemap. Instead of one blended number, you see that 96% of articles are indexed and 41% of products are not, which tells you exactly where to look.</p>
+
+<h2>Mind the lag</h2>
+<p>The report updates days behind reality, and counts can move in steps rather than smoothly. After a fix, check individual URLs with the live test rather than waiting for the chart. When you've fixed a cluster, use <strong>Validate fix</strong> on that reason, and Google will recheck the examples and report progress.</p>
+
+<h2>Check Bing too</h2>
+<p>Bing Webmaster Tools has its own URL Inspection and index coverage reports. When Bing indexes pages Google won't, the difference often points straight at the cause, because the two crawlers render JavaScript and apply consent and robots rules differently.</p>
+
+<h2>When to get help</h2>
+<p>If the cause isn't obvious after a few inspections, or if important pages keep falling out, a structured diagnosis saves time. See <a href="{root}services/indexing/">indexing repair</a>, or a real example where <a href="{root}case-studies/consent-banner/">a consent tool caused the exclusions</a>.</p>

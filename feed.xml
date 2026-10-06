@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SEO guides by Christopher Abraham</title>
+  <subtitle>Guides to indexing, audits, schema, redirects, site speed, and AI search</subtitle>
+  <link href="https://christopherabraham.com/feed.xml" rel="self"/>
+  <link href="https://christopherabraham.com/guides/"/>
+  <id>https://christopherabraham.com/guides/</id>
+  <updated>2026-10-06T12:00:00Z</updated>
+  <author><name>Christopher Abraham</name><uri>https://christopherabraham.com/about/</uri></author>
+  <entry>
+    <title>How to read the Page indexing report in Search Console</title>
+    <link href="https://christopherabraham.com/guides/page-indexing-report/"/>
+    <id>https://christopherabraham.com/guides/page-indexing-report/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>A field guide to Search Console's Page indexing report: what each exclusion reason means, which ones need action, and how to find the template behind them.</summary>
+  </entry>
+  <entry>
+    <title>The AI search readiness checklist</title>
+    <link href="https://christopherabraham.com/guides/ai-search-checklist/"/>
+    <id>https://christopherabraham.com/guides/ai-search-checklist/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>A practical checklist for AI search: crawler access, server rendered content, entity schema, answer shaped pages, llms.txt, outside evidence, and measurement.</summary>
+  </entry>
+  <entry>
+    <title>What a technical SEO audit should give you</title>
+    <link href="https://christopherabraham.com/guides/seo-audit-deliverables/"/>
+    <id>https://christopherabraham.com/guides/seo-audit-deliverables/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>How to tell a useful technical SEO audit from a tool export: a clear question, evidence for each finding, a ranked plan, developer tickets, and a plain summary.</summary>
+  </entry>
+  <entry>
+    <title>The schema markup a small business actually needs</title>
+    <link href="https://christopherabraham.com/guides/small-business-schema/"/>
+    <id>https://christopherabraham.com/guides/small-business-schema/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>Which schema types a small business needs, which to skip, and example structured data for local businesses, services, FAQs, and breadcrumbs, kept accurate.</summary>
+  </entry>
+  <entry>
+    <title>Ten rules for 301 redirects that keep your rankings</title>
+    <link href="https://christopherabraham.com/guides/redirect-rules/"/>
+    <id>https://christopherabraham.com/guides/redirect-rules/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>Ten rules for 301 redirects in migrations and redesigns: map one to one, avoid chains, keep redirects for years, use 410 on purpose, and test in bulk.</summary>
+  </entry>
+  <entry>
+    <title>Core Web Vitals in plain English</title>
+    <link href="https://christopherabraham.com/guides/core-web-vitals/"/>
+    <id>https://christopherabraham.com/guides/core-web-vitals/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>Core Web Vitals explained without jargon: what LCP, INP, and CLS measure, why lab scores differ from field data, the usual causes, and the fixes that work.</summary>
+  </entry>
+  <entry>
+    <title>Glossary of SEO and AI search terms</title>
+    <link href="https://christopherabraham.com/guides/glossary/"/>
+    <id>https://christopherabraham.com/guides/glossary/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,40 @@
+name: Schema
+title: Schema markup and entity SEO with valid structured data
+description: Structured data that validates, matches the visible page, and connects your organization, people, products, and locations as entities for Google and AI.
+keywords: schema markup, JSON-LD, structured data, entity SEO
+updated: 2026-10-06
+---
+<h1>Schema markup and entity SEO</h1>
+<p class="lead">Structured data tells machines, in their own language, what a page is about: this is a business, here is its address, this is the product, this is its price, this person wrote the article. Done well, it earns rich results in Google and helps AI systems connect the facts. Done carelessly, it contradicts the page and gets ignored.</p>
+
+<h2>What I build</h2>
+<ul>
+  <li><strong>Organization and LocalBusiness</strong> with name, logo, address, phone, hours, service area, and sameAs links to the profiles that confirm the business.</li>
+  <li><strong>Person</strong> for founders, authors, and practitioners whose expertise matters to the page.</li>
+  <li><strong>Product and Offer</strong> with price, availability, brand, identifiers, and review data from the platform's real reviews.</li>
+  <li><strong>Service</strong> for service businesses, tied to the provider and the area served.</li>
+  <li><strong>Article, BlogPosting, and TechArticle</strong> with author, dates, and publisher.</li>
+  <li><strong>FAQPage, HowTo, and DefinedTermSet</strong> where the page truly contains questions, steps, or definitions.</li>
+  <li><strong>BreadcrumbList and WebSite</strong> to describe structure.</li>
+</ul>
+
+<h2>Entities, connected</h2>
+<p>The real value is in the connections. A multi-location business is one Organization with several locations as branches, each linking to its own page and its own Google Business Profile. An author is a Person who works for the Organization that publishes the article. I use stable @id identifiers so every page refers to the same entities in the same way, and search engines and AI systems assemble one consistent picture instead of several conflicting ones.</p>
+
+<h2>Common problems I fix</h2>
+<ul>
+  <li>Two Product blocks on one page, one from the theme and one from a plugin, each with different data.</li>
+  <li>Review stars marked up from reviews that aren't on the page.</li>
+  <li>A home page and its first location described as the same business.</li>
+  <li>FAQ markup on pages with no visible questions.</li>
+  <li>Schema hardcoded once and never updated as prices, hours, or addresses changed.</li>
+  <li>Plugins emitting conflicting graphs that no validator flags as errors but no search engine trusts.</li>
+</ul>
+
+<h2>How it's delivered</h2>
+<p>Depending on your platform, I install the JSON-LD myself through the theme, a plugin like Rank Math or Yoast, Shopify's theme files and metafields, or a pull request to your repository. Otherwise I hand your developer finished, validated code. Theme work happens on a duplicate theme or staging copy first. Every template is checked in the Rich Results Test and the Schema.org validator, and then watched in Search Console's enhancement reports.</p>
+
+<h2>What schema can and can't do</h2>
+<p>Structured data makes your facts unambiguous; it doesn't make a weak page strong. Google decides when to show rich results. The work pays off most when it matches strong, visible content, which is why I review the page and the markup together.</p>
+
+<p>Not sure which types you need? Read <a href="{root}guides/small-business-schema/">the schema markup a small business actually needs</a>, or see <a href="{root}case-studies/closet-locations/">entity markup for a brand with locations in several states</a>.</p>
