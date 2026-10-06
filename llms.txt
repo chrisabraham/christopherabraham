@@ -45,6 +45,7 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 - [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/index.md): What llms.txt is, who reads it, and how to write one: the format, the full text companion file, Markdown page copies, robots.txt rules, and common mistakes.
 - [Meta keywords in 2026: ignored, mostly harmless, used honestly](https://christopherabraham.com/guides/meta-keywords/index.md): Google ignores the meta keywords tag and Bing has called stuffing it a spam signal. Why some sites still use it, and how to write one that does no harm at all.
 - [Website accessibility without overlays](https://christopherabraham.com/guides/accessible-websites/index.md): Build accessibility into a small business website instead of bolting on an overlay: contrast, headings, links, images, keyboard use, forms, and testing it.
+- [The Lynx test: see your website the way crawlers and AI read it](https://christopherabraham.com/guides/lynx-test/index.md): Lynx, a text browser, shows what search engines and AI crawlers that skip JavaScript receive. How to install it, what to check, and online alternatives.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/index.md): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 
 ## About and working together
