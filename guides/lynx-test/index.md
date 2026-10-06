@@ -66,6 +66,8 @@ Hidden text, leftover placeholder copy, and duplicated blocks from a page builde
 3. Run the link list on the home page and confirm your important pages appear in it.
 4. Repeat after every redesign, theme update, or new plugin.
 
+**My rule of thumb: if someone can read your website in Lynx, you're way more than halfway there.**
+
 If the Lynx view of an important page is thin, that's the starting point for [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/) work. For the accessibility side of the same coin, see [website accessibility without overlays](https://christopherabraham.com/guides/accessible-websites/).
 
 ## Sources
