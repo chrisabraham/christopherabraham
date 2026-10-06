@@ -92,6 +92,9 @@ dd { margin: .2rem 0 0 0; }
 .portrait { float: right; width: 160px; height: 160px; margin: .25rem 0 1rem 1.25rem; border: 1px solid var(--rule); }
 .button { display: inline-block; margin: 0 .5rem .6rem 0; padding: .6rem 1.1rem; border: 2px solid var(--link); background: var(--bar); color: #000; font-weight: bold; text-decoration: none; }
 .button:hover { text-decoration: underline; }
+.author-box { display: flex; gap: 1rem; align-items: flex-start; border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: 1rem; font-size: .95rem; }
+.author-box img { width: 72px; height: 72px; flex: none; border: 1px solid var(--rule); }
+.author-box p { margin: 0; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
@@ -116,7 +119,8 @@ dd { margin: .2rem 0 0 0; }
    "inLanguage": "en-US",
    "publisher": {
     "@id": "https://christopherabraham.com/#person"
-   }
+   },
+   "publishingPrinciples": "https://christopherabraham.com/about/editorial-policy/"
   },
   {
    "@type": "ProfessionalService",
@@ -262,6 +266,7 @@ dd { margin: .2rem 0 0 0; }
     "https://www.upwork.com/freelancers/chrisjabraham",
     "https://www.linkedin.com/in/chrisabraham"
    ],
+   "publishingPrinciples": "https://christopherabraham.com/about/editorial-policy/",
    "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "SEO services by Christopher Abraham",
@@ -669,7 +674,24 @@ dd { margin: .2rem 0 0 0; }
    "dateModified": "2026-10-06",
    "image": "https://christopherabraham.com/social-card.png",
    "inLanguage": "en-US",
-   "wordCount": 776
+   "wordCount": 776,
+   "citation": [
+    {
+     "@type": "CreativeWork",
+     "name": "Google Search Central Blog: Google does not use the keywords meta tag in web ranking (2009)",
+     "url": "https://developers.google.com/search/blog/2009/09/google-does-not-use-keywords-meta-tag"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Bing Webmaster Guidelines",
+     "url": "https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Google Search Central: SEO Starter Guide",
+     "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+    }
+   ]
   }
  ]
 }
@@ -759,10 +781,20 @@ dd { margin: .2rem 0 0 0; }
 <p>Everything the keywords tag once promised now comes from elsewhere: the title tag, the H1, the opening paragraph, descriptive headings, internal anchor text, and structured data. If you have an hour for SEO, spend fifty-nine minutes on those and one on the keywords tag.</p>
 
 <p>For the elements that do carry weight, see <a href="../../services/on-page-seo/">on-page SEO</a>. Terms are defined in the <a href="../../guides/glossary/">glossary</a>.</p>
+<h2>Sources</h2>
+<ul class="sources">
+  <li><a href="https://developers.google.com/search/blog/2009/09/google-does-not-use-keywords-meta-tag">Google Search Central Blog: Google does not use the keywords meta tag in web ranking (2009)</a></li>
+  <li><a href="https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a">Bing Webmaster Guidelines</a></li>
+  <li><a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide">Google Search Central: SEO Starter Guide</a></li>
+</ul>
+<aside class="author-box" aria-label="About the author">
+  <img src="../../christopher-abraham.jpg" width="72" height="72" alt="">
+  <p><strong><a href="../../about/">Christopher Abraham</a></strong> is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. <a href="../../about/editorial-policy/">How these pages are written</a> · <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a> · <a href="https://www.upwork.com/freelancers/chrisjabraham">Upwork</a></p>
+</aside>
 </main>
 <footer class="site-footer">
   <p><a href="mailto:cja@well.com">cja@well.com</a> · <a href="tel:+12023525051">+1 202-352-5051</a> · <a href="https://calendly.com/chrisabraham/30">Book a call</a> · <a href="https://www.upwork.com/freelancers/chrisjabraham">Hire me on Upwork</a> · <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a></p>
-  <p>© 2026 Christopher Abraham, Arlington, Virginia · <a href="../../faq/">FAQ</a> · <a href="../../privacy/">Privacy</a> · <a href="../../sitemap/">Site map</a> · <a href="../../guides/glossary/">Glossary</a> · <a href="../../llms.txt">llms.txt</a> · <a href="../../rss.xml">RSS</a></p>
+  <p>© 2026 Christopher Abraham, Arlington, Virginia · <a href="../../faq/">FAQ</a> · <a href="../../about/editorial-policy/">How I write</a> · <a href="../../privacy/">Privacy</a> · <a href="../../sitemap/">Site map</a> · <a href="../../guides/glossary/">Glossary</a> · <a href="../../llms.txt">llms.txt</a> · <a href="../../rss.xml">RSS</a></p>
 </footer>
 </div>
 </body>

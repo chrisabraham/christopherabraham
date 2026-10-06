@@ -29,7 +29,7 @@ The complete list, including [schema markup](https://christopherabraham.com/serv
 
 ## My Upwork record
 
-Most clients find me as [Christopher A. on Upwork](https://www.upwork.com/freelancers/chrisjabraham), where every job, hour, and rating is on the record:
+Most clients find me as [Christopher A. on Upwork](https://www.upwork.com/freelancers/chrisjabraham), where every job, hour, and rating is on the record. Figures as of October 2026:
 | Job Success | 100% |
 | Badge | Top Rated |
 | Total earnings | $200K+ |

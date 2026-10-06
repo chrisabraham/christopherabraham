@@ -28,4 +28,6 @@ Every item had a test anyone could run, for example "event links appear in the s
 
 Good pages can still be invisible if nothing links to them in a way crawlers understand. Real links in real HTML remain the foundation of discovery. More under [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/).
 
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

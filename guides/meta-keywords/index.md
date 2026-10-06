@@ -69,3 +69,10 @@ On a site built with a generator, the simplest guardrail is a build check: fail 
 Everything the keywords tag once promised now comes from elsewhere: the title tag, the H1, the opening paragraph, descriptive headings, internal anchor text, and structured data. If you have an hour for SEO, spend fifty-nine minutes on those and one on the keywords tag.
 
 For the elements that do carry weight, see [on-page SEO](https://christopherabraham.com/services/on-page-seo/). Terms are defined in the [glossary](https://christopherabraham.com/guides/glossary/).
+
+## Sources
+- [Google Search Central Blog: Google does not use the keywords meta tag in web ranking (2009)](https://developers.google.com/search/blog/2009/09/google-does-not-use-keywords-meta-tag)
+- [Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a)
+- [Google Search Central: SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)

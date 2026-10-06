@@ -34,4 +34,6 @@ Careers questions are a clean test of AI visibility because the facts are specif
 
 Recommendations delivered; the engagement is paused. See [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/) or the [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/).
 
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

@@ -92,6 +92,9 @@ dd { margin: .2rem 0 0 0; }
 .portrait { float: right; width: 160px; height: 160px; margin: .25rem 0 1rem 1.25rem; border: 1px solid var(--rule); }
 .button { display: inline-block; margin: 0 .5rem .6rem 0; padding: .6rem 1.1rem; border: 2px solid var(--link); background: var(--bar); color: #000; font-weight: bold; text-decoration: none; }
 .button:hover { text-decoration: underline; }
+.author-box { display: flex; gap: 1rem; align-items: flex-start; border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: 1rem; font-size: .95rem; }
+.author-box img { width: 72px; height: 72px; flex: none; border: 1px solid var(--rule); }
+.author-box p { margin: 0; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
@@ -116,7 +119,8 @@ dd { margin: .2rem 0 0 0; }
    "inLanguage": "en-US",
    "publisher": {
     "@id": "https://christopherabraham.com/#person"
-   }
+   },
+   "publishingPrinciples": "https://christopherabraham.com/about/editorial-policy/"
   },
   {
    "@type": "ProfessionalService",
@@ -262,6 +266,7 @@ dd { margin: .2rem 0 0 0; }
     "https://www.upwork.com/freelancers/chrisjabraham",
     "https://www.linkedin.com/in/chrisabraham"
    ],
+   "publishingPrinciples": "https://christopherabraham.com/about/editorial-policy/",
    "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "SEO services by Christopher Abraham",
@@ -673,7 +678,19 @@ dd { margin: .2rem 0 0 0; }
    "dateModified": "2026-10-06",
    "image": "https://christopherabraham.com/social-card.png",
    "inLanguage": "en-US",
-   "wordCount": 713
+   "wordCount": 713,
+   "citation": [
+    {
+     "@type": "CreativeWork",
+     "name": "ICANN: gTLD lifecycle",
+     "url": "https://www.icann.org/resources/pages/gtld-lifecycle-2012-02-25-en"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Internet Archive: Wayback Machine",
+     "url": "https://web.archive.org/"
+    }
+   ]
   }
  ]
 }
@@ -753,10 +770,19 @@ dd { margin: .2rem 0 0 0; }
 <p>When a company closes or a partnership ends, decide who keeps each domain and for how long. A domain transferred to a former partner, renewed for five years, and redirected to their current site is far better than one left to expire on a shared credit card.</p>
 
 <p>Related: <a href="../../guides/third-party-proof/">using old sources as evidence of expertise</a> and <a href="../../guides/two-names-one-entity/">choosing sameAs links carefully</a>.</p>
+<h2>Sources</h2>
+<ul class="sources">
+  <li><a href="https://www.icann.org/resources/pages/gtld-lifecycle-2012-02-25-en">ICANN: gTLD lifecycle</a></li>
+  <li><a href="https://web.archive.org/">Internet Archive: Wayback Machine</a></li>
+</ul>
+<aside class="author-box" aria-label="About the author">
+  <img src="../../christopher-abraham.jpg" width="72" height="72" alt="">
+  <p><strong><a href="../../about/">Christopher Abraham</a></strong> is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. <a href="../../about/editorial-policy/">How these pages are written</a> · <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a> · <a href="https://www.upwork.com/freelancers/chrisjabraham">Upwork</a></p>
+</aside>
 </main>
 <footer class="site-footer">
   <p><a href="mailto:cja@well.com">cja@well.com</a> · <a href="tel:+12023525051">+1 202-352-5051</a> · <a href="https://calendly.com/chrisabraham/30">Book a call</a> · <a href="https://www.upwork.com/freelancers/chrisjabraham">Hire me on Upwork</a> · <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a></p>
-  <p>© 2026 Christopher Abraham, Arlington, Virginia · <a href="../../faq/">FAQ</a> · <a href="../../privacy/">Privacy</a> · <a href="../../sitemap/">Site map</a> · <a href="../../guides/glossary/">Glossary</a> · <a href="../../llms.txt">llms.txt</a> · <a href="../../rss.xml">RSS</a></p>
+  <p>© 2026 Christopher Abraham, Arlington, Virginia · <a href="../../faq/">FAQ</a> · <a href="../../about/editorial-policy/">How I write</a> · <a href="../../privacy/">Privacy</a> · <a href="../../sitemap/">Site map</a> · <a href="../../guides/glossary/">Glossary</a> · <a href="../../llms.txt">llms.txt</a> · <a href="../../rss.xml">RSS</a></p>
 </footer>
 </div>
 </body>

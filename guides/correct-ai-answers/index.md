@@ -59,3 +59,10 @@ Keep the same question set and run it once a month. Track which errors disappear
 - Don't flood the web with thin pages repeating your name. A few strong, consistent sources beat dozens of weak ones.
 
 For businesses, the full approach is under [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/). For people, the companion guides are [one person, two names](https://christopherabraham.com/guides/two-names-one-entity/) and [writing an About page AI trusts](https://christopherabraham.com/guides/about-page-ai/).
+
+## Sources
+- [Google Search Central: AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)
+- [Google Search Central: Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+- [Schema.org: Person](https://schema.org/Person)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)

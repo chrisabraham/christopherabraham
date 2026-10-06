@@ -64,6 +64,7 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 - [AI research company: accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/index.md): An AI research company hiring Bay Area engineers wanted ChatGPT and Perplexity to answer accurately about its jobs and pay. The audit findings and the plan.
 - [About Christopher Abraham](https://christopherabraham.com/about/index.md): Christopher Abraham is an SEO consultant in Arlington, VA, working on AI search, rendering forensics, and modern stacks, with SEO experience dating to 1998.
 - [Off the clock](https://christopherabraham.com/about/off-the-clock/index.md): The life behind the SEO work: a Honolulu boyhood, crew at GW and East Anglia, a trek in Kathmandu, a Masonic lodge chartered in 1805, and r/slowjogging.
+- [How these pages are written and checked](https://christopherabraham.com/about/editorial-policy/index.md): The standards behind this site: firsthand experience, primary sources, how AI tools are used and checked, anonymized clients, corrections, no paid placements.
 - [Contact Christopher Abraham](https://christopherabraham.com/contact/index.md): Email Christopher Abraham at cja@well.com or call or text him with your site address and the problem. Hire him on Upwork or directly for a scoped audit.
 - [Site map](https://christopherabraham.com/sitemap/index.md): Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.
 

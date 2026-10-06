@@ -31,4 +31,6 @@ During the same months, a burst of spam backlinks from cloud-hosting ranges arri
 
 Page weight and word count can disagree wildly. When a heavy page yields little text to a crawler, look for content waiting on an interaction that bots never perform. More on this pattern under [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/).
 
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

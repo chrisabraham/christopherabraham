@@ -50,3 +50,9 @@ An old domain carries history that a new one can't buy: years of backlinks from 
 When a company closes or a partnership ends, decide who keeps each domain and for how long. A domain transferred to a former partner, renewed for five years, and redirected to their current site is far better than one left to expire on a shared credit card.
 
 Related: [using old sources as evidence of expertise](https://christopherabraham.com/guides/third-party-proof/) and [choosing sameAs links carefully](https://christopherabraham.com/guides/two-names-one-entity/).
+
+## Sources
+- [ICANN: gTLD lifecycle](https://www.icann.org/resources/pages/gtld-lifecycle-2012-02-25-en)
+- [Internet Archive: Wayback Machine](https://web.archive.org/)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)

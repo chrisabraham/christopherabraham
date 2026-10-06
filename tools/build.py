@@ -60,7 +60,7 @@ FILES = ["index",
          "case-studies/event-app-links", "case-studies/headless-local", "case-studies/clinic-migration",
          "case-studies/shopify-cleanup", "case-studies/card-price-index", "case-studies/plugin-outage",
          "case-studies/closet-locations", "case-studies/profile-reinstated", "case-studies/recruiting-answers",
-         "about", "about/off-the-clock", "hire-me", "faq", "contact", "privacy"]
+         "about", "about/off-the-clock", "about/editorial-policy", "hire-me", "faq", "contact", "privacy"]
 SERVICE_GROUPS = [
     ("Technical SEO", ["services/seo-audit/", "services/indexing/", "services/javascript-seo/", "services/site-speed/",
                        "services/search-console/", "services/migrations/"]),
@@ -110,6 +110,8 @@ def finish(p):
     p["terms"] = re.findall(r'<dt id="([^"]+)">(.*?)</dt>\s*<dd>(.*?)</dd>', p["body"], re.S)
     p["words"] = len(text_of(p["body"]).split())
     p["kw"] = [k.strip() for k in p.get("keywords", "").split(",") if k.strip()]
+    # sources: "Label | https://url ;; Label | https://url" (primary documentation behind a guide's claims)
+    p["sources"] = [tuple(x.strip() for x in item.split(" | ", 1)) for item in p.get("sources", "").split(" ;; ") if " | " in item]
     return p
 
 
@@ -211,6 +213,9 @@ dd { margin: .2rem 0 0 0; }
 .portrait { float: right; width: 160px; height: 160px; margin: .25rem 0 1rem 1.25rem; border: 1px solid var(--rule); }
 .button { display: inline-block; margin: 0 .5rem .6rem 0; padding: .6rem 1.1rem; border: 2px solid var(--link); background: var(--bar); color: #000; font-weight: bold; text-decoration: none; }
 .button:hover { text-decoration: underline; }
+.author-box { display: flex; gap: 1rem; align-items: flex-start; border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: 1rem; font-size: .95rem; }
+.author-box img { width: 72px; height: 72px; flex: none; border: 1px solid var(--rule); }
+.author-box p { margin: 0; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
@@ -255,7 +260,7 @@ ORG = {
     "numberOfEmployees": {"@type": "QuantitativeValue", "value": 1},
     "contactPoint": [{"@type": "ContactPoint", "contactType": "sales", "email": EMAIL, "telephone": "+1-202-352-5051",
                       "areaServed": [c for _, _, c in ENGLISH_SPEAKING], "availableLanguage": "English"}],
-    "sameAs": [UPWORK, LINKEDIN],
+    "sameAs": [UPWORK, LINKEDIN], "publishingPrinciples": SITE + "about/editorial-policy/",
 }
 PERSON = {
     "@type": "Person", "@id": AUTHOR, "name": "Christopher Abraham", "givenName": "Christopher",
@@ -291,7 +296,8 @@ PERSON = {
     "sameAs": PROFILES,
 }
 WEBSITE = {"@type": "WebSite", "@id": SITE + "#website", "url": SITE, "name": "Christopher Abraham",
-           "inLanguage": "en-US", "publisher": {"@id": AUTHOR}}
+           "inLanguage": "en-US", "publisher": {"@id": AUTHOR},
+           "publishingPrinciples": SITE + "about/editorial-policy/"}
 
 
 ORG["hasOfferCatalog"] = {"@type": "OfferCatalog", "name": "SEO services by Christopher Abraham", "itemListElement": [
@@ -345,7 +351,8 @@ def schema(p):
                       "description": p["description"], "url": p["url"], "mainEntityOfPage": {"@id": p["url"] + "#webpage"},
                       "author": {"@id": AUTHOR}, "publisher": {"@id": SITE + "#service-business"},
                       "datePublished": p.get("published", p["updated"]), "dateModified": p["updated"],
-                      "image": SITE + "social-card.png", "inLanguage": "en-US", "wordCount": p["words"]})
+                      "image": SITE + "social-card.png", "inLanguage": "en-US", "wordCount": p["words"],
+                      "citation": [{"@type": "CreativeWork", "name": label, "url": u} for label, u in p["sources"]]})
     if page_type == "CollectionPage":
         kids = [q for q in pages if q["tab"] == p["path"] and q is not p]
         page["mainEntity"] = {"@type": "ItemList", "itemListElement": [
@@ -370,7 +377,16 @@ def body_html(p):
         by = (f'<p class="byline">By <a href="{r}about/">Christopher Abraham</a> · Published {nice(p.get("published", p["updated"]))}'
               + (f' · Updated {nice(p["updated"])}' if p.get("published", p["updated"]) != p["updated"] else "") + "</p>")
         body = re.sub(r"(</h1>)", r"\1\n" + by, body, count=1)
-    else:
+    if p["sources"]:
+        body += ('\n<h2>Sources</h2>\n<ul class="sources">\n'
+                 + "".join(f'  <li><a href="{u}">{html.escape(label)}</a></li>\n' for label, u in p["sources"]) + "</ul>")
+    if p["kind"] in ("guide", "case"):
+        body += f"""
+<aside class="author-box" aria-label="About the author">
+  <img src="{r}christopher-abraham.jpg" width="72" height="72" alt="">
+  <p><strong><a href="{r}about/">Christopher Abraham</a></strong> is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. <a href="{r}about/editorial-policy/">How these pages are written</a> · <a href="{LINKEDIN}">LinkedIn</a> · <a href="{UPWORK}">Upwork</a></p>
+</aside>"""
+    if p["kind"] != "guide":
         body += f'\n<p class="updated">Updated {nice(p["updated"])}</p>'
     # Header cells announce their row or column to screen readers.
     body = re.sub(r"<thead>(.*?)</thead>", lambda m: m.group(0).replace("<th>", '<th scope="col">'), body, flags=re.S)
@@ -473,7 +489,7 @@ def render(p):
 </main>
 <footer class="site-footer">
   <p><a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="tel:{TEL}">{PHONE}</a> · <a href="{CALENDLY}">Book a call</a> · <a href="{UPWORK}">Hire me on Upwork</a> · <a href="{LINKEDIN}">LinkedIn</a></p>
-  <p>© {TODAY[:4]} Christopher Abraham, Arlington, Virginia · <a href="{r}faq/">FAQ</a> · <a href="{r}privacy/">Privacy</a> · <a href="{r}sitemap/">Site map</a> · <a href="{r}guides/glossary/">Glossary</a> · <a href="{r}llms.txt">llms.txt</a> · <a href="{r}rss.xml">RSS</a></p>
+  <p>© {TODAY[:4]} Christopher Abraham, Arlington, Virginia · <a href="{r}faq/">FAQ</a> · <a href="{r}about/editorial-policy/">How I write</a> · <a href="{r}privacy/">Privacy</a> · <a href="{r}sitemap/">Site map</a> · <a href="{r}guides/glossary/">Glossary</a> · <a href="{r}llms.txt">llms.txt</a> · <a href="{r}rss.xml">RSS</a></p>
 </footer>
 </div>
 </body>
