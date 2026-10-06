@@ -13,7 +13,9 @@ Updated: 2026-10-06
 
 I'm Christopher Abraham, an independent SEO consultant. When traffic drops, pages vanish from Google, or AI assistants describe your business wrong, I find the cause, write the fix, and make sure it lands. You work with me directly, from the first audit to the last verification crawl.
 
-I started building websites in 1994 and doing search engine optimization in 1998, back when the job meant hand-editing meta tags for AltaVista. Today the work spans Google, Bing, and the answer engines layered on top of them: ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google's AI Overviews. The fundamentals carry across all of them. Pages that load fast, render cleanly, say plainly what they are about, and carry accurate structured data get crawled, indexed, ranked, and quoted.
+This year's work looks like this: GEO and AEO audits that test what ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google's AI Overviews say about a business; rendering forensics on React, Next.js, and Hyvä builds; SEO changes merged through GitHub on headless stacks; and AI-assisted analysis of a site's code before a migration. The fundamentals carry across every engine. Pages that load fast, render cleanly, say plainly what they are about, and carry accurate structured data get crawled, indexed, ranked, and quoted.
+
+I know those fundamentals cold because I've been practicing them a long time: I built my first websites in 1994 and started doing search engine optimization in 1998, back when the job meant hand-editing meta tags for AltaVista. Every shift since then, from links to mobile to AI answers, has been one more thing to learn, and learning it is my favorite part of the job.
 
 ## Problems I solve
 - **Traffic dropped and nobody knows why.** A [technical SEO audit](https://christopherabraham.com/services/seo-audit/) that ends with a cause, evidence, and a ranked list of fixes.
@@ -1816,6 +1818,13 @@ Updated: 2026-10-06
 
 I'm an independent SEO consultant in Arlington, Virginia, across the Potomac from Washington, DC. I've called the DC area home since college, and I take clients across the United States, Canada, the United Kingdom, Ireland, Australia, and New Zealand.
 
+## What I'm working on now
+- Testing how AI assistants describe businesses and people, and fixing what they get wrong.
+- Finding content that JavaScript frameworks hide from crawlers, on React, Next.js, Alpine.js, and headless builds.
+- Making SEO changes through pull requests on GitHub, alongside the developers who own the code.
+- Reading repositories with AI coding assistants to plan migrations before anything breaks.
+- Writing structured data that ties organizations, locations, and people together as entities.
+
 ## The short version
 | Full name | Christopher James Abraham |
 | Role | Independent SEO consultant |
@@ -2119,7 +2128,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [SEO services](https://christopherabraham.com/services/): Thirteen SEO services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
 - [SEO guides](https://christopherabraham.com/guides/): Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
 - [Case studies](https://christopherabraham.com/case-studies/): Anonymized SEO case studies: hidden product content, consent tools blocking Google, React apps, migrations, programmatic indexing, schema, and local listings.
-- [About Christopher Abraham](https://christopherabraham.com/about/): Christopher Abraham has built websites since 1994 and practiced SEO since 1998, with agency years at New Media Strategies and Edelman before going independent.
+- [About Christopher Abraham](https://christopherabraham.com/about/): Christopher Abraham is an SEO consultant in Arlington, VA, working on AI search, rendering forensics, and modern stacks, with SEO experience dating to 1998.
 - [Hire me](https://christopherabraham.com/hire-me/): How an SEO engagement runs: a scoped, paid audit first, then hourly or fixed price work through Upwork or direct, with every finding and decision in writing.
 - [Frequently asked questions](https://christopherabraham.com/faq/): Practical answers about an SEO engagement: what access is needed, how long audits take, time zones, Upwork contracts, invoicing, reports, and confidentiality.
 - [Contact Christopher Abraham](https://christopherabraham.com/contact/): Email Christopher Abraham at cja@well.com or call or text him with your site address and the problem. Hire him on Upwork or directly for a scoped audit.
