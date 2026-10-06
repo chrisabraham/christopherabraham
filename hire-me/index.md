@@ -7,7 +7,7 @@
 Every engagement follows the same arc: a defined question, a paid audit that answers it, a ranked plan, the fixes, and a verification pass once the fixes are live. Here's how each step works and what I need from you.
 
 ## Two ways to hire me
-- **On Upwork.** Most of my clients hire me through [my Upwork profile](https://www.upwork.com/freelancers/~01e0480189d357dd43). Upwork handles contracts, time tracking, invoicing, and payment protection for both sides. Hourly and fixed-price contracts both work there.
+- **On Upwork.** Most of my clients hire me through [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham). Upwork handles contracts, time tracking, invoicing, and payment protection for both sides. Hourly and fixed-price contracts both work there.
 - **Directly.** Email [cja@well.com](mailto:cja@well.com) and I'll send a written scope and an invoice. Direct engagements are paid in advance: the audit up front, retainers at the start of each month.
 
 ## The process
@@ -30,7 +30,7 @@ I keep every engagement in writing: Upwork messages, email, or your project tool
 
 ## Pricing
 
-I quote hourly or a fixed price per milestone, whichever fits the job. Audits are scoped and priced before they start, so you know the cost of an answer before you commit to it. Retainers cover a set number of hours each month with a monthly report. My current hourly rate is on [my Upwork profile](https://www.upwork.com/freelancers/~01e0480189d357dd43).
+I quote hourly or a fixed price per milestone, whichever fits the job. Audits are scoped and priced before they start, so you know the cost of an answer before you commit to it. Retainers cover a set number of hours each month with a monthly report. My current hourly rate is on [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## What I sell, and what nobody can
 

@@ -67,7 +67,7 @@ SERVICE_GROUPS = [
 ]
 # The island rule: this site stands alone. None of these may appear in any source or generated page.
 ISLAND = [r"\bChris\b", r"Chris'", r"(?i)gerris", r"(?i)chrisabraham\.com", r"(?i)gerriscorp", r"(?i)calendly",
-          r"(?i)chrisjabraham", r"(?i)hillmole", r"(?i)hill mole", r"(?i)meritus"]
+          r"(?i)hillmole", r"(?i)hill mole", r"(?i)meritus"]
 # The sibling site, built from the same kind of material. Pages here may not borrow its phrasing.
 SIBLING = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "gerris")
 MIN_WORDS = {"guide": 700, "service": 450, "case": 250, "page": 250}
@@ -78,7 +78,7 @@ AUTHOR = SITE + "#person"
 EMAIL = "cja@well.com"
 PHONE = "+1 202-352-5051"
 TEL = "+12023525051"
-UPWORK = "https://www.upwork.com/freelancers/~01e0480189d357dd43"
+UPWORK = "https://www.upwork.com/freelancers/chrisjabraham"
 
 
 def text_of(fragment):

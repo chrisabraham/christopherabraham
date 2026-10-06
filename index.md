@@ -27,7 +27,7 @@ The complete list, including [schema markup](https://christopherabraham.com/serv
 
 ## My Upwork record
 
-Most clients find me as [Christopher A. on Upwork](https://www.upwork.com/freelancers/~01e0480189d357dd43), where every job, hour, and rating is on the record:
+Most clients find me as [Christopher A. on Upwork](https://www.upwork.com/freelancers/chrisjabraham), where every job, hour, and rating is on the record:
 | Job Success | 100% |
 | Badge | Top Rated |
 | Total earnings | $200K+ |
@@ -69,6 +69,6 @@ More in [guides](https://christopherabraham.com/guides/), plus a [glossary of SE
 
 Send me your site's address and a sentence about what's wrong. Email [cja@well.com](mailto:cja@well.com), or call or text [+1 202-352-5051](tel:+12023525051).
 
-[Contact me](https://christopherabraham.com/contact/) [Hire me on Upwork](https://www.upwork.com/freelancers/~01e0480189d357dd43)
+[Contact me](https://christopherabraham.com/contact/) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 6, 2026
