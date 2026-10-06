@@ -210,7 +210,7 @@ dd { margin: .2rem 0 0 0; }
   body { font-size: 17px; }
   .top img { width: 52px; height: 52px; }
   nav.tabs a { padding: .45rem .55rem; }
-  h1 { font-size: 1.35rem; }
+  h1 { font-size: 1.25rem; }
   .portrait { width: 112px; height: 112px; margin-left: 1rem; }
 }
 """.strip()
