@@ -1,10 +1,17 @@
-> Christopher Abraham has built websites since 1994 and practiced SEO since 1998, with agency years at New Media Strategies and Edelman before going independent.
+> Christopher Abraham is an SEO consultant in Arlington, VA, working on AI search, rendering forensics, and modern stacks, with SEO experience dating to 1998.
 >
 > Source: https://christopherabraham.com/about/ · Updated 2026-10-06 · By Christopher Abraham
 
 # About Christopher Abraham
 
 I'm an independent SEO consultant in Arlington, Virginia, across the Potomac from Washington, DC. I've called the DC area home since college, and I take clients across the United States, Canada, the United Kingdom, Ireland, Australia, and New Zealand.
+
+## What I'm working on now
+- Testing how AI assistants describe businesses and people, and fixing what they get wrong.
+- Finding content that JavaScript frameworks hide from crawlers, on React, Next.js, Alpine.js, and headless builds.
+- Making SEO changes through pull requests on GitHub, alongside the developers who own the code.
+- Reading repositories with AI coding assistants to plan migrations before anything breaks.
+- Writing structured data that ties organizations, locations, and people together as entities.
 
 ## The short version
 | Full name | Christopher James Abraham |
