@@ -1,0 +1,51 @@
+name: Accessibility Dividends
+title: Accessibility as SEO: the search, AI, and trust dividends
+description: WCAG fixes pay off more than once: alt text, headings, link text, labels, and captions lift rankings, AI answers, agent browsing, and trust, and cut legal risk.
+keywords: accessibility and SEO, WCAG SEO benefits, accessibility for AI agents, E-E-A-T accessibility
+sources: W3C: Web Content Accessibility Guidelines (WCAG) 2.2 | https://www.w3.org/TR/WCAG22/ ;; Google Search Central: Image SEO best practices | https://developers.google.com/search/docs/appearance/google-images ;; Google Search Central: Creating helpful, reliable, people-first content | https://developers.google.com/search/docs/fundamentals/creating-helpful-content ;; ADA.gov: Guidance on web accessibility and the ADA | https://www.ada.gov/resources/web-guidance/ ;; WebAIM: The WebAIM Million, 2026 report | https://webaim.org/projects/million/
+type: guide
+published: 2026-10-06
+updated: 2026-10-06
+---
+<h1>Accessibility as SEO: the search, AI, and trust dividends</h1>
+<p class="lead">Accessibility work is usually sold on two grounds: it's the decent thing to do, and it keeps you out of court. Both are true. What nobody mentions is the third reason: nearly every accessibility fix is also a search fix, an AI-readability fix, and a trust signal. You get paid three times for doing it once, and the work is mostly small, unglamorous fixes.</p>
+
+<h2>Why the overlap is so large</h2>
+<p>A screen reader, Googlebot, and a language model have the same handicap: none of them can look at your page. They all rely on the structure underneath it, the text, the headings, the labels, and the names given to links and buttons. When a site is built so a blind visitor can use it, it's automatically built so machines can understand it.</p>
+
+<h2>Practice by practice</h2>
+<table>
+<thead><tr><th>Accessibility practice</th><th>Search payoff</th><th>AI payoff</th></tr></thead>
+<tbody>
+<tr><td>Alt text on meaningful images</td><td>Google uses it to understand and rank images</td><td>Assistants can describe and cite what an image shows</td></tr>
+<tr><td>One H1 and headings in order</td><td>Clear topic and section structure for ranking passages</td><td>Clean sections that can be lifted as answers</td></tr>
+<tr><td>Descriptive link text</td><td>Anchor text tells Google what the target page covers</td><td>Models learn how your pages relate to each other</td></tr>
+<tr><td>Page language declared</td><td>Helps serve the right audience and language</td><td>Removes guesswork about the text's language</td></tr>
+<tr><td>Captions and transcripts</td><td>Turns video and audio into indexable text</td><td>Gives assistants words to quote from your media</td></tr>
+<tr><td>Real header, nav, main, and footer elements</td><td>Separates main content from boilerplate</td><td>Retrieval systems find the part worth reading</td></tr>
+<tr><td>Labeled forms and named buttons</td><td>Better usability, fewer abandoned forms</td><td>Browsing agents can find and operate them</td></tr>
+<tr><td>Data in real tables with header cells</td><td>Eligible for clearer snippets</td><td>Facts extracted accurately, row by column</td></tr>
+<tr><td>Readable contrast and type size</td><td>Longer visits, fewer quick exits</td><td>Nothing directly, but people stay to read the page an assistant cited</td></tr>
+</tbody>
+</table>
+
+<h2>The agent era makes this urgent</h2>
+<p>AI agents that browse on someone's behalf, booking appointments, filling in quote forms, comparing prices, increasingly navigate pages through the same accessibility information screen readers use: the names, roles, and labels of each control. An unlabeled "submit" icon is as much a dead end for an agent as for a blind customer. Google's Lighthouse audit added an Agentic Browsing category for exactly this reason. An accessible site is a site agents can transact on.</p>
+
+<h2>How it feeds E-E-A-T</h2>
+<p>Trust is the center of Google's quality framework, and much of what quality raters judge is whether a site looks maintained, careful, and honest. A site where every image is described, every form works with a keyboard, and every link says where it goes reads as a business that pays attention. It's the same impression it leaves on customers, which is the point.</p>
+
+<h2>And yes, the legal side</h2>
+<p>The Justice Department considers business websites covered by the ADA, and nearly all claims cite WCAG level AA failures that free scanners detect. WebAIM's 2026 scan of the most-visited million home pages found that six error types, led by low contrast and missing alt text, made up 96% of what it caught. Fix those first and you've removed most of the easy targets. The basics and how to test them are in <a href="{root}guides/accessible-websites/">website accessibility without overlays</a>.</p>
+
+<h2>Where to start for the biggest double payoff</h2>
+<ol>
+  <li><strong>Headings.</strong> Rewrite generic headings into descriptive ones; it helps screen reader navigation, rankings, and AI extraction at once.</li>
+  <li><strong>Link text.</strong> Replace every "read more" with a phrase naming the destination.</li>
+  <li><strong>Alt text on your top pages.</strong> Product, service, and team photos first.</li>
+  <li><strong>Forms.</strong> Label every field and name every icon button, so customers and agents can both get through checkout or a quote request.</li>
+  <li><strong>Transcripts.</strong> Add them to your most-watched videos; it's the cheapest new indexable content you'll ever publish.</li>
+</ol>
+
+<h2>Measure both sides</h2>
+<p>Run Lighthouse or PageSpeed Insights and watch the Accessibility, SEO, and Agentic Browsing scores together; they tend to rise as a group. Then look at the page in a text browser, as described in <a href="{root}guides/lynx-test/">the Lynx test</a>, to see what screen readers and crawlers both receive. No badge, no overlay, no announcement needed. Just a better site.</p>
