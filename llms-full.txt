@@ -1916,9 +1916,15 @@ I also taught one of the first accredited distance-learning high school courses,
 
 I published a memetic lexicon at Memes.org, founded MemeSpace, a free online community of more than 800 "memebers" that The New York Times once wrote about, and ran a little online publication called The Caffeinated Magazine. These days I moderate a Reddit community for slow joggers. Watching ideas spread and mutate online for as long as I have turns out to be excellent training for understanding how AI assistants pick up and repeat what they read.
 
+>
+
+"I met Chris … as part of my work for Arts Wire, an online network for artists. He was an early adopter of the Web and has context."
+
+Beth Kanter, master trainer and nonprofit innovator in networks, learning, and social media
+
 ## Hyperfiction
 
-Before anybody called it electronic literature, I was writing it. I took part in My Name is Scibe, a collaborative hyperfiction by Judy Malloy, one of the true pioneers of the form. Then I led my own: 8: A Collaborative Hypernarrative Fiction, or Collabor8, written over a full year by a group of friends, with each story broken into linked fragments that readers wandered through in their own order. Pieces of it survive as found poems with titles like "Chocolate City," "TheBUS," and "Blue plastic kayaks." Afterward I started Coelaboration, a site for collaborative writing with a featured writer each month and the beginnings of yet another hypernarrative.
+Before anybody called it electronic literature, I was writing it. I was one of the eight writers of Name is Scibe, a collaborative hyperfiction that Judy Malloy, one of the true pioneers of the form, began on Arts Wire and The WELL. [Her own history of the piece](http://www.judymalloy.net/intaud.html) lists the writers, and [The WELL still hosts the original text](https://people.well.com/user/jmalloy/scibe/), my entries included. Then I led my own: 8: A Collaborative Hypernarrative Fiction, or Collabor8, written over a full year by a group of friends, with each story broken into linked fragments that readers wandered through in their own order. Pieces of it survive as found poems with titles like "Chocolate City," "TheBUS," and "Blue plastic kayaks." Afterward I started Coelaboration, a site for collaborative writing with a featured writer each month and the beginnings of yet another hypernarrative.
 
 It turns out that writing stories as a web of linked pages is decent preparation for a career thinking about how crawlers move through websites.
 
