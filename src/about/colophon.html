@@ -1,0 +1,28 @@
+name: Colophon
+title: Colophon: the design, build, and hosting of this website
+description: How christopherabraham.com is made: hand written HTML, a small Python generator with strict checks, GitHub Pages, Cloudflare, accessible colors, Lynx testing.
+keywords: colophon, static website, GitHub Pages, accessible design
+updated: 2026-10-06
+---
+<h1>Colophon</h1>
+<p class="lead">Book publishers end a fine edition with a colophon, a few lines on the type, the paper, and the press. Here are the equivalent details for this website.</p>
+
+<h2>Look and type</h2>
+<p>The design is deliberately plain, after the classic Plone theme: a row of tabs, a breadcrumb trail, and generous black text in Verdana. The CA monogram and the social sharing card were drawn in code with Python and the Pillow imaging library. My name is set in burnt orange, page titles in blue, and section headings in teal, and every one of those colors clears the 4.5 to 1 contrast ratio that accessibility guidelines ask for.</p>
+
+<h2>Under the hood</h2>
+<p>Each page is a hand-written HTML file with a few lines of metadata on top. A short Python script assembles them into the finished site and generates the extras machines look for: a Markdown version of every page, llms.txt and llms-full.txt, an XML sitemap and a readable one, RSS and Atom feeds, and structured data describing every page, every guide's sources, and me. The script also refuses to publish anything that breaks the house rules, from title length to repeated sentences to any slip into the royal plural.</p>
+<p>I built it in a terminal session from a ThinkPad X220, connected over SSH to a DigitalOcean droplet, with Claude Code, Anthropic's AI coding assistant, as my collaborator. I decided what the site would say and checked every fact in it; the assistant handled much of the typing. The rules for that collaboration are spelled out in <a href="{root}about/editorial-policy/">how these pages are written</a>.</p>
+
+<h2>Where it lives</h2>
+<p>GitHub Pages serves the static files over HTTPS, and Cloudflare handles DNS. Nothing on the server runs code, which keeps the site fast and leaves nothing to hack. Google Analytics is the one script on the page, with advertising features off and no analytics cookies for visitors in Europe and the UK; the <a href="{root}privacy/">privacy page</a> has the details.</p>
+
+<h2>How it's checked</h2>
+<ul>
+  <li>Every page read in Lynx, the text-only browser, as described in <a href="{root}guides/lynx-test/">the Lynx test</a>.</li>
+  <li>PageSpeed Insights scores of 100 for performance, accessibility, best practices, and SEO on mobile and desktop, plus 3 of 3 for agentic browsing, as of October 6, 2026.</li>
+  <li>Search Console and Bing Webmaster Tools, with IndexNow notifying Bing whenever a page changes.</li>
+</ul>
+
+<h2>Code and launch</h2>
+<p>The source is public at <a href="https://github.com/chrisabraham/christopherabraham">github.com/chrisabraham/christopherabraham</a>. The site launched on October 6, 2026, the same day the first line of it was written.</p>

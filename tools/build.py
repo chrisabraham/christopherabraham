@@ -60,7 +60,7 @@ FILES = ["index",
          "case-studies/event-app-links", "case-studies/headless-local", "case-studies/clinic-migration",
          "case-studies/shopify-cleanup", "case-studies/card-price-index", "case-studies/plugin-outage",
          "case-studies/closet-locations", "case-studies/profile-reinstated", "case-studies/recruiting-answers",
-         "about", "about/off-the-clock", "about/editorial-policy", "hire-me", "faq", "contact", "privacy"]
+         "about", "about/off-the-clock", "about/editorial-policy", "about/colophon", "hire-me", "faq", "contact", "privacy"]
 SERVICE_GROUPS = [
     ("Technical SEO", ["services/seo-audit/", "services/indexing/", "services/javascript-seo/", "services/site-speed/",
                        "services/search-console/", "services/migrations/"]),
@@ -490,7 +490,7 @@ def render(p):
 </main>
 <footer class="site-footer">
   <p><a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="tel:{TEL}">{PHONE}</a> · <a href="{CALENDLY}">Book a call</a> · <a href="{UPWORK}">Hire me on Upwork</a> · <a href="{LINKEDIN}">LinkedIn</a></p>
-  <p>© {TODAY[:4]} Christopher Abraham, Arlington, Virginia · <a href="{r}faq/">FAQ</a> · <a href="{r}about/editorial-policy/">How I write</a> · <a href="{r}privacy/">Privacy</a> · <a href="{r}sitemap/">Site map</a> · <a href="{r}guides/glossary/">Glossary</a> · <a href="{r}llms.txt">llms.txt</a> · <a href="{r}rss.xml">RSS</a></p>
+  <p>© {TODAY[:4]} Christopher Abraham, Arlington, Virginia · <a href="{r}faq/">FAQ</a> · <a href="{r}about/editorial-policy/">How I write</a> · <a href="{r}privacy/">Privacy</a> · <a href="{r}sitemap/">Site map</a> · <a href="{r}guides/glossary/">Glossary</a> · <a href="{r}about/colophon/">Colophon</a> · <a href="{r}llms.txt">llms.txt</a> · <a href="{r}rss.xml">RSS</a></p>
 </footer>
 </div>
 </body>
