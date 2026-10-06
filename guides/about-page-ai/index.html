@@ -1,0 +1,762 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to write an About page that search engines and AI trust</title>
+<meta name="description" content="A recipe for an About page that Google and AI assistants quote correctly: current work first, verifiable facts, outside sources, schema, and no guesswork.">
+<meta name="keywords" content="about page SEO, personal bio for AI search, professional about page">
+<link rel="canonical" href="https://christopherabraham.com/guides/about-page-ai/">
+<meta name="author" content="Christopher Abraham">
+<link rel="icon" href="../../logo.png" type="image/png">
+<link rel="apple-touch-icon" href="../../logo.png">
+<link rel="manifest" href="../../manifest.webmanifest">
+<link rel="alternate" type="text/markdown" title="This page as Markdown" href="index.md">
+<link rel="alternate" type="application/rss+xml" title="SEO guides (RSS)" href="../../rss.xml">
+<link rel="alternate" type="application/atom+xml" title="SEO guides by Christopher Abraham" href="../../feed.xml">
+<link rel="alternate" type="text/plain" title="llms.txt" href="../../llms.txt">
+<link rel="sitemap" type="application/xml" href="../../sitemap.xml">
+<meta name="theme-color" content="#ffffff">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MR3P3612MM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'granted'});
+  gtag('consent', 'default', {analytics_storage: 'denied', region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"]});
+  gtag('js', new Date());
+  gtag('config', 'G-MR3P3612MM');
+</script>
+<meta property="og:site_name" content="Christopher Abraham">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to write an About page that search engines and AI trust">
+<meta property="og:description" content="A recipe for an About page that Google and AI assistants quote correctly: current work first, verifiable facts, outside sources, schema, and no guesswork.">
+<meta property="og:url" content="https://christopherabraham.com/guides/about-page-ai/">
+<meta property="og:image" content="https://christopherabraham.com/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Christopher Abraham, SEO consultant: technical SEO, indexing, schema, and AI search">
+<meta property="article:published_time" content="2026-10-06">
+<meta property="article:modified_time" content="2026-10-06">
+<meta property="article:author" content="https://christopherabraham.com/about/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to write an About page that search engines and AI trust">
+<meta name="twitter:description" content="A recipe for an About page that Google and AI assistants quote correctly: current work first, verifiable facts, outside sources, schema, and no guesswork.">
+<meta name="twitter:image" content="https://christopherabraham.com/social-card.png">
+<style>
+:root { --orange: #f3b842; --blue: #1d9cd5; --teal: #3ca0b0; --text: #000; --muted: #333; --link: #284a57; --tab: #8cacbb; --bar: #dee7ec; --rule: #c8d3d8; --bg: #fff; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { margin: 0; color: var(--text); background: var(--bg); font: 18px/1.65 Verdana, "Lucida Grande", Lucida, "DejaVu Sans", Helvetica, Arial, sans-serif; }
+.wrap { max-width: 46rem; margin: 0 auto; padding: 0 1rem; }
+a { color: var(--link); text-decoration: underline; text-underline-offset: .15em; overflow-wrap: anywhere; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid #000; outline-offset: 2px; }
+img { max-width: 100%; height: auto; }
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 1rem; top: .5rem; background: #fff; padding: .5rem; z-index: 1; }
+.top { display: flex; align-items: center; gap: .9rem; padding: 1.25rem 0 .9rem; }
+.top > a { flex: none; line-height: 0; }
+.top img { width: 64px; height: 64px; max-width: none; }
+.brand { font-size: 1.6rem; font-weight: bold; color: var(--orange); text-decoration: none; }
+.brand:hover { text-decoration: underline; }
+.tag { margin: 0; color: var(--muted); font-size: .95rem; line-height: 1.4; }
+nav.tabs { border-bottom: 4px solid var(--bar); }
+nav.tabs ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .3rem; }
+nav.tabs li { margin: 0; }
+nav.tabs a { display: block; padding: .4rem .7rem; border: 1px solid var(--tab); border-bottom: none; text-decoration: none; font-size: .9rem; white-space: nowrap; }
+nav.tabs a:hover { background: var(--bar); text-decoration: underline; }
+nav.tabs a[aria-current] { background: var(--bar); color: #000; font-weight: bold; }
+.crumbs { font-size: .9rem; margin: 1rem 0 0; color: var(--muted); }
+.crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; }
+.crumbs li { margin: 0; }
+.crumbs li + li::before { content: "›"; padding: 0 .4em; }
+blockquote { margin: 0 0 1rem; padding: .25rem 0 .25rem 1rem; border-left: 4px solid var(--tab); }
+blockquote p:last-child { color: var(--muted); font-size: .9rem; }
+main { padding: 1.25rem 0 2rem; }
+h1 { color: var(--blue); font-size: 1.4rem; line-height: 1.25; margin: .25rem 0 1rem; }
+h2 { color: var(--teal); font-size: 1.3rem; line-height: 1.3; margin: 2rem 0 .5rem; }
+h3 { font-size: 1.08rem; line-height: 1.35; margin: 1.5rem 0 .4rem; }
+p, ul, ol, dl, table { margin: 0 0 1rem; }
+li { margin-bottom: .4rem; }
+.lead { font-size: 1.1rem; }
+.byline { color: var(--muted); font-size: .9rem; margin-top: -.5rem; }
+.updated { color: var(--muted); font-size: .9rem; margin-top: 2rem; }
+code { font-family: Consolas, Menlo, monospace; font-size: .92em; background: #f2f5f7; padding: 0 .2em; }
+pre { background: #f2f5f7; padding: .75rem; overflow-x: auto; font-size: .9rem; line-height: 1.45; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+th, td { border: 1px solid var(--rule); padding: .4rem .55rem; text-align: left; vertical-align: top; }
+th { background: var(--bar); }
+dt { font-weight: bold; margin-top: 1rem; }
+dd { margin: .2rem 0 0 0; }
+.portrait { float: right; width: 160px; height: 160px; margin: .25rem 0 1rem 1.25rem; border: 1px solid var(--rule); }
+.button { display: inline-block; margin: 0 .5rem .6rem 0; padding: .6rem 1.1rem; border: 2px solid var(--link); background: var(--bar); color: #000; font-weight: bold; text-decoration: none; }
+.button:hover { text-decoration: underline; }
+.related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.contact li { margin-bottom: .6rem; }
+.site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
+.site-footer p { margin: 0 0 .4rem; }
+@media (max-width: 34rem) {
+  body { font-size: 17px; }
+  .top img { width: 52px; height: 52px; }
+  nav.tabs a { padding: .45rem .55rem; }
+  h1 { font-size: 1.25rem; }
+  .portrait { width: 112px; height: 112px; margin-left: 1rem; }
+}
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://christopherabraham.com/#website",
+   "url": "https://christopherabraham.com/",
+   "name": "Christopher Abraham",
+   "inLanguage": "en-US",
+   "publisher": {
+    "@id": "https://christopherabraham.com/#person"
+   }
+  },
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://christopherabraham.com/#service-business",
+   "name": "Christopher Abraham, SEO consultant",
+   "url": "https://christopherabraham.com/",
+   "logo": "https://christopherabraham.com/logo.png",
+   "image": "https://christopherabraham.com/social-card.png",
+   "description": "Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.",
+   "founder": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "employee": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "slogan": "Senior SEO help, from the person who does the work",
+   "email": "cja@well.com",
+   "telephone": "+1-202-352-5051",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+   },
+   "location": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.86,
+    "longitude": -77.1
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Arlington, Virginia"
+    },
+    {
+     "@type": "City",
+     "name": "Alexandria, Virginia"
+    },
+    {
+     "@type": "City",
+     "name": "Washington, District of Columbia"
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Washington, DC metropolitan area"
+    },
+    {
+     "@type": "State",
+     "name": "Virginia",
+     "containedInPlace": {
+      "@type": "Country",
+      "name": "United States"
+     }
+    },
+    {
+     "@type": "Country",
+     "name": "United States",
+     "identifier": "US"
+    },
+    {
+     "@type": "Country",
+     "name": "Canada",
+     "identifier": "CA"
+    },
+    {
+     "@type": "Country",
+     "name": "United Kingdom",
+     "identifier": "GB"
+    },
+    {
+     "@type": "Country",
+     "name": "Ireland",
+     "identifier": "IE"
+    },
+    {
+     "@type": "Country",
+     "name": "Australia",
+     "identifier": "AU"
+    },
+    {
+     "@type": "Country",
+     "name": "New Zealand",
+     "identifier": "NZ"
+    },
+    "Worldwide"
+   ],
+   "knowsLanguage": "en",
+   "knowsAbout": [
+    "Search engine optimization",
+    "Technical SEO",
+    "SEO audits",
+    "Indexing",
+    "Google Search Console",
+    "Bing Webmaster Tools",
+    "JavaScript SEO",
+    "Core Web Vitals",
+    "Cloudflare",
+    "Schema markup",
+    "Structured data",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "AI search",
+    "llms.txt",
+    "301 redirects",
+    "Website migrations",
+    "WordPress",
+    "Yoast SEO",
+    "Rank Math",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Local SEO",
+    "Google Business Profile",
+    "Internal linking",
+    "Metadata"
+   ],
+   "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "value": 1
+   },
+   "contactPoint": [
+    {
+     "@type": "ContactPoint",
+     "contactType": "sales",
+     "email": "cja@well.com",
+     "telephone": "+1-202-352-5051",
+     "areaServed": [
+      "US",
+      "CA",
+      "GB",
+      "IE",
+      "AU",
+      "NZ"
+     ],
+     "availableLanguage": "English"
+    }
+   ],
+   "sameAs": [
+    "https://www.upwork.com/freelancers/chrisjabraham",
+    "https://www.linkedin.com/in/chrisabraham"
+   ],
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "SEO services by Christopher Abraham",
+    "itemListElement": [
+     {
+      "@type": "OfferCatalog",
+      "name": "Technical SEO",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-audit/#service",
+         "name": "Technical SEO audit",
+         "url": "https://christopherabraham.com/services/seo-audit/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/indexing/#service",
+         "name": "Indexing repair",
+         "url": "https://christopherabraham.com/services/indexing/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/javascript-seo/#service",
+         "name": "JavaScript and headless SEO",
+         "url": "https://christopherabraham.com/services/javascript-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/site-speed/#service",
+         "name": "Core Web Vitals and Cloudflare",
+         "url": "https://christopherabraham.com/services/site-speed/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/search-console/#service",
+         "name": "Search Console, Bing Webmaster Tools, and GA4",
+         "url": "https://christopherabraham.com/services/search-console/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/migrations/#service",
+         "name": "Site migrations and 301 redirects",
+         "url": "https://christopherabraham.com/services/migrations/"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "AI search, schema, and content",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ai-search/#service",
+         "name": "AI SEO, GEO, and AEO",
+         "url": "https://christopherabraham.com/services/ai-search/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/schema/#service",
+         "name": "Schema markup and entity SEO",
+         "url": "https://christopherabraham.com/services/schema/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/on-page-seo/#service",
+         "name": "On-page SEO",
+         "url": "https://christopherabraham.com/services/on-page-seo/"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "Platforms, local, and ongoing work",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/wordpress-seo/#service",
+         "name": "WordPress SEO",
+         "url": "https://christopherabraham.com/services/wordpress-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ecommerce-seo/#service",
+         "name": "Ecommerce SEO",
+         "url": "https://christopherabraham.com/services/ecommerce-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/local-seo/#service",
+         "name": "Local SEO and Google Business Profile",
+         "url": "https://christopherabraham.com/services/local-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-retainer/#service",
+         "name": "Monthly SEO retainer",
+         "url": "https://christopherabraham.com/services/seo-retainer/"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://christopherabraham.com/#person",
+   "name": "Christopher Abraham",
+   "givenName": "Christopher",
+   "additionalName": "James",
+   "familyName": "Abraham",
+   "alternateName": [
+    "Christopher James Abraham",
+    "Chris Abraham"
+   ],
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://christopherabraham.com/christopher-abraham.jpg",
+    "width": 225,
+    "height": 225,
+    "caption": "Christopher Abraham, SEO consultant"
+   },
+   "url": "https://christopherabraham.com/",
+   "jobTitle": "SEO consultant",
+   "worksFor": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "description": "Christopher Abraham is an independent SEO consultant in Arlington, Virginia, building websites since 1994 and doing SEO since 1998.",
+   "alumniOf": [
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "The George Washington University",
+     "sameAs": "https://en.wikipedia.org/wiki/George_Washington_University"
+    },
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "University of East Anglia",
+     "sameAs": "https://en.wikipedia.org/wiki/University_of_East_Anglia"
+    },
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "University of Hawaiʻi at Mānoa"
+    },
+    {
+     "@type": "EducationalOrganization",
+     "name": "Goethe-Institut"
+    },
+    {
+     "@type": "HighSchool",
+     "name": "Saint Louis School, Honolulu"
+    },
+    {
+     "@type": "ElementarySchool",
+     "name": "Aliamanu Elementary School, Honolulu"
+    }
+   ],
+   "affiliation": [
+    {
+     "@type": "Organization",
+     "name": "Meritus Media",
+     "url": "https://meritusmedia.com/",
+     "description": "Digital PR and marketing agency"
+    },
+    {
+     "@type": "Organization",
+     "name": "Stainless Communications",
+     "url": "https://stainlesscommunications.com/",
+     "description": "Senior-led brand, PR, web, and growth firm"
+    }
+   ],
+   "memberOf": [
+    {
+     "@type": "Organization",
+     "name": "Naval Lodge No. 4, F.A.A.M.",
+     "description": "Masonic lodge on Capitol Hill, Washington, DC, chartered 1805"
+    },
+    {
+     "@type": "Organization",
+     "name": "Scottish Rite of Freemasonry, Southern Jurisdiction",
+     "description": "32nd degree"
+    },
+    {
+     "@type": "Organization",
+     "name": "Phi Kappa Psi, DC Alpha chapter",
+     "description": "Founding father"
+    },
+    {
+     "@type": "Organization",
+     "name": "The WELL",
+     "url": "https://www.well.com/"
+    }
+   ],
+   "award": [
+    "Top Rated on Upwork"
+   ],
+   "homeLocation": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "workLocation": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "nationality": {
+    "@type": "Country",
+    "name": "United States"
+   },
+   "knowsLanguage": "en",
+   "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SEO consultant",
+    "occupationLocation": {
+     "@type": "Country",
+     "name": "United States"
+    },
+    "skills": "Technical SEO, indexing, Google Search Console, schema, Core Web Vitals, migrations, AI search"
+   },
+   "knowsAbout": [
+    "Search engine optimization",
+    "Technical SEO",
+    "SEO audits",
+    "Indexing",
+    "Google Search Console",
+    "Bing Webmaster Tools",
+    "JavaScript SEO",
+    "Core Web Vitals",
+    "Cloudflare",
+    "Schema markup",
+    "Structured data",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "AI search",
+    "llms.txt",
+    "301 redirects",
+    "Website migrations",
+    "WordPress",
+    "Yoast SEO",
+    "Rank Math",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Local SEO",
+    "Google Business Profile",
+    "Internal linking",
+    "Metadata"
+   ],
+   "email": "cja@well.com",
+   "telephone": "+1-202-352-5051",
+   "sameAs": [
+    "https://www.upwork.com/freelancers/chrisjabraham",
+    "https://www.linkedin.com/in/chrisabraham",
+    "https://biznology.com/author/chrisabraham/",
+    "https://www.huffpost.com/author/chris-abraham",
+    "https://muckrack.com/chrisabraham",
+    "https://rheingold.com/Associates/team_abraham.html",
+    "https://www.reddit.com/user/chrisabraham/"
+   ]
+  },
+  {
+   "@type": "Place",
+   "@id": "https://christopherabraham.com/#place",
+   "name": "Arlington, Virginia",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.86,
+    "longitude": -77.1
+   },
+   "containedInPlace": {
+    "@type": "AdministrativeArea",
+    "name": "Arlington County, Virginia",
+    "containedInPlace": {
+     "@type": "State",
+     "name": "Virginia"
+    }
+   }
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://christopherabraham.com/guides/about-page-ai/#webpage",
+   "url": "https://christopherabraham.com/guides/about-page-ai/",
+   "name": "How to write an About page that search engines and AI trust",
+   "description": "A recipe for an About page that Google and AI assistants quote correctly: current work first, verifiable facts, outside sources, schema, and no guesswork.",
+   "isPartOf": {
+    "@id": "https://christopherabraham.com/#website"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "about page SEO"
+    },
+    {
+     "@type": "Thing",
+     "name": "personal bio for AI search"
+    },
+    {
+     "@type": "Thing",
+     "name": "professional about page"
+    }
+   ],
+   "primaryImageOfPage": "https://christopherabraham.com/social-card.png",
+   "inLanguage": "en-US",
+   "dateModified": "2026-10-06",
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "keywords": "about page SEO, personal bio for AI search, professional about page",
+   "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+     "h1",
+     ".lead"
+    ]
+   },
+   "potentialAction": {
+    "@type": "ReadAction",
+    "target": "https://christopherabraham.com/guides/about-page-ai/"
+   },
+   "breadcrumb": {
+    "@id": "https://christopherabraham.com/guides/about-page-ai/#breadcrumb"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://christopherabraham.com/guides/about-page-ai/#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://christopherabraham.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Guides",
+     "item": "https://christopherabraham.com/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "About Page for AI",
+     "item": "https://christopherabraham.com/guides/about-page-ai/"
+    }
+   ]
+  },
+  {
+   "@type": "TechArticle",
+   "@id": "https://christopherabraham.com/guides/about-page-ai/#article",
+   "headline": "How to write an About page that search engines and AI trust",
+   "description": "A recipe for an About page that Google and AI assistants quote correctly: current work first, verifiable facts, outside sources, schema, and no guesswork.",
+   "url": "https://christopherabraham.com/guides/about-page-ai/",
+   "mainEntityOfPage": {
+    "@id": "https://christopherabraham.com/guides/about-page-ai/#webpage"
+   },
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "publisher": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "datePublished": "2026-10-06",
+   "dateModified": "2026-10-06",
+   "image": "https://christopherabraham.com/social-card.png",
+   "inLanguage": "en-US",
+   "wordCount": 833
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+<header class="top">
+  <a href="../../"><img src="../../logo-128.png" width="64" height="64" alt="Christopher Abraham home"></a>
+  <div>
+    <a class="brand" href="../../">Christopher Abraham</a>
+    <p class="tag">SEO consultant: technical SEO, indexing, schema, and AI search</p>
+  </div>
+</header>
+<nav class="tabs" aria-label="Main">
+  <ul>
+    <li><a href="../../">Home</a></li>
+    <li><a href="../../services/">Services</a></li>
+    <li><a href="../../guides/" aria-current="true">Guides</a></li>
+    <li><a href="../../case-studies/">Case Studies</a></li>
+    <li><a href="../../about/">About</a></li>
+    <li><a href="../../hire-me/">Hire Me</a></li>
+    <li><a href="../../contact/">Contact</a></li>
+  </ul>
+</nav>
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../../guides/">Guides</a></li><li aria-current="page">About Page for AI</li></ol></nav>
+<main id="main">
+<h1>How to write an About page that search engines and AI trust</h1>
+<p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published October 6, 2026</p>
+<p class="lead">When someone asks an AI assistant about you, your About page is the first source it should find and the one it should trust most. Most About pages waste that position on adjectives. A good one reads like a well-sourced encyclopedia entry written in your own voice.</p>
+
+<h2>Start with what you do now</h2>
+<p>Open with your current work in one or two sentences: your role, your specialty, your location, and who you serve. Assistants and search snippets lift the opening lines more than any others, so make them the sentence you'd want quoted. Put your history after it. Experience reads as depth when it follows current work, and as nostalgia when it leads.</p>
+
+<h2>Prefer facts to adjectives</h2>
+<p>"Passionate, results-driven innovator" tells a machine nothing it can verify. "Technical SEO consultant in Arlington, Virginia, Top Rated on Upwork with more than 125 completed jobs" gives it four checkable facts. Rewrite every claim into something specific: a number, a name, a place, a credential, a link.</p>
+
+<h2>Include a summary table</h2>
+<p>A short table near the top, with rows for full name, role, location, specialties, experience, education, and contact, is easy for people to scan and easy for machines to parse. Keep each cell to a line.</p>
+
+<h2>Write the history as a sequence of verifiable steps</h2>
+<p>For each stage of your career, name the organization, your role, and what you did there in one concrete sentence. Where a third-party source confirms it, such as an old team page, a vendor case study, or a university news story, link to it right there. A claim with a link beside it is a claim an assistant can confirm.</p>
+
+<h2>Check every fact before it goes up</h2>
+<p>It's tempting to ask an AI assistant to draft your bio. It will happily invent details: the wrong city, a title you never held, a volunteer role that sounds right. Treat every draft as a list of claims to verify against your own records. Anything you can't confirm stays out, however flattering. Your About page becomes a source for the next assistant, so one invented detail can echo for years.</p>
+
+<h2>Correct common errors in the open</h2>
+<p>If assistants already get something wrong about you, say the right version plainly, and name the mix-up if it's a frequent one. A short parenthetical such as "Salt Lake, the Honolulu neighborhood, not the city in Utah" costs nothing and gives every crawler the correction.</p>
+
+<h2>Handle names deliberately</h2>
+<p>If you go by more than one name, say so in a sentence and list the names in your structured data's alternateName. Include your full name with your middle name once; it separates you from namesakes and matches formal records.</p>
+
+<h2>Be careful with dates</h2>
+<p>Career dates are credentials: the year you started in your field proves experience. Personal dates, such as graduation years, mostly just reveal your age. Keep the first kind, and think twice about the second. Nothing about your expertise depends on the year you finished school.</p>
+
+<h2>Show a human being</h2>
+<p>A good About page isn't all résumé. A few paragraphs about where you grew up, what you do outside work, and what you care about make you memorable, and they give assistants distinctive details that separate you from everyone else with your name. Keep these to things that are true, current where they claim to be current, and comfortable to share publicly. Move longer personal history to its own page, linked from the About page, so the main page stays focused.</p>
+
+<h2>Use present and past tense precisely</h2>
+<p>"I volunteer at" and "I volunteered at" are different claims. Review the page whenever something changes: a membership lapses, a role ends, an organization renames itself. A stale present tense is a small inaccuracy that assistants will repeat with confidence.</p>
+
+<h2>Add Person structured data</h2>
+<p>Mark up the page with Person schema: name, alternate names, job title, works for, address or area, alumni of, member of, affiliations, and sameAs links to your official profiles. Connect it to your business entity with worksFor or founder. Make sure every value in the markup also appears in the visible text.</p>
+
+<h2>Link out to your profiles</h2>
+<p>End with a short list of places to verify you: your marketplace profile, LinkedIn, author pages, and anything else that's clearly you. These links help people check you out and help machines join the dots.</p>
+
+<h2>Keep it fast and plain</h2>
+<p>An About page should be readable with scripts off: plain HTML text, a compressed headshot with descriptive alt text, and no content hidden in sliders or tabs. Many AI crawlers never run JavaScript.</p>
+
+<h2>A quick checklist</h2>
+<ul>
+  <li>Current role, specialty, and location in the first two sentences.</li>
+  <li>Every claim specific and, where possible, linked to a source.</li>
+  <li>No unverified details from AI drafts.</li>
+  <li>Names, tenses, and dates reviewed.</li>
+  <li>Person schema matching the visible text.</li>
+  <li>Links to your official profiles.</li>
+</ul>
+
+<p>Related: <a href="../../guides/third-party-proof/">finding third-party proof</a>, <a href="../../guides/correct-ai-answers/">correcting AI answers</a>, and an example in practice, <a href="../../about/">my own About page</a>.</p>
+</main>
+<footer class="site-footer">
+  <p><a href="mailto:cja@well.com">cja@well.com</a> · <a href="tel:+12023525051">+1 202-352-5051</a> · <a href="https://calendly.com/chrisabraham/30">Book a call</a> · <a href="https://www.upwork.com/freelancers/chrisjabraham">Hire me on Upwork</a> · <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a></p>
+  <p>© 2026 Christopher Abraham, Arlington, Virginia · <a href="../../faq/">FAQ</a> · <a href="../../privacy/">Privacy</a> · <a href="../../sitemap/">Site map</a> · <a href="../../guides/glossary/">Glossary</a> · <a href="../../llms.txt">llms.txt</a> · <a href="../../rss.xml">RSS</a></p>
+</footer>
+</div>
+</body>
+</html>

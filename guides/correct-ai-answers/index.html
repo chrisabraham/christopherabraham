@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to correct what AI search says about you or your brand</title>
+<meta name="description" content="When ChatGPT, Gemini, or Google&#x27;s AI Overviews get your facts wrong, here is how to find where the error came from and publish corrections that get picked up.">
+<meta name="keywords" content="correct AI answers, AI hallucinations about a person, AI Overviews wrong information">
+<link rel="canonical" href="https://christopherabraham.com/guides/correct-ai-answers/">
+<meta name="author" content="Christopher Abraham">
+<link rel="icon" href="../../logo.png" type="image/png">
+<link rel="apple-touch-icon" href="../../logo.png">
+<link rel="manifest" href="../../manifest.webmanifest">
+<link rel="alternate" type="text/markdown" title="This page as Markdown" href="index.md">
+<link rel="alternate" type="application/rss+xml" title="SEO guides (RSS)" href="../../rss.xml">
+<link rel="alternate" type="application/atom+xml" title="SEO guides by Christopher Abraham" href="../../feed.xml">
+<link rel="alternate" type="text/plain" title="llms.txt" href="../../llms.txt">
+<link rel="sitemap" type="application/xml" href="../../sitemap.xml">
+<meta name="theme-color" content="#ffffff">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MR3P3612MM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'granted'});
+  gtag('consent', 'default', {analytics_storage: 'denied', region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"]});
+  gtag('js', new Date());
+  gtag('config', 'G-MR3P3612MM');
+</script>
+<meta property="og:site_name" content="Christopher Abraham">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to correct what AI search says about you or your brand">
+<meta property="og:description" content="When ChatGPT, Gemini, or Google&#x27;s AI Overviews get your facts wrong, here is how to find where the error came from and publish corrections that get picked up.">
+<meta property="og:url" content="https://christopherabraham.com/guides/correct-ai-answers/">
+<meta property="og:image" content="https://christopherabraham.com/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Christopher Abraham, SEO consultant: technical SEO, indexing, schema, and AI search">
+<meta property="article:published_time" content="2026-10-06">
+<meta property="article:modified_time" content="2026-10-06">
+<meta property="article:author" content="https://christopherabraham.com/about/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to correct what AI search says about you or your brand">
+<meta name="twitter:description" content="When ChatGPT, Gemini, or Google&#x27;s AI Overviews get your facts wrong, here is how to find where the error came from and publish corrections that get picked up.">
+<meta name="twitter:image" content="https://christopherabraham.com/social-card.png">
+<style>
+:root { --orange: #f3b842; --blue: #1d9cd5; --teal: #3ca0b0; --text: #000; --muted: #333; --link: #284a57; --tab: #8cacbb; --bar: #dee7ec; --rule: #c8d3d8; --bg: #fff; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { margin: 0; color: var(--text); background: var(--bg); font: 18px/1.65 Verdana, "Lucida Grande", Lucida, "DejaVu Sans", Helvetica, Arial, sans-serif; }
+.wrap { max-width: 46rem; margin: 0 auto; padding: 0 1rem; }
+a { color: var(--link); text-decoration: underline; text-underline-offset: .15em; overflow-wrap: anywhere; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid #000; outline-offset: 2px; }
+img { max-width: 100%; height: auto; }
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 1rem; top: .5rem; background: #fff; padding: .5rem; z-index: 1; }
+.top { display: flex; align-items: center; gap: .9rem; padding: 1.25rem 0 .9rem; }
+.top > a { flex: none; line-height: 0; }
+.top img { width: 64px; height: 64px; max-width: none; }
+.brand { font-size: 1.6rem; font-weight: bold; color: var(--orange); text-decoration: none; }
+.brand:hover { text-decoration: underline; }
+.tag { margin: 0; color: var(--muted); font-size: .95rem; line-height: 1.4; }
+nav.tabs { border-bottom: 4px solid var(--bar); }
+nav.tabs ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .3rem; }
+nav.tabs li { margin: 0; }
+nav.tabs a { display: block; padding: .4rem .7rem; border: 1px solid var(--tab); border-bottom: none; text-decoration: none; font-size: .9rem; white-space: nowrap; }
+nav.tabs a:hover { background: var(--bar); text-decoration: underline; }
+nav.tabs a[aria-current] { background: var(--bar); color: #000; font-weight: bold; }
+.crumbs { font-size: .9rem; margin: 1rem 0 0; color: var(--muted); }
+.crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; }
+.crumbs li { margin: 0; }
+.crumbs li + li::before { content: "›"; padding: 0 .4em; }
+blockquote { margin: 0 0 1rem; padding: .25rem 0 .25rem 1rem; border-left: 4px solid var(--tab); }
+blockquote p:last-child { color: var(--muted); font-size: .9rem; }
+main { padding: 1.25rem 0 2rem; }
+h1 { color: var(--blue); font-size: 1.4rem; line-height: 1.25; margin: .25rem 0 1rem; }
+h2 { color: var(--teal); font-size: 1.3rem; line-height: 1.3; margin: 2rem 0 .5rem; }
+h3 { font-size: 1.08rem; line-height: 1.35; margin: 1.5rem 0 .4rem; }
+p, ul, ol, dl, table { margin: 0 0 1rem; }
+li { margin-bottom: .4rem; }
+.lead { font-size: 1.1rem; }
+.byline { color: var(--muted); font-size: .9rem; margin-top: -.5rem; }
+.updated { color: var(--muted); font-size: .9rem; margin-top: 2rem; }
+code { font-family: Consolas, Menlo, monospace; font-size: .92em; background: #f2f5f7; padding: 0 .2em; }
+pre { background: #f2f5f7; padding: .75rem; overflow-x: auto; font-size: .9rem; line-height: 1.45; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+th, td { border: 1px solid var(--rule); padding: .4rem .55rem; text-align: left; vertical-align: top; }
+th { background: var(--bar); }
+dt { font-weight: bold; margin-top: 1rem; }
+dd { margin: .2rem 0 0 0; }
+.portrait { float: right; width: 160px; height: 160px; margin: .25rem 0 1rem 1.25rem; border: 1px solid var(--rule); }
+.button { display: inline-block; margin: 0 .5rem .6rem 0; padding: .6rem 1.1rem; border: 2px solid var(--link); background: var(--bar); color: #000; font-weight: bold; text-decoration: none; }
+.button:hover { text-decoration: underline; }
+.related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.contact li { margin-bottom: .6rem; }
+.site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
+.site-footer p { margin: 0 0 .4rem; }
+@media (max-width: 34rem) {
+  body { font-size: 17px; }
+  .top img { width: 52px; height: 52px; }
+  nav.tabs a { padding: .45rem .55rem; }
+  h1 { font-size: 1.25rem; }
+  .portrait { width: 112px; height: 112px; margin-left: 1rem; }
+}
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://christopherabraham.com/#website",
+   "url": "https://christopherabraham.com/",
+   "name": "Christopher Abraham",
+   "inLanguage": "en-US",
+   "publisher": {
+    "@id": "https://christopherabraham.com/#person"
+   }
+  },
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://christopherabraham.com/#service-business",
+   "name": "Christopher Abraham, SEO consultant",
+   "url": "https://christopherabraham.com/",
+   "logo": "https://christopherabraham.com/logo.png",
+   "image": "https://christopherabraham.com/social-card.png",
+   "description": "Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.",
+   "founder": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "employee": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "slogan": "Senior SEO help, from the person who does the work",
+   "email": "cja@well.com",
+   "telephone": "+1-202-352-5051",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+   },
+   "location": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.86,
+    "longitude": -77.1
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Arlington, Virginia"
+    },
+    {
+     "@type": "City",
+     "name": "Alexandria, Virginia"
+    },
+    {
+     "@type": "City",
+     "name": "Washington, District of Columbia"
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Washington, DC metropolitan area"
+    },
+    {
+     "@type": "State",
+     "name": "Virginia",
+     "containedInPlace": {
+      "@type": "Country",
+      "name": "United States"
+     }
+    },
+    {
+     "@type": "Country",
+     "name": "United States",
+     "identifier": "US"
+    },
+    {
+     "@type": "Country",
+     "name": "Canada",
+     "identifier": "CA"
+    },
+    {
+     "@type": "Country",
+     "name": "United Kingdom",
+     "identifier": "GB"
+    },
+    {
+     "@type": "Country",
+     "name": "Ireland",
+     "identifier": "IE"
+    },
+    {
+     "@type": "Country",
+     "name": "Australia",
+     "identifier": "AU"
+    },
+    {
+     "@type": "Country",
+     "name": "New Zealand",
+     "identifier": "NZ"
+    },
+    "Worldwide"
+   ],
+   "knowsLanguage": "en",
+   "knowsAbout": [
+    "Search engine optimization",
+    "Technical SEO",
+    "SEO audits",
+    "Indexing",
+    "Google Search Console",
+    "Bing Webmaster Tools",
+    "JavaScript SEO",
+    "Core Web Vitals",
+    "Cloudflare",
+    "Schema markup",
+    "Structured data",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "AI search",
+    "llms.txt",
+    "301 redirects",
+    "Website migrations",
+    "WordPress",
+    "Yoast SEO",
+    "Rank Math",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Local SEO",
+    "Google Business Profile",
+    "Internal linking",
+    "Metadata"
+   ],
+   "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "value": 1
+   },
+   "contactPoint": [
+    {
+     "@type": "ContactPoint",
+     "contactType": "sales",
+     "email": "cja@well.com",
+     "telephone": "+1-202-352-5051",
+     "areaServed": [
+      "US",
+      "CA",
+      "GB",
+      "IE",
+      "AU",
+      "NZ"
+     ],
+     "availableLanguage": "English"
+    }
+   ],
+   "sameAs": [
+    "https://www.upwork.com/freelancers/chrisjabraham",
+    "https://www.linkedin.com/in/chrisabraham"
+   ],
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "SEO services by Christopher Abraham",
+    "itemListElement": [
+     {
+      "@type": "OfferCatalog",
+      "name": "Technical SEO",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-audit/#service",
+         "name": "Technical SEO audit",
+         "url": "https://christopherabraham.com/services/seo-audit/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/indexing/#service",
+         "name": "Indexing repair",
+         "url": "https://christopherabraham.com/services/indexing/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/javascript-seo/#service",
+         "name": "JavaScript and headless SEO",
+         "url": "https://christopherabraham.com/services/javascript-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/site-speed/#service",
+         "name": "Core Web Vitals and Cloudflare",
+         "url": "https://christopherabraham.com/services/site-speed/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/search-console/#service",
+         "name": "Search Console, Bing Webmaster Tools, and GA4",
+         "url": "https://christopherabraham.com/services/search-console/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/migrations/#service",
+         "name": "Site migrations and 301 redirects",
+         "url": "https://christopherabraham.com/services/migrations/"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "AI search, schema, and content",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ai-search/#service",
+         "name": "AI SEO, GEO, and AEO",
+         "url": "https://christopherabraham.com/services/ai-search/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/schema/#service",
+         "name": "Schema markup and entity SEO",
+         "url": "https://christopherabraham.com/services/schema/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/on-page-seo/#service",
+         "name": "On-page SEO",
+         "url": "https://christopherabraham.com/services/on-page-seo/"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "Platforms, local, and ongoing work",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/wordpress-seo/#service",
+         "name": "WordPress SEO",
+         "url": "https://christopherabraham.com/services/wordpress-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ecommerce-seo/#service",
+         "name": "Ecommerce SEO",
+         "url": "https://christopherabraham.com/services/ecommerce-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/local-seo/#service",
+         "name": "Local SEO and Google Business Profile",
+         "url": "https://christopherabraham.com/services/local-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-retainer/#service",
+         "name": "Monthly SEO retainer",
+         "url": "https://christopherabraham.com/services/seo-retainer/"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://christopherabraham.com/#person",
+   "name": "Christopher Abraham",
+   "givenName": "Christopher",
+   "additionalName": "James",
+   "familyName": "Abraham",
+   "alternateName": [
+    "Christopher James Abraham",
+    "Chris Abraham"
+   ],
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://christopherabraham.com/christopher-abraham.jpg",
+    "width": 225,
+    "height": 225,
+    "caption": "Christopher Abraham, SEO consultant"
+   },
+   "url": "https://christopherabraham.com/",
+   "jobTitle": "SEO consultant",
+   "worksFor": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "description": "Christopher Abraham is an independent SEO consultant in Arlington, Virginia, building websites since 1994 and doing SEO since 1998.",
+   "alumniOf": [
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "The George Washington University",
+     "sameAs": "https://en.wikipedia.org/wiki/George_Washington_University"
+    },
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "University of East Anglia",
+     "sameAs": "https://en.wikipedia.org/wiki/University_of_East_Anglia"
+    },
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "University of Hawaiʻi at Mānoa"
+    },
+    {
+     "@type": "EducationalOrganization",
+     "name": "Goethe-Institut"
+    },
+    {
+     "@type": "HighSchool",
+     "name": "Saint Louis School, Honolulu"
+    },
+    {
+     "@type": "ElementarySchool",
+     "name": "Aliamanu Elementary School, Honolulu"
+    }
+   ],
+   "affiliation": [
+    {
+     "@type": "Organization",
+     "name": "Meritus Media",
+     "url": "https://meritusmedia.com/",
+     "description": "Digital PR and marketing agency"
+    },
+    {
+     "@type": "Organization",
+     "name": "Stainless Communications",
+     "url": "https://stainlesscommunications.com/",
+     "description": "Senior-led brand, PR, web, and growth firm"
+    }
+   ],
+   "memberOf": [
+    {
+     "@type": "Organization",
+     "name": "Naval Lodge No. 4, F.A.A.M.",
+     "description": "Masonic lodge on Capitol Hill, Washington, DC, chartered 1805"
+    },
+    {
+     "@type": "Organization",
+     "name": "Scottish Rite of Freemasonry, Southern Jurisdiction",
+     "description": "32nd degree"
+    },
+    {
+     "@type": "Organization",
+     "name": "Phi Kappa Psi, DC Alpha chapter",
+     "description": "Founding father"
+    },
+    {
+     "@type": "Organization",
+     "name": "The WELL",
+     "url": "https://www.well.com/"
+    }
+   ],
+   "award": [
+    "Top Rated on Upwork"
+   ],
+   "homeLocation": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "workLocation": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "nationality": {
+    "@type": "Country",
+    "name": "United States"
+   },
+   "knowsLanguage": "en",
+   "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SEO consultant",
+    "occupationLocation": {
+     "@type": "Country",
+     "name": "United States"
+    },
+    "skills": "Technical SEO, indexing, Google Search Console, schema, Core Web Vitals, migrations, AI search"
+   },
+   "knowsAbout": [
+    "Search engine optimization",
+    "Technical SEO",
+    "SEO audits",
+    "Indexing",
+    "Google Search Console",
+    "Bing Webmaster Tools",
+    "JavaScript SEO",
+    "Core Web Vitals",
+    "Cloudflare",
+    "Schema markup",
+    "Structured data",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "AI search",
+    "llms.txt",
+    "301 redirects",
+    "Website migrations",
+    "WordPress",
+    "Yoast SEO",
+    "Rank Math",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Local SEO",
+    "Google Business Profile",
+    "Internal linking",
+    "Metadata"
+   ],
+   "email": "cja@well.com",
+   "telephone": "+1-202-352-5051",
+   "sameAs": [
+    "https://www.upwork.com/freelancers/chrisjabraham",
+    "https://www.linkedin.com/in/chrisabraham",
+    "https://biznology.com/author/chrisabraham/",
+    "https://www.huffpost.com/author/chris-abraham",
+    "https://muckrack.com/chrisabraham",
+    "https://rheingold.com/Associates/team_abraham.html",
+    "https://www.reddit.com/user/chrisabraham/"
+   ]
+  },
+  {
+   "@type": "Place",
+   "@id": "https://christopherabraham.com/#place",
+   "name": "Arlington, Virginia",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.86,
+    "longitude": -77.1
+   },
+   "containedInPlace": {
+    "@type": "AdministrativeArea",
+    "name": "Arlington County, Virginia",
+    "containedInPlace": {
+     "@type": "State",
+     "name": "Virginia"
+    }
+   }
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://christopherabraham.com/guides/correct-ai-answers/#webpage",
+   "url": "https://christopherabraham.com/guides/correct-ai-answers/",
+   "name": "How to correct what AI search says about you or your brand",
+   "description": "When ChatGPT, Gemini, or Google's AI Overviews get your facts wrong, here is how to find where the error came from and publish corrections that get picked up.",
+   "isPartOf": {
+    "@id": "https://christopherabraham.com/#website"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "correct AI answers"
+    },
+    {
+     "@type": "Thing",
+     "name": "AI hallucinations about a person"
+    },
+    {
+     "@type": "Thing",
+     "name": "AI Overviews wrong information"
+    }
+   ],
+   "primaryImageOfPage": "https://christopherabraham.com/social-card.png",
+   "inLanguage": "en-US",
+   "dateModified": "2026-10-06",
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "keywords": "correct AI answers, AI hallucinations about a person, AI Overviews wrong information",
+   "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+     "h1",
+     ".lead"
+    ]
+   },
+   "potentialAction": {
+    "@type": "ReadAction",
+    "target": "https://christopherabraham.com/guides/correct-ai-answers/"
+   },
+   "breadcrumb": {
+    "@id": "https://christopherabraham.com/guides/correct-ai-answers/#breadcrumb"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://christopherabraham.com/guides/correct-ai-answers/#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://christopherabraham.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Guides",
+     "item": "https://christopherabraham.com/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Correcting AI Answers",
+     "item": "https://christopherabraham.com/guides/correct-ai-answers/"
+    }
+   ]
+  },
+  {
+   "@type": "TechArticle",
+   "@id": "https://christopherabraham.com/guides/correct-ai-answers/#article",
+   "headline": "How to correct what AI search says about you",
+   "description": "When ChatGPT, Gemini, or Google's AI Overviews get your facts wrong, here is how to find where the error came from and publish corrections that get picked up.",
+   "url": "https://christopherabraham.com/guides/correct-ai-answers/",
+   "mainEntityOfPage": {
+    "@id": "https://christopherabraham.com/guides/correct-ai-answers/#webpage"
+   },
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "publisher": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "datePublished": "2026-10-06",
+   "dateModified": "2026-10-06",
+   "image": "https://christopherabraham.com/social-card.png",
+   "inLanguage": "en-US",
+   "wordCount": 815
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+<header class="top">
+  <a href="../../"><img src="../../logo-128.png" width="64" height="64" alt="Christopher Abraham home"></a>
+  <div>
+    <a class="brand" href="../../">Christopher Abraham</a>
+    <p class="tag">SEO consultant: technical SEO, indexing, schema, and AI search</p>
+  </div>
+</header>
+<nav class="tabs" aria-label="Main">
+  <ul>
+    <li><a href="../../">Home</a></li>
+    <li><a href="../../services/">Services</a></li>
+    <li><a href="../../guides/" aria-current="true">Guides</a></li>
+    <li><a href="../../case-studies/">Case Studies</a></li>
+    <li><a href="../../about/">About</a></li>
+    <li><a href="../../hire-me/">Hire Me</a></li>
+    <li><a href="../../contact/">Contact</a></li>
+  </ul>
+</nav>
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../../guides/">Guides</a></li><li aria-current="page">Correcting AI Answers</li></ol></nav>
+<main id="main">
+<h1>How to correct what AI search says about you</h1>
+<p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published October 6, 2026</p>
+<p class="lead">Ask an AI assistant about yourself or your company and you'll often get a confident answer that's mostly right and partly invented. You can't edit the answer directly. You can change what the assistant reads, and that changes what it says.</p>
+
+<h2>Why the errors happen</h2>
+<p>AI answers are stitched together from whatever the system retrieves plus whatever it absorbed in training. Three failure patterns cause most of the mistakes I see:</p>
+<ul>
+  <li><strong>Name collisions.</strong> Two people or companies share a name, and the assistant blends them. A search for one marketing consultant can pull in a theatre director and an ad-network salesperson with the same name.</li>
+  <li><strong>Gap filling.</strong> When sources are thin, the model fills holes with plausible details. A neighborhood called Salt Lake in Honolulu becomes Salt Lake City, Utah, because the city is the more common phrase.</li>
+  <li><strong>Stale sources.</strong> An old bio, an expired company page, or a ten-year-old article outranks the current truth because nothing newer says otherwise.</li>
+</ul>
+
+<h2>Step 1: Collect the errors properly</h2>
+<p>Run the same handful of questions across ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google with AI Overviews and AI Mode. Ask the plain questions a stranger would ask: who is this, what do they do, where are they based, what have they done. Save each answer with the date and the sources it cites. Run the set two or three times, because answers vary between runs, and an error that shows up every time matters more than a one-off.</p>
+
+<h2>Step 2: Trace each error to a source</h2>
+<p>Most assistants now show citations. Follow them. For each wrong fact, sort it into one of three buckets:</p>
+<ol>
+  <li><strong>A real source says it.</strong> Something on the web states the wrong fact. That source has to be fixed or outweighed.</li>
+  <li><strong>A real source almost says it.</strong> The source is right, but ambiguous, and the assistant misread it. "Salt Lake" without "Honolulu" next to it is an invitation to guess.</li>
+  <li><strong>Nothing says it.</strong> The assistant invented the detail to fill a gap. The fix is to fill the gap yourself.</li>
+</ol>
+
+<h2>Step 3: Fix what you control first</h2>
+<p>Your own pages carry the most weight, because they're the most authoritative source about you. On your About page:</p>
+<ul>
+  <li>State the correct facts in plain sentences, with the specific words that remove ambiguity: the full place name, the full company name, the exact role.</li>
+  <li>Where a mistake is common, correct it explicitly. A line like "Salt Lake, the Honolulu neighborhood, not the city in Utah" gives every crawler the correction in your own words.</li>
+  <li>Add Person or Organization structured data with your name, alternate names, job title, location, and links to your official profiles.</li>
+  <li>Keep the page fast and in plain HTML, so crawlers that don't run JavaScript still read every word.</li>
+</ul>
+
+<h2>Step 4: Fix or outweigh other sources</h2>
+<p>For wrong facts on sites you don't control:</p>
+<ul>
+  <li><strong>Profiles you own:</strong> update LinkedIn, Upwork, Crunchbase, author bios, speaker pages, and directory listings so they agree with each other.</li>
+  <li><strong>Publications:</strong> ask editors to correct factual errors. Most will fix a wrong title or location when you ask politely with evidence.</li>
+  <li><strong>Sources you can't change:</strong> publish newer, clearer material that states the correct fact, and earn links to it. Assistants weigh recent, consistent, well-linked sources over a single old page.</li>
+</ul>
+
+<h2>Step 5: Separate yourself from your namesakes</h2>
+<p>If you share a name, make your distinguishing details unmissable: your field, your city, your middle name or initial, and the profiles that are yours. In structured data, use sameAs links to your own profiles and nothing else. Consistent pairing of your name with your field ("Christopher Abraham, SEO consultant") teaches the systems which person you are.</p>
+
+<h2>Step 6: Use the feedback buttons, then wait</h2>
+<p>Every major assistant has a thumbs-down or feedback option. Use it on wrong answers about you, with a short correction and a link to your source. It won't fix anything on its own, but it adds a signal. Then give it time. Retrieval-based answers can change within days of a crawl; facts baked into a model's training change only with the next model.</p>
+
+<h2>Step 7: Re-run the questions monthly</h2>
+<p>Keep the same question set and run it once a month. Track which errors disappear, which persist, and which new ones appear. Persistent errors usually point to a source you haven't found yet.</p>
+
+<h2>What not to do</h2>
+<ul>
+  <li>Don't publish exaggerations to counter errors. The next assistant will repeat those too.</li>
+  <li>Don't let unverified AI summaries back into your own bio. Check every detail against your own records before you publish it.</li>
+  <li>Don't flood the web with thin pages repeating your name. A few strong, consistent sources beat dozens of weak ones.</li>
+</ul>
+
+<p>For businesses, the full approach is under <a href="../../services/ai-search/">AI SEO, GEO, and AEO</a>. For people, the companion guides are <a href="../../guides/two-names-one-entity/">one person, two names</a> and <a href="../../guides/about-page-ai/">writing an About page AI trusts</a>.</p>
+</main>
+<footer class="site-footer">
+  <p><a href="mailto:cja@well.com">cja@well.com</a> · <a href="tel:+12023525051">+1 202-352-5051</a> · <a href="https://calendly.com/chrisabraham/30">Book a call</a> · <a href="https://www.upwork.com/freelancers/chrisjabraham">Hire me on Upwork</a> · <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a></p>
+  <p>© 2026 Christopher Abraham, Arlington, Virginia · <a href="../../faq/">FAQ</a> · <a href="../../privacy/">Privacy</a> · <a href="../../sitemap/">Site map</a> · <a href="../../guides/glossary/">Glossary</a> · <a href="../../llms.txt">llms.txt</a> · <a href="../../rss.xml">RSS</a></p>
+</footer>
+</div>
+</body>
+</html>

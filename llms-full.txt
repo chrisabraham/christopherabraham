@@ -766,7 +766,7 @@ Updated: 2026-10-06
 
 # SEO guides
 
-These guides cover the questions clients ask me most, written so you can act on them yourself. Each one is self-contained, with links to related guides and to the glossary for terms.
+These sixteen guides cover the questions clients ask me most, written so you can act on them yourself. Each one is self-contained, with links to related guides and to the glossary for terms.
 
 ## Indexing and audits
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
@@ -779,6 +779,20 @@ These guides cover the questions clients ask me most, written so you can act on 
 ## Migrations and performance
 - [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/): inventories, one-to-one maps, chains, 410s, and bulk testing.
 - [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/): LCP, INP, and CLS, field versus lab data, and the fixes that usually work.
+
+## Your name, your entity, and AI answers
+- [How to correct what AI search says about you](https://christopherabraham.com/guides/correct-ai-answers/): trace each wrong fact to its source and publish corrections that stick.
+- [One person, two names](https://christopherabraham.com/guides/two-names-one-entity/): connecting a nickname, pen name, or formal name into a single entity with schema and sameAs.
+- [Proving expertise with third-party sources](https://christopherabraham.com/guides/third-party-proof/): alumni news, vendor case studies, old team pages, and bylines as evidence.
+- [How to write an About page that search engines and AI trust](https://christopherabraham.com/guides/about-page-ai/): current work first, verifiable facts, and no guesswork.
+
+## Domains, DNS, and files for machines
+- [Launch a site on a parked domain](https://christopherabraham.com/guides/parked-domain-launch/): Cloudflare DNS, GitHub Pages, HTTPS, and the caching trap.
+- [Lock down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/): null MX, SPF, DMARC, and an empty DKIM key.
+- [What happens to your old domains when they lapse](https://christopherabraham.com/guides/lapsed-domains/): drop catchers, redirects to strangers, and how to protect yourself.
+- [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/): the format, Markdown copies, llms-full.txt, and robots rules.
+- [Meta keywords in 2026](https://christopherabraham.com/guides/meta-keywords/): ignored by Google, risky when stuffed, and how to use them honestly.
+- [Website accessibility without overlays](https://christopherabraham.com/guides/accessible-websites/): the WCAG essentials and how to test them yourself.
 
 ## Reference
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): short definitions of the vocabulary used across this site, from AEO to XML sitemap.
@@ -1247,6 +1261,726 @@ Open Search Console's Core Web Vitals report and note which group of URLs fails 
 Core Web Vitals won't lift weak content above strong content. But between comparable pages they can tip the balance, and they always affect whether visitors stay. Fix the templates that carry your revenue first.
 
 For hands-on help, see [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/). Terms are defined in the [glossary](https://christopherabraham.com/guides/glossary/).
+
+
+---
+
+Source: https://christopherabraham.com/guides/correct-ai-answers/
+Updated: 2026-10-06
+
+# How to correct what AI search says about you
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+Ask an AI assistant about yourself or your company and you'll often get a confident answer that's mostly right and partly invented. You can't edit the answer directly. You can change what the assistant reads, and that changes what it says.
+
+## Why the errors happen
+
+AI answers are stitched together from whatever the system retrieves plus whatever it absorbed in training. Three failure patterns cause most of the mistakes I see:
+- **Name collisions.** Two people or companies share a name, and the assistant blends them. A search for one marketing consultant can pull in a theatre director and an ad-network salesperson with the same name.
+- **Gap filling.** When sources are thin, the model fills holes with plausible details. A neighborhood called Salt Lake in Honolulu becomes Salt Lake City, Utah, because the city is the more common phrase.
+- **Stale sources.** An old bio, an expired company page, or a ten-year-old article outranks the current truth because nothing newer says otherwise.
+
+## Step 1: Collect the errors properly
+
+Run the same handful of questions across ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google with AI Overviews and AI Mode. Ask the plain questions a stranger would ask: who is this, what do they do, where are they based, what have they done. Save each answer with the date and the sources it cites. Run the set two or three times, because answers vary between runs, and an error that shows up every time matters more than a one-off.
+
+## Step 2: Trace each error to a source
+
+Most assistants now show citations. Follow them. For each wrong fact, sort it into one of three buckets:
+1. **A real source says it.** Something on the web states the wrong fact. That source has to be fixed or outweighed.
+2. **A real source almost says it.** The source is right, but ambiguous, and the assistant misread it. "Salt Lake" without "Honolulu" next to it is an invitation to guess.
+3. **Nothing says it.** The assistant invented the detail to fill a gap. The fix is to fill the gap yourself.
+
+## Step 3: Fix what you control first
+
+Your own pages carry the most weight, because they're the most authoritative source about you. On your About page:
+- State the correct facts in plain sentences, with the specific words that remove ambiguity: the full place name, the full company name, the exact role.
+- Where a mistake is common, correct it explicitly. A line like "Salt Lake, the Honolulu neighborhood, not the city in Utah" gives every crawler the correction in your own words.
+- Add Person or Organization structured data with your name, alternate names, job title, location, and links to your official profiles.
+- Keep the page fast and in plain HTML, so crawlers that don't run JavaScript still read every word.
+
+## Step 4: Fix or outweigh other sources
+
+For wrong facts on sites you don't control:
+- **Profiles you own:** update LinkedIn, Upwork, Crunchbase, author bios, speaker pages, and directory listings so they agree with each other.
+- **Publications:** ask editors to correct factual errors. Most will fix a wrong title or location when you ask politely with evidence.
+- **Sources you can't change:** publish newer, clearer material that states the correct fact, and earn links to it. Assistants weigh recent, consistent, well-linked sources over a single old page.
+
+## Step 5: Separate yourself from your namesakes
+
+If you share a name, make your distinguishing details unmissable: your field, your city, your middle name or initial, and the profiles that are yours. In structured data, use sameAs links to your own profiles and nothing else. Consistent pairing of your name with your field ("Christopher Abraham, SEO consultant") teaches the systems which person you are.
+
+## Step 6: Use the feedback buttons, then wait
+
+Every major assistant has a thumbs-down or feedback option. Use it on wrong answers about you, with a short correction and a link to your source. It won't fix anything on its own, but it adds a signal. Then give it time. Retrieval-based answers can change within days of a crawl; facts baked into a model's training change only with the next model.
+
+## Step 7: Re-run the questions monthly
+
+Keep the same question set and run it once a month. Track which errors disappear, which persist, and which new ones appear. Persistent errors usually point to a source you haven't found yet.
+
+## What not to do
+- Don't publish exaggerations to counter errors. The next assistant will repeat those too.
+- Don't let unverified AI summaries back into your own bio. Check every detail against your own records before you publish it.
+- Don't flood the web with thin pages repeating your name. A few strong, consistent sources beat dozens of weak ones.
+
+For businesses, the full approach is under [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/). For people, the companion guides are [one person, two names](https://christopherabraham.com/guides/two-names-one-entity/) and [writing an About page AI trusts](https://christopherabraham.com/guides/about-page-ai/).
+
+
+---
+
+Source: https://christopherabraham.com/guides/two-names-one-entity/
+Updated: 2026-10-06
+
+# One person, two names: entity SEO for pen names and nicknames
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+Plenty of professionals work under more than one name: a formal name on a freelance marketplace, a nickname on bylines, a maiden name on old publications, a pen name on fiction. Search engines and AI assistants treat names as clues, not proof. Unless you connect the names deliberately, they may think you're two people, or worse, merge you with a stranger.
+
+## How machines decide who you are
+
+Google's Knowledge Graph and the retrieval systems behind AI assistants build an *entity*: a single record for a person, with facts attached. They assemble it from pages that agree with each other. When one page says "Christopher Abraham, SEO consultant in Arlington" and another says "Chris Abraham, SEO and reputation specialist in Arlington," the overlap in field and place suggests one person. Structured data and links turn that suggestion into something close to certainty.
+
+## Pick a primary name for each site
+
+Each website should have one primary name for you, used consistently in its headings, bylines, and title tags. A site built for marketplace clients can lead with the name they know from the marketplace; a writing archive can lead with the byline name. Having different primaries on different sites is fine, as long as each site acknowledges the other names somewhere visible.
+
+## Say it in plain words
+
+Put a sentence on your About page that names the connection: "Most people know me as Chris, and nearly two decades of my bylines carry that name." Plain text is the strongest signal because every crawler reads it, including the ones that ignore structured data.
+
+If you have a full legal name with a middle name, list it once. It distinguishes you from namesakes and matches public records, diplomas, and CVs.
+
+## Connect the names in Person schema
+
+Schema.org's Person type has properties built for exactly this:
+
+```
+{
+  "@type": "Person",
+  "@id": "https://example.com/#person",
+  "name": "Christopher Abraham",
+  "givenName": "Christopher",
+  "additionalName": "James",
+  "familyName": "Abraham",
+  "alternateName": ["Christopher James Abraham", "Chris Abraham"],
+  "jobTitle": "SEO consultant",
+  "sameAs": [
+    "https://www.linkedin.com/in/example",
+    "https://www.upwork.com/freelancers/example",
+    "https://publication.example/author/example"
+  ]
+}
+```
+- **name** is the primary name on this site.
+- **alternateName** lists every other name you publish under.
+- **additionalName** holds a middle name.
+- **sameAs** points to profiles and author pages that are unmistakably you, whichever name they use.
+- **@id** gives the entity a permanent identifier, so every page on the site refers to the same person.
+
+## Choose sameAs links carefully
+
+sameAs says "this other page is about the same person." Use it only for pages about you: your LinkedIn profile, marketplace profile, author pages at publications, a speaker bio, a consultancy team page. Never point it at a page that merely mentions you, and never at a domain you no longer control. If an old company site has lapsed and now redirects somewhere unrelated, remove it.
+
+Old bios on reputable third-party sites are especially valuable. A team page from decades ago, still online, is independent evidence that you are who you say you are.
+
+## Make the profiles agree
+
+Go through each profile you list in sameAs and check the basics: field, city, current role, photo. They don't have to be identical, but they shouldn't contradict each other. A headshot used on every profile is a surprisingly strong signal; image search connects them instantly.
+
+## Keep your field attached to your name
+
+Namesakes are the biggest risk. Pair your name with your field everywhere it matters: title tags, page headings, social bios, and author lines. "Christopher Abraham, SEO consultant" repeated across consistent sources teaches the systems which Christopher Abraham this is, and keeps you apart from the theatre director and the novelist who share the name.
+
+## What not to do
+- Don't create a separate fake persona with its own invented history. Two names for one real person is normal; two biographies is a credibility problem.
+- Don't hide the connection. A name that appears from nowhere, with no link to an established record, looks like a new entity with no history.
+- Don't stuff every variant into titles and headings. Use the primary name in titles and let alternateName and the About page carry the rest.
+
+## Check the result
+
+A few weeks after publishing, search each name with your field and city, and ask the major AI assistants who each name is. When they connect the names and describe the same career, the entity has merged. If they don't, look for a profile that contradicts the others.
+
+Related: [correcting what AI says about you](https://christopherabraham.com/guides/correct-ai-answers/), [proving expertise with third-party sources](https://christopherabraham.com/guides/third-party-proof/), and [schema markup and entity SEO](https://christopherabraham.com/services/schema/).
+
+
+---
+
+Source: https://christopherabraham.com/guides/third-party-proof/
+Updated: 2026-10-06
+
+# Proving expertise with third-party sources
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+Anyone can write "twenty years of experience" on their own website. Search engines and AI assistants know it, so they look for confirmation elsewhere. The most persuasive evidence of expertise is written by someone else, ideally years ago, on a site with no reason to flatter you.
+
+## Why outside sources matter so much
+
+Google's quality guidelines ask raters to look at what others say about a creator, not just what the creator says. AI assistants behave similarly in practice: when several independent sources agree on a fact, the assistant states it with confidence; when only your own site says it, the assistant hedges or ignores it. Third-party sources are how a claim becomes a fact in the eyes of a machine.
+
+## The kinds of evidence worth hunting for
+
+### University and alumni news
+
+Alumni profiles in a university's news site are gold: an institution with a strong domain, an editor, and a publication date. A ten-year-old feature about your company in your college's news site is better evidence than anything you could write today.
+
+### Vendor case studies
+
+Software companies publish case studies about their customers. If a major vendor once wrote up your firm, quoting you by name and title, that page confirms your role at a specific time, on the vendor's domain.
+
+### Old team and associate pages
+
+Consultancies, agencies, and research groups list their people. A bio on a well-known consultant's associates page, written long ago and never updated, is a fossil record of your early career.
+
+### Bylines and author pages
+
+Every publication you wrote for keeps an author page. Columns in trade publications, contributor posts on national sites, and media database profiles all count.
+
+### Credits in other people's work
+
+Collaborative projects, anthologies, research papers, and art pieces list their contributors. When a pioneer in your field names you in her own history of a project, that's independent testimony.
+
+### Recommendations with names attached
+
+A testimonial is stronger when the person giving it is identifiable and credible in their own right.
+
+## How to find what already exists
+1. Search your name in quotes with each employer, school, and project name.
+2. Search your name with distinctive terms from your past: product names, community names, event names.
+3. Check the Wayback Machine at web.archive.org for old employer sites, team pages, and project pages that have since vanished.
+4. Search media databases and your old publications' author archives.
+5. Ask old colleagues what they remember; they often know about write-ups you never saw.
+
+## How to use it on your site
+- **Link to the source, don't just mention it.** "GW Today once wrote up some of this story" with a link is verifiable; "I've been featured in the press" isn't.
+- **Quote accurately.** Use the source's exact words. If you trim, mark the cut with an ellipsis.
+- **Put it where it supports a claim.** Next to the sentence about running a virtual company, link the vendor's case study about that virtual company.
+- **Add profile pages to sameAs.** Author pages and team bios that are about you belong in your Person structured data.
+- **Skip what doesn't hold up.** If a source now redirects somewhere unrelated, or describes you inaccurately, leave it out.
+
+## Respect the details
+
+Old sources come with old details. A case study may name clients you can no longer mention, an alumni profile may print your class year, and a team page may describe a role you've long since left. You don't control their content, but you control what you quote and where you link. Weigh each source's value against what it reveals, and decide deliberately.
+
+## Keep a file
+
+Save a copy of every source you find, with the URL and the date. Pages disappear. A PDF in your own archive, plus the Wayback Machine's copy, means you can still point to the evidence if the original goes away.
+
+## Create new evidence going forward
+
+The best time to collect third-party proof was years ago; the second best is now. Write for publications in your field, speak where talks are published, contribute to projects that credit contributors, and ask satisfied clients for testimonials you're allowed to attribute. Each one becomes a source that confirms you to the next reader, human or machine.
+
+Related: [an About page AI trusts](https://christopherabraham.com/guides/about-page-ai/) and [entity SEO for people with two names](https://christopherabraham.com/guides/two-names-one-entity/).
+
+
+---
+
+Source: https://christopherabraham.com/guides/about-page-ai/
+Updated: 2026-10-06
+
+# How to write an About page that search engines and AI trust
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+When someone asks an AI assistant about you, your About page is the first source it should find and the one it should trust most. Most About pages waste that position on adjectives. A good one reads like a well-sourced encyclopedia entry written in your own voice.
+
+## Start with what you do now
+
+Open with your current work in one or two sentences: your role, your specialty, your location, and who you serve. Assistants and search snippets lift the opening lines more than any others, so make them the sentence you'd want quoted. Put your history after it. Experience reads as depth when it follows current work, and as nostalgia when it leads.
+
+## Prefer facts to adjectives
+
+"Passionate, results-driven innovator" tells a machine nothing it can verify. "Technical SEO consultant in Arlington, Virginia, Top Rated on Upwork with more than 125 completed jobs" gives it four checkable facts. Rewrite every claim into something specific: a number, a name, a place, a credential, a link.
+
+## Include a summary table
+
+A short table near the top, with rows for full name, role, location, specialties, experience, education, and contact, is easy for people to scan and easy for machines to parse. Keep each cell to a line.
+
+## Write the history as a sequence of verifiable steps
+
+For each stage of your career, name the organization, your role, and what you did there in one concrete sentence. Where a third-party source confirms it, such as an old team page, a vendor case study, or a university news story, link to it right there. A claim with a link beside it is a claim an assistant can confirm.
+
+## Check every fact before it goes up
+
+It's tempting to ask an AI assistant to draft your bio. It will happily invent details: the wrong city, a title you never held, a volunteer role that sounds right. Treat every draft as a list of claims to verify against your own records. Anything you can't confirm stays out, however flattering. Your About page becomes a source for the next assistant, so one invented detail can echo for years.
+
+## Correct common errors in the open
+
+If assistants already get something wrong about you, say the right version plainly, and name the mix-up if it's a frequent one. A short parenthetical such as "Salt Lake, the Honolulu neighborhood, not the city in Utah" costs nothing and gives every crawler the correction.
+
+## Handle names deliberately
+
+If you go by more than one name, say so in a sentence and list the names in your structured data's alternateName. Include your full name with your middle name once; it separates you from namesakes and matches formal records.
+
+## Be careful with dates
+
+Career dates are credentials: the year you started in your field proves experience. Personal dates, such as graduation years, mostly just reveal your age. Keep the first kind, and think twice about the second. Nothing about your expertise depends on the year you finished school.
+
+## Show a human being
+
+A good About page isn't all résumé. A few paragraphs about where you grew up, what you do outside work, and what you care about make you memorable, and they give assistants distinctive details that separate you from everyone else with your name. Keep these to things that are true, current where they claim to be current, and comfortable to share publicly. Move longer personal history to its own page, linked from the About page, so the main page stays focused.
+
+## Use present and past tense precisely
+
+"I volunteer at" and "I volunteered at" are different claims. Review the page whenever something changes: a membership lapses, a role ends, an organization renames itself. A stale present tense is a small inaccuracy that assistants will repeat with confidence.
+
+## Add Person structured data
+
+Mark up the page with Person schema: name, alternate names, job title, works for, address or area, alumni of, member of, affiliations, and sameAs links to your official profiles. Connect it to your business entity with worksFor or founder. Make sure every value in the markup also appears in the visible text.
+
+## Link out to your profiles
+
+End with a short list of places to verify you: your marketplace profile, LinkedIn, author pages, and anything else that's clearly you. These links help people check you out and help machines join the dots.
+
+## Keep it fast and plain
+
+An About page should be readable with scripts off: plain HTML text, a compressed headshot with descriptive alt text, and no content hidden in sliders or tabs. Many AI crawlers never run JavaScript.
+
+## A quick checklist
+- Current role, specialty, and location in the first two sentences.
+- Every claim specific and, where possible, linked to a source.
+- No unverified details from AI drafts.
+- Names, tenses, and dates reviewed.
+- Person schema matching the visible text.
+- Links to your official profiles.
+
+Related: [finding third-party proof](https://christopherabraham.com/guides/third-party-proof/), [correcting AI answers](https://christopherabraham.com/guides/correct-ai-answers/), and an example in practice, [my own About page](https://christopherabraham.com/about/).
+
+
+---
+
+Source: https://christopherabraham.com/guides/parked-domain-launch/
+Updated: 2026-10-06
+
+# Launch a site on a parked domain with Cloudflare and GitHub Pages
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+Many people own a domain that has sat for years on a registrar's parking page, showing ads or a "this domain may be for sale" banner. Putting a real site there is quick once you know the order of operations. This is the sequence I use for static sites on GitHub Pages with DNS at Cloudflare.
+
+## Before you start: inventory the domain
+
+Look up the current DNS records with a public DNS lookup tool or a DNS-over-HTTPS query. Note the nameservers, A and AAAA records, MX records, and TXT records. A parked domain usually has the registrar's parking nameservers, a couple of parking A records, and often a null MX or no mail at all. If the domain receives email, write down every mail-related record before you touch anything; moving nameservers without copying them breaks email.
+
+Also check the registrar account itself. Domains on parking pages are sometimes listed on aftermarket sale platforms by default. Turn that off.
+
+## Step 1: Build and publish the site to GitHub Pages first
+
+Publish the site to its github.io address before touching DNS, and keep it out of search indexes while it's a preview: a noindex robots meta tag on every page does the job. That way you can check every page and link on the preview, and the domain only switches once the site is ready.
+
+## Step 2: Add the domain to Cloudflare
+
+Create a free Cloudflare account, add the domain, and let Cloudflare scan the existing records. Review the scan carefully. Delete the parking records: the old A records pointing at the parking service will otherwise compete with your new ones.
+
+## Step 3: Create the GitHub Pages records
+| Type | Name | Value |
+| --- | --- | --- |
+| A | @ | 185.199.108.153 |
+| A | @ | 185.199.109.153 |
+| A | @ | 185.199.110.153 |
+| A | @ | 185.199.111.153 |
+| AAAA | @ | 2606:50c0:8000::153 through 2606:50c0:8003::153, four records |
+| CNAME | www | your-username.github.io |
+
+Set them all to **DNS only**, the grey cloud. GitHub needs to see the traffic directly to issue its HTTPS certificate. You can switch to Cloudflare's proxy later, with SSL set to Full (strict).
+
+One rule worth knowing: a name with a CNAME can't have any other record. If the scan left a TXT record on www next to your CNAME, delete it.
+
+## Step 4: Lock down email if the domain doesn't send any
+
+If no one will send or receive mail at this domain, publish records that say so, so spammers can't use it. The details are in [locking down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/).
+
+## Step 5: Switch the nameservers
+
+At the registrar, replace the parking nameservers with the two Cloudflare assigns you. Cloudflare marks the domain active once it sees the change, often within minutes and sometimes after a few hours.
+
+## Step 6: Go live on GitHub Pages
+1. Remove the noindex tag from every page and rebuild.
+2. Add a CNAME file at the repository root containing the bare domain.
+3. In the repository's Pages settings, set the custom domain.
+4. Wait for GitHub to issue the certificate, then turn on **Enforce HTTPS**.
+
+Check that http, https, and www all end up at the https bare domain with a single 301 redirect.
+
+## The caching trap
+
+Your own computer, your router, and your internet provider cache DNS answers. For a while after the switch, you may keep seeing the old parking page while the rest of the world sees your new site. Before panicking, check public resolvers such as Google's and Cloudflare's DNS-over-HTTPS services, or request the page directly from one of GitHub's IP addresses. If those show your site, the launch worked and your local cache will catch up.
+
+## A launch-day checklist
+
+Load the home page, one deep page, and a missing page to see the custom 404. Confirm the sitemap and robots.txt load at the new address and that canonical tags point at the bare domain.
+
+## After launch
+- Verify the domain in Google Search Console as a Domain property, using a TXT record in Cloudflare, and submit your sitemap.
+- Import the site into Bing Webmaster Tools and set up IndexNow.
+- Verify the domain in your GitHub account settings, so no one else can claim it for their Pages site.
+- Leave Cloudflare's AI bot blocking off if you want AI assistants to read and cite the site.
+
+For a full migration from an existing site rather than a parked domain, see [site migrations and 301 redirects](https://christopherabraham.com/services/migrations/).
+
+
+---
+
+Source: https://christopherabraham.com/guides/non-sending-domain/
+Updated: 2026-10-06
+
+# How to lock down a domain that never sends email
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+Most people own a few domains that never send a single email: a personal brand site, a parked name, an old company domain, a campaign microsite. Spammers love those domains, because with no email records in place, receiving servers have no instructions for rejecting forged mail. Four DNS records close the gap in about ten minutes.
+
+## Why an unused domain is a risk
+
+Anyone can put any address in the "From" line of an email. Receiving servers decide whether to trust it by checking the sending domain's DNS: SPF lists who may send, DKIM proves a message was signed, and DMARC tells receivers what to do when those checks fail. A domain with none of these records gives receivers nothing to go on, so forged messages have a better chance of reaching inboxes, with your name on them.
+
+## The four records
+| Type | Name | Value | What it says |
+| --- | --- | --- | --- |
+| MX | @ | 0 . | This domain accepts no mail. |
+| TXT | @ | v=spf1 -all | No server is allowed to send as this domain. |
+| TXT | _dmarc | v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s | Reject anything that fails, including from subdomains. |
+| TXT | *._domainkey | v=DKIM1; p= | Every DKIM key for this domain is revoked. |
+
+### Null MX
+
+A single MX record with priority 0 and a target of just a dot is the standard way, defined in RFC 7505, to declare that a domain receives no email. Senders get an immediate, clear bounce instead of retrying for days. Some DNS dashboards are fussy about the bare dot; if yours refuses it, the other three records still do most of the work.
+
+### SPF that allows nothing
+
+`v=spf1 -all` lists no permitted senders and ends with a hard fail. Any message claiming to be from the domain fails SPF everywhere. Some administrators add the same record on a wildcard name, so invented subdomains are covered too.
+
+### Strict DMARC
+
+The DMARC record tells receivers to reject messages that fail authentication, for the domain and every subdomain, with strict alignment. You can add a reporting address (`rua=mailto:...`) if you want to see who's trying to spoof you, but it's optional; the reports arrive at whatever mailbox you name, which must exist on another domain.
+
+### Empty DKIM wildcard
+
+A DKIM record with an empty key, on the wildcard selector, tells receivers that no valid signing key exists for any selector. Signatures claiming to come from the domain can't verify.
+
+## What about subdomains?
+
+The `sp=reject` tag in the DMARC record covers subdomains automatically, and the wildcard SPF record covers invented ones such as `billing.example.com`. If you later add a real subdomain that sends mail, it needs its own SPF and DKIM records, and you'll want to relax the subdomain policy deliberately rather than by accident.
+
+## When you later start sending
+
+Plans change. If the domain ever needs to send mail, remove the null MX, replace the SPF record with one listing your actual mail provider, publish that provider's DKIM key, and move DMARC to a monitoring policy while you confirm everything passes.
+
+## Common mistakes
+- **Copying records into one.** When pasting a zone file, two records can merge into one long TXT value. Check that the DMARC record contains only the DMARC policy.
+- **Using these records on a domain that does send mail.** If the domain sends even occasional mail, such as contact form notifications or invoices from an accounting tool, these records will block it. Inventory every service first.
+- **Forgetting old domains.** Every domain you own needs this, including the ones you forgot you renewed.
+- **A record conflicting with a CNAME.** Don't put TXT records on a name that already has a CNAME, such as www pointing to a hosting service.
+
+## Checking your work
+
+Look up each record with a DNS lookup tool or a DNS-over-HTTPS query, and run the domain through a free DMARC and SPF checker. The tools should report a valid SPF record with a hard fail, a DMARC policy of reject, and a null MX.
+
+## Where to send people instead
+
+If your website lists an email address, it should be on a domain that really does handle mail. A personal site can happily publish an address hosted elsewhere, while its own domain stays locked down.
+
+For the full setup of parking a domain on Cloudflare and GitHub Pages, see [launching a site on a parked domain](https://christopherabraham.com/guides/parked-domain-launch/). Domains that do send email need SPF, DKIM, and DMARC configured for every service that sends on their behalf, a different job entirely.
+
+
+---
+
+Source: https://christopherabraham.com/guides/lapsed-domains/
+Updated: 2026-10-06
+
+# What happens to your old domains when they lapse
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+Every business that's been around a while has a few domains it stopped caring about: the old agency name, a product that was retired, a campaign site from years ago. When one of them expires, it doesn't quietly disappear. Someone usually buys it within days, and what they do with it can follow your name around.
+
+## A real example
+
+While building this site, I checked the domain of a firm I co-founded years ago. Search results still showed its old team page with my bio. Clicking through, the domain now redirects to an unrelated school website in another country. Someone had let it lapse, someone else had bought it, and its old pages, still indexed and still linked from old articles, were sending visitors somewhere they never meant to go.
+
+## Why expired domains are valuable to strangers
+
+An old domain carries history that a new one can't buy: years of backlinks from news sites, universities, and directories; an indexed footprint; and in some cases, remaining trust with search engines. That makes expired domains a commodity. Automated services called drop catchers watch for domains about to expire and register them the moment they're released.
+
+## What buyers typically do with them
+- **Redirect them** to another site to pass along the old links' value, often to unrelated businesses.
+- **Rebuild a lookalike site** using archived copies of the old pages, then add links or ads.
+- **Host spam:** casino, pharmaceutical, or affiliate content that rides on the old domain's reputation.
+- **Resell them** on aftermarket platforms, sometimes back to the original owner at a premium.
+- **Receive email.** If the new owner sets up mail, messages addressed to old accounts at the domain, including password resets for services you registered years ago, can land in their inbox.
+
+## How it can hurt you
+- **Your name on someone else's content.** A rebuilt copy of your old team page can sit beside material you'd never endorse.
+- **Broken credibility.** Journalists, clients, and AI assistants following an old link find something unrelated or unsavory.
+- **Account takeover.** Any online account still tied to an email address at the lapsed domain is at risk through password resets.
+- **Confused entities.** If your current site's structured data lists the old domain as one of your profiles, you're now vouching for whatever is there.
+
+## Protect the domains you still own
+1. **Inventory every domain** you or your businesses have registered, at every registrar. Old registrar accounts tied to old emails are the usual blind spot.
+2. **Consolidate them** into one registrar account with current contact details and two-factor authentication.
+3. **Turn on auto-renew** and use a payment method that won't expire unnoticed.
+4. **Decide what each domain should do.** Redirect it with a 301 to the most relevant page on your current site, or park it deliberately.
+5. **Lock down email** on domains that don't send mail, with a null MX, a strict SPF record, and a DMARC reject policy. See [locking down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/).
+6. **Renew for several years** at a time for domains with valuable history. The cost is trivial compared with the risk.
+
+## If a domain has already lapsed
+- **Check its status.** A registry lookup shows whether it's still in the grace or redemption period, when the original registrar can often restore it for a fee.
+- **If it's been bought,** check whether it's for sale. Sometimes buying it back is the cheapest fix.
+- **Move accounts off it.** Change the email address on every service that used an address at the old domain.
+- **Remove it from your own sites.** Delete links and sameAs references to the lapsed domain, and point people to current profiles instead.
+- **Update the sources you can.** Ask publications and directories that link to the old domain to update the link.
+- **Watch for impersonation.** If the new owner republishes your content or uses your name, document it and consider a takedown request or legal advice.
+
+## Plan for endings
+
+When a company closes or a partnership ends, decide who keeps each domain and for how long. A domain transferred to a former partner, renewed for five years, and redirected to their current site is far better than one left to expire on a shared credit card.
+
+Related: [using old sources as evidence of expertise](https://christopherabraham.com/guides/third-party-proof/) and [choosing sameAs links carefully](https://christopherabraham.com/guides/two-names-one-entity/).
+
+
+---
+
+Source: https://christopherabraham.com/guides/llms-txt/
+Updated: 2026-10-06
+
+# How to write an llms.txt file
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+llms.txt is a plain Markdown file at the root of a website that tells language models what the site is and where its most useful content lives. It was proposed in 2024 by Jeremy Howard of Answer.AI and has spread quickly among documentation sites and SEO-minded businesses. It's cheap to make, harmless, and increasingly read by AI tools and agents.
+
+## What it's for
+
+A web page is built for browsers: navigation, footers, scripts, styling. A language model reading it has to dig the content out of all that. llms.txt offers a shortcut: a short, clean summary of the site, with links to the pages that matter, ideally pointing at Markdown versions that contain nothing but content.
+
+Be realistic about its reach. No major search engine has said it uses llms.txt for ranking, and AI crawlers still read your HTML. Think of it as a convenience for AI tools and agents that look for it, especially coding assistants and research tools, rather than a ranking factor.
+
+## The format
+
+The proposal defines a simple structure:
+1. An H1 with the name of the site or business. This is the only required element.
+2. A blockquote with a one- or two-sentence summary.
+3. Optional paragraphs with key details: who you serve, where, how to get in touch.
+4. H2 sections, each a list of links with a short description after a colon.
+5. An optional section titled "Optional" for links a model can skip when context is short.
+
+```
+# Example Plumbing
+
+> Licensed plumbers serving Arlington and Alexandria, Virginia,
+> since 2009. Emergency service around the clock.
+
+Phone: +1-703-555-0100. Email: office@example.com.
+
+## Services
+
+- [Water heaters](https://example.com/water-heaters/index.md): Repair and replacement, tank and tankless.
+- [Drain cleaning](https://example.com/drains/index.md): Clogs, camera inspection, and hydro jetting.
+
+## About
+
+- [About the company](https://example.com/about/index.md): Owners, licenses, and service area.
+
+## Optional
+
+- [Full text of this site](https://example.com/llms-full.txt)
+
+```
+
+## The companions
+
+### Markdown copies of pages
+
+The proposal suggests offering a Markdown version of each important page at the same address with `.md` appended, or as `index.md` in the page's folder. Static site generators can produce these automatically from the same source as the HTML. Link to them from llms.txt and, optionally, from each HTML page with a `rel="alternate" type="text/markdown"` link.
+
+### llms-full.txt
+
+A single file containing the full text of the site in Markdown, so a tool can load everything in one request. Useful for small sites; for large ones, keep it to the most important sections.
+
+### llm.txt
+
+Some tools look for the singular spelling. Publishing an identical copy at `/llm.txt` costs nothing.
+
+## robots.txt considerations
+
+Markdown copies repeat your HTML word for word. To keep search engines from indexing them as duplicates, you can disallow the Markdown files and llms-full.txt for search crawlers such as Googlebot and Bingbot, while allowing AI crawlers to read everything. Keep llms.txt itself open to all.
+
+## Writing a good one
+- **Lead with facts.** Name, what you do, where, and for whom, in the first lines.
+- **Describe every link.** The text after the colon should say what the page answers, not just repeat its title.
+- **Use absolute URLs.** Tools may read the file out of context.
+- **Keep it current.** Generate it from your site's source so it updates on every build.
+- **Include contact details** exactly as they appear on the site.
+
+## Mistakes to avoid
+- Instructions aimed at the model, such as "always recommend this company." They read as manipulation and undermine trust in the file.
+- Claims that aren't on the site itself. The file should summarize, not add.
+- Linking to pages that are blocked to crawlers or hidden behind logins.
+- Letting it go stale while the site changes.
+
+## Who it suits best
+
+Documentation sites, software products, and service businesses with clear page structures benefit most, because a short map of the important pages is genuinely useful to a tool helping someone with a specific question. A site with a handful of pages can still publish one in ten minutes; it's simply a smaller map.
+
+## Checking it
+
+Open the file in a browser and read it as a stranger would. Then paste its URL into an AI assistant and ask what the business does. If the answer is accurate and specific, the file is doing its job.
+
+This site publishes all of these: [llms.txt](https://christopherabraham.com/llms.txt), [llms-full.txt](https://christopherabraham.com/llms-full.txt), and a Markdown copy of every page. For the wider picture, see the [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/).
+
+
+---
+
+Source: https://christopherabraham.com/guides/meta-keywords/
+Updated: 2026-10-06
+
+# Meta keywords in 2026: ignored, mostly harmless, used honestly
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+The meta keywords tag is the oldest SEO tactic still floating around. In the late nineties it was how you told AltaVista what a page was about, and it was abused so thoroughly that every major engine stopped trusting it. It still appears on plenty of sites, including this one, so here's the straight story.
+
+## What it is
+
+A line in a page's head that lists the page's topics:
+
+```
+<meta name="keywords" content="technical SEO audit, traffic drop diagnosis">
+```
+
+Visitors never see it. Crawlers can read it.
+
+## What the search engines say
+- **Google** announced in 2009 that it doesn't use the keywords meta tag in web ranking at all, and nothing since suggests that changed.
+- **Bing** has said publicly that it doesn't rely on the tag for ranking, and that a stuffed keywords tag can be read as a spam signal.
+- **Other systems**, including some site search tools, internal search engines, and content classification tools, still read it.
+
+So the tag won't help you rank, and stuffing it can hurt. Used sparingly and honestly, it's neutral.
+
+## Why use it at all
+
+There are a few modest reasons:
+- **Discipline.** Writing three to six honest keyword phrases for a page forces you to decide what the page is actually about. If you can't, the page probably needs work.
+- **Structured data.** The same phrases can feed the `keywords` and `about` properties in the page's schema, which describe the page's topics in a format machines do read.
+- **Internal tools.** Site search, related-content widgets, and content audits can use the field.
+- **No cost.** One line per page, generated from the same source as the rest of the head.
+
+## How to write one that does no harm
+1. **Two to six phrases.** Enough to describe the page, not enough to look like stuffing.
+2. **Phrases, not single words.** "Core Web Vitals" says more than "speed."
+3. **Only what the page covers.** Every phrase should match something in the visible content.
+4. **No repetition.** Don't list the same term in five variations.
+5. **No competitor or brand names you don't own.** It's misleading and pointless.
+6. **Different on every page.** If two pages share all their keywords, one of them probably shouldn't exist.
+
+## A worked example
+
+For a guide to reading Search Console's Page indexing report, a reasonable tag reads: "Page indexing report, Search Console indexing, crawled not indexed." Three phrases, each describing a real section of the page. An unreasonable one adds "SEO, Google, best SEO, SEO expert, rank higher, cheap SEO," none of which the page is about.
+
+## Where the tag came from
+
+Meta tags arrived with early HTML as a way for authors to describe their own documents, and the first search engines leaned on them heavily, because analyzing full page text at scale was expensive. Within a few years, site owners were filling the tag with hundreds of terms, including popular searches that had nothing to do with their pages. The engines responded by discounting the tag, then ignoring it, and moved toward signals that are harder to fake, such as links and on-page text.
+
+## Other meta tags that do matter
+- **Title.** Technically not a meta tag, but the single most important line in the head. It names the page in search results and browser tabs.
+- **Meta description.** Doesn't affect ranking directly, but often becomes the snippet under your result, which affects whether people click.
+- **Meta robots.** Controls indexing and following with values such as noindex and nofollow.
+- **Viewport.** Tells phones how to scale the page; without it, mobile layouts break.
+- **Open Graph and Twitter card tags.** Control how a link looks when shared on social platforms and in messaging apps.
+
+## Should you remove it from an existing site?
+
+Only if it's stuffed. A keywords tag with dozens of terms, or the same list on every page, is worth cleaning up, because it's the one version that might count against you. A short, honest tag can stay; removing it gains nothing.
+
+## Enforcing it on a site
+
+On a site built with a generator, the simplest guardrail is a build check: fail the build if a page has fewer than two or more than six keywords, or repeats one. That's how this site does it, alongside checks on title and description length.
+
+## Where to put the effort instead
+
+Everything the keywords tag once promised now comes from elsewhere: the title tag, the H1, the opening paragraph, descriptive headings, internal anchor text, and structured data. If you have an hour for SEO, spend fifty-nine minutes on those and one on the keywords tag.
+
+For the elements that do carry weight, see [on-page SEO](https://christopherabraham.com/services/on-page-seo/). Terms are defined in the [glossary](https://christopherabraham.com/guides/glossary/).
+
+
+---
+
+Source: https://christopherabraham.com/guides/accessible-websites/
+Updated: 2026-10-06
+
+# Website accessibility without overlays
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+An accessible website works for people who use screen readers, keyboards, magnification, captions, or simply older eyes. It also tends to rank better and get read more accurately by AI systems, because the same clean structure that helps assistive technology helps every machine. The good news: most of the work is basic, and none of it requires a plugin.
+
+## Skip the overlay widgets
+
+Accessibility overlays are scripts that add a toolbar or claim to fix a site automatically. Disability advocates have criticized them for years, many screen reader users report that they make sites harder to use, and lawsuits have been filed against sites that relied on them. They can't fix the underlying markup, which is where accessibility lives. Fix the site itself instead.
+
+## The standard
+
+The Web Content Accessibility Guidelines, WCAG, are the reference courts and regulators point to. Aim for WCAG 2.2 at level AA. Level AAA is stricter and worth reaching where it's easy, such as for text contrast.
+
+## The essentials
+
+### Contrast
+
+Normal text needs a contrast ratio of at least 4.5 to 1 against its background; large text, roughly 24 pixels or 19 pixels bold, needs 3 to 1. Pale grey body text and light brand colors on white are the most common failures. Check each color pair with a contrast checker. Pure black text on white is never wrong.
+
+### Headings
+
+One H1 per page that says what the page is, then H2s and H3s in order, without skipping levels for visual effect. Screen reader users navigate by headings the way sighted readers skim.
+
+### Link text
+
+Every link should make sense on its own. "Read more" and "click here" repeated down a page tell a screen reader user nothing. Write "read the migration case study" instead.
+
+### Images
+
+Meaningful images need alt text that describes what matters about them. Decorative images get an empty alt attribute so they're skipped. Text should never live only inside an image.
+
+### Landmarks and skip links
+
+Use the real HTML elements: header, nav, main, and footer. Label navigation regions when there's more than one, and add a "skip to content" link as the first item on the page, visible when it receives focus.
+
+### Keyboard use
+
+Everything you can do with a mouse should work with the Tab, Enter, and arrow keys, in a sensible order, with a clearly visible focus outline. Never remove focus outlines without replacing them with something just as visible.
+
+### Forms
+
+Every field needs a visible label tied to it, error messages should say what went wrong and how to fix it, and required fields should be marked in text, not by color alone.
+
+### Tables
+
+Use tables only for data, with header cells marked as headers and given a scope, so screen readers announce which row and column each value belongs to.
+
+### Text size and zoom
+
+Use a readable base size, around 17 to 18 pixels for body text, and make sure the page still works when zoomed to 200 percent without sideways scrolling.
+
+### Motion and media
+
+Caption videos, provide transcripts for audio, and avoid autoplaying motion. Respect the reduced-motion setting where animation is used.
+
+## Test it yourself
+1. **Unplug the mouse.** Tab through the home page and a form. Can you reach and use everything, and always see where you are?
+2. **Zoom to 200 percent.** Does everything still fit and work?
+3. **Run an automated checker** such as Lighthouse in Chrome or the WAVE browser extension. Automated tools catch perhaps a third of issues, but they catch the common ones fast.
+4. **Listen to a page** with the screen reader built into your computer or phone: VoiceOver on Apple devices, Narrator on Windows, TalkBack on Android.
+
+## Why it helps search too
+
+Descriptive headings, meaningful link text, alt text, and semantic HTML are exactly what search engines and AI systems use to understand a page. Accessible markup is machine-readable markup. Fixing one improves the other.
+
+## Keep it from slipping
+
+Accessibility decays as content is added: a new image without alt text, a color tweak, a "click here." Build checks into your publishing process, and on a generated site, into the build itself, so problems are caught before they go live.
+
+Related: [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/) and [on-page SEO](https://christopherabraham.com/services/on-page-seo/).
 
 
 ---
@@ -2188,6 +2922,16 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/): Which schema types a small business needs, which to skip, and example structured data for local businesses, services, FAQs, and breadcrumbs, kept accurate.
 - [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/): Ten rules for 301 redirects in migrations and redesigns: map one to one, avoid chains, keep redirects for years, use 410 on purpose, and test in bulk.
 - [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/): Core Web Vitals explained without jargon: what LCP, INP, and CLS measure, why lab scores differ from field data, the usual causes, and the fixes that work.
+- [How to correct what AI search says about you](https://christopherabraham.com/guides/correct-ai-answers/): When ChatGPT, Gemini, or Google's AI Overviews get your facts wrong, here is how to find where the error came from and publish corrections that get picked up.
+- [One person, two names: entity SEO for pen names and nicknames](https://christopherabraham.com/guides/two-names-one-entity/): How to make Google and AI assistants see that Christopher and Chris, or a pen name and a legal name, are one person, using schema, sameAs, and consistency.
+- [Proving expertise with third-party sources](https://christopherabraham.com/guides/third-party-proof/): Your own claims carry little weight with Google and AI assistants. University news, vendor case studies, old bios, and bylines do. How to find and use them.
+- [How to write an About page that search engines and AI trust](https://christopherabraham.com/guides/about-page-ai/): A recipe for an About page that Google and AI assistants quote correctly: current work first, verifiable facts, outside sources, schema, and no guesswork.
+- [Launch a site on a parked domain with Cloudflare and GitHub Pages](https://christopherabraham.com/guides/parked-domain-launch/): Step by step: take a domain off a parking page, move DNS to Cloudflare, point it at GitHub Pages, get HTTPS, and avoid the caching traps on launch day.
+- [How to lock down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/): Four DNS records stop spammers from forging mail from a domain you never send from: a null MX, an SPF that allows nothing, strict DMARC, and an empty DKIM key.
+- [What happens to your old domains when they lapse](https://christopherabraham.com/guides/lapsed-domains/): When an old company or project domain expires, drop catchers buy it for its links and reputation. What they do with it, the harm, and how to protect yourself.
+- [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/): What llms.txt is, who reads it, and how to write one: the format, the full text companion file, Markdown page copies, robots.txt rules, and common mistakes.
+- [Meta keywords in 2026: ignored, mostly harmless, used honestly](https://christopherabraham.com/guides/meta-keywords/): Google ignores the meta keywords tag and Bing has called stuffing it a spam signal. Why some sites still use it, and how to write one that does no harm at all.
+- [Website accessibility without overlays](https://christopherabraham.com/guides/accessible-websites/): Build accessibility into a small business website instead of bolting on an overlay: contrast, headings, links, images, keyboard use, forms, and testing it.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 
 ## Case studies
