@@ -34,7 +34,7 @@ The complete list, including [schema markup](https://christopherabraham.com/serv
 
 ## My Upwork record
 
-Most clients find me as [Christopher A. on Upwork](https://www.upwork.com/freelancers/~01e0480189d357dd43), where every job, hour, and rating is on the record:
+Most clients find me as [Christopher A. on Upwork](https://www.upwork.com/freelancers/chrisjabraham), where every job, hour, and rating is on the record:
 | Job Success | 100% |
 | Badge | Top Rated |
 | Total earnings | $200K+ |
@@ -76,7 +76,7 @@ More in [guides](https://christopherabraham.com/guides/), plus a [glossary of SE
 
 Send me your site's address and a sentence about what's wrong. Email [cja@well.com](mailto:cja@well.com), or call or text [+1 202-352-5051](tel:+12023525051).
 
-[Contact me](https://christopherabraham.com/contact/) [Hire me on Upwork](https://www.upwork.com/freelancers/~01e0480189d357dd43)
+[Contact me](https://christopherabraham.com/contact/) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 6, 2026
 
@@ -1822,7 +1822,7 @@ I'm an independent SEO consultant in Arlington, Virginia, across the Potomac fro
 | Based in | Arlington, Virginia 22204, United States |
 | Specialties | Technical SEO audits, indexing, JavaScript SEO, Core Web Vitals, Cloudflare, migrations and 301 redirects, schema markup, AI search (GEO and AEO), WordPress, ecommerce, and local SEO |
 | Timeline | Web development since 1994, SEO since 1998, blogging since 1999 |
-| Upwork | [Christopher A.](https://www.upwork.com/freelancers/~01e0480189d357dd43): Top Rated, 100% Job Success, $200K+ earned, 127 jobs, 4,089 hours |
+| Upwork | [Christopher A.](https://www.upwork.com/freelancers/chrisjabraham): Top Rated, 100% Job Success, $200K+ earned, 127 jobs, 4,089 hours |
 | Education | BA in American Literature, The George Washington University; a year at the University of East Anglia in Norwich, England |
 | Email | [cja@well.com](mailto:cja@well.com) |
 
@@ -1849,7 +1849,7 @@ I've been a guest lecturer at Georgetown University's School of Continuing Studi
 I studied literature, French, and German, I captained my high school speech and debate team, and I write every day. That background shows in the work: findings argued like a brief, with the strongest evidence first and nothing claimed that the data won't support. I've attended Renaissance Weekend since 2001, rowed out of the Potomac Boat Club, and volunteered as a sous chef at Miriam's Kitchen in Washington.
 
 ## Check my work
-- [My Upwork profile](https://www.upwork.com/freelancers/~01e0480189d357dd43), with job history and client feedback.
+- [My Upwork profile](https://www.upwork.com/freelancers/chrisjabraham), with job history and client feedback.
 - [Case studies](https://christopherabraham.com/case-studies/), written up with the evidence and anonymized.
 - [Guides](https://christopherabraham.com/guides/) that show how I think about indexing, audits, schema, and AI search.
 
@@ -1866,7 +1866,7 @@ Updated: 2026-10-06
 Every engagement follows the same arc: a defined question, a paid audit that answers it, a ranked plan, the fixes, and a verification pass once the fixes are live. Here's how each step works and what I need from you.
 
 ## Two ways to hire me
-- **On Upwork.** Most of my clients hire me through [my Upwork profile](https://www.upwork.com/freelancers/~01e0480189d357dd43). Upwork handles contracts, time tracking, invoicing, and payment protection for both sides. Hourly and fixed-price contracts both work there.
+- **On Upwork.** Most of my clients hire me through [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham). Upwork handles contracts, time tracking, invoicing, and payment protection for both sides. Hourly and fixed-price contracts both work there.
 - **Directly.** Email [cja@well.com](mailto:cja@well.com) and I'll send a written scope and an invoice. Direct engagements are paid in advance: the audit up front, retainers at the start of each month.
 
 ## The process
@@ -1889,7 +1889,7 @@ I keep every engagement in writing: Upwork messages, email, or your project tool
 
 ## Pricing
 
-I quote hourly or a fixed price per milestone, whichever fits the job. Audits are scoped and priced before they start, so you know the cost of an answer before you commit to it. Retainers cover a set number of hours each month with a monthly report. My current hourly rate is on [my Upwork profile](https://www.upwork.com/freelancers/~01e0480189d357dd43).
+I quote hourly or a fixed price per milestone, whichever fits the job. Audits are scoped and priced before they start, so you know the cost of an answer before you commit to it. Retainers cover a set number of hours each month with a monthly report. My current hourly rate is on [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## What I sell, and what nobody can
 
@@ -1968,9 +1968,9 @@ Updated: 2026-10-06
 Send me your site's address and a few lines about what's happening. I'll reply with my first read and the questions I'd want answered.
 - Email: [cja@well.com](mailto:cja@well.com)
 - Call or text: [+1 202-352-5051](tel:+12023525051)
-- Upwork: [Christopher A., Top Rated SEO consultant](https://www.upwork.com/freelancers/~01e0480189d357dd43)
+- Upwork: [Christopher A., Top Rated SEO consultant](https://www.upwork.com/freelancers/chrisjabraham)
 
-[Email me about your site](mailto:cja@well.com?subject=SEO%20help&body=Website%3A%0A%0AWhat%27s%20happening%3A%0A%0AWhen%20it%20started%3A%0A%0ABudget%3A%0A) [Hire me on Upwork](https://www.upwork.com/freelancers/~01e0480189d357dd43)
+[Email me about your site](mailto:cja@well.com?subject=SEO%20help&body=Website%3A%0A%0AWhat%27s%20happening%3A%0A%0AWhen%20it%20started%3A%0A%0ABudget%3A%0A) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 ## A good first message includes
 - The website address and the platform it runs on, if you know it: WordPress, Shopify, Magento, Webflow, a custom React or Next.js build, or something else.

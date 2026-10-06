@@ -7,9 +7,9 @@
 Send me your site's address and a few lines about what's happening. I'll reply with my first read and the questions I'd want answered.
 - Email: [cja@well.com](mailto:cja@well.com)
 - Call or text: [+1 202-352-5051](tel:+12023525051)
-- Upwork: [Christopher A., Top Rated SEO consultant](https://www.upwork.com/freelancers/~01e0480189d357dd43)
+- Upwork: [Christopher A., Top Rated SEO consultant](https://www.upwork.com/freelancers/chrisjabraham)
 
-[Email me about your site](mailto:cja@well.com?subject=SEO%20help&body=Website%3A%0A%0AWhat%27s%20happening%3A%0A%0AWhen%20it%20started%3A%0A%0ABudget%3A%0A) [Hire me on Upwork](https://www.upwork.com/freelancers/~01e0480189d357dd43)
+[Email me about your site](mailto:cja@well.com?subject=SEO%20help&body=Website%3A%0A%0AWhat%27s%20happening%3A%0A%0AWhen%20it%20started%3A%0A%0ABudget%3A%0A) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 ## A good first message includes
 - The website address and the platform it runs on, if you know it: WordPress, Shopify, Magento, Webflow, a custom React or Next.js build, or something else.

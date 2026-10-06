@@ -12,7 +12,7 @@ I'm an independent SEO consultant in Arlington, Virginia, across the Potomac fro
 | Based in | Arlington, Virginia 22204, United States |
 | Specialties | Technical SEO audits, indexing, JavaScript SEO, Core Web Vitals, Cloudflare, migrations and 301 redirects, schema markup, AI search (GEO and AEO), WordPress, ecommerce, and local SEO |
 | Timeline | Web development since 1994, SEO since 1998, blogging since 1999 |
-| Upwork | [Christopher A.](https://www.upwork.com/freelancers/~01e0480189d357dd43): Top Rated, 100% Job Success, $200K+ earned, 127 jobs, 4,089 hours |
+| Upwork | [Christopher A.](https://www.upwork.com/freelancers/chrisjabraham): Top Rated, 100% Job Success, $200K+ earned, 127 jobs, 4,089 hours |
 | Education | BA in American Literature, The George Washington University; a year at the University of East Anglia in Norwich, England |
 | Email | [cja@well.com](mailto:cja@well.com) |
 
@@ -39,7 +39,7 @@ I've been a guest lecturer at Georgetown University's School of Continuing Studi
 I studied literature, French, and German, I captained my high school speech and debate team, and I write every day. That background shows in the work: findings argued like a brief, with the strongest evidence first and nothing claimed that the data won't support. I've attended Renaissance Weekend since 2001, rowed out of the Potomac Boat Club, and volunteered as a sous chef at Miriam's Kitchen in Washington.
 
 ## Check my work
-- [My Upwork profile](https://www.upwork.com/freelancers/~01e0480189d357dd43), with job history and client feedback.
+- [My Upwork profile](https://www.upwork.com/freelancers/chrisjabraham), with job history and client feedback.
 - [Case studies](https://christopherabraham.com/case-studies/), written up with the evidence and anonymized.
 - [Guides](https://christopherabraham.com/guides/) that show how I think about indexing, audits, schema, and AI search.
 
