@@ -69,6 +69,6 @@ More in [guides](https://christopherabraham.com/guides/), plus a [glossary of SE
 
 Send me your site's address and a sentence about what's wrong. Email [cja@well.com](mailto:cja@well.com), or call or text [+1 202-352-5051](tel:+12023525051).
 
-[Contact me](https://christopherabraham.com/contact/) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+[Contact me](https://christopherabraham.com/contact/) [Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 6, 2026

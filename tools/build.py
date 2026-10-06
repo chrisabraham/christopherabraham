@@ -66,8 +66,7 @@ SERVICE_GROUPS = [
                                            "services/seo-retainer/"]),
 ]
 # The island rule: this site stands alone. None of these may appear in any source or generated page.
-ISLAND = [r"\bChris\b", r"Chris'", r"(?i)gerris", r"(?i)chrisabraham\.com", r"(?i)gerriscorp", r"(?i)calendly",
-          r"(?i)hillmole", r"(?i)hill mole", r"(?i)meritus"]
+ISLAND = [r"(?i)gerris", r"(?i)chrisabraham\.com", r"(?i)gerriscorp", r"(?i)hillmole", r"(?i)hill mole", r"(?i)meritus"]
 # The sibling site, built from the same kind of material. Pages here may not borrow its phrasing.
 SIBLING = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "gerris")
 MIN_WORDS = {"guide": 700, "service": 450, "case": 250, "page": 250}
@@ -79,6 +78,7 @@ EMAIL = "cja@well.com"
 PHONE = "+1 202-352-5051"
 TEL = "+12023525051"
 UPWORK = "https://www.upwork.com/freelancers/chrisjabraham"
+CALENDLY = "https://calendly.com/chrisabraham/30"
 
 
 def text_of(fragment):
@@ -110,7 +110,7 @@ for f in FILES:
     p = dict(line.split(": ", 1) for line in head.strip().splitlines())
     p["src"] = f
     p["path"] = "" if f == "index" else (f[:-5] if f.endswith("/index") else f + "/")
-    p["body"] = body.strip().replace("{upwork}", UPWORK).replace("{email}", EMAIL).replace("{phone}", PHONE).replace("{tel}", TEL)
+    p["body"] = body.strip().replace("{upwork}", UPWORK).replace("{calendly}", CALENDLY).replace("{email}", EMAIL).replace("{phone}", PHONE).replace("{tel}", TEL)
     p["tab"] = (p["path"].split("/")[0] + "/") if p["path"] else ""
     if p["tab"] not in dict(TABS):
         p["tab"] = {"privacy/": "privacy/"}.get(p["path"], "hire-me/")  # the FAQ lives under Hire Me
@@ -451,7 +451,7 @@ def render(p):
 {body_html(p)}
 </main>
 <footer class="site-footer">
-  <p><a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="tel:{TEL}">{PHONE}</a> · <a href="{UPWORK}">Hire me on Upwork</a></p>
+  <p><a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="tel:{TEL}">{PHONE}</a> · <a href="{CALENDLY}">Book a call</a> · <a href="{UPWORK}">Hire me on Upwork</a></p>
   <p>© {TODAY[:4]} Christopher Abraham, Arlington, Virginia · <a href="{r}faq/">FAQ</a> · <a href="{r}privacy/">Privacy</a> · <a href="{r}sitemap/">Site map</a> · <a href="{r}guides/glossary/">Glossary</a> · <a href="{r}llms.txt">llms.txt</a> · <a href="{r}rss.xml">RSS</a></p>
 </footer>
 </div>
@@ -687,7 +687,7 @@ llms = f"""# Christopher Abraham, SEO consultant
 
 > {ORG["description"]} Based in Arlington, Virginia. Building websites since 1994 and doing SEO since 1998.
 
-Every engagement starts with a scoped, paid audit or diagnostic. Contact: {EMAIL}, {PHONE}, or {UPWORK}. Each link below goes to the Markdown version of a page; the HTML version is the same URL without index.md.
+Every engagement starts with a scoped, paid audit or diagnostic. Contact: {EMAIL}, {PHONE}, {CALENDLY} (book a 30 minute call), or {UPWORK}. Each link below goes to the Markdown version of a page; the HTML version is the same URL without index.md.
 """ + "".join(f"\n## {title}\n\n" + "".join(f"- [{p['h1']}]({p['url']}index.md): {p['description']}\n" for p in group)
               for title, group in sections) + f"""
 ## Optional

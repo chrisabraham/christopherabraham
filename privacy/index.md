@@ -20,7 +20,7 @@ GitHub Pages serves the site. GitHub's servers receive the connecting IP address
 
 ## Everything else on the page
 
-Pages, images, and styles all load from this domain. There are no embedded videos, social buttons, third-party fonts, or pixels. Outbound links, such as the one to Upwork, lead to sites with their own policies.
+Pages, images, and styles all load from this domain. There are no embedded videos, social buttons, third-party fonts, or pixels. Outbound links, such as those to Upwork and Calendly, lead to sites with their own policies.
 
 ## Messages and calls
 
