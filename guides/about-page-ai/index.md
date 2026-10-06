@@ -69,3 +69,10 @@ An About page should be readable with scripts off: plain HTML text, a compressed
 - Links to your official profiles.
 
 Related: [finding third-party proof](https://christopherabraham.com/guides/third-party-proof/), [correcting AI answers](https://christopherabraham.com/guides/correct-ai-answers/), and an example in practice, [my own About page](https://christopherabraham.com/about/).
+
+## Sources
+- [Google Search Central: Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+- [Google Search Quality Rater Guidelines (PDF)](https://services.google.com/fh/files/misc/hsw-sqrg.pdf)
+- [Schema.org: Person](https://schema.org/Person)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)

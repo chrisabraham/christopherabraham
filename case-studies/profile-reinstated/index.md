@@ -30,4 +30,6 @@ Google restored the profile in February 2025.
 
 Google gives no timetable and no guarantee for appeals, and two cases that look alike can end differently. For that reason a suspension now starts with a paid written assessment: the likely trigger, the proof Google will expect, and an honest view of the odds. If an appeal makes sense, it's quoted on its own. I take the same approach with harder situations, like duplicate records, listings stranded with a former agency, or an established listing that should be repaired rather than replaced. See [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/).
 
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

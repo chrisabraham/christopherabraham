@@ -65,3 +65,10 @@ Save a copy of every source you find, with the URL and the date. Pages disappear
 The best time to collect third-party proof was years ago; the second best is now. Write for publications in your field, speak where talks are published, contribute to projects that credit contributors, and ask satisfied clients for testimonials you're allowed to attribute. Each one becomes a source that confirms you to the next reader, human or machine.
 
 Related: [an About page AI trusts](https://christopherabraham.com/guides/about-page-ai/) and [entity SEO for people with two names](https://christopherabraham.com/guides/two-names-one-entity/).
+
+## Sources
+- [Google Search Quality Rater Guidelines (PDF)](https://services.google.com/fh/files/misc/hsw-sqrg.pdf)
+- [Google Search Central: Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+- [Internet Archive: Wayback Machine](https://web.archive.org/)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)

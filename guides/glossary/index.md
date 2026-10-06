@@ -111,3 +111,5 @@ A permanent forwarding instruction from an old address to a new one, which passe
 A machine-readable list of the addresses a site wants crawled, often with the date each last changed.
 
 These terms are used throughout the [guides](https://christopherabraham.com/guides/) and [services](https://christopherabraham.com/services/) pages.
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)

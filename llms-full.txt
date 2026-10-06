@@ -36,7 +36,7 @@ The complete list, including [schema markup](https://christopherabraham.com/serv
 
 ## My Upwork record
 
-Most clients find me as [Christopher A. on Upwork](https://www.upwork.com/freelancers/chrisjabraham), where every job, hour, and rating is on the record:
+Most clients find me as [Christopher A. on Upwork](https://www.upwork.com/freelancers/chrisjabraham), where every job, hour, and rating is on the record. Figures as of October 2026:
 | Job Success | 100% |
 | Badge | Top Rated |
 | Total earnings | $200K+ |
@@ -870,6 +870,13 @@ Bing Webmaster Tools has its own URL Inspection and index coverage reports. When
 
 If the cause isn't obvious after a few inspections, or if important pages keep falling out, a structured diagnosis saves time. See [indexing repair](https://christopherabraham.com/services/indexing/), or a real example where [a consent tool caused the exclusions](https://christopherabraham.com/case-studies/consent-banner/).
 
+## Sources
+- [Search Console Help: Page indexing report](https://support.google.com/webmasters/answer/7440203)
+- [Google Search Central: How to specify a canonical URL](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)
+- [Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 
 ---
 
@@ -935,6 +942,15 @@ Googlebot renders JavaScript. Most AI crawlers don't. If the answer isn't in the
 If you only do three things this month, make them these: confirm crawlers can reach you, confirm your main content is in the HTML, and make your About page and Organization schema say exactly who you are. Everything else builds on those.
 
 For help running the checklist against your own site, see [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/). Terms used here are defined in the [glossary](https://christopherabraham.com/guides/glossary/).
+
+## Sources
+- [Google Search Central: AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)
+- [OpenAI: Overview of OpenAI crawlers](https://platform.openai.com/docs/bots)
+- [Google Search Central: Introduction to robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro)
+- [The llms.txt proposal](https://llmstxt.org/)
+- [IndexNow](https://www.indexnow.org/)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 
 ---
@@ -1010,6 +1026,13 @@ The audit's value shows up when fixes ship. Ask whether the auditor will verify 
 6. Will you verify the fixes?
 
 My own approach is described under [technical SEO audit](https://christopherabraham.com/services/seo-audit/). A worked example: [the scroll-gated product pages case](https://christopherabraham.com/case-studies/scroll-gated-products/).
+
+## Sources
+- [Google Search Central: Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+- [Google Search Central: SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
+- [Google Search Quality Rater Guidelines (PDF)](https://services.google.com/fh/files/misc/hsw-sqrg.pdf)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 
 ---
@@ -1122,6 +1145,13 @@ With more than one location, the home page describes the Organization, and each 
 
 For help with markup that validates and stays accurate, see [schema markup and entity SEO](https://christopherabraham.com/services/schema/).
 
+## Sources
+- [Google Search Central: Introduction to structured data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data)
+- [Google Search Central: Local business structured data](https://developers.google.com/search/docs/appearance/structured-data/local-business)
+- [Schema.org: Person](https://schema.org/Person)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 
 ---
 
@@ -1188,6 +1218,13 @@ Before launch, run the full old URL list against staging and confirm each return
 Migrations are a common moment to review backlinks. Disavow only genuinely manipulative or spammy links, and keep legitimate ones; disavowing good links throws away the equity your redirects are trying to preserve.
 
 For a full move, see [site migrations and 301 redirects](https://christopherabraham.com/services/migrations/), or [a clinic's redirect decisions URL by URL](https://christopherabraham.com/case-studies/clinic-migration/).
+
+## Sources
+- [Google Search Central: Redirects and Google Search](https://developers.google.com/search/docs/crawling-indexing/301-redirects)
+- [Google Search Central: Site moves with URL changes](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes)
+- [Google Search Central: How to specify a canonical URL](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 
 ---
@@ -1262,6 +1299,12 @@ Core Web Vitals won't lift weak content above strong content. But between compar
 
 For hands-on help, see [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/). Terms are defined in the [glossary](https://christopherabraham.com/guides/glossary/).
 
+## Sources
+- [Google Search Central: Understanding Core Web Vitals and Google search results](https://developers.google.com/search/docs/appearance/core-web-vitals)
+- [web.dev: Web Vitals](https://web.dev/articles/vitals)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 
 ---
 
@@ -1325,6 +1368,13 @@ Keep the same question set and run it once a month. Track which errors disappear
 - Don't flood the web with thin pages repeating your name. A few strong, consistent sources beat dozens of weak ones.
 
 For businesses, the full approach is under [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/). For people, the companion guides are [one person, two names](https://christopherabraham.com/guides/two-names-one-entity/) and [writing an About page AI trusts](https://christopherabraham.com/guides/about-page-ai/).
+
+## Sources
+- [Google Search Central: AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)
+- [Google Search Central: Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+- [Schema.org: Person](https://schema.org/Person)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 
 ---
@@ -1404,6 +1454,12 @@ A few weeks after publishing, search each name with your field and city, and ask
 
 Related: [correcting what AI says about you](https://christopherabraham.com/guides/correct-ai-answers/), [proving expertise with third-party sources](https://christopherabraham.com/guides/third-party-proof/), and [schema markup and entity SEO](https://christopherabraham.com/services/schema/).
 
+## Sources
+- [Schema.org: Person](https://schema.org/Person)
+- [Google Search Central: Introduction to structured data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 
 ---
 
@@ -1473,6 +1529,13 @@ Save a copy of every source you find, with the URL and the date. Pages disappear
 The best time to collect third-party proof was years ago; the second best is now. Write for publications in your field, speak where talks are published, contribute to projects that credit contributors, and ask satisfied clients for testimonials you're allowed to attribute. Each one becomes a source that confirms you to the next reader, human or machine.
 
 Related: [an About page AI trusts](https://christopherabraham.com/guides/about-page-ai/) and [entity SEO for people with two names](https://christopherabraham.com/guides/two-names-one-entity/).
+
+## Sources
+- [Google Search Quality Rater Guidelines (PDF)](https://services.google.com/fh/files/misc/hsw-sqrg.pdf)
+- [Google Search Central: Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+- [Internet Archive: Wayback Machine](https://web.archive.org/)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 
 ---
@@ -1548,6 +1611,13 @@ An About page should be readable with scripts off: plain HTML text, a compressed
 
 Related: [finding third-party proof](https://christopherabraham.com/guides/third-party-proof/), [correcting AI answers](https://christopherabraham.com/guides/correct-ai-answers/), and an example in practice, [my own About page](https://christopherabraham.com/about/).
 
+## Sources
+- [Google Search Central: Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+- [Google Search Quality Rater Guidelines (PDF)](https://services.google.com/fh/files/misc/hsw-sqrg.pdf)
+- [Schema.org: Person](https://schema.org/Person)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 
 ---
 
@@ -1620,6 +1690,12 @@ Load the home page, one deep page, and a missing page to see the custom 404. Con
 
 For a full migration from an existing site rather than a parked domain, see [site migrations and 301 redirects](https://christopherabraham.com/services/migrations/).
 
+## Sources
+- [GitHub Docs: Managing a custom domain for your GitHub Pages site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
+- [Cloudflare Docs: Full DNS setup](https://developers.cloudflare.com/dns/zone-setups/full-setup/)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 
 ---
 
@@ -1684,6 +1760,13 @@ If your website lists an email address, it should be on a domain that really doe
 
 For the full setup of parking a domain on Cloudflare and GitHub Pages, see [launching a site on a parked domain](https://christopherabraham.com/guides/parked-domain-launch/). Domains that do send email need SPF, DKIM, and DMARC configured for every service that sends on their behalf, a different job entirely.
 
+## Sources
+- [RFC 7505: A "Null MX" No Service Resource Record](https://www.rfc-editor.org/rfc/rfc7505)
+- [RFC 7208: Sender Policy Framework (SPF)](https://www.rfc-editor.org/rfc/rfc7208)
+- [RFC 7489: Domain-based Message Authentication, Reporting, and Conformance (DMARC)](https://www.rfc-editor.org/rfc/rfc7489)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 
 ---
 
@@ -1738,6 +1821,12 @@ An old domain carries history that a new one can't buy: years of backlinks from 
 When a company closes or a partnership ends, decide who keeps each domain and for how long. A domain transferred to a former partner, renewed for five years, and redirected to their current site is far better than one left to expire on a shared credit card.
 
 Related: [using old sources as evidence of expertise](https://christopherabraham.com/guides/third-party-proof/) and [choosing sameAs links carefully](https://christopherabraham.com/guides/two-names-one-entity/).
+
+## Sources
+- [ICANN: gTLD lifecycle](https://www.icann.org/resources/pages/gtld-lifecycle-2012-02-25-en)
+- [Internet Archive: Wayback Machine](https://web.archive.org/)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 
 ---
@@ -1830,6 +1919,13 @@ Open the file in a browser and read it as a stranger would. Then paste its URL i
 
 This site publishes all of these: [llms.txt](https://christopherabraham.com/llms.txt), [llms-full.txt](https://christopherabraham.com/llms-full.txt), and a Markdown copy of every page. For the wider picture, see the [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/).
 
+## Sources
+- [The llms.txt proposal](https://llmstxt.org/)
+- [Google Search Central: Introduction to robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro)
+- [OpenAI: Overview of OpenAI crawlers](https://platform.openai.com/docs/bots)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 
 ---
 
@@ -1903,6 +1999,13 @@ On a site built with a generator, the simplest guardrail is a build check: fail 
 Everything the keywords tag once promised now comes from elsewhere: the title tag, the H1, the opening paragraph, descriptive headings, internal anchor text, and structured data. If you have an hour for SEO, spend fifty-nine minutes on those and one on the keywords tag.
 
 For the elements that do carry weight, see [on-page SEO](https://christopherabraham.com/services/on-page-seo/). Terms are defined in the [glossary](https://christopherabraham.com/guides/glossary/).
+
+## Sources
+- [Google Search Central Blog: Google does not use the keywords meta tag in web ranking (2009)](https://developers.google.com/search/blog/2009/09/google-does-not-use-keywords-meta-tag)
+- [Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a)
+- [Google Search Central: SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 
 ---
@@ -1981,6 +2084,14 @@ Descriptive headings, meaningful link text, alt text, and semantic HTML are exac
 Accessibility decays as content is added: a new image without alt text, a color tweak, a "click here." Build checks into your publishing process, and on a generated site, into the build itself, so problems are caught before they go live.
 
 Related: [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/) and [on-page SEO](https://christopherabraham.com/services/on-page-seo/).
+
+## Sources
+- [W3C: Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)
+- [W3C: Understanding contrast (minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)
+- [W3C: Easy checks, a first review of web accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
+- [Overlay Fact Sheet](https://overlayfactsheet.com/)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 
 ---
@@ -2098,6 +2209,8 @@ A machine-readable list of the addresses a site wants crawled, often with the da
 
 These terms are used throughout the [guides](https://christopherabraham.com/guides/) and [services](https://christopherabraham.com/services/) pages.
 
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 
 ---
 
@@ -2168,6 +2281,8 @@ During the same months, a burst of spam backlinks from cloud-hosting ranges arri
 
 Page weight and word count can disagree wildly. When a heavy page yields little text to a crawler, look for content waiting on an interaction that bots never perform. More on this pattern under [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/).
 
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026
 
 
@@ -2209,6 +2324,8 @@ Side-by-side browser sessions, one consenting and one not, showed the tabs empty
 
 Consent platforms are installed by legal and marketing teams and almost never tested against crawlers. If your site uses one, load a page with consent declined and check what's left. See [reading the Page indexing report](https://christopherabraham.com/guides/page-indexing-report/).
 
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026
 
 
@@ -2242,6 +2359,8 @@ Every item had a test anyone could run, for example "event links appear in the s
 ## The takeaway
 
 Good pages can still be invisible if nothing links to them in a way crawlers understand. Real links in real HTML remain the foundation of discovery. More under [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/).
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 6, 2026
 
@@ -2280,6 +2399,8 @@ On headless sites, SEO lives in templates, routes, and build settings. Working t
 
 Core fixes are live and verified, with a final audit under way. See [JavaScript and headless SEO](https://christopherabraham.com/services/javascript-seo/).
 
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026
 
 
@@ -2311,6 +2432,8 @@ Blurry images from the image CDN, script and stylesheet errors, instability, and
 ## The point
 
 Migrations rarely fail on launch day. They fail weeks later, through media still on the old host, missing redirects, and stories told too early. Read my [rules for 301 redirects](https://christopherabraham.com/guides/redirect-rules/) or see [migration services](https://christopherabraham.com/services/migrations/).
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 6, 2026
 
@@ -2348,6 +2471,8 @@ The audit and the first product pass are delivered. Remaining items, including t
 
 A platform move isn't finished when the new store launches. It's finished when every old URL lands somewhere useful and the new theme's markup is checked rather than trusted. See [ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/).
 
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026
 
 
@@ -2383,6 +2508,8 @@ Because the site is built by developers, fixes go through the repository. Seeing
 
 Ongoing. I'm not claiming recovery numbers here; at this scale, indexing moves over weeks and months, and honest reporting means waiting for the trend. See [indexing repair](https://christopherabraham.com/services/indexing/).
 
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026
 
 
@@ -2417,6 +2544,8 @@ I tracked several indicators over time rather than trusting one dashboard, and t
 ## Status
 
 Recovery checks continue, with redirects, merchant structured data, and crawler policy as possible next steps. Related: [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/) and [Search Console setup](https://christopherabraham.com/services/search-console/).
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 6, 2026
 
@@ -2464,6 +2593,8 @@ When every page and listing describes the business the same way, search engines 
 
 Delivered. See [schema markup and entity SEO](https://christopherabraham.com/services/schema/) and [local SEO](https://christopherabraham.com/services/local-seo/).
 
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026
 
 
@@ -2499,6 +2630,8 @@ Google restored the profile in February 2025.
 ## How I handle these now
 
 Google gives no timetable and no guarantee for appeals, and two cases that look alike can end differently. For that reason a suspension now starts with a paid written assessment: the likely trigger, the proof Google will expect, and an honest view of the odds. If an appeal makes sense, it's quoted on its own. I take the same approach with harder situations, like duplicate records, listings stranded with a former agency, or an established listing that should be repaired rather than replaced. See [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/).
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 6, 2026
 
@@ -2540,6 +2673,8 @@ Careers questions are a clean test of AI visibility because the facts are specif
 
 Recommendations delivered; the engagement is paused. See [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/) or the [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/).
 
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026
 
 
@@ -2565,7 +2700,7 @@ I'm an independent SEO consultant in Arlington, Virginia, across the Potomac fro
 | Based in | Arlington, Virginia 22204, United States |
 | Specialties | Technical SEO audits, indexing, JavaScript SEO, Core Web Vitals, Cloudflare, migrations and 301 redirects, schema markup, AI search (GEO and AEO), WordPress, ecommerce, and local SEO |
 | Timeline | Web development since 1994, SEO since 1998, blogging since 1999 |
-| Upwork | [Christopher A.](https://www.upwork.com/freelancers/chrisjabraham): Top Rated, 100% Job Success, $200K+ earned, 127 jobs, 4,089 hours |
+| Upwork | [Christopher A.](https://www.upwork.com/freelancers/chrisjabraham): Top Rated, 100% Job Success, $200K+ earned, 127 jobs, 4,089 hours (as of October 2026) |
 | Education | BA in American Literature, The George Washington University; a year at the University of East Anglia in Norwich, England |
 | Email | [cja@well.com](mailto:cja@well.com) |
 
@@ -2691,6 +2826,57 @@ I've been a guest lecturer at Georgetown, GW, American University, the Universit
 I spent a good part of my career on the bleeding edge: online events before anyone had heard of webinars, hyperfiction before e-lit had a name, memes before they were jokes, reputation management before it was an industry. These days I'm happy on the bleedy edge, early enough to put new tools to work for clients and seasoned enough to know which ones have earned it.
 
 A polymath is a big word for a modest man, so I'll settle for generalist with a specialty. Literature taught me to read closely, photography taught me to notice what's in the frame and what isn't, rowing taught me that nothing moves unless everyone pulls together, and the lodge taught me patience with ritual and process. All of it shows up when I'm looking at your site. Back to the [work side of my story](https://christopherabraham.com/about/), or [say hello](https://christopherabraham.com/contact/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/about/editorial-policy/
+Updated: 2026-10-06
+
+# How these pages are written and checked
+
+Everything on this site is published by me, Christopher Abraham, and I'm responsible for every word of it. Here's how the guides, case studies, and service pages are made, so you can decide how much to trust them.
+
+## Written from the work
+
+The case studies describe engagements I worked on myself: the problem, my role, what I found, what was done and by whom, and where it stands. The guides come from the same work. When I explain how to read the Page indexing report or how to lock down a domain that sends no email, it's because I've done it for clients or for my own sites, often in the same week.
+
+## Primary sources for every factual claim
+
+Where a guide states how Google, Bing, a standard, or a protocol behaves, it links to the primary documentation: Google Search Central, Bing Webmaster Guidelines, the W3C's accessibility standards, the RFCs that define email records, and the specifications for files like llms.txt. Those links are listed under "Sources" at the end of each guide, and in the page's structured data as citations. When the official documentation and common practice disagree, I say so.
+
+## How I use AI tools
+
+I use AI assistants the way I'd use a capable junior colleague: to draft outlines and first passes, to check code and markup, and to build and test this site's generator. I don't publish anything they produce until I've read it, corrected it, and checked its claims. Two rules are absolute:
+- **Personal and biographical details come only from my own records** and verifiable published sources, never from an AI summary. AI search tools have confidently told the world things about me that aren't true, and none of those get a second life here.
+- **Technical claims are checked against primary documentation**, not against what an assistant remembers.
+
+## Clients and confidentiality
+
+Case studies describe clients by industry and problem, never by name, and leave out anything that could identify them: addresses, revenue, account details, and screenshots of private dashboards. Where a client's engagement is ongoing or paused, the case study says so. I don't claim results I can't show, and I don't round up.
+
+## Quotes and testimonials
+
+Quotes from clients and colleagues are reproduced as written, with attribution. Where I've shortened a quote, an ellipsis marks the cut. Upwork figures, such as my Job Success Score and job counts, are copied from my profile with the date they were taken, and the profile itself is linked so anyone can check the current numbers.
+
+## Independence
+- No affiliate links, sponsored posts, or paid placements, anywhere on the site.
+- Tools and platforms are named because I use them or because clients run on them, not because anyone pays me to mention them.
+- The firms I'm affiliated with are named on the About page, so you can weigh any recommendation with that in mind.
+
+## Dates and updates
+
+Every guide shows when it was published and when it was last updated. Search changes quickly, so I revise guides when Google, Bing, or a standard changes, and the updated date moves with the revision. Pages describing my own memberships and activities use past and present tense carefully, and I correct them when something changes.
+
+## Corrections
+
+If you find an error, email [cja@well.com](mailto:cja@well.com) with the page and what's wrong. I'll check it against the source, fix it if you're right, and update the page's date. Significant corrections to a guide are noted on the guide itself.
+
+## Who's behind the site
+
+This is a one-person practice. My background, credentials, and the third-party sources that confirm them are on the [About page](https://christopherabraham.com/about/), and the life behind the work is [off the clock](https://christopherabraham.com/about/off-the-clock/). You can also find me on [Upwork](https://www.upwork.com/freelancers/chrisjabraham) and [LinkedIn](https://www.linkedin.com/in/chrisabraham), or [get in touch directly](https://christopherabraham.com/contact/).
 
 Updated October 6, 2026
 
