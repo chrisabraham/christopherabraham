@@ -49,7 +49,7 @@ I've been a guest lecturer at Georgetown University's School of Continuing Studi
 
 ## Outside work
 
-I studied literature, French, and German, I captained my high school speech and debate team, and I write every day. That background shows in the work: findings argued like a brief, with the strongest evidence first and nothing claimed that the data won't support. I'm a longtime Renaissance Weekend participant, have rowed out of the Potomac Boat Club, and volunteered as a sous chef at Miriam's Kitchen in Washington.
+I studied literature, French, and German, I captained my high school speech and debate team, and I write every day. That background shows in the work: findings argued like a brief, with the strongest evidence first and nothing claimed that the data won't support. I'm a longtime member of Renaissance Weekend, have rowed out of the Potomac Boat Club, and spent years volunteering as a sous chef at Miriam's Kitchen in Washington.
 
 ## Published as Chris Abraham
 
@@ -60,7 +60,7 @@ Most people know me as Chris, and nearly two decades of my bylines carry that na
 - [Muck Rack](https://muckrack.com/chrisabraham), which collects my articles across publications.
 - Earlier columns for Advertising Age's DigitalNext, Socialmedia.biz, and Marketing Conversation.
 
-There's more to the story than search: Honolulu, crew, Freemasonry, Renaissance Weekend, and Miriam's Kitchen. It's all [off the clock](https://christopherabraham.com/about/off-the-clock/).
+There's more to the story than search: Honolulu, crew, Freemasonry, hyperfiction, Renaissance Weekend, and a Reddit community of slow joggers. It's all [off the clock](https://christopherabraham.com/about/off-the-clock/).
 
 ## Check my work
 - [My Upwork profile](https://www.upwork.com/freelancers/chrisjabraham), with job history and client feedback.
