@@ -275,7 +275,6 @@ PERSON = {
                      "description": "Senior-led brand, PR, web, and growth firm"}],
     "memberOf": [{"@type": "Organization", "name": "Naval Lodge No. 4, F.A.A.M.", "description": "Masonic lodge on Capitol Hill, Washington, DC, chartered 1805"},
                  {"@type": "Organization", "name": "Scottish Rite of Freemasonry, Southern Jurisdiction", "description": "32nd degree"},
-                 {"@type": "SportsOrganization", "name": "Potomac Boat Club", "description": "Rowing club in Washington, DC, founded 1869"},
                  {"@type": "Organization", "name": "Phi Kappa Psi, DC Alpha chapter", "description": "Founding father"},
                  {"@type": "Organization", "name": "The WELL", "url": "https://www.well.com/"}],
     "award": ["Top Rated on Upwork"],
