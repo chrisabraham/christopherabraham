@@ -38,8 +38,18 @@ I've been a guest lecturer at Georgetown University's School of Continuing Studi
 
 I studied literature, French, and German, I captained my high school speech and debate team, and I write every day. That background shows in the work: findings argued like a brief, with the strongest evidence first and nothing claimed that the data won't support. I've attended Renaissance Weekend since 2001, rowed out of the Potomac Boat Club, and volunteered as a sous chef at Miriam's Kitchen in Washington.
 
+## Published as Chris Abraham
+
+Most people know me as Chris, and nearly two decades of my bylines carry that name. Christopher Abraham and Chris Abraham are the same person:
+- [LinkedIn](https://www.linkedin.com/in/chrisabraham), with my full work history.
+- [My Biznology column](https://biznology.com/author/chrisabraham/), a weekly marketing and search column for years.
+- [The Huffington Post](https://www.huffpost.com/author/chris-abraham), where I wrote as a contributor.
+- [Muck Rack](https://muckrack.com/chrisabraham), which collects my articles across publications.
+- Earlier columns for Advertising Age's DigitalNext, Socialmedia.biz, and Marketing Conversation.
+
 ## Check my work
 - [My Upwork profile](https://www.upwork.com/freelancers/chrisjabraham), with job history and client feedback.
+- [My LinkedIn profile](https://www.linkedin.com/in/chrisabraham).
 - [Case studies](https://christopherabraham.com/case-studies/), written up with the evidence and anonymized.
 - [Guides](https://christopherabraham.com/guides/) that show how I think about indexing, audits, schema, and AI search.
 

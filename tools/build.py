@@ -79,6 +79,10 @@ PHONE = "+1 202-352-5051"
 TEL = "+12023525051"
 UPWORK = "https://www.upwork.com/freelancers/chrisjabraham"
 CALENDLY = "https://calendly.com/chrisabraham/30"
+LINKEDIN = "https://www.linkedin.com/in/chrisabraham"
+# Profiles and bylines published as Chris Abraham: the same person, for search engines and AI.
+PROFILES = [UPWORK, LINKEDIN, "https://biznology.com/author/chrisabraham/",
+            "https://www.huffpost.com/author/chris-abraham", "https://muckrack.com/chrisabraham"]
 
 
 def text_of(fragment):
@@ -110,7 +114,7 @@ for f in FILES:
     p = dict(line.split(": ", 1) for line in head.strip().splitlines())
     p["src"] = f
     p["path"] = "" if f == "index" else (f[:-5] if f.endswith("/index") else f + "/")
-    p["body"] = body.strip().replace("{upwork}", UPWORK).replace("{calendly}", CALENDLY).replace("{email}", EMAIL).replace("{phone}", PHONE).replace("{tel}", TEL)
+    p["body"] = body.strip().replace("{upwork}", UPWORK).replace("{calendly}", CALENDLY).replace("{linkedin}", LINKEDIN).replace("{email}", EMAIL).replace("{phone}", PHONE).replace("{tel}", TEL)
     p["tab"] = (p["path"].split("/")[0] + "/") if p["path"] else ""
     if p["tab"] not in dict(TABS):
         p["tab"] = {"privacy/": "privacy/"}.get(p["path"], "hire-me/")  # the FAQ lives under Hire Me
@@ -246,11 +250,11 @@ ORG = {
     "numberOfEmployees": {"@type": "QuantitativeValue", "value": 1},
     "contactPoint": [{"@type": "ContactPoint", "contactType": "sales", "email": EMAIL, "telephone": "+1-202-352-5051",
                       "areaServed": [c for _, _, c in ENGLISH_SPEAKING], "availableLanguage": "English"}],
-    "sameAs": [UPWORK],
+    "sameAs": [UPWORK, LINKEDIN],
 }
 PERSON = {
     "@type": "Person", "@id": AUTHOR, "name": "Christopher Abraham", "givenName": "Christopher",
-    "additionalName": "James", "familyName": "Abraham", "alternateName": "Christopher James Abraham",
+    "additionalName": "James", "familyName": "Abraham", "alternateName": ["Christopher James Abraham", "Chris Abraham"],
     "image": {"@type": "ImageObject", "url": SITE + "christopher-abraham.jpg", "width": 225, "height": 225,
               "caption": "Christopher Abraham, SEO consultant"},
     "url": SITE, "jobTitle": "SEO consultant", "worksFor": {"@id": SITE + "#service-business"},
@@ -267,7 +271,7 @@ PERSON = {
                       "skills": "Technical SEO, indexing, Google Search Console, schema, Core Web Vitals, migrations, AI search"},
     "knowsAbout": KNOWS,
     "email": EMAIL, "telephone": "+1-202-352-5051",
-    "sameAs": [UPWORK],
+    "sameAs": PROFILES,
 }
 WEBSITE = {"@type": "WebSite", "@id": SITE + "#website", "url": SITE, "name": "Christopher Abraham",
            "inLanguage": "en-US", "publisher": {"@id": AUTHOR}}
@@ -451,7 +455,7 @@ def render(p):
 {body_html(p)}
 </main>
 <footer class="site-footer">
-  <p><a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="tel:{TEL}">{PHONE}</a> · <a href="{CALENDLY}">Book a call</a> · <a href="{UPWORK}">Hire me on Upwork</a></p>
+  <p><a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="tel:{TEL}">{PHONE}</a> · <a href="{CALENDLY}">Book a call</a> · <a href="{UPWORK}">Hire me on Upwork</a> · <a href="{LINKEDIN}">LinkedIn</a></p>
   <p>© {TODAY[:4]} Christopher Abraham, Arlington, Virginia · <a href="{r}faq/">FAQ</a> · <a href="{r}privacy/">Privacy</a> · <a href="{r}sitemap/">Site map</a> · <a href="{r}guides/glossary/">Glossary</a> · <a href="{r}llms.txt">llms.txt</a> · <a href="{r}rss.xml">RSS</a></p>
 </footer>
 </div>
@@ -687,7 +691,7 @@ llms = f"""# Christopher Abraham, SEO consultant
 
 > {ORG["description"]} Based in Arlington, Virginia. Building websites since 1994 and doing SEO since 1998.
 
-Every engagement starts with a scoped, paid audit or diagnostic. Contact: {EMAIL}, {PHONE}, {CALENDLY} (book a 30 minute call), or {UPWORK}. Each link below goes to the Markdown version of a page; the HTML version is the same URL without index.md.
+Every engagement starts with a scoped, paid audit or diagnostic. Contact: {EMAIL}, {PHONE}, {CALENDLY} (book a 30 minute call), or {UPWORK}. Also published as Chris Abraham: {LINKEDIN}, https://biznology.com/author/chrisabraham/, and https://www.huffpost.com/author/chris-abraham. Each link below goes to the Markdown version of a page; the HTML version is the same URL without index.md.
 """ + "".join(f"\n## {title}\n\n" + "".join(f"- [{p['h1']}]({p['url']}index.md): {p['description']}\n" for p in group)
               for title, group in sections) + f"""
 ## Optional

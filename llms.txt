@@ -2,7 +2,7 @@
 
 > Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO. Based in Arlington, Virginia. Building websites since 1994 and doing SEO since 1998.
 
-Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@well.com, +1 202-352-5051, https://calendly.com/chrisabraham/30 (book a 30 minute call), or https://www.upwork.com/freelancers/chrisjabraham. Each link below goes to the Markdown version of a page; the HTML version is the same URL without index.md.
+Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@well.com, +1 202-352-5051, https://calendly.com/chrisabraham/30 (book a 30 minute call), or https://www.upwork.com/freelancers/chrisjabraham. Also published as Chris Abraham: https://www.linkedin.com/in/chrisabraham, https://biznology.com/author/chrisabraham/, and https://www.huffpost.com/author/chris-abraham. Each link below goes to the Markdown version of a page; the HTML version is the same URL without index.md.
 
 ## Technical SEO
 
