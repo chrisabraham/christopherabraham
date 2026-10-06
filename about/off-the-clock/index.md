@@ -22,7 +22,17 @@ French in Hawaii, German at the Goethe-Institut in Washington and again in Berli
 
 ## Online before it was a career
 
-Back when getting online meant a modem and patience, I joined The Meta Network, one of Washington's first online communities, and I've kept a home on The WELL ever since; that's why my email ends in well.com. I published a memetic lexicon, ran an online community about memes that The New York Times once wrote about, and these days I moderate a Reddit community for slow joggers. Watching ideas spread and mutate online for as long as I have turns out to be excellent training for understanding how AI assistants pick up and repeat what they read.
+Back when getting online meant a modem and patience, I joined ArtsWire, then The Meta Network, one of Washington's first online communities, then Brainstorms, and The WELL, where I've kept a home ever since; that's why my email ends in well.com. I built websites by hand for anyone who'd let me, including sites for a consulting firm, a production company, the Shadow Conventions, and the Treasury Department, and I worked as a Linux system administrator at Caucus Systems, hosting professional virtual events on its conferencing software.
+
+I also taught one of the first accredited distance-learning high school courses, in creative writing, to more than sixty students logging in from around Kalamazoo, Michigan. And I became an associate of Howard Rheingold, the author of The Virtual Community, at Rheingold Associates; [my old team bio is still up](https://rheingold.com/Associates/team_abraham.html), which delights me more than it should.
+
+I published a memetic lexicon at Memes.org, founded MemeSpace, a free online community of more than 800 "memebers" that The New York Times once wrote about, and ran a little online publication called The Caffeinated Magazine. These days I moderate a Reddit community for slow joggers. Watching ideas spread and mutate online for as long as I have turns out to be excellent training for understanding how AI assistants pick up and repeat what they read.
+
+## Hyperfiction
+
+Before anybody called it electronic literature, I was writing it. I took part in My Name is Scibe, a collaborative hyperfiction by Judy Malloy, one of the true pioneers of the form. Then I led my own: 8: A Collaborative Hypernarrative Fiction, or Collabor8, written over a full year by a group of friends, with each story broken into linked fragments that readers wandered through in their own order. Pieces of it survive as found poems with titles like "Chocolate City," "TheBUS," and "Blue plastic kayaks." Afterward I started Coelaboration, a site for collaborative writing with a featured writer each month and the beginnings of yet another hypernarrative.
+
+It turns out that writing stories as a web of linked pages is decent preparation for a career thinking about how crawlers move through websites.
 
 ## Lodge, rite, and parish
 

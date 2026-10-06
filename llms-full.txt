@@ -1839,7 +1839,9 @@ I'm an independent SEO consultant in Arlington, Virginia, across the Potomac fro
 
 My first online home was a text-based conferencing system, and I've kept an account on The WELL, one of the oldest online communities, for decades. That's where my email address comes from. I built my first websites in 1994, hand-coding HTML for anyone who asked, and started optimizing them for search engines in 1998. I've worked with open-source content management systems since 1999: Movable Type, Plone, Drupal, WordPress, and plenty of platforms that no longer exist.
 
-In the agency years I was the technology strategist at New Media Strategies, one of the first firms to treat a brand's online reputation as something to manage, and then a senior account supervisor on the interactive team at Edelman's public affairs practice in Washington. I co-founded Abraham Harrison, a digital marketing firm that ran search, content, and outreach programs from Washington, Portland, and Berlin. Later I was team lead for special projects at Reputation.com, working with high-profile individuals on search results that mattered to them.
+Before the agencies, I was an associate at Rheingold Associates, the virtual community consultancy of Howard Rheingold, a Linux system administrator at Caucus Systems running professional online events, and a builder of websites for clients that included the Treasury Department.
+
+In the agency years I was the technology strategist at New Media Strategies, one of the first firms to treat a brand's online reputation as something to manage, and then a senior account supervisor on the interactive team at Edelman's public affairs practice in Washington. In 2006 I developed long-tail blogger outreach: rather than pitching a handful of famous bloggers, my team researched and pitched thousands of niche writers who actually cared about a client's subject, treating it as earned media, closer to public relations than to paid social. I co-founded Abraham Harrison, a digital marketing firm that ran search, content, and outreach programs from Washington, Portland, and Berlin. Later I was team lead for special projects at Reputation.com, working with high-profile individuals on search results that mattered to them.
 
 I'm proud to work alongside two firms: as a digital strategist with [Meritus Media](https://meritusmedia.com/), a digital PR and marketing agency, where search, Google Business Profile, and reputation work sit beside the PR, and as a business partner at [Stainless Communications](https://stainlesscommunications.com/), a senior-led brand, PR, web, and growth firm.
 
@@ -1904,7 +1906,17 @@ French in Hawaii, German at the Goethe-Institut in Washington and again in Berli
 
 ## Online before it was a career
 
-Back when getting online meant a modem and patience, I joined The Meta Network, one of Washington's first online communities, and I've kept a home on The WELL ever since; that's why my email ends in well.com. I published a memetic lexicon, ran an online community about memes that The New York Times once wrote about, and these days I moderate a Reddit community for slow joggers. Watching ideas spread and mutate online for as long as I have turns out to be excellent training for understanding how AI assistants pick up and repeat what they read.
+Back when getting online meant a modem and patience, I joined ArtsWire, then The Meta Network, one of Washington's first online communities, then Brainstorms, and The WELL, where I've kept a home ever since; that's why my email ends in well.com. I built websites by hand for anyone who'd let me, including sites for a consulting firm, a production company, the Shadow Conventions, and the Treasury Department, and I worked as a Linux system administrator at Caucus Systems, hosting professional virtual events on its conferencing software.
+
+I also taught one of the first accredited distance-learning high school courses, in creative writing, to more than sixty students logging in from around Kalamazoo, Michigan. And I became an associate of Howard Rheingold, the author of The Virtual Community, at Rheingold Associates; [my old team bio is still up](https://rheingold.com/Associates/team_abraham.html), which delights me more than it should.
+
+I published a memetic lexicon at Memes.org, founded MemeSpace, a free online community of more than 800 "memebers" that The New York Times once wrote about, and ran a little online publication called The Caffeinated Magazine. These days I moderate a Reddit community for slow joggers. Watching ideas spread and mutate online for as long as I have turns out to be excellent training for understanding how AI assistants pick up and repeat what they read.
+
+## Hyperfiction
+
+Before anybody called it electronic literature, I was writing it. I took part in My Name is Scibe, a collaborative hyperfiction by Judy Malloy, one of the true pioneers of the form. Then I led my own: 8: A Collaborative Hypernarrative Fiction, or Collabor8, written over a full year by a group of friends, with each story broken into linked fragments that readers wandered through in their own order. Pieces of it survive as found poems with titles like "Chocolate City," "TheBUS," and "Blue plastic kayaks." Afterward I started Coelaboration, a site for collaborative writing with a featured writer each month and the beginnings of yet another hypernarrative.
+
+It turns out that writing stories as a web of linked pages is decent preparation for a career thinking about how crawlers move through websites.
 
 ## Lodge, rite, and parish
 
