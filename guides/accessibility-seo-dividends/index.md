@@ -46,6 +46,8 @@ The Justice Department considers business websites covered by the ADA, and nearl
 
 ## Measure both sides
 
+**A site that reads cleanly in the Lynx text browser is already way more than halfway to accessible, and way more than halfway to readable by machines.**
+
 Run Lighthouse or PageSpeed Insights and watch the Accessibility, SEO, and Agentic Browsing scores together; they tend to rise as a group. Then look at the page in a text browser, as described in [the Lynx test](https://christopherabraham.com/guides/lynx-test/), to see what screen readers and crawlers both receive. No badge, no overlay, no announcement needed. Just a better site.
 
 ## Sources
