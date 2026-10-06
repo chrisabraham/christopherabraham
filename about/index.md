@@ -7,7 +7,7 @@
 I'm an independent SEO consultant in Arlington, Virginia, across the Potomac from Washington, DC. I've lived in the DC area since 1988, and I take clients across the United States, Canada, the United Kingdom, Ireland, Australia, and New Zealand.
 
 ## The short version
-| Name | Christopher Abraham |
+| Full name | Christopher James Abraham |
 | Role | Independent SEO consultant |
 | Based in | Arlington, Virginia 22204, United States |
 | Specialties | Technical SEO audits, indexing, JavaScript SEO, Core Web Vitals, Cloudflare, migrations and 301 redirects, schema markup, AI search (GEO and AEO), WordPress, ecommerce, and local SEO |
