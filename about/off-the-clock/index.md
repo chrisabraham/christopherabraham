@@ -64,6 +64,8 @@ I've been a guest lecturer at Georgetown, GW, American University, the Universit
 
 ## Why any of this matters to you
 
+I spent a good part of my career on the bleeding edge: online events before anyone had heard of webinars, hyperfiction before e-lit had a name, memes before they were jokes, reputation management before it was an industry. These days I'm happy on the bleedy edge, early enough to put new tools to work for clients and seasoned enough to know which ones have earned it.
+
 A polymath is a big word for a modest man, so I'll settle for generalist with a specialty. Literature taught me to read closely, photography taught me to notice what's in the frame and what isn't, rowing taught me that nothing moves unless everyone pulls together, and the lodge taught me patience with ritual and process. All of it shows up when I'm looking at your site. Back to the [work side of my story](https://christopherabraham.com/about/), or [say hello](https://christopherabraham.com/contact/).
 
 Updated October 6, 2026
