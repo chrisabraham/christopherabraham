@@ -1,4 +1,4 @@
-> The life behind the SEO work: a Honolulu boyhood, crew at GW and East Anglia, a trek in Kathmandu, a Masonic lodge chartered in 1805, and Miriam's Kitchen.
+> The life behind the SEO work: a Honolulu boyhood, crew at GW and East Anglia, a trek in Kathmandu, a Masonic lodge chartered in 1805, and r/slowjogging.
 >
 > Source: https://christopherabraham.com/about/off-the-clock/ · Updated 2026-10-06 · By Christopher Abraham
 
@@ -32,7 +32,7 @@ I built websites by hand for anyone who'd let me, including sites for a consulti
 
 I also co-taught, with Ginny Little, one of the first fully accredited online high school courses: creative writing for EFA, a magnet program of the Kalamazoo Public Schools in Michigan, with more than sixty students logging in from around the area. The lesson I took from it, and later wrote a column about, is that children naturally want to show what they know. And I became an associate of Howard Rheingold, the author of The Virtual Community, at Rheingold Associates; [my old team bio is still up](https://rheingold.com/Associates/team_abraham.html), which delights me more than it should.
 
-I published a memetic lexicon at Memes.org, founded MemeSpace, a free online community of more than 800 "memebers" that The New York Times once wrote about, and ran a little online publication called The Caffeinated Magazine. These days I moderate a Reddit community for slow joggers. Watching ideas spread and mutate online for as long as I have turns out to be excellent training for understanding how AI assistants pick up and repeat what they read.
+I published a memetic lexicon at Memes.org, founded MemeSpace, a free online community of more than 800 "memebers" that The New York Times once wrote about, and ran a little online publication called The Caffeinated Magazine. These days I'm the founding moderator of [r/slowjogging](https://www.reddit.com/r/slowjogging/), a Reddit community of more than 16,000 people practicing the gentle, smile-while-you-run method of the late Japanese exercise physiologist Hiroaki Tanaka. After nine years it still has nothing to sell: no coaching funnel, no membership tier, no merchandise. Watching ideas spread and mutate online for as long as I have turns out to be excellent training for understanding how AI assistants pick up and repeat what they read.
 
 >
 
@@ -52,15 +52,15 @@ I'm a Master Mason at Naval Lodge No. 4 on Capitol Hill, the oldest continuously
 
 ## Renaissance Weekend
 
-I'm a longtime Renaissance Weekend participant: invitation-only, off-the-record gatherings where a physicist, a poet, a senator, and a teenager might share a panel. I've moderated sessions and worn the blue dot. It's the closest thing I know to a polymath's playground, and it's taught me that the best ideas come from people outside your own field.
+I've been a member of Renaissance Weekend for many years, though I haven't made it to one in a while: invitation-only, off-the-record gatherings where a physicist, a poet, a senator, and a teenager might share a panel. I've moderated sessions and worn the blue dot. It's the closest thing I know to a polymath's playground, and it's taught me that the best ideas come from people outside your own field.
 
 ## Miriam's Kitchen
 
-For years I've volunteered as a sous chef at Miriam's Kitchen, which works to end chronic homelessness in Washington. Cooking for guests who deserve a good meal is the most useful work I do, and nobody in that kitchen cares about my rankings.
+For years I volunteered as a sous chef at Miriam's Kitchen, which works to end chronic homelessness in Washington. Cooking for guests who deserved a good meal was the most useful work I did all week, nobody in that kitchen cared about my rankings, and I hope to be back at the cutting board one day.
 
 ## On the water and on the road
 
-I was a senior member of the Potomac Boat Club, founded in 1869 and one of the oldest rowing clubs in the country, and I may well be again someday. For years I kept my own racing shell, a heavyweight Hudson carbon single, at Thompson Boat Center, and I eventually gave it to the club to join its fleet of training singles, where it can teach somebody else what Oxford Blues taught me. On land I'm a committed slow jogger, which is exactly as fast as it sounds.
+I was a senior member of the Potomac Boat Club, founded in 1869 and one of the oldest rowing clubs in the country, and I may well be again someday. For years I kept my own racing shell, a heavyweight Hudson carbon single, at Thompson Boat Center, and I eventually gave it to the club to join its fleet of training singles, where it can teach somebody else what Oxford Blues taught me. On land I'm a slow jogger, which is exactly as fast as it sounds. If I'm honest, these days it's not enough jogging and plenty of modding.
 
 ## Teaching and talking
 

@@ -84,7 +84,7 @@ LINKEDIN = "https://www.linkedin.com/in/chrisabraham"
 # Profiles and bylines published as Chris Abraham: the same person, for search engines and AI.
 PROFILES = [UPWORK, LINKEDIN, "https://biznology.com/author/chrisabraham/",
             "https://www.huffpost.com/author/chris-abraham", "https://muckrack.com/chrisabraham",
-            "https://rheingold.com/Associates/team_abraham.html"]
+            "https://rheingold.com/Associates/team_abraham.html", "https://www.reddit.com/user/chrisabraham/"]
 
 
 def text_of(fragment):
