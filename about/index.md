@@ -49,6 +49,8 @@ Most people know me as Chris, and nearly two decades of my bylines carry that na
 - [Muck Rack](https://muckrack.com/chrisabraham), which collects my articles across publications.
 - Earlier columns for Advertising Age's DigitalNext, Socialmedia.biz, and Marketing Conversation.
 
+There's more to the story than search: Honolulu, crew, Freemasonry, Renaissance Weekend, and Miriam's Kitchen. It's all [off the clock](https://christopherabraham.com/about/off-the-clock/).
+
 ## Check my work
 - [My Upwork profile](https://www.upwork.com/freelancers/chrisjabraham), with job history and client feedback.
 - [My LinkedIn profile](https://www.linkedin.com/in/chrisabraham).

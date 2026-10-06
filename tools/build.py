@@ -57,7 +57,7 @@ FILES = ["index",
          "case-studies/event-app-links", "case-studies/headless-local", "case-studies/clinic-migration",
          "case-studies/shopify-cleanup", "case-studies/card-price-index", "case-studies/plugin-outage",
          "case-studies/closet-locations", "case-studies/profile-reinstated", "case-studies/recruiting-answers",
-         "about", "hire-me", "faq", "contact", "privacy"]
+         "about", "about/off-the-clock", "hire-me", "faq", "contact", "privacy"]
 SERVICE_GROUPS = [
     ("Technical SEO", ["services/seo-audit/", "services/indexing/", "services/javascript-seo/", "services/site-speed/",
                        "services/search-console/", "services/migrations/"]),
@@ -66,7 +66,8 @@ SERVICE_GROUPS = [
                                            "services/seo-retainer/"]),
 ]
 # The island rule: this site stands alone. None of these may appear in any source or generated page.
-ISLAND = [r"(?i)gerris", r"(?i)chrisabraham\.com", r"(?i)gerriscorp", r"(?i)hillmole", r"(?i)hill mole"]
+ISLAND = [r"(?i)gerris", r"(?i)chrisabraham\.com", r"(?i)gerriscorp", r"(?i)hillmole", r"(?i)hill mole",
+          r"(?i)podcast", r"(?i)substack", r"(?i)chris abraham show"]
 # The sibling site, built from the same kind of material. Pages here may not borrow its phrasing.
 SIBLING = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "gerris")
 MIN_WORDS = {"guide": 700, "service": 450, "case": 250, "page": 250}
@@ -262,11 +263,19 @@ PERSON = {
     "alumniOf": [{"@type": "CollegeOrUniversity", "name": "The George Washington University",
                   "sameAs": "https://en.wikipedia.org/wiki/George_Washington_University"},
                  {"@type": "CollegeOrUniversity", "name": "University of East Anglia",
-                  "sameAs": "https://en.wikipedia.org/wiki/University_of_East_Anglia"}],
+                  "sameAs": "https://en.wikipedia.org/wiki/University_of_East_Anglia"},
+                 {"@type": "CollegeOrUniversity", "name": "University of Hawaiʻi at Mānoa"},
+                 {"@type": "EducationalOrganization", "name": "Goethe-Institut"},
+                 {"@type": "HighSchool", "name": "Saint Louis School, Honolulu"}],
     "affiliation": [{"@type": "Organization", "name": "Meritus Media", "url": "https://meritusmedia.com/",
                      "description": "Digital PR and marketing agency"},
                     {"@type": "Organization", "name": "Stainless Communications", "url": "https://stainlesscommunications.com/",
                      "description": "Senior-led brand, PR, web, and growth firm"}],
+    "memberOf": [{"@type": "Organization", "name": "Naval Lodge No. 4, F.A.A.M.", "description": "Masonic lodge on Capitol Hill, Washington, DC, chartered 1805"},
+                 {"@type": "Organization", "name": "Scottish Rite of Freemasonry, Southern Jurisdiction", "description": "32nd degree"},
+                 {"@type": "SportsOrganization", "name": "Potomac Boat Club", "description": "Rowing club in Washington, DC, founded 1869"},
+                 {"@type": "Organization", "name": "Phi Kappa Psi, DC Alpha chapter", "description": "Founding father"},
+                 {"@type": "Organization", "name": "The WELL", "url": "https://www.well.com/"}],
     "award": ["Top Rated on Upwork"],
     "homeLocation": {"@id": SITE + "#place"}, "workLocation": {"@id": SITE + "#place"},
     "nationality": {"@type": "Country", "name": "United States"}, "knowsLanguage": "en",
