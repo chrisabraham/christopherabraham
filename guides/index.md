@@ -4,7 +4,7 @@
 
 # SEO guides
 
-These sixteen guides cover the questions clients ask me most, written so you can act on them yourself. Each one is self-contained, with links to related guides and to the glossary for terms.
+These seventeen guides cover the questions clients ask me most, written so you can act on them yourself. Each one is self-contained, with links to related guides and to the glossary for terms.
 
 ## Indexing and audits
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
@@ -31,6 +31,7 @@ These sixteen guides cover the questions clients ask me most, written so you can
 - [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/): the format, Markdown copies, llms-full.txt, and robots rules.
 - [Meta keywords in 2026](https://christopherabraham.com/guides/meta-keywords/): ignored by Google, risky when stuffed, and how to use them honestly.
 - [Website accessibility without overlays](https://christopherabraham.com/guides/accessible-websites/): the WCAG essentials and how to test them yourself.
+- [The Lynx test](https://christopherabraham.com/guides/lynx-test/): see your site the way search engines and AI crawlers read it, in a text-only browser.
 
 ## Reference
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): short definitions of the vocabulary used across this site, from AEO to XML sitemap.

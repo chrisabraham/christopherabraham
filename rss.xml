@@ -120,6 +120,13 @@
     <description>Build accessibility into a small business website instead of bolting on an overlay: contrast, headings, links, images, keyboard use, forms, and testing it.</description>
   </item>
   <item>
+    <title>The Lynx test: see your website the way crawlers and AI read it</title>
+    <link>https://christopherabraham.com/guides/lynx-test/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/lynx-test/</guid>
+    <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+    <description>Lynx, a text browser, shows what search engines and AI crawlers that skip JavaScript receive. How to install it, what to check, and online alternatives.</description>
+  </item>
+  <item>
     <title>Glossary of SEO and AI search terms</title>
     <link>https://christopherabraham.com/guides/glossary/</link>
     <guid isPermaLink="true">https://christopherabraham.com/guides/glossary/</guid>

@@ -1,0 +1,59 @@
+name: The Lynx Test
+title: The Lynx test: see your site the way crawlers and AI read it
+description: Lynx, a text browser, shows what search engines and AI crawlers that skip JavaScript receive. How to install it, what to check, and online alternatives.
+keywords: Lynx browser, text-only browser SEO, see website like Googlebot, AI crawler view
+sources: Lynx project home | https://lynx.invisible-island.net/ ;; Google Search Central: JavaScript SEO basics | https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics ;; Search Console Help: URL Inspection tool | https://support.google.com/webmasters/answer/9012289 ;; OpenAI: Overview of OpenAI crawlers | https://platform.openai.com/docs/bots
+type: guide
+published: 2026-10-06
+updated: 2026-10-06
+---
+<h1>The Lynx test: see your website the way crawlers and AI read it</h1>
+<p class="lead">Lynx is a web browser with no pictures, no styling, and no JavaScript: just text, headings, and links, in the order they appear in your HTML. That makes it the fastest honest preview of what many AI crawlers, and Googlebot before rendering, actually receive from your site. If your page reads well in Lynx, machines can read it too.</p>
+
+<h2>Why a text browser from the nineties still matters</h2>
+<p>Most of the crawlers that feed AI assistants fetch your HTML and move on without running scripts. Googlebot renders JavaScript, but in a second pass, with limits. Whatever exists only after scripts run is invisible or delayed for those systems. Lynx shows you the pre-script version in seconds. Every site I build gets looked at this way before launch, and it's how I first spot content that a framework hides from crawlers.</p>
+
+<h2>Installing Lynx</h2>
+<p>On Debian, Ubuntu, or a Linux server you reach over SSH:</p>
+<pre><code>sudo apt update &amp;&amp; sudo apt install lynx</code></pre>
+<p>On a Mac with Homebrew, run <code>brew install lynx</code>. On Windows, install the Windows Subsystem for Linux and use the apt command above inside it. Fedora and Red Hat systems use <code>sudo dnf install lynx</code>.</p>
+
+<h2>The three commands you need</h2>
+<ul>
+  <li><code>lynx https://example.com/</code> opens the page interactively. Arrow keys move between links, Enter follows one, the left arrow goes back, and <kbd>q</kbd> quits.</li>
+  <li><code>lynx -dump https://example.com/</code> prints the whole page as text, with numbered references to every link listed at the bottom. Pipe it to <code>less</code> to read it, or save it to a file.</li>
+  <li><code>lynx -dump -listonly https://example.com/</code> prints only the links: the paths a crawler can follow from that page.</li>
+</ul>
+
+<h2>What to look for</h2>
+<h3>Is your main content there?</h3>
+<p>Search the dump for a sentence from the middle of your page. If product descriptions, reviews, FAQs, or article text are missing, they're being added by JavaScript, and AI crawlers that don't render scripts will never see them. This single check has explained more mysterious indexing problems for my clients than any other.</p>
+<h3>Does the page start with what it's about?</h3>
+<p>Look at the first screen of the dump. If it's thirty navigation links, a cookie notice, and a newsletter pitch before the first heading, the page's real subject is buried. Machines weigh what comes first.</p>
+<h3>Do the headings tell the story?</h3>
+<p>Lynx shows headings plainly. Read just those: they should outline the page. If they say "Welcome," "Learn more," and "About," they're telling a search engine nothing.</p>
+<h3>Do the links make sense?</h3>
+<p>The link list shows every link's text out of context. A column of "click here" and "read more" is weak for search and useless for screen reader users. Links that don't appear at all, such as cards that navigate with JavaScript, are links crawlers can't follow.</p>
+<h3>Do images explain themselves?</h3>
+<p>Lynx shows alt text in place of images. Images with no alt text appear as a bare file name or as "[INLINE]," which tells you, and every machine, nothing.</p>
+<h3>Is anything there that shouldn't be?</h3>
+<p>Hidden text, leftover placeholder copy, and duplicated blocks from a page builder are all easy to miss in a styled browser and obvious in Lynx.</p>
+
+<h2>No terminal? Use one of these instead</h2>
+<ul>
+  <li><strong><a href="https://www.delorie.com/web/lynxview.html">Lynx Viewer</a></strong>, a long-running free service that shows a page roughly as Lynx would. Fine for a quick look at a public page.</li>
+  <li><strong><a href="https://www.seo-browser.com/">SEO Browser</a></strong> compares what a browser receives with what a crawler receives, and what JavaScript changes in between.</li>
+  <li><strong>Search Console's URL Inspection</strong> shows the HTML Google actually fetched and rendered for your own pages. It's the authoritative view for Google specifically.</li>
+  <li><strong>Your own browser with JavaScript off.</strong> Chrome's developer tools can disable JavaScript for the current tab; reload and see what's left.</li>
+  <li><strong>Accessibility tools.</strong> The <a href="https://wave.webaim.org/">WAVE</a> checker can show a page without styles, and a free screen reader such as <a href="https://www.nvaccess.org/">NVDA</a> on Windows, or VoiceOver built into Macs and iPhones, reads your page in the same linear order Lynx shows.</li>
+</ul>
+
+<h2>A five-minute routine</h2>
+<ol>
+  <li>Dump your home page, a key service or product page, and one article.</li>
+  <li>Check each one for its main content, a sensible first screen, meaningful headings, and descriptive links.</li>
+  <li>Run the link list on the home page and confirm your important pages appear in it.</li>
+  <li>Repeat after every redesign, theme update, or new plugin.</li>
+</ol>
+
+<p>If the Lynx view of an important page is thin, that's the starting point for <a href="{root}services/javascript-seo/">JavaScript SEO</a> work. For the accessibility side of the same coin, see <a href="{root}guides/accessible-websites/">website accessibility without overlays</a>.</p>
