@@ -1,0 +1,2100 @@
+# Christopher Abraham: full text of christopherabraham.com
+
+> Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.
+> Built 2026-10-06. Quote freely with attribution and a link to the source page.
+
+
+---
+
+Source: https://christopherabraham.com/
+Updated: 2026-10-06
+
+# Senior SEO help, from the person who does the work
+
+I'm Christopher Abraham, an independent SEO consultant. When traffic drops, pages vanish from Google, or AI assistants describe your business wrong, I find the cause, write the fix, and make sure it lands. You work with me directly, from the first audit to the last verification crawl.
+
+I started building websites in 1994 and doing search engine optimization in 1998, back when the job meant hand-editing meta tags for AltaVista. Today the work spans Google, Bing, and the answer engines layered on top of them: ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google's AI Overviews. The fundamentals carry across all of them. Pages that load fast, render cleanly, say plainly what they are about, and carry accurate structured data get crawled, indexed, ranked, and quoted.
+
+## Problems I solve
+- **Traffic dropped and nobody knows why.** A [technical SEO audit](https://christopherabraham.com/services/seo-audit/) that ends with a cause, evidence, and a ranked list of fixes.
+- **Google won't index the pages.** [Indexing repair](https://christopherabraham.com/services/indexing/) for "Crawled, currently not indexed," soft 404s, stray canonicals, and orphaned pages.
+- **The site runs on React and nothing ranks.** [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/) for client-rendered, headless, and framework sites.
+- **ChatGPT has never heard of the business.** [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/): being understood and cited by answer engines.
+- **A platform move is coming next month.** [Migration planning and 301 redirect maps](https://christopherabraham.com/services/migrations/) that carry your rankings across.
+- **Pages are slow.** [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/) work measured in field data.
+- **Customers can't find the business on the map.** [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/) alignment.
+
+The complete list, including [schema markup](https://christopherabraham.com/services/schema/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/), [ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), and [monthly retainers](https://christopherabraham.com/services/seo-retainer/), is on the [services page](https://christopherabraham.com/services/).
+
+## Why clients pick me
+- **Seniority without the agency layer.** The person who scopes the work is the person who crawls the site, reads the logs, and writes the developer tickets.
+- **I read code.** Templates, rendered DOM, build settings, and pull requests are part of the job. Developers get specifications with acceptance criteria, and I check what ships.
+- **Evidence first.** When two problems arrive at once, I keep them on separate tracks until the data connects them.
+- **Plain English.** Every engagement ends with a technical document for engineers and a short summary for whoever signs the checks.
+
+## My Upwork record
+
+Most clients find me as [Christopher A. on Upwork](https://www.upwork.com/freelancers/~01e0480189d357dd43), where every job, hour, and rating is on the record:
+| Job Success | 100% |
+| Badge | Top Rated |
+| Total earnings | $200K+ |
+| Jobs | 127 |
+| Hours | 4,089 |
+| Usual reply time | 4 to 8 hours |
+
+>
+
+"[Christopher] was a pro and knew his schema far better than anyone else I have dealt with."
+
+Client, schema markup project
+
+>
+
+"Great experience, very knowledgeable on AEO."
+
+Client, AI SEO and technical SEO project
+
+Clients describe working with me as collaborative, committed to quality, and clearly communicated, according to Upwork's summary of my completed jobs.
+
+## Selected results
+- Found that a Magento store's product specs, FAQs, and reviews loaded only when a shopper scrolled, so Googlebot indexed 300-word shells of 1.2 MB pages. [The scroll-gated products case](https://christopherabraham.com/case-studies/scroll-gated-products/).
+- Traced a film review site's near absence from Google to a cookie consent tool that blocked the script holding every article. [The consent banner case](https://christopherabraham.com/case-studies/consent-banner/).
+- Wrote a 13-page, priority-ranked spec that opened 2,000 event pages of a React app to Google. [The event app case](https://christopherabraham.com/case-studies/event-app-links/).
+- Helped a therapy practice win back a suspended Google Business Profile with an evidence-first appeal. [The profile reinstatement case](https://christopherabraham.com/case-studies/profile-reinstated/).
+
+Every client is anonymized. See all [case studies](https://christopherabraham.com/case-studies/).
+
+## Free guides
+- [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/)
+- [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/)
+- [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/)
+- [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/)
+
+More in [guides](https://christopherabraham.com/guides/), plus a [glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/).
+
+## Start with a conversation
+
+Send me your site's address and a sentence about what's wrong. Email [cja@well.com](mailto:cja@well.com), or call or text [+1 202-352-5051](tel:+12023525051).
+
+[Contact me](https://christopherabraham.com/contact/) [Hire me on Upwork](https://www.upwork.com/freelancers/~01e0480189d357dd43)
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/
+Updated: 2026-10-06
+
+# SEO services
+
+Every service starts from the same place: find out what search engines and AI systems actually receive from your site, compare it with what you meant to publish, and close the gap. Pick the symptom closest to yours, or start with an [audit](https://christopherabraham.com/services/seo-audit/) if you aren't sure.
+
+## Technical SEO
+- [Technical SEO audit](https://christopherabraham.com/services/seo-audit/): the cause of a traffic loss or a stall, with evidence and a ranked plan.
+- [Indexing repair](https://christopherabraham.com/services/indexing/): pages stuck in "Crawled, currently not indexed," "Discovered, currently not indexed," soft 404s, and canonical conflicts.
+- [JavaScript and headless SEO](https://christopherabraham.com/services/javascript-seo/): React, Next.js, Vue, Alpine.js, Sanity, Vercel, and other stacks where content depends on scripts.
+- [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/): faster pages measured by real visitors, with caching and CDN rules that don't break crawling.
+- [Search Console, Bing Webmaster Tools, and GA4](https://christopherabraham.com/services/search-console/): setup, cleanup, and reports you can trust.
+- [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/): platform moves, domain changes, and redesigns that keep their rankings.
+
+## AI search, schema, and content
+- [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/): how ChatGPT, Perplexity, Gemini, Claude, Copilot, and AI Overviews describe you, and how to improve it.
+- [Schema markup and entity SEO](https://christopherabraham.com/services/schema/): JSON-LD that validates, matches the page, and tells machines who you are.
+- [On-page SEO](https://christopherabraham.com/services/on-page-seo/): titles, descriptions, headings, internal links, and thin or duplicate pages.
+
+## Platforms, local, and ongoing work
+- [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): Yoast, Rank Math, themes, plugins, and the performance cleanup old installs need.
+- [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Shopify, WooCommerce, and Magento product, category, and faceted pages.
+- [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/): location pages, profiles, categories, and hard cases such as suspensions.
+- [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): steady monitoring, fixes, and reporting from a senior consultant.
+
+## How each service is delivered
+
+Each one begins with a scoped, paid diagnostic. You get findings in writing, a prioritized plan, and the choice of having me implement what I can reach while your developers build the rest from my specifications. I verify every fix on the live site before calling it done. The details are on [Hire Me](https://christopherabraham.com/hire-me/).
+
+## Platforms I work in
+
+WordPress with Yoast or Rank Math, WooCommerce, Shopify and Liquid, Magento 2 and Hyvä, Drupal, Umbraco, Squarespace, Wix, Webflow, Framer, and custom builds on React, Next.js, and Vue. Around them: Cloudflare, Google Search Console, Bing Webmaster Tools, GA4, Screaming Frog, Semrush, PageSpeed Insights, and the Rich Results Test.
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/seo-audit/
+Updated: 2026-10-06
+
+# Technical SEO audit
+
+Most audit reports are a tool export with a logo on it: four hundred warnings, sorted by color, with no idea which three matter. My audits start from your question, such as "why did product traffic fall in March?", and end with the answer, the evidence behind it, and the order to fix things in.
+
+## Who it's for
+- Sites whose organic traffic dropped and nobody can say why.
+- Sites that have plateaued despite steady publishing.
+- New owners, marketing leads, or agencies inheriting a site and wanting a baseline before they change anything.
+- Teams planning a redesign or replatform who want to know what to protect.
+
+## What I examine
+
+### Crawling
+
+A full crawl with Screaming Frog in both text-only and JavaScript rendering modes, so I can compare what the server sends with what a browser builds. Robots rules, XML sitemaps, status codes, redirect chains, internal link depth, and orphaned pages.
+
+### Indexing
+
+The Page indexing report in Search Console, broken down by reason and by template; URL Inspection on representative pages; and the equivalent reports in Bing Webmaster Tools, which often confirm or contradict what Google shows.
+
+### Rendering
+
+Raw HTML, rendered DOM, and the text a crawler actually extracts, compared on the same URLs. This is where the expensive surprises live: tabs, accordions, lazy sections, and consent tools that leave content invisible to bots.
+
+### Signals on the page
+
+Titles, meta descriptions, headings, canonicals, hreflang, structured data, and internal anchor text, checked for duplication and conflicts at the template level.
+
+### Performance
+
+Core Web Vitals from field data where it exists, lab tests where it doesn't, and the server and CDN configuration behind them.
+
+### History
+
+What changed and when: deployments, plugin updates, migrations, Google updates, and backlink spikes, lined up against the traffic curve.
+
+## How I keep findings honest
+
+Traffic losses rarely have a single cause, and the most dangerous move is to tell one tidy story about two unrelated problems. I keep separate problems on separate tracks, attach evidence to each finding, and say how confident I am. When the data can't settle a question, the report says what would.
+
+## What you receive
+- A findings report: the question, the cause or causes, the evidence, and confidence for each.
+- A ranked fix list, P0 to P3, with an owner and an effort estimate per item.
+- Developer tickets with exact steps and acceptance criteria.
+- A one-page summary in plain English for leadership.
+- A walkthrough call, if you want one.
+
+## After the audit
+
+Many clients have me implement the fixes I can reach, such as metadata, redirects, schema, and plugin or Cloudflare settings, and then verify the developer's work against the acceptance criteria. Others take the report to their own team. Either way the report stands on its own. Scope, timeline, and price are agreed before the audit starts. See [Hire Me](https://christopherabraham.com/hire-me/), or read [what a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/indexing/
+Updated: 2026-10-06
+
+# Indexing repair
+
+A page that isn't indexed can't rank, can't appear in AI Overviews, and is far less likely to be cited by an answer engine. When the Page indexing report in Search Console starts filling with excluded URLs, I find out which ones matter, why they're excluded, and what will bring them back.
+
+## The statuses I untangle
+
+**Crawled, currently not indexed**
+Google fetched the page and chose to leave it out. Common causes: content that isn't in the rendered HTML, near-duplicates of stronger pages, thin templates, and weak internal links.
+
+**Discovered, currently not indexed**
+Google knows the URL exists but hasn't spent the crawl on it. Usually a sign of too many low-value URLs, slow servers, or pages buried deep in the link structure.
+
+**Alternate page with proper canonical tag**
+Fine when it's intended. A problem when a template points every section's canonical at the home page.
+
+**Duplicate, Google chose different canonical than user**
+Google overruled your canonical, often because internal links, sitemaps, and redirects disagree with it.
+
+**Soft 404**
+A page that returns success but looks empty or missing to Google: out-of-stock products, empty search results, placeholder pages.
+
+**Excluded by noindex, blocked by robots.txt**
+Sometimes deliberate, often left over from a staging site or a plugin setting someone forgot.
+
+## How I work through it
+1. **Segment.** Group excluded URLs by template and section, so you see that 80% of the problem is one product template rather than 4,000 unrelated pages.
+2. **Sample and inspect.** URL Inspection, live tests, and rendered HTML on representative pages from each group.
+3. **Find the mechanism.** Missing content after rendering, conflicting canonicals, parameter sprawl, thin variants, or crawl paths that never reach the page.
+4. **Decide what deserves an index slot.** Every page doesn't need to be indexed. Some should be consolidated, noindexed, or removed, which frees attention for the ones that earn traffic.
+5. **Fix and resubmit.** Correct the templates, sitemaps, and links, then request indexing for priority pages.
+6. **Measure by segment.** Separate sitemaps per page type make Search Console report coverage for each group, so progress is visible instead of averaged away.
+
+## Reporting lag
+
+Search Console reports trail reality by days and sometimes weeks. I check the live site and the URL Inspection tool before deciding whether a fix worked, and I tell you which numbers are stale so nobody panics over a chart that hasn't caught up.
+
+## Bing counts too
+
+Bing's index feeds Copilot and several other AI assistants, and Bing Webmaster Tools reports problems Google won't mention. I check both, and I set up IndexNow where your platform supports it, so changes reach Bing within minutes.
+
+## Related
+
+Indexing problems on React, Next.js, and other script-heavy sites are covered under [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/). For a walkthrough of the report itself, read [how to read the Page indexing report](https://christopherabraham.com/guides/page-indexing-report/). A real example: [indexing a 20,000-page programmatic site](https://christopherabraham.com/case-studies/card-price-index/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/javascript-seo/
+Updated: 2026-10-06
+
+# JavaScript and headless SEO
+
+A modern site can look perfect in a browser and nearly empty to a crawler. If your content depends on JavaScript to appear, some crawlers will see it late, some will see part of it, and most AI crawlers will never see it at all. I find the gap and specify the fix in terms your developers can build.
+
+## Why it matters more every year
+
+Googlebot renders JavaScript, eventually, in a second pass with limits on time and resources. Bingbot renders less reliably. Most of the crawlers that feed AI assistants, including those from OpenAI, Anthropic, and Perplexity, fetch the HTML and move on. Content that exists only after scripts run is content those systems can't quote.
+
+## Patterns I find again and again
+- **An empty shell.** A single-page app whose server HTML holds one empty root element.
+- **Links that aren't links.** Cards and menus that navigate with click handlers instead of real anchor tags, leaving crawlers no path to deeper pages.
+- **Content gated on interaction.** Specs, reviews, and FAQs that mount only on scroll, hover, or tab click. Crawlers don't scroll or click.
+- **Consent tools blocking content scripts.** A cookie banner holding back the script that builds the article, so bots, which never consent, get a blank page.
+- **Head tags set late.** Titles, canonicals, and robots directives written by client-side code, which crawlers may read before or after the change.
+- **Soft 404s.** Missing routes that return a 200 status with a "not found" message drawn by the app.
+
+## How I diagnose it
+
+For each important template, I compare three versions of the page: the raw HTML from the server, the DOM after rendering, and the text a crawler extracts. Screaming Frog in JavaScript mode, Search Console's URL Inspection live test, and a plain fetch with no scripts at all make the differences obvious. When I have repository access, I read the routes, components, and build configuration to find exactly where the content is gated.
+
+## What the fix usually looks like
+- Server-side rendering or static prerendering for pages that need to rank.
+- Real anchor links in the server HTML for every navigable item.
+- Interactive effects kept as progressive enhancement, on top of content that's already in the HTML.
+- Head tags rendered on the server, with self-referencing canonicals per route.
+- Proper 404 and 410 status codes for missing routes.
+
+## Stacks I've worked in
+
+React and Create React App, Next.js on Vercel and Netlify, Vue, Alpine.js on Magento's Hyvä theme, Sanity and other headless CMSs, Shopify themes, and WordPress builds with heavy page builders. I can open a pull request for metadata and template changes, or hand your developer a spec with acceptance criteria and verify what ships.
+
+## Examples
+
+See [product content hidden behind scroll triggers](https://christopherabraham.com/case-studies/scroll-gated-products/), [a React app with 2,000 unreachable pages](https://christopherabraham.com/case-studies/event-app-links/), and [SEO fixes merged through GitHub on Sanity and Vercel](https://christopherabraham.com/case-studies/headless-local/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/site-speed/
+Updated: 2026-10-06
+
+# Core Web Vitals and Cloudflare
+
+Slow pages lose visitors before they lose rankings. I find what's making your pages slow for real people on real phones, fix what I can reach, and specify the rest, then confirm the improvement in field data, which is what Google uses.
+
+## The three numbers
+- **Largest Contentful Paint (LCP)**: how long the main content takes to appear. Good is under 2.5 seconds.
+- **Interaction to Next Paint (INP)**: how quickly the page responds when someone taps or types. Good is under 200 milliseconds.
+- **Cumulative Layout Shift (CLS)**: how much the layout jumps while loading. Good is under 0.1.
+
+Google judges each at the 75th percentile of real visits over 28 days, which is why a perfect lab score on your laptop can coexist with a failing report in Search Console. My [plain-English guide to Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/) goes deeper.
+
+## Where the time goes
+- Hero images served at desktop size to phones, without modern formats or proper sizing.
+- Render-blocking CSS and JavaScript from themes, page builders, and plugins nobody uses anymore.
+- Third-party tags: chat widgets, heatmaps, ad pixels, and tag managers loading tag managers.
+- Slow server response from shared hosting, uncached database queries, or a missing page cache.
+- Web fonts that block text or swap late and shift the layout.
+- Ads and embeds without reserved space.
+
+## Cloudflare, configured carefully
+
+Cloudflare can make a site dramatically faster, and it can also block the crawlers you need. I set up caching rules, compression, image optimization, and HTTP/3, and I review security settings so that Googlebot, Bingbot, and the AI crawlers you want are allowed through. Bot-fight modes and "block AI crawlers" switches are decisions, and I make sure they're made on purpose. I also handle DNS moves to Cloudflare without disturbing email records.
+
+## How I work
+1. Pull field data from Search Console and the Chrome UX Report to find which templates fail, on which devices.
+2. Profile representative pages in PageSpeed Insights and browser developer tools to find the specific resources at fault.
+3. Fix what's within reach: image compression and sizing, caching plugins, script deferral, Cloudflare rules.
+4. Write tickets for theme and code changes, with the measurement each should improve.
+5. Watch field data over the following 28-day window and report what moved.
+
+## Speed and SEO together
+
+Some speed tricks hurt search: lazy loading the main content, deferring scripts that build the page's text, or caching pages with the wrong canonical. I check every optimization against how crawlers see the page, so speed gains don't cost indexing.
+
+## What you receive
+
+A short report naming each failing template, the resource responsible, and the expected gain from each fix, followed by a before-and-after comparison once the field data has caught up.
+
+## Platforms
+
+WordPress with WP Rocket, LiteSpeed Cache, or W3 Total Cache; WooCommerce; Shopify themes; Magento; static sites; and Next.js. For WordPress specifics, see [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/search-console/
+Updated: 2026-10-06
+
+# Search Console, Bing Webmaster Tools, and GA4
+
+Every SEO decision rests on three sets of reports. If they're misconfigured, unverified, or owned by someone who left two years ago, every decision downstream gets harder. I set them up properly, recover access when it's lost, and teach your team which numbers to trust.
+
+## Google Search Console
+- **Verification and ownership.** A Domain property verified through DNS, covering every protocol and subdomain, with owners you control. I recover access from departed staff and agencies.
+- **Sitemaps.** Clean XML sitemaps, split by page type so the Page indexing report shows coverage per section.
+- **Reports that matter.** Performance filtered by page groups and query patterns, Page indexing by reason, Core Web Vitals by template, and enhancement reports for structured data.
+- **Manual actions and security issues.** Checked, explained, and resolved when they appear.
+- **Change of address** and other migration tools, used at the right moment.
+
+## Bing Webmaster Tools
+
+Bing's index powers Microsoft Copilot, DuckDuckGo results, and part of what several AI assistants retrieve. I verify Bing Webmaster Tools, import settings from Search Console, submit sitemaps, and turn on IndexNow so new and changed pages are announced instantly. Bing's Site Scan and URL Inspection often expose issues that Google's reports stay quiet about.
+
+## GA4
+- Property and data stream setup with sensible data retention and internal traffic filters.
+- Key events defined around real business outcomes: leads, calls, purchases.
+- Channel grouping that separates organic search, AI assistant referrals, and paid traffic, so you can see visits from ChatGPT, Perplexity, and Copilot on their own line.
+- Spam and ghost traffic identified and excluded.
+- Search Console linked, so query data sits beside behavior data.
+- Consent mode configured where your audience requires it.
+
+## Reading the numbers honestly
+
+Reports disagree. Search Console counts clicks; GA4 counts sessions that loaded a tag; consent tools and ad blockers hide some visitors entirely. Third-party "visibility" tools can change their methodology overnight and draw a cliff that never happened. I compare several sources before calling anything a trend, and I flag which numbers are delayed or estimated.
+
+## Access lost, access recovered
+
+A surprising number of businesses can't log into their own Search Console. The property was verified by a former employee, an agency that has since moved on, or a plugin that no longer exists. Because Domain properties are verified through DNS, whoever controls the domain's DNS records can reclaim ownership without anyone else's help. I walk you through adding the verification record, confirm ownership, and then remove stale users so the access list matches the people who actually work on the site today.
+
+## Deliverables
+- Verified properties with a written list of who has access.
+- Sitemaps and IndexNow in place.
+- A short dashboard or monthly report, built around the five or six numbers you'll actually use.
+- A recorded walkthrough so your team can read the reports without me.
+
+Ongoing monitoring is part of every [retainer](https://christopherabraham.com/services/seo-retainer/). For the indexing report in detail, see the [Page indexing guide](https://christopherabraham.com/guides/page-indexing-report/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/migrations/
+Updated: 2026-10-06
+
+# Site migrations and 301 redirects
+
+A migration is the single riskiest thing most websites ever do. A new platform, a new domain, or a redesign that changes URLs can erase years of search equity in a weekend. I plan the move so that every old URL lands somewhere sensible, check it on launch day, and stay on watch until rankings settle.
+
+## Kinds of moves I handle
+- Platform changes: WordPress to Shopify, Squarespace to Shopify, WordPress to Next.js on Netlify or Vercel, Magento upgrades, and more.
+- Domain changes, mergers of several domains into one, and HTTP to HTTPS or www to apex consolidation.
+- Redesigns that change URL structure, navigation, or templates.
+- Hosting and CDN moves, including DNS cutovers to Cloudflare.
+- Recovery after a migration that has already lost traffic.
+
+## Before launch
+1. **Inventory every URL that matters.** From crawls, XML sitemaps, Search Console, analytics, and backlink data, so pages with links or traffic aren't missed just because they're no longer in the menu.
+2. **Map each one.** A one-to-one 301 to the closest equivalent page. Pages that are going away get a deliberate decision: redirect to a true replacement, or return 410.
+3. **Carry the signals across.** Titles, descriptions, headings, structured data, internal links, hreflang, and canonical rules rebuilt on the new templates.
+4. **Check staging.** Crawl the new site before launch, with the redirect map tested against it, while blocking staging from being indexed.
+
+## Launch day
+- Redirects tested in bulk against the live site, with chains and loops removed.
+- Robots rules and noindex tags checked, since staging settings that reach production are a common disaster.
+- New sitemaps submitted in Search Console and Bing Webmaster Tools; Change of Address filed for domain moves.
+- Analytics and Search Console verified on the new setup.
+
+## After launch
+
+I monitor 404s, crawl stats, indexing, and rankings by page group for the following weeks, and I keep the problems the migration caused apart from problems the site already had, so the new platform isn't blamed for old faults or credited with fixing them. Media still loading from the old host, broken image CDNs, and lost structured data are common late discoveries.
+
+## Who owns what
+
+Migrations involve a developer, a host, often a designer, and sometimes an agency. I write down who owns each step: who exports the old URLs, who loads the redirect map, who flips DNS, who files Change of Address. A one-page runbook with names and times prevents the most common launch-day failure, which is everyone assuming someone else handled it.
+
+## When the move already happened
+
+If traffic fell after a migration, the old site is usually the best evidence. I reconstruct the old URL set from archives, logs, and analytics, rebuild the redirect map, and prioritize the pages that carried the most traffic and links.
+
+My rules for redirects are in [ten rules for 301 redirects](https://christopherabraham.com/guides/redirect-rules/). Examples: [a clinic's move from WordPress to Next.js](https://christopherabraham.com/case-studies/clinic-migration/) and [cleaning up after a Squarespace to Shopify move](https://christopherabraham.com/case-studies/shopify-cleanup/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/ai-search/
+Updated: 2026-10-06
+
+# AI SEO, GEO, and AEO
+
+More people now ask an assistant before they search. ChatGPT, Perplexity, Gemini, Claude, Microsoft Copilot, and Google's AI Overviews and AI Mode answer the question directly and cite a handful of sources. I find out what they say about you, where they're getting it, and what would make them say it more accurately and more often.
+
+## The vocabulary, briefly
+
+The field has too many acronyms for one idea. GEO (generative engine optimization), AEO (answer engine optimization), AIO, LLMO, and AI SEO all describe making a site easy for AI systems to find, understand, trust, and cite. In practice it's good technical SEO, clear entities, and content written so a single paragraph can stand on its own as an answer.
+
+## What I test
+- **A prompt set built from your buyers' questions.** "Best X for Y," "Is Z legitimate," "Who does A near B," and comparisons with named competitors, run across the major assistants.
+- **What each answer says.** Whether you appear, how you're described, and whether the facts are current.
+- **Where the answer came from.** The sources each assistant cites, and which of them you control, can influence, or should correct.
+- **Crawler access.** Whether GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended, and Bingbot can reach your pages, through robots rules, Cloudflare, and your firewall.
+- **Machine readability.** Whether your key content is in the server HTML, since most AI crawlers don't run JavaScript.
+
+## What I change
+
+### Entities
+
+AI systems reason about things, not keywords: your organization, your people, your products, and your locations. I make sure each is described the same way everywhere, with Organization, Person, Product, and LocalBusiness schema tying them together and sameAs links pointing to the profiles that confirm them.
+
+### Answer-shaped content
+
+Pages that open with a direct answer, define their terms, include the numbers people ask about, and keep each section self-contained. FAQs written around real questions. Glossaries. Comparison pages that are fair enough to quote.
+
+### Evidence elsewhere
+
+Assistants trust what other sources confirm. I identify the directories, review sites, publications, and community discussions that answers lean on, and where your information there is missing or out of date.
+
+### Files for machines
+
+An llms.txt file that summarizes your site and links to clean Markdown versions of key pages, XML sitemaps, and IndexNow, so changes reach Bing, and through it Copilot, quickly.
+
+## Measuring it
+
+AI answers vary from run to run, so I measure with repeated prompts over time rather than one screenshot. Alongside that: AI assistant referrals in GA4, citations of your pages, and the share of tested prompts where you appear and are described correctly. Results are reported as trends, with the prompt set kept stable so the comparison is fair.
+
+## What to expect
+
+Technical access problems can be fixed in days. Changes in how assistants describe you follow their crawl and retrieval cycles, which take weeks to months. Start with my [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/), or see [a company that wanted accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/schema/
+Updated: 2026-10-06
+
+# Schema markup and entity SEO
+
+Structured data tells machines, in their own language, what a page is about: this is a business, here is its address, this is the product, this is its price, this person wrote the article. Done well, it earns rich results in Google and helps AI systems connect the facts. Done carelessly, it contradicts the page and gets ignored.
+
+## What I build
+- **Organization and LocalBusiness** with name, logo, address, phone, hours, service area, and sameAs links to the profiles that confirm the business.
+- **Person** for founders, authors, and practitioners whose expertise matters to the page.
+- **Product and Offer** with price, availability, brand, identifiers, and review data from the platform's real reviews.
+- **Service** for service businesses, tied to the provider and the area served.
+- **Article, BlogPosting, and TechArticle** with author, dates, and publisher.
+- **FAQPage, HowTo, and DefinedTermSet** where the page truly contains questions, steps, or definitions.
+- **BreadcrumbList and WebSite** to describe structure.
+
+## Entities, connected
+
+The real value is in the connections. A multi-location business is one Organization with several locations as branches, each linking to its own page and its own Google Business Profile. An author is a Person who works for the Organization that publishes the article. I use stable @id identifiers so every page refers to the same entities in the same way, and search engines and AI systems assemble one consistent picture instead of several conflicting ones.
+
+## Common problems I fix
+- Two Product blocks on one page, one from the theme and one from a plugin, each with different data.
+- Review stars marked up from reviews that aren't on the page.
+- A home page and its first location described as the same business.
+- FAQ markup on pages with no visible questions.
+- Schema hardcoded once and never updated as prices, hours, or addresses changed.
+- Plugins emitting conflicting graphs that no validator flags as errors but no search engine trusts.
+
+## How it's delivered
+
+Depending on your platform, I install the JSON-LD myself through the theme, a plugin like Rank Math or Yoast, Shopify's theme files and metafields, or a pull request to your repository. Otherwise I hand your developer finished, validated code. Theme work happens on a duplicate theme or staging copy first. Every template is checked in the Rich Results Test and the Schema.org validator, and then watched in Search Console's enhancement reports.
+
+## What schema can and can't do
+
+Structured data makes your facts unambiguous; it doesn't make a weak page strong. Google decides when to show rich results. The work pays off most when it matches strong, visible content, which is why I review the page and the markup together.
+
+Not sure which types you need? Read [the schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/), or see [entity markup for a brand with locations in several states](https://christopherabraham.com/case-studies/closet-locations/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/on-page-seo/
+Updated: 2026-10-06
+
+# On-page SEO
+
+On-page SEO is everything a page says about itself: its title, description, headings, body copy, images, and the links pointing in and out. On a small site it's craft. On a site with thousands of pages it's a template problem, and that's where I start.
+
+## What I review
+
+### Titles and meta descriptions
+
+Unique, specific, and the right length to display in full. I find the duplicates and the defaults, such as "Home," "Products," or the theme's placeholder text, and rewrite them so each page states what it offers and who it's for.
+
+### Headings
+
+One clear H1 per page, and H2s that describe their sections. A common template fault: the same hardcoded H2s on every page, which tells search engines nothing about any of them.
+
+### Internal links
+
+Descriptive anchor text, links from strong pages to the pages that need help, and no important page more than a few clicks from the home page. Generic "click here" and "read more" links waste the strongest signal you fully control.
+
+### Thin, duplicate, and competing pages
+
+Near-identical location pages, tag archives, filtered variants, and old posts covering the same topic. Each group gets a decision: consolidate, improve, redirect, or noindex.
+
+### Images
+
+Descriptive file names and alt text, correct dimensions, modern formats, and captions where they help.
+
+### Keyword coverage
+
+Which questions and phrases each page should answer, where you have gaps, and where two of your own pages compete for the same query. I use Semrush and Search Console query data to find the terms stuck on page two, where small improvements move a page into the top results.
+
+## How I use AI in this work
+
+AI tools are fast at drafting title and description variants, spotting topic gaps, suggesting FAQs, and expanding thin sections. I use them for exactly that. Every draft gets edited for accuracy, brand voice, and search intent before it goes live, because an AI tool doesn't know your business, your claims, or what your customers actually ask. The judgment stays human.
+
+## Working at scale
+
+For large sites I work through templates and fields instead of page by page: fixing the pattern that generates five thousand titles, then hand-editing the fifty pages that earn most of the revenue. Bulk changes are made through the CMS, a plugin's import tools, or a spreadsheet your developer can load, with a before-and-after log.
+
+## Content that ranks and gets quoted
+
+Pages that answer a question directly in the first paragraph, define their terms, use real numbers, and keep each section self-contained tend to win both featured snippets and AI citations. I can brief your writers in that style, edit their drafts, or write service and landing pages myself.
+
+On WordPress, much of this runs through Yoast or Rank Math; see [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/). For a real example of on-page problems hiding a whole site, see [the consent banner case](https://christopherabraham.com/case-studies/consent-banner/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/wordpress-seo/
+Updated: 2026-10-06
+
+# WordPress SEO
+
+WordPress runs a large share of the web, and a large share of the SEO problems I see. Not because WordPress is bad at SEO, but because years of themes, page builders, and plugins pile up on top of each other. I've worked in WordPress since its early days and know where the problems hide.
+
+## SEO plugins, configured properly
+
+Yoast SEO and Rank Math do a lot of work most owners never see: titles and descriptions, canonical tags, robots directives, XML sitemaps, breadcrumbs, and structured data. That's why turning one off, even for an afternoon, can knock pages out of the index. I review the settings that matter:
+- Which content types, taxonomies, and archives appear in sitemaps and which are noindexed.
+- Title and description templates per post type, with sensible fallbacks.
+- Schema settings for the organization or person behind the site, and per post type.
+- Breadcrumbs, redirects, and 404 monitoring.
+- Conflicts when two SEO plugins, or a theme and a plugin, both write the same tags.
+
+## Common WordPress problems
+- **Attachment pages indexed** as thin pages for every image ever uploaded.
+- **Tag and category archives** that duplicate each other and outnumber real content.
+- **"Discourage search engines" left checked** after launch.
+- **Page builder bloat** from Elementor, Divi, WPBakery, or Avada, adding layers of markup and scripts.
+- **Plugins nobody remembers installing**, each loading assets on every page.
+- **Mixed content and redirect loops** after an HTTPS change.
+- **Spam pages** left behind by an old hack, still indexed.
+
+## Performance on WordPress
+
+A page cache, image compression, script deferral, database cleanup, and a CDN fix most slow WordPress sites. I configure WP Rocket, LiteSpeed Cache, or W3 Total Cache, test that caching doesn't serve the wrong canonical or a logged-in view to crawlers, and connect Cloudflare where it helps. More on speed under [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/).
+
+## WooCommerce
+
+Product and category templates, faceted navigation, out-of-stock handling, and product schema are covered under [ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/).
+
+## How I work safely
+
+I work with an editor or administrator role as the job requires, on a staging copy when one exists. Before changing plugin settings I export them, and every change goes in a written log so it can be undone. Theme edits go into a child theme, never the parent. If the site has no backups, setting them up comes first.
+
+## Access I'll ask for
+
+An administrator login for configuration work, or an editor login for content-only work, plus hosting or staging access when caching and server settings are in scope.
+
+## Older installs
+
+I'm comfortable inside a fifteen-year-old WordPress site with a custom theme nobody can explain. The goal is to make it sound for search without breaking what works, and to tell you honestly when a rebuild would cost less than another round of patches.
+
+An example of what goes wrong when the SEO plugin is switched off: [recovering a WooCommerce store's indexing](https://christopherabraham.com/case-studies/plugin-outage/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/ecommerce-seo/
+Updated: 2026-10-06
+
+# Ecommerce SEO
+
+Online stores have the hardest SEO problems at the largest scale: thousands of products, filters that multiply URLs, variants, out-of-stock pages, and templates that decide what every product page says. I work on Shopify, WooCommerce, and Magento, and I focus on the templates because that's where one fix improves every page.
+
+## Product pages
+- Unique titles and descriptions built from product attributes, not the manufacturer's copy pasted onto every retailer's site.
+- Specifications, FAQs, and reviews present in the server HTML, not hidden behind tabs or scroll triggers that crawlers never trigger.
+- Product schema with price, availability, brand, GTIN or MPN, and real review data, emitted once, without a duplicate block from the theme.
+- Variant handling that avoids a separate indexable URL for every color and size unless each one earns search traffic.
+- A clear policy for out-of-stock and discontinued products: keep, redirect, or retire.
+
+## Category pages
+
+Category pages often carry the most valuable non-brand searches. I look at their copy, internal links, pagination, and the faceted filters that can create millions of crawlable URL combinations. The right filters become indexable landing pages; the rest are kept out of the crawl.
+
+## Platform notes
+
+### Shopify
+
+Duplicate product paths under collections, theme-generated schema, apps that inject scripts, and the limits on what you can change in robots.txt and URL structure. I work in a duplicated theme first and publish only after review.
+
+### WooCommerce
+
+Plugin conflicts, attribute archives, slow queries on large catalogs, and SEO plugin settings for products and taxonomies.
+
+### Magento 2 and Hyvä
+
+Layered navigation, configurable products, and the Alpine.js patterns in Hyvä themes that can keep product content out of the rendered page.
+
+## Migrations between platforms
+
+Store replatforms leave a trail of old product URLs, image paths, and collection structures. I build the redirect map from the old catalog, then clean up 404s and duplicates after launch. See [migrations](https://christopherabraham.com/services/migrations/).
+
+## Shopping and AI results
+
+Product schema and a clean Merchant Center feed help products appear in Google's shopping surfaces. The same clear product facts help AI assistants answer "what's the best..." questions with your products in the list.
+
+## Reviews and user content
+
+Customer reviews are some of the most useful text on a product page, for shoppers and for crawlers alike. I check that review apps render their content in the HTML rather than in a late-loading widget, that rating markup reflects the reviews actually shown, and that question-and-answer sections are crawlable. Done right, reviews add fresh, specific language to pages that would otherwise carry only the manufacturer's description.
+
+## Revenue first
+
+I prioritize by revenue, not page count: the categories and products that earn the most get attention first, and seasonal pages go live early enough to be indexed before the rush. Changes that risk volatility are scheduled outside your peak season.
+
+Two stores I've worked on: [a Magento retailer whose product content never rendered for Googlebot](https://christopherabraham.com/case-studies/scroll-gated-products/) and [a specialty shop cleaning up after a move to Shopify](https://christopherabraham.com/case-studies/shopify-cleanup/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/local-seo/
+Updated: 2026-10-06
+
+# Local SEO and Google Business Profile
+
+For a business people visit, or one that visits them, the map pack and the local results matter more than anything else on the page. Local visibility depends on three things agreeing with each other: your Google Business Profile, your website, and the rest of the web.
+
+## Profile, website, and citations, aligned
+- **Google Business Profile.** The right primary and secondary categories, services and products, hours, attributes, photos, and a description written for people. Q&A and review responses managed consistently.
+- **Location pages.** One strong page for each location, with its own address, hours, directions, staff, and services. Each profile links to its own location page, not the home page.
+- **Structured data.** LocalBusiness schema for each location, connected to the parent organization.
+- **Name, address, and phone.** The same everywhere: website, profiles, directories, and social accounts. Mismatches are among the most common causes of local trouble.
+- **Service areas.** City and region pages that are genuinely about each place, not copies with the town name swapped.
+
+## Multi-location businesses
+
+When a brand grows from one location to several, search engines often keep confusing the brand with its first location. I separate them: the organization as the parent, each location as a branch, each with its own page and profile. Town pages and profiles get clear jobs so they support each other instead of competing.
+
+## Hard cases
+
+Suspended profiles, verification loops, duplicate listings, profiles stuck between live and pending, and ownership lost with a former employee or agency. These cases take investigation: reconstructing what happened, matching the profile to verifiable facts, and building an appeal where the strongest evidence comes first and nothing is claimed that the documents can't support.
+
+Google decides these cases on its own timeline, and its support is slow and inconsistent. So hard cases start as a paid, written diagnostic: what happened, what Google will want to see, and whether there's a viable path. The appeal or remediation is scoped separately once that's clear.
+
+## Timing and caution
+
+Some changes, such as editing a business name or switching primary categories, can trigger reverification or a suspension. I plan those changes deliberately, away from your busiest season, and document the before state so it can be restored.
+
+## Reviews
+
+Review count, rating, recency, and the owner's replies all shape local visibility and, more importantly, whether someone calls. I help set up a steady, policy-compliant way to ask happy customers for reviews, write reply templates that sound human, and flag reviews that break Google's rules for removal requests.
+
+## Measuring local
+
+Profile performance data, calls and direction requests, local pack positions measured on a grid around each location, and organic traffic to location pages. I set a baseline first so progress can be measured.
+
+See [a therapy practice's suspended profile reinstated](https://christopherabraham.com/case-studies/profile-reinstated/) and [a multi-state brand untangled from its first showroom](https://christopherabraham.com/case-studies/closet-locations/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/seo-retainer/
+Updated: 2026-10-06
+
+# Monthly SEO retainer
+
+After the audit and the big fixes, sites drift. Plugins update, developers ship new templates, editors publish pages without descriptions, and Google changes what it rewards. A retainer keeps a senior consultant watching your site every month and fixing problems while they're still small.
+
+## What a month includes
+- **Monitoring.** Search Console and Bing Webmaster Tools for indexing changes, crawl errors, manual actions, and Core Web Vitals; analytics for unusual drops; uptime and redirect checks on key pages.
+- **A monthly crawl.** Compared with last month's, so new 404s, redirect chains, duplicate titles, and noindex tags are caught within weeks of appearing.
+- **Hands-on fixes.** Metadata, redirects, schema, internal links, and plugin or Cloudflare settings, within the hours on the retainer.
+- **Developer QA.** I review releases that touch templates, routing, or head tags, before they ship when possible and right after when not.
+- **Content support.** Briefs for new pages, edits for SEO, and refreshes of pages that are slipping.
+- **AI search checks.** A stable set of prompts run across the major assistants, tracked over time.
+- **A report.** One page in plain English: what changed, what I did, what I recommend next, and the handful of numbers that matter.
+
+## Who it suits
+- Businesses without an in-house SEO, whose website is a real source of customers.
+- Marketing teams that want a senior specialist on call without a full-time hire.
+- Development teams that want someone to catch SEO regressions before they ship.
+- Agencies that need technical SEO depth behind their own client work.
+
+## How it's structured
+
+A retainer covers a set number of hours each month, agreed in advance and billed at the start of the month, or run as a weekly hourly contract on Upwork. Priorities are set together at the start of each month and adjusted when something urgent comes up. Unused hours don't roll over indefinitely; if months run consistently light, I'll suggest a smaller plan.
+
+## Starting a retainer
+
+Retainers usually follow an [audit](https://christopherabraham.com/services/seo-audit/), so the first month starts with a plan rather than discovery. If you already have a recent, solid audit from someone else, I'll review it and start from there.
+
+## Monthly priorities
+
+The first week of each month starts with a short written plan: the three to five things I'll focus on, why, and what you'll need to approve. Midmonth surprises, such as a sudden drop or a broken release, take priority, and the plan is adjusted in writing.
+
+## Communication
+
+Requests and updates happen in writing, in Upwork, email, or your project tool, so there's always a record of what was asked and what was done. A monthly call to walk through the report is included for anyone who wants one.
+
+## Ending a retainer
+
+Either side can end a retainer at the end of any month. When it ends, you get a handover note listing what's in progress, what to watch, and where every login and setting stands, and I remove my access.
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/guides/
+Updated: 2026-10-06
+
+# SEO guides
+
+These guides cover the questions clients ask me most, written so you can act on them yourself. Each one is self-contained, with links to related guides and to the glossary for terms.
+
+## Indexing and audits
+- [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
+- [What a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/): how to tell a useful audit from a tool export, before and after you pay for one.
+
+## AI search and structured data
+- [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/): crawler access, server-rendered content, entities, answer-shaped pages, llms.txt, and measurement.
+- [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/): five types, example JSON-LD, and the rules that keep it accurate.
+
+## Migrations and performance
+- [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/): inventories, one-to-one maps, chains, 410s, and bulk testing.
+- [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/): LCP, INP, and CLS, field versus lab data, and the fixes that usually work.
+
+## Reference
+- [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): short definitions of the vocabulary used across this site, from AEO to XML sitemap.
+
+## Stay current
+
+New and updated guides appear in the [Atom feed](https://christopherabraham.com/feed.xml). AI tools can read every guide as Markdown through [llms.txt](https://christopherabraham.com/llms.txt).
+
+## When a guide isn't enough
+
+If you've worked through a guide and the problem is still there, that's usually the point where a second set of eyes on the actual site helps. Every engagement begins with a scoped audit; see the [services](https://christopherabraham.com/services/) or [get in touch](https://christopherabraham.com/contact/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/guides/page-indexing-report/
+Updated: 2026-10-06
+
+# How to read the Page indexing report in Search Console
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+The Page indexing report is the closest thing Google gives you to a list of its decisions about your site. It's also easy to misread. This guide explains what each reason means, which ones deserve worry, and how to get from a scary number to the one template causing it.
+
+## Where to find it
+
+In Google Search Console, open **Indexing**, then **Pages**. The chart shows indexed and not-indexed URLs over time. Below it, the table "Why pages aren't indexed" lists each reason with a count. Click any reason to see example URLs and a trend for that reason alone.
+
+## Rule one: not indexed isn't always bad
+
+A healthy site always has excluded URLs. Redirects, deliberate noindex tags, parameter variants pointing to a canonical, and old 404s all belong outside the index. The question is never "why is this number above zero?" It's "are any pages I need in the index sitting in this list?"
+
+## The reasons, sorted by how much attention they deserve
+
+### Usually fine
+- **Page with redirect.** The URL redirects elsewhere. Expected after any migration. Check only that the targets are indexed.
+- **Alternate page with proper canonical tag.** Google accepted your canonical. Fine when the canonical is the page you intended.
+- **Not found (404).** Pages that no longer exist. Fine unless they have links or traffic, in which case they deserve a 301.
+- **Excluded by "noindex" tag.** Fine if you put the noindex there on purpose. Scan the examples for pages you didn't mean to hide.
+
+### Worth a look
+- **Blocked by robots.txt.** Check that no important section or resource is disallowed. A blocked CSS or JavaScript file can break rendering for the pages that need it.
+- **Duplicate without user-selected canonical.** Google found near-identical pages and you didn't say which one is primary. Add canonicals or consolidate.
+- **Duplicate, Google chose different canonical than user.** Google disagreed with your canonical. Look for internal links, sitemaps, or redirects that point at the other version.
+- **Soft 404.** The page returns a success code but looks empty: an out-of-stock product with no content, an empty search result, a client-side "not found" screen.
+- **Server error (5xx).** Google got an error when it tried. Even occasional errors slow crawling. Check hosting, firewalls, and rate limits.
+
+### Usually where the real problem is
+- **Crawled, currently not indexed.** Google fetched the page and decided it wasn't worth indexing. On a site with good content, this is often a rendering problem: the text you see isn't in what Google receives.
+- **Discovered, currently not indexed.** Google knows the URL exists but hasn't fetched it. Common on large sites with weak internal linking, slow servers, or floods of low-value URLs competing for crawl attention.
+
+## From a count to a cause
+1. **Export the examples.** Each reason lists up to 1,000 example URLs. Export them.
+2. **Group by pattern.** Sort by URL path. You'll usually see the problem cluster in one directory or page type, such as /product/, /tag/, or /events/.
+3. **Inspect a sample.** Run URL Inspection on five or six from the cluster, then click **Test live URL** and **View tested page**. Compare the rendered HTML and screenshot with what a visitor sees.
+4. **Check the content made it.** Search the rendered HTML for a sentence from the page's main content. If it's missing, you've found a rendering problem.
+5. **Check the signals.** Canonical, robots meta tag, status code, and whether the page is in your sitemap and linked from other pages.
+6. **Compare with a healthy page.** Find a page of the same type that is indexed. Whatever differs between the two is your lead.
+
+## Make the report work for you
+
+Submit separate XML sitemaps for each page type: products, categories, articles, locations. Then filter the Page indexing report by sitemap. Instead of one blended number, you see that 96% of articles are indexed and 41% of products are not, which tells you exactly where to look.
+
+## Mind the lag
+
+The report updates days behind reality, and counts can move in steps rather than smoothly. After a fix, check individual URLs with the live test rather than waiting for the chart. When you've fixed a cluster, use **Validate fix** on that reason, and Google will recheck the examples and report progress.
+
+## Check Bing too
+
+Bing Webmaster Tools has its own URL Inspection and index coverage reports. When Bing indexes pages Google won't, the difference often points straight at the cause, because the two crawlers render JavaScript and apply consent and robots rules differently.
+
+## When to get help
+
+If the cause isn't obvious after a few inspections, or if important pages keep falling out, a structured diagnosis saves time. See [indexing repair](https://christopherabraham.com/services/indexing/), or a real example where [a consent tool caused the exclusions](https://christopherabraham.com/case-studies/consent-banner/).
+
+
+---
+
+Source: https://christopherabraham.com/guides/ai-search-checklist/
+Updated: 2026-10-06
+
+# The AI search readiness checklist
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+AI assistants answer questions by retrieving pages, reading them quickly, and quoting what's clear. This checklist covers what has to be true for your site to be retrieved, understood, and cited. Work through it in order; the early items block everything after them.
+
+## 1. Can AI crawlers reach you?
+- **robots.txt** allows the crawlers you want. The main ones: GPTBot and OAI-SearchBot (OpenAI), ClaudeBot and Claude-SearchBot (Anthropic), PerplexityBot, Google-Extended (Gemini training), Applebot-Extended, Bingbot (which also feeds Copilot), and CCBot (Common Crawl).
+- **Your CDN and firewall** let them through. Cloudflare, Sucuri, and hosting firewalls can block AI crawlers by default, regardless of robots.txt. Check the setting and check the logs.
+- **Pages respond quickly** and without errors. Retrieval systems working against a time limit skip slow pages.
+
+Blocking AI crawlers is a legitimate business choice. Just make it deliberately, knowing that a blocked site can't be cited.
+
+## 2. Is your content in the HTML?
+- Fetch a key page with scripts turned off, or use "View source." Is the main text there?
+- No important content hidden behind tabs, accordions, or "load more" buttons that require JavaScript to populate.
+- Prices, specifications, hours, and addresses in text, not only in images or PDFs.
+
+Googlebot renders JavaScript. Most AI crawlers don't. If the answer isn't in the HTML, most assistants will never see it.
+
+## 3. Do machines know who you are?
+- **Organization or LocalBusiness schema** on the home page, with your legal name, logo, address, phone, and founding date.
+- **sameAs links** from that schema to your official profiles: LinkedIn, Crunchbase, Wikipedia or Wikidata if you have them, and major directories.
+- **Person schema** for founders and authors whose expertise matters.
+- **One description, everywhere.** The same name, the same one-sentence description, and the same facts on your site, your profiles, and directories.
+- An **About page** that states plainly who you are, what you do, where, since when, and for whom.
+
+## 4. Is your content shaped like an answer?
+- Each important page opens with a direct, one- or two-sentence answer to its main question.
+- Sections are self-contained. A paragraph pulled out alone still makes sense, without "as mentioned above."
+- Terms are defined where they're used. A glossary page helps.
+- Specific numbers, dates, and names are stated rather than implied: prices, sizes, service areas, years.
+- FAQs are written around questions your customers actually ask, with the answers visible on the page.
+- Comparison pages are fair. Assistants are more willing to cite a balanced comparison than a sales pitch.
+- Pages show who wrote them and when they were last updated.
+
+## 5. Have you published files for machines?
+- **XML sitemap** with accurate last-modified dates, submitted to Google and Bing.
+- **IndexNow** enabled, so Bing learns about changes within minutes.
+- **llms.txt** at your site root: a short Markdown summary of who you are with links to your most important pages. It's an emerging convention, inexpensive to add, and some AI tools already read it.
+- Optionally, clean Markdown versions of key pages linked from llms.txt.
+
+## 6. Does the rest of the web agree?
+- Your Google Business Profile, Bing Places listing, and Apple Business Connect are complete and consistent.
+- Industry directories and review sites list current information.
+- You know which third-party pages assistants cite when they answer questions in your category, and whether you appear on them.
+- Outdated or wrong information elsewhere has been corrected at the source where possible.
+
+## 7. Are you measuring it?
+- A fixed set of 20 to 50 prompts your buyers would ask, run across ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google's AI Overviews.
+- The same prompts repeated monthly. Answers vary, so trends matter more than any single answer.
+- For each run: whether you appear, how you're described, whether facts are correct, and which sources are cited.
+- AI assistant referrals segmented in GA4, using referrers such as chatgpt.com, perplexity.ai, gemini.google.com, and copilot.microsoft.com.
+
+## Where to start
+
+If you only do three things this month, make them these: confirm crawlers can reach you, confirm your main content is in the HTML, and make your About page and Organization schema say exactly who you are. Everything else builds on those.
+
+For help running the checklist against your own site, see [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/). Terms used here are defined in the [glossary](https://christopherabraham.com/guides/glossary/).
+
+
+---
+
+Source: https://christopherabraham.com/guides/seo-audit-deliverables/
+Updated: 2026-10-06
+
+# What a technical SEO audit should give you
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+You can buy an SEO audit for fifty dollars or fifteen thousand. The cheap ones and some of the expensive ones are the same thing: a crawler's warnings pasted into a document. This guide describes what a useful audit contains, so you can judge one before you pay for it and after you receive it.
+
+## It starts with a question
+
+A useful audit answers something specific. "Why did organic revenue from product pages fall 30% since May?" "What is at risk in a move to Shopify?" "Why are half the location pages not indexed?" The question decides what gets examined and how deeply. An audit with no question examines everything at the same shallow depth and concludes nothing.
+
+**How to judge it:** the first page should restate your question. If it opens with a score out of 100, be wary.
+
+## Findings come with evidence
+
+Every finding should show how the auditor knows it: a screenshot of the rendered HTML missing the product description, a Search Console export showing which pages dropped, a crawl comparison, server response headers, a log excerpt. Evidence lets your developers verify the finding themselves, and it protects you from fixing things that were never broken.
+
+**How to judge it:** pick any finding and ask, "How is this known?" The answer should already be on the page.
+
+## Findings explain the mechanism
+
+"Product pages have low word count" is a symptom. "Product specifications and reviews are mounted by a script that runs only when a visitor scrolls, so crawlers receive 300 words of a 3,000-word page" is a mechanism. Mechanisms tell you what to fix. Symptoms tell you to go find someone who can explain them.
+
+## Separate problems stay separate
+
+Traffic losses often coincide with several things at once: an algorithm update, a plugin change, a backlink spike, a redesign. A good audit treats each as its own line of inquiry and says which ones the evidence actually connects to the loss. Folding everything into one story feels satisfying and leads to fixing the wrong thing.
+
+## Confidence is stated
+
+Not every finding is certain. Good auditors say which conclusions are confirmed, which are likely, and which need more data, and they say what data would settle it. An audit that's equally sure of everything has probably not tested much.
+
+## The plan is ranked
+
+You should finish the audit knowing what to do first. That means a prioritized list, often P0 through P3, where each item has:
+- the problem, in one sentence;
+- the expected impact, and on which pages;
+- an owner, such as your developer, your content editor, or the consultant;
+- a rough effort estimate;
+- dependencies, if one fix must come before another.
+
+**How to judge it:** could your team start work Monday morning without another meeting?
+
+## Developers get tickets they can build from
+
+For anything that requires code, a strong audit includes developer-ready tickets: what to change, where, exact steps where possible, and acceptance criteria that say how everyone will know it's done. "Event links must be present as anchor elements in the server HTML of /events/" is testable. "Improve crawlability" isn't.
+
+## Leadership gets a summary
+
+A one-page plain-English summary: what's wrong, what it's costing, what it will take, and what to expect afterward. The people who approve the budget shouldn't need to read crawl data to make a decision.
+
+## What a useful audit leaves out
+- Hundreds of low-priority warnings with no ranking. Missing alt text on a footer logo isn't why traffic fell.
+- Generic best-practice sections copied between clients.
+- Guarantees about rankings. Nobody controls Google's decisions.
+- Proprietary scores that can't be traced back to evidence.
+
+## After delivery
+
+The audit's value shows up when fixes ship. Ask whether the auditor will verify the fixes against the acceptance criteria, check the live site after deployment, and watch the relevant reports. An audit followed by verification turns findings into results.
+
+## Questions to ask before you hire
+1. What question will this audit answer?
+2. Can I see an anonymized sample?
+3. Who does the actual analysis?
+4. Will findings include evidence and confidence?
+5. Will developers get tickets with acceptance criteria?
+6. Will you verify the fixes?
+
+My own approach is described under [technical SEO audit](https://christopherabraham.com/services/seo-audit/). A worked example: [the scroll-gated product pages case](https://christopherabraham.com/case-studies/scroll-gated-products/).
+
+
+---
+
+Source: https://christopherabraham.com/guides/small-business-schema/
+Updated: 2026-10-06
+
+# The schema markup a small business actually needs
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+Schema.org has more than 800 types. A typical small business needs about five. This guide covers which ones, shows example code, and lists the rules that keep structured data accurate enough for Google and AI systems to trust.
+
+## Why bother
+
+Structured data states your facts in a format machines don't have to guess at. It can earn rich results in Google, such as review stars, FAQs, and breadcrumbs, and it helps search engines and AI assistants connect your business, its location, and its services into one clear entity. It won't rescue a weak page, but it makes a good page unambiguous.
+
+## The five you need
+
+### 1. LocalBusiness or Organization, on the home page
+
+Use the most specific LocalBusiness subtype that fits: Dentist, Plumber, LegalService, Restaurant, HomeAndConstructionBusiness, and so on. If customers never visit you and you don't serve a defined area, use Organization instead.
+
+```
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Plumber",
+  "@id": "https://example.com/#business",
+  "name": "Example Plumbing",
+  "url": "https://example.com/",
+  "logo": "https://example.com/logo.png",
+  "telephone": "+1-703-555-0100",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "100 Main Street",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+  },
+  "openingHours": "Mo-Fr 08:00-17:00",
+  "areaServed": ["Arlington, VA", "Alexandria, VA"],
+  "sameAs": [
+    "https://www.linkedin.com/company/example-plumbing",
+    "https://www.yelp.com/biz/example-plumbing"
+  ]
+}
+</script>
+```
+
+The `@id` is a permanent identifier for the business. Use the same one on every page that refers to it.
+
+### 2. Service, on each service page
+
+```
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Water heater replacement",
+  "provider": { "@id": "https://example.com/#business" },
+  "areaServed": "Arlington, VA",
+  "url": "https://example.com/water-heaters/"
+}
+```
+
+The provider points back to the business by its `@id`, connecting each service to the company that offers it.
+
+### 3. BreadcrumbList, on every page below the home page
+
+Describes where the page sits in your site. Most SEO plugins generate this automatically if breadcrumbs are turned on.
+
+### 4. FAQPage, only where questions are visible
+
+Mark up FAQs only when the questions and answers are visible on the page. Google shows FAQ rich results for few sites now, but the markup still helps AI systems match your answers to questions.
+
+### 5. Person, for the owner or practitioner
+
+If customers choose you partly because of who you are, such as a lawyer, therapist, consultant, or chef, add Person markup on the About page with name, job title, image, and sameAs links to professional profiles, connected to the business with `worksFor`.
+
+## Add if they apply
+- **Product and Offer** if you sell products online.
+- **Article or BlogPosting** on blog posts, with author and dates.
+- **Event** for classes, workshops, or performances with dates.
+- **Review** markup only for reviews that are visible on the page. Self-serving review stars on your own business are ignored by Google.
+
+## The rules
+1. **Match the page.** Everything in the markup should be visible to visitors. Hidden facts in schema get ignored or penalized.
+2. **Match the world.** Name, address, and phone should match your Google Business Profile exactly.
+3. **One source of truth.** Don't let a theme, an SEO plugin, and a reviews app each output their own business markup. Pick one.
+4. **Keep it current.** Hours, prices, and addresses change. Hardcoded markup goes stale; markup generated from your CMS fields stays accurate.
+5. **Validate.** Test every template in Google's Rich Results Test and the Schema.org validator, then watch Search Console's enhancement reports.
+
+## How to add it
+
+On WordPress, Yoast SEO and Rank Math generate Organization, WebSite, Breadcrumb, and Article markup and let you add more. On Shopify, the theme usually outputs Product markup; check for duplicates before adding an app. On Squarespace and Wix, add JSON-LD through code injection or the platform's SEO settings. On custom sites, generate it from the same data that renders the page.
+
+## A five-minute self-check
+1. Paste your home page address into Google's Rich Results Test and note every type it detects.
+2. Open the Schema.org validator on the same page and look for duplicates: two Organization or LocalBusiness blocks usually mean a theme and a plugin are both writing markup.
+3. Compare the name, address, and phone in the markup with your Google Business Profile, character by character.
+4. Repeat on one service page and one blog post.
+5. In Search Console, open the Enhancements section and check for errors and warnings on each detected type.
+
+If all five checks come back clean, your structured data is in better shape than most.
+
+## Multiple locations
+
+With more than one location, the home page describes the Organization, and each location page describes its own LocalBusiness with `parentOrganization` pointing to it. Never describe the company and its first location as the same entity.
+
+For help with markup that validates and stays accurate, see [schema markup and entity SEO](https://christopherabraham.com/services/schema/).
+
+
+---
+
+Source: https://christopherabraham.com/guides/redirect-rules/
+Updated: 2026-10-06
+
+# Ten rules for 301 redirects that keep your rankings
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+A 301 redirect tells browsers and search engines that a page has moved permanently and where to find it. Handled well, redirects carry rankings, links, and bookmarks to a new address. Handled carelessly, they quietly erase years of search equity. These are the rules I follow on every migration.
+
+## 1. Inventory before you redirect
+
+You can't redirect URLs you don't know about. Build the old URL list from several sources: a full crawl, every XML sitemap, Search Console's performance and indexing exports, analytics landing pages over at least a year, and backlink tools. Old campaign pages and PDFs that nobody links from the menu often carry the most external links.
+
+## 2. Map one to one, to the closest equivalent
+
+Each old URL should point to the new page that best serves the same visitor. A product goes to the same product, a category to the same category, an article to its new address. When the content is merged, point to the merged page.
+
+## 3. Don't send everything to the home page
+
+Redirecting hundreds of old pages to the home page is easy and almost worthless. Google treats irrelevant redirects as soft 404s, and the equity those pages carried is lost. If there's no real equivalent, use rule 6.
+
+## 4. Use 301 or 308 for permanent moves
+
+A 301 (or 308, which also preserves the request method) signals a permanent move. A 302 or 307 says "temporarily elsewhere," and search engines may keep the old URL indexed. Meta refresh and JavaScript redirects work in some cases, but server-side redirects are the clear signal.
+
+## 5. No chains, no loops
+
+Each redirect should go straight to the final destination in one hop. Chains build up over years: http to https, then www to apex, then old path to new path. Every hop adds delay and risks the crawler giving up. When you add new redirects, update the old ones to point at the final URL.
+
+## 6. Use 410 deliberately
+
+For pages that are gone for good with no replacement, a 410 status says so plainly and gets them dropped from the index faster than a 404. Use it for retired products with no successor, expired events, and spam pages left from a hack.
+
+## 7. Keep redirects for years
+
+Search engines need time to process a move, and links, bookmarks, and old emails keep sending visitors for years. Keep redirects in place for at least a year, and for valuable URLs, indefinitely. Removing them to "clean up" the configuration is a common way to lose traffic a second time.
+
+## 8. Update everything that points at old URLs
+
+Redirects are a safety net, not the plan. Update internal links, canonical tags, hreflang annotations, XML sitemaps, structured data, and your Google Business Profile website link to point directly at new URLs. Ask the sites that link to you most to update their links too.
+
+## 9. Preserve parameters and casing on purpose
+
+Decide how query strings, trailing slashes, and uppercase URLs are handled. Tracking parameters should usually pass through; old filter parameters may need their own rules. Test a handful of odd real URLs from your logs, not just the clean ones.
+
+## 10. Test in bulk, then watch
+
+Before launch, run the full old URL list against staging and confirm each returns one 301 to the expected destination, which then returns 200. Repeat on launch day against production. Afterward, watch 404 reports in Search Console and Bing Webmaster Tools, your server logs, and traffic by page group for several weeks.
+
+## Where redirects live
+- **Apache:** .htaccess or the virtual host configuration.
+- **Nginx:** server blocks with return 301 or map files for large lists.
+- **WordPress:** Rank Math, Yoast Premium, or the Redirection plugin, or the server for large maps.
+- **Shopify:** URL Redirects under Navigation, with CSV import.
+- **Netlify and Vercel:** _redirects files or the platform's configuration file.
+- **Cloudflare:** Bulk Redirects or Redirect Rules at the edge, useful when the origin can't do it.
+- **GitHub Pages and other static hosts:** no server redirects, so a page with a meta refresh and a canonical tag is the fallback.
+
+## A note on disavow files
+
+Migrations are a common moment to review backlinks. Disavow only genuinely manipulative or spammy links, and keep legitimate ones; disavowing good links throws away the equity your redirects are trying to preserve.
+
+For a full move, see [site migrations and 301 redirects](https://christopherabraham.com/services/migrations/), or [a clinic's redirect decisions URL by URL](https://christopherabraham.com/case-studies/clinic-migration/).
+
+
+---
+
+Source: https://christopherabraham.com/guides/core-web-vitals/
+Updated: 2026-10-06
+
+# Core Web Vitals in plain English
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+Core Web Vitals are Google's three measurements of how a page feels to a real person: how fast it shows up, how quickly it responds, and whether it holds still. They're a modest ranking factor and a large conversion factor. Here's what each one means and what usually fixes it.
+
+## The three measurements
+
+### Largest Contentful Paint (LCP): does it show up fast?
+
+The time until the biggest thing in the first screen, usually a hero image or headline, finishes appearing. **Good: 2.5 seconds or less.** Poor: over 4 seconds.
+
+### Interaction to Next Paint (INP): does it respond fast?
+
+How long the page takes to visibly react when someone taps, clicks, or types, measured across the visit and reported near the worst case. **Good: 200 milliseconds or less.** Poor: over 500. Google swapped INP in for the older First Input Delay metric in March 2024.
+
+### Cumulative Layout Shift (CLS): does it hold still?
+
+How much content jumps around while the page loads, the effect that makes you tap the wrong button. **Good: 0.1 or less.** Poor: over 0.25.
+
+## Field data versus lab data
+
+This confuses almost everyone. **Field data** comes from real Chrome users visiting your site over the past 28 days, collected in the Chrome UX Report. It's what Google uses for ranking and what Search Console's Core Web Vitals report shows. A page passes when 75% of visits meet the "good" threshold.
+
+**Lab data** is a single simulated test, like the score at the top of PageSpeed Insights or Lighthouse in your browser. It's useful for diagnosing causes, but it isn't the number Google judges you on. A site can score 95 in the lab and fail in the field because real visitors use slower phones and networks, or the reverse.
+
+In PageSpeed Insights, the section titled "Discover what your real users are experiencing" is field data. Start there.
+
+## Common causes and fixes
+
+### Slow LCP
+- **Huge hero images.** Serve correctly sized images in WebP or AVIF, with srcset for different screens.
+- **Lazy-loaded hero image.** Lazy loading the main image delays it. Load it eagerly and add fetchpriority="high".
+- **Slow server response.** Add page caching, upgrade from overloaded shared hosting, or cache HTML at a CDN.
+- **Render-blocking CSS and JavaScript.** Defer scripts that aren't needed for the first screen and remove unused stylesheets.
+- **Content drawn by JavaScript.** If the main content waits for a script, render it on the server instead.
+
+### Poor INP
+- **Too much JavaScript.** Page builders, sliders, and stacks of third-party tags keep the browser busy. Remove what you don't use.
+- **Heavy third-party scripts.** Chat widgets, session recorders, and ad scripts are common culprits. Load them later or after interaction.
+- **Long tasks in your own code.** Developers can break up long JavaScript tasks and avoid expensive work in event handlers.
+
+### High CLS
+- **Images without dimensions.** Always set width and height so the browser reserves space.
+- **Ads, embeds, and banners** that push content down. Reserve their space in advance.
+- **Web fonts** that swap late and change text size. Preload key fonts and use matching fallback metrics.
+- **Cookie banners** inserted at the top of the page. Overlay them instead.
+
+## Where to look
+1. **Search Console, Core Web Vitals report.** Groups failing URLs by similar pages, which usually means by template. Fix the template, fix the group.
+2. **PageSpeed Insights.** Field data for a URL or the whole origin, plus lab diagnostics pointing at specific resources.
+3. **Chrome DevTools, Performance panel.** For developers tracing exactly what blocks rendering or interaction.
+
+## How long until it improves
+
+Field data is a rolling 28-day window, so a fix shipped today shows its full effect about four weeks later. Use lab tests to confirm the fix works immediately, then watch field data climb.
+
+## A quick self-check
+
+Open Search Console's Core Web Vitals report and note which group of URLs fails and on which metric. Run one example through PageSpeed Insights and read the field data first, then the diagnostics. If the failing metric is LCP, look at the hero image and server response time; if INP, count the third-party scripts; if CLS, look for images without dimensions and late banners.
+
+## Keep it in proportion
+
+Core Web Vitals won't lift weak content above strong content. But between comparable pages they can tip the balance, and they always affect whether visitors stay. Fix the templates that carry your revenue first.
+
+For hands-on help, see [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/). Terms are defined in the [glossary](https://christopherabraham.com/guides/glossary/).
+
+
+---
+
+Source: https://christopherabraham.com/guides/glossary/
+Updated: 2026-10-06
+
+# Glossary of SEO and AI search terms
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+
+The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need.
+
+**AEO (answer engine optimization)**
+Shaping pages so that systems which reply with an answer rather than a list of links, from featured snippets to voice assistants to chatbots, can lift a passage and credit it.
+
+**AI Overviews**
+The generated summaries Google places on many results pages, citing the sites they borrowed from. AI Mode extends the idea into a back-and-forth conversation.
+
+**Alt text**
+Words attached to an image in the markup that describe it for people using screen readers and give crawlers a clue about the picture's subject.
+
+**Anchor text**
+The visible, clickable wording of a hyperlink. When it names the destination's topic, both readers and crawlers know what they'll find.
+
+**Bing Webmaster Tools**
+Microsoft's no-cost dashboard for owners, covering crawl, index, and keyword data from Bing, whose index also supplies Copilot and several other assistants.
+
+**Canonical tag**
+A line in a page's head nominating which address should represent a set of duplicate or close copies. Google weighs it heavily but may overrule it.
+
+**CLS (Cumulative Layout Shift)**
+The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.
+
+**Core Web Vitals**
+Three experience scores Google tracks, LCP, INP, and CLS, taken from Chrome users over a rolling four weeks.
+
+**Crawl budget**
+The practical ceiling on how much of a site a search engine will fetch in a given stretch of time. A concern for very large sites and those spawning endless URL variants.
+
+**Crawler**
+Software that requests pages on its own to read them, such as Googlebot, Bingbot, GPTBot, or ClaudeBot. People also say bot or spider.
+
+**Entity**
+A single real-world thing, whether a company, person, place, or product, that search engines and AI models recognize as one concept however a page happens to phrase its name.
+
+**Faceted navigation**
+Category filters for attributes like color, size, or price. Left open to crawlers, the combinations can balloon into millions of addresses.
+
+**Field data**
+Speed and responsiveness figures gathered from actual visits, as opposed to one synthetic test run on a single machine.
+
+**GEO (generative engine optimization)**
+Work aimed at how generative AI tools portray and cite a company or a page. In practice it overlaps almost entirely with AEO and AI SEO.
+
+**Google Business Profile**
+The free Google listing that puts a business on Maps and in local results, carrying its hours, categories, photos, and reviews.
+
+**hreflang**
+Markup that pairs each language or country edition of a page with the audience that should see it.
+
+**Index**
+The store of pages a search engine considers eligible for results. Nothing ranks until it's in there.
+
+**IndexNow**
+A shared ping system: when a page appears, changes, or disappears, the site tells Bing, Yandex, and other members right away instead of waiting for a recrawl.
+
+**INP (Interaction to Next Paint)**
+The Core Web Vital that times the gap between a tap, click, or keystroke and the screen's visible response. Aim for 200 ms or lower.
+
+**JSON-LD**
+Google's preferred way to write structured data: a JSON object inside its own script element, kept apart from what visitors see.
+
+**LCP (Largest Contentful Paint)**
+The Core Web Vital that times how long the biggest image or text block in the opening view takes to finish drawing. Aim for 2.5 s or lower.
+
+**llms.txt**
+A suggested standard: a Markdown summary kept at the top level of a domain, pointing language models to the pages most worth reading.
+
+**noindex**
+A directive, set in a meta tag or a response header, asking search engines to keep a page out of results.
+
+**Orphan page**
+A page nothing else on the site links to. Only a sitemap entry or an outside link can lead anyone to it.
+
+**Redirect chain**
+Several redirects strung together before the visitor arrives. Every extra step costs time and can weaken the signals passed along.
+
+**Rendering**
+Running a page's scripts to produce what a browser finally shows. Anything that exists only after this step can escape crawlers that skip it.
+
+**Rich results**
+Search listings dressed up with extra details drawn from structured data, like star ratings, prices, or breadcrumb trails.
+
+**robots.txt**
+A plain text file at the top of a domain that tells bots which folders to stay out of. It governs fetching; keeping a page out of results takes noindex.
+
+**Schema markup**
+Structured data written in the Schema.org vocabulary to spell out the people, organizations, places, and products on a page.
+
+**Search Console**
+Google's free owner dashboard: clicks and impressions, index status, Core Web Vitals, and alerts about problems it detects.
+
+**Soft 404**
+A URL that answers with a success code yet shows an empty or not-found page. Google files it with the real 404s.
+
+**Server-side rendering (SSR)**
+Assembling the complete HTML on the server so a crawler gets every word in the first response, no scripts required.
+
+**301 redirect**
+A permanent forwarding instruction from an old address to a new one, which passes nearly all of the old page's ranking signals along.
+
+**XML sitemap**
+A machine-readable list of the addresses a site wants crawled, often with the date each last changed.
+
+These terms are used throughout the [guides](https://christopherabraham.com/guides/) and [services](https://christopherabraham.com/services/) pages.
+
+
+---
+
+Source: https://christopherabraham.com/case-studies/
+Updated: 2026-10-06
+
+# Case studies
+
+Each case explains the problem, my role, what I found, what was done and by whom, how it was checked, and where things stand. Clients are described by industry, never by name.
+
+## Content crawlers couldn't see
+- [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/). Magento and Hyvä, Alpine.js, and a backlink spike kept on its own track.
+- [Film review site: a consent tool that emptied every article](https://christopherabraham.com/case-studies/consent-banner/). A cookie platform blocking the script that displayed the reviews.
+- [Event discovery app: 2,000 pages with no way in](https://christopherabraham.com/case-studies/event-app-links/). A React app, a 13-page spec, and testable fixes.
+
+## Modern stacks and migrations
+- [Junk removal company on a headless stack](https://christopherabraham.com/case-studies/headless-local/). Sanity, Vercel, and SEO changes merged through GitHub.
+- [Medical clinic: WordPress to Next.js](https://christopherabraham.com/case-studies/clinic-migration/). A decision for every legacy URL and an AI-assisted code review.
+- [Fly fishing shop: cleanup after a Shopify move](https://christopherabraham.com/case-studies/shopify-cleanup/). 3,400 broken URLs and duplicate product markup.
+
+## Indexing at scale and recovery
+- [Trading card price site: 20,000 pages in the index](https://christopherabraham.com/case-studies/card-price-index/). Segmented sitemaps and parameter rules.
+- [Health-testing store: after the SEO plugin went dark](https://christopherabraham.com/case-studies/plugin-outage/). Recovery checked in Google and Bing.
+
+## Entities, local, and AI search
+- [Custom closet brand: the company versus its first showroom](https://christopherabraham.com/case-studies/closet-locations/). Entity modeling and location pages.
+- [Therapy practice: a suspended Business Profile reinstated](https://christopherabraham.com/case-studies/profile-reinstated/). An evidence-first appeal.
+- [AI research company: accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/). A GEO audit for recruiting.
+
+## The common thread
+
+Almost every case comes down to the same gap: what a business believes its site says versus what crawlers and AI systems actually receive. Finding that gap, proving it, and closing it is the work. If one of these sounds familiar, [tell me about your site](https://christopherabraham.com/contact/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/case-studies/scroll-gated-products/
+Updated: 2026-10-06
+
+# Equipment retailer: product details that loaded only on scroll
+
+An equipment retailer running Magento 2 with the Hyvä theme watched organic traffic slide for months. The odd part: non-brand category traffic was rising while brand searches and product pages fell.
+
+## The engagement
+
+Forensic diagnosis and technical direction. The client's contractor owned implementation; I owned the evidence and the specification.
+
+## What the crawl showed
+
+I crawled the site twice with Screaming Frog, once reading raw HTML and once rendering JavaScript, and compared extracted word counts by template. Category pages yielded thousands of words. Flagship product pages, each weighing more than 1.2 MB, yielded only 250 to 400.
+
+## The mechanism
+
+The product template wrapped its specifications, FAQs, and reviews in Alpine.js directives that created those sections only when a shopper scrolled them into view: an `x-intersect` trigger around an `x-if` block. Googlebot renders pages in a tall viewport without scrolling the way people do, so those sections were never built. Search Console agreed: a selective cluster of product URLs sat in "Crawled, currently not indexed" while the rest of the site was fine.
+
+## The second problem, kept separate
+
+During the same months, a burst of spam backlinks from cloud-hosting ranges arrived, along with a redirect fault. Tempting as it was to blame everything on one cause, I documented that track separately and requested fuller Search Console access to investigate it on its own evidence.
+
+## Recommendations
+- Render product sections in the server HTML; keep scroll animation as an enhancement on top.
+- Remove the scroll gate on a test group of products first, so the effect is measurable before a sitewide rollout.
+- A separate cleanup plan for the backlinks and redirects.
+
+## The lesson
+
+Page weight and word count can disagree wildly. When a heavy page yields little text to a crawler, look for content waiting on an interaction that bots never perform. More on this pattern under [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/case-studies/consent-banner/
+Updated: 2026-10-06
+
+# Film review site: a consent tool that emptied every article for Google
+
+A WordPress site publishing film reviews in English and Italian had a strange split: Bing indexed it normally, while Google left almost every review out. No crawl errors, no manual action, just a long list of pages marked "Crawled, currently not indexed."
+
+## The engagement
+
+A paid diagnosis for the owner, followed by a call to walk through what I found.
+
+## The cause
+
+Each review's text sat inside jQuery UI tabs. The site's cookie consent platform was set to prior-consent blocking, holding back scripts until a visitor clicked Accept. One of the scripts held back was the one that initialized the tabs.
+
+Googlebot never clicks Accept. It visits every page as a visitor who has declined, so it rendered each review with the layout intact and the tab panels empty. Bing processed the pages differently, which explained the gap between the two engines.
+
+## What made it worse
+- 97% of pages carried identical hardcoded H2 headings from the theme.
+- 95% of internal links had no anchor text at all.
+
+Even the parts Google could see said almost nothing that distinguished one review from another.
+
+## Recommendations
+- Exempt content-building scripts from consent blocking, or put the review text directly in the HTML. Consent rules belong on analytics and advertising scripts, never on the article.
+- Generate H2s from each review's own content.
+- Add descriptive anchor text to internal links.
+
+## How I confirmed it
+
+Side-by-side browser sessions, one consenting and one not, showed the tabs empty in the second. The blocked script was identified in the consent platform's settings and matched to the exclusion pattern.
+
+## Why it matters
+
+Consent platforms are installed by legal and marketing teams and almost never tested against crawlers. If your site uses one, load a page with consent declined and check what's left. See [reading the Page indexing report](https://christopherabraham.com/guides/page-indexing-report/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/case-studies/event-app-links/
+Updated: 2026-10-06
+
+# Event discovery app: 2,000 pages with no way in
+
+A nightlife and event discovery app built on Create React App needed roughly 2,000 event pages in Google. After three months, Search Console showed impressions for the home page and close to nothing anywhere else.
+
+## The engagement
+
+I diagnosed, wrote the specification, and verified the work. The founder's developer built the fixes.
+
+## Four findings
+1. **The home page was empty to crawlers.** The server returned a single empty root element; everything visible was drawn later by JavaScript.
+2. **Event cards weren't links.** They navigated with click handlers, so there were no anchor tags for a crawler to follow.
+3. **The event pages were orphans.** Ironically, the event pages already had server-side rendering and decent HTML. Nothing pointed to them.
+4. **Canonicals pointed home.** The events and community sections declared the home page as their canonical, effectively telling Google they were copies of it.
+
+## The deliverables
+
+A short plain-language summary for the founder, and a 13-page specification for the developer covering 12 items ranked from P0 to P3. Each item carried the evidence, why it mattered, the build steps, and an acceptance test. The P0 items: real anchor links on every event card, server rendering for the home page and the event feed, and indexing requests for priority pages once those shipped.
+
+## Verification
+
+Every item had a test anyone could run, for example "event links appear in the server HTML of the feed" and "each section's canonical references itself." I checked the developer's work against those tests with a crawl and Search Console's live URL test.
+
+## The takeaway
+
+Good pages can still be invisible if nothing links to them in a way crawlers understand. Real links in real HTML remain the foundation of discovery. More under [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/case-studies/headless-local/
+Updated: 2026-10-06
+
+# Junk removal company on a headless stack: SEO through the repository
+
+A local junk removal company had a modern website: content in Sanity, hosting on Vercel, code in GitHub. It also had every classic problem of a client-rendered site, and with no SEO plugin to configure, every fix had to go through code.
+
+## What I found
+- Client-side rendering left crawlers with thin initial HTML.
+- Many pages shared the same title and meta description.
+- Heading levels were skipped or repeated.
+- Missing pages answered with a 200 status, producing soft 404s.
+- Canonical tags and structured data were missing or inconsistent.
+
+## Division of labor
+
+The developer handled the infrastructure: prerendered HTML and deployment changes. I set the order of work, specified what each page type needed, reviewed the developer's changes, and checked the production site independently. For metadata, I made the code changes myself in a pull request that the developer reviewed and merged.
+
+## How the result was checked
+- Crawls before and after prerendering, comparing extracted text.
+- Raw HTML fetched from production to confirm content was present without scripts.
+- Search Console's live URL test on representative pages.
+- A sitewide review of titles, descriptions, canonicals, and status codes.
+
+## Why this way of working helps
+
+On headless sites, SEO lives in templates, routes, and build settings. Working through the team's pull requests means every SEO change has a commit, a reviewer, and an easy rollback, and nobody has to wonder who changed what.
+
+## Status
+
+Core fixes are live and verified, with a final audit under way. See [JavaScript and headless SEO](https://christopherabraham.com/services/javascript-seo/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/case-studies/clinic-migration/
+Updated: 2026-10-06
+
+# Medical clinic: WordPress to Next.js without losing the trail
+
+A clinical practice replaced its managed WordPress site with a new Next.js build hosted on Netlify. The developer built the site. My job was continuity: making sure people and search engines could follow every old address to the right new one, and investigating whatever went wrong after launch.
+
+## A decision for every URL
+
+I reviewed the legacy URLs and reconciled the redirect map line by line. Each URL got one of four outcomes: unchanged, redirected to an existing destination, given a new migration redirect, or deliberately retired. I also separated faults the migration introduced from faults the old site already had, so neither the developer nor the old host took blame that wasn't theirs.
+
+## Reading the code with an AI assistant
+
+Alongside crawls and exports, I ran a read-only analysis of the Next.js repository with an AI coding assistant. It surfaced thousands of image references still pointing at the old WordPress media library and traced them to a handful of central files. That became a short, concrete plan for the developer to move the media. No code was changed by the analysis.
+
+## A conservative disavow
+
+I reviewed the backlink profile and rebuilt the disavow file to drop truly toxic domains while keeping legitimate ones. Over-disavowing throws away the very equity a migration is trying to keep.
+
+## After launch
+
+Blurry images from the image CDN, script and stylesheet errors, instability, and analytics oddities all came up. When engagement dipped over a short window, the obvious story was that blurry images drove people away. I checked tracking, engagement, and stability separately before accepting any explanation, and found the data didn't yet support that one.
+
+## The point
+
+Migrations rarely fail on launch day. They fail weeks later, through media still on the old host, missing redirects, and stories told too early. Read my [rules for 301 redirects](https://christopherabraham.com/guides/redirect-rules/) or see [migration services](https://christopherabraham.com/services/migrations/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/case-studies/shopify-cleanup/
+Updated: 2026-10-06
+
+# Fly fishing shop: cleaning up after Squarespace to Shopify
+
+A family-owned fly fishing retailer moved its store from Squarespace to Shopify. The new storefront looked better, but the number of indexed pages kept shrinking and search visibility slipped month by month.
+
+## A four-part audit
+- **Duplicate product URLs.** Leftover Squarespace-style paths and Shopify's own collection paths were competing for the same products.
+- **More than 3,400 404s** from old URLs that were never redirected.
+- **A duplicated FAQ page.**
+- **Brand misspellings driving most organic traffic**, a sign the shop wasn't being found for the gear it sells.
+- **Broken and default meta descriptions** inherited from the theme.
+- **Spammy backlinks, slow mobile pages, and almost no presence in AI answers.**
+
+## Hands-on work
+
+First, a pass through product titles, descriptions, metadata, and category assignments. Then structured data, done in a duplicate of the live theme so the store was never at risk. I added Organization markup and a Product block, then discovered the theme already emitted a more complete Product block of its own. I traced the overlap and left exactly one valid block. Review stars needed the reviews app's metafield namespace confirmed before they could be wired in correctly.
+
+## Checks
+
+Structured data validated on sample product pages, crawls compared before and after, and every change previewed in the duplicate theme before publishing.
+
+## Status
+
+The audit and the first product pass are delivered. Remaining items, including thin product descriptions and missing categories, are being reviewed with the owner before further edits.
+
+## Lesson
+
+A platform move isn't finished when the new store launches. It's finished when every old URL lands somewhere useful and the new theme's markup is checked rather than trusted. See [ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/case-studies/card-price-index/
+Updated: 2026-10-06
+
+# Trading card price site: managing 20,000 pages in Google's index
+
+A new site publishing prices for more than 20,000 trading cards, generated programmatically and launched on an expired domain, was indexed quickly at first. Then whole sections began dropping out.
+
+## The engagement
+
+Hourly technical SEO focused on crawling and indexing, working with the owner over Microsoft Teams and with access to the GitHub repository where the site is built.
+
+## Thinking in collections
+
+A site like this can't be managed page by page. The useful questions are about groups: which page types deserve to be indexed, which URL variations the site's tools and filters create, and how a crawler reaches a card page five levels deep.
+
+## What I put in place
+- **One sitemap per content type**, so Search Console reports coverage for each group on its own.
+- **A baseline by segment**, so every later change is judged against numbers rather than impressions.
+- **Robots rules for parameter-driven tools** whose endless URL variations add nothing to the index and pull crawl attention from the pages that matter.
+- **Lag-aware checks.** Reports trail reality, so live behavior gets checked before any change is called a success or a failure.
+- **The domain's past treated as one factor**, kept apart from the site's own technical issues.
+
+## Working through the code
+
+Because the site is built by developers, fixes go through the repository. Seeing how URLs are generated lets me specify changes precisely instead of describing symptoms. Every recommendation reaches the owner in writing, with its evidence attached.
+
+## Status
+
+Ongoing. I'm not claiming recovery numbers here; at this scale, indexing moves over weeks and months, and honest reporting means waiting for the trend. See [indexing repair](https://christopherabraham.com/services/indexing/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/case-studies/plugin-outage/
+Updated: 2026-10-06
+
+# Health-testing store: recovering after the SEO plugin went dark
+
+On a WooCommerce store that sells health tests, someone switched off the SEO plugin for a short time. Afterward, indexed pages, organic visits, and referrals from AI assistants all dropped. The owner isn't technical and needed the problem found, fixed, and the recovery demonstrated.
+
+## The engagement
+
+Three paid milestones: diagnosis, fixes, and verification. Because the store handles protected health information, the work ran under a HIPAA agreement and an NDA.
+
+## Why a few hours matter
+
+On WordPress, the SEO plugin quietly produces titles, descriptions, canonicals, robots directives, structured data, and the XML sitemaps. With it off, crawlers that visit see pages with no canonicals, default titles, and sitemaps that have vanished. Switching it back on doesn't erase what search engines recorded while it was off; they have to recrawl and reconsider.
+
+## The work
+- URL Inspection on the priority product and information pages.
+- Crawl stats reviewed for changes in Googlebot's visit rate and what it fetched.
+- Sitemaps checked and resubmitted to Google Search Console and Bing Webmaster Tools.
+- A watch list of priority pages for the recovery period.
+- Structured data, Cloudflare settings, and ghost traffic in GA4 reviewed in the same scope.
+
+## Proving recovery
+
+I tracked several indicators over time rather than trusting one dashboard, and took care to tell a stale report apart from a fault that was still active. Each milestone closed with a plain-language note for the owner, showing the before and after side by side.
+
+## Status
+
+Recovery checks continue, with redirects, merchant structured data, and crawler policy as possible next steps. Related: [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/) and [Search Console setup](https://christopherabraham.com/services/search-console/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/case-studies/closet-locations/
+Updated: 2026-10-06
+
+# Custom closet brand: separating the company from its first showroom
+
+A custom closet and wardrobe company with showrooms in several states ran everything from one website. Search engines kept merging the brand with its original showroom, and its location pages, Google Business Profiles, and town pages stepped on each other.
+
+## The engagement
+
+A fixed-price project in milestones, delivering recommendations and structured data ready for the developer to install.
+
+## What I delivered
+
+### A clear entity model
+
+The company described as the parent organization, and each showroom as a branch of it, so search engines and AI assistants can tell which is the brand and which is one of its locations. The JSON-LD states that relationship explicitly.
+
+### Organization and product markup
+
+Home page and product JSON-LD, validated and ready to install.
+
+### Location pages matched to profiles
+
+Each Google Business Profile linking to a page about that specific showroom, rather than to the home page.
+
+### Profiles and town pages with separate jobs
+
+Guidance for areas where a profile and a town page cover the same ground, so they reinforce each other.
+
+### Services, regions, and breadcrumbs
+
+A structure for how services, regions, and showrooms link together, reflected in breadcrumb markup.
+
+## Why it matters
+
+When every page and listing describes the business the same way, search engines can't tell the locations apart, and each one competes with the others. Distinct entities and distinct pages let every showroom rank in its own area while the brand ranks for itself.
+
+## Status
+
+Delivered. See [schema markup and entity SEO](https://christopherabraham.com/services/schema/) and [local SEO](https://christopherabraham.com/services/local-seo/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/case-studies/profile-reinstated/
+Updated: 2026-10-06
+
+# Therapy practice: a suspended Business Profile restored
+
+Google suspended the Business Profile of a hypnotherapy office in western Canada. The practice depends on nearby people finding it, so the suspension left it close to invisible to the very clients most likely to book.
+
+## My part
+
+Auditing the listing against the office's real records, assembling proof, writing the appeal, and seeing it through with Google.
+
+## Reconcile the listing with reality
+
+Google suspends a listing when what it claims can't be squared with what Google is able to confirm. So I went field by field: the practice's legal and trading names, its street address, its categories, and whether it served clients on site. Anything on the listing that didn't match the paperwork was corrected before a word of the appeal was written.
+
+## Lead with the best proof
+
+The supporting file contained the office lease, the practice's business licence, an invoice billed to that office, and the business card carrying the same name and address. I ordered them from most to least authoritative, so a reviewer would see the strongest proof first, and the appeal made no claim that one of those documents didn't back up.
+
+## File the appeal
+
+The corrected listing and the ordered proof reached Google as one package, so the reviewer saw the fixes and the evidence side by side.
+
+## Result
+
+Google restored the profile in February 2025.
+
+## How I handle these now
+
+Google gives no timetable and no guarantee for appeals, and two cases that look alike can end differently. For that reason a suspension now starts with a paid written assessment: the likely trigger, the proof Google will expect, and an honest view of the odds. If an appeal makes sense, it's quoted on its own. I take the same approach with harder situations, like duplicate records, listings stranded with a former agency, or an established listing that should be repaired rather than replaced. See [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/case-studies/recruiting-answers/
+Updated: 2026-10-06
+
+# AI research company: accurate AI answers for job seekers
+
+An AI research company was hiring engineers in Palo Alto and across the Bay Area. Engineers now ask ChatGPT, Perplexity, and Google's AI features who's hiring and what they pay, so the company wanted to know how it showed up in those answers.
+
+## The engagement
+
+A defined AI search visibility audit with recommendations.
+
+## What I examined
+- Whether, and how, the company appeared when assistants were asked the questions engineers ask about jobs, employers, and compensation.
+- Which sources those answers relied on, and where the company's own information was absent or outweighed.
+- How consistently the company's name, description, and relationship to its related domains were stated across the web.
+- Careers content across two company domains.
+
+## What I recommended
+- Careers pages and FAQs rewritten around candidates' actual questions.
+- Metadata and structured data for careers and company pages.
+- Compensation facts drawn from the company's approved figures, stated clearly enough for assistants to quote correctly.
+- Third-party references worth pursuing, since assistants treat outside sources as corroboration.
+
+## Why it's a useful example
+
+Nothing here was about selling a product. The goal was to be described accurately to a specific audience making an important decision. The same audit applies wherever people consult an assistant before acting: choosing a vendor, an employer, an investment, or a professional.
+
+## What carries over
+
+Careers questions are a clean test of AI visibility because the facts are specific and checkable: locations, roles, pay ranges, and benefits.
+
+## Status
+
+Recommendations delivered; the engagement is paused. See [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/) or the [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/about/
+Updated: 2026-10-06
+
+# About Christopher Abraham
+
+I'm an independent SEO consultant in Arlington, Virginia, across the Potomac from Washington, DC. I've lived in the DC area since 1988, and I take clients across the United States, Canada, the United Kingdom, Ireland, Australia, and New Zealand.
+
+## The short version
+| Name | Christopher Abraham |
+| Role | Independent SEO consultant |
+| Based in | Arlington, Virginia 22204, United States |
+| Specialties | Technical SEO audits, indexing, JavaScript SEO, Core Web Vitals, Cloudflare, migrations and 301 redirects, schema markup, AI search (GEO and AEO), WordPress, ecommerce, and local SEO |
+| Timeline | Web development since 1994, SEO since 1998, blogging since 1999 |
+| Upwork | [Christopher A.](https://www.upwork.com/freelancers/~01e0480189d357dd43): Top Rated, 100% Job Success, $200K+ earned, 127 jobs, 4,089 hours |
+| Education | BA in American Literature, The George Washington University; a year at the University of East Anglia in Norwich, England |
+| Email | [cja@well.com](mailto:cja@well.com) |
+
+## How I got here
+
+My first online home was a text-based conferencing system, and I've kept an account on The WELL, one of the oldest online communities, for decades. That's where my email address comes from. I built my first websites in 1994, hand-coding HTML for anyone who asked, and started optimizing them for search engines in 1998. I've worked with open-source content management systems since 1999: Movable Type, Plone, Drupal, WordPress, and plenty of platforms that no longer exist.
+
+In the agency years I was the technology strategist at New Media Strategies, one of the first firms to treat a brand's online reputation as something to manage, and then a senior account supervisor on the interactive team at Edelman's public affairs practice in Washington. I co-founded Abraham Harrison, a digital marketing firm that ran search, content, and outreach programs from Washington, Portland, and Berlin. Later I was team lead for special projects at Reputation.com, working with high-profile individuals on search results that mattered to them.
+
+Today I work independently, mostly through Upwork, on the technical end of search: why a page isn't indexed, why a template hides content from the crawler, why a migration lost traffic, and how a business shows up when someone asks an AI assistant about it.
+
+## What I'm known for
+- **Forensics.** I like the cases nobody else could explain. The answer is usually a mechanism: a script that never runs for Googlebot, a canonical pointing at the wrong page, a redirect chain that drops equity at every hop.
+- **Working inside messy, inherited sites.** Twenty-year-old WordPress installs, half-finished migrations, themes three developers have patched. I'm comfortable there.
+- **Translating between marketers and engineers.** I write tickets developers trust and summaries executives read.
+- **Using AI with judgment.** I use AI tools for metadata drafts, topic gap analysis, FAQ coverage, and repository analysis. Every output gets checked by a human who knows what good looks like.
+
+## Teaching and speaking
+
+I've been a guest lecturer at Georgetown University's School of Continuing Studies on organic search engine optimization, online reputation management, and influencer marketing. I taught blogging courses, SEO included, at The Writer's Center in Bethesda, lectured on blogging and viral strategy for Columbia University's executive public affairs program, and spoke on a South by Southwest panel. Forbes once listed me among its top 50 social media power influencers.
+
+## Outside work
+
+I studied literature, French, and German, I captained my high school speech and debate team, and I write every day. That background shows in the work: findings argued like a brief, with the strongest evidence first and nothing claimed that the data won't support. I've attended Renaissance Weekend since 2001, rowed out of the Potomac Boat Club, and volunteered as a sous chef at Miriam's Kitchen in Washington.
+
+## Check my work
+- [My Upwork profile](https://www.upwork.com/freelancers/~01e0480189d357dd43), with job history and client feedback.
+- [Case studies](https://christopherabraham.com/case-studies/), written up with the evidence and anonymized.
+- [Guides](https://christopherabraham.com/guides/) that show how I think about indexing, audits, schema, and AI search.
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/hire-me/
+Updated: 2026-10-06
+
+# Hire me
+
+Every engagement follows the same arc: a defined question, a paid audit that answers it, a ranked plan, the fixes, and a verification pass once the fixes are live. Here's how each step works and what I need from you.
+
+## Two ways to hire me
+- **On Upwork.** Most of my clients hire me through [my Upwork profile](https://www.upwork.com/freelancers/~01e0480189d357dd43). Upwork handles contracts, time tracking, invoicing, and payment protection for both sides. Hourly and fixed-price contracts both work there.
+- **Directly.** Email [cja@well.com](mailto:cja@well.com) and I'll send a written scope and an invoice. Direct engagements are paid in advance: the audit up front, retainers at the start of each month.
+
+## The process
+1. **A short conversation.** You tell me the symptom; I ask what changed, when, and who has access to what. Fifteen minutes on the phone or a few emails is usually enough.
+2. **A written scope.** The questions the audit will answer, what you'll receive, the access I'll need, the timeline, and the price.
+3. **The audit.** Crawls, Search Console and Bing Webmaster Tools data, rendered HTML, server responses, and whatever else the question calls for. You receive a findings report with the cause, the evidence, and a ranked list of fixes.
+4. **The fixes.** I make the changes I have access to, such as metadata, redirects, schema, plugin settings, and Cloudflare rules. For everything that needs a developer, I write tickets with steps and acceptance criteria.
+5. **Verification.** Once changes ship, I check the live site, request recrawls where they help, and watch the reports until the trend is clear.
+
+## What I need from you
+- Access to Google Search Console and, if you have it, Bing Webmaster Tools. Full user access is ideal; I'll explain why when it matters.
+- Read access to analytics, usually GA4.
+- A content management login with a role that fits the work, or a staging copy.
+- An introduction to whoever deploys code, if that isn't you.
+- A named person who answers questions and approves changes.
+
+## Where the work lives
+
+I keep every engagement in writing: Upwork messages, email, or your project tool, whether that's Basecamp, Asana, Jira, or a shared Google Drive folder. Calls are welcome for kickoff and walkthroughs, and each call gets a written follow-up so decisions survive. A written record makes the work easier to review, easier to hand to a developer, and easier to pick up six months later.
+
+## Pricing
+
+I quote hourly or a fixed price per milestone, whichever fits the job. Audits are scoped and priced before they start, so you know the cost of an answer before you commit to it. Retainers cover a set number of hours each month with a monthly report. My current hourly rate is on [my Upwork profile](https://www.upwork.com/freelancers/~01e0480189d357dd43).
+
+## What I sell, and what nobody can
+
+I sell expertise, diagnosis, and hands-on work. Rankings, indexing decisions, AI answers, and Google Business Profile reviews belong to the platforms, and each one decides on its own schedule. So I commit to the work and the evidence, and I report honestly on what the platforms do in response.
+
+Questions about time zones, access, and invoicing are answered in the [FAQ](https://christopherabraham.com/faq/). Ready to start? Head to [contact](https://christopherabraham.com/contact/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/faq/
+Updated: 2026-10-06
+
+# Frequently asked questions
+
+Practical answers about how an engagement runs. For the overall process, see [Hire Me](https://christopherabraham.com/hire-me/).
+
+### How long does an SEO audit take?
+
+Most audits take one to two weeks from the day I have access. Large sites, sites with many subdomains, or questions that need server logs take longer, and the scope states the timeline up front.
+
+### What do I receive at the end of an audit?
+
+A written findings report: the question, what I examined, what I found, the evidence for each finding, and a prioritized list of fixes with an owner for each one. Developer items come as tickets with acceptance criteria. I walk you through it on a call if you'd like.
+
+### Do I have to hire you through Upwork?
+
+No. Upwork is convenient for many clients because it handles contracts and payments, and that's where my reviews live. You can also hire me directly by email, with payment in advance.
+
+### What access will you need?
+
+Usually Google Search Console, Bing Webmaster Tools, GA4, and a login for your content management system. For JavaScript and headless sites, read access to the code repository helps a great deal. I'll list exactly what's needed in the scope.
+
+### Will you change things on my live site?
+
+Only with your approval, and only changes that are in scope. Theme and template work happens on a staging site or a duplicate theme first. Every change I make is logged so you can see what moved and when.
+
+### Can you work with my developer?
+
+Yes, and I prefer it. I write specifications developers can build from, review pull requests when I have repository access, and verify the live result after deployment.
+
+### What time zone do you work in?
+
+US Eastern time. I schedule calls across North America, the United Kingdom, Ireland, Australia, and New Zealand, and most of the work happens in writing, so time zones rarely slow a project down.
+
+### How soon will I see results?
+
+Technical fixes can show up in crawl data within days. Indexing changes usually take weeks, and ranking and AI answer changes can take months. I set expectations for each item in the plan and report on them as they move.
+
+### Do you write content?
+
+I write and edit metadata, FAQs, page outlines, and service page copy as part of SEO work, using AI tools for drafts and my own editing for the final version. For a full content program, I can brief and edit your writers.
+
+### Do you offer monthly SEO?
+
+Yes. A [retainer](https://christopherabraham.com/services/seo-retainer/) covers monitoring, fixes, and reporting each month, billed at the start of the month.
+
+### How do you handle confidential information?
+
+Client details stay private. Case studies on this site describe clients by industry and problem, never by name. I'm happy to sign a nondisclosure agreement, and I've worked under HIPAA terms on a healthcare site.
+
+Something else? Email [cja@well.com](mailto:cja@well.com).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/contact/
+Updated: 2026-10-06
+
+# Contact Christopher Abraham
+
+Send me your site's address and a few lines about what's happening. I'll reply with my first read and the questions I'd want answered.
+- Email: [cja@well.com](mailto:cja@well.com)
+- Call or text: [+1 202-352-5051](tel:+12023525051)
+- Upwork: [Christopher A., Top Rated SEO consultant](https://www.upwork.com/freelancers/~01e0480189d357dd43)
+
+[Email me about your site](mailto:cja@well.com?subject=SEO%20help&body=Website%3A%0A%0AWhat%27s%20happening%3A%0A%0AWhen%20it%20started%3A%0A%0ABudget%3A%0A) [Hire me on Upwork](https://www.upwork.com/freelancers/~01e0480189d357dd43)
+
+## A good first message includes
+- The website address and the platform it runs on, if you know it: WordPress, Shopify, Magento, Webflow, a custom React or Next.js build, or something else.
+- The symptom in your own words: traffic down, pages not indexed, slow pages, a migration coming, a suspended profile, odd AI answers.
+- The date it started, and anything that changed around then, such as a redesign, plugin update, new host, or new developer.
+- A screenshot from Search Console or analytics if one tells the story.
+- A rough budget and deadline.
+
+## What happens next
+1. I reply, usually within one business day.
+2. If it's a fit, a few emails or a fifteen-minute call fill in the picture.
+3. I send a written scope with deliverables, timeline, and price, or an Upwork offer with the same details.
+4. Work begins when the scope is accepted and the first payment or milestone is funded.
+
+## Already on Upwork?
+
+If you found me there, send an invitation or a message to Christopher A. directly on Upwork. Contracts, milestones, and payments all stay on the platform, and my reply time there is usually four to eight hours.
+
+## Location and hours
+
+I work from Arlington, Virginia 22204, on US Eastern time, with clients across the United States, Canada, the United Kingdom, Ireland, Australia, and New Zealand. My process is on [Hire Me](https://christopherabraham.com/hire-me/), and practical questions are answered in the [FAQ](https://christopherabraham.com/faq/).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/privacy/
+Updated: 2026-10-06
+
+# Privacy
+
+This site sets no cookies and runs no analytics, advertising, or tracking scripts. Every page is static HTML with its styles written inline.
+
+## What the host records
+
+The site is served by GitHub Pages. Like every web host, GitHub's servers see the address your browser connects from and the page it requests, and GitHub may keep those records for security and operations under its own privacy statement. I have no access to individual visitor records.
+
+## Fonts, images, and third parties
+
+Every file on these pages comes from this site. There are no embedded videos, social widgets, web fonts loaded from other companies, or tracking pixels. Links to Upwork and other sites take you to those sites, where their own policies apply.
+
+## When you email or call
+
+If you email, call, or text me, I receive your address or number and whatever you choose to send. I use it to reply and, if you hire me, to run the engagement. I don't sell it, share it for marketing, or add you to a mailing list. Client information, including logins and analytics data you grant me access to, is used only for the work and stays confidential. I remove my access when an engagement ends, or sooner if you ask.
+
+## Search engines and AI systems
+
+Search engines and AI crawlers are welcome to read and cite this site; the rules are in [robots.txt](https://christopherabraham.com/robots.txt). That applies to the public pages only. Nothing about visitors is shared with them.
+
+## Questions
+
+For anything about privacy on this site, or to ask me to delete your correspondence with me, email [cja@well.com](mailto:cja@well.com).
+
+Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/sitemap/
+Updated: 2026-10-06
+
+# Site map
+
+Every page on this site, grouped by section, with a one-line summary of each. Search engines read the same list in [sitemap.xml](https://christopherabraham.com/sitemap.xml), and AI tools in [llms.txt](https://christopherabraham.com/llms.txt).
+
+## Main pages
+- [Senior SEO help, from the person who does the work](https://christopherabraham.com/): Christopher Abraham is a senior SEO consultant: technical audits, indexing repair, schema, site speed, migrations, and visibility in AI answer engines.
+- [SEO services](https://christopherabraham.com/services/): Thirteen SEO services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
+- [SEO guides](https://christopherabraham.com/guides/): Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
+- [Case studies](https://christopherabraham.com/case-studies/): Anonymized SEO case studies: hidden product content, consent tools blocking Google, React apps, migrations, programmatic indexing, schema, and local listings.
+- [About Christopher Abraham](https://christopherabraham.com/about/): Christopher Abraham has built websites since 1994 and practiced SEO since 1998, with agency years at New Media Strategies and Edelman before going independent.
+- [Hire me](https://christopherabraham.com/hire-me/): How an SEO engagement runs: a scoped, paid audit first, then hourly or fixed price work through Upwork or direct, with every finding and decision in writing.
+- [Frequently asked questions](https://christopherabraham.com/faq/): Practical answers about an SEO engagement: what access is needed, how long audits take, time zones, Upwork contracts, invoicing, reports, and confidentiality.
+- [Contact Christopher Abraham](https://christopherabraham.com/contact/): Email Christopher Abraham at cja@well.com or call or text him with your site address and the problem. Hire him on Upwork or directly for a scoped audit.
+- [Privacy](https://christopherabraham.com/privacy/): christopherabraham.com sets no cookies and runs no analytics or advertising scripts. What GitHub Pages logs, what happens to your email, and how to ask.
+
+## Technical SEO
+- [Technical SEO audit](https://christopherabraham.com/services/seo-audit/): A technical SEO audit that answers one question with evidence: why traffic fell or stalled, the mechanism behind it, and which fixes should come first.
+- [Indexing repair](https://christopherabraham.com/services/indexing/): Fix Google indexing problems: pages crawled but not indexed, discovered but never crawled, soft 404s, canonical conflicts, and sitemaps that mislead.
+- [JavaScript and headless SEO](https://christopherabraham.com/services/javascript-seo/): Make JavaScript and headless websites visible to search and AI crawlers: rendering comparisons, crawlable links, prerendering, and code level review.
+- [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/): Speed up a website for real visitors: Core Web Vitals diagnosis, image and script cleanup, page caching, and Cloudflare rules that still welcome crawlers.
+- [Search Console, Bing Webmaster Tools, and GA4](https://christopherabraham.com/services/search-console/): Set up and clean up Google Search Console, Bing Webmaster Tools, and GA4 so every report is verified, accurate, owned by you, and useful for decisions.
+- [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/): Plan and verify a website migration: full URL inventories, one to one 301 redirect maps, launch day checks, and recovery when a move has already lost traffic.
+
+## AI search, schema, and content
+- [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/): Improve how ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google AI Overviews describe and cite your business, with prompt testing, entities, and content.
+- [Schema markup and entity SEO](https://christopherabraham.com/services/schema/): Structured data that validates, matches the visible page, and connects your organization, people, products, and locations as entities for Google and AI.
+- [On-page SEO](https://christopherabraham.com/services/on-page-seo/): On page SEO fixed at the template level: titles and meta descriptions, headings, internal links, thin and duplicate pages, and carefully edited AI drafts.
+
+## Platforms, local, and ongoing work
+- [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): WordPress SEO done carefully: Yoast and Rank Math settings, theme and plugin conflicts, page builder bloat, caching, and old installs that need a steady hand.
+- [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Ecommerce SEO for Shopify, WooCommerce, and Magento: product and category templates, faceted navigation, duplicate URLs, product schema, and AI answers.
+- [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/): Align your website, location pages, and Google Business Profiles, with hard profile cases like suspensions handled as scoped, paid written diagnostics.
+- [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): A monthly SEO retainer with a senior consultant: monitoring, hands on fixes, developer QA, AI search checks, and a plain English report every month.
+
+## Guides
+- [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): A field guide to Search Console's Page indexing report: what each exclusion reason means, which ones need action, and how to find the template behind them.
+- [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/): A practical checklist for AI search: crawler access, server rendered content, entity schema, answer shaped pages, llms.txt, outside evidence, and measurement.
+- [What a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/): How to tell a useful technical SEO audit from a tool export: a clear question, evidence for each finding, a ranked plan, developer tickets, and a plain summary.
+- [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/): Which schema types a small business needs, which to skip, and example structured data for local businesses, services, FAQs, and breadcrumbs, kept accurate.
+- [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/): Ten rules for 301 redirects in migrations and redesigns: map one to one, avoid chains, keep redirects for years, use 410 on purpose, and test in bulk.
+- [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/): Core Web Vitals explained without jargon: what LCP, INP, and CLS measure, why lab scores differ from field data, the usual causes, and the fixes that work.
+- [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
+
+## Case studies
+- [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
+- [Film review site: a consent tool that emptied every article for Google](https://christopherabraham.com/case-studies/consent-banner/): A bilingual film review site was indexed by Bing but nearly invisible in Google. A consent platform blocked the script that displayed every article to bots.
+- [Event discovery app: 2,000 pages with no way in](https://christopherabraham.com/case-studies/event-app-links/): An event discovery app built with Create React App had 2,000 event pages Google never found. A 13 page spec, ranked P0 to P3, gave the developer exact fixes.
+- [Junk removal company on a headless stack: SEO through the repository](https://christopherabraham.com/case-studies/headless-local/): A junk removal company on Sanity, Vercel, and GitHub had thin rendered HTML and duplicate metadata. Priorities set, a pull request merged, prerendering checked.
+- [Medical clinic: WordPress to Next.js without losing the trail](https://christopherabraham.com/case-studies/clinic-migration/): SEO oversight for a clinic moving from WordPress to Next.js on Netlify: a decision for every legacy URL, an AI assisted code review, and a careful disavow.
+- [Fly fishing shop: cleaning up after Squarespace to Shopify](https://christopherabraham.com/case-studies/shopify-cleanup/): A family owned fly fishing shop moved from Squarespace to Shopify and left 3,400 broken URLs and duplicate product paths. An audit and safe theme schema work.
+- [Trading card price site: managing 20,000 pages in Google's index](https://christopherabraham.com/case-studies/card-price-index/): A trading card price site of more than 20,000 programmatic pages indexed well, then lost large sections of the index. How crawling is managed at that scale.
+- [Health-testing store: recovering after the SEO plugin went dark](https://christopherabraham.com/case-studies/plugin-outage/): A WooCommerce store selling health tests lost indexing, traffic, and AI referrals when its SEO plugin was turned off. Diagnosis, fixes, and proof of recovery.
+- [Custom closet brand: separating the company from its first showroom](https://christopherabraham.com/case-studies/closet-locations/): A custom closet company with showrooms in several states ran one website, and search engines blurred the brand with its first showroom. Entity and schema fixes.
+- [Therapy practice: a suspended Business Profile restored](https://christopherabraham.com/case-studies/profile-reinstated/): A Canadian hypnotherapy office disappeared from Google Maps after a profile suspension. The listing was corrected, proof organized, and the profile restored.
+- [AI research company: accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/): An AI research company hiring Bay Area engineers wanted ChatGPT and Perplexity to answer accurately about its jobs and pay. The audit findings and the plan.
+
+## Files for machines
+- [sitemap.xml](https://christopherabraham.com/sitemap.xml): the XML sitemap for search engines.
+- [llms.txt](https://christopherabraham.com/llms.txt): a plain summary of the site for language models, linking to Markdown versions of every page.
+- [llms-full.txt](https://christopherabraham.com/llms-full.txt): the full text of the site in one file.
+- [feed.xml](https://christopherabraham.com/feed.xml) and [rss.xml](https://christopherabraham.com/rss.xml): Atom and RSS feeds of the guides.
+- [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
+- [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
+
+Updated October 6, 2026

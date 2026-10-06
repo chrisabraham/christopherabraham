@@ -1,0 +1,30 @@
+name: Scroll-Gated Products
+title: Case study: Magento product details Googlebot never loaded
+description: An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
+keywords: Magento SEO, Hyvä theme, Alpine.js rendering, product page indexing
+updated: 2026-10-06
+---
+<h1>Equipment retailer: product details that loaded only on scroll</h1>
+<p class="lead">An equipment retailer running Magento 2 with the Hyvä theme watched organic traffic slide for months. The odd part: non-brand category traffic was rising while brand searches and product pages fell.</p>
+
+<h2>The engagement</h2>
+<p>Forensic diagnosis and technical direction. The client's contractor owned implementation; I owned the evidence and the specification.</p>
+
+<h2>What the crawl showed</h2>
+<p>I crawled the site twice with Screaming Frog, once reading raw HTML and once rendering JavaScript, and compared extracted word counts by template. Category pages yielded thousands of words. Flagship product pages, each weighing more than 1.2 MB, yielded only 250 to 400.</p>
+
+<h2>The mechanism</h2>
+<p>The product template wrapped its specifications, FAQs, and reviews in Alpine.js directives that created those sections only when a shopper scrolled them into view: an <code>x-intersect</code> trigger around an <code>x-if</code> block. Googlebot renders pages in a tall viewport without scrolling the way people do, so those sections were never built. Search Console agreed: a selective cluster of product URLs sat in "Crawled, currently not indexed" while the rest of the site was fine.</p>
+
+<h2>The second problem, kept separate</h2>
+<p>During the same months, a burst of spam backlinks from cloud-hosting ranges arrived, along with a redirect fault. Tempting as it was to blame everything on one cause, I documented that track separately and requested fuller Search Console access to investigate it on its own evidence.</p>
+
+<h2>Recommendations</h2>
+<ul>
+  <li>Render product sections in the server HTML; keep scroll animation as an enhancement on top.</li>
+  <li>Remove the scroll gate on a test group of products first, so the effect is measurable before a sitewide rollout.</li>
+  <li>A separate cleanup plan for the backlinks and redirects.</li>
+</ul>
+
+<h2>The lesson</h2>
+<p>Page weight and word count can disagree wildly. When a heavy page yields little text to a crawler, look for content waiting on an interaction that bots never perform. More on this pattern under <a href="{root}services/javascript-seo/">JavaScript SEO</a>.</p>

@@ -1,0 +1,23 @@
+name: Clinic Migration
+title: Case study: a medical clinic moves from WordPress to Next.js
+description: SEO oversight for a clinic moving from WordPress to Next.js on Netlify: a decision for every legacy URL, an AI assisted code review, and a careful disavow.
+keywords: WordPress to Next.js migration, Netlify SEO, redirect mapping
+updated: 2026-10-06
+---
+<h1>Medical clinic: WordPress to Next.js without losing the trail</h1>
+<p class="lead">A clinical practice replaced its managed WordPress site with a new Next.js build hosted on Netlify. The developer built the site. My job was continuity: making sure people and search engines could follow every old address to the right new one, and investigating whatever went wrong after launch.</p>
+
+<h2>A decision for every URL</h2>
+<p>I reviewed the legacy URLs and reconciled the redirect map line by line. Each URL got one of four outcomes: unchanged, redirected to an existing destination, given a new migration redirect, or deliberately retired. I also separated faults the migration introduced from faults the old site already had, so neither the developer nor the old host took blame that wasn't theirs.</p>
+
+<h2>Reading the code with an AI assistant</h2>
+<p>Alongside crawls and exports, I ran a read-only analysis of the Next.js repository with an AI coding assistant. It surfaced thousands of image references still pointing at the old WordPress media library and traced them to a handful of central files. That became a short, concrete plan for the developer to move the media. No code was changed by the analysis.</p>
+
+<h2>A conservative disavow</h2>
+<p>I reviewed the backlink profile and rebuilt the disavow file to drop truly toxic domains while keeping legitimate ones. Over-disavowing throws away the very equity a migration is trying to keep.</p>
+
+<h2>After launch</h2>
+<p>Blurry images from the image CDN, script and stylesheet errors, instability, and analytics oddities all came up. When engagement dipped over a short window, the obvious story was that blurry images drove people away. I checked tracking, engagement, and stability separately before accepting any explanation, and found the data didn't yet support that one.</p>
+
+<h2>The point</h2>
+<p>Migrations rarely fail on launch day. They fail weeks later, through media still on the old host, missing redirects, and stories told too early. Read my <a href="{root}guides/redirect-rules/">rules for 301 redirects</a> or see <a href="{root}services/migrations/">migration services</a>.</p>

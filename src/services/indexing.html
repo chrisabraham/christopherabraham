@@ -1,0 +1,43 @@
+name: Indexing
+title: Indexing repair for pages Google crawls but won't index
+description: Fix Google indexing problems: pages crawled but not indexed, discovered but never crawled, soft 404s, canonical conflicts, and sitemaps that mislead.
+keywords: Google indexing issues, crawled currently not indexed, soft 404, canonical issues
+updated: 2026-10-06
+---
+<h1>Indexing repair</h1>
+<p class="lead">A page that isn't indexed can't rank, can't appear in AI Overviews, and is far less likely to be cited by an answer engine. When the Page indexing report in Search Console starts filling with excluded URLs, I find out which ones matter, why they're excluded, and what will bring them back.</p>
+
+<h2>The statuses I untangle</h2>
+<dl>
+  <dt>Crawled, currently not indexed</dt>
+  <dd>Google fetched the page and chose to leave it out. Common causes: content that isn't in the rendered HTML, near-duplicates of stronger pages, thin templates, and weak internal links.</dd>
+  <dt>Discovered, currently not indexed</dt>
+  <dd>Google knows the URL exists but hasn't spent the crawl on it. Usually a sign of too many low-value URLs, slow servers, or pages buried deep in the link structure.</dd>
+  <dt>Alternate page with proper canonical tag</dt>
+  <dd>Fine when it's intended. A problem when a template points every section's canonical at the home page.</dd>
+  <dt>Duplicate, Google chose different canonical than user</dt>
+  <dd>Google overruled your canonical, often because internal links, sitemaps, and redirects disagree with it.</dd>
+  <dt>Soft 404</dt>
+  <dd>A page that returns success but looks empty or missing to Google: out-of-stock products, empty search results, placeholder pages.</dd>
+  <dt>Excluded by noindex, blocked by robots.txt</dt>
+  <dd>Sometimes deliberate, often left over from a staging site or a plugin setting someone forgot.</dd>
+</dl>
+
+<h2>How I work through it</h2>
+<ol>
+  <li><strong>Segment.</strong> Group excluded URLs by template and section, so you see that 80% of the problem is one product template rather than 4,000 unrelated pages.</li>
+  <li><strong>Sample and inspect.</strong> URL Inspection, live tests, and rendered HTML on representative pages from each group.</li>
+  <li><strong>Find the mechanism.</strong> Missing content after rendering, conflicting canonicals, parameter sprawl, thin variants, or crawl paths that never reach the page.</li>
+  <li><strong>Decide what deserves an index slot.</strong> Every page doesn't need to be indexed. Some should be consolidated, noindexed, or removed, which frees attention for the ones that earn traffic.</li>
+  <li><strong>Fix and resubmit.</strong> Correct the templates, sitemaps, and links, then request indexing for priority pages.</li>
+  <li><strong>Measure by segment.</strong> Separate sitemaps per page type make Search Console report coverage for each group, so progress is visible instead of averaged away.</li>
+</ol>
+
+<h2>Reporting lag</h2>
+<p>Search Console reports trail reality by days and sometimes weeks. I check the live site and the URL Inspection tool before deciding whether a fix worked, and I tell you which numbers are stale so nobody panics over a chart that hasn't caught up.</p>
+
+<h2>Bing counts too</h2>
+<p>Bing's index feeds Copilot and several other AI assistants, and Bing Webmaster Tools reports problems Google won't mention. I check both, and I set up IndexNow where your platform supports it, so changes reach Bing within minutes.</p>
+
+<h2>Related</h2>
+<p>Indexing problems on React, Next.js, and other script-heavy sites are covered under <a href="{root}services/javascript-seo/">JavaScript SEO</a>. For a walkthrough of the report itself, read <a href="{root}guides/page-indexing-report/">how to read the Page indexing report</a>. A real example: <a href="{root}case-studies/card-price-index/">indexing a 20,000-page programmatic site</a>.</p>

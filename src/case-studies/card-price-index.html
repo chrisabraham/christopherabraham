@@ -1,0 +1,29 @@
+name: Card Price Index
+title: Case study: crawl and index control for 20,000 price pages
+description: A trading card price site of more than 20,000 programmatic pages indexed well, then lost large sections of the index. How crawling is managed at that scale.
+keywords: programmatic SEO, crawl budget, segmented XML sitemaps, indexing at scale
+updated: 2026-10-06
+---
+<h1>Trading card price site: managing 20,000 pages in Google's index</h1>
+<p class="lead">A new site publishing prices for more than 20,000 trading cards, generated programmatically and launched on an expired domain, was indexed quickly at first. Then whole sections began dropping out.</p>
+
+<h2>The engagement</h2>
+<p>Hourly technical SEO focused on crawling and indexing, working with the owner over Microsoft Teams and with access to the GitHub repository where the site is built.</p>
+
+<h2>Thinking in collections</h2>
+<p>A site like this can't be managed page by page. The useful questions are about groups: which page types deserve to be indexed, which URL variations the site's tools and filters create, and how a crawler reaches a card page five levels deep.</p>
+
+<h2>What I put in place</h2>
+<ul>
+  <li><strong>One sitemap per content type</strong>, so Search Console reports coverage for each group on its own.</li>
+  <li><strong>A baseline by segment</strong>, so every later change is judged against numbers rather than impressions.</li>
+  <li><strong>Robots rules for parameter-driven tools</strong> whose endless URL variations add nothing to the index and pull crawl attention from the pages that matter.</li>
+  <li><strong>Lag-aware checks.</strong> Reports trail reality, so live behavior gets checked before any change is called a success or a failure.</li>
+  <li><strong>The domain's past treated as one factor</strong>, kept apart from the site's own technical issues.</li>
+</ul>
+
+<h2>Working through the code</h2>
+<p>Because the site is built by developers, fixes go through the repository. Seeing how URLs are generated lets me specify changes precisely instead of describing symptoms. Every recommendation reaches the owner in writing, with its evidence attached.</p>
+
+<h2>Status</h2>
+<p>Ongoing. I'm not claiming recovery numbers here; at this scale, indexing moves over weeks and months, and honest reporting means waiting for the trend. See <a href="{root}services/indexing/">indexing repair</a>.</p>

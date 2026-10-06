@@ -1,0 +1,56 @@
+name: Redirect Rules
+title: Ten rules for 301 redirects that keep your search rankings
+description: Ten rules for 301 redirects in migrations and redesigns: map one to one, avoid chains, keep redirects for years, use 410 on purpose, and test in bulk.
+type: guide
+published: 2026-10-06
+keywords: 301 redirects, redirect chains, 410 status, migration redirects
+updated: 2026-10-06
+---
+<h1>Ten rules for 301 redirects that keep your rankings</h1>
+<p class="lead">A 301 redirect tells browsers and search engines that a page has moved permanently and where to find it. Handled well, redirects carry rankings, links, and bookmarks to a new address. Handled carelessly, they quietly erase years of search equity. These are the rules I follow on every migration.</p>
+
+<h2>1. Inventory before you redirect</h2>
+<p>You can't redirect URLs you don't know about. Build the old URL list from several sources: a full crawl, every XML sitemap, Search Console's performance and indexing exports, analytics landing pages over at least a year, and backlink tools. Old campaign pages and PDFs that nobody links from the menu often carry the most external links.</p>
+
+<h2>2. Map one to one, to the closest equivalent</h2>
+<p>Each old URL should point to the new page that best serves the same visitor. A product goes to the same product, a category to the same category, an article to its new address. When the content is merged, point to the merged page.</p>
+
+<h2>3. Don't send everything to the home page</h2>
+<p>Redirecting hundreds of old pages to the home page is easy and almost worthless. Google treats irrelevant redirects as soft 404s, and the equity those pages carried is lost. If there's no real equivalent, use rule 6.</p>
+
+<h2>4. Use 301 or 308 for permanent moves</h2>
+<p>A 301 (or 308, which also preserves the request method) signals a permanent move. A 302 or 307 says "temporarily elsewhere," and search engines may keep the old URL indexed. Meta refresh and JavaScript redirects work in some cases, but server-side redirects are the clear signal.</p>
+
+<h2>5. No chains, no loops</h2>
+<p>Each redirect should go straight to the final destination in one hop. Chains build up over years: http to https, then www to apex, then old path to new path. Every hop adds delay and risks the crawler giving up. When you add new redirects, update the old ones to point at the final URL.</p>
+
+<h2>6. Use 410 deliberately</h2>
+<p>For pages that are gone for good with no replacement, a 410 status says so plainly and gets them dropped from the index faster than a 404. Use it for retired products with no successor, expired events, and spam pages left from a hack.</p>
+
+<h2>7. Keep redirects for years</h2>
+<p>Search engines need time to process a move, and links, bookmarks, and old emails keep sending visitors for years. Keep redirects in place for at least a year, and for valuable URLs, indefinitely. Removing them to "clean up" the configuration is a common way to lose traffic a second time.</p>
+
+<h2>8. Update everything that points at old URLs</h2>
+<p>Redirects are a safety net, not the plan. Update internal links, canonical tags, hreflang annotations, XML sitemaps, structured data, and your Google Business Profile website link to point directly at new URLs. Ask the sites that link to you most to update their links too.</p>
+
+<h2>9. Preserve parameters and casing on purpose</h2>
+<p>Decide how query strings, trailing slashes, and uppercase URLs are handled. Tracking parameters should usually pass through; old filter parameters may need their own rules. Test a handful of odd real URLs from your logs, not just the clean ones.</p>
+
+<h2>10. Test in bulk, then watch</h2>
+<p>Before launch, run the full old URL list against staging and confirm each returns one 301 to the expected destination, which then returns 200. Repeat on launch day against production. Afterward, watch 404 reports in Search Console and Bing Webmaster Tools, your server logs, and traffic by page group for several weeks.</p>
+
+<h2>Where redirects live</h2>
+<ul>
+  <li><strong>Apache:</strong> .htaccess or the virtual host configuration.</li>
+  <li><strong>Nginx:</strong> server blocks with return 301 or map files for large lists.</li>
+  <li><strong>WordPress:</strong> Rank Math, Yoast Premium, or the Redirection plugin, or the server for large maps.</li>
+  <li><strong>Shopify:</strong> URL Redirects under Navigation, with CSV import.</li>
+  <li><strong>Netlify and Vercel:</strong> _redirects files or the platform's configuration file.</li>
+  <li><strong>Cloudflare:</strong> Bulk Redirects or Redirect Rules at the edge, useful when the origin can't do it.</li>
+  <li><strong>GitHub Pages and other static hosts:</strong> no server redirects, so a page with a meta refresh and a canonical tag is the fallback.</li>
+</ul>
+
+<h2>A note on disavow files</h2>
+<p>Migrations are a common moment to review backlinks. Disavow only genuinely manipulative or spammy links, and keep legitimate ones; disavowing good links throws away the equity your redirects are trying to preserve.</p>
+
+<p>For a full move, see <a href="{root}services/migrations/">site migrations and 301 redirects</a>, or <a href="{root}case-studies/clinic-migration/">a clinic's redirect decisions URL by URL</a>.</p>

@@ -1,0 +1,64 @@
+name: Core Web Vitals
+title: Core Web Vitals explained in plain English: LCP, INP, CLS
+description: Core Web Vitals explained without jargon: what LCP, INP, and CLS measure, why lab scores differ from field data, the usual causes, and the fixes that work.
+type: guide
+published: 2026-10-06
+keywords: Core Web Vitals, LCP, INP, CLS
+updated: 2026-10-06
+---
+<h1>Core Web Vitals in plain English</h1>
+<p class="lead">Core Web Vitals are Google's three measurements of how a page feels to a real person: how fast it shows up, how quickly it responds, and whether it holds still. They're a modest ranking factor and a large conversion factor. Here's what each one means and what usually fixes it.</p>
+
+<h2>The three measurements</h2>
+<h3>Largest Contentful Paint (LCP): does it show up fast?</h3>
+<p>The time until the biggest thing in the first screen, usually a hero image or headline, finishes appearing. <strong>Good: 2.5 seconds or less.</strong> Poor: over 4 seconds.</p>
+<h3>Interaction to Next Paint (INP): does it respond fast?</h3>
+<p>How long the page takes to visibly react when someone taps, clicks, or types, measured across the visit and reported near the worst case. <strong>Good: 200 milliseconds or less.</strong> Poor: over 500. Google swapped INP in for the older First Input Delay metric in March 2024.</p>
+<h3>Cumulative Layout Shift (CLS): does it hold still?</h3>
+<p>How much content jumps around while the page loads, the effect that makes you tap the wrong button. <strong>Good: 0.1 or less.</strong> Poor: over 0.25.</p>
+
+<h2>Field data versus lab data</h2>
+<p>This confuses almost everyone. <strong>Field data</strong> comes from real Chrome users visiting your site over the past 28 days, collected in the Chrome UX Report. It's what Google uses for ranking and what Search Console's Core Web Vitals report shows. A page passes when 75% of visits meet the "good" threshold.</p>
+<p><strong>Lab data</strong> is a single simulated test, like the score at the top of PageSpeed Insights or Lighthouse in your browser. It's useful for diagnosing causes, but it isn't the number Google judges you on. A site can score 95 in the lab and fail in the field because real visitors use slower phones and networks, or the reverse.</p>
+<p>In PageSpeed Insights, the section titled "Discover what your real users are experiencing" is field data. Start there.</p>
+
+<h2>Common causes and fixes</h2>
+<h3>Slow LCP</h3>
+<ul>
+  <li><strong>Huge hero images.</strong> Serve correctly sized images in WebP or AVIF, with srcset for different screens.</li>
+  <li><strong>Lazy-loaded hero image.</strong> Lazy loading the main image delays it. Load it eagerly and add fetchpriority="high".</li>
+  <li><strong>Slow server response.</strong> Add page caching, upgrade from overloaded shared hosting, or cache HTML at a CDN.</li>
+  <li><strong>Render-blocking CSS and JavaScript.</strong> Defer scripts that aren't needed for the first screen and remove unused stylesheets.</li>
+  <li><strong>Content drawn by JavaScript.</strong> If the main content waits for a script, render it on the server instead.</li>
+</ul>
+<h3>Poor INP</h3>
+<ul>
+  <li><strong>Too much JavaScript.</strong> Page builders, sliders, and stacks of third-party tags keep the browser busy. Remove what you don't use.</li>
+  <li><strong>Heavy third-party scripts.</strong> Chat widgets, session recorders, and ad scripts are common culprits. Load them later or after interaction.</li>
+  <li><strong>Long tasks in your own code.</strong> Developers can break up long JavaScript tasks and avoid expensive work in event handlers.</li>
+</ul>
+<h3>High CLS</h3>
+<ul>
+  <li><strong>Images without dimensions.</strong> Always set width and height so the browser reserves space.</li>
+  <li><strong>Ads, embeds, and banners</strong> that push content down. Reserve their space in advance.</li>
+  <li><strong>Web fonts</strong> that swap late and change text size. Preload key fonts and use matching fallback metrics.</li>
+  <li><strong>Cookie banners</strong> inserted at the top of the page. Overlay them instead.</li>
+</ul>
+
+<h2>Where to look</h2>
+<ol>
+  <li><strong>Search Console, Core Web Vitals report.</strong> Groups failing URLs by similar pages, which usually means by template. Fix the template, fix the group.</li>
+  <li><strong>PageSpeed Insights.</strong> Field data for a URL or the whole origin, plus lab diagnostics pointing at specific resources.</li>
+  <li><strong>Chrome DevTools, Performance panel.</strong> For developers tracing exactly what blocks rendering or interaction.</li>
+</ol>
+
+<h2>How long until it improves</h2>
+<p>Field data is a rolling 28-day window, so a fix shipped today shows its full effect about four weeks later. Use lab tests to confirm the fix works immediately, then watch field data climb.</p>
+
+<h2>A quick self-check</h2>
+<p>Open Search Console's Core Web Vitals report and note which group of URLs fails and on which metric. Run one example through PageSpeed Insights and read the field data first, then the diagnostics. If the failing metric is LCP, look at the hero image and server response time; if INP, count the third-party scripts; if CLS, look for images without dimensions and late banners.</p>
+
+<h2>Keep it in proportion</h2>
+<p>Core Web Vitals won't lift weak content above strong content. But between comparable pages they can tip the balance, and they always affect whether visitors stay. Fix the templates that carry your revenue first.</p>
+
+<p>For hands-on help, see <a href="{root}services/site-speed/">Core Web Vitals and Cloudflare</a>. Terms are defined in the <a href="{root}guides/glossary/">glossary</a>.</p>

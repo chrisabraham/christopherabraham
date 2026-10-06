@@ -1,0 +1,98 @@
+name: Small Business Schema
+title: The schema markup a small business actually needs, with code
+description: Which schema types a small business needs, which to skip, and example structured data for local businesses, services, FAQs, and breadcrumbs, kept accurate.
+type: guide
+published: 2026-10-06
+keywords: local business schema, small business structured data, JSON-LD examples
+updated: 2026-10-06
+---
+<h1>The schema markup a small business actually needs</h1>
+<p class="lead">Schema.org has more than 800 types. A typical small business needs about five. This guide covers which ones, shows example code, and lists the rules that keep structured data accurate enough for Google and AI systems to trust.</p>
+
+<h2>Why bother</h2>
+<p>Structured data states your facts in a format machines don't have to guess at. It can earn rich results in Google, such as review stars, FAQs, and breadcrumbs, and it helps search engines and AI assistants connect your business, its location, and its services into one clear entity. It won't rescue a weak page, but it makes a good page unambiguous.</p>
+
+<h2>The five you need</h2>
+<h3>1. LocalBusiness or Organization, on the home page</h3>
+<p>Use the most specific LocalBusiness subtype that fits: Dentist, Plumber, LegalService, Restaurant, HomeAndConstructionBusiness, and so on. If customers never visit you and you don't serve a defined area, use Organization instead.</p>
+<pre><code>&lt;script type="application/ld+json"&gt;
+{
+  "@context": "https://schema.org",
+  "@type": "Plumber",
+  "@id": "https://example.com/#business",
+  "name": "Example Plumbing",
+  "url": "https://example.com/",
+  "logo": "https://example.com/logo.png",
+  "telephone": "+1-703-555-0100",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "100 Main Street",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+  },
+  "openingHours": "Mo-Fr 08:00-17:00",
+  "areaServed": ["Arlington, VA", "Alexandria, VA"],
+  "sameAs": [
+    "https://www.linkedin.com/company/example-plumbing",
+    "https://www.yelp.com/biz/example-plumbing"
+  ]
+}
+&lt;/script&gt;</code></pre>
+<p>The <code>@id</code> is a permanent identifier for the business. Use the same one on every page that refers to it.</p>
+
+<h3>2. Service, on each service page</h3>
+<pre><code>{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Water heater replacement",
+  "provider": { "@id": "https://example.com/#business" },
+  "areaServed": "Arlington, VA",
+  "url": "https://example.com/water-heaters/"
+}</code></pre>
+<p>The provider points back to the business by its <code>@id</code>, connecting each service to the company that offers it.</p>
+
+<h3>3. BreadcrumbList, on every page below the home page</h3>
+<p>Describes where the page sits in your site. Most SEO plugins generate this automatically if breadcrumbs are turned on.</p>
+
+<h3>4. FAQPage, only where questions are visible</h3>
+<p>Mark up FAQs only when the questions and answers are visible on the page. Google shows FAQ rich results for few sites now, but the markup still helps AI systems match your answers to questions.</p>
+
+<h3>5. Person, for the owner or practitioner</h3>
+<p>If customers choose you partly because of who you are, such as a lawyer, therapist, consultant, or chef, add Person markup on the About page with name, job title, image, and sameAs links to professional profiles, connected to the business with <code>worksFor</code>.</p>
+
+<h2>Add if they apply</h2>
+<ul>
+  <li><strong>Product and Offer</strong> if you sell products online.</li>
+  <li><strong>Article or BlogPosting</strong> on blog posts, with author and dates.</li>
+  <li><strong>Event</strong> for classes, workshops, or performances with dates.</li>
+  <li><strong>Review</strong> markup only for reviews that are visible on the page. Self-serving review stars on your own business are ignored by Google.</li>
+</ul>
+
+<h2>The rules</h2>
+<ol>
+  <li><strong>Match the page.</strong> Everything in the markup should be visible to visitors. Hidden facts in schema get ignored or penalized.</li>
+  <li><strong>Match the world.</strong> Name, address, and phone should match your Google Business Profile exactly.</li>
+  <li><strong>One source of truth.</strong> Don't let a theme, an SEO plugin, and a reviews app each output their own business markup. Pick one.</li>
+  <li><strong>Keep it current.</strong> Hours, prices, and addresses change. Hardcoded markup goes stale; markup generated from your CMS fields stays accurate.</li>
+  <li><strong>Validate.</strong> Test every template in Google's Rich Results Test and the Schema.org validator, then watch Search Console's enhancement reports.</li>
+</ol>
+
+<h2>How to add it</h2>
+<p>On WordPress, Yoast SEO and Rank Math generate Organization, WebSite, Breadcrumb, and Article markup and let you add more. On Shopify, the theme usually outputs Product markup; check for duplicates before adding an app. On Squarespace and Wix, add JSON-LD through code injection or the platform's SEO settings. On custom sites, generate it from the same data that renders the page.</p>
+
+<h2>A five-minute self-check</h2>
+<ol>
+  <li>Paste your home page address into Google's Rich Results Test and note every type it detects.</li>
+  <li>Open the Schema.org validator on the same page and look for duplicates: two Organization or LocalBusiness blocks usually mean a theme and a plugin are both writing markup.</li>
+  <li>Compare the name, address, and phone in the markup with your Google Business Profile, character by character.</li>
+  <li>Repeat on one service page and one blog post.</li>
+  <li>In Search Console, open the Enhancements section and check for errors and warnings on each detected type.</li>
+</ol>
+<p>If all five checks come back clean, your structured data is in better shape than most.</p>
+
+<h2>Multiple locations</h2>
+<p>With more than one location, the home page describes the Organization, and each location page describes its own LocalBusiness with <code>parentOrganization</code> pointing to it. Never describe the company and its first location as the same entity.</p>
+
+<p>For help with markup that validates and stays accurate, see <a href="{root}services/schema/">schema markup and entity SEO</a>.</p>

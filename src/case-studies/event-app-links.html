@@ -1,0 +1,28 @@
+name: Event App Links
+title: Case study: a React event app with 2,000 pages Google missed
+description: An event discovery app built with Create React App had 2,000 event pages Google never found. A 13 page spec, ranked P0 to P3, gave the developer exact fixes.
+keywords: React SEO, Create React App indexing, crawlable links
+updated: 2026-10-06
+---
+<h1>Event discovery app: 2,000 pages with no way in</h1>
+<p class="lead">A nightlife and event discovery app built on Create React App needed roughly 2,000 event pages in Google. After three months, Search Console showed impressions for the home page and close to nothing anywhere else.</p>
+
+<h2>The engagement</h2>
+<p>I diagnosed, wrote the specification, and verified the work. The founder's developer built the fixes.</p>
+
+<h2>Four findings</h2>
+<ol>
+  <li><strong>The home page was empty to crawlers.</strong> The server returned a single empty root element; everything visible was drawn later by JavaScript.</li>
+  <li><strong>Event cards weren't links.</strong> They navigated with click handlers, so there were no anchor tags for a crawler to follow.</li>
+  <li><strong>The event pages were orphans.</strong> Ironically, the event pages already had server-side rendering and decent HTML. Nothing pointed to them.</li>
+  <li><strong>Canonicals pointed home.</strong> The events and community sections declared the home page as their canonical, effectively telling Google they were copies of it.</li>
+</ol>
+
+<h2>The deliverables</h2>
+<p>A short plain-language summary for the founder, and a 13-page specification for the developer covering 12 items ranked from P0 to P3. Each item carried the evidence, why it mattered, the build steps, and an acceptance test. The P0 items: real anchor links on every event card, server rendering for the home page and the event feed, and indexing requests for priority pages once those shipped.</p>
+
+<h2>Verification</h2>
+<p>Every item had a test anyone could run, for example "event links appear in the server HTML of the feed" and "each section's canonical references itself." I checked the developer's work against those tests with a crawl and Search Console's live URL test.</p>
+
+<h2>The takeaway</h2>
+<p>Good pages can still be invisible if nothing links to them in a way crawlers understand. Real links in real HTML remain the foundation of discovery. More under <a href="{root}services/javascript-seo/">JavaScript SEO</a>.</p>

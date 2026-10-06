@@ -1,0 +1,74 @@
+name: AI Search Checklist
+title: AI search readiness checklist for ChatGPT, Gemini, and more
+description: A practical checklist for AI search: crawler access, server rendered content, entity schema, answer shaped pages, llms.txt, outside evidence, and measurement.
+type: guide
+published: 2026-10-06
+keywords: AI search checklist, GEO checklist, llms.txt, AI crawlers
+updated: 2026-10-06
+---
+<h1>The AI search readiness checklist</h1>
+<p class="lead">AI assistants answer questions by retrieving pages, reading them quickly, and quoting what's clear. This checklist covers what has to be true for your site to be retrieved, understood, and cited. Work through it in order; the early items block everything after them.</p>
+
+<h2>1. Can AI crawlers reach you?</h2>
+<ul>
+  <li><strong>robots.txt</strong> allows the crawlers you want. The main ones: GPTBot and OAI-SearchBot (OpenAI), ClaudeBot and Claude-SearchBot (Anthropic), PerplexityBot, Google-Extended (Gemini training), Applebot-Extended, Bingbot (which also feeds Copilot), and CCBot (Common Crawl).</li>
+  <li><strong>Your CDN and firewall</strong> let them through. Cloudflare, Sucuri, and hosting firewalls can block AI crawlers by default, regardless of robots.txt. Check the setting and check the logs.</li>
+  <li><strong>Pages respond quickly</strong> and without errors. Retrieval systems working against a time limit skip slow pages.</li>
+</ul>
+<p>Blocking AI crawlers is a legitimate business choice. Just make it deliberately, knowing that a blocked site can't be cited.</p>
+
+<h2>2. Is your content in the HTML?</h2>
+<ul>
+  <li>Fetch a key page with scripts turned off, or use "View source." Is the main text there?</li>
+  <li>No important content hidden behind tabs, accordions, or "load more" buttons that require JavaScript to populate.</li>
+  <li>Prices, specifications, hours, and addresses in text, not only in images or PDFs.</li>
+</ul>
+<p>Googlebot renders JavaScript. Most AI crawlers don't. If the answer isn't in the HTML, most assistants will never see it.</p>
+
+<h2>3. Do machines know who you are?</h2>
+<ul>
+  <li><strong>Organization or LocalBusiness schema</strong> on the home page, with your legal name, logo, address, phone, and founding date.</li>
+  <li><strong>sameAs links</strong> from that schema to your official profiles: LinkedIn, Crunchbase, Wikipedia or Wikidata if you have them, and major directories.</li>
+  <li><strong>Person schema</strong> for founders and authors whose expertise matters.</li>
+  <li><strong>One description, everywhere.</strong> The same name, the same one-sentence description, and the same facts on your site, your profiles, and directories.</li>
+  <li>An <strong>About page</strong> that states plainly who you are, what you do, where, since when, and for whom.</li>
+</ul>
+
+<h2>4. Is your content shaped like an answer?</h2>
+<ul>
+  <li>Each important page opens with a direct, one- or two-sentence answer to its main question.</li>
+  <li>Sections are self-contained. A paragraph pulled out alone still makes sense, without "as mentioned above."</li>
+  <li>Terms are defined where they're used. A glossary page helps.</li>
+  <li>Specific numbers, dates, and names are stated rather than implied: prices, sizes, service areas, years.</li>
+  <li>FAQs are written around questions your customers actually ask, with the answers visible on the page.</li>
+  <li>Comparison pages are fair. Assistants are more willing to cite a balanced comparison than a sales pitch.</li>
+  <li>Pages show who wrote them and when they were last updated.</li>
+</ul>
+
+<h2>5. Have you published files for machines?</h2>
+<ul>
+  <li><strong>XML sitemap</strong> with accurate last-modified dates, submitted to Google and Bing.</li>
+  <li><strong>IndexNow</strong> enabled, so Bing learns about changes within minutes.</li>
+  <li><strong>llms.txt</strong> at your site root: a short Markdown summary of who you are with links to your most important pages. It's an emerging convention, inexpensive to add, and some AI tools already read it.</li>
+  <li>Optionally, clean Markdown versions of key pages linked from llms.txt.</li>
+</ul>
+
+<h2>6. Does the rest of the web agree?</h2>
+<ul>
+  <li>Your Google Business Profile, Bing Places listing, and Apple Business Connect are complete and consistent.</li>
+  <li>Industry directories and review sites list current information.</li>
+  <li>You know which third-party pages assistants cite when they answer questions in your category, and whether you appear on them.</li>
+  <li>Outdated or wrong information elsewhere has been corrected at the source where possible.</li>
+</ul>
+
+<h2>7. Are you measuring it?</h2>
+<ul>
+  <li>A fixed set of 20 to 50 prompts your buyers would ask, run across ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google's AI Overviews.</li>
+  <li>The same prompts repeated monthly. Answers vary, so trends matter more than any single answer.</li>
+  <li>For each run: whether you appear, how you're described, whether facts are correct, and which sources are cited.</li>
+  <li>AI assistant referrals segmented in GA4, using referrers such as chatgpt.com, perplexity.ai, gemini.google.com, and copilot.microsoft.com.</li>
+</ul>
+
+<h2>Where to start</h2>
+<p>If you only do three things this month, make them these: confirm crawlers can reach you, confirm your main content is in the HTML, and make your About page and Organization schema say exactly who you are. Everything else builds on those.</p>
+<p>For help running the checklist against your own site, see <a href="{root}services/ai-search/">AI SEO, GEO, and AEO</a>. Terms used here are defined in the <a href="{root}guides/glossary/">glossary</a>.</p>
