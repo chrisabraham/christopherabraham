@@ -718,6 +718,7 @@ for p in pages:
     if p["body"].count("<h1>") != 1: problems.append(f"{where}: needs exactly one h1")
     if p["words"] < MIN_WORDS[p["kind"]]: problems.append(f"{where}: only {p['words']} words (min {MIN_WORDS[p['kind']]})")
     if "—" in b or " – " in b: problems.append(f"{where}: em or en dash in the copy")
+    if "Chris's" in b + t + d: problems.append(f"{where}: write Chris' not Chris's")
     plain = re.sub(r"<code>.*?</code>|<pre>.*?</pre>", "", p["body"], flags=re.S)
     for m in re.finditer(r"\b(we|We|our|Our|us)\b", text_of(plain)):
         problems.append(f"{where}: first person plural: {m.group(0)}")
