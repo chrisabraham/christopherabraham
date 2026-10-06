@@ -11,7 +11,7 @@ Every engagement follows the same arc: a defined question, a paid audit that ans
 - **Directly.** Email [cja@well.com](mailto:cja@well.com) and I'll send a written scope and an invoice. Direct engagements are paid in advance: the audit up front, retainers at the start of each month.
 
 ## The process
-1. **A short conversation.** You tell me the symptom; I ask what changed, when, and who has access to what. Fifteen minutes on the phone or a few emails is usually enough.
+1. **A short conversation.** You tell me the symptom; I ask what changed, when, and who has access to what. A few emails or a [30 minute call](https://calendly.com/chrisabraham/30) is usually enough.
 2. **A written scope.** The questions the audit will answer, what you'll receive, the access I'll need, the timeline, and the price.
 3. **The audit.** Crawls, Search Console and Bing Webmaster Tools data, rendered HTML, server responses, and whatever else the question calls for. You receive a findings report with the cause, the evidence, and a ranked list of fixes.
 4. **The fixes.** I make the changes I have access to, such as metadata, redirects, schema, plugin settings, and Cloudflare rules. For everything that needs a developer, I write tickets with steps and acceptance criteria.

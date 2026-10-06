@@ -76,7 +76,7 @@ More in [guides](https://christopherabraham.com/guides/), plus a [glossary of SE
 
 Send me your site's address and a sentence about what's wrong. Email [cja@well.com](mailto:cja@well.com), or call or text [+1 202-352-5051](tel:+12023525051).
 
-[Contact me](https://christopherabraham.com/contact/) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+[Contact me](https://christopherabraham.com/contact/) [Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 6, 2026
 
@@ -1870,7 +1870,7 @@ Every engagement follows the same arc: a defined question, a paid audit that ans
 - **Directly.** Email [cja@well.com](mailto:cja@well.com) and I'll send a written scope and an invoice. Direct engagements are paid in advance: the audit up front, retainers at the start of each month.
 
 ## The process
-1. **A short conversation.** You tell me the symptom; I ask what changed, when, and who has access to what. Fifteen minutes on the phone or a few emails is usually enough.
+1. **A short conversation.** You tell me the symptom; I ask what changed, when, and who has access to what. A few emails or a [30 minute call](https://calendly.com/chrisabraham/30) is usually enough.
 2. **A written scope.** The questions the audit will answer, what you'll receive, the access I'll need, the timeline, and the price.
 3. **The audit.** Crawls, Search Console and Bing Webmaster Tools data, rendered HTML, server responses, and whatever else the question calls for. You receive a findings report with the cause, the evidence, and a ranked list of fixes.
 4. **The fixes.** I make the changes I have access to, such as metadata, redirects, schema, plugin settings, and Cloudflare rules. For everything that needs a developer, I write tickets with steps and acceptance criteria.
@@ -1968,9 +1968,10 @@ Updated: 2026-10-06
 Send me your site's address and a few lines about what's happening. I'll reply with my first read and the questions I'd want answered.
 - Email: [cja@well.com](mailto:cja@well.com)
 - Call or text: [+1 202-352-5051](tel:+12023525051)
+- Book a call: [30 minutes on my calendar](https://calendly.com/chrisabraham/30)
 - Upwork: [Christopher A., Top Rated SEO consultant](https://www.upwork.com/freelancers/chrisjabraham)
 
-[Email me about your site](mailto:cja@well.com?subject=SEO%20help&body=Website%3A%0A%0AWhat%27s%20happening%3A%0A%0AWhen%20it%20started%3A%0A%0ABudget%3A%0A) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+[Email me about your site](mailto:cja@well.com?subject=SEO%20help&body=Website%3A%0A%0AWhat%27s%20happening%3A%0A%0AWhen%20it%20started%3A%0A%0ABudget%3A%0A) [Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 ## A good first message includes
 - The website address and the platform it runs on, if you know it: WordPress, Shopify, Magento, Webflow, a custom React or Next.js build, or something else.
@@ -1981,7 +1982,7 @@ Send me your site's address and a few lines about what's happening. I'll reply w
 
 ## What happens next
 1. I reply, usually within one business day.
-2. If it's a fit, a few emails or a fifteen-minute call fill in the picture.
+2. If it's a fit, a few emails or a call fill in the picture. You can skip ahead and [book thirty minutes on my calendar](https://calendly.com/chrisabraham/30).
 3. I send a written scope with deliverables, timeline, and price, or an Upwork offer with the same details.
 4. Work begins when the scope is accepted and the first payment or milestone is funded.
 
@@ -2019,7 +2020,7 @@ GitHub Pages serves the site. GitHub's servers receive the connecting IP address
 
 ## Everything else on the page
 
-Pages, images, and styles all load from this domain. There are no embedded videos, social buttons, third-party fonts, or pixels. Outbound links, such as the one to Upwork, lead to sites with their own policies.
+Pages, images, and styles all load from this domain. There are no embedded videos, social buttons, third-party fonts, or pixels. Outbound links, such as those to Upwork and Calendly, lead to sites with their own policies.
 
 ## Messages and calls
 

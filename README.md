@@ -2,7 +2,7 @@
 
 Christopher Abraham, independent SEO consultant. Static pages on GitHub Pages: plain HTML with inline CSS and no JavaScript except the Google Analytics 4 tag (consent mode: ad storage off everywhere, analytics cookies off in the EEA, Switzerland, and the UK; see /privacy/). Plone classic look (tabs, slate-blue links), built for legibility and accessibility (black Verdana at 18px, AAA link contrast, visible focus, skip link, labeled landmarks, breadcrumb list, table header scopes, descriptive link text).
 
-This site stands alone: it never names or links to any other site or brand of its owner. `ISLAND` in `tools/build.py` enforces that on every source and generated file.
+This site stands on its own: it links to Upwork and Calendly, and "Chris" is fine, but it never names or links the owner's other sites and brands. `ISLAND` in `tools/build.py` enforces that on every source and generated file.
 
 ## Editing
 
