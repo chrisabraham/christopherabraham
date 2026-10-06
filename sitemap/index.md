@@ -15,7 +15,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Hire me](https://christopherabraham.com/hire-me/): How an SEO engagement runs: a scoped, paid audit first, then hourly or fixed price work through Upwork or direct, with every finding and decision in writing.
 - [Frequently asked questions](https://christopherabraham.com/faq/): Practical answers about an SEO engagement: what access is needed, how long audits take, time zones, Upwork contracts, invoicing, reports, and confidentiality.
 - [Contact Christopher Abraham](https://christopherabraham.com/contact/): Email Christopher Abraham at cja@well.com or call or text him with your site address and the problem. Hire him on Upwork or directly for a scoped audit.
-- [Privacy](https://christopherabraham.com/privacy/): christopherabraham.com sets no cookies and runs no analytics or advertising scripts. What GitHub Pages logs, what happens to your email, and how to ask.
+- [Privacy](https://christopherabraham.com/privacy/): How christopherabraham.com uses Google Analytics with consent mode, why visitors in Europe and the UK get no analytics cookies, and what happens to your email.
 
 ## Technical SEO
 - [Technical SEO audit](https://christopherabraham.com/services/seo-audit/): A technical SEO audit that answers one question with evidence: why traffic fell or stalled, the mechanism behind it, and which fixes should come first.

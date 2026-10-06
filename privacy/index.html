@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy on christopherabraham.com: no cookies, no tracking</title>
-<meta name="description" content="christopherabraham.com sets no cookies and runs no analytics or advertising scripts. What GitHub Pages logs, what happens to your email, and how to ask.">
-<meta name="keywords" content="privacy policy, no cookies, no tracking">
+<title>Privacy on christopherabraham.com: analytics and your data</title>
+<meta name="description" content="How christopherabraham.com uses Google Analytics with consent mode, why visitors in Europe and the UK get no analytics cookies, and what happens to your email.">
+<meta name="keywords" content="privacy policy, Google Analytics consent mode, cookies">
 <link rel="canonical" href="https://christopherabraham.com/privacy/">
 <meta name="author" content="Christopher Abraham">
 <link rel="icon" href="../logo.png" type="image/png">
@@ -17,19 +17,28 @@
 <link rel="alternate" type="text/plain" title="llms.txt" href="../llms.txt">
 <link rel="sitemap" type="application/xml" href="../sitemap.xml">
 <meta name="theme-color" content="#ffffff">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MR3P3612MM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'granted'});
+  gtag('consent', 'default', {analytics_storage: 'denied', region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"]});
+  gtag('js', new Date());
+  gtag('config', 'G-MR3P3612MM');
+</script>
 <meta property="og:site_name" content="Christopher Abraham">
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Privacy on christopherabraham.com: no cookies, no tracking">
-<meta property="og:description" content="christopherabraham.com sets no cookies and runs no analytics or advertising scripts. What GitHub Pages logs, what happens to your email, and how to ask.">
+<meta property="og:title" content="Privacy on christopherabraham.com: analytics and your data">
+<meta property="og:description" content="How christopherabraham.com uses Google Analytics with consent mode, why visitors in Europe and the UK get no analytics cookies, and what happens to your email.">
 <meta property="og:url" content="https://christopherabraham.com/privacy/">
 <meta property="og:image" content="https://christopherabraham.com/social-card.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Christopher Abraham, SEO consultant: technical SEO, indexing, schema, and AI search">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Privacy on christopherabraham.com: no cookies, no tracking">
-<meta name="twitter:description" content="christopherabraham.com sets no cookies and runs no analytics or advertising scripts. What GitHub Pages logs, what happens to your email, and how to ask.">
+<meta name="twitter:title" content="Privacy on christopherabraham.com: analytics and your data">
+<meta name="twitter:description" content="How christopherabraham.com uses Google Analytics with consent mode, why visitors in Europe and the UK get no analytics cookies, and what happens to your email.">
 <meta name="twitter:image" content="https://christopherabraham.com/social-card.png">
 <style>
 :root { --orange: #f3b842; --blue: #1d9cd5; --teal: #3ca0b0; --text: #000; --muted: #333; --link: #284a57; --tab: #8cacbb; --bar: #dee7ec; --rule: #c8d3d8; --bg: #fff; }
@@ -511,8 +520,8 @@ dd { margin: .2rem 0 0 0; }
    "@type": "WebPage",
    "@id": "https://christopherabraham.com/privacy/#webpage",
    "url": "https://christopherabraham.com/privacy/",
-   "name": "Privacy on christopherabraham.com: no cookies, no tracking",
-   "description": "christopherabraham.com sets no cookies and runs no analytics or advertising scripts. What GitHub Pages logs, what happens to your email, and how to ask.",
+   "name": "Privacy on christopherabraham.com: analytics and your data",
+   "description": "How christopherabraham.com uses Google Analytics with consent mode, why visitors in Europe and the UK get no analytics cookies, and what happens to your email.",
    "isPartOf": {
     "@id": "https://christopherabraham.com/#website"
    },
@@ -523,11 +532,11 @@ dd { margin: .2rem 0 0 0; }
     },
     {
      "@type": "Thing",
-     "name": "no cookies"
+     "name": "Google Analytics consent mode"
     },
     {
      "@type": "Thing",
-     "name": "no tracking"
+     "name": "cookies"
     }
    ],
    "primaryImageOfPage": "https://christopherabraham.com/social-card.png",
@@ -536,7 +545,7 @@ dd { margin: .2rem 0 0 0; }
    "author": {
     "@id": "https://christopherabraham.com/#person"
    },
-   "keywords": "privacy policy, no cookies, no tracking",
+   "keywords": "privacy policy, Google Analytics consent mode, cookies",
    "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -597,22 +606,31 @@ dd { margin: .2rem 0 0 0; }
 </nav>
 <main id="main">
 <h1>Privacy</h1>
-<p class="lead">This site sets no cookies and runs no analytics, advertising, or tracking scripts. Every page is static HTML with its styles written inline.</p>
+<p class="lead">This site runs one script: Google Analytics 4, which tells me roughly how many people visit, which pages they read, and how they found the site. It runs no advertising, no remarketing, and no other tracking.</p>
 
-<h2>What the host records</h2>
-<p>The site is served by GitHub Pages. Like every web host, GitHub's servers see the address your browser connects from and the page it requests, and GitHub may keep those records for security and operations under its own privacy statement. I have no access to individual visitor records.</p>
+<h2>Analytics, in detail</h2>
+<ul>
+  <li><strong>Advertising features are off for everyone.</strong> Ad storage, ad user data, and ad personalization are all switched off in the site's consent settings, so visits here are never used to target ads.</li>
+  <li><strong>Visitors in the European Economic Area, Switzerland, and the United Kingdom</strong> get no analytics cookies at all. Google receives only cookieless, aggregate signals from those regions.</li>
+  <li><strong>Visitors elsewhere</strong> get first-party Google Analytics cookies, named <code>_ga</code> and <code>_ga_</code> followed by an ID, that tell repeat visits apart from new ones. They hold a random identifier, not your name or email.</li>
+  <li>Google processes the data under its own privacy policy. I see aggregate reports: page views, rough location by country or city, device type, and referring sites, including AI assistants such as ChatGPT and Perplexity.</li>
+</ul>
+<p>To opt out on every site that uses Google Analytics, install Google's opt-out browser add-on, or block cookies for this site in your browser settings. Everything here works the same with analytics blocked.</p>
 
-<h2>Fonts, images, and third parties</h2>
-<p>Every file on these pages comes from this site. There are no embedded videos, social widgets, web fonts loaded from other companies, or tracking pixels. Links to Upwork and other sites take you to those sites, where their own policies apply.</p>
+<h2>What the host sees</h2>
+<p>GitHub Pages serves the site. GitHub's servers receive the connecting IP address and the requested page, as every web host does, and may retain those logs for security under GitHub's privacy statement. I can't see them.</p>
 
-<h2>When you email or call</h2>
-<p>If you email, call, or text me, I receive your address or number and whatever you choose to send. I use it to reply and, if you hire me, to run the engagement. I don't sell it, share it for marketing, or add you to a mailing list. Client information, including logins and analytics data you grant me access to, is used only for the work and stays confidential. I remove my access when an engagement ends, or sooner if you ask.</p>
+<h2>Everything else on the page</h2>
+<p>Pages, images, and styles all load from this domain. There are no embedded videos, social buttons, third-party fonts, or pixels. Outbound links, such as the one to Upwork, lead to sites with their own policies.</p>
 
-<h2>Search engines and AI systems</h2>
-<p>Search engines and AI crawlers are welcome to read and cite this site; the rules are in <a href="../robots.txt">robots.txt</a>. That applies to the public pages only. Nothing about visitors is shared with them.</p>
+<h2>Messages and calls</h2>
+<p>An email, call, or text gives me your address or number and whatever you write. I use it to answer you and, if you hire me, to do the work. It's never sold, shared for marketing, or added to a list. Logins and analytics access granted during an engagement serve that engagement only, and I give them up when it ends or whenever you ask.</p>
+
+<h2>Crawlers</h2>
+<p>Search engines and AI crawlers may read and cite the public pages, as described in <a href="../robots.txt">robots.txt</a>. No visitor information goes to them.</p>
 
 <h2>Questions</h2>
-<p>For anything about privacy on this site, or to ask me to delete your correspondence with me, email <a href="mailto:cja@well.com">cja@well.com</a>.</p>
+<p>Write to <a href="mailto:cja@well.com">cja@well.com</a> with any privacy question, or to have me delete your past emails with me.</p>
 <p class="updated">Updated October 6, 2026</p>
 </main>
 <footer class="site-footer">
