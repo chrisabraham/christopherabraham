@@ -249,7 +249,8 @@ ORG = {
     "sameAs": [UPWORK],
 }
 PERSON = {
-    "@type": "Person", "@id": AUTHOR, "name": "Christopher Abraham", "givenName": "Christopher", "familyName": "Abraham",
+    "@type": "Person", "@id": AUTHOR, "name": "Christopher Abraham", "givenName": "Christopher",
+    "additionalName": "James", "familyName": "Abraham", "alternateName": "Christopher James Abraham",
     "image": {"@type": "ImageObject", "url": SITE + "christopher-abraham.jpg", "width": 225, "height": 225,
               "caption": "Christopher Abraham, SEO consultant"},
     "url": SITE, "jobTitle": "SEO consultant", "worksFor": {"@id": SITE + "#service-business"},
