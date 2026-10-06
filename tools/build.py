@@ -39,7 +39,7 @@ import datetime, html, json, os, re, sys
 from html.parser import HTMLParser
 
 # Set to True at the DNS cutover: drops noindex and writes CNAME (see README).
-LIVE = False
+LIVE = True
 
 SITE = "https://christopherabraham.com/"
 PREVIEW_BASE = "/christopherabraham/"
