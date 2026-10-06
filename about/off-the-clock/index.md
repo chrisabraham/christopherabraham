@@ -60,7 +60,7 @@ For years I've volunteered as a sous chef at Miriam's Kitchen, which works to en
 
 ## On the water and on the road
 
-I'm a senior member of the Potomac Boat Club, founded in 1869 and one of the oldest rowing clubs in the country, and I still love a quiet morning on the river. On land I'm a committed slow jogger, which is exactly as fast as it sounds.
+I'm a senior member of the Potomac Boat Club, founded in 1869 and one of the oldest rowing clubs in the country. For years I kept my own racing shell, a heavyweight Hudson carbon single, at Thompson Boat Center, and I eventually gave it to the club to join its fleet of training singles, where it can teach somebody else what Oxford Blues taught me. On land I'm a committed slow jogger, which is exactly as fast as it sounds.
 
 ## Teaching and talking
 
