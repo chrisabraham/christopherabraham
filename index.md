@@ -49,6 +49,8 @@ Client, schema markup project
 
 Client, AI SEO and technical SEO project
 
+Locally, my verified [Google Business Profile](https://share.google/xZ98ksFq3nhO2OvuF) holds a 5.0 rating from 10 Google reviews (as of October 2026).
+
 Clients describe working with me as collaborative, committed to quality, and clearly communicated, according to Upwork's summary of my completed jobs.
 
 ## Selected results

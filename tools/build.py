@@ -84,6 +84,7 @@ TEL = "+12023525051"
 UPWORK = "https://www.upwork.com/freelancers/chrisjabraham"
 CALENDLY = "https://calendly.com/chrisabraham/30"
 LINKEDIN = "https://www.linkedin.com/in/chrisabraham"
+GBP = "https://share.google/xZ98ksFq3nhO2OvuF"  # Google Business Profile "Chris Abraham" (verified)
 # Profiles and bylines published as Chris Abraham: the same person, for search engines and AI.
 PROFILES = [UPWORK, LINKEDIN, "https://biznology.com/author/chrisabraham/",
             "https://www.huffpost.com/author/chris-abraham", "https://muckrack.com/chrisabraham",
@@ -121,7 +122,7 @@ for f in FILES:
     p = dict(line.split(": ", 1) for line in head.strip().splitlines())
     p["src"] = f
     p["path"] = "" if f == "index" else (f[:-5] if f.endswith("/index") else f + "/")
-    p["body"] = body.strip().replace("{upwork}", UPWORK).replace("{calendly}", CALENDLY).replace("{linkedin}", LINKEDIN).replace("{email}", EMAIL).replace("{phone}", PHONE).replace("{tel}", TEL)
+    p["body"] = body.strip().replace("{upwork}", UPWORK).replace("{calendly}", CALENDLY).replace("{linkedin}", LINKEDIN).replace("{gbp}", GBP).replace("{email}", EMAIL).replace("{phone}", PHONE).replace("{tel}", TEL)
     p["tab"] = (p["path"].split("/")[0] + "/") if p["path"] else ""
     if p["tab"] not in dict(TABS):
         p["tab"] = {"privacy/": "privacy/"}.get(p["path"], "hire-me/")  # the FAQ lives under Hire Me
@@ -260,7 +261,7 @@ ORG = {
     "numberOfEmployees": {"@type": "QuantitativeValue", "value": 1},
     "contactPoint": [{"@type": "ContactPoint", "contactType": "sales", "email": EMAIL, "telephone": "+1-202-352-5051",
                       "areaServed": [c for _, _, c in ENGLISH_SPEAKING], "availableLanguage": "English"}],
-    "sameAs": [UPWORK, LINKEDIN], "publishingPrinciples": SITE + "about/editorial-policy/",
+    "sameAs": [UPWORK, LINKEDIN, GBP], "publishingPrinciples": SITE + "about/editorial-policy/",
 }
 PERSON = {
     "@type": "Person", "@id": AUTHOR, "name": "Christopher Abraham", "givenName": "Christopher",
