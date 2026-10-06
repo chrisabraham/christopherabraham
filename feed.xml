@@ -56,6 +56,86 @@
     <summary>Core Web Vitals explained without jargon: what LCP, INP, and CLS measure, why lab scores differ from field data, the usual causes, and the fixes that work.</summary>
   </entry>
   <entry>
+    <title>How to correct what AI search says about you</title>
+    <link href="https://christopherabraham.com/guides/correct-ai-answers/"/>
+    <id>https://christopherabraham.com/guides/correct-ai-answers/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>When ChatGPT, Gemini, or Google's AI Overviews get your facts wrong, here is how to find where the error came from and publish corrections that get picked up.</summary>
+  </entry>
+  <entry>
+    <title>One person, two names: entity SEO for pen names and nicknames</title>
+    <link href="https://christopherabraham.com/guides/two-names-one-entity/"/>
+    <id>https://christopherabraham.com/guides/two-names-one-entity/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>How to make Google and AI assistants see that Christopher and Chris, or a pen name and a legal name, are one person, using schema, sameAs, and consistency.</summary>
+  </entry>
+  <entry>
+    <title>Proving expertise with third-party sources</title>
+    <link href="https://christopherabraham.com/guides/third-party-proof/"/>
+    <id>https://christopherabraham.com/guides/third-party-proof/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>Your own claims carry little weight with Google and AI assistants. University news, vendor case studies, old bios, and bylines do. How to find and use them.</summary>
+  </entry>
+  <entry>
+    <title>How to write an About page that search engines and AI trust</title>
+    <link href="https://christopherabraham.com/guides/about-page-ai/"/>
+    <id>https://christopherabraham.com/guides/about-page-ai/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>A recipe for an About page that Google and AI assistants quote correctly: current work first, verifiable facts, outside sources, schema, and no guesswork.</summary>
+  </entry>
+  <entry>
+    <title>Launch a site on a parked domain with Cloudflare and GitHub Pages</title>
+    <link href="https://christopherabraham.com/guides/parked-domain-launch/"/>
+    <id>https://christopherabraham.com/guides/parked-domain-launch/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>Step by step: take a domain off a parking page, move DNS to Cloudflare, point it at GitHub Pages, get HTTPS, and avoid the caching traps on launch day.</summary>
+  </entry>
+  <entry>
+    <title>How to lock down a domain that never sends email</title>
+    <link href="https://christopherabraham.com/guides/non-sending-domain/"/>
+    <id>https://christopherabraham.com/guides/non-sending-domain/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>Four DNS records stop spammers from forging mail from a domain you never send from: a null MX, an SPF that allows nothing, strict DMARC, and an empty DKIM key.</summary>
+  </entry>
+  <entry>
+    <title>What happens to your old domains when they lapse</title>
+    <link href="https://christopherabraham.com/guides/lapsed-domains/"/>
+    <id>https://christopherabraham.com/guides/lapsed-domains/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>When an old company or project domain expires, drop catchers buy it for its links and reputation. What they do with it, the harm, and how to protect yourself.</summary>
+  </entry>
+  <entry>
+    <title>How to write an llms.txt file</title>
+    <link href="https://christopherabraham.com/guides/llms-txt/"/>
+    <id>https://christopherabraham.com/guides/llms-txt/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>What llms.txt is, who reads it, and how to write one: the format, the full text companion file, Markdown page copies, robots.txt rules, and common mistakes.</summary>
+  </entry>
+  <entry>
+    <title>Meta keywords in 2026: ignored, mostly harmless, used honestly</title>
+    <link href="https://christopherabraham.com/guides/meta-keywords/"/>
+    <id>https://christopherabraham.com/guides/meta-keywords/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>Google ignores the meta keywords tag and Bing has called stuffing it a spam signal. Why some sites still use it, and how to write one that does no harm at all.</summary>
+  </entry>
+  <entry>
+    <title>Website accessibility without overlays</title>
+    <link href="https://christopherabraham.com/guides/accessible-websites/"/>
+    <id>https://christopherabraham.com/guides/accessible-websites/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <summary>Build accessibility into a small business website instead of bolting on an overlay: contrast, headings, links, images, keyboard use, forms, and testing it.</summary>
+  </entry>
+  <entry>
     <title>Glossary of SEO and AI search terms</title>
     <link href="https://christopherabraham.com/guides/glossary/"/>
     <id>https://christopherabraham.com/guides/glossary/</id>

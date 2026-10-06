@@ -1,0 +1,67 @@
+name: Two Names, One Entity
+title: One person, two names: entity SEO for pen names, nicknames
+description: How to make Google and AI assistants see that Christopher and Chris, or a pen name and a legal name, are one person, using schema, sameAs, and consistency.
+keywords: entity SEO for people, alternateName schema, pen name SEO, Person sameAs
+type: guide
+published: 2026-10-06
+updated: 2026-10-06
+---
+<h1>One person, two names: entity SEO for pen names and nicknames</h1>
+<p class="lead">Plenty of professionals work under more than one name: a formal name on a freelance marketplace, a nickname on bylines, a maiden name on old publications, a pen name on fiction. Search engines and AI assistants treat names as clues, not proof. Unless you connect the names deliberately, they may think you're two people, or worse, merge you with a stranger.</p>
+
+<h2>How machines decide who you are</h2>
+<p>Google's Knowledge Graph and the retrieval systems behind AI assistants build an <em>entity</em>: a single record for a person, with facts attached. They assemble it from pages that agree with each other. When one page says "Christopher Abraham, SEO consultant in Arlington" and another says "Chris Abraham, SEO and reputation specialist in Arlington," the overlap in field and place suggests one person. Structured data and links turn that suggestion into something close to certainty.</p>
+
+<h2>Pick a primary name for each site</h2>
+<p>Each website should have one primary name for you, used consistently in its headings, bylines, and title tags. A site built for marketplace clients can lead with the name they know from the marketplace; a writing archive can lead with the byline name. Having different primaries on different sites is fine, as long as each site acknowledges the other names somewhere visible.</p>
+
+<h2>Say it in plain words</h2>
+<p>Put a sentence on your About page that names the connection: "Most people know me as Chris, and nearly two decades of my bylines carry that name." Plain text is the strongest signal because every crawler reads it, including the ones that ignore structured data.</p>
+<p>If you have a full legal name with a middle name, list it once. It distinguishes you from namesakes and matches public records, diplomas, and CVs.</p>
+
+<h2>Connect the names in Person schema</h2>
+<p>Schema.org's Person type has properties built for exactly this:</p>
+<pre><code>{
+  "@type": "Person",
+  "@id": "https://example.com/#person",
+  "name": "Christopher Abraham",
+  "givenName": "Christopher",
+  "additionalName": "James",
+  "familyName": "Abraham",
+  "alternateName": ["Christopher James Abraham", "Chris Abraham"],
+  "jobTitle": "SEO consultant",
+  "sameAs": [
+    "https://www.linkedin.com/in/example",
+    "https://www.upwork.com/freelancers/example",
+    "https://publication.example/author/example"
+  ]
+}</code></pre>
+<ul>
+  <li><strong>name</strong> is the primary name on this site.</li>
+  <li><strong>alternateName</strong> lists every other name you publish under.</li>
+  <li><strong>additionalName</strong> holds a middle name.</li>
+  <li><strong>sameAs</strong> points to profiles and author pages that are unmistakably you, whichever name they use.</li>
+  <li><strong>@id</strong> gives the entity a permanent identifier, so every page on the site refers to the same person.</li>
+</ul>
+
+<h2>Choose sameAs links carefully</h2>
+<p>sameAs says "this other page is about the same person." Use it only for pages about you: your LinkedIn profile, marketplace profile, author pages at publications, a speaker bio, a consultancy team page. Never point it at a page that merely mentions you, and never at a domain you no longer control. If an old company site has lapsed and now redirects somewhere unrelated, remove it.</p>
+<p>Old bios on reputable third-party sites are especially valuable. A team page from decades ago, still online, is independent evidence that you are who you say you are.</p>
+
+<h2>Make the profiles agree</h2>
+<p>Go through each profile you list in sameAs and check the basics: field, city, current role, photo. They don't have to be identical, but they shouldn't contradict each other. A headshot used on every profile is a surprisingly strong signal; image search connects them instantly.</p>
+
+<h2>Keep your field attached to your name</h2>
+<p>Namesakes are the biggest risk. Pair your name with your field everywhere it matters: title tags, page headings, social bios, and author lines. "Christopher Abraham, SEO consultant" repeated across consistent sources teaches the systems which Christopher Abraham this is, and keeps you apart from the theatre director and the novelist who share the name.</p>
+
+<h2>What not to do</h2>
+<ul>
+  <li>Don't create a separate fake persona with its own invented history. Two names for one real person is normal; two biographies is a credibility problem.</li>
+  <li>Don't hide the connection. A name that appears from nowhere, with no link to an established record, looks like a new entity with no history.</li>
+  <li>Don't stuff every variant into titles and headings. Use the primary name in titles and let alternateName and the About page carry the rest.</li>
+</ul>
+
+<h2>Check the result</h2>
+<p>A few weeks after publishing, search each name with your field and city, and ask the major AI assistants who each name is. When they connect the names and describe the same career, the entity has merged. If they don't, look for a profile that contradicts the others.</p>
+
+<p>Related: <a href="{root}guides/correct-ai-answers/">correcting what AI says about you</a>, <a href="{root}guides/third-party-proof/">proving expertise with third-party sources</a>, and <a href="{root}services/schema/">schema markup and entity SEO</a>.</p>

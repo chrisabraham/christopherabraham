@@ -3,19 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Free SEO guides on indexing, schema, speed, and AI search</title>
-<meta name="description" content="Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.">
-<meta name="keywords" content="SEO guides, technical SEO guide, AI search guide">
-<link rel="canonical" href="https://christopherabraham.com/guides/">
+<title>How to lock down a domain that never sends any email at all</title>
+<meta name="description" content="Four DNS records stop spammers from forging mail from a domain you never send from: a null MX, an SPF that allows nothing, strict DMARC, and an empty DKIM key.">
+<meta name="keywords" content="null MX record, SPF -all, DMARC reject, parked domain email security">
+<link rel="canonical" href="https://christopherabraham.com/guides/non-sending-domain/">
 <meta name="author" content="Christopher Abraham">
-<link rel="icon" href="../logo.png" type="image/png">
-<link rel="apple-touch-icon" href="../logo.png">
-<link rel="manifest" href="../manifest.webmanifest">
+<link rel="icon" href="../../logo.png" type="image/png">
+<link rel="apple-touch-icon" href="../../logo.png">
+<link rel="manifest" href="../../manifest.webmanifest">
 <link rel="alternate" type="text/markdown" title="This page as Markdown" href="index.md">
-<link rel="alternate" type="application/rss+xml" title="SEO guides (RSS)" href="../rss.xml">
-<link rel="alternate" type="application/atom+xml" title="SEO guides by Christopher Abraham" href="../feed.xml">
-<link rel="alternate" type="text/plain" title="llms.txt" href="../llms.txt">
-<link rel="sitemap" type="application/xml" href="../sitemap.xml">
+<link rel="alternate" type="application/rss+xml" title="SEO guides (RSS)" href="../../rss.xml">
+<link rel="alternate" type="application/atom+xml" title="SEO guides by Christopher Abraham" href="../../feed.xml">
+<link rel="alternate" type="text/plain" title="llms.txt" href="../../llms.txt">
+<link rel="sitemap" type="application/xml" href="../../sitemap.xml">
 <meta name="theme-color" content="#ffffff">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MR3P3612MM"></script>
 <script>
@@ -28,17 +28,20 @@
 </script>
 <meta property="og:site_name" content="Christopher Abraham">
 <meta property="og:locale" content="en_US">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Free SEO guides on indexing, schema, speed, and AI search">
-<meta property="og:description" content="Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.">
-<meta property="og:url" content="https://christopherabraham.com/guides/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to lock down a domain that never sends any email at all">
+<meta property="og:description" content="Four DNS records stop spammers from forging mail from a domain you never send from: a null MX, an SPF that allows nothing, strict DMARC, and an empty DKIM key.">
+<meta property="og:url" content="https://christopherabraham.com/guides/non-sending-domain/">
 <meta property="og:image" content="https://christopherabraham.com/social-card.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Christopher Abraham, SEO consultant: technical SEO, indexing, schema, and AI search">
+<meta property="article:published_time" content="2026-10-06">
+<meta property="article:modified_time" content="2026-10-06">
+<meta property="article:author" content="https://christopherabraham.com/about/">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Free SEO guides on indexing, schema, speed, and AI search">
-<meta name="twitter:description" content="Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.">
+<meta name="twitter:title" content="How to lock down a domain that never sends any email at all">
+<meta name="twitter:description" content="Four DNS records stop spammers from forging mail from a domain you never send from: a null MX, an SPF that allows nothing, strict DMARC, and an empty DKIM key.">
 <meta name="twitter:image" content="https://christopherabraham.com/social-card.png">
 <style>
 :root { --orange: #f3b842; --blue: #1d9cd5; --teal: #3ca0b0; --text: #000; --muted: #333; --link: #284a57; --tab: #8cacbb; --bar: #dee7ec; --rule: #c8d3d8; --bg: #fff; }
@@ -579,26 +582,30 @@ dd { margin: .2rem 0 0 0; }
    }
   },
   {
-   "@type": "CollectionPage",
-   "@id": "https://christopherabraham.com/guides/#webpage",
-   "url": "https://christopherabraham.com/guides/",
-   "name": "Free SEO guides on indexing, schema, speed, and AI search",
-   "description": "Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.",
+   "@type": "WebPage",
+   "@id": "https://christopherabraham.com/guides/non-sending-domain/#webpage",
+   "url": "https://christopherabraham.com/guides/non-sending-domain/",
+   "name": "How to lock down a domain that never sends any email at all",
+   "description": "Four DNS records stop spammers from forging mail from a domain you never send from: a null MX, an SPF that allows nothing, strict DMARC, and an empty DKIM key.",
    "isPartOf": {
     "@id": "https://christopherabraham.com/#website"
    },
    "about": [
     {
      "@type": "Thing",
-     "name": "SEO guides"
+     "name": "null MX record"
     },
     {
      "@type": "Thing",
-     "name": "technical SEO guide"
+     "name": "SPF -all"
     },
     {
      "@type": "Thing",
-     "name": "AI search guide"
+     "name": "DMARC reject"
+    },
+    {
+     "@type": "Thing",
+     "name": "parked domain email security"
     }
    ],
    "primaryImageOfPage": "https://christopherabraham.com/social-card.png",
@@ -607,7 +614,7 @@ dd { margin: .2rem 0 0 0; }
    "author": {
     "@id": "https://christopherabraham.com/#person"
    },
-   "keywords": "SEO guides, technical SEO guide, AI search guide",
+   "keywords": "null MX record, SPF -all, DMARC reject, parked domain email security",
    "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -617,122 +624,15 @@ dd { margin: .2rem 0 0 0; }
    },
    "potentialAction": {
     "@type": "ReadAction",
-    "target": "https://christopherabraham.com/guides/"
+    "target": "https://christopherabraham.com/guides/non-sending-domain/"
    },
    "breadcrumb": {
-    "@id": "https://christopherabraham.com/guides/#breadcrumb"
-   },
-   "mainEntity": {
-    "@type": "ItemList",
-    "itemListElement": [
-     {
-      "@type": "ListItem",
-      "position": 1,
-      "url": "https://christopherabraham.com/guides/page-indexing-report/",
-      "name": "How to read the Page indexing report in Search Console"
-     },
-     {
-      "@type": "ListItem",
-      "position": 2,
-      "url": "https://christopherabraham.com/guides/ai-search-checklist/",
-      "name": "The AI search readiness checklist"
-     },
-     {
-      "@type": "ListItem",
-      "position": 3,
-      "url": "https://christopherabraham.com/guides/seo-audit-deliverables/",
-      "name": "What a technical SEO audit should give you"
-     },
-     {
-      "@type": "ListItem",
-      "position": 4,
-      "url": "https://christopherabraham.com/guides/small-business-schema/",
-      "name": "The schema markup a small business actually needs"
-     },
-     {
-      "@type": "ListItem",
-      "position": 5,
-      "url": "https://christopherabraham.com/guides/redirect-rules/",
-      "name": "Ten rules for 301 redirects that keep your rankings"
-     },
-     {
-      "@type": "ListItem",
-      "position": 6,
-      "url": "https://christopherabraham.com/guides/core-web-vitals/",
-      "name": "Core Web Vitals in plain English"
-     },
-     {
-      "@type": "ListItem",
-      "position": 7,
-      "url": "https://christopherabraham.com/guides/correct-ai-answers/",
-      "name": "How to correct what AI search says about you"
-     },
-     {
-      "@type": "ListItem",
-      "position": 8,
-      "url": "https://christopherabraham.com/guides/two-names-one-entity/",
-      "name": "One person, two names: entity SEO for pen names and nicknames"
-     },
-     {
-      "@type": "ListItem",
-      "position": 9,
-      "url": "https://christopherabraham.com/guides/third-party-proof/",
-      "name": "Proving expertise with third-party sources"
-     },
-     {
-      "@type": "ListItem",
-      "position": 10,
-      "url": "https://christopherabraham.com/guides/about-page-ai/",
-      "name": "How to write an About page that search engines and AI trust"
-     },
-     {
-      "@type": "ListItem",
-      "position": 11,
-      "url": "https://christopherabraham.com/guides/parked-domain-launch/",
-      "name": "Launch a site on a parked domain with Cloudflare and GitHub Pages"
-     },
-     {
-      "@type": "ListItem",
-      "position": 12,
-      "url": "https://christopherabraham.com/guides/non-sending-domain/",
-      "name": "How to lock down a domain that never sends email"
-     },
-     {
-      "@type": "ListItem",
-      "position": 13,
-      "url": "https://christopherabraham.com/guides/lapsed-domains/",
-      "name": "What happens to your old domains when they lapse"
-     },
-     {
-      "@type": "ListItem",
-      "position": 14,
-      "url": "https://christopherabraham.com/guides/llms-txt/",
-      "name": "How to write an llms.txt file"
-     },
-     {
-      "@type": "ListItem",
-      "position": 15,
-      "url": "https://christopherabraham.com/guides/meta-keywords/",
-      "name": "Meta keywords in 2026: ignored, mostly harmless, used honestly"
-     },
-     {
-      "@type": "ListItem",
-      "position": 16,
-      "url": "https://christopherabraham.com/guides/accessible-websites/",
-      "name": "Website accessibility without overlays"
-     },
-     {
-      "@type": "ListItem",
-      "position": 17,
-      "url": "https://christopherabraham.com/guides/glossary/",
-      "name": "Glossary of SEO and AI search terms"
-     }
-    ]
+    "@id": "https://christopherabraham.com/guides/non-sending-domain/#breadcrumb"
    }
   },
   {
    "@type": "BreadcrumbList",
-   "@id": "https://christopherabraham.com/guides/#breadcrumb",
+   "@id": "https://christopherabraham.com/guides/non-sending-domain/#breadcrumb",
    "itemListElement": [
     {
      "@type": "ListItem",
@@ -745,8 +645,35 @@ dd { margin: .2rem 0 0 0; }
      "position": 2,
      "name": "Guides",
      "item": "https://christopherabraham.com/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Non-Sending Domain",
+     "item": "https://christopherabraham.com/guides/non-sending-domain/"
     }
    ]
+  },
+  {
+   "@type": "TechArticle",
+   "@id": "https://christopherabraham.com/guides/non-sending-domain/#article",
+   "headline": "How to lock down a domain that never sends email",
+   "description": "Four DNS records stop spammers from forging mail from a domain you never send from: a null MX, an SPF that allows nothing, strict DMARC, and an empty DKIM key.",
+   "url": "https://christopherabraham.com/guides/non-sending-domain/",
+   "mainEntityOfPage": {
+    "@id": "https://christopherabraham.com/guides/non-sending-domain/#webpage"
+   },
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "publisher": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "datePublished": "2026-10-06",
+   "dateModified": "2026-10-06",
+   "image": "https://christopherabraham.com/social-card.png",
+   "inLanguage": "en-US",
+   "wordCount": 748
   }
  ]
 }
@@ -756,78 +683,80 @@ dd { margin: .2rem 0 0 0; }
 <a class="skip" href="#main">Skip to content</a>
 <div class="wrap">
 <header class="top">
-  <a href="../"><img src="../logo-128.png" width="64" height="64" alt="Christopher Abraham home"></a>
+  <a href="../../"><img src="../../logo-128.png" width="64" height="64" alt="Christopher Abraham home"></a>
   <div>
-    <a class="brand" href="../">Christopher Abraham</a>
+    <a class="brand" href="../../">Christopher Abraham</a>
     <p class="tag">SEO consultant: technical SEO, indexing, schema, and AI search</p>
   </div>
 </header>
 <nav class="tabs" aria-label="Main">
   <ul>
-    <li><a href="../">Home</a></li>
-    <li><a href="../services/">Services</a></li>
-    <li><a href="../guides/" aria-current="page">Guides</a></li>
-    <li><a href="../case-studies/">Case Studies</a></li>
-    <li><a href="../about/">About</a></li>
-    <li><a href="../hire-me/">Hire Me</a></li>
-    <li><a href="../contact/">Contact</a></li>
+    <li><a href="../../">Home</a></li>
+    <li><a href="../../services/">Services</a></li>
+    <li><a href="../../guides/" aria-current="true">Guides</a></li>
+    <li><a href="../../case-studies/">Case Studies</a></li>
+    <li><a href="../../about/">About</a></li>
+    <li><a href="../../hire-me/">Hire Me</a></li>
+    <li><a href="../../contact/">Contact</a></li>
   </ul>
 </nav>
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../../guides/">Guides</a></li><li aria-current="page">Non-Sending Domain</li></ol></nav>
 <main id="main">
-<h1>SEO guides</h1>
-<p class="lead">These sixteen guides cover the questions clients ask me most, written so you can act on them yourself. Each one is self-contained, with links to related guides and to the glossary for terms.</p>
+<h1>How to lock down a domain that never sends email</h1>
+<p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published October 6, 2026</p>
+<p class="lead">Most people own a few domains that never send a single email: a personal brand site, a parked name, an old company domain, a campaign microsite. Spammers love those domains, because with no email records in place, receiving servers have no instructions for rejecting forged mail. Four DNS records close the gap in about ten minutes.</p>
 
-<h2>Indexing and audits</h2>
+<h2>Why an unused domain is a risk</h2>
+<p>Anyone can put any address in the "From" line of an email. Receiving servers decide whether to trust it by checking the sending domain's DNS: SPF lists who may send, DKIM proves a message was signed, and DMARC tells receivers what to do when those checks fail. A domain with none of these records gives receivers nothing to go on, so forged messages have a better chance of reaching inboxes, with your name on them.</p>
+
+<h2>The four records</h2>
+<table>
+<thead><tr><th scope="col">Type</th><th scope="col">Name</th><th scope="col">Value</th><th scope="col">What it says</th></tr></thead>
+<tbody>
+<tr><td>MX</td><td>@</td><td>0 .</td><td>This domain accepts no mail.</td></tr>
+<tr><td>TXT</td><td>@</td><td>v=spf1 -all</td><td>No server is allowed to send as this domain.</td></tr>
+<tr><td>TXT</td><td>_dmarc</td><td>v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s</td><td>Reject anything that fails, including from subdomains.</td></tr>
+<tr><td>TXT</td><td>*._domainkey</td><td>v=DKIM1; p=</td><td>Every DKIM key for this domain is revoked.</td></tr>
+</tbody>
+</table>
+
+<h3>Null MX</h3>
+<p>A single MX record with priority 0 and a target of just a dot is the standard way, defined in RFC 7505, to declare that a domain receives no email. Senders get an immediate, clear bounce instead of retrying for days. Some DNS dashboards are fussy about the bare dot; if yours refuses it, the other three records still do most of the work.</p>
+
+<h3>SPF that allows nothing</h3>
+<p><code>v=spf1 -all</code> lists no permitted senders and ends with a hard fail. Any message claiming to be from the domain fails SPF everywhere. Some administrators add the same record on a wildcard name, so invented subdomains are covered too.</p>
+
+<h3>Strict DMARC</h3>
+<p>The DMARC record tells receivers to reject messages that fail authentication, for the domain and every subdomain, with strict alignment. You can add a reporting address (<code>rua=mailto:...</code>) if you want to see who's trying to spoof you, but it's optional; the reports arrive at whatever mailbox you name, which must exist on another domain.</p>
+
+<h3>Empty DKIM wildcard</h3>
+<p>A DKIM record with an empty key, on the wildcard selector, tells receivers that no valid signing key exists for any selector. Signatures claiming to come from the domain can't verify.</p>
+
+<h2>What about subdomains?</h2>
+<p>The <code>sp=reject</code> tag in the DMARC record covers subdomains automatically, and the wildcard SPF record covers invented ones such as <code>billing.example.com</code>. If you later add a real subdomain that sends mail, it needs its own SPF and DKIM records, and you'll want to relax the subdomain policy deliberately rather than by accident.</p>
+
+<h2>When you later start sending</h2>
+<p>Plans change. If the domain ever needs to send mail, remove the null MX, replace the SPF record with one listing your actual mail provider, publish that provider's DKIM key, and move DMARC to a monitoring policy while you confirm everything passes.</p>
+
+<h2>Common mistakes</h2>
 <ul>
-  <li><a href="../guides/page-indexing-report/">How to read the Page indexing report in Search Console</a>: what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.</li>
-  <li><a href="../guides/seo-audit-deliverables/">What a technical SEO audit should give you</a>: how to tell a useful audit from a tool export, before and after you pay for one.</li>
+  <li><strong>Copying records into one.</strong> When pasting a zone file, two records can merge into one long TXT value. Check that the DMARC record contains only the DMARC policy.</li>
+  <li><strong>Using these records on a domain that does send mail.</strong> If the domain sends even occasional mail, such as contact form notifications or invoices from an accounting tool, these records will block it. Inventory every service first.</li>
+  <li><strong>Forgetting old domains.</strong> Every domain you own needs this, including the ones you forgot you renewed.</li>
+  <li><strong>A record conflicting with a CNAME.</strong> Don't put TXT records on a name that already has a CNAME, such as www pointing to a hosting service.</li>
 </ul>
 
-<h2>AI search and structured data</h2>
-<ul>
-  <li><a href="../guides/ai-search-checklist/">The AI search readiness checklist</a>: crawler access, server-rendered content, entities, answer-shaped pages, llms.txt, and measurement.</li>
-  <li><a href="../guides/small-business-schema/">The schema markup a small business actually needs</a>: five types, example JSON-LD, and the rules that keep it accurate.</li>
-</ul>
+<h2>Checking your work</h2>
+<p>Look up each record with a DNS lookup tool or a DNS-over-HTTPS query, and run the domain through a free DMARC and SPF checker. The tools should report a valid SPF record with a hard fail, a DMARC policy of reject, and a null MX.</p>
 
-<h2>Migrations and performance</h2>
-<ul>
-  <li><a href="../guides/redirect-rules/">Ten rules for 301 redirects that keep your rankings</a>: inventories, one-to-one maps, chains, 410s, and bulk testing.</li>
-  <li><a href="../guides/core-web-vitals/">Core Web Vitals in plain English</a>: LCP, INP, and CLS, field versus lab data, and the fixes that usually work.</li>
-</ul>
+<h2>Where to send people instead</h2>
+<p>If your website lists an email address, it should be on a domain that really does handle mail. A personal site can happily publish an address hosted elsewhere, while its own domain stays locked down.</p>
 
-<h2>Your name, your entity, and AI answers</h2>
-<ul>
-  <li><a href="../guides/correct-ai-answers/">How to correct what AI search says about you</a>: trace each wrong fact to its source and publish corrections that stick.</li>
-  <li><a href="../guides/two-names-one-entity/">One person, two names</a>: connecting a nickname, pen name, or formal name into a single entity with schema and sameAs.</li>
-  <li><a href="../guides/third-party-proof/">Proving expertise with third-party sources</a>: alumni news, vendor case studies, old team pages, and bylines as evidence.</li>
-  <li><a href="../guides/about-page-ai/">How to write an About page that search engines and AI trust</a>: current work first, verifiable facts, and no guesswork.</li>
-</ul>
-
-<h2>Domains, DNS, and files for machines</h2>
-<ul>
-  <li><a href="../guides/parked-domain-launch/">Launch a site on a parked domain</a>: Cloudflare DNS, GitHub Pages, HTTPS, and the caching trap.</li>
-  <li><a href="../guides/non-sending-domain/">Lock down a domain that never sends email</a>: null MX, SPF, DMARC, and an empty DKIM key.</li>
-  <li><a href="../guides/lapsed-domains/">What happens to your old domains when they lapse</a>: drop catchers, redirects to strangers, and how to protect yourself.</li>
-  <li><a href="../guides/llms-txt/">How to write an llms.txt file</a>: the format, Markdown copies, llms-full.txt, and robots rules.</li>
-  <li><a href="../guides/meta-keywords/">Meta keywords in 2026</a>: ignored by Google, risky when stuffed, and how to use them honestly.</li>
-  <li><a href="../guides/accessible-websites/">Website accessibility without overlays</a>: the WCAG essentials and how to test them yourself.</li>
-</ul>
-
-<h2>Reference</h2>
-<ul>
-  <li><a href="../guides/glossary/">Glossary of SEO and AI search terms</a>: short definitions of the vocabulary used across this site, from AEO to XML sitemap.</li>
-</ul>
-
-<h2>Stay current</h2>
-<p>New and updated guides appear in the <a href="../feed.xml">Atom feed</a>. AI tools can read every guide as Markdown through <a href="../llms.txt">llms.txt</a>.</p>
-
-<h2>When a guide isn't enough</h2>
-<p>If you've worked through a guide and the problem is still there, that's usually the point where a second set of eyes on the actual site helps. Every engagement begins with a scoped audit; see the <a href="../services/">services</a> or <a href="../contact/">get in touch</a>.</p>
-<p class="updated">Updated October 6, 2026</p>
+<p>For the full setup of parking a domain on Cloudflare and GitHub Pages, see <a href="../../guides/parked-domain-launch/">launching a site on a parked domain</a>. Domains that do send email need SPF, DKIM, and DMARC configured for every service that sends on their behalf, a different job entirely.</p>
 </main>
 <footer class="site-footer">
   <p><a href="mailto:cja@well.com">cja@well.com</a> · <a href="tel:+12023525051">+1 202-352-5051</a> · <a href="https://calendly.com/chrisabraham/30">Book a call</a> · <a href="https://www.upwork.com/freelancers/chrisjabraham">Hire me on Upwork</a> · <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a></p>
-  <p>© 2026 Christopher Abraham, Arlington, Virginia · <a href="../faq/">FAQ</a> · <a href="../privacy/">Privacy</a> · <a href="../sitemap/">Site map</a> · <a href="../guides/glossary/">Glossary</a> · <a href="../llms.txt">llms.txt</a> · <a href="../rss.xml">RSS</a></p>
+  <p>© 2026 Christopher Abraham, Arlington, Virginia · <a href="../../faq/">FAQ</a> · <a href="../../privacy/">Privacy</a> · <a href="../../sitemap/">Site map</a> · <a href="../../guides/glossary/">Glossary</a> · <a href="../../llms.txt">llms.txt</a> · <a href="../../rss.xml">RSS</a></p>
 </footer>
 </div>
 </body>

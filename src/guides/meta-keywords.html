@@ -1,0 +1,68 @@
+name: Meta Keywords
+title: Meta keywords in 2026: ignored, mostly harmless, and honest
+description: Google ignores the meta keywords tag and Bing has called stuffing it a spam signal. Why some sites still use it, and how to write one that does no harm at all.
+keywords: meta keywords tag, meta keywords SEO, keyword stuffing
+type: guide
+published: 2026-10-06
+updated: 2026-10-06
+---
+<h1>Meta keywords in 2026: ignored, mostly harmless, used honestly</h1>
+<p class="lead">The meta keywords tag is the oldest SEO tactic still floating around. In the late nineties it was how you told AltaVista what a page was about, and it was abused so thoroughly that every major engine stopped trusting it. It still appears on plenty of sites, including this one, so here's the straight story.</p>
+
+<h2>What it is</h2>
+<p>A line in a page's head that lists the page's topics:</p>
+<pre><code>&lt;meta name="keywords" content="technical SEO audit, traffic drop diagnosis"&gt;</code></pre>
+<p>Visitors never see it. Crawlers can read it.</p>
+
+<h2>What the search engines say</h2>
+<ul>
+  <li><strong>Google</strong> announced in 2009 that it doesn't use the keywords meta tag in web ranking at all, and nothing since suggests that changed.</li>
+  <li><strong>Bing</strong> has said publicly that it doesn't rely on the tag for ranking, and that a stuffed keywords tag can be read as a spam signal.</li>
+  <li><strong>Other systems</strong>, including some site search tools, internal search engines, and content classification tools, still read it.</li>
+</ul>
+<p>So the tag won't help you rank, and stuffing it can hurt. Used sparingly and honestly, it's neutral.</p>
+
+<h2>Why use it at all</h2>
+<p>There are a few modest reasons:</p>
+<ul>
+  <li><strong>Discipline.</strong> Writing three to six honest keyword phrases for a page forces you to decide what the page is actually about. If you can't, the page probably needs work.</li>
+  <li><strong>Structured data.</strong> The same phrases can feed the <code>keywords</code> and <code>about</code> properties in the page's schema, which describe the page's topics in a format machines do read.</li>
+  <li><strong>Internal tools.</strong> Site search, related-content widgets, and content audits can use the field.</li>
+  <li><strong>No cost.</strong> One line per page, generated from the same source as the rest of the head.</li>
+</ul>
+
+<h2>How to write one that does no harm</h2>
+<ol>
+  <li><strong>Two to six phrases.</strong> Enough to describe the page, not enough to look like stuffing.</li>
+  <li><strong>Phrases, not single words.</strong> "Core Web Vitals" says more than "speed."</li>
+  <li><strong>Only what the page covers.</strong> Every phrase should match something in the visible content.</li>
+  <li><strong>No repetition.</strong> Don't list the same term in five variations.</li>
+  <li><strong>No competitor or brand names you don't own.</strong> It's misleading and pointless.</li>
+  <li><strong>Different on every page.</strong> If two pages share all their keywords, one of them probably shouldn't exist.</li>
+</ol>
+
+<h2>A worked example</h2>
+<p>For a guide to reading Search Console's Page indexing report, a reasonable tag reads: "Page indexing report, Search Console indexing, crawled not indexed." Three phrases, each describing a real section of the page. An unreasonable one adds "SEO, Google, best SEO, SEO expert, rank higher, cheap SEO," none of which the page is about.</p>
+
+<h2>Where the tag came from</h2>
+<p>Meta tags arrived with early HTML as a way for authors to describe their own documents, and the first search engines leaned on them heavily, because analyzing full page text at scale was expensive. Within a few years, site owners were filling the tag with hundreds of terms, including popular searches that had nothing to do with their pages. The engines responded by discounting the tag, then ignoring it, and moved toward signals that are harder to fake, such as links and on-page text.</p>
+
+<h2>Other meta tags that do matter</h2>
+<ul>
+  <li><strong>Title.</strong> Technically not a meta tag, but the single most important line in the head. It names the page in search results and browser tabs.</li>
+  <li><strong>Meta description.</strong> Doesn't affect ranking directly, but often becomes the snippet under your result, which affects whether people click.</li>
+  <li><strong>Meta robots.</strong> Controls indexing and following with values such as noindex and nofollow.</li>
+  <li><strong>Viewport.</strong> Tells phones how to scale the page; without it, mobile layouts break.</li>
+  <li><strong>Open Graph and Twitter card tags.</strong> Control how a link looks when shared on social platforms and in messaging apps.</li>
+</ul>
+
+<h2>Should you remove it from an existing site?</h2>
+<p>Only if it's stuffed. A keywords tag with dozens of terms, or the same list on every page, is worth cleaning up, because it's the one version that might count against you. A short, honest tag can stay; removing it gains nothing.</p>
+
+<h2>Enforcing it on a site</h2>
+<p>On a site built with a generator, the simplest guardrail is a build check: fail the build if a page has fewer than two or more than six keywords, or repeats one. That's how this site does it, alongside checks on title and description length.</p>
+
+<h2>Where to put the effort instead</h2>
+<p>Everything the keywords tag once promised now comes from elsewhere: the title tag, the H1, the opening paragraph, descriptive headings, internal anchor text, and structured data. If you have an hour for SEO, spend fifty-nine minutes on those and one on the keywords tag.</p>
+
+<p>For the elements that do carry weight, see <a href="{root}services/on-page-seo/">on-page SEO</a>. Terms are defined in the <a href="{root}guides/glossary/">glossary</a>.</p>

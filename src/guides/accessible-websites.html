@@ -1,0 +1,54 @@
+name: Accessible Websites
+title: Website accessibility without overlays: a practical guide
+description: Build accessibility into a small business website instead of bolting on an overlay: contrast, headings, links, images, keyboard use, forms, and testing it.
+keywords: website accessibility, WCAG compliance, accessibility overlays, ADA website
+type: guide
+published: 2026-10-06
+updated: 2026-10-06
+---
+<h1>Website accessibility without overlays</h1>
+<p class="lead">An accessible website works for people who use screen readers, keyboards, magnification, captions, or simply older eyes. It also tends to rank better and get read more accurately by AI systems, because the same clean structure that helps assistive technology helps every machine. The good news: most of the work is basic, and none of it requires a plugin.</p>
+
+<h2>Skip the overlay widgets</h2>
+<p>Accessibility overlays are scripts that add a toolbar or claim to fix a site automatically. Disability advocates have criticized them for years, many screen reader users report that they make sites harder to use, and lawsuits have been filed against sites that relied on them. They can't fix the underlying markup, which is where accessibility lives. Fix the site itself instead.</p>
+
+<h2>The standard</h2>
+<p>The Web Content Accessibility Guidelines, WCAG, are the reference courts and regulators point to. Aim for WCAG 2.2 at level AA. Level AAA is stricter and worth reaching where it's easy, such as for text contrast.</p>
+
+<h2>The essentials</h2>
+<h3>Contrast</h3>
+<p>Normal text needs a contrast ratio of at least 4.5 to 1 against its background; large text, roughly 24 pixels or 19 pixels bold, needs 3 to 1. Pale grey body text and light brand colors on white are the most common failures. Check each color pair with a contrast checker. Pure black text on white is never wrong.</p>
+<h3>Headings</h3>
+<p>One H1 per page that says what the page is, then H2s and H3s in order, without skipping levels for visual effect. Screen reader users navigate by headings the way sighted readers skim.</p>
+<h3>Link text</h3>
+<p>Every link should make sense on its own. "Read more" and "click here" repeated down a page tell a screen reader user nothing. Write "read the migration case study" instead.</p>
+<h3>Images</h3>
+<p>Meaningful images need alt text that describes what matters about them. Decorative images get an empty alt attribute so they're skipped. Text should never live only inside an image.</p>
+<h3>Landmarks and skip links</h3>
+<p>Use the real HTML elements: header, nav, main, and footer. Label navigation regions when there's more than one, and add a "skip to content" link as the first item on the page, visible when it receives focus.</p>
+<h3>Keyboard use</h3>
+<p>Everything you can do with a mouse should work with the Tab, Enter, and arrow keys, in a sensible order, with a clearly visible focus outline. Never remove focus outlines without replacing them with something just as visible.</p>
+<h3>Forms</h3>
+<p>Every field needs a visible label tied to it, error messages should say what went wrong and how to fix it, and required fields should be marked in text, not by color alone.</p>
+<h3>Tables</h3>
+<p>Use tables only for data, with header cells marked as headers and given a scope, so screen readers announce which row and column each value belongs to.</p>
+<h3>Text size and zoom</h3>
+<p>Use a readable base size, around 17 to 18 pixels for body text, and make sure the page still works when zoomed to 200 percent without sideways scrolling.</p>
+<h3>Motion and media</h3>
+<p>Caption videos, provide transcripts for audio, and avoid autoplaying motion. Respect the reduced-motion setting where animation is used.</p>
+
+<h2>Test it yourself</h2>
+<ol>
+  <li><strong>Unplug the mouse.</strong> Tab through the home page and a form. Can you reach and use everything, and always see where you are?</li>
+  <li><strong>Zoom to 200 percent.</strong> Does everything still fit and work?</li>
+  <li><strong>Run an automated checker</strong> such as Lighthouse in Chrome or the WAVE browser extension. Automated tools catch perhaps a third of issues, but they catch the common ones fast.</li>
+  <li><strong>Listen to a page</strong> with the screen reader built into your computer or phone: VoiceOver on Apple devices, Narrator on Windows, TalkBack on Android.</li>
+</ol>
+
+<h2>Why it helps search too</h2>
+<p>Descriptive headings, meaningful link text, alt text, and semantic HTML are exactly what search engines and AI systems use to understand a page. Accessible markup is machine-readable markup. Fixing one improves the other.</p>
+
+<h2>Keep it from slipping</h2>
+<p>Accessibility decays as content is added: a new image without alt text, a color tweak, a "click here." Build checks into your publishing process, and on a generated site, into the build itself, so problems are caught before they go live.</p>
+
+<p>Related: <a href="{root}guides/core-web-vitals/">Core Web Vitals in plain English</a> and <a href="{root}services/on-page-seo/">on-page SEO</a>.</p>
