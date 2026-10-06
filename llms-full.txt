@@ -2003,27 +2003,35 @@ Updated: 2026-10-06
 
 # Privacy
 
-This site sets no cookies and runs no analytics, advertising, or tracking scripts. Every page is static HTML with its styles written inline.
+This site runs one script: Google Analytics 4, which tells me roughly how many people visit, which pages they read, and how they found the site. It runs no advertising, no remarketing, and no other tracking.
 
-## What the host records
+## Analytics, in detail
+- **Advertising features are off for everyone.** Ad storage, ad user data, and ad personalization are all switched off in the site's consent settings, so visits here are never used to target ads.
+- **Visitors in the European Economic Area, Switzerland, and the United Kingdom** get no analytics cookies at all. Google receives only cookieless, aggregate signals from those regions.
+- **Visitors elsewhere** get first-party Google Analytics cookies, named `_ga` and `_ga_` followed by an ID, that tell repeat visits apart from new ones. They hold a random identifier, not your name or email.
+- Google processes the data under its own privacy policy. I see aggregate reports: page views, rough location by country or city, device type, and referring sites, including AI assistants such as ChatGPT and Perplexity.
 
-The site is served by GitHub Pages. Like every web host, GitHub's servers see the address your browser connects from and the page it requests, and GitHub may keep those records for security and operations under its own privacy statement. I have no access to individual visitor records.
+To opt out on every site that uses Google Analytics, install Google's opt-out browser add-on, or block cookies for this site in your browser settings. Everything here works the same with analytics blocked.
 
-## Fonts, images, and third parties
+## What the host sees
 
-Every file on these pages comes from this site. There are no embedded videos, social widgets, web fonts loaded from other companies, or tracking pixels. Links to Upwork and other sites take you to those sites, where their own policies apply.
+GitHub Pages serves the site. GitHub's servers receive the connecting IP address and the requested page, as every web host does, and may retain those logs for security under GitHub's privacy statement. I can't see them.
 
-## When you email or call
+## Everything else on the page
 
-If you email, call, or text me, I receive your address or number and whatever you choose to send. I use it to reply and, if you hire me, to run the engagement. I don't sell it, share it for marketing, or add you to a mailing list. Client information, including logins and analytics data you grant me access to, is used only for the work and stays confidential. I remove my access when an engagement ends, or sooner if you ask.
+Pages, images, and styles all load from this domain. There are no embedded videos, social buttons, third-party fonts, or pixels. Outbound links, such as the one to Upwork, lead to sites with their own policies.
 
-## Search engines and AI systems
+## Messages and calls
 
-Search engines and AI crawlers are welcome to read and cite this site; the rules are in [robots.txt](https://christopherabraham.com/robots.txt). That applies to the public pages only. Nothing about visitors is shared with them.
+An email, call, or text gives me your address or number and whatever you write. I use it to answer you and, if you hire me, to do the work. It's never sold, shared for marketing, or added to a list. Logins and analytics access granted during an engagement serve that engagement only, and I give them up when it ends or whenever you ask.
+
+## Crawlers
+
+Search engines and AI crawlers may read and cite the public pages, as described in [robots.txt](https://christopherabraham.com/robots.txt). No visitor information goes to them.
 
 ## Questions
 
-For anything about privacy on this site, or to ask me to delete your correspondence with me, email [cja@well.com](mailto:cja@well.com).
+Write to [cja@well.com](mailto:cja@well.com) with any privacy question, or to have me delete your past emails with me.
 
 Updated October 6, 2026
 
@@ -2046,7 +2054,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Hire me](https://christopherabraham.com/hire-me/): How an SEO engagement runs: a scoped, paid audit first, then hourly or fixed price work through Upwork or direct, with every finding and decision in writing.
 - [Frequently asked questions](https://christopherabraham.com/faq/): Practical answers about an SEO engagement: what access is needed, how long audits take, time zones, Upwork contracts, invoicing, reports, and confidentiality.
 - [Contact Christopher Abraham](https://christopherabraham.com/contact/): Email Christopher Abraham at cja@well.com or call or text him with your site address and the problem. Hire him on Upwork or directly for a scoped audit.
-- [Privacy](https://christopherabraham.com/privacy/): christopherabraham.com sets no cookies and runs no analytics or advertising scripts. What GitHub Pages logs, what happens to your email, and how to ask.
+- [Privacy](https://christopherabraham.com/privacy/): How christopherabraham.com uses Google Analytics with consent mode, why visitors in Europe and the UK get no analytics cookies, and what happens to your email.
 
 ## Technical SEO
 - [Technical SEO audit](https://christopherabraham.com/services/seo-audit/): A technical SEO audit that answers one question with evidence: why traffic fell or stalled, the mechanism behind it, and which fixes should come first.
