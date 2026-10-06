@@ -66,7 +66,7 @@ SERVICE_GROUPS = [
                                            "services/seo-retainer/"]),
 ]
 # The island rule: this site stands alone. None of these may appear in any source or generated page.
-ISLAND = [r"(?i)gerris", r"(?i)chrisabraham\.com", r"(?i)gerriscorp", r"(?i)hillmole", r"(?i)hill mole", r"(?i)meritus"]
+ISLAND = [r"(?i)gerris", r"(?i)chrisabraham\.com", r"(?i)gerriscorp", r"(?i)hillmole", r"(?i)hill mole"]
 # The sibling site, built from the same kind of material. Pages here may not borrow its phrasing.
 SIBLING = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "gerris")
 MIN_WORDS = {"guide": 700, "service": 450, "case": 250, "page": 250}
@@ -263,6 +263,10 @@ PERSON = {
                   "sameAs": "https://en.wikipedia.org/wiki/George_Washington_University"},
                  {"@type": "CollegeOrUniversity", "name": "University of East Anglia",
                   "sameAs": "https://en.wikipedia.org/wiki/University_of_East_Anglia"}],
+    "affiliation": [{"@type": "Organization", "name": "Meritus Media", "url": "https://meritusmedia.com/",
+                     "description": "Digital PR and marketing agency"},
+                    {"@type": "Organization", "name": "Stainless Communications", "url": "https://stainlesscommunications.com/",
+                     "description": "Senior-led brand, PR, web, and growth firm"}],
     "award": ["Top Rated on Upwork"],
     "homeLocation": {"@id": SITE + "#place"}, "workLocation": {"@id": SITE + "#place"},
     "nationality": {"@type": "Country", "name": "United States"}, "knowsLanguage": "en",

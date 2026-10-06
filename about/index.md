@@ -22,7 +22,9 @@ My first online home was a text-based conferencing system, and I've kept an acco
 
 In the agency years I was the technology strategist at New Media Strategies, one of the first firms to treat a brand's online reputation as something to manage, and then a senior account supervisor on the interactive team at Edelman's public affairs practice in Washington. I co-founded Abraham Harrison, a digital marketing firm that ran search, content, and outreach programs from Washington, Portland, and Berlin. Later I was team lead for special projects at Reputation.com, working with high-profile individuals on search results that mattered to them.
 
-Today I work independently, mostly through Upwork, on the technical end of search: why a page isn't indexed, why a template hides content from the crawler, why a migration lost traffic, and how a business shows up when someone asks an AI assistant about it.
+I'm proud to work alongside two firms: as a digital strategist with [Meritus Media](https://meritusmedia.com/), a digital PR and marketing agency, where search, Google Business Profile, and reputation work sit beside the PR, and as a business partner at [Stainless Communications](https://stainlesscommunications.com/), a senior-led brand, PR, web, and growth firm.
+
+My independent practice runs mostly through Upwork and centers on the technical end of search: why a page isn't indexed, why a template hides content from the crawler, why a migration lost traffic, and how a business shows up when someone asks an AI assistant about it.
 
 ## What I'm known for
 - **Forensics.** I like the cases nobody else could explain. The answer is usually a mechanism: a script that never runs for Googlebot, a canonical pointing at the wrong page, a redirect chain that drops equity at every hop.
