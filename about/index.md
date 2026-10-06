@@ -4,7 +4,7 @@
 
 # About Christopher Abraham
 
-I'm an independent SEO consultant in Arlington, Virginia, across the Potomac from Washington, DC. I've lived in the DC area since 1988, and I take clients across the United States, Canada, the United Kingdom, Ireland, Australia, and New Zealand.
+I'm an independent SEO consultant in Arlington, Virginia, across the Potomac from Washington, DC. I've called the DC area home since college, and I take clients across the United States, Canada, the United Kingdom, Ireland, Australia, and New Zealand.
 
 ## The short version
 | Full name | Christopher James Abraham |
@@ -38,7 +38,7 @@ I've been a guest lecturer at Georgetown University's School of Continuing Studi
 
 ## Outside work
 
-I studied literature, French, and German, I captained my high school speech and debate team, and I write every day. That background shows in the work: findings argued like a brief, with the strongest evidence first and nothing claimed that the data won't support. I've attended Renaissance Weekend since 2001, rowed out of the Potomac Boat Club, and volunteered as a sous chef at Miriam's Kitchen in Washington.
+I studied literature, French, and German, I captained my high school speech and debate team, and I write every day. That background shows in the work: findings argued like a brief, with the strongest evidence first and nothing claimed that the data won't support. I'm a longtime Renaissance Weekend participant, have rowed out of the Potomac Boat Club, and volunteered as a sous chef at Miriam's Kitchen in Washington.
 
 ## Published as Chris Abraham
 
