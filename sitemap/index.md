@@ -1,6 +1,6 @@
 > Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.
 >
-> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-06 · By Christopher Abraham
+> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-07 · By Christopher Abraham
 
 # Site map
 
@@ -68,6 +68,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Health-testing store: recovering after the SEO plugin went dark](https://christopherabraham.com/case-studies/plugin-outage/): A WooCommerce store selling health tests lost indexing, traffic, and AI referrals when its SEO plugin was turned off. Diagnosis, fixes, and proof of recovery.
 - [Custom closet brand: separating the company from its first showroom](https://christopherabraham.com/case-studies/closet-locations/): A custom closet company with showrooms in several states ran one website, and search engines blurred the brand with its first showroom. Entity and schema fixes.
 - [Therapy practice: a suspended Business Profile restored](https://christopherabraham.com/case-studies/profile-reinstated/): A Canadian hypnotherapy office disappeared from Google Maps after a profile suspension. The listing was corrected, proof organized, and the profile restored.
+- [Private training gym: a brand name Google kept misreading](https://christopherabraham.com/case-studies/training-gym/): A members only training gym in Northern Virginia had a brand name Google read as an ordinary word. Fixing its profile and pages lifted calls and visits.
 - [AI research company: accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/): An AI research company hiring Bay Area engineers wanted ChatGPT and Perplexity to answer accurately about its jobs and pay. The audit findings and the plan.
 
 ## Files for machines
@@ -78,4 +79,4 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 6, 2026
+Updated October 7, 2026

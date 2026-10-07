@@ -1,6 +1,6 @@
 > Anonymized SEO case studies: hidden product content, consent tools blocking Google, React apps, migrations, programmatic indexing, schema, and local listings.
 >
-> Source: https://christopherabraham.com/case-studies/ · Updated 2026-10-06 · By Christopher Abraham
+> Source: https://christopherabraham.com/case-studies/ · Updated 2026-10-07 · By Christopher Abraham
 
 # Case studies
 
@@ -23,10 +23,11 @@ Each case explains the problem, my role, what I found, what was done and by whom
 ## Entities, local, and AI search
 - [Custom closet brand: the company versus its first showroom](https://christopherabraham.com/case-studies/closet-locations/). Entity modeling and location pages.
 - [Therapy practice: a suspended Business Profile reinstated](https://christopherabraham.com/case-studies/profile-reinstated/). An evidence-first appeal.
+- [Private training gym: a brand name that is also a verb](https://christopherabraham.com/case-studies/training-gym/). Calls from the profile went from 7 to 56 a month.
 - [AI research company: accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/). A GEO audit for recruiting.
 
 ## The common thread
 
 Almost every case comes down to the same gap: what a business believes its site says versus what crawlers and AI systems actually receive. Finding that gap, proving it, and closing it is the work. If one of these sounds familiar, [tell me about your site](https://christopherabraham.com/contact/).
 
-Updated October 6, 2026
+Updated October 7, 2026
