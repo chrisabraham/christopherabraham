@@ -25,7 +25,7 @@ I'm an independent SEO consultant in Arlington, Virginia, across the Potomac fro
 
 ## How I got here
 
-My first online home was a text-based conferencing system, and I've kept an account on The WELL, one of the oldest online communities, for decades. That's where my email address comes from. I built my first websites in 1994, hand-coding HTML for anyone who asked, and started optimizing them for search engines in 1998. I've worked with open-source content management systems since 1999: Movable Type, Plone, Drupal, WordPress, and plenty of platforms that no longer exist.
+My first online home was a text-based conferencing system, and I've kept an account on The WELL, one of the oldest online communities, for decades. That's where my email address comes from. I built my first websites in 1994, hand-coding HTML for anyone who asked. My search work began in the directory era, just before Google arrived in 1998, and only on my own projects: I submitted them aggressively to Yahoo, Ask Jeeves, and the other directories people browsed to find anything, and worked to get them talked about on Usenet, message boards, and forums. I didn't do SEO for anyone else until New Media Strategies hired me in 2002. I've worked with open-source content management systems since 1999: Movable Type, Plone, Drupal, WordPress, and plenty of platforms that no longer exist.
 
 Before the agencies, I started as the image center administrator at PNI, Picture Network International, part of SRA in Arlington, then became an associate at Rheingold Associates, the virtual community consultancy of Howard Rheingold, a Linux system administrator at Caucus Systems running professional online events, and a builder of websites for clients that included the Treasury Department.
 
