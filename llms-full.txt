@@ -764,7 +764,7 @@ Updated October 6, 2026
 ---
 
 Source: https://christopherabraham.com/guides/
-Updated: 2026-10-06
+Updated: 2026-10-07
 
 # SEO guides
 
@@ -773,6 +773,7 @@ These eighteen guides cover the questions clients ask me most, written so you ca
 ## Indexing and audits
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
 - [What a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/): how to tell a useful audit from a tool export, before and after you pay for one.
+- [How to hire an SEO on Upwork](https://christopherabraham.com/guides/hiring-an-seo/): five screening questions that expose real skill, the red flags, and a safer paid first step.
 
 ## AI search and structured data
 - [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/): crawler access, server-rendered content, entities, answer-shaped pages, llms.txt, and measurement.
@@ -781,6 +782,10 @@ These eighteen guides cover the questions clients ask me most, written so you ca
 ## Migrations and performance
 - [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/): inventories, one-to-one maps, chains, 410s, and bulk testing.
 - [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/): LCP, INP, and CLS, field versus lab data, and the fixes that usually work.
+
+## Local listings
+- [How to change a business name without losing your reviews](https://christopherabraham.com/guides/business-name-change/): edit the listing you have, let the sign go first, and connect the old name on the web.
+- [Holiday hours on Google Business Profile](https://christopherabraham.com/guides/holiday-hours/): special hours versus temporarily closed, a calendar for the season, and multiple locations.
 
 ## Your name, your entity, and AI answers
 - [How to correct what AI search says about you](https://christopherabraham.com/guides/correct-ai-answers/): trace each wrong fact to its source and publish corrections that stick.
@@ -809,7 +814,7 @@ New and updated guides appear in the [Atom feed](https://christopherabraham.com/
 
 If you've worked through a guide and the problem is still there, that's usually the point where a second set of eyes on the actual site helps. Every engagement begins with a scoped audit; see the [services](https://christopherabraham.com/services/) or [get in touch](https://christopherabraham.com/contact/).
 
-Updated October 6, 2026
+Updated October 7, 2026
 
 
 ---
@@ -2245,6 +2250,188 @@ If the Lynx view of an important page is thin, that's the starting point for [Ja
 
 ---
 
+Source: https://christopherabraham.com/guides/hiring-an-seo/
+Updated: 2026-10-07
+
+# How to hire an SEO on Upwork: the questions that reveal real skill
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 7, 2026
+
+Post an SEO job on Upwork and fifty proposals arrive within a day, most of them interchangeable. The screening questions you add to the posting are the fastest way to separate people who understand your problem from people who paste the same letter everywhere. I answer these questions for a living, so here is what I'd ask if I were on your side of the table.
+
+## Write the problem, not a wish list
+
+The best postings describe a situation: what changed, when, what you've already checked, and what a good outcome would look like. "Service page rankings fell after the March redesign" gives an expert something to reason about. "Need SEO expert for growth" attracts the people least likely to help. A specific posting also lets you judge the replies, because you'll know whether a candidate engaged with your facts or skipped them.
+
+## Five questions worth adding
+1. **"Based on this posting, what would you check first, and why?"** A strong answer names two or three concrete things in a sensible order and explains what each would rule in or out. A weak answer lists every SEO activity in existence.
+2. **"Describe one problem like this one: what was wrong, what you changed, and what happened."** You want a mechanism and a result, described honestly. Real practitioners can explain a past diagnosis without naming the client.
+3. **"What access would you need in the first week?"** Search Console, analytics, and some form of access to the site or its developer are normal. Someone who needs nothing is planning to guess.
+4. **"How would you know this worked?"** Listen for measures you can check yourself: indexed pages, impressions and clicks on the affected pages, calls or form leads. Be wary of measures only the consultant can see.
+5. **"What would you not do?"** This one is revealing. Experienced people have boundaries: no link packages, no guaranteed positions, no changes without a reason they can explain.
+
+## What good answers sound like
+
+Good answers are short and specific to your posting. They use your words, refer to your platform, and propose a first step small enough to test. They separate what is known from what needs checking. They read like a colleague thinking out loud about your site, not a brochure. If a candidate's answers would fit any other job on the platform, they weren't written for yours.
+
+## Red flags
+- **Guarantees.** Nobody controls Google's results, and Google's own hiring advice says so plainly. A promised position is a reason to keep looking.
+- **Link quotas.** "Fifty high authority backlinks a month" usually means purchased or manufactured links, the kind Google's spam policies describe.
+- **Answers that point elsewhere.** "See my cover letter" or "check my profile" in a screening box means the question wasn't read.
+- **Free audits as bait.** A long unsolicited audit in a proposal is either generic or unpaid work that will be recovered somewhere else. Insight is welcome; a fake deliverable isn't.
+- **No questions back.** Someone who understands your problem will want to know at least one thing you didn't say.
+
+## Read the profile like evidence
+
+Job Success Score, hours worked, and repeat clients tell you how a freelancer behaves over time, not how they write. Open the client reviews and look for specifics: what was fixed, how communication went, whether the client came back. One detailed review is worth more than ten five star ratings with no text.
+
+## Start with a small paid step
+
+For anything bigger than a quick fix, pay for a defined first step: a diagnosis of one problem, an audit with a prioritized list, or a fixed number of hours. You learn how the person works, they learn your site, and either side can stop cleanly. It also prices the work honestly, because a good diagnosis is real labor and you should own the result.
+
+## Fixed price or hourly
+
+Fixed price suits a well defined deliverable, such as an audit, a migration plan, or a set list of fixes. Hourly suits ongoing work where the next task depends on what the last one found. Either way, agree on what "done" means before work starts, and keep the scope written in the contract rather than scattered across messages.
+
+## Where I fit
+
+I'm a technical SEO consultant on Upwork, and I like postings that ask hard questions, because they're the ones where I can show my thinking. If your problem sounds like indexing, rendering, migrations, local listings, or AI search visibility, [tell me what happened](https://christopherabraham.com/contact/), or see how I work on [hiring me](https://christopherabraham.com/hire-me/).
+
+## Sources
+- [Google Search Central: Do you need an SEO?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo)
+- [Google Search Central: Spam policies for Google web search](https://developers.google.com/search/docs/essentials/spam-policies)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
+Source: https://christopherabraham.com/guides/business-name-change/
+Updated: 2026-10-07
+
+# How to change a business name without losing your Google reviews
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 7, 2026
+
+A new name feels like a fresh start, and that instinct is exactly what costs businesses their reviews and rankings. The safest rebrand treats the renamed business as the same business it has always been, because to Google it is. Here is the order I follow when a client renames a shop, a restaurant, a studio, or a practice.
+
+## Rule one: edit the listing you have
+
+Your reviews, photos, and history belong to your existing Business Profile, not to your name. If you create a new profile for the new name, you start from zero and leave a second, competing listing behind. Instead, change the name on the profile you already have. Google's help pages say to enter the name exactly as it appears on your real world signage, stationery, and branding, and they warn that changing a verified name may mean verifying again. Plan for that so it doesn't catch you mid launch.
+
+## Rule two: let the real world go first
+
+Google wants the name on the listing to match what customers see. That makes the sequence matter. The new sign, the receipts, the menu or price list, and the website header should carry the new name before or at the same moment the profile changes. If a reviewer at Google, or a customer standing on the sidewalk, sees the old name on the door and the new one online, you've created the kind of mismatch that slows edits down.
+
+## Rule three: don't decorate the name
+
+A rename is a tempting moment to add a keyword or a town to the listing name. Don't. The guidelines ask for the business's real name, and stuffed names are a common reason for suspensions. If the town or the specialty matters, it belongs in the categories, the description, and the website.
+
+## The website and the old name
+
+Search engines and AI assistants will keep meeting your old name for years, in reviews, articles, and directory listings you can't edit. Help them connect the dots.
+- Say it plainly on the About page: the business was formerly known as the old name, and when the change happened.
+- In your Organization or LocalBusiness structured data, set the new name as `name` and keep the old one as `alternateName`.
+- If the domain changes too, redirect every old page to its closest new equivalent with permanent 301 redirects, and keep them in place for the long term.
+- Update titles and headings, but don't erase the old name entirely from the site while people still search for it.
+
+## Everywhere else the name lives
+
+Make a list before you start: Apple Maps, Bing Places, Yelp, Tripadvisor or the directories of your industry, booking and delivery platforms, social profiles, and any chamber or association listings. Update the ones you control in the same week as the profile change. For the rest, note who owns them and request corrections. Consistency across these sources is part of how search engines decide that the renamed business is real and the same as before.
+
+## Keep the reviews talking
+
+Reviews stay attached to the profile through a rename, and new ones will mention the new name, which helps. Reply to a few recent reviews after the change; a short reply that uses the new name naturally reinforces the connection without sounding like an announcement.
+
+## Watch the first month
+
+For a few weeks, check that the profile shows the new name, that searches for the old name still find you, and that Search Console isn't reporting a wave of errors from old URLs. Branded searches are the early signal: if people searching either name reach you, the rename worked.
+
+## Tell your best customers yourself
+
+A rename lands better when regulars hear it from you before they notice it on a sign. A short email or a note at the counter, explaining what changed and what didn't, keeps them from wondering whether the business was sold. Those same customers are the ones most likely to leave a fresh review under the new name.
+
+## Common mistakes
+- Creating a new profile instead of editing the existing one.
+- Changing the listing weeks before the sign goes up.
+- Dropping the old domain without redirects.
+- Adding keywords to the new name.
+- Updating Google and forgetting the rest of the web.
+
+Renaming soon? I can plan the sequence and handle the listings and the website side. See [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/) or [tell me about the change](https://christopherabraham.com/contact/).
+
+## Sources
+- [Google Business Profile Help: Edit your Business Profile](https://support.google.com/business/answer/3039617)
+- [Google Business Profile Help: Guidelines for representing your business on Google](https://support.google.com/business/answer/3038177)
+- [Google Search Central: Redirects and Google Search](https://developers.google.com/search/docs/crawling-indexing/301-redirects)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
+Source: https://christopherabraham.com/guides/holiday-hours/
+Updated: 2026-10-07
+
+# Holiday hours on Google: set them before you need them
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 7, 2026
+
+Every November, someone drives to a shop that Google said was open and finds the lights off. That customer doesn't blame Google. Special hours on your Business Profile take a few minutes to set, and the best time to set them is weeks before the holidays, not the night before.
+
+## Special hours, regular hours, and closures
+
+Your regular hours describe a normal week. Special hours override them for specific dates, such as Thanksgiving, Christmas Eve, or a one day event, without touching the normal schedule. Google's help pages draw the line at about a week: special hours cover a business that adjusts its hours or closes for up to six days in a row. Closed for seven days or more, or for an unknown period, and the right tool is marking the business temporarily closed instead.
+
+## Confirm the holidays you're open, too
+
+Google suggests confirming your hours for official holidays even when they're the same as usual. It's easy to skip, and it matters: a confirmed holiday tells searchers you thought about that day, and anyone deciding between you and a competitor with the same hours will pick the one that looks certain.
+
+## A calendar for the season
+- **Early November:** decide your hours for Thanksgiving Day and the day after, and set them.
+- **Mid November:** set Christmas Eve, Christmas Day, New Year's Eve, and New Year's Day while you're thinking about it.
+- **Any extended or late night shopping hours:** set those as special hours on each date, so your regular schedule stays clean for January.
+- **The week before each holiday:** look at your listing in Google Search and Maps the way a customer would, and confirm it shows what you intended.
+
+## More than one location
+
+Each location has its own profile, so each needs its own special hours, even when the whole company closes on the same day. If you manage many locations, set them as a batch from the dashboard and then spot check a few in Maps. A location that was missed is the one a customer will find.
+
+## Departments and service hours
+
+If part of your business keeps different hours, like a pharmacy counter, takeout, or delivery, Google offers additional hour types for those. Use them for the parts that differ, rather than squeezing exceptions into the main hours.
+
+## Keep the website in step
+
+Your website should say the same thing as the profile. A short holiday hours note on the contact page, removed after New Year, avoids the mixed message of one schedule on Google and another on your own site. If your hours appear in structured data, update or remove the special dates there as well.
+
+## Snow days and other surprises
+
+Winter brings closures nobody can schedule: a storm, a burst pipe, a sick staff. The same tool works. Set special hours for that single date, or mark the day closed, as soon as you know, even if it's early that morning. A listing that says open while the door is locked costs more trust than a short notice ever will. If the closure stretches past six days, switch to temporarily closed and switch back the moment you reopen, because a business left marked closed by mistake quietly loses calls for weeks.
+
+## If you're reading this in December
+
+It isn't too late. Set the dates that are still ahead, check the listing in Maps, and add the note to your website. Then put a reminder in next year's calendar for the first week of November, which is the whole trick: decide early, set it once, and stop thinking about it.
+
+## Don't forget to come back
+
+Special hours expire on their own after the date passes, which is the main reason to use them instead of editing your regular hours. If you did change your regular hours for the season, put a reminder in your calendar for January to change them back.
+
+## What customers see
+
+On the day, Google shows your special hours in place of the regular ones. Searchers who check ahead see the right times, and the ones who call get a business that's actually open. It's the smallest piece of local SEO there is, and one of the few with an immediate, visible payoff.
+
+Running several locations, or not sure your listing shows what you think it does? See [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/), or [send me the listing](https://christopherabraham.com/contact/) and I'll take a look.
+
+## Sources
+- [Google Business Profile Help: How to set special hours](https://support.google.com/business/answer/6303076)
+- [Google Business Profile Help: Edit your Business Profile](https://support.google.com/business/answer/3039617)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
 Source: https://christopherabraham.com/guides/glossary/
 Updated: 2026-10-06
 
@@ -3344,6 +3531,9 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Website accessibility without overlays](https://christopherabraham.com/guides/accessible-websites/): Build accessibility into a small business website instead of bolting on an overlay: contrast, headings, links, images, keyboard use, forms, and testing it.
 - [Accessibility as SEO: the search, AI, and trust dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/): WCAG fixes pay off more than once: alt text, headings, link text, labels, and captions lift rankings, AI answers, agent browsing, and trust, and cut legal risk.
 - [The Lynx test: see your website the way crawlers and AI read it](https://christopherabraham.com/guides/lynx-test/): Lynx, a text browser, shows what search engines and AI crawlers that skip JavaScript receive. How to install it, what to check, and online alternatives.
+- [How to hire an SEO on Upwork: the questions that reveal real skill](https://christopherabraham.com/guides/hiring-an-seo/): How to vet an SEO consultant on Upwork: the screening questions that expose real skill, what good answers sound like, the red flags, and a safer first step.
+- [How to change a business name without losing your Google reviews](https://christopherabraham.com/guides/business-name-change/): How to rename a business without losing its Google Business Profile, reviews, or rankings: edit the existing listing, sequence the change, and update the web.
+- [Holiday hours on Google: set them before you need them](https://christopherabraham.com/guides/holiday-hours/): How and when to set special hours on Google for Thanksgiving, December, and New Year, when to mark a business temporarily closed, and what searchers see.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 
 ## Case studies

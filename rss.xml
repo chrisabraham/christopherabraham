@@ -5,7 +5,7 @@
   <link>https://christopherabraham.com/guides/</link>
   <description>Guides to indexing, audits, schema, redirects, site speed, and AI search</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 06 Oct 2026 12:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 12:00:00 +0000</lastBuildDate>
   <atom:link href="https://christopherabraham.com/rss.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>How to read the Page indexing report in Search Console</title>
@@ -132,6 +132,27 @@
     <guid isPermaLink="true">https://christopherabraham.com/guides/lynx-test/</guid>
     <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
     <description>Lynx, a text browser, shows what search engines and AI crawlers that skip JavaScript receive. How to install it, what to check, and online alternatives.</description>
+  </item>
+  <item>
+    <title>How to hire an SEO on Upwork: the questions that reveal real skill</title>
+    <link>https://christopherabraham.com/guides/hiring-an-seo/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/hiring-an-seo/</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+    <description>How to vet an SEO consultant on Upwork: the screening questions that expose real skill, what good answers sound like, the red flags, and a safer first step.</description>
+  </item>
+  <item>
+    <title>How to change a business name without losing your Google reviews</title>
+    <link>https://christopherabraham.com/guides/business-name-change/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/business-name-change/</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+    <description>How to rename a business without losing its Google Business Profile, reviews, or rankings: edit the existing listing, sequence the change, and update the web.</description>
+  </item>
+  <item>
+    <title>Holiday hours on Google: set them before you need them</title>
+    <link>https://christopherabraham.com/guides/holiday-hours/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/holiday-hours/</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+    <description>How and when to set special hours on Google for Thanksgiving, December, and New Year, when to mark a business temporarily closed, and what searchers see.</description>
   </item>
   <item>
     <title>Glossary of SEO and AI search terms</title>
