@@ -785,6 +785,7 @@ These eighteen guides cover the questions clients ask me most, written so you ca
 
 ## Local listings
 - [How to change a business name without losing your reviews](https://christopherabraham.com/guides/business-name-change/): edit the listing you have, let the sign go first, and connect the old name on the web.
+- [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/): gray cloud or orange, what the free plan already does, APO and Polish, the setup steps, and what to budget.
 - [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/): the day one settings, the plugins I recommend, archive pages, alt text, descriptive links, speed, and accessibility.
 - [Where to get reliable SEO and AI search news](https://christopherabraham.com/guides/seo-news-sources/): primary sources first, the daily trade press and who owns it, and three habits that keep you from repeating mistakes.
 - [Hit by a 2026 Google update?](https://christopherabraham.com/guides/update-recovery-2026/): line the drop up with the calendar, rule out reporting quirks, find the pages that lost, and fix them in order.
@@ -2606,13 +2607,7 @@ Many themes end every excerpt with a "Read more" or "Continue reading" link. On 
 
 ## Put Cloudflare in front of WordPress
 
-My strongest piece of advice after the plugins: move the domain's DNS to [Cloudflare](https://www.cloudflare.com/) and let it cache the site. If Cloudflare only handles your registration and DNS, with traffic passed through to your host, the free plan covers it. The real gains come when the site runs through Cloudflare's network, the orange cloud. Even on the free plan, Cloudflare then caches your images, scripts, and stylesheets near visitors, compresses them, and shields the site from attacks. Paid features build on that: Polish image optimization comes with Pro and above, and Automatic Platform Optimization for WordPress, which caches whole pages close to visitors, is included with Pro or costs $5 a month on the free plan. WordPress sites almost always benefit, so I recommend budgeting roughly $50 a month for those services, beginning with Pro. I pay for the Pro plan on my own main site. Both my own experience and every AI assistant I've put the question to land in the same place. And no, Cloudflare pays me nothing, which is a shame given how often I recommend it.
-- **Faster pages everywhere:** Cloudflare keeps copies of your images, scripts, and stylesheets in data centers around the world and serves them from the one nearest each visitor. The HTML pages themselves need APO or a cache rule to be cached too.
-- **HTTPS done right:** choose Full (strict) for SSL/TLS, switch on Always Use HTTPS, then turn on HSTS once every page loads securely.
-- **Bots on your terms:** review the bot and AI crawler settings rather than accepting the defaults. I welcome search engines and AI crawlers, since being cited by AI assistants is part of being found.
-- **Cheaper domains:** Cloudflare Registrar charges what the registry charges, with no markup, at registration and renewal.
-
-Pair it with a WordPress plugin that clears Cloudflare's cache when you update a post, so visitors never see a stale page. One caution: if your site lives on a hosted builder such as Shopify, Squarespace, or Wix, those platforms provide their own CDN and certificates. Keep any Cloudflare records there on DNS only, the gray cloud, and follow the builder's setup instructions.
+After the plugins, my strongest advice is to move the domain's DNS to [Cloudflare](https://www.cloudflare.com/) and route the site through it. Even the free plan speeds up WordPress, manages certificates, and fends off attacks, and the paid features are worth their price on most WordPress sites. My [guide to Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/) walks through the setup, the plan I'd choose, and the budget.
 
 ## Tell the search engines
 1. Verify the site in [Google Search Console](https://search.google.com/search-console/about) (Site Kit can do it for you) and submit the sitemap Yoast creates at `/sitemap_index.xml`.
@@ -2647,9 +2642,6 @@ Keep WordPress, your theme, and your plugins updated; hacked sites get spam page
 Inherited a WordPress site and not sure what's been done to it? [Send me the address](https://christopherabraham.com/contact/) and I'll tell you what I'd fix first, or see how I handle [WordPress SEO for clients](https://christopherabraham.com/services/wordpress-seo/).
 
 ## Sources
-- [Cloudflare Docs: Default cache behavior](https://developers.cloudflare.com/cache/concepts/default-cache-behavior/)
-- [Cloudflare: Automatic Platform Optimization for WordPress](https://www.cloudflare.com/automatic-platform-optimization/wordpress/)
-- [Cloudflare Docs: Polish](https://developers.cloudflare.com/images/polish/)
 - [Yoast: We are launching an IndexNow integration in Yoast SEO](https://yoast.com/why-an-indexnow-integration/)
 - [WordPress.org: Settings Reading screen](https://wordpress.org/documentation/article/settings-reading-screen/)
 - [WordPress.org: Settings Permalinks screen](https://wordpress.org/documentation/article/settings-permalinks-screen/)
@@ -2657,6 +2649,69 @@ Inherited a WordPress site and not sure what's been done to it? [Send me the add
 - [Make WordPress Core: New XML sitemaps functionality in WordPress 5.5](https://make.wordpress.org/core/2020/07/22/new-xml-sitemaps-functionality-in-wordpress-5-5/)
 - [Google Search Central: Link best practices](https://developers.google.com/search/docs/crawling-indexing/links-crawlable)
 - [WebAIM: Alternative text](https://webaim.org/techniques/alttext/)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
+Source: https://christopherabraham.com/guides/cloudflare-wordpress/
+Updated: 2026-10-09
+
+# Cloudflare for WordPress: setup, plans, and what to budget
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 9, 2026
+
+If I could make one change to most of the WordPress sites I'm asked to look at, it would be putting them behind Cloudflare. It makes them faster, safer, and cheaper to run, and the free plan alone covers a lot of ground. My own experience and every AI assistant I've put the question to agree. For the record, Cloudflare pays me nothing for saying so, which, given how often I say it, is a little sad.
+
+## Two ways to use Cloudflare
+
+Every DNS record in Cloudflare shows a cloud. A gray cloud means DNS only: Cloudflare tells browsers where your server is, then steps aside. An orange cloud means proxied: visitors reach Cloudflare's network first, and it serves what it can from the data center nearest them before passing the rest to your host. The speed and protection only apply to orange records.
+- **Gray, DNS only:** if Cloudflare just registers the domain and answers DNS, the free plan is all you need.
+- **Orange, proxied:** this is where WordPress gains the most, and where the paid features become worth considering.
+
+## What the free plan does once you're proxied
+- Caches your images, scripts, and stylesheets close to visitors. HTML pages aren't cached by default; that takes APO or a cache rule, below.
+- Compresses files on the way out.
+- Provides HTTPS certificates at no cost.
+- Absorbs denial of service attacks before they reach your host.
+- Tells Bing and other engines that support IndexNow when your content changes, through a free feature called Crawler Hints.
+
+## The paid features that matter for WordPress
+- **Automatic Platform Optimization (APO):** caches whole WordPress pages at Cloudflare's edge, so even the first byte arrives fast from anywhere. It works with the official Cloudflare WordPress plugin, comes included with the Pro plan and above, and costs $5 a month on the free plan.
+- **Polish:** compresses images and can convert them to WebP automatically. Available on Pro and above.
+
+Even though Cloudflare can cost nothing, when a WordPress site runs through it I recommend budgeting about $50 a month for Cloudflare's paid services, starting with Pro. WordPress almost always benefits. I pay for Pro on my own main site.
+
+## Setting it up
+1. **Add the site** in a free Cloudflare account. Cloudflare scans your existing DNS records; compare them against your current DNS provider line by line, especially mail records, before going further.
+2. **Change the nameservers** at your registrar to the two Cloudflare gives you. Or transfer the domain to Cloudflare Registrar, which charges the registry's wholesale price with no markup on renewals.
+3. **Turn the website records orange.** Leave mail records gray.
+4. **Set SSL/TLS to Full (strict)**, which requires a valid certificate on your host; most hosts provide one free. Flexible mode can trap WordPress in an endless redirect loop.
+5. **Switch on Always Use HTTPS,** then HSTS once every page loads securely.
+6. **Install the official Cloudflare WordPress plugin,** connect it, and turn on APO if you have it, so your cache clears automatically when you publish or edit.
+7. **Check the bot and AI crawler settings.** Make sure search engines and the AI crawlers you want, such as the ones behind ChatGPT search and Perplexity, aren't blocked. I let them in; being cited by AI assistants is part of being found.
+8. **Turn on Crawler Hints** under Caching.
+9. **Test** your home page and a post in PageSpeed Insights before and after.
+
+## What to leave alone
+- **Rocket Loader** rewrites how scripts load. It can speed up a simple site and break a complex one, including forms, analytics, and cookie banners. If anything acts strangely, turn it off first.
+- **Caching the admin.** Never cache `/wp-admin/`, the login page, carts, checkouts, or account pages. APO is built to skip logged-in visitors and the admin; any cache rule you write by hand has to exclude them too.
+- **Under Attack Mode** challenges every visitor, search engine crawlers included. Use it during an actual attack only.
+
+## When Cloudflare isn't the right layer
+
+If a site runs on a hosted builder such as Shopify, Squarespace, or Wix, the builder already provides a CDN and certificates. Cloudflare can still hold the domain and answer DNS, but keep those records gray and follow the builder's own connection instructions. Some managed WordPress hosts also bundle Cloudflare or their own CDN; ask before stacking two.
+
+For the rest of the WordPress basics, see [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), and for what the speed scores mean, my [Core Web Vitals guide](https://christopherabraham.com/guides/core-web-vitals/). Want Cloudflare set up on your site without the guesswork? [Tell me about it](https://christopherabraham.com/contact/).
+
+## Sources
+- [Cloudflare Docs: Default cache behavior](https://developers.cloudflare.com/cache/concepts/default-cache-behavior/)
+- [Cloudflare: Automatic Platform Optimization for WordPress](https://www.cloudflare.com/automatic-platform-optimization/wordpress/)
+- [Cloudflare Docs: Automatic Platform Optimization](https://developers.cloudflare.com/automatic-platform-optimization/)
+- [Cloudflare Docs: Polish](https://developers.cloudflare.com/images/polish/)
+- [Cloudflare Docs: Crawler Hints](https://developers.cloudflare.com/cache/advanced-configuration/crawler-hints/)
+- [Cloudflare Docs: Cloudflare Registrar](https://developers.cloudflare.com/registrar/)
 
 **[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
@@ -2684,14 +2739,23 @@ Words attached to an image in the markup that describe it for people using scree
 **Anchor text**
 The visible, clickable wording of a hyperlink. When it names the destination's topic, both readers and crawlers know what they'll find.
 
+**APO (Automatic Platform Optimization)**
+Cloudflare's WordPress feature that stores complete pages at the edge so even the first byte arrives quickly. Included with Cloudflare's Pro plan and above, or $5 a month on the free plan, per Cloudflare's pricing.
+
 **Bing Webmaster Tools**
 Microsoft's no-cost dashboard for owners, covering crawl, index, and keyword data from Bing, whose index also supplies Copilot and several other assistants.
 
 **Canonical tag**
 A line in a page's head nominating which address should represent a set of duplicate or close copies. Google weighs it heavily but may overrule it.
 
+**CDN (content delivery network)**
+A network of servers spread around the world that keeps copies of a site's files and hands them to each visitor from somewhere nearby.
+
 **CLS (Cumulative Layout Shift)**
 The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.
+
+**Core update**
+A broad change Google makes to how it ranks everything, several times a year. Pages can rise or fall without anything being wrong with them; Google lists each one on its Search Status Dashboard.
 
 **Core Web Vitals**
 Three experience scores Google tracks, LCP, INP, and CLS, taken from Chrome users over a rolling four weeks.
@@ -2701,6 +2765,9 @@ The practical ceiling on how much of a site a search engine will fetch in a give
 
 **Crawler**
 Software that requests pages on its own to read them, such as Googlebot, Bingbot, GPTBot, or ClaudeBot. People also say bot or spider.
+
+**E-E-A-T**
+Experience, expertise, authoritativeness, and trustworthiness: the qualities Google's quality raters look for in a page and its author, with trust counted as the most important.
 
 **Entity**
 A single real-world thing, whether a company, person, place, or product, that search engines and AI models recognize as one concept however a page happens to phrase its name.
@@ -2720,6 +2787,9 @@ The free Google listing that puts a business on Maps and in local results, carry
 **hreflang**
 Markup that pairs each language or country edition of a page with the audience that should see it.
 
+**HSTS**
+A security header telling browsers to reach a site only over HTTPS for a set period, so no visit ever falls back to an unencrypted connection.
+
 **Index**
 The store of pages a search engine considers eligible for results. Nothing ranks until it's in there.
 
@@ -2738,11 +2808,20 @@ The Core Web Vital that times how long the biggest image or text block in the op
 **llms.txt**
 A suggested standard: a Markdown summary kept at the top level of a domain, pointing language models to the pages most worth reading.
 
+**Meta description**
+The short summary written into a page's code that search engines often show beneath the title in results. It invites the click rather than setting the rank.
+
 **noindex**
 A directive, set in a meta tag or a response header, asking search engines to keep a page out of results.
 
+**Orange cloud**
+Cloudflare's icon for a proxied DNS record, meaning visitors pass through Cloudflare's network, with its caching and protection, on the way to the site. A gray cloud means DNS only.
+
 **Orphan page**
 A page nothing else on the site links to. Only a sitemap entry or an outside link can lead anyone to it.
+
+**Permalink**
+The permanent address of a single post or page. In WordPress, the Permalinks settings screen decides its pattern; the post name pattern produces readable addresses.
 
 **Redirect chain**
 Several redirects strung together before the visitor arrives. Every extra step costs time and can weaken the signals passed along.
@@ -2756,17 +2835,29 @@ Search listings dressed up with extra details drawn from structured data, like s
 **robots.txt**
 A plain text file at the top of a domain that tells bots which folders to stay out of. It governs fetching; keeping a page out of results takes noindex.
 
+**Scaled content abuse**
+Google's spam policy against publishing many pages mainly to manipulate rankings, whether people, AI, or both produce them. The main target of Google's 2026 spam updates.
+
 **Schema markup**
 Structured data written in the Schema.org vocabulary to spell out the people, organizations, places, and products on a page.
 
 **Search Console**
 Google's free owner dashboard: clicks and impressions, index status, Core Web Vitals, and alerts about problems it detects.
 
+**Site reputation abuse**
+Placing a third party's low-value pages on a trusted site to borrow its standing in search, such as coupon or gambling sections rented out under a respected domain. Against Google's spam policies.
+
 **Soft 404**
 A URL that answers with a success code yet shows an empty or not-found page. Google files it with the real 404s.
 
 **Server-side rendering (SSR)**
 Assembling the complete HTML on the server so a crawler gets every word in the first response, no scripts required.
+
+**Spam update**
+An improvement to the automated systems Google uses to detect pages that break its spam policies. Sites caught by one usually drop sharply and quickly.
+
+**Title tag**
+The headline written into a page's code that search engines usually show as the clickable link in results and browsers show on the tab.
 
 **301 redirect**
 A permanent forwarding instruction from an old address to a new one, which passes nearly all of the old page's ranking signals along.
@@ -3615,6 +3706,10 @@ I write and edit metadata, FAQs, page outlines, and service page copy as part of
 
 Yes. A [retainer](https://christopherabraham.com/services/seo-retainer/) covers monitoring, fixes, and reporting each month, billed at the start of the month.
 
+### Do you set up Cloudflare?
+
+Yes, and I recommend it for nearly every site: DNS, caching, and HTTPS through Cloudflare, with the right settings for search engines and AI crawlers. Even the free plan helps, and for WordPress I usually suggest budgeting about $50 a month for its paid features. See [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/).
+
 ### How do you handle confidential information?
 
 Client details stay private. Case studies on this site describe clients by industry and problem, never by name. I'm happy to sign a nondisclosure agreement, and I've worked under HIPAA terms on a healthcare site.
@@ -3768,6 +3863,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Hit by a 2026 Google update? A recovery checklist that works](https://christopherabraham.com/guides/update-recovery-2026/): How to tell whether a 2026 Google core or spam update hit your site, rule out reporting quirks, find the pages that lost, and fix them in the right order.
 - [Where to get reliable SEO and AI search news in 2026](https://christopherabraham.com/guides/seo-news-sources/): The SEO and AI search news sources I read, from Google's own records to daily trade press, who owns them, and how to tell a real finding from a vendor pitch.
 - [WordPress SEO 101: the settings and habits that matter most](https://christopherabraham.com/guides/wordpress-seo-101/): A beginner's WordPress SEO primer: the settings to change on day one, the plugins I recommend, alt text, descriptive links, speed, and accessibility.
+- [Cloudflare for WordPress: setup, plans, and what to budget](https://christopherabraham.com/guides/cloudflare-wordpress/): How to put a WordPress site behind Cloudflare: moving DNS, what the free plan already does, APO and Polish on paid plans, HTTPS settings, and a monthly budget.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 
 ## Case studies

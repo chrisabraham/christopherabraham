@@ -176,6 +176,13 @@
     <description>A beginner's WordPress SEO primer: the settings to change on day one, the plugins I recommend, alt text, descriptive links, speed, and accessibility.</description>
   </item>
   <item>
+    <title>Cloudflare for WordPress: setup, plans, and what to budget</title>
+    <link>https://christopherabraham.com/guides/cloudflare-wordpress/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/cloudflare-wordpress/</guid>
+    <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
+    <description>How to put a WordPress site behind Cloudflare: moving DNS, what the free plan already does, APO and Polish on paid plans, HTTPS settings, and a monthly budget.</description>
+  </item>
+  <item>
     <title>Glossary of SEO and AI search terms</title>
     <link>https://christopherabraham.com/guides/glossary/</link>
     <guid isPermaLink="true">https://christopherabraham.com/guides/glossary/</guid>

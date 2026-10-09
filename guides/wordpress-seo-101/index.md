@@ -42,13 +42,7 @@ Many themes end every excerpt with a "Read more" or "Continue reading" link. On 
 
 ## Put Cloudflare in front of WordPress
 
-My strongest piece of advice after the plugins: move the domain's DNS to [Cloudflare](https://www.cloudflare.com/) and let it cache the site. If Cloudflare only handles your registration and DNS, with traffic passed through to your host, the free plan covers it. The real gains come when the site runs through Cloudflare's network, the orange cloud. Even on the free plan, Cloudflare then caches your images, scripts, and stylesheets near visitors, compresses them, and shields the site from attacks. Paid features build on that: Polish image optimization comes with Pro and above, and Automatic Platform Optimization for WordPress, which caches whole pages close to visitors, is included with Pro or costs $5 a month on the free plan. WordPress sites almost always benefit, so I recommend budgeting roughly $50 a month for those services, beginning with Pro. I pay for the Pro plan on my own main site. Both my own experience and every AI assistant I've put the question to land in the same place. And no, Cloudflare pays me nothing, which is a shame given how often I recommend it.
-- **Faster pages everywhere:** Cloudflare keeps copies of your images, scripts, and stylesheets in data centers around the world and serves them from the one nearest each visitor. The HTML pages themselves need APO or a cache rule to be cached too.
-- **HTTPS done right:** choose Full (strict) for SSL/TLS, switch on Always Use HTTPS, then turn on HSTS once every page loads securely.
-- **Bots on your terms:** review the bot and AI crawler settings rather than accepting the defaults. I welcome search engines and AI crawlers, since being cited by AI assistants is part of being found.
-- **Cheaper domains:** Cloudflare Registrar charges what the registry charges, with no markup, at registration and renewal.
-
-Pair it with a WordPress plugin that clears Cloudflare's cache when you update a post, so visitors never see a stale page. One caution: if your site lives on a hosted builder such as Shopify, Squarespace, or Wix, those platforms provide their own CDN and certificates. Keep any Cloudflare records there on DNS only, the gray cloud, and follow the builder's setup instructions.
+After the plugins, my strongest advice is to move the domain's DNS to [Cloudflare](https://www.cloudflare.com/) and route the site through it. Even the free plan speeds up WordPress, manages certificates, and fends off attacks, and the paid features are worth their price on most WordPress sites. My [guide to Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/) walks through the setup, the plan I'd choose, and the budget.
 
 ## Tell the search engines
 1. Verify the site in [Google Search Console](https://search.google.com/search-console/about) (Site Kit can do it for you) and submit the sitemap Yoast creates at `/sitemap_index.xml`.
@@ -83,9 +77,6 @@ Keep WordPress, your theme, and your plugins updated; hacked sites get spam page
 Inherited a WordPress site and not sure what's been done to it? [Send me the address](https://christopherabraham.com/contact/) and I'll tell you what I'd fix first, or see how I handle [WordPress SEO for clients](https://christopherabraham.com/services/wordpress-seo/).
 
 ## Sources
-- [Cloudflare Docs: Default cache behavior](https://developers.cloudflare.com/cache/concepts/default-cache-behavior/)
-- [Cloudflare: Automatic Platform Optimization for WordPress](https://www.cloudflare.com/automatic-platform-optimization/wordpress/)
-- [Cloudflare Docs: Polish](https://developers.cloudflare.com/images/polish/)
 - [Yoast: We are launching an IndexNow integration in Yoast SEO](https://yoast.com/why-an-indexnow-integration/)
 - [WordPress.org: Settings Reading screen](https://wordpress.org/documentation/article/settings-reading-screen/)
 - [WordPress.org: Settings Permalinks screen](https://wordpress.org/documentation/article/settings-permalinks-screen/)
