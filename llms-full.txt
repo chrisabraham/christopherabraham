@@ -2604,6 +2604,22 @@ Every image block and every media library item has an "Alternative text" field. 
 
 Many themes end every excerpt with a "Read more" or "Continue reading" link. On a blog page with twenty posts that's twenty identical links, each one telling crawlers and screen reader users nothing about where it goes. Link the post title instead, or change the theme's excerpt link to include the post's name. In your own writing, put links on words that describe the destination: "my [guide to accessible websites](https://christopherabraham.com/guides/accessible-websites/)," never "click here." Link new posts to your older related posts, and older posts forward to new ones; this is the internal linking that helps both readers and crawlers find your best pages.
 
+## Put Cloudflare in front of WordPress
+
+My strongest piece of advice after the plugins: move the domain's DNS to [Cloudflare](https://www.cloudflare.com/) and let it cache the site. The free plan is plenty for most small businesses; I pay for the Pro plan on my own main site. Both my own experience and every AI assistant I've put the question to land in the same place. And no, Cloudflare pays me nothing, which is a shame given how often I recommend it.
+- **Faster pages everywhere:** Cloudflare keeps copies of your pages, images, and scripts in data centers around the world and serves them from the one nearest each visitor.
+- **HTTPS done right:** choose Full (strict) for SSL/TLS, switch on Always Use HTTPS, then turn on HSTS once every page loads securely.
+- **Bots on your terms:** review the bot and AI crawler settings rather than accepting the defaults. I welcome search engines and AI crawlers, since being cited by AI assistants is part of being found.
+- **Cheaper domains:** Cloudflare Registrar charges what the registry charges, with no markup, at registration and renewal.
+
+Pair it with a WordPress plugin that clears Cloudflare's cache when you update a post, so visitors never see a stale page. One caution: if your site lives on a hosted builder such as Shopify, Squarespace, or Wix, those platforms provide their own CDN and certificates. Keep any Cloudflare records there on DNS only, the gray cloud, and follow the builder's setup instructions.
+
+## Tell the search engines
+1. Verify the site in [Google Search Console](https://search.google.com/search-console/about) (Site Kit can do it for you) and submit the sitemap Yoast creates at `/sitemap_index.xml`.
+2. In [Bing Webmaster Tools](https://www.bing.com/webmasters/), use the import from Google Search Console option. It copies every verified site and sitemap across in a few clicks.
+3. Make sure IndexNow is on. Yoast SEO Premium includes it and pings Bing and the other participating engines every time you publish or update a post.
+4. Check both consoles every few weeks for sitemap errors and pages that aren't indexed.
+
 ## Speed
 - **Hosting matters most.** A good managed WordPress host beats any plugin on cheap shared hosting.
 - **Use fewer plugins.** Each one can add scripts to every page. Remove what you don't use.
@@ -2631,6 +2647,7 @@ Keep WordPress, your theme, and your plugins updated; hacked sites get spam page
 Inherited a WordPress site and not sure what's been done to it? [Send me the address](https://christopherabraham.com/contact/) and I'll tell you what I'd fix first, or see how I handle [WordPress SEO for clients](https://christopherabraham.com/services/wordpress-seo/).
 
 ## Sources
+- [Yoast: We are launching an IndexNow integration in Yoast SEO](https://yoast.com/why-an-indexnow-integration/)
 - [WordPress.org: Settings Reading screen](https://wordpress.org/documentation/article/settings-reading-screen/)
 - [WordPress.org: Settings Permalinks screen](https://wordpress.org/documentation/article/settings-permalinks-screen/)
 - [Make WordPress Core: Changes to attachment pages](https://make.wordpress.org/core/2023/10/16/changes-to-attachment-pages/)
