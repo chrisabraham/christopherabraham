@@ -46,6 +46,10 @@ I write and edit metadata, FAQs, page outlines, and service page copy as part of
 
 Yes. A [retainer](https://christopherabraham.com/services/seo-retainer/) covers monitoring, fixes, and reporting each month, billed at the start of the month.
 
+### Do you set up Cloudflare?
+
+Yes, and I recommend it for nearly every site: DNS, caching, and HTTPS through Cloudflare, with the right settings for search engines and AI crawlers. Even the free plan helps, and for WordPress I usually suggest budgeting about $50 a month for its paid features. See [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/).
+
 ### How do you handle confidential information?
 
 Client details stay private. Case studies on this site describe clients by industry and problem, never by name. I'm happy to sign a nondisclosure agreement, and I've worked under HIPAA terms on a healthcare site.
