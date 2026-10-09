@@ -21,6 +21,7 @@ These eighteen guides cover the questions clients ask me most, written so you ca
 
 ## Local listings
 - [How to change a business name without losing your reviews](https://christopherabraham.com/guides/business-name-change/): edit the listing you have, let the sign go first, and connect the old name on the web.
+- [Hit by a 2026 Google update?](https://christopherabraham.com/guides/update-recovery-2026/): line the drop up with the calendar, rule out reporting quirks, find the pages that lost, and fix them in order.
 - [Holiday hours on Google Business Profile](https://christopherabraham.com/guides/holiday-hours/): special hours versus temporarily closed, a calendar for the season, and multiple locations.
 
 ## Your name, your entity, and AI answers
