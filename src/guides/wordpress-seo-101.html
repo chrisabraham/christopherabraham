@@ -1,0 +1,72 @@
+name: WordPress SEO 101
+title: WordPress SEO 101: the settings and habits that matter most
+description: A beginner's WordPress SEO primer: the settings to change on day one, the plugins I recommend, alt text, descriptive links, speed, and accessibility.
+type: guide
+published: 2026-10-09
+keywords: WordPress SEO, Yoast SEO Premium, WPCode schema, Site Kit by Google
+sources: WordPress.org: Settings Reading screen | https://wordpress.org/documentation/article/settings-reading-screen/ ;; WordPress.org: Settings Permalinks screen | https://wordpress.org/documentation/article/settings-permalinks-screen/ ;; Make WordPress Core: Changes to attachment pages | https://make.wordpress.org/core/2023/10/16/changes-to-attachment-pages/ ;; Make WordPress Core: New XML sitemaps functionality in WordPress 5.5 | https://make.wordpress.org/core/2020/07/22/new-xml-sitemaps-functionality-in-wordpress-5-5/ ;; Google Search Central: Link best practices | https://developers.google.com/search/docs/crawling-indexing/links-crawlable ;; WebAIM: Alternative text | https://webaim.org/techniques/alttext/
+updated: 2026-10-09
+---
+<h1>WordPress SEO 101: the settings and habits that matter most</h1>
+<p class="lead">WordPress runs a huge share of the web, and it is a genuinely good platform for search right out of the box. Most WordPress SEO problems I'm hired to fix come from a handful of settings nobody changed, a few plugins that fight each other, and habits like linking the words "read more" a thousand times. Here is what a beginner should do, in order, on a new site or an old one.</p>
+
+<h2>Day one: five settings to check</h2>
+<ol>
+  <li><strong>Settings, then Reading:</strong> find "Discourage search engines from indexing this site" and make sure it is unchecked. Developers tick it while building and forget it at launch more often than you'd believe. One checkbox can keep an entire business out of Google.</li>
+  <li><strong>Settings, then Permalinks:</strong> choose "Post name," so addresses read <code>/kitchen-remodeling/</code> instead of <code>/?p=123</code>. On an established site, change this only with redirects in place.</li>
+  <li><strong>Settings, then General:</strong> set a real Site Title and a tagline that says what you do. Many themes print them on every page.</li>
+  <li><strong>HTTPS:</strong> both addresses in General settings should start with <code>https://</code>. Your host can install a free certificate.</li>
+  <li><strong>Users:</strong> give every author a real display name and a short bio. Pages signed by an actual person are easier to trust.</li>
+</ol>
+
+<h2>The plugins I recommend</h2>
+<p>These are my personal picks after years of building and fixing WordPress sites. Install one SEO plugin only; two will fight over your titles and sitemaps.</p>
+<ul>
+  <li><strong><a href="https://yoast.com/wordpress/plugins/seo/">Yoast SEO Premium</a>.</strong> The free version handles titles, meta descriptions, XML sitemaps, schema, and archive settings well. Premium adds a redirect manager, so changed or deleted pages never strand a visitor, and internal linking suggestions that help you connect related posts as you write. It pays for itself the first time you rename a page.</li>
+  <li><strong><a href="https://wpcode.com/">WPCode</a>, and WPCode Pro for schema.</strong> The safe way to add snippets: a verification tag, a tracking code, a small PHP tweak. It keeps them in one place, survives theme changes, and spares you from editing <code>functions.php</code>, where one typo can take the site down. I use the paid Pro version for structured data: it lets me add bespoke schema to any individual page or post, so a service page, an event, or a case study can each carry markup written for exactly what that page says. Keep it consistent with what Yoast already outputs, and test every page in Google's <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
+  <li><strong><a href="https://sitekit.withgoogle.com/">Site Kit by Google</a>.</strong> Google's own plugin connects Search Console, Analytics, and PageSpeed Insights to your dashboard and verifies site ownership for you. It hardwires your site into Google's tools in a few clicks, and puts the numbers where you'll actually see them.</li>
+</ul>
+
+<h2>Archive pages: keep the duplicates out of search</h2>
+<p>WordPress automatically makes extra pages that list your posts by tag, category, date, and author. On most small sites those pages repeat content that already lives on the posts themselves. In Yoast's settings I set tag archives, date archives, and author archives on single-author sites to stay out of search results, and leave categories indexed only when each one has a real introduction of its own. Media attachment pages, which give every uploaded image its own thin page, have been off by default for new sites since WordPress 6.4; on older sites, Yoast can redirect them to the image itself.</p>
+
+<h2>Writing a post that ranks</h2>
+<ul>
+  <li><strong>The post title is your H1.</strong> Use Heading 2 and Heading 3 blocks for sections, in order. Never pick a heading level for its size.</li>
+  <li><strong>Fill in the SEO title and meta description</strong> in the Yoast box under every post: a unique title around 50 to 60 characters and a description around 150.</li>
+  <li><strong>Edit the slug</strong> to a short, readable phrase before you publish.</li>
+  <li><strong>Answer the question early,</strong> in plain words, and add what only you know: prices, photos of your work, your process, your results.</li>
+</ul>
+
+<h2>Alt text in the media library</h2>
+<p>Every image block and every media library item has an "Alternative text" field. Describe what the image shows in a short sentence, including any words visible in it. Leave out "image of," because screen readers already say that. Leave the field empty only for purely decorative images, so screen readers skip them. Fill it in once in the media library and WordPress reuses it wherever you insert that image.</p>
+
+<h2>Kill "read more" for good</h2>
+<p>Many themes end every excerpt with a "Read more" or "Continue reading" link. On a blog page with twenty posts that's twenty identical links, each one telling crawlers and screen reader users nothing about where it goes. Link the post title instead, or change the theme's excerpt link to include the post's name. In your own writing, put links on words that describe the destination: "my <a href="{root}guides/accessible-websites/">guide to accessible websites</a>," never "click here." Link new posts to your older related posts, and older posts forward to new ones; this is the internal linking that helps both readers and crawlers find your best pages.</p>
+
+<h2>Speed</h2>
+<ul>
+  <li><strong>Hosting matters most.</strong> A good managed WordPress host beats any plugin on cheap shared hosting.</li>
+  <li><strong>Use fewer plugins.</strong> Each one can add scripts to every page. Remove what you don't use.</li>
+  <li><strong>Upload sensible images.</strong> WordPress already creates smaller sizes and lazy loads images below the fold, but a 6 MB photo straight from a phone still slows the first view. Resize before uploading, or use an image optimization plugin.</li>
+  <li><strong>Add caching</strong> if your host doesn't provide it, and test in PageSpeed Insights. My <a href="{root}guides/core-web-vitals/">Core Web Vitals guide</a> covers what the scores mean.</li>
+</ul>
+
+<h2>Accessibility</h2>
+<p>Choose a theme tagged "accessibility ready" in the WordPress theme directory; those themes have passed a review for keyboard navigation, contrast, and structure. Then keep your content accessible with real headings, alt text, descriptive links, and captions on video. Accessibility and SEO reward the same work; see <a href="{root}guides/accessibility-seo-dividends/">the SEO dividends of accessibility</a>.</p>
+
+<h2>Updates and spam</h2>
+<p>Keep WordPress, your theme, and your plugins updated; hacked sites get spam pages injected and drop out of search fast. Turn off comments if you don't moderate them. And treat any offer of cheap backlinks, guaranteed rankings, or "AI content at scale" as the spam it is.</p>
+
+<h2>Further reading</h2>
+<ul>
+  <li><a href="https://wordpress.org/documentation/article/settings-reading-screen/">WordPress: the Reading settings screen</a> and <a href="https://wordpress.org/documentation/article/settings-permalinks-screen/">the Permalinks screen</a></li>
+  <li><a href="https://make.wordpress.org/core/2020/07/22/new-xml-sitemaps-functionality-in-wordpress-5-5/">WordPress's built-in XML sitemaps</a> and <a href="https://make.wordpress.org/core/2023/10/16/changes-to-attachment-pages/">the attachment page change in 6.4</a></li>
+  <li><a href="https://developer.wordpress.org/advanced-administration/performance/optimization/">WordPress performance optimization</a></li>
+  <li><a href="https://wordpress.org/themes/tags/accessibility-ready/">Accessibility ready themes</a> and the <a href="https://make.wordpress.org/accessibility/handbook/">WordPress accessibility handbook</a></li>
+  <li><a href="https://yoast.com/help/">Yoast help center</a>, <a href="https://wordpress.org/plugins/insert-headers-and-footers/">WPCode on WordPress.org</a>, and <a href="https://wordpress.org/plugins/google-site-kit/">Site Kit on WordPress.org</a></li>
+  <li><a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide">Google's SEO Starter Guide</a> and <a href="https://developers.google.com/search/docs/crawling-indexing/links-crawlable">Google's link best practices</a></li>
+  <li><a href="https://developers.google.com/search/docs/appearance/google-images">Google's image SEO best practices</a> and <a href="https://webaim.org/techniques/alttext/">WebAIM on alt text</a></li>
+  <li><a href="https://search.google.com/search-console/about">Google Search Console</a> and <a href="https://pagespeed.web.dev/">PageSpeed Insights</a></li>
+</ul>
+<p>Inherited a WordPress site and not sure what's been done to it? <a href="{root}contact/">Send me the address</a> and I'll tell you what I'd fix first, or see how I handle <a href="{root}services/wordpress-seo/">WordPress SEO for clients</a>.</p>
