@@ -1,0 +1,51 @@
+name: Update Recovery 2026
+title: Hit by a 2026 Google update? A recovery checklist that works
+description: How to tell whether a 2026 Google core or spam update hit your site, rule out reporting quirks, find the pages that lost, and fix them in the right order.
+type: guide
+published: 2026-10-09
+keywords: Google core update recovery, spam update, traffic drop 2026, scaled content abuse
+sources: Google Search Status Dashboard: Ranking incident history | https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history ;; Google Search Central: Google Search's core updates | https://developers.google.com/search/updates/core-updates ;; Google Search Central: Spam policies for Google web search | https://developers.google.com/search/docs/essentials/spam-policies ;; Search Console Help: Manual actions report | https://support.google.com/webmasters/answer/9044175
+updated: 2026-10-09
+---
+<h1>Hit by a 2026 Google update? A recovery checklist that works</h1>
+<p class="lead">Google confirmed two core updates and four spam updates between March and October 2026. When traffic falls in a year like that, the first instinct is to change everything at once. Resist it. Recovery starts with knowing which update, if any, actually touched you, and which pages took the loss. Here is the order I work in when a client calls with a graph that points down.</p>
+
+<h2>1. Line the drop up with the calendar</h2>
+<p>Open Google's Search Status Dashboard and note this year's ranking updates: a spam update on March 24, the March core update from March 27, the May core update from May 21, and spam updates starting June 24, August 18, and September 24. Then open Search Console, set the date range to sixteen months, and compare. A drop that begins within a few days of a rollout's start is a strong lead. A drop that began weeks before one, or on the day a redesign launched, points somewhere else.</p>
+
+<h2>2. Rule out the reporting quirks</h2>
+<ul>
+  <li><strong>The num=100 change.</strong> In September 2025 Google stopped serving a hundred results per page to rank trackers, and desktop impressions in Search Console fell for most sites while average position rose. If your comparison spans that month and clicks held steady, nothing happened to real visitors.</li>
+  <li><strong>Seasonality.</strong> Compare against the same weeks last year before blaming an algorithm.</li>
+  <li><strong>Tracking breaks.</strong> If analytics fell but Search Console clicks didn't, a broken tag or consent banner is the suspect.</li>
+</ul>
+
+<h2>3. Decide which kind of update it was</h2>
+<p>The two kinds behave differently. A core update re-ranks pages against each other; losses tend to spread across many queries and pages, often by moderate amounts. A spam update applies detection systems for policy violations; losses are usually steep, fast, and concentrated in the sections that triggered them. Also check Search Console's Manual actions report. Algorithmic hits stay off that report, so an empty report plus a cliff on a spam update date tells you an automated system made the call.</p>
+
+<h2>4. Find the pages that lost</h2>
+<p>In the Performance report, compare the two weeks after the update with the two weeks before, by page. Sort by lost clicks. Usually a minority of pages accounts for most of the loss, and they share something: the same template, the same author, the same type of content, or the same section of the site. That shared trait is the real finding.</p>
+
+<h2>5. Match the losers against the spam policies</h2>
+<p>Read Google's spam policies with that list of pages open. The ones that matter most this year:</p>
+<ul>
+  <li><strong>Scaled content abuse:</strong> lots of pages made mainly to rank, by AI, by people, or both. Programmatic city pages, mass "best of" lists, and unreviewed AI articles are the usual suspects.</li>
+  <li><strong>Site reputation abuse:</strong> third-party content hosted in your subfolder or subdomain to borrow your site's standing.</li>
+  <li><strong>Expired domain abuse:</strong> an old domain repurposed for unrelated, low-value content.</li>
+  <li><strong>Manipulating AI answers:</strong> since May, hidden text or instructions aimed at AI Overviews and AI Mode count as spam too.</li>
+</ul>
+<p>If any of these describe the losing pages, remove or rewrite them before anything else. A policy problem outweighs every improvement elsewhere.</p>
+
+<h2>6. Fix in order of value</h2>
+<ol>
+  <li><strong>Delete or consolidate</strong> thin and duplicate pages, redirecting any with links or traffic to the closest strong page.</li>
+  <li><strong>Rewrite the pages worth keeping</strong> with what only you can add: real examples, photos, numbers, procedures you follow, and the name of the person who knows the subject.</li>
+  <li><strong>Check access</strong> for every crawler you care about, Googlebot, Bingbot, and the AI search crawlers, at the robots.txt, CDN, and firewall levels.</li>
+  <li><strong>Make structured data honest:</strong> every claim in the markup should be visible on the page.</li>
+</ol>
+
+<h2>7. Set the right expectations</h2>
+<p>Google describes core updates as broad changes that don't target specific sites, and says it can take several months for its systems to confirm that improved content is helpful; if nothing moves after a few months, the next core update is the one to watch. Spam systems reassess too, after the problems are gone. Keep a dated change log so each later movement can be tied to a specific fix. Avoid the panic moves: buying links, mass-deleting pages that performed well, or rewriting the whole site in a week.</p>
+
+<h2>What I'd watch next</h2>
+<p>Expect another core update before the year ends, and more enforcement against manipulation of AI answers. Sites built on original work have done well through all of 2026; sites built on volume have struggled. For the AI side of visibility, see <a href="{root}guides/ai-search-checklist/">my AI search checklist</a>, or <a href="{root}contact/">send me the domain and the date your traffic changed</a>.</p>

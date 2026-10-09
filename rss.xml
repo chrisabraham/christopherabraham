@@ -5,7 +5,7 @@
   <link>https://christopherabraham.com/guides/</link>
   <description>Guides to indexing, audits, schema, redirects, site speed, and AI search</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 07 Oct 2026 12:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 12:00:00 +0000</lastBuildDate>
   <atom:link href="https://christopherabraham.com/rss.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>How to read the Page indexing report in Search Console</title>
@@ -153,6 +153,13 @@
     <guid isPermaLink="true">https://christopherabraham.com/guides/holiday-hours/</guid>
     <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
     <description>How and when to set special hours on Google for Thanksgiving, December, and New Year, when to mark a business temporarily closed, and what searchers see.</description>
+  </item>
+  <item>
+    <title>Hit by a 2026 Google update? A recovery checklist that works</title>
+    <link>https://christopherabraham.com/guides/update-recovery-2026/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/update-recovery-2026/</guid>
+    <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
+    <description>How to tell whether a 2026 Google core or spam update hit your site, rule out reporting quirks, find the pages that lost, and fix them in the right order.</description>
   </item>
   <item>
     <title>Glossary of SEO and AI search terms</title>
