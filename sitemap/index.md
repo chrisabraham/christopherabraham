@@ -59,6 +59,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [How to change a business name without losing your Google reviews](https://christopherabraham.com/guides/business-name-change/): How to rename a business without losing its Google Business Profile, reviews, or rankings: edit the existing listing, sequence the change, and update the web.
 - [Holiday hours on Google: set them before you need them](https://christopherabraham.com/guides/holiday-hours/): How and when to set special hours on Google for Thanksgiving, December, and New Year, when to mark a business temporarily closed, and what searchers see.
 - [Hit by a 2026 Google update? A recovery checklist that works](https://christopherabraham.com/guides/update-recovery-2026/): How to tell whether a 2026 Google core or spam update hit your site, rule out reporting quirks, find the pages that lost, and fix them in the right order.
+- [Where to get reliable SEO and AI search news in 2026](https://christopherabraham.com/guides/seo-news-sources/): The SEO and AI search news sources I read, from Google's own records to daily trade press, who owns them, and how to tell a real finding from a vendor pitch.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 
 ## Case studies

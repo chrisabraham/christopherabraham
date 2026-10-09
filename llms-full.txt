@@ -785,6 +785,7 @@ These eighteen guides cover the questions clients ask me most, written so you ca
 
 ## Local listings
 - [How to change a business name without losing your reviews](https://christopherabraham.com/guides/business-name-change/): edit the listing you have, let the sign go first, and connect the old name on the web.
+- [Where to get reliable SEO and AI search news](https://christopherabraham.com/guides/seo-news-sources/): primary sources first, the daily trade press and who owns it, and three habits that keep you from repeating mistakes.
 - [Hit by a 2026 Google update?](https://christopherabraham.com/guides/update-recovery-2026/): line the drop up with the calendar, rule out reporting quirks, find the pages that lost, and fix them in order.
 - [Holiday hours on Google Business Profile](https://christopherabraham.com/guides/holiday-hours/): special hours versus temporarily closed, a calendar for the season, and multiple locations.
 
@@ -2494,6 +2495,73 @@ Expect another core update before the year ends, and more enforcement against ma
 
 ---
 
+Source: https://christopherabraham.com/guides/seo-news-sources/
+Updated: 2026-10-09
+
+# Where to get reliable SEO and AI search news in 2026
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 9, 2026
+
+Search the phrase "best SEO news sites" and the first things you see are ads for AI visibility audits, then an AI summary, then lists of lists. Most of it is marketing for whoever wrote it. Staying current takes a short reading list, an order to read it in, and the habit of checking the claim before repeating it. Here is mine, built over decades of doing this work and refreshed for the AI search era.
+
+## Start with the people who make the rules
+- **Google Search Central Blog.** Official announcements: core updates, policy changes, new Search Console reports. Recent posts covered the site reputation policy update on August 28 and new multimodal performance reporting on September 24.
+- **Google Search Status Dashboard.** The authoritative record of every ranking update, with start dates and durations. When an article and the dashboard disagree, the dashboard wins.
+- **Google's documentation changelog.** Quiet but important. On October 1, Google's guidance on AI-generated content began calling manual fact checking and review of AI output critical before publishing.
+- **Bing Webmaster Tools and its blog.** Bing's AI Performance report is the closest thing to a first-party view of AI citations.
+- **The AI companies' own policies.** OpenAI's crawler documentation, and usage policies like the one Anthropic updated on October 8, change what is allowed faster than any trade article can summarize.
+
+## Then the daily trade press
+- **Search Engine Roundtable.** Barry Schwartz's site is the fastest on tests, volatility, and small interface changes, often within hours.
+- **Search Engine Land.** Broad daily coverage and analysis from many contributors. Its footer notes that it is a trademark of Semrush, the SEO software company, which is worth knowing when a story touches SEO tools.
+- **Search Engine Journal.** News plus long columns from practitioners, published by Alpha Brand Media.
+
+Read at least two for anything big. They often break the same story with different details.
+
+## A weekly digest
+
+Aleyda Solis' SEOFOMO newsletter arrives every Sunday with the week's news, guides, tools, and events. If you read only one thing a week, make it this.
+
+## Research, with a grain of salt
+
+The big tool makers, Ahrefs and Semrush among them, publish large studies on AI Overviews, citations, and click rates. They are valuable and they are also marketing for the tools that produced the data. Independent practitioners who publish their own tracking, such as Lily Ray and Marie Haynes, are worth following for the same reason: you can see their method and their sample.
+
+## Three habits that keep you from repeating mistakes
+
+### 1. Check dates against the primary record
+
+This month a widely read write-up gave the start of Google's September spam update as "Thursday, September 28." The dashboard says September 24, which was the Thursday. Small slip, easy check, and the kind of error that spreads when everyone copies everyone.
+
+### 2. Compare studies before quoting one
+
+Three studies this fall measured how often AI Overviews appear for brand searches. Ahrefs reported 83 percent of branded searches; DemandSphere data reported in Search Engine Land showed a jump from 26 to 80 percent; a third found summaries for 93 of 100 brands. Different samples, different methods, same direction. The direction is the finding. The exact number belongs to its study.
+
+### 3. Read the footnote on every bold claim
+
+One agency's ad this month promises a 100 percent success rate at increasing AI visibility. The footnote defines success as an increase in any one of several visibility metrics from the start of a campaign to its latest measurement. Another vendor reports a "100% client success rate" for making reviews crawlable. Neither claim is false. Both describe something much smaller than the headline suggests.
+
+## What to skip
+- "Best agency" lists written by an agency that ranks itself first.
+- Statistics with no named study, sample, or date, especially round ones repeated by AI summaries.
+- Anyone claiming a secret formula for AI Overviews. Google's own documentation says there are no special requirements beyond ordinary search eligibility.
+
+## How I use all this
+
+Every guide on this site starts with these sources and ends with a list of them, so you can check my work the same way. For what the news has added up to this year, see [my recovery checklist for 2026 Google updates](https://christopherabraham.com/guides/update-recovery-2026/) and [my AI search checklist](https://christopherabraham.com/guides/ai-search-checklist/), or [ask me what a headline means for your site](https://christopherabraham.com/contact/).
+
+## Sources
+- [Google Search Central Blog](https://developers.google.com/search/blog)
+- [Google Search Status Dashboard](https://status.search.google.com/)
+- [Search Engine Journal: Google tells sites to fact check AI content before publishing](https://www.searchenginejournal.com/google-fact-check-ai-content-before-publishing/591782/)
+- [Search Engine Roundtable](https://www.seroundtable.com/)
+- [Search Engine Land](https://searchengineland.com/)
+- [SEOFOMO newsletter](https://seofomo.co/)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
 Source: https://christopherabraham.com/guides/glossary/
 Updated: 2026-10-06
 
@@ -3597,6 +3665,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [How to change a business name without losing your Google reviews](https://christopherabraham.com/guides/business-name-change/): How to rename a business without losing its Google Business Profile, reviews, or rankings: edit the existing listing, sequence the change, and update the web.
 - [Holiday hours on Google: set them before you need them](https://christopherabraham.com/guides/holiday-hours/): How and when to set special hours on Google for Thanksgiving, December, and New Year, when to mark a business temporarily closed, and what searchers see.
 - [Hit by a 2026 Google update? A recovery checklist that works](https://christopherabraham.com/guides/update-recovery-2026/): How to tell whether a 2026 Google core or spam update hit your site, rule out reporting quirks, find the pages that lost, and fix them in the right order.
+- [Where to get reliable SEO and AI search news in 2026](https://christopherabraham.com/guides/seo-news-sources/): The SEO and AI search news sources I read, from Google's own records to daily trade press, who owns them, and how to tell a real finding from a vendor pitch.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 
 ## Case studies
