@@ -42,8 +42,8 @@ Many themes end every excerpt with a "Read more" or "Continue reading" link. On 
 
 ## Put Cloudflare in front of WordPress
 
-My strongest piece of advice after the plugins: move the domain's DNS to [Cloudflare](https://www.cloudflare.com/) and let it cache the site. If Cloudflare only handles your registration and DNS, with traffic passed through to your host, the free plan covers it. The real gains come when the site runs through Cloudflare's network, the orange cloud. Even on the free plan, Cloudflare then caches your images, scripts, and stylesheets near visitors, compresses them, and shields the site from attacks. Paid features build on that, such as automatic image optimization and Automatic Platform Optimization for WordPress, which caches whole pages close to visitors. WordPress sites almost always benefit, so I recommend budgeting roughly $50 a month for those services, beginning with Pro. I pay for the Pro plan on my own main site. Both my own experience and every AI assistant I've put the question to land in the same place. And no, Cloudflare pays me nothing, which is a shame given how often I recommend it.
-- **Faster pages everywhere:** Cloudflare keeps copies of your pages, images, and scripts in data centers around the world and serves them from the one nearest each visitor.
+My strongest piece of advice after the plugins: move the domain's DNS to [Cloudflare](https://www.cloudflare.com/) and let it cache the site. If Cloudflare only handles your registration and DNS, with traffic passed through to your host, the free plan covers it. The real gains come when the site runs through Cloudflare's network, the orange cloud. Even on the free plan, Cloudflare then caches your images, scripts, and stylesheets near visitors, compresses them, and shields the site from attacks. Paid features build on that: Polish image optimization comes with Pro and above, and Automatic Platform Optimization for WordPress, which caches whole pages close to visitors, is included with Pro or costs $5 a month on the free plan. WordPress sites almost always benefit, so I recommend budgeting roughly $50 a month for those services, beginning with Pro. I pay for the Pro plan on my own main site. Both my own experience and every AI assistant I've put the question to land in the same place. And no, Cloudflare pays me nothing, which is a shame given how often I recommend it.
+- **Faster pages everywhere:** Cloudflare keeps copies of your images, scripts, and stylesheets in data centers around the world and serves them from the one nearest each visitor. The HTML pages themselves need APO or a cache rule to be cached too.
 - **HTTPS done right:** choose Full (strict) for SSL/TLS, switch on Always Use HTTPS, then turn on HSTS once every page loads securely.
 - **Bots on your terms:** review the bot and AI crawler settings rather than accepting the defaults. I welcome search engines and AI crawlers, since being cited by AI assistants is part of being found.
 - **Cheaper domains:** Cloudflare Registrar charges what the registry charges, with no markup, at registration and renewal.
@@ -83,6 +83,9 @@ Keep WordPress, your theme, and your plugins updated; hacked sites get spam page
 Inherited a WordPress site and not sure what's been done to it? [Send me the address](https://christopherabraham.com/contact/) and I'll tell you what I'd fix first, or see how I handle [WordPress SEO for clients](https://christopherabraham.com/services/wordpress-seo/).
 
 ## Sources
+- [Cloudflare Docs: Default cache behavior](https://developers.cloudflare.com/cache/concepts/default-cache-behavior/)
+- [Cloudflare: Automatic Platform Optimization for WordPress](https://www.cloudflare.com/automatic-platform-optimization/wordpress/)
+- [Cloudflare Docs: Polish](https://developers.cloudflare.com/images/polish/)
 - [Yoast: We are launching an IndexNow integration in Yoast SEO](https://yoast.com/why-an-indexnow-integration/)
 - [WordPress.org: Settings Reading screen](https://wordpress.org/documentation/article/settings-reading-screen/)
 - [WordPress.org: Settings Permalinks screen](https://wordpress.org/documentation/article/settings-permalinks-screen/)

@@ -679,8 +679,23 @@ dd { margin: .2rem 0 0 0; }
    "dateModified": "2026-10-09",
    "image": "https://christopherabraham.com/social-card.png",
    "inLanguage": "en-US",
-   "wordCount": 1557,
+   "wordCount": 1587,
    "citation": [
+    {
+     "@type": "CreativeWork",
+     "name": "Cloudflare Docs: Default cache behavior",
+     "url": "https://developers.cloudflare.com/cache/concepts/default-cache-behavior/"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Cloudflare: Automatic Platform Optimization for WordPress",
+     "url": "https://www.cloudflare.com/automatic-platform-optimization/wordpress/"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Cloudflare Docs: Polish",
+     "url": "https://developers.cloudflare.com/images/polish/"
+    },
     {
      "@type": "CreativeWork",
      "name": "Yoast: We are launching an IndexNow integration in Yoast SEO",
@@ -784,9 +799,9 @@ dd { margin: .2rem 0 0 0; }
 <p>Many themes end every excerpt with a "Read more" or "Continue reading" link. On a blog page with twenty posts that's twenty identical links, each one telling crawlers and screen reader users nothing about where it goes. Link the post title instead, or change the theme's excerpt link to include the post's name. In your own writing, put links on words that describe the destination: "my <a href="../../guides/accessible-websites/">guide to accessible websites</a>," never "click here." Link new posts to your older related posts, and older posts forward to new ones; this is the internal linking that helps both readers and crawlers find your best pages.</p>
 
 <h2>Put Cloudflare in front of WordPress</h2>
-<p>My strongest piece of advice after the plugins: move the domain's DNS to <a href="https://www.cloudflare.com/">Cloudflare</a> and let it cache the site. If Cloudflare only handles your registration and DNS, with traffic passed through to your host, the free plan covers it. The real gains come when the site runs through Cloudflare's network, the orange cloud. Even on the free plan, Cloudflare then caches your images, scripts, and stylesheets near visitors, compresses them, and shields the site from attacks. Paid features build on that, such as automatic image optimization and Automatic Platform Optimization for WordPress, which caches whole pages close to visitors. WordPress sites almost always benefit, so I recommend budgeting roughly $50 a month for those services, beginning with Pro. I pay for the Pro plan on my own main site. Both my own experience and every AI assistant I've put the question to land in the same place. And no, Cloudflare pays me nothing, which is a shame given how often I recommend it.</p>
+<p>My strongest piece of advice after the plugins: move the domain's DNS to <a href="https://www.cloudflare.com/">Cloudflare</a> and let it cache the site. If Cloudflare only handles your registration and DNS, with traffic passed through to your host, the free plan covers it. The real gains come when the site runs through Cloudflare's network, the orange cloud. Even on the free plan, Cloudflare then caches your images, scripts, and stylesheets near visitors, compresses them, and shields the site from attacks. Paid features build on that: Polish image optimization comes with Pro and above, and Automatic Platform Optimization for WordPress, which caches whole pages close to visitors, is included with Pro or costs $5 a month on the free plan. WordPress sites almost always benefit, so I recommend budgeting roughly $50 a month for those services, beginning with Pro. I pay for the Pro plan on my own main site. Both my own experience and every AI assistant I've put the question to land in the same place. And no, Cloudflare pays me nothing, which is a shame given how often I recommend it.</p>
 <ul>
-  <li><strong>Faster pages everywhere:</strong> Cloudflare keeps copies of your pages, images, and scripts in data centers around the world and serves them from the one nearest each visitor.</li>
+  <li><strong>Faster pages everywhere:</strong> Cloudflare keeps copies of your images, scripts, and stylesheets in data centers around the world and serves them from the one nearest each visitor. The HTML pages themselves need APO or a cache rule to be cached too.</li>
   <li><strong>HTTPS done right:</strong> choose Full (strict) for SSL/TLS, switch on Always Use HTTPS, then turn on HSTS once every page loads securely.</li>
   <li><strong>Bots on your terms:</strong> review the bot and AI crawler settings rather than accepting the defaults. I welcome search engines and AI crawlers, since being cited by AI assistants is part of being found.</li>
   <li><strong>Cheaper domains:</strong> Cloudflare Registrar charges what the registry charges, with no markup, at registration and renewal.</li>
@@ -829,6 +844,9 @@ dd { margin: .2rem 0 0 0; }
 <p>Inherited a WordPress site and not sure what's been done to it? <a href="../../contact/">Send me the address</a> and I'll tell you what I'd fix first, or see how I handle <a href="../../services/wordpress-seo/">WordPress SEO for clients</a>.</p>
 <h2>Sources</h2>
 <ul class="sources">
+  <li><a href="https://developers.cloudflare.com/cache/concepts/default-cache-behavior/">Cloudflare Docs: Default cache behavior</a></li>
+  <li><a href="https://www.cloudflare.com/automatic-platform-optimization/wordpress/">Cloudflare: Automatic Platform Optimization for WordPress</a></li>
+  <li><a href="https://developers.cloudflare.com/images/polish/">Cloudflare Docs: Polish</a></li>
   <li><a href="https://yoast.com/why-an-indexnow-integration/">Yoast: We are launching an IndexNow integration in Yoast SEO</a></li>
   <li><a href="https://wordpress.org/documentation/article/settings-reading-screen/">WordPress.org: Settings Reading screen</a></li>
   <li><a href="https://wordpress.org/documentation/article/settings-permalinks-screen/">WordPress.org: Settings Permalinks screen</a></li>
