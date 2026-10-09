@@ -62,6 +62,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Where to get reliable SEO and AI search news in 2026](https://christopherabraham.com/guides/seo-news-sources/): The SEO and AI search news sources I read, from Google's own records to daily trade press, who owns them, and how to tell a real finding from a vendor pitch.
 - [WordPress SEO 101: the settings and habits that matter most](https://christopherabraham.com/guides/wordpress-seo-101/): A beginner's WordPress SEO primer: the settings to change on day one, the plugins I recommend, alt text, descriptive links, speed, and accessibility.
 - [Cloudflare for WordPress: setup, plans, and what to budget](https://christopherabraham.com/guides/cloudflare-wordpress/): How to put a WordPress site behind Cloudflare: moving DNS, what the free plan already does, APO and Polish on paid plans, HTTPS settings, and a monthly budget.
+- [Will Google penalize AI-written content? What Google actually says](https://christopherabraham.com/guides/ai-content-seo/): Does Google penalize AI written copy? What Google's guidance says in 2026, what the data shows, the new fact checking rule, fake authors, and safe AI use.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 
 ## Case studies
