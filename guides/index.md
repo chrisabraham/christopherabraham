@@ -8,6 +8,7 @@ These eighteen guides cover the questions clients ask me most, written so you ca
 
 ## Indexing and audits
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
+- [Is a Screaming Frog licence worth $279 a year?](https://christopherabraham.com/guides/screaming-frog-licence/): what the free 500 URL version leaves out and everything the paid crawler can do, from JavaScript rendering to the new MCP server.
 - [What a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/): how to tell a useful audit from a tool export, before and after you pay for one.
 - [How to hire an SEO on Upwork](https://christopherabraham.com/guides/hiring-an-seo/): five screening questions that expose real skill, the red flags, and a safer paid first step.
 

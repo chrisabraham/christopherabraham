@@ -55,7 +55,7 @@ FILES = ["index",
          "guides/small-business-schema", "guides/redirect-rules", "guides/core-web-vitals",
          "guides/correct-ai-answers", "guides/two-names-one-entity", "guides/third-party-proof", "guides/about-page-ai",
          "guides/parked-domain-launch", "guides/non-sending-domain", "guides/lapsed-domains", "guides/llms-txt",
-         "guides/meta-keywords", "guides/accessible-websites", "guides/accessibility-seo-dividends", "guides/lynx-test", "guides/hiring-an-seo", "guides/business-name-change", "guides/holiday-hours", "guides/update-recovery-2026", "guides/seo-news-sources", "guides/wordpress-seo-101", "guides/cloudflare-wordpress", "guides/ai-content-seo", "guides/glossary",
+         "guides/meta-keywords", "guides/accessible-websites", "guides/accessibility-seo-dividends", "guides/lynx-test", "guides/hiring-an-seo", "guides/business-name-change", "guides/holiday-hours", "guides/update-recovery-2026", "guides/seo-news-sources", "guides/wordpress-seo-101", "guides/cloudflare-wordpress", "guides/ai-content-seo", "guides/screaming-frog-licence", "guides/glossary",
          "case-studies/index", "case-studies/scroll-gated-products", "case-studies/consent-banner",
          "case-studies/event-app-links", "case-studies/headless-local", "case-studies/clinic-migration",
          "case-studies/shopify-cleanup", "case-studies/card-price-index", "case-studies/plugin-outage",
@@ -757,7 +757,7 @@ for p in pages:
     if p["words"] < MIN_WORDS[p["kind"]]: problems.append(f"{where}: only {p['words']} words (min {MIN_WORDS[p['kind']]})")
     if "—" in b or " – " in b: problems.append(f"{where}: em or en dash in the copy")
     if "Chris's" in b + t + d: problems.append(f"{where}: write Chris' not Chris's")
-    plain = re.sub(r"<code>.*?</code>|<pre>.*?</pre>", "", p["body"], flags=re.S)
+    plain = re.sub(r"<code>.*?</code>|<pre>.*?</pre>|<blockquote>.*?</blockquote>", "", p["body"], flags=re.S)  # quoted words aren't the site's voice
     for m in re.finditer(r"\b(we|We|our|Our|us)\b", text_of(plain)):
         problems.append(f"{where}: first person plural: {m.group(0)}")
     for target in re.findall(r'href="\{root\}([^"#]*)', p["body"]):

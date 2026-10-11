@@ -5,7 +5,7 @@
   <link href="https://christopherabraham.com/feed.xml" rel="self"/>
   <link href="https://christopherabraham.com/guides/"/>
   <id>https://christopherabraham.com/guides/</id>
-  <updated>2026-10-09T12:00:00Z</updated>
+  <updated>2026-10-11T12:00:00Z</updated>
   <author><name>Christopher Abraham</name><uri>https://christopherabraham.com/about/</uri></author>
   <entry>
     <title>How to read the Page indexing report in Search Console</title>
@@ -214,6 +214,14 @@
     <published>2026-10-09T12:00:00Z</published>
     <updated>2026-10-09T12:00:00Z</updated>
     <summary>Does Google penalize AI written copy? What Google's guidance says in 2026, what the data shows, the new fact checking rule, fake authors, and safe AI use.</summary>
+  </entry>
+  <entry>
+    <title>Is a Screaming Frog licence worth $279 a year? Mine was</title>
+    <link href="https://christopherabraham.com/guides/screaming-frog-licence/"/>
+    <id>https://christopherabraham.com/guides/screaming-frog-licence/</id>
+    <published>2026-10-11T12:00:00Z</published>
+    <updated>2026-10-11T12:00:00Z</updated>
+    <summary>Why I finally paid for the Screaming Frog SEO Spider, what the free 500 URL version leaves out, and everything a $279 a year licence can do in 2026.</summary>
   </entry>
   <entry>
     <title>Glossary of SEO and AI search terms</title>
