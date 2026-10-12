@@ -30,8 +30,8 @@ When the SEO can read that code, the work changes:
 A medium sized site can have thousands of files. Reading them used to be the developer's job alone. Now AI coding assistants such as Anthropic's Claude Code, GitHub Copilot, and OpenAI's Codex can read an entire codebase, explain how it's organized, trace a problem to the files that cause it, and draft the change. GitHub describes Copilot planning changes, editing code, running tests, and reviewing pull requests. Claude Code works the same way from a terminal.
 
 That puts an SEO who knows what to look for within reach of answers that used to take a developer a week. Two examples from my own client work:
-- During a clinic's move from WordPress to Next.js, a read only analysis of the repository with an AI coding assistant found thousands of image references still pointing at the old media library and traced them to a handful of central files. The developer got a short, concrete plan. [Read the case study.](https://christopherabraham.com/case-studies/clinic-migration/)
-- For a local business on Sanity, Vercel, and GitHub, I made the metadata changes myself in a pull request the developer reviewed and merged. [Read the case study.](https://christopherabraham.com/case-studies/headless-local/)
+- During [a clinic's move from WordPress to Next.js](https://christopherabraham.com/case-studies/clinic-migration/), a read only analysis of the repository with an AI coding assistant found thousands of image references still pointing at the old media library and traced them to a handful of central files. The developer got a short, concrete plan.
+- For [a local business on Sanity, Vercel, and GitHub](https://christopherabraham.com/case-studies/headless-local/), I made the metadata changes myself in a pull request the developer reviewed and merged.
 
 The assistant is fast, tireless, and sometimes confidently wrong. The skill is knowing what search engines need, asking the right questions of the code, and checking every answer. AI doesn't replace that judgment; it multiplies it.
 

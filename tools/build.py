@@ -806,8 +806,11 @@ for p in pages:
         problems.append(f"/{p['path']}: needs 2 to 6 keywords, has {len(p['kw'])}")
     if len({k.lower() for k in p["kw"]}) != len(p["kw"]):
         problems.append(f"/{p['path']}: repeated keyword")
-    for m in re.finditer(r'<a [^>]*>(read more|click here|here|more|read the case)</a>', p["body"], re.I):
-        problems.append(f"/{p['path']}: link text says nothing on its own: {m.group(1)}")
+    # Anchor text: every link names its destination on its own.
+    for m in re.finditer(r"<a [^>]*>(.*?)</a>", p["body"], re.S):
+        label = text_of(m.group(1)).strip().rstrip(".!:").lower()
+        if re.fullmatch(r"(read|click|tap|go|see|view|learn|find out|continue|continue reading)?( (more|here|this|it|on))*|here|more|this|link|this page|this post|details|read (the )?(full )?(case( study)?|guide|post|article|story)|the case study|this (case study|guide)", label) or re.match(r"https?://", label):
+            problems.append(f"/{p['path']}: link text says nothing on its own: {text_of(m.group(1)).strip() or '(empty)'}")
 # The island rule, over every source page and every generated file.
 _generated = [os.path.join(p["path"], f) for p in pages for f in ("index.html", "index.md")]
 for f in [f"src/{x}.html" for x in FILES] + _generated + ["404.html", "llms.txt", "llms-full.txt", "feed.xml", "rss.xml", "robots.txt", "sitemap.xml"]:
