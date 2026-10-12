@@ -55,7 +55,7 @@ FILES = ["index",
          "guides/small-business-schema", "guides/redirect-rules", "guides/core-web-vitals",
          "guides/correct-ai-answers", "guides/two-names-one-entity", "guides/third-party-proof", "guides/about-page-ai",
          "guides/parked-domain-launch", "guides/non-sending-domain", "guides/lapsed-domains", "guides/llms-txt",
-         "guides/meta-keywords", "guides/accessible-websites", "guides/accessibility-seo-dividends", "guides/lynx-test", "guides/hiring-an-seo", "guides/business-name-change", "guides/holiday-hours", "guides/update-recovery-2026", "guides/seo-news-sources", "guides/wordpress-seo-101", "guides/cloudflare-wordpress", "guides/ai-content-seo", "guides/screaming-frog-licence", "guides/glossary",
+         "guides/meta-keywords", "guides/accessible-websites", "guides/accessibility-seo-dividends", "guides/lynx-test", "guides/hiring-an-seo", "guides/business-name-change", "guides/holiday-hours", "guides/update-recovery-2026", "guides/seo-news-sources", "guides/wordpress-seo-101", "guides/cloudflare-wordpress", "guides/ai-content-seo", "guides/screaming-frog-licence", "guides/seo-in-your-repository", "guides/glossary",
          "case-studies/index", "case-studies/scroll-gated-products", "case-studies/consent-banner",
          "case-studies/event-app-links", "case-studies/headless-local", "case-studies/clinic-migration",
          "case-studies/shopify-cleanup", "case-studies/card-price-index", "case-studies/plugin-outage",
@@ -113,6 +113,10 @@ def finish(p):
     p["kw"] = [k.strip() for k in p.get("keywords", "").split(",") if k.strip()]
     # sources: "Label | https://url ;; Label | https://url" (primary documentation behind a guide's claims)
     p["sources"] = [tuple(x.strip() for x in item.split(" | ", 1)) for item in p.get("sources", "").split(" ;; ") if " | " in item]
+    # about: / mentions: "Name | https://en.wikipedia.org/wiki/... ;; ..." (entities the article covers, for AI answer engines)
+    for key in ("about", "mentions"):
+        p["ent_" + key] = [{"@type": "Thing", "name": n.strip(), "sameAs": u.strip()}
+                           for n, u in (item.split(" | ", 1) for item in p.get(key, "").split(" ;; ") if " | " in item)]
     return p
 
 
@@ -354,6 +358,11 @@ def schema(p):
                       "datePublished": p.get("published", p["updated"]), "dateModified": p["updated"],
                       "image": SITE + "social-card.png", "inLanguage": "en-US", "wordCount": p["words"],
                       "citation": [{"@type": "CreativeWork", "name": label, "url": u} for label, u in p["sources"]]})
+    if p["kind"] == "guide":
+        art = graph[-1]
+        if p["ent_about"]: art["about"] = p["ent_about"]
+        if p["ent_mentions"]: art["mentions"] = p["ent_mentions"]
+        if p.get("keywords"): art["keywords"] = p["keywords"]
     if page_type == "CollectionPage":
         kids = [q for q in pages if q["tab"] == p["path"] and q is not p]
         page["mainEntity"] = {"@type": "ItemList", "itemListElement": [

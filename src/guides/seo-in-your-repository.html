@@ -1,0 +1,59 @@
+name: SEO in Your Repository
+title: Why your SEO should work in your Git repository, with AI
+description: An SEO who can read your codebase and work with Claude Code, Copilot, or ChatGPT fixes causes in templates, not symptoms page by page. What to expect and ask.
+type: guide
+published: 2026-10-11
+keywords: SEO Git repository, technical SEO developers, AI coding assistant SEO, SEO pull request
+sources: Git: A short history of Git | https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git ;; Anthropic: Claude Code overview | https://code.claude.com/docs/en/overview ;; GitHub Docs: GitHub Copilot on GitHub.com | https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github
+updated: 2026-10-11
+about: Search engine optimization | https://en.wikipedia.org/wiki/Search_engine_optimization ;; Git | https://en.wikipedia.org/wiki/Git ;; Version control | https://en.wikipedia.org/wiki/Version_control
+mentions: GitHub | https://en.wikipedia.org/wiki/GitHub ;; GitHub Copilot | https://en.wikipedia.org/wiki/GitHub_Copilot ;; Claude | https://en.wikipedia.org/wiki/Claude_(language_model) ;; OpenAI Codex | https://en.wikipedia.org/wiki/OpenAI_Codex ;; ChatGPT | https://en.wikipedia.org/wiki/ChatGPT ;; Yoast | https://en.wikipedia.org/wiki/Yoast ;; Concurrent Versions System | https://en.wikipedia.org/wiki/Concurrent_Versions_System ;; Apache Subversion | https://en.wikipedia.org/wiki/Apache_Subversion ;; Linus Torvalds | https://en.wikipedia.org/wiki/Linus_Torvalds ;; Code review | https://en.wikipedia.org/wiki/Code_review ;; Schema.org | https://en.wikipedia.org/wiki/Schema.org
+---
+<h1>Why your SEO should work in your Git repository, with AI at their side</h1>
+<p class="lead">Most SEO stops at the admin screen: plugin settings, a crawler export, a spreadsheet of recommendations. Your website doesn't live in the admin screen. If it was built by developers, it lives in a code repository, and that's where its search problems are caused and where they get fixed. An SEO who can work in the repository, with an AI coding assistant doing the heavy reading, fixes causes instead of reporting symptoms. That's how I work, and here is what it means for you.</p>
+
+<h2>What a repository is, in plain English</h2>
+<p>A repository is the master copy of your site's code, with its entire history. Almost every team now keeps it in Git, the version control system Linus Torvalds and the Linux community created in 2005, usually hosted on GitHub, GitLab, or Bitbucket. Older systems such as CVS and Subversion did the same job before Git took over.</p>
+<p>The history is the point. Every change is recorded with who made it, when, and why. Changes are proposed as pull requests that someone reviews before they go live, and any change can be rolled back. That's exactly the discipline SEO changes have usually lacked.</p>
+
+<h2>Plugins and crawlers report. The code is where it's fixed.</h2>
+<p>Yoast is a fine plugin and Screaming Frog is the best crawler I own. Both tell you what's wrong on the pages they can see. Neither can tell you why a template produces the problem, and neither can change the template. On a site built with Next.js, Nuxt, Astro, Shopify themes, or a headless CMS, there may be no SEO plugin at all. The titles, canonicals, structured data, redirects, robots rules, and sitemaps are all code.</p>
+<p>When the SEO can read that code, the work changes:</p>
+<ul>
+  <li><strong>One fix instead of a thousand.</strong> A duplicate title on 3,000 product pages is one line in one template.</li>
+  <li><strong>Redirects where they belong:</strong> in the framework's configuration or the host's rules file, tested before launch.</li>
+  <li><strong>Structured data built into components,</strong> so every new page gets it automatically.</li>
+  <li><strong>JavaScript problems traced to the line.</strong> When content only appears after a scroll or a click, the cause is in a component, and that's where to look.</li>
+  <li><strong>No lost work.</strong> Every SEO change has a commit, a reviewer, and a way back.</li>
+</ul>
+
+<h2>What AI coding assistants add</h2>
+<p>A medium sized site can have thousands of files. Reading them used to be the developer's job alone. Now AI coding assistants such as Anthropic's Claude Code, GitHub Copilot, and OpenAI's Codex can read an entire codebase, explain how it's organized, trace a problem to the files that cause it, and draft the change. GitHub describes Copilot planning changes, editing code, running tests, and reviewing pull requests. Claude Code works the same way from a terminal.</p>
+<p>That puts an SEO who knows what to look for within reach of answers that used to take a developer a week. Two examples from my own client work:</p>
+<ul>
+  <li>During a clinic's move from WordPress to Next.js, a read only analysis of the repository with an AI coding assistant found thousands of image references still pointing at the old media library and traced them to a handful of central files. The developer got a short, concrete plan. <a href="{root}case-studies/clinic-migration/">Read the case study.</a></li>
+  <li>For a local business on Sanity, Vercel, and GitHub, I made the metadata changes myself in a pull request the developer reviewed and merged. <a href="{root}case-studies/headless-local/">Read the case study.</a></li>
+</ul>
+<p>The assistant is fast, tireless, and sometimes confidently wrong. The skill is knowing what search engines need, asking the right questions of the code, and checking every answer. AI doesn't replace that judgment; it multiplies it.</p>
+
+<h2>How I work in a client's repository</h2>
+<ol>
+  <li><strong>Read only first.</strong> I start with read access, map the templates and routes, and compare the code to what crawlers actually see.</li>
+  <li><strong>Findings tied to files.</strong> Every issue comes with the file and line that cause it, so your developer can act without guessing.</li>
+  <li><strong>Small pull requests.</strong> When you want me to make changes, each one is a separate branch with a clear description, reviewed by your developer before it merges.</li>
+  <li><strong>Nothing reaches production without your approval,</strong> and no passwords or API keys go into the code or into an AI tool.</li>
+  <li><strong>Verified on the live site</strong> after deploy, with a crawl and Search Console.</li>
+</ol>
+
+<h2>Questions to ask any SEO you're about to hire</h2>
+<ul>
+  <li>Can you read the site's templates, or only the pages they produce?</li>
+  <li>Will you hand the developer findings tied to specific files?</li>
+  <li>Can you open a pull request, and will you follow the team's review process?</li>
+  <li>How do you use AI tools on the code, and how do you check what they produce?</li>
+  <li>What access do you need, and what will you never touch?</li>
+</ul>
+<p>For the broader hiring checklist, see <a href="{root}guides/hiring-an-seo/">how to hire an SEO on Upwork</a>.</p>
+
+<h2>Work with me</h2>
+<p>I've built websites since 1994 and practiced SEO since 1998, and today I work the way modern sites are built: in the repository, through pull requests, with AI coding assistants doing the heavy reading under my direction. If your site lives in GitHub and your SEO lives in a spreadsheet, <a href="{root}contact/">send me the site</a> or see my <a href="{root}services/javascript-seo/">JavaScript SEO</a> and <a href="{root}services/seo-audit/">technical audit</a> services. I'll tell you what the code is doing to your search visibility and how to fix it.</p>
