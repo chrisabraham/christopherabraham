@@ -55,6 +55,14 @@ A verification note after each release can be short: the two crawl dates, the co
 
 Verification is built into my [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) work and every [site migration](https://christopherabraham.com/services/migrations/). The extractors I use for before and after comparisons are in [Screaming Frog custom extraction recipes](https://christopherabraham.com/guides/custom-extraction/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Screaming Frog: How to compare crawls](https://www.screamingfrog.co.uk/seo-spider/tutorials/how-to-compare-crawls/)
 - [Google Search Console Help: Page indexing report](https://support.google.com/webmasters/answer/7440203)

@@ -87,6 +87,14 @@ Open the file in a browser and read it as a stranger would. Then paste its URL i
 
 This site publishes all of these: [llms.txt](https://christopherabraham.com/llms.txt), [llms-full.txt](https://christopherabraham.com/llms-full.txt), and a Markdown copy of every page. For the wider picture, see the [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [The llms.txt proposal](https://llmstxt.org/)
 - [Google Search Central: Introduction to robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro)

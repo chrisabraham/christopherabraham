@@ -50,6 +50,14 @@ The Justice Department considers business websites covered by the ADA, and nearl
 
 Run Lighthouse or PageSpeed Insights and watch the Accessibility, SEO, and Agentic Browsing scores together; they tend to rise as a group. Then look at the page in a text browser, as described in [the Lynx test](https://christopherabraham.com/guides/lynx-test/), to see what screen readers and crawlers both receive. No badge, no overlay, no announcement needed. Just a better site.
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [W3C: Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)
 - [Google Search Central: Image SEO best practices](https://developers.google.com/search/docs/appearance/google-images)

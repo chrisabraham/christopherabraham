@@ -69,6 +69,14 @@ Core Web Vitals won't lift weak content above strong content. But between compar
 
 For hands-on help, see [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/). Terms are defined in the [glossary](https://christopherabraham.com/guides/glossary/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Search Central: Understanding Core Web Vitals and Google search results](https://developers.google.com/search/docs/appearance/core-web-vitals)
 - [web.dev: Web Vitals](https://web.dev/articles/vitals)

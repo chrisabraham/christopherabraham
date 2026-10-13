@@ -63,6 +63,14 @@ Migrations are a common moment to review backlinks. Disavow only genuinely manip
 
 For a full move, see [site migrations and 301 redirects](https://christopherabraham.com/services/migrations/), or [a clinic's redirect decisions URL by URL](https://christopherabraham.com/case-studies/clinic-migration/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Search Central: Redirects and Google Search](https://developers.google.com/search/docs/crawling-indexing/301-redirects)
 - [Google Search Central: Site moves with URL changes](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes)

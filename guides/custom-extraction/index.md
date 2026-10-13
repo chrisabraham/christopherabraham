@@ -59,6 +59,14 @@ Check a few rows by hand before you trust a recipe. View the source of one page,
 
 Custom extraction is how I make a full crawl answer the specific questions in a [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) engagement. For the licence question itself, read [whether a Screaming Frog licence is worth it](https://christopherabraham.com/guides/screaming-frog-licence/), and for two problems these recipes surface constantly, see [finding near duplicates and multiple H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Screaming Frog: Web scraping and data extraction](https://www.screamingfrog.co.uk/seo-spider/tutorials/web-scraping/)
 - [Screaming Frog: SEO Spider configuration](https://www.screamingfrog.co.uk/seo-spider/user-guide/configuration/)

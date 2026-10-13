@@ -60,6 +60,14 @@ Select one strong article. Improve its opening answer, add one verifiable exampl
 
 That is my version of AI catnip: material someone can confidently build on, delivered through a site that works. For a broader technical review, use the [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/). New Guides also appear in the [full text RSS feed](https://christopherabraham.com/rss.xml), which can be imported into a feed reader or publishing system.
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Search Central AI features](https://developers.google.com/search/docs/appearance/ai-features)
 - [IndexNow FAQ](https://www.indexnow.org/faq)

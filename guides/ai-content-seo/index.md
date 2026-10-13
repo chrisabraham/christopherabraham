@@ -51,6 +51,14 @@ Clients sometimes run their pages through an AI detector and panic at the score.
 
 I use AI tools every day, for research, drafts, and checking my own work. Every guide on this site is drafted with AI assistance under my direction, checked claim by claim against named sources, and published with those sources listed at the bottom. That is the standard I'd hold any client's site to. For the broader picture of this year's updates, see [my 2026 update recovery checklist](https://christopherabraham.com/guides/update-recovery-2026/); if you're worried about pages you've already published, [send me the site](https://christopherabraham.com/contact/) and I'll tell you which ones need a human pass.
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Search Central: Google Search's guidance about AI-generated content (2023)](https://developers.google.com/search/blog/2023/02/google-search-and-ai-content)
 - [Google Search Central: Guidance on using generative AI content on your website](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content)

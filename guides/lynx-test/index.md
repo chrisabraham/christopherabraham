@@ -70,6 +70,14 @@ Hidden text, leftover placeholder copy, and duplicated blocks from a page builde
 
 If the Lynx view of an important page is thin, that's the starting point for [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/) work. For the accessibility side of the same coin, see [website accessibility without overlays](https://christopherabraham.com/guides/accessible-websites/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Lynx project home](https://lynx.invisible-island.net/)
 - [Google Search Central: JavaScript SEO basics](https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics)

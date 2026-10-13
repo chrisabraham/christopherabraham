@@ -221,6 +221,8 @@ dd { margin: .2rem 0 0 0; }
 .author-box { display: flex; gap: 1rem; align-items: flex-start; border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: 1rem; font-size: .95rem; }
 .author-box img { width: 72px; height: 72px; flex: none; border: 1px solid var(--rule); }
 .author-box p { margin: 0; }
+.help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
+.help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
@@ -387,6 +389,14 @@ def body_html(p):
         by = (f'<p class="byline">By <a href="{r}about/">Christopher Abraham</a> · Published {nice(p.get("published", p["updated"]))}'
               + (f' · Updated {nice(p["updated"])}' if p.get("published", p["updated"]) != p["updated"] else "") + "</p>")
         body = re.sub(r"(</h1>)", r"\1\n" + by, body, count=1)
+    if p["kind"] == "guide":
+        body += f"""
+<aside class="help-box" aria-label="Get help">
+  <h2>Let me help you with this</h2>
+  <p>If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.</p>
+  <p><a class="button" href="{CALENDLY}">Book a 30 minute call</a> <a class="button" href="tel:{TEL}">Call {PHONE}</a> <a class="button" href="mailto:{EMAIL}">Email {EMAIL}</a></p>
+  <p>Prefer to hire through Upwork? I'm <a href="{UPWORK}">Top Rated there too</a>.</p>
+</aside>"""
     if p["sources"]:
         body += ('\n<h2>Sources</h2>\n<ul class="sources">\n'
                  + "".join(f'  <li><a href="{u}">{html.escape(label)}</a></li>\n' for label, u in p["sources"]) + "</ul>")

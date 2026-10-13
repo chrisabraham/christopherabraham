@@ -52,6 +52,14 @@ Keep every change reversible. Export the current titles or keep them in version 
 
 A cleaner title gives a searcher a clearer reason to pick your result and gives Google less boilerplate to rewrite. It cannot repair thin pages, broken redirects, or a missing image library. Treat it as one tidy, measurable improvement. If traffic has fallen, keep looking for the larger cause; my guide to [recovering from a 2026 Google update](https://christopherabraham.com/guides/update-recovery-2026/) walks through finding it, and the [ten rules for 301 redirects](https://christopherabraham.com/guides/redirect-rules/) cover the migration mistakes that cost the most.
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Search Central: Influencing your title links in search results](https://developers.google.com/search/docs/appearance/title-link)
 - [Google Search Central: Provide a site name to Google Search](https://developers.google.com/search/docs/appearance/site-names)

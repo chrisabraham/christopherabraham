@@ -956,6 +956,14 @@ Keep every change reversible. Export the current titles or keep them in version 
 
 A cleaner title gives a searcher a clearer reason to pick your result and gives Google less boilerplate to rewrite. It cannot repair thin pages, broken redirects, or a missing image library. Treat it as one tidy, measurable improvement. If traffic has fallen, keep looking for the larger cause; my guide to [recovering from a 2026 Google update](https://christopherabraham.com/guides/update-recovery-2026/) walks through finding it, and the [ten rules for 301 redirects](https://christopherabraham.com/guides/redirect-rules/) cover the migration mistakes that cost the most.
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Search Central: Influencing your title links in search results](https://developers.google.com/search/docs/appearance/title-link)
 - [Google Search Central: Provide a site name to Google Search](https://developers.google.com/search/docs/appearance/site-names)
@@ -1033,6 +1041,14 @@ Pick one recurring technical question and a small public sample. Reserve one ses
 
 The result may be a short, useful reference rather than a headline announcement. That is enough. A reader who can repeat your test has something more valuable than an unsupported prediction. For the credibility surrounding the author, see [how to document expertise with independent sources](https://christopherabraham.com/guides/third-party-proof/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Search Central on helpful content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
 
@@ -1101,6 +1117,14 @@ Give a revision time to be discovered before changing the next variable. If you 
 Select one strong article. Improve its opening answer, add one verifiable example, repair its references, and link it from a relevant guide. Test the published page and notify the participating engines after the change is live. Then write down what you changed and when you will review it.
 
 That is my version of AI catnip: material someone can confidently build on, delivered through a site that works. For a broader technical review, use the [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/). New Guides also appear in the [full text RSS feed](https://christopherabraham.com/rss.xml), which can be imported into a feed reader or publishing system.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [Google Search Central AI features](https://developers.google.com/search/docs/appearance/ai-features)
@@ -1171,6 +1195,14 @@ Bing Webmaster Tools has its own URL Inspection and index coverage reports. When
 ## When to get help
 
 If the cause isn't obvious after a few inspections, or if important pages keep falling out, a structured diagnosis saves time. See [indexing repair](https://christopherabraham.com/services/indexing/), or a real example where [a consent tool caused the exclusions](https://christopherabraham.com/case-studies/consent-banner/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [Search Console Help: Page indexing report](https://support.google.com/webmasters/answer/7440203)
@@ -1244,6 +1276,14 @@ Googlebot renders JavaScript. Most AI crawlers don't. If the answer isn't in the
 If you only do three things this month, make them these: confirm crawlers can reach you, confirm your main content is in the HTML, and make your About page and Organization schema say exactly who you are. Everything else builds on those.
 
 For help running the checklist against your own site, see [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/). Terms used here are defined in the [glossary](https://christopherabraham.com/guides/glossary/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [Google Search Central: AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)
@@ -1328,6 +1368,14 @@ The audit's value shows up when fixes ship. Ask whether the auditor will verify 
 6. Will you verify the fixes?
 
 My own approach is described under [technical SEO audit](https://christopherabraham.com/services/seo-audit/). A worked example: [the scroll-gated product pages case](https://christopherabraham.com/case-studies/scroll-gated-products/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [Google Search Central: Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
@@ -1447,6 +1495,14 @@ With more than one location, the home page describes the Organization, and each 
 
 For help with markup that validates and stays accurate, see [schema markup and entity SEO](https://christopherabraham.com/services/schema/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Search Central: Introduction to structured data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data)
 - [Google Search Central: Local business structured data](https://developers.google.com/search/docs/appearance/structured-data/local-business)
@@ -1520,6 +1576,14 @@ Before launch, run the full old URL list against staging and confirm each return
 Migrations are a common moment to review backlinks. Disavow only genuinely manipulative or spammy links, and keep legitimate ones; disavowing good links throws away the equity your redirects are trying to preserve.
 
 For a full move, see [site migrations and 301 redirects](https://christopherabraham.com/services/migrations/), or [a clinic's redirect decisions URL by URL](https://christopherabraham.com/case-studies/clinic-migration/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [Google Search Central: Redirects and Google Search](https://developers.google.com/search/docs/crawling-indexing/301-redirects)
@@ -1601,6 +1665,14 @@ Core Web Vitals won't lift weak content above strong content. But between compar
 
 For hands-on help, see [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/). Terms are defined in the [glossary](https://christopherabraham.com/guides/glossary/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Search Central: Understanding Core Web Vitals and Google search results](https://developers.google.com/search/docs/appearance/core-web-vitals)
 - [web.dev: Web Vitals](https://web.dev/articles/vitals)
@@ -1670,6 +1742,14 @@ Keep the same question set and run it once a month. Track which errors disappear
 - Don't flood the web with thin pages repeating your name. A few strong, consistent sources beat dozens of weak ones.
 
 For businesses, the full approach is under [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/). For people, the companion guides are [one person, two names](https://christopherabraham.com/guides/two-names-one-entity/) and [writing an About page AI trusts](https://christopherabraham.com/guides/about-page-ai/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [Google Search Central: AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)
@@ -1756,6 +1836,14 @@ A few weeks after publishing, search each name with your field and city, and ask
 
 Related: [correcting what AI says about you](https://christopherabraham.com/guides/correct-ai-answers/), [proving expertise with third-party sources](https://christopherabraham.com/guides/third-party-proof/), and [schema markup and entity SEO](https://christopherabraham.com/services/schema/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Schema.org: Person](https://schema.org/Person)
 - [Google Search Central: Introduction to structured data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data)
@@ -1831,6 +1919,14 @@ Save a copy of every source you find, with the URL and the date. Pages disappear
 The best time to collect third-party proof was years ago; the second best is now. Write for publications in your field, speak where talks are published, contribute to projects that credit contributors, and ask satisfied clients for testimonials you're allowed to attribute. Each one becomes a source that confirms you to the next reader, human or machine.
 
 Related: [an About page AI trusts](https://christopherabraham.com/guides/about-page-ai/) and [entity SEO for people with two names](https://christopherabraham.com/guides/two-names-one-entity/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [Google Search Quality Rater Guidelines (PDF)](https://services.google.com/fh/files/misc/hsw-sqrg.pdf)
@@ -1913,6 +2009,14 @@ An About page should be readable with scripts off: plain HTML text, a compressed
 
 Related: [finding third-party proof](https://christopherabraham.com/guides/third-party-proof/), [correcting AI answers](https://christopherabraham.com/guides/correct-ai-answers/), and an example in practice, [my own About page](https://christopherabraham.com/about/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Search Central: Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
 - [Google Search Quality Rater Guidelines (PDF)](https://services.google.com/fh/files/misc/hsw-sqrg.pdf)
@@ -1992,6 +2096,14 @@ Load the home page, one deep page, and a missing page to see the custom 404. Con
 
 For a full migration from an existing site rather than a parked domain, see [site migrations and 301 redirects](https://christopherabraham.com/services/migrations/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [GitHub Docs: Managing a custom domain for your GitHub Pages site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 - [Cloudflare Docs: Full DNS setup](https://developers.cloudflare.com/dns/zone-setups/full-setup/)
@@ -2062,6 +2174,14 @@ If your website lists an email address, it should be on a domain that really doe
 
 For the full setup of parking a domain on Cloudflare and GitHub Pages, see [launching a site on a parked domain](https://christopherabraham.com/guides/parked-domain-launch/). Domains that do send email need SPF, DKIM, and DMARC configured for every service that sends on their behalf, a different job entirely.
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [RFC 7505: A "Null MX" No Service Resource Record](https://www.rfc-editor.org/rfc/rfc7505)
 - [RFC 7208: Sender Policy Framework (SPF)](https://www.rfc-editor.org/rfc/rfc7208)
@@ -2123,6 +2243,14 @@ An old domain carries history that a new one can't buy: years of backlinks from 
 When a company closes or a partnership ends, decide who keeps each domain and for how long. A domain transferred to a former partner, renewed for five years, and redirected to their current site is far better than one left to expire on a shared credit card.
 
 Related: [using old sources as evidence of expertise](https://christopherabraham.com/guides/third-party-proof/) and [choosing sameAs links carefully](https://christopherabraham.com/guides/two-names-one-entity/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [ICANN: gTLD lifecycle](https://www.icann.org/resources/pages/gtld-lifecycle-2012-02-25-en)
@@ -2221,6 +2349,14 @@ Open the file in a browser and read it as a stranger would. Then paste its URL i
 
 This site publishes all of these: [llms.txt](https://christopherabraham.com/llms.txt), [llms-full.txt](https://christopherabraham.com/llms-full.txt), and a Markdown copy of every page. For the wider picture, see the [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [The llms.txt proposal](https://llmstxt.org/)
 - [Google Search Central: Introduction to robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro)
@@ -2301,6 +2437,14 @@ On a site built with a generator, the simplest guardrail is a build check: fail 
 Everything the keywords tag once promised now comes from elsewhere: the title tag, the H1, the opening paragraph, descriptive headings, internal anchor text, and structured data. If you have an hour for SEO, spend fifty-nine minutes on those and one on the keywords tag.
 
 For the elements that do carry weight, see [on-page SEO](https://christopherabraham.com/services/on-page-seo/). Terms are defined in the [glossary](https://christopherabraham.com/guides/glossary/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [Google Search Central Blog: Google does not use the keywords meta tag in web ranking (2009)](https://developers.google.com/search/blog/2009/09/google-does-not-use-keywords-meta-tag)
@@ -2387,6 +2531,14 @@ Accessibility decays as content is added: a new image without alt text, a color 
 
 Related: [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/) and [on-page SEO](https://christopherabraham.com/services/on-page-seo/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [W3C: Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)
 - [W3C: Understanding contrast (minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)
@@ -2448,6 +2600,14 @@ The Justice Department considers business websites covered by the ADA, and nearl
 **A site that reads cleanly in the Lynx text browser is already way more than halfway to accessible, and way more than halfway to readable by machines.**
 
 Run Lighthouse or PageSpeed Insights and watch the Accessibility, SEO, and Agentic Browsing scores together; they tend to rise as a group. Then look at the page in a text browser, as described in [the Lynx test](https://christopherabraham.com/guides/lynx-test/), to see what screen readers and crawlers both receive. No badge, no overlay, no announcement needed. Just a better site.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [W3C: Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)
@@ -2532,6 +2692,14 @@ Hidden text, leftover placeholder copy, and duplicated blocks from a page builde
 
 If the Lynx view of an important page is thin, that's the starting point for [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/) work. For the accessibility side of the same coin, see [website accessibility without overlays](https://christopherabraham.com/guides/accessible-websites/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Lynx project home](https://lynx.invisible-island.net/)
 - [Google Search Central: JavaScript SEO basics](https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics)
@@ -2589,6 +2757,14 @@ Fixed price suits a well defined deliverable, such as an audit, a migration plan
 ## Where I fit
 
 I'm a technical SEO consultant on Upwork, and I like postings that ask hard questions, because they're the ones where I can show my thinking. If your problem sounds like indexing, rendering, migrations, local listings, or AI search visibility, [tell me what happened](https://christopherabraham.com/contact/), or see how I work on [hiring me](https://christopherabraham.com/hire-me/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [Google Search Central: Do you need an SEO?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo)
@@ -2653,6 +2829,14 @@ A rename lands better when regulars hear it from you before they notice it on a 
 
 Renaming soon? I can plan the sequence and handle the listings and the website side. See [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/) or [tell me about the change](https://christopherabraham.com/contact/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Business Profile Help: Edit your Business Profile](https://support.google.com/business/answer/3039617)
 - [Google Business Profile Help: Guidelines for representing your business on Google](https://support.google.com/business/answer/3038177)
@@ -2716,6 +2900,14 @@ On the day, Google shows your special hours in place of the regular ones. Search
 
 Running several locations, or not sure your listing shows what you think it does? See [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/), or [send me the listing](https://christopherabraham.com/contact/) and I'll take a look.
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Business Profile Help: How to set special hours](https://support.google.com/business/answer/6303076)
 - [Google Business Profile Help: Edit your Business Profile](https://support.google.com/business/answer/3039617)
@@ -2774,6 +2966,14 @@ Google describes core updates as broad changes that don't target specific sites,
 ## What I'd watch next
 
 Expect another core update before the year ends, and more enforcement against manipulation of AI answers. Sites built on original work have done well through all of 2026; sites built on volume have struggled. For the AI side of visibility, see [my AI search checklist](https://christopherabraham.com/guides/ai-search-checklist/), or [send me the domain and the date your traffic changed](https://christopherabraham.com/contact/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [Google Search Status Dashboard: Ranking incident history](https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history)
@@ -2839,6 +3039,14 @@ One agency's ad this month promises a 100 percent success rate at increasing AI 
 ## How I use all this
 
 Every guide on this site starts with these sources and ends with a list of them, so you can check my work the same way. For what the news has added up to this year, see [my recovery checklist for 2026 Google updates](https://christopherabraham.com/guides/update-recovery-2026/) and [my AI search checklist](https://christopherabraham.com/guides/ai-search-checklist/), or [ask me what a headline means for your site](https://christopherabraham.com/contact/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [Google Search Central Blog](https://developers.google.com/search/blog)
@@ -2930,6 +3138,14 @@ Keep WordPress, your theme, and your plugins updated; hacked sites get spam page
 
 Inherited a WordPress site and not sure what's been done to it? [Send me the address](https://christopherabraham.com/contact/) and I'll tell you what I'd fix first, or see how I handle [WordPress SEO for clients](https://christopherabraham.com/services/wordpress-seo/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Yoast: We are launching an IndexNow integration in Yoast SEO](https://yoast.com/why-an-indexnow-integration/)
 - [WordPress.org: Settings Reading screen](https://wordpress.org/documentation/article/settings-reading-screen/)
@@ -2993,6 +3209,14 @@ Even though Cloudflare can cost nothing, when a WordPress site runs through it I
 If a site runs on a hosted builder such as Shopify, Squarespace, or Wix, the builder already provides a CDN and certificates. Cloudflare can still hold the domain and answer DNS, but keep those records gray and follow the builder's own connection instructions. Some managed WordPress hosts also bundle Cloudflare or their own CDN; ask before stacking two.
 
 For the rest of the WordPress basics, see [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), and for what the speed scores mean, my [Core Web Vitals guide](https://christopherabraham.com/guides/core-web-vitals/). Want Cloudflare set up on your site without the guesswork? [Tell me about it](https://christopherabraham.com/contact/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [Cloudflare Docs: Default cache behavior](https://developers.cloudflare.com/cache/concepts/default-cache-behavior/)
@@ -3058,6 +3282,14 @@ Clients sometimes run their pages through an AI detector and panic at the score.
 ## How I work
 
 I use AI tools every day, for research, drafts, and checking my own work. Every guide on this site is drafted with AI assistance under my direction, checked claim by claim against named sources, and published with those sources listed at the bottom. That is the standard I'd hold any client's site to. For the broader picture of this year's updates, see [my 2026 update recovery checklist](https://christopherabraham.com/guides/update-recovery-2026/); if you're worried about pages you've already published, [send me the site](https://christopherabraham.com/contact/) and I'll tell you which ones need a human pass.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [Google Search Central: Google Search's guidance about AI-generated content (2023)](https://developers.google.com/search/blog/2023/02/google-search-and-ai-content)
@@ -3194,6 +3426,14 @@ The math is embarrassing in hindsight. $279 a year is about 76 cents a day. One 
 
 If you want to see what a properly configured crawl turns up on your own site, [that's where my audits start](https://christopherabraham.com/services/seo-audit/). For what the finished audit should look like, see [what a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Screaming Frog: SEO Spider pricing (free vs paid features, licence tiers)](https://www.screamingfrog.co.uk/seo-spider/pricing/)
 - [Screaming Frog: SEO Spider overview and feature list](https://www.screamingfrog.co.uk/seo-spider/)
@@ -3261,6 +3501,14 @@ For the broader hiring checklist, see [how to hire an SEO on Upwork](https://chr
 ## Work with me
 
 I've built websites since 1994 and practiced SEO since 1998, and today I work the way modern sites are built: in the repository, through pull requests, with AI coding assistants doing the heavy reading under my direction. If your site lives in GitHub and your SEO lives in a spreadsheet, [send me the site](https://christopherabraham.com/contact/) or see my [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), and [technical audit](https://christopherabraham.com/services/seo-audit/) services. I'll tell you what the code is doing to your search visibility and how to fix it.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [Git: A short history of Git](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
@@ -3335,6 +3583,14 @@ After the changes ship, crawl again with the same settings and compare the two c
 
 This is part of the full crawl and repair work I describe on [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/). If heading and title patterns are the main issue, see [on-page SEO](https://christopherabraham.com/services/on-page-seo/). Unfamiliar terms are in the [glossary](https://christopherabraham.com/guides/glossary/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Search Central: SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
 - [Google Search Central: How to specify a canonical URL](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)
@@ -3407,6 +3663,14 @@ Check a few rows by hand before you trust a recipe. View the source of one page,
 
 Custom extraction is how I make a full crawl answer the specific questions in a [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) engagement. For the licence question itself, read [whether a Screaming Frog licence is worth it](https://christopherabraham.com/guides/screaming-frog-licence/), and for two problems these recipes surface constantly, see [finding near duplicates and multiple H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Screaming Frog: Web scraping and data extraction](https://www.screamingfrog.co.uk/seo-spider/tutorials/web-scraping/)
 - [Screaming Frog: SEO Spider configuration](https://www.screamingfrog.co.uk/seo-spider/user-guide/configuration/)
@@ -3471,6 +3735,14 @@ A clean crawl proves what your site serves. Search Console shows what Google has
 A verification note after each release can be short: the two crawl dates, the counts in Removed and Added for each targeted issue, a list of any URLs that didn't change and why, and the Search Console validation status with its date. It turns "fixed" into a record anyone can check, and it catches the missed template before Google does.
 
 Verification is built into my [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) work and every [site migration](https://christopherabraham.com/services/migrations/). The extractors I use for before and after comparisons are in [Screaming Frog custom extraction recipes](https://christopherabraham.com/guides/custom-extraction/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
 - [Screaming Frog: How to compare crawls](https://www.screamingfrog.co.uk/seo-spider/tutorials/how-to-compare-crawls/)
@@ -3630,6 +3902,14 @@ A permanent forwarding instruction from an old address to a new one, which passe
 A machine-readable list of the addresses a site wants crawled, often with the date each last changed.
 
 These terms are used throughout the [guides](https://christopherabraham.com/guides/) and [services](https://christopherabraham.com/services/) pages.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 **[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 

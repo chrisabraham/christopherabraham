@@ -60,6 +60,14 @@ Keep the same question set and run it once a month. Track which errors disappear
 
 For businesses, the full approach is under [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/). For people, the companion guides are [one person, two names](https://christopherabraham.com/guides/two-names-one-entity/) and [writing an About page AI trusts](https://christopherabraham.com/guides/about-page-ai/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Search Central: AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)
 - [Google Search Central: Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)

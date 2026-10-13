@@ -51,6 +51,14 @@ When a company closes or a partnership ends, decide who keeps each domain and fo
 
 Related: [using old sources as evidence of expertise](https://christopherabraham.com/guides/third-party-proof/) and [choosing sameAs links carefully](https://christopherabraham.com/guides/two-names-one-entity/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [ICANN: gTLD lifecycle](https://www.icann.org/resources/pages/gtld-lifecycle-2012-02-25-en)
 - [Internet Archive: Wayback Machine](https://web.archive.org/)

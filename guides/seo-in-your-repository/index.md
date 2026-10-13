@@ -55,6 +55,14 @@ For the broader hiring checklist, see [how to hire an SEO on Upwork](https://chr
 
 I've built websites since 1994 and practiced SEO since 1998, and today I work the way modern sites are built: in the repository, through pull requests, with AI coding assistants doing the heavy reading under my direction. If your site lives in GitHub and your SEO lives in a spreadsheet, [send me the site](https://christopherabraham.com/contact/) or see my [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), and [technical audit](https://christopherabraham.com/services/seo-audit/) services. I'll tell you what the code is doing to your search visibility and how to fix it.
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Git: A short history of Git](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
 - [Anthropic: Claude Code overview](https://code.claude.com/docs/en/overview)

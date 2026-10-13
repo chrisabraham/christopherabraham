@@ -57,6 +57,12 @@
 &lt;p&gt;A verification note after each release can be short: the two crawl dates, the counts in Removed and Added for each targeted issue, a list of any URLs that didn't change and why, and the Search Console validation status with its date. It turns "fixed" into a record anyone can check, and it catches the missed template before Google does.&lt;/p&gt;
 
 &lt;p&gt;Verification is built into my &lt;a href="https://christopherabraham.com/services/sitewide-technical-seo/"&gt;sitewide technical SEO&lt;/a&gt; work and every &lt;a href="https://christopherabraham.com/services/migrations/"&gt;site migration&lt;/a&gt;. The extractors I use for before and after comparisons are in &lt;a href="https://christopherabraham.com/guides/custom-extraction/"&gt;Screaming Frog custom extraction recipes&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://www.screamingfrog.co.uk/seo-spider/tutorials/how-to-compare-crawls/"&gt;Screaming Frog: How to compare crawls&lt;/a&gt;&lt;/li&gt;
@@ -125,6 +131,12 @@
 
 &lt;h2&gt;Get help&lt;/h2&gt;
 &lt;p&gt;This is part of the full crawl and repair work I describe on &lt;a href="https://christopherabraham.com/services/sitewide-technical-seo/"&gt;sitewide technical SEO&lt;/a&gt;. If heading and title patterns are the main issue, see &lt;a href="https://christopherabraham.com/services/on-page-seo/"&gt;on-page SEO&lt;/a&gt;. Unfamiliar terms are in the &lt;a href="https://christopherabraham.com/guides/glossary/"&gt;glossary&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide"&gt;Google Search Central: SEO Starter Guide&lt;/a&gt;&lt;/li&gt;
@@ -203,6 +215,12 @@
 
 &lt;h2&gt;Where this fits&lt;/h2&gt;
 &lt;p&gt;Custom extraction is how I make a full crawl answer the specific questions in a &lt;a href="https://christopherabraham.com/services/sitewide-technical-seo/"&gt;sitewide technical SEO&lt;/a&gt; engagement. For the licence question itself, read &lt;a href="https://christopherabraham.com/guides/screaming-frog-licence/"&gt;whether a Screaming Frog licence is worth it&lt;/a&gt;, and for two problems these recipes surface constantly, see &lt;a href="https://christopherabraham.com/guides/near-duplicates-and-h1s/"&gt;finding near duplicates and multiple H1s&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://www.screamingfrog.co.uk/seo-spider/tutorials/web-scraping/"&gt;Screaming Frog: Web scraping and data extraction&lt;/a&gt;&lt;/li&gt;
@@ -263,6 +281,12 @@
 
 &lt;h2&gt;What a title cleanup can and cannot fix&lt;/h2&gt;
 &lt;p&gt;A cleaner title gives a searcher a clearer reason to pick your result and gives Google less boilerplate to rewrite. It cannot repair thin pages, broken redirects, or a missing image library. Treat it as one tidy, measurable improvement. If traffic has fallen, keep looking for the larger cause; my guide to &lt;a href="https://christopherabraham.com/guides/update-recovery-2026/"&gt;recovering from a 2026 Google update&lt;/a&gt; walks through finding it, and the &lt;a href="https://christopherabraham.com/guides/redirect-rules/"&gt;ten rules for 301 redirects&lt;/a&gt; cover the migration mistakes that cost the most.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/appearance/title-link"&gt;Google Search Central: Influencing your title links in search results&lt;/a&gt;&lt;/li&gt;
@@ -324,6 +348,12 @@
 &lt;h2&gt;A first project worth attempting&lt;/h2&gt;
 &lt;p&gt;Pick one recurring technical question and a small public sample. Reserve one session for defining the method, another for collecting observations, and a final session for checking the draft against the evidence. Publish only when the numbers, examples, and limitations agree.&lt;/p&gt;
 &lt;p&gt;The result may be a short, useful reference rather than a headline announcement. That is enough. A reader who can repeat your test has something more valuable than an unsupported prediction. For the credibility surrounding the author, see &lt;a href="https://christopherabraham.com/guides/third-party-proof/"&gt;how to document expertise with independent sources&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content"&gt;Google Search Central on helpful content&lt;/a&gt;&lt;/li&gt;
@@ -380,6 +410,12 @@
 &lt;h2&gt;A realistic afternoon of work&lt;/h2&gt;
 &lt;p&gt;Select one strong article. Improve its opening answer, add one verifiable example, repair its references, and link it from a relevant guide. Test the published page and notify the participating engines after the change is live. Then write down what you changed and when you will review it.&lt;/p&gt;
 &lt;p&gt;That is my version of AI catnip: material someone can confidently build on, delivered through a site that works. For a broader technical review, use the &lt;a href="https://christopherabraham.com/guides/ai-search-checklist/"&gt;AI search readiness checklist&lt;/a&gt;. New Guides also appear in the &lt;a href="https://christopherabraham.com/rss.xml"&gt;full text RSS feed&lt;/a&gt;, which can be imported into a feed reader or publishing system.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/appearance/ai-features"&gt;Google Search Central AI features&lt;/a&gt;&lt;/li&gt;
@@ -447,6 +483,12 @@
 
 &lt;h2&gt;Work with me&lt;/h2&gt;
 &lt;p&gt;I've built websites since 1994 and practiced SEO since 1998, and today I work the way modern sites are built: in the repository, through pull requests, with AI coding assistants doing the heavy reading under my direction. If your site lives in GitHub and your SEO lives in a spreadsheet, &lt;a href="https://christopherabraham.com/contact/"&gt;send me the site&lt;/a&gt; or see my &lt;a href="https://christopherabraham.com/services/sitewide-technical-seo/"&gt;sitewide technical SEO&lt;/a&gt;, &lt;a href="https://christopherabraham.com/services/javascript-seo/"&gt;JavaScript SEO&lt;/a&gt;, and &lt;a href="https://christopherabraham.com/services/seo-audit/"&gt;technical audit&lt;/a&gt; services. I'll tell you what the code is doing to your search visibility and how to fix it.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git"&gt;Git: A short history of Git&lt;/a&gt;&lt;/li&gt;
@@ -572,6 +614,12 @@
 &lt;h2&gt;What I'd tell my younger self&lt;/h2&gt;
 &lt;p&gt;The math is embarrassing in hindsight. $279 a year is about 76 cents a day. One recovered redirect, one page that was quietly invisible to Google, or one launch that didn't break pays for years of licences. I spent a decade reading the first 500 URLs of every site and guessing at the rest, when the whole iceberg was right there the whole time.&lt;/p&gt;
 &lt;p&gt;If you want to see what a properly configured crawl turns up on your own site, &lt;a href="https://christopherabraham.com/services/seo-audit/"&gt;that's where my audits start&lt;/a&gt;. For what the finished audit should look like, see &lt;a href="https://christopherabraham.com/guides/seo-audit-deliverables/"&gt;what a technical SEO audit should give you&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://www.screamingfrog.co.uk/seo-spider/pricing/"&gt;Screaming Frog: SEO Spider pricing (free vs paid features, licence tiers)&lt;/a&gt;&lt;/li&gt;
@@ -667,6 +715,12 @@
   &lt;li&gt;&lt;a href="https://search.google.com/search-console/about"&gt;Google Search Console&lt;/a&gt; and &lt;a href="https://pagespeed.web.dev/"&gt;PageSpeed Insights&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Inherited a WordPress site and not sure what's been done to it? &lt;a href="https://christopherabraham.com/contact/"&gt;Send me the address&lt;/a&gt; and I'll tell you what I'd fix first, or see how I handle &lt;a href="https://christopherabraham.com/services/wordpress-seo/"&gt;WordPress SEO for clients&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://yoast.com/why-an-indexnow-integration/"&gt;Yoast: We are launching an IndexNow integration in Yoast SEO&lt;/a&gt;&lt;/li&gt;
@@ -732,6 +786,12 @@
 
 &lt;h2&gt;What I'd watch next&lt;/h2&gt;
 &lt;p&gt;Expect another core update before the year ends, and more enforcement against manipulation of AI answers. Sites built on original work have done well through all of 2026; sites built on volume have struggled. For the AI side of visibility, see &lt;a href="https://christopherabraham.com/guides/ai-search-checklist/"&gt;my AI search checklist&lt;/a&gt;, or &lt;a href="https://christopherabraham.com/contact/"&gt;send me the domain and the date your traffic changed&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history"&gt;Google Search Status Dashboard: Ranking incident history&lt;/a&gt;&lt;/li&gt;
@@ -795,6 +855,12 @@
 
 &lt;h2&gt;How I use all this&lt;/h2&gt;
 &lt;p&gt;Every guide on this site starts with these sources and ends with a list of them, so you can check my work the same way. For what the news has added up to this year, see &lt;a href="https://christopherabraham.com/guides/update-recovery-2026/"&gt;my recovery checklist for 2026 Google updates&lt;/a&gt; and &lt;a href="https://christopherabraham.com/guides/ai-search-checklist/"&gt;my AI search checklist&lt;/a&gt;, or &lt;a href="https://christopherabraham.com/contact/"&gt;ask me what a headline means for your site&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://developers.google.com/search/blog"&gt;Google Search Central Blog&lt;/a&gt;&lt;/li&gt;
@@ -867,6 +933,12 @@
 &lt;p&gt;If a site runs on a hosted builder such as Shopify, Squarespace, or Wix, the builder already provides a CDN and certificates. Cloudflare can still hold the domain and answer DNS, but keep those records gray and follow the builder's own connection instructions. Some managed WordPress hosts also bundle Cloudflare or their own CDN; ask before stacking two.&lt;/p&gt;
 
 &lt;p&gt;For the rest of the WordPress basics, see &lt;a href="https://christopherabraham.com/guides/wordpress-seo-101/"&gt;WordPress SEO 101&lt;/a&gt;, and for what the speed scores mean, my &lt;a href="https://christopherabraham.com/guides/core-web-vitals/"&gt;Core Web Vitals guide&lt;/a&gt;. Want Cloudflare set up on your site without the guesswork? &lt;a href="https://christopherabraham.com/contact/"&gt;Tell me about it&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://developers.cloudflare.com/cache/concepts/default-cache-behavior/"&gt;Cloudflare Docs: Default cache behavior&lt;/a&gt;&lt;/li&gt;
@@ -930,6 +1002,12 @@
 
 &lt;h2&gt;How I work&lt;/h2&gt;
 &lt;p&gt;I use AI tools every day, for research, drafts, and checking my own work. Every guide on this site is drafted with AI assistance under my direction, checked claim by claim against named sources, and published with those sources listed at the bottom. That is the standard I'd hold any client's site to. For the broader picture of this year's updates, see &lt;a href="https://christopherabraham.com/guides/update-recovery-2026/"&gt;my 2026 update recovery checklist&lt;/a&gt;; if you're worried about pages you've already published, &lt;a href="https://christopherabraham.com/contact/"&gt;send me the site&lt;/a&gt; and I'll tell you which ones need a human pass.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://developers.google.com/search/blog/2023/02/google-search-and-ai-content"&gt;Google Search Central: Google Search&amp;#x27;s guidance about AI-generated content (2023)&lt;/a&gt;&lt;/li&gt;
@@ -990,6 +1068,12 @@
 &lt;p&gt;On the day, Google shows your special hours in place of the regular ones. Searchers who check ahead see the right times, and the ones who call get a business that's actually open. It's the smallest piece of local SEO there is, and one of the few with an immediate, visible payoff.&lt;/p&gt;
 
 &lt;p&gt;Running several locations, or not sure your listing shows what you think it does? See &lt;a href="https://christopherabraham.com/services/local-seo/"&gt;local SEO and Google Business Profile&lt;/a&gt;, or &lt;a href="https://christopherabraham.com/contact/"&gt;send me the listing&lt;/a&gt; and I'll take a look.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://support.google.com/business/answer/6303076"&gt;Google Business Profile Help: How to set special hours&lt;/a&gt;&lt;/li&gt;
@@ -1046,6 +1130,12 @@
 
 &lt;h2&gt;Where I fit&lt;/h2&gt;
 &lt;p&gt;I'm a technical SEO consultant on Upwork, and I like postings that ask hard questions, because they're the ones where I can show my thinking. If your problem sounds like indexing, rendering, migrations, local listings, or AI search visibility, &lt;a href="https://christopherabraham.com/contact/"&gt;tell me what happened&lt;/a&gt;, or see how I work on &lt;a href="https://christopherabraham.com/hire-me/"&gt;hiring me&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/fundamentals/do-i-need-seo"&gt;Google Search Central: Do you need an SEO?&lt;/a&gt;&lt;/li&gt;
@@ -1107,6 +1197,12 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Renaming soon? I can plan the sequence and handle the listings and the website side. See &lt;a href="https://christopherabraham.com/services/local-seo/"&gt;local SEO and Google Business Profile&lt;/a&gt; or &lt;a href="https://christopherabraham.com/contact/"&gt;tell me about the change&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://support.google.com/business/answer/3039617"&gt;Google Business Profile Help: Edit your Business Profile&lt;/a&gt;&lt;/li&gt;
@@ -1185,6 +1281,12 @@
 &lt;p&gt;A few weeks after publishing, search each name with your field and city, and ask the major AI assistants who each name is. When they connect the names and describe the same career, the entity has merged. If they don't, look for a profile that contradicts the others.&lt;/p&gt;
 
 &lt;p&gt;Related: &lt;a href="https://christopherabraham.com/guides/correct-ai-answers/"&gt;correcting what AI says about you&lt;/a&gt;, &lt;a href="https://christopherabraham.com/guides/third-party-proof/"&gt;proving expertise with third-party sources&lt;/a&gt;, and &lt;a href="https://christopherabraham.com/services/schema/"&gt;schema markup and entity SEO&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://schema.org/Person"&gt;Schema.org: Person&lt;/a&gt;&lt;/li&gt;
@@ -1251,6 +1353,12 @@
 &lt;p&gt;The best time to collect third-party proof was years ago; the second best is now. Write for publications in your field, speak where talks are published, contribute to projects that credit contributors, and ask satisfied clients for testimonials you're allowed to attribute. Each one becomes a source that confirms you to the next reader, human or machine.&lt;/p&gt;
 
 &lt;p&gt;Related: &lt;a href="https://christopherabraham.com/guides/about-page-ai/"&gt;an About page AI trusts&lt;/a&gt; and &lt;a href="https://christopherabraham.com/guides/two-names-one-entity/"&gt;entity SEO for people with two names&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://services.google.com/fh/files/misc/hsw-sqrg.pdf"&gt;Google Search Quality Rater Guidelines (PDF)&lt;/a&gt;&lt;/li&gt;
@@ -1360,6 +1468,12 @@
 &lt;p&gt;With more than one location, the home page describes the Organization, and each location page describes its own LocalBusiness with &lt;code&gt;parentOrganization&lt;/code&gt; pointing to it. Never describe the company and its first location as the same entity.&lt;/p&gt;
 
 &lt;p&gt;For help with markup that validates and stays accurate, see &lt;a href="https://christopherabraham.com/services/schema/"&gt;schema markup and entity SEO&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"&gt;Google Search Central: Introduction to structured data&lt;/a&gt;&lt;/li&gt;
@@ -1437,6 +1551,12 @@
   &lt;li&gt;Will you verify the fixes?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;My own approach is described under &lt;a href="https://christopherabraham.com/services/seo-audit/"&gt;technical SEO audit&lt;/a&gt;. A worked example: &lt;a href="https://christopherabraham.com/case-studies/scroll-gated-products/"&gt;the scroll-gated product pages case&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content"&gt;Google Search Central: Creating helpful, reliable, people-first content&lt;/a&gt;&lt;/li&gt;
@@ -1504,6 +1624,12 @@
 &lt;p&gt;Migrations are a common moment to review backlinks. Disavow only genuinely manipulative or spammy links, and keep legitimate ones; disavowing good links throws away the equity your redirects are trying to preserve.&lt;/p&gt;
 
 &lt;p&gt;For a full move, see &lt;a href="https://christopherabraham.com/services/migrations/"&gt;site migrations and 301 redirects&lt;/a&gt;, or &lt;a href="https://christopherabraham.com/case-studies/clinic-migration/"&gt;a clinic's redirect decisions URL by URL&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/crawling-indexing/301-redirects"&gt;Google Search Central: Redirects and Google Search&lt;/a&gt;&lt;/li&gt;
@@ -1581,6 +1707,12 @@
 &lt;/ul&gt;
 
 &lt;p&gt;For a full migration from an existing site rather than a parked domain, see &lt;a href="https://christopherabraham.com/services/migrations/"&gt;site migrations and 301 redirects&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site"&gt;GitHub Docs: Managing a custom domain for your GitHub Pages site&lt;/a&gt;&lt;/li&gt;
@@ -1651,6 +1783,12 @@
 
 &lt;h2&gt;When to get help&lt;/h2&gt;
 &lt;p&gt;If the cause isn't obvious after a few inspections, or if important pages keep falling out, a structured diagnosis saves time. See &lt;a href="https://christopherabraham.com/services/indexing/"&gt;indexing repair&lt;/a&gt;, or a real example where &lt;a href="https://christopherabraham.com/case-studies/consent-banner/"&gt;a consent tool caused the exclusions&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://support.google.com/webmasters/answer/7440203"&gt;Search Console Help: Page indexing report&lt;/a&gt;&lt;/li&gt;
@@ -1720,6 +1858,12 @@
 &lt;p&gt;If your website lists an email address, it should be on a domain that really does handle mail. A personal site can happily publish an address hosted elsewhere, while its own domain stays locked down.&lt;/p&gt;
 
 &lt;p&gt;For the full setup of parking a domain on Cloudflare and GitHub Pages, see &lt;a href="https://christopherabraham.com/guides/parked-domain-launch/"&gt;launching a site on a parked domain&lt;/a&gt;. Domains that do send email need SPF, DKIM, and DMARC configured for every service that sends on their behalf, a different job entirely.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://www.rfc-editor.org/rfc/rfc7505"&gt;RFC 7505: A &amp;quot;Null MX&amp;quot; No Service Resource Record&lt;/a&gt;&lt;/li&gt;
@@ -1799,6 +1943,12 @@
 &lt;p&gt;Everything the keywords tag once promised now comes from elsewhere: the title tag, the H1, the opening paragraph, descriptive headings, internal anchor text, and structured data. If you have an hour for SEO, spend fifty-nine minutes on those and one on the keywords tag.&lt;/p&gt;
 
 &lt;p&gt;For the elements that do carry weight, see &lt;a href="https://christopherabraham.com/services/on-page-seo/"&gt;on-page SEO&lt;/a&gt;. Terms are defined in the &lt;a href="https://christopherabraham.com/guides/glossary/"&gt;glossary&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://developers.google.com/search/blog/2009/09/google-does-not-use-keywords-meta-tag"&gt;Google Search Central Blog: Google does not use the keywords meta tag in web ranking (2009)&lt;/a&gt;&lt;/li&gt;
@@ -1869,6 +2019,12 @@
 
 &lt;p&gt;&lt;strong&gt;My rule of thumb: if someone can read your website in Lynx, you're way more than halfway there.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;If the Lynx view of an important page is thin, that's the starting point for &lt;a href="https://christopherabraham.com/services/javascript-seo/"&gt;JavaScript SEO&lt;/a&gt; work. For the accessibility side of the same coin, see &lt;a href="https://christopherabraham.com/guides/accessible-websites/"&gt;website accessibility without overlays&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://lynx.invisible-island.net/"&gt;Lynx project home&lt;/a&gt;&lt;/li&gt;
@@ -1961,6 +2117,12 @@ Phone: +1-703-555-0100. Email: office@example.com.
 &lt;p&gt;Open the file in a browser and read it as a stranger would. Then paste its URL into an AI assistant and ask what the business does. If the answer is accurate and specific, the file is doing its job.&lt;/p&gt;
 
 &lt;p&gt;This site publishes all of these: &lt;a href="https://christopherabraham.com/llms.txt"&gt;llms.txt&lt;/a&gt;, &lt;a href="https://christopherabraham.com/llms-full.txt"&gt;llms-full.txt&lt;/a&gt;, and a Markdown copy of every page. For the wider picture, see the &lt;a href="https://christopherabraham.com/guides/ai-search-checklist/"&gt;AI search readiness checklist&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://llmstxt.org/"&gt;The llms.txt proposal&lt;/a&gt;&lt;/li&gt;
@@ -2030,6 +2192,12 @@ Phone: +1-703-555-0100. Email: office@example.com.
 &lt;p&gt;When a company closes or a partnership ends, decide who keeps each domain and for how long. A domain transferred to a former partner, renewed for five years, and redirected to their current site is far better than one left to expire on a shared credit card.&lt;/p&gt;
 
 &lt;p&gt;Related: &lt;a href="https://christopherabraham.com/guides/third-party-proof/"&gt;using old sources as evidence of expertise&lt;/a&gt; and &lt;a href="https://christopherabraham.com/guides/two-names-one-entity/"&gt;choosing sameAs links carefully&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://www.icann.org/resources/pages/gtld-lifecycle-2012-02-25-en"&gt;ICANN: gTLD lifecycle&lt;/a&gt;&lt;/li&gt;
@@ -2147,6 +2315,12 @@ Phone: +1-703-555-0100. Email: office@example.com.
 &lt;/dl&gt;
 
 &lt;p&gt;These terms are used throughout the &lt;a href="https://christopherabraham.com/guides/"&gt;guides&lt;/a&gt; and &lt;a href="https://christopherabraham.com/services/"&gt;services&lt;/a&gt; pages.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;aside class="author-box" aria-label="About the author"&gt;
   &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
   &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
@@ -2216,6 +2390,12 @@ Phone: +1-703-555-0100. Email: office@example.com.
 &lt;/ul&gt;
 
 &lt;p&gt;For businesses, the full approach is under &lt;a href="https://christopherabraham.com/services/ai-search/"&gt;AI SEO, GEO, and AEO&lt;/a&gt;. For people, the companion guides are &lt;a href="https://christopherabraham.com/guides/two-names-one-entity/"&gt;one person, two names&lt;/a&gt; and &lt;a href="https://christopherabraham.com/guides/about-page-ai/"&gt;writing an About page AI trusts&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/appearance/ai-features"&gt;Google Search Central: AI features and your website&lt;/a&gt;&lt;/li&gt;
@@ -2291,6 +2471,12 @@ Phone: +1-703-555-0100. Email: office@example.com.
 &lt;p&gt;Core Web Vitals won't lift weak content above strong content. But between comparable pages they can tip the balance, and they always affect whether visitors stay. Fix the templates that carry your revenue first.&lt;/p&gt;
 
 &lt;p&gt;For hands-on help, see &lt;a href="https://christopherabraham.com/services/site-speed/"&gt;Core Web Vitals and Cloudflare&lt;/a&gt;. Terms are defined in the &lt;a href="https://christopherabraham.com/guides/glossary/"&gt;glossary&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/appearance/core-web-vitals"&gt;Google Search Central: Understanding Core Web Vitals and Google search results&lt;/a&gt;&lt;/li&gt;
@@ -2375,6 +2561,12 @@ Phone: +1-703-555-0100. Email: office@example.com.
 &lt;h2&gt;Where to start&lt;/h2&gt;
 &lt;p&gt;If you only do three things this month, make them these: confirm crawlers can reach you, confirm your main content is in the HTML, and make your About page and Organization schema say exactly who you are. Everything else builds on those.&lt;/p&gt;
 &lt;p&gt;For help running the checklist against your own site, see &lt;a href="https://christopherabraham.com/services/ai-search/"&gt;AI SEO, GEO, and AEO&lt;/a&gt;. Terms used here are defined in the &lt;a href="https://christopherabraham.com/guides/glossary/"&gt;glossary&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/appearance/ai-features"&gt;Google Search Central: AI features and your website&lt;/a&gt;&lt;/li&gt;
@@ -2442,6 +2634,12 @@ Phone: +1-703-555-0100. Email: office@example.com.
 &lt;p&gt;Accessibility decays as content is added: a new image without alt text, a color tweak, a "click here." Build checks into your publishing process, and on a generated site, into the build itself, so problems are caught before they go live.&lt;/p&gt;
 
 &lt;p&gt;Related: &lt;a href="https://christopherabraham.com/guides/core-web-vitals/"&gt;Core Web Vitals in plain English&lt;/a&gt; and &lt;a href="https://christopherabraham.com/services/on-page-seo/"&gt;on-page SEO&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://www.w3.org/TR/WCAG22/"&gt;W3C: Web Content Accessibility Guidelines (WCAG) 2.2&lt;/a&gt;&lt;/li&gt;
@@ -2505,6 +2703,12 @@ Phone: +1-703-555-0100. Email: office@example.com.
 &lt;h2&gt;Measure both sides&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;A site that reads cleanly in the Lynx text browser is already way more than halfway to accessible, and way more than halfway to readable by machines.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Run Lighthouse or PageSpeed Insights and watch the Accessibility, SEO, and Agentic Browsing scores together; they tend to rise as a group. Then look at the page in a text browser, as described in &lt;a href="https://christopherabraham.com/guides/lynx-test/"&gt;the Lynx test&lt;/a&gt;, to see what screen readers and crawlers both receive. No badge, no overlay, no announcement needed. Just a better site.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://www.w3.org/TR/WCAG22/"&gt;W3C: Web Content Accessibility Guidelines (WCAG) 2.2&lt;/a&gt;&lt;/li&gt;
@@ -2579,6 +2783,12 @@ Phone: +1-703-555-0100. Email: office@example.com.
 &lt;/ul&gt;
 
 &lt;p&gt;Related: &lt;a href="https://christopherabraham.com/guides/third-party-proof/"&gt;finding third-party proof&lt;/a&gt;, &lt;a href="https://christopherabraham.com/guides/correct-ai-answers/"&gt;correcting AI answers&lt;/a&gt;, and an example in practice, &lt;a href="https://christopherabraham.com/about/"&gt;my own About page&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content"&gt;Google Search Central: Creating helpful, reliable, people-first content&lt;/a&gt;&lt;/li&gt;

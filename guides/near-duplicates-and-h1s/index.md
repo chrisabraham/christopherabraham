@@ -62,6 +62,14 @@ After the changes ship, crawl again with the same settings and compare the two c
 
 This is part of the full crawl and repair work I describe on [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/). If heading and title patterns are the main issue, see [on-page SEO](https://christopherabraham.com/services/on-page-seo/). Unfamiliar terms are in the [glossary](https://christopherabraham.com/guides/glossary/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Search Central: SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
 - [Google Search Central: How to specify a canonical URL](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)

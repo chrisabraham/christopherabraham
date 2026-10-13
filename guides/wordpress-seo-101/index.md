@@ -76,6 +76,14 @@ Keep WordPress, your theme, and your plugins updated; hacked sites get spam page
 
 Inherited a WordPress site and not sure what's been done to it? [Send me the address](https://christopherabraham.com/contact/) and I'll tell you what I'd fix first, or see how I handle [WordPress SEO for clients](https://christopherabraham.com/services/wordpress-seo/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Yoast: We are launching an IndexNow integration in Yoast SEO](https://yoast.com/why-an-indexnow-integration/)
 - [WordPress.org: Settings Reading screen](https://wordpress.org/documentation/article/settings-reading-screen/)

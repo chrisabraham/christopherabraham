@@ -67,6 +67,14 @@ Pick one recurring technical question and a small public sample. Reserve one ses
 
 The result may be a short, useful reference rather than a headline announcement. That is enough. A reader who can repeat your test has something more valuable than an unsupported prediction. For the credibility surrounding the author, see [how to document expertise with independent sources](https://christopherabraham.com/guides/third-party-proof/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Search Central on helpful content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
 

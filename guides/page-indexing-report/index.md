@@ -59,6 +59,14 @@ Bing Webmaster Tools has its own URL Inspection and index coverage reports. When
 
 If the cause isn't obvious after a few inspections, or if important pages keep falling out, a structured diagnosis saves time. See [indexing repair](https://christopherabraham.com/services/indexing/), or a real example where [a consent tool caused the exclusions](https://christopherabraham.com/case-studies/consent-banner/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Search Console Help: Page indexing report](https://support.google.com/webmasters/answer/7440203)
 - [Google Search Central: How to specify a canonical URL](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)

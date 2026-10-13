@@ -52,6 +52,14 @@ On the day, Google shows your special hours in place of the regular ones. Search
 
 Running several locations, or not sure your listing shows what you think it does? See [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/), or [send me the listing](https://christopherabraham.com/contact/) and I'll take a look.
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Business Profile Help: How to set special hours](https://support.google.com/business/answer/6303076)
 - [Google Business Profile Help: Edit your Business Profile](https://support.google.com/business/answer/3039617)

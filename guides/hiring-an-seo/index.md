@@ -46,6 +46,14 @@ Fixed price suits a well defined deliverable, such as an audit, a migration plan
 
 I'm a technical SEO consultant on Upwork, and I like postings that ask hard questions, because they're the ones where I can show my thinking. If your problem sounds like indexing, rendering, migrations, local listings, or AI search visibility, [tell me what happened](https://christopherabraham.com/contact/), or see how I work on [hiring me](https://christopherabraham.com/hire-me/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Search Central: Do you need an SEO?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo)
 - [Google Search Central: Spam policies for Google web search](https://developers.google.com/search/docs/essentials/spam-policies)

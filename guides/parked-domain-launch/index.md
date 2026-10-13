@@ -68,6 +68,14 @@ Load the home page, one deep page, and a missing page to see the custom 404. Con
 
 For a full migration from an existing site rather than a parked domain, see [site migrations and 301 redirects](https://christopherabraham.com/services/migrations/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [GitHub Docs: Managing a custom domain for your GitHub Pages site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 - [Cloudflare Docs: Full DNS setup](https://developers.cloudflare.com/dns/zone-setups/full-setup/)

@@ -49,6 +49,14 @@ Google describes core updates as broad changes that don't target specific sites,
 
 Expect another core update before the year ends, and more enforcement against manipulation of AI answers. Sites built on original work have done well through all of 2026; sites built on volume have struggled. For the AI side of visibility, see [my AI search checklist](https://christopherabraham.com/guides/ai-search-checklist/), or [send me the domain and the date your traffic changed](https://christopherabraham.com/contact/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Google Search Status Dashboard: Ranking incident history](https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history)
 - [Google Search Central: Google Search's core updates](https://developers.google.com/search/updates/core-updates)

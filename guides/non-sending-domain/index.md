@@ -60,6 +60,14 @@ If your website lists an email address, it should be on a domain that really doe
 
 For the full setup of parking a domain on Cloudflare and GitHub Pages, see [launching a site on a parked domain](https://christopherabraham.com/guides/parked-domain-launch/). Domains that do send email need SPF, DKIM, and DMARC configured for every service that sends on their behalf, a different job entirely.
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [RFC 7505: A "Null MX" No Service Resource Record](https://www.rfc-editor.org/rfc/rfc7505)
 - [RFC 7208: Sender Policy Framework (SPF)](https://www.rfc-editor.org/rfc/rfc7208)

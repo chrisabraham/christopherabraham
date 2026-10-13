@@ -74,6 +74,14 @@ A few weeks after publishing, search each name with your field and city, and ask
 
 Related: [correcting what AI says about you](https://christopherabraham.com/guides/correct-ai-answers/), [proving expertise with third-party sources](https://christopherabraham.com/guides/third-party-proof/), and [schema markup and entity SEO](https://christopherabraham.com/services/schema/).
 
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
 ## Sources
 - [Schema.org: Person](https://schema.org/Person)
 - [Google Search Central: Introduction to structured data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data)
