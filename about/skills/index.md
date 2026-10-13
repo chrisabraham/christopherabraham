@@ -20,6 +20,7 @@
 - Hunted hydration errors sitewide by loading every URL in scripted headless Chrome and collecting console errors by template.
 
 ## Working in the code
+- Hacked Perl and PHP by the bucketful long before AI coding assistants: Movable Type's Perl CGI scripts, PHP-Nuke and PostNuke portals, and scripts of my own. Reading somebody else's codebase has felt like home ever since.
 - Made metadata changes in a client's Sanity and Vercel codebase through a GitHub pull request the developer reviewed and merged, then verified prerendering. [Headless local business](https://christopherabraham.com/case-studies/headless-local/).
 - Read whole repositories with Claude Code and Codex to trace a crawl finding to the component or import script that causes it, checking every answer against the live site.
 - Built SEO checks into the build of sites I run, so a page with a bad title, a duplicate description, a broken internal link, or borrowed phrasing fails before it publishes. That's how this site is built.
