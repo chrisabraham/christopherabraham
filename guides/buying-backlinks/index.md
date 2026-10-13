@@ -1,0 +1,70 @@
+> Why I refuse backlink campaigns, why FatJoe is the one agency I recommend after a decade as one of its publishers, and Google's rule on paid links to know.
+>
+> Source: https://christopherabraham.com/guides/buying-backlinks/ · Updated 2026-10-13 · By Christopher Abraham
+
+# I turn down backlink work. Here's the one agency I recommend instead
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 13, 2026
+
+I hate backlink campaigns, and I refuse every one I'm offered. That's my choice, and it isn't a verdict on anyone who buys links. Plenty of businesses want them, and they deserve a vendor that won't burn them. So whenever I turn a backlink gig down, I give the same referral, every time: FatJoe. Nobody asked me to say so, and I'm not carrying anyone's water. I'd simply be a hypocrite to stay quiet, because I've been one of their publishers for more than a decade, and my experience with them has been good from start to finish.
+
+## Why I won't do backlink campaigns
+
+A backlink campaign is pitching strangers, haggling over fees, collecting PayPal addresses, chasing posts that were promised and never went live, and checking every month that the links are still there. It's a full time job of follow up, and it's the opposite of the work I'm good at. I diagnose why sites lose traffic, fix how they render and get indexed, and make them readable to search engines and AI answers. That's what my [services](https://christopherabraham.com/services/) cover, and links aren't on the list.
+
+There's also Google's rule, covered below, which puts every paid link in a gray zone I'd rather leave to the people who specialize in it.
+
+## What a decade as a FatJoe publisher has shown me
+
+I see FatJoe from the side most buyers never see: the publisher's. They send me articles for my own site, chrisabraham.com, and here is what that has been like.
+- **I get first refusal on everything.** Every article they offer me, I read first, then publish or turn down. Nothing appears on my site without my say so. A vendor that respects the publisher's editorial control is a vendor whose placements land on sites that still have some.
+- **They pay right away.** When an article goes live and I confirm it, payment follows within hours. Writers, publishers, and influencers who get paid promptly keep working with a service, and that keeps its network full of real sites.
+- **They tee everything up.** The article arrives written, the link and its placement are spelled out, and the confirmation is one reply with the live URL.
+- **They're professional.** A real support team, consistent processes, and no surprises.
+- **They don't do shady things.** In more than ten years, I've never seen them ask for anything that would make me uncomfortable as a site owner.
+
+## What FatJoe offers buyers
+
+FatJoe has operated since 2012 and reports more than 260,000 orders delivered. It sells blogger outreach and placed articles, niche edits, digital PR, press release distribution, local citations, and content writing. It also says every service is white label, which makes it a clean option for an SEO or agency that wants to offer links to its clients without running outreach itself.
+
+Be clear about what you're buying: placed articles on real sites, paid for. That's a different thing from a link a writer gives you because they admire your work. Within the paid category, FatJoe is the only agency I recommend.
+
+## Another name I keep hearing
+
+Rhino Rank, a UK link building agency based in Shrewsbury, gets praised by colleagues whose judgment I trust. It sells curated links on existing articles, guest posts, and a managed service, and it calls itself the original white label link building agency. I have no experience with it at all, so this is secondhand: worth a look, and worth judging by the same tests below.
+
+## Google's rule on paid links
+
+Google's spam policies treat buying or selling links that pass ranking credit as link spam, and Google asks that paid links carry `rel="sponsored"` or `rel="nofollow"`. That applies to every vendor and every hand built campaign alike. Placed articles still bring readers, referral visits, and brand mentions that AI answers can pick up; my guide to [digital PR for AI search](https://christopherabraham.com/guides/earned-mentions/) explains why mentions matter. Decide with your eyes open how much risk you'll accept, and ask any vendor how its placements are marked.
+
+## Five questions for any link vendor
+- **Can I see the sites before I pay?** Real publications with an editorial voice, never a network of identical blogs.
+- **Do those sites have readers?** Estimated search traffic, a publishing history, people who comment or share.
+- **Would I be glad for a customer to read the article?** If not, don't buy it.
+- **What happens if a link disappears?** Ask about replacements before ordering.
+- **Do the publishers get paid promptly?** A vendor that pays late soon has no publishers worth having.
+
+## Disclosure
+
+I've been a publisher in FatJoe's network for more than a decade. FatJoe pays me for articles it places on [chrisabraham.com](https://chrisabraham.com/), each of which I approve or decline before it runs. It pays me nothing for this recommendation, and I have no referral or reseller link. I don't buy links from FatJoe or anyone else, for myself or for clients.
+
+## What I'll do instead
+
+If you came to me for links, the useful conversation is usually about why you think you need them. Often the real problem is that pages aren't indexed, content is hidden from crawlers, or the site gives search engines and AI tools too little to go on. Those I fix. [Send me your URL and what you were hoping links would do](https://christopherabraham.com/contact/), and I'll tell you what I'd look at first.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [FatJoe](https://fatjoe.com/)
+- [Rhino Rank](https://www.rhinorank.io/)
+- [Google Search Central: Spam policies for Google web search (link spam)](https://developers.google.com/search/docs/essentials/spam-policies)
+- [Google Search Central: Qualify your outbound links to Google](https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links)
+- [FTC: Guides Concerning the Use of Endorsements and Testimonials in Advertising (16 CFR Part 255)](https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-255)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)

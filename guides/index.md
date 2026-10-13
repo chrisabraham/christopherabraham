@@ -20,11 +20,15 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Publish original research without a big budget](https://christopherabraham.com/guides/small-original-research/): a manageable question, repeatable method, honest sample, and evidence readers can inspect.
 - [AI catnip for fall 2026](https://christopherabraham.com/guides/ai-catnip/): original evidence, useful answers, crawler access, and realistic expectations for citations.
 - [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/): crawler access, server-rendered content, entities, answer-shaped pages, llms.txt, and measurement.
+- [Digital PR for AI search](https://christopherabraham.com/guides/earned-mentions/): long tail outreach, giving writers something worth using, consistent naming, and the FTC and Google rules on paid coverage.
+- [Why I turn down backlink work, and who I recommend](https://christopherabraham.com/guides/buying-backlinks/): a decade as a FatJoe publisher, what to ask any link vendor, and Google's rule on paid links.
+- [Reddit and AI answers](https://christopherabraham.com/guides/reddit-ai-answers/): why threads shape what Google and ChatGPT say about you, what moderators remove, and honest participation.
 - [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/): five types, example JSON-LD, and the rules that keep it accurate.
 
 ## Migrations and performance
 - [When to keep your brand name in page titles](https://christopherabraham.com/guides/brand-name-in-titles/): where the name earns its place, writing it into the sentence, checking titles after a migration, and testing the change.
 - [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/): inventories, one-to-one maps, chains, 410s, and bulk testing.
+- [SEO for sites built with AI app builders](https://christopherabraham.com/guides/ai-built-websites/): rendering, real links, per page titles, soft 404s, sitemaps, and owning the code.
 - [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/): LCP, INP, and CLS, field versus lab data, and the fixes that usually work.
 
 ## Local listings

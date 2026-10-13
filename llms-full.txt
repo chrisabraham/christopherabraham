@@ -855,11 +855,15 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Publish original research without a big budget](https://christopherabraham.com/guides/small-original-research/): a manageable question, repeatable method, honest sample, and evidence readers can inspect.
 - [AI catnip for fall 2026](https://christopherabraham.com/guides/ai-catnip/): original evidence, useful answers, crawler access, and realistic expectations for citations.
 - [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/): crawler access, server-rendered content, entities, answer-shaped pages, llms.txt, and measurement.
+- [Digital PR for AI search](https://christopherabraham.com/guides/earned-mentions/): long tail outreach, giving writers something worth using, consistent naming, and the FTC and Google rules on paid coverage.
+- [Why I turn down backlink work, and who I recommend](https://christopherabraham.com/guides/buying-backlinks/): a decade as a FatJoe publisher, what to ask any link vendor, and Google's rule on paid links.
+- [Reddit and AI answers](https://christopherabraham.com/guides/reddit-ai-answers/): why threads shape what Google and ChatGPT say about you, what moderators remove, and honest participation.
 - [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/): five types, example JSON-LD, and the rules that keep it accurate.
 
 ## Migrations and performance
 - [When to keep your brand name in page titles](https://christopherabraham.com/guides/brand-name-in-titles/): where the name earns its place, writing it into the sentence, checking titles after a migration, and testing the change.
 - [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/): inventories, one-to-one maps, chains, 410s, and bulk testing.
+- [SEO for sites built with AI app builders](https://christopherabraham.com/guides/ai-built-websites/): rendering, real links, per page titles, soft 404s, sitemaps, and owning the code.
 - [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/): LCP, INP, and CLS, field versus lab data, and the fixes that usually work.
 
 ## Local listings
@@ -2769,6 +2773,274 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 ## Sources
 - [Google Search Central: Do you need an SEO?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo)
 - [Google Search Central: Spam policies for Google web search](https://developers.google.com/search/docs/essentials/spam-policies)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
+Source: https://christopherabraham.com/guides/reddit-ai-answers/
+Updated: 2026-10-13
+
+# Reddit and AI answers: what a moderator wants brands to know
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 13, 2026
+
+Ask Google or ChatGPT which running shoes, accountants, or project tools people actually like, and the answer often leans on a Reddit thread. Brands have noticed, and a lot of them are now trying to plant themselves in those threads. I've moderated a Reddit community of more than 16,000 runners for nine years, so I see that effort from the other side, every week. Here is what works, what gets removed, and why the honest route is also the one that lasts.
+
+## Why Reddit carries so much weight right now
+
+Three things happened in 2024. On February 22, Google announced an expanded partnership that gave it access to Reddit's Data API, the structured feed of posts and comments. In May, OpenAI announced its own Data API deal with Reddit. In December, Reddit launched Reddit Answers, its own AI search that summarizes discussions from across the site. Google's announcement also said the deal doesn't change how it uses public, crawlable content, which Reddit threads have always been.
+
+The result is simple to state. When someone asks an AI assistant a question that real people have argued about, the argument on Reddit is one of the places the answer comes from. A thread where three strangers say your product broke after a month can matter more than your entire product page.
+
+## What moderators remove on sight
+
+Every community writes its own rules, and Reddit's sitewide content policy sits underneath them. Rule 2 asks people to post authentic content in communities where they have a personal interest, and it bans content manipulation, including spam and vote manipulation. Moderators enforce that with pattern recognition. These are the patterns I see most:
+- **The fresh account with a recommendation.** Two days old, no history, and its first comment names a product with enthusiasm no customer has ever felt.
+- **The fake question.** "Has anyone tried this brand?" posted by an account that then answers itself from a second account. Moderators can see posting history, and sock puppets tend to share habits.
+- **The link drop.** A comment that exists to carry a URL, often to a blog post that barely relates to the thread.
+- **The agency voice.** Polished, upbeat, slightly too complete. Reddit readers recognize marketing copy instantly, and they report it.
+- **The pile on.** A sudden run of upvotes on one comment from accounts that never visit the community. That one gets reported to Reddit's own safety teams, and it can take the whole account network down.
+
+Removal is the mild outcome. The worse one is a top comment that says "this is an ad," which then becomes the thing people, and AI summaries, remember about you.
+
+## The legal line in the United States
+
+If an employee, contractor, or paid agency posts about your product without saying so, that is an endorsement with an undisclosed connection. The FTC's Endorsement Guides, revised in 2023, say material connections must be disclosed clearly, and the revision says intermediaries, including advertising agencies, public relations firms, and reputation management companies, can share responsibility for endorsements they know or should know are deceptive. Handing the posting to an agency doesn't move the responsibility off your brand. A plain "I work for the company" is all it takes to stay on the right side of that line.
+
+## What honest participation looks like
+- **Use a named account.** "Jane from the Acme support team" can answer questions in a thread about Acme, and most communities welcome it, because it's useful. Read each community's rules first; some require you to message the moderators before posting as a company.
+- **Show up where you're already discussed.** Search Reddit for your brand name and your product names. Answer the unanswered questions, correct factual errors politely, and say thank you for criticism you plan to act on.
+- **Fix what people complain about.** Then say so in the thread where they complained. A reply that says "you were right, the return policy is now 60 days" does more than any campaign.
+- **Ask before you host anything.** Ask Me Anything sessions, giveaways, and surveys belong in communities whose moderators have agreed in advance.
+- **Give more than you take.** Help in threads that have nothing to do with your product. That history is what makes the occasional mention of your own work believable.
+
+## Use Reddit as research, then answer on your own site
+
+The most underused value of Reddit isn't posting at all. Threads about your category are a free record of the exact questions customers ask, in their own words, and the objections they raise before buying. Collect them, then answer each one properly on your own site: a clear page, a real FAQ, a comparison that admits where you're weaker. Those pages are what AI assistants can quote alongside the thread, and they're the ones you control. My [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/) covers how to make them readable to the answer engines.
+
+## Check what the threads are teaching the machines
+
+Once a month, search Reddit and Google for your brand with "reddit" added, then ask ChatGPT, Gemini, and Perplexity the questions customers ask about your category. Note which threads get cited and what they say. If an AI answer repeats a complaint you've already fixed, the fix belongs in the thread and on your site, and my guide to [correcting what AI search says about you](https://christopherabraham.com/guides/correct-ai-answers/) walks through tracing each claim to its source.
+
+## Where I fit
+
+My own community has nothing for sale and never has; I explain why on [off the clock](https://christopherabraham.com/about/off-the-clock/). That's exactly why I'm useful to a brand that wants to take part properly: I can review how Reddit and the AI answers built from it describe you, tell you which threads matter, and write a participation plan your team can follow without getting banned. [Send me your brand name and category](https://christopherabraham.com/contact/) and I'll tell you what I find.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [Google: An expanded partnership with Reddit (February 22, 2024)](https://blog.google/company-news/inside-google/company-announcements/expanded-reddit-partnership/)
+- [Reddit Rules (Content Policy)](https://redditinc.com/policies/reddit-rules)
+- [FTC: Guides Concerning the Use of Endorsements and Testimonials in Advertising (16 CFR Part 255)](https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-255)
+- [Engadget: Reddit introduces AI-powered Reddit Answers search feature (December 2024)](https://www.engadget.com/social-media/reddit-introduces-ai-powered-reddit-answers-search-feature-140028655.html)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
+Source: https://christopherabraham.com/guides/ai-built-websites/
+Updated: 2026-10-13
+
+# SEO for websites built with AI app builders: what to check before you launch
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 13, 2026
+
+Describe a business to Lovable, Bolt, v0, or a coding assistant, and an afternoon later there's a good looking website. Plenty of founders now launch exactly this way, and I'm all for it. The catch is that a site can look perfect in your browser while search engines and AI crawlers receive something close to an empty page. These are the checks I run on every AI built site, in the order I run them.
+
+## Know how your site renders
+
+Everything else depends on one question: does the server send finished HTML, or does it send a script that builds the page in the visitor's browser? The second approach, client side rendering, is how many React single page apps work. Google can render JavaScript, but its own documentation describes rendering as a separate step after crawling, and recommends server side rendering or prerendering because it's faster for everyone and because not every bot runs JavaScript. Many AI crawlers fetch the raw HTML and stop there.
+
+Defaults change quickly, so check rather than assume. Lovable is a good example. Its documentation says apps created from May 13, 2026 (June 22, 2026 for Enterprise workspaces) use TanStack Start, which renders pages on the server. Older Lovable apps are React and Vite apps that render in the browser; for those, Lovable serves prerendered copies of published pages to verified search engines, social preview bots, and AI crawlers, and it offers an upgrade path to the newer stack. If your site was built before the change, find out which one you have.
+
+## The two minute test
+
+Open a page, then open its source with View Source (not the inspector, which shows the page after scripts run). Search the source for a sentence from the middle of the page. If it's there, crawlers that don't run JavaScript can read it. If the source is mostly a single empty `div` and a script tag, your content exists only after rendering. For a fuller picture, run the URL through Search Console's URL Inspection tool and look at the rendered HTML Google captured. My [text browser test](https://christopherabraham.com/guides/lynx-test/) is another quick way to see a page the way the simplest bots do.
+
+## Check that every page has its own address
+
+Search engines index URLs. If the "Services" and "About" sections are views inside one page, or live behind a `#` in the address, they may never be indexed as pages at all. Each page you want found needs its own clean path, such as `/services/`, that loads that page directly when someone pastes it into a new tab.
+
+## Check the links are real links
+
+Generated code often moves between pages with a button and a click handler. It works for people and is invisible to crawlers. Google says plainly that it can follow links only when they're `<a>` elements with an `href`. Crawl the site with a crawler such as Screaming Frog; if it finds only the home page, your navigation is the reason. Ask the builder to change navigation to its router's link component, which produces real anchors.
+
+## Check titles and descriptions per page
+
+A common result of a fast build is one title, written for the home page, on every URL. Look at the browser tab on five different pages. Each needs its own title and meta description, present in the HTML the server sends. The same goes for the canonical tag: one that points every page at the home page tells Google to ignore the rest.
+
+## Check what a missing page returns
+
+Type a nonsense address on your site. Single page apps often show a friendly "not found" message while telling crawlers everything is fine, with a 200 status code. Google calls these soft 404s, and a site with many of them wastes crawling on pages that don't exist. A missing page should return a real 404, and a moved page a 301 redirect.
+
+## Give crawlers a map and an open door
+- **A sitemap.** An XML sitemap listing every real page, submitted in Google Search Console and Bing Webmaster Tools.
+- **A robots.txt that allows the bots you want.** Check it by hand; generated files sometimes block everything, a leftover from a staging setup.
+- **Structured data.** Organization or LocalBusiness markup in the server HTML, matching what the page says. My [small business schema guide](https://christopherabraham.com/guides/small-business-schema/) has examples.
+
+## Own the code
+
+Most AI builders can sync a project to GitHub. Do it on day one, in an account your business controls. A repository means any developer, or any SEO who works in code, can fix problems at the template level instead of patching pages through a chat window. I explain why that matters in [SEO in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/).
+
+## Where I fit
+
+Rendering problems are my specialty; I once found 2,000 event pages Google had never discovered in a React app, and the [case study](https://christopherabraham.com/case-studies/event-app-links/) shows how. If you built your site with an AI tool and it isn't showing up in search, [send me the URL](https://christopherabraham.com/contact/). I'll tell you what the crawlers see, and if there's a problem, I'll write the fix in a form you can paste straight back into the builder. More on that work is on my [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/) page.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [Lovable Documentation: FAQ (rendering and SEO)](https://docs.lovable.dev/introduction/faq)
+- [Google Search Central: Understand the JavaScript SEO basics](https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics)
+- [Google Search Central: Dynamic rendering as a workaround](https://developers.google.com/search/docs/crawling-indexing/javascript/dynamic-rendering)
+- [Google Search Central: Make your links crawlable](https://developers.google.com/search/docs/crawling-indexing/links-crawlable)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
+Source: https://christopherabraham.com/guides/earned-mentions/
+Updated: 2026-10-13
+
+# Digital PR for AI search: how to earn mentions the answer engines repeat
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 13, 2026
+
+When an AI assistant describes your company, it isn't reading your About page alone. It's drawing on what other people have written: trade press, local news, newsletters, review roundups, niche sites, interviews. Those mentions used to be valued mostly for the links they carried. Now the words themselves travel into the answers. I've been earning that kind of coverage for clients since I helped develop long tail blogger outreach in 2006, and the fundamentals have barely changed. The stakes have.
+
+## Why mentions matter more than they used to
+
+A link tells a search engine that one page points to another. A mention tells a reader, and a language model, what you are: "the neighborhood bakery known for its sourdough," "the accountant who specializes in restaurants." AI answers are built from sentences like those, gathered across many sources. If ten independent sites describe you the same accurate way, that description tends to become the answer. If the only sentences about you are your own, the machines have little to confirm them with.
+
+## Aim at the long tail
+
+Everyone wants the national newspaper. Far fewer people pitch the newsletter with 4,000 devoted readers in your exact niche, the trade association's blog, the local business journal, or the hobbyist site that has covered your category for a decade. Those outlets are easier to reach, their writers know the subject, and their coverage is usually more specific, which is exactly what makes a mention useful to an AI answer. Twenty small, accurate mentions beat one big vague one.
+
+## Give writers something worth using
+- **Original numbers.** A small survey, a count from your own records, a price index. Writers need facts nobody else has. My guide to [original research on a small budget](https://christopherabraham.com/guides/small-original-research/) shows how to produce them honestly.
+- **A quotable expert.** A founder or specialist who answers a reporter's question in two clear sentences, on deadline, gets quoted again.
+- **Real access.** A product to test, a behind the scenes visit, a straight answer about a mistake. Writers remember who was easy to work with.
+- **A pitch about them.** Read what the writer has published, and explain in three sentences why this fits their readers. A personal note to one writer outperforms a blast to five hundred.
+
+## Say your name the same way every time
+
+A mention only helps if machines can connect it to you. Use one consistent business name, one description, and the same founder name everywhere, and make sure your own site states those facts plainly, with structured data that ties your profiles together. If you trade under two names, my guide to [connecting two names into one entity](https://christopherabraham.com/guides/two-names-one-entity/) covers the method.
+
+## The rules on paying
+
+Paying for coverage isn't forbidden, but it changes what you must disclose. In the United States, the FTC's Endorsement Guides, revised in 2023, require clear disclosure of any material connection between a brand and the person talking about it: payment, free product, or employment. The revision also says agencies, PR firms, and reputation management companies can share liability for deceptive endorsements they help create. In August 2024 the FTC announced a separate final rule banning fake reviews and testimonials, including ones attributed to people who don't exist, which took effect that October.
+
+Google has its own rule. Its spam policies treat buying or selling links that pass ranking credit as link spam, and it asks that paid placements carry `rel="sponsored"`. A sponsored article can still describe you well; it just shouldn't pretend to be editorial or pass link value.
+
+## Measure mentions, not only links
+
+Keep a simple log: outlet, date, the sentence that describes you, and whether it's accurate. Then, monthly, ask ChatGPT, Gemini, and Perplexity the questions your customers ask and see which of those sentences come back. When an answer is wrong, trace the claim to its source; my guide to [correcting AI answers](https://christopherabraham.com/guides/correct-ai-answers/) explains how.
+
+## Where I fit
+
+I've taught influencer marketing as a guest lecturer at Georgetown, run outreach teams, and spent years on both sides of the pitch: as the person asking for coverage and as an editor deciding what to run. If you want an outreach plan that earns accurate mentions without buying anything you'd have to hide, [tell me who you are and who you want to reach](https://christopherabraham.com/contact/). More about my background is on the [About page](https://christopherabraham.com/about/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [FTC: Guides Concerning the Use of Endorsements and Testimonials in Advertising (16 CFR Part 255)](https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-255)
+- [FTC: Federal Trade Commission announces final rule banning fake reviews and testimonials (August 2024)](https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials)
+- [Google Search Central: Spam policies for Google web search (link spam)](https://developers.google.com/search/docs/essentials/spam-policies)
+- [Google Search Central: Qualify your outbound links to Google](https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
+Source: https://christopherabraham.com/guides/buying-backlinks/
+Updated: 2026-10-13
+
+# I turn down backlink work. Here's the one agency I recommend instead
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 13, 2026
+
+I hate backlink campaigns, and I refuse every one I'm offered. That's my choice, and it isn't a verdict on anyone who buys links. Plenty of businesses want them, and they deserve a vendor that won't burn them. So whenever I turn a backlink gig down, I give the same referral, every time: FatJoe. Nobody asked me to say so, and I'm not carrying anyone's water. I'd simply be a hypocrite to stay quiet, because I've been one of their publishers for more than a decade, and my experience with them has been good from start to finish.
+
+## Why I won't do backlink campaigns
+
+A backlink campaign is pitching strangers, haggling over fees, collecting PayPal addresses, chasing posts that were promised and never went live, and checking every month that the links are still there. It's a full time job of follow up, and it's the opposite of the work I'm good at. I diagnose why sites lose traffic, fix how they render and get indexed, and make them readable to search engines and AI answers. That's what my [services](https://christopherabraham.com/services/) cover, and links aren't on the list.
+
+There's also Google's rule, covered below, which puts every paid link in a gray zone I'd rather leave to the people who specialize in it.
+
+## What a decade as a FatJoe publisher has shown me
+
+I see FatJoe from the side most buyers never see: the publisher's. They send me articles for my own site, chrisabraham.com, and here is what that has been like.
+- **I get first refusal on everything.** Every article they offer me, I read first, then publish or turn down. Nothing appears on my site without my say so. A vendor that respects the publisher's editorial control is a vendor whose placements land on sites that still have some.
+- **They pay right away.** When an article goes live and I confirm it, payment follows within hours. Writers, publishers, and influencers who get paid promptly keep working with a service, and that keeps its network full of real sites.
+- **They tee everything up.** The article arrives written, the link and its placement are spelled out, and the confirmation is one reply with the live URL.
+- **They're professional.** A real support team, consistent processes, and no surprises.
+- **They don't do shady things.** In more than ten years, I've never seen them ask for anything that would make me uncomfortable as a site owner.
+
+## What FatJoe offers buyers
+
+FatJoe has operated since 2012 and reports more than 260,000 orders delivered. It sells blogger outreach and placed articles, niche edits, digital PR, press release distribution, local citations, and content writing. It also says every service is white label, which makes it a clean option for an SEO or agency that wants to offer links to its clients without running outreach itself.
+
+Be clear about what you're buying: placed articles on real sites, paid for. That's a different thing from a link a writer gives you because they admire your work. Within the paid category, FatJoe is the only agency I recommend.
+
+## Another name I keep hearing
+
+Rhino Rank, a UK link building agency based in Shrewsbury, gets praised by colleagues whose judgment I trust. It sells curated links on existing articles, guest posts, and a managed service, and it calls itself the original white label link building agency. I have no experience with it at all, so this is secondhand: worth a look, and worth judging by the same tests below.
+
+## Google's rule on paid links
+
+Google's spam policies treat buying or selling links that pass ranking credit as link spam, and Google asks that paid links carry `rel="sponsored"` or `rel="nofollow"`. That applies to every vendor and every hand built campaign alike. Placed articles still bring readers, referral visits, and brand mentions that AI answers can pick up; my guide to [digital PR for AI search](https://christopherabraham.com/guides/earned-mentions/) explains why mentions matter. Decide with your eyes open how much risk you'll accept, and ask any vendor how its placements are marked.
+
+## Five questions for any link vendor
+- **Can I see the sites before I pay?** Real publications with an editorial voice, never a network of identical blogs.
+- **Do those sites have readers?** Estimated search traffic, a publishing history, people who comment or share.
+- **Would I be glad for a customer to read the article?** If not, don't buy it.
+- **What happens if a link disappears?** Ask about replacements before ordering.
+- **Do the publishers get paid promptly?** A vendor that pays late soon has no publishers worth having.
+
+## Disclosure
+
+I've been a publisher in FatJoe's network for more than a decade. FatJoe pays me for articles it places on [chrisabraham.com](https://chrisabraham.com/), each of which I approve or decline before it runs. It pays me nothing for this recommendation, and I have no referral or reseller link. I don't buy links from FatJoe or anyone else, for myself or for clients.
+
+## What I'll do instead
+
+If you came to me for links, the useful conversation is usually about why you think you need them. Often the real problem is that pages aren't indexed, content is hidden from crawlers, or the site gives search engines and AI tools too little to go on. Those I fix. [Send me your URL and what you were hoping links would do](https://christopherabraham.com/contact/), and I'll tell you what I'd look at first.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [FatJoe](https://fatjoe.com/)
+- [Rhino Rank](https://www.rhinorank.io/)
+- [Google Search Central: Spam policies for Google web search (link spam)](https://developers.google.com/search/docs/essentials/spam-policies)
+- [Google Search Central: Qualify your outbound links to Google](https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links)
+- [FTC: Guides Concerning the Use of Endorsements and Testimonials in Advertising (16 CFR Part 255)](https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-255)
 
 **[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
@@ -4997,6 +5269,10 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Accessibility as SEO: the search, AI, and trust dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/): WCAG fixes pay off more than once: alt text, headings, link text, labels, and captions lift rankings, AI answers, agent browsing, and trust, and cut legal risk.
 - [The Lynx test: see your website the way crawlers and AI read it](https://christopherabraham.com/guides/lynx-test/): Lynx, a text browser, shows what search engines and AI crawlers that skip JavaScript receive. How to install it, what to check, and online alternatives.
 - [How to hire an SEO on Upwork: the questions that reveal real skill](https://christopherabraham.com/guides/hiring-an-seo/): How to vet an SEO consultant on Upwork: the screening questions that expose real skill, what good answers sound like, the red flags, and a safer first step.
+- [Reddit and AI answers: what a moderator wants brands to know](https://christopherabraham.com/guides/reddit-ai-answers/): Why Reddit threads now shape Google and ChatGPT answers about your business, what moderators remove on sight, and the honest ways a brand can take part.
+- [SEO for websites built with AI app builders: what to check before you launch](https://christopherabraham.com/guides/ai-built-websites/): AI app builders ship a site in an afternoon. Here is how to check that Google and AI crawlers can read it: rendering, links, titles, status codes, and sitemaps.
+- [Digital PR for AI search: how to earn mentions the answer engines repeat](https://christopherabraham.com/guides/earned-mentions/): AI answers repeat what other sites say about you. How to earn honest mentions in the press, newsletters, and niche sites, plus the FTC and Google rules on pay.
+- [I turn down backlink work. Here's the one agency I recommend instead](https://christopherabraham.com/guides/buying-backlinks/): Why I refuse backlink campaigns, why FatJoe is the one agency I recommend after a decade as one of its publishers, and Google's rule on paid links to know.
 - [How to change a business name without losing your Google reviews](https://christopherabraham.com/guides/business-name-change/): How to rename a business without losing its Google Business Profile, reviews, or rankings: edit the existing listing, sequence the change, and update the web.
 - [Holiday hours on Google: set them before you need them](https://christopherabraham.com/guides/holiday-hours/): How and when to set special hours on Google for Thanksgiving, December, and New Year, when to mark a business temporarily closed, and what searchers see.
 - [Hit by a 2026 Google update? A recovery checklist that works](https://christopherabraham.com/guides/update-recovery-2026/): How to tell whether a 2026 Google core or spam update hit your site, rule out reporting quirks, find the pages that lost, and fix them in the right order.

@@ -1,0 +1,45 @@
+name: SEO for AI Built Websites
+title: SEO for sites built with AI app builders like Lovable
+description: AI app builders ship a site in an afternoon. Here is how to check that Google and AI crawlers can read it: rendering, links, titles, status codes, and sitemaps.
+type: guide
+published: 2026-10-13
+keywords: vibe coding SEO, Lovable SEO, AI website builder SEO, JavaScript rendering, client side rendering
+sources: Lovable Documentation: FAQ (rendering and SEO) | https://docs.lovable.dev/introduction/faq ;; Google Search Central: Understand the JavaScript SEO basics | https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics ;; Google Search Central: Dynamic rendering as a workaround | https://developers.google.com/search/docs/crawling-indexing/javascript/dynamic-rendering ;; Google Search Central: Make your links crawlable | https://developers.google.com/search/docs/crawling-indexing/links-crawlable
+about: Search engine optimization | https://en.wikipedia.org/wiki/Search_engine_optimization ;; Vibe coding | https://en.wikipedia.org/wiki/Vibe_coding
+mentions: Single-page application | https://en.wikipedia.org/wiki/Single-page_application ;; React (software) | https://en.wikipedia.org/wiki/React_(software) ;; Vite (software) | https://en.wikipedia.org/wiki/Vite_(software) ;; Server-side scripting | https://en.wikipedia.org/wiki/Server-side_scripting ;; Googlebot | https://en.wikipedia.org/wiki/Googlebot
+updated: 2026-10-13
+---
+<h1>SEO for websites built with AI app builders: what to check before you launch</h1>
+<p class="lead">Describe a business to Lovable, Bolt, v0, or a coding assistant, and an afternoon later there's a good looking website. Plenty of founders now launch exactly this way, and I'm all for it. The catch is that a site can look perfect in your browser while search engines and AI crawlers receive something close to an empty page. These are the checks I run on every AI built site, in the order I run them.</p>
+
+<h2>Know how your site renders</h2>
+<p>Everything else depends on one question: does the server send finished HTML, or does it send a script that builds the page in the visitor's browser? The second approach, client side rendering, is how many React single page apps work. Google can render JavaScript, but its own documentation describes rendering as a separate step after crawling, and recommends server side rendering or prerendering because it's faster for everyone and because not every bot runs JavaScript. Many AI crawlers fetch the raw HTML and stop there.</p>
+<p>Defaults change quickly, so check rather than assume. Lovable is a good example. Its documentation says apps created from May 13, 2026 (June 22, 2026 for Enterprise workspaces) use TanStack Start, which renders pages on the server. Older Lovable apps are React and Vite apps that render in the browser; for those, Lovable serves prerendered copies of published pages to verified search engines, social preview bots, and AI crawlers, and it offers an upgrade path to the newer stack. If your site was built before the change, find out which one you have.</p>
+
+<h2>The two minute test</h2>
+<p>Open a page, then open its source with View Source (not the inspector, which shows the page after scripts run). Search the source for a sentence from the middle of the page. If it's there, crawlers that don't run JavaScript can read it. If the source is mostly a single empty <code>div</code> and a script tag, your content exists only after rendering. For a fuller picture, run the URL through Search Console's URL Inspection tool and look at the rendered HTML Google captured. My <a href="{root}guides/lynx-test/">text browser test</a> is another quick way to see a page the way the simplest bots do.</p>
+
+<h2>Check that every page has its own address</h2>
+<p>Search engines index URLs. If the "Services" and "About" sections are views inside one page, or live behind a <code>#</code> in the address, they may never be indexed as pages at all. Each page you want found needs its own clean path, such as <code>/services/</code>, that loads that page directly when someone pastes it into a new tab.</p>
+
+<h2>Check the links are real links</h2>
+<p>Generated code often moves between pages with a button and a click handler. It works for people and is invisible to crawlers. Google says plainly that it can follow links only when they're <code>&lt;a&gt;</code> elements with an <code>href</code>. Crawl the site with a crawler such as Screaming Frog; if it finds only the home page, your navigation is the reason. Ask the builder to change navigation to its router's link component, which produces real anchors.</p>
+
+<h2>Check titles and descriptions per page</h2>
+<p>A common result of a fast build is one title, written for the home page, on every URL. Look at the browser tab on five different pages. Each needs its own title and meta description, present in the HTML the server sends. The same goes for the canonical tag: one that points every page at the home page tells Google to ignore the rest.</p>
+
+<h2>Check what a missing page returns</h2>
+<p>Type a nonsense address on your site. Single page apps often show a friendly "not found" message while telling crawlers everything is fine, with a 200 status code. Google calls these soft 404s, and a site with many of them wastes crawling on pages that don't exist. A missing page should return a real 404, and a moved page a 301 redirect.</p>
+
+<h2>Give crawlers a map and an open door</h2>
+<ul>
+  <li><strong>A sitemap.</strong> An XML sitemap listing every real page, submitted in Google Search Console and Bing Webmaster Tools.</li>
+  <li><strong>A robots.txt that allows the bots you want.</strong> Check it by hand; generated files sometimes block everything, a leftover from a staging setup.</li>
+  <li><strong>Structured data.</strong> Organization or LocalBusiness markup in the server HTML, matching what the page says. My <a href="{root}guides/small-business-schema/">small business schema guide</a> has examples.</li>
+</ul>
+
+<h2>Own the code</h2>
+<p>Most AI builders can sync a project to GitHub. Do it on day one, in an account your business controls. A repository means any developer, or any SEO who works in code, can fix problems at the template level instead of patching pages through a chat window. I explain why that matters in <a href="{root}guides/seo-in-your-repository/">SEO in your Git repository</a>.</p>
+
+<h2>Where I fit</h2>
+<p>Rendering problems are my specialty; I once found 2,000 event pages Google had never discovered in a React app, and the <a href="{root}case-studies/event-app-links/">case study</a> shows how. If you built your site with an AI tool and it isn't showing up in search, <a href="{root}contact/">send me the URL</a>. I'll tell you what the crawlers see, and if there's a problem, I'll write the fix in a form you can paste straight back into the builder. More on that work is on my <a href="{root}services/javascript-seo/">JavaScript SEO</a> page.</p>
