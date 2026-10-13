@@ -1,0 +1,53 @@
+name: Prove an SEO Fix Worked
+title: How to prove an SEO fix worked: crawl comparison and GSC
+description: Proof that an SEO fix shipped: compare before and after crawls in Screaming Frog, check change detection, then confirm in Search Console with validation.
+type: guide
+published: 2026-10-13
+keywords: crawl comparison, SEO QA, verify SEO fixes, Screaming Frog compare, Search Console validation
+sources: Screaming Frog: How to compare crawls | https://www.screamingfrog.co.uk/seo-spider/tutorials/how-to-compare-crawls/ ;; Google Search Console Help: Page indexing report | https://support.google.com/webmasters/answer/7440203 ;; Google Search Console Help: URL Inspection tool | https://support.google.com/webmasters/answer/9012289
+updated: 2026-10-13
+about: Software quality assurance | https://en.wikipedia.org/wiki/Software_quality_assurance ;; Search engine optimization | https://en.wikipedia.org/wiki/Search_engine_optimization
+mentions: Google Search Console | https://en.wikipedia.org/wiki/Google_Search_Console ;; Web crawler | https://en.wikipedia.org/wiki/Web_crawler
+---
+<h1>How to prove an SEO fix actually worked</h1>
+<p class="lead">"Done" is the most dangerous word in SEO. A developer marks the ticket closed, the CMS shows the new titles, and three months later a crawl finds the old ones still live on half the site. A cache never cleared, a second template was missed, or the change only applied to new pages. I don't call a fix finished until two crawls and Search Console agree that it is. Here is the routine.</p>
+
+<h2>Step 1: crawl before you change anything</h2>
+<p>The baseline is the step people skip, and without it there's nothing to compare. Before any fix ships, crawl the site with the settings you'll use afterward: the same start URL, the same rendering mode, the same exclusions, the same custom extractors. Save it.</p>
+<p>In Screaming Frog, comparison needs a licence and database storage mode, which you switch on under File &gt; Settings &gt; Storage Mode. Database storage saves every crawl automatically and lists it under File &gt; Crawls, and it copes with large sites far better than memory storage. Crawls saved in the old file format can be imported and converted.</p>
+
+<h2>Step 2: crawl again after the release</h2>
+<p>Once the fix is live and caches have cleared, crawl again with identical settings. Then switch to Mode &gt; Compare, pick the two crawls, and run the comparison. The newer crawl becomes Current and the older one Previous.</p>
+
+<h2>Step 3: read the four change columns</h2>
+<p>For every tab and filter, the comparison sorts URLs into four groups, and the difference between them is the whole point:</p>
+<ul>
+  <li><strong>Added:</strong> URLs present in both crawls that have moved into this filter. If the filter is an error, these are new problems on existing pages.</li>
+  <li><strong>Removed:</strong> URLs present in both crawls that have left this filter. For an error filter, these are your fixes.</li>
+  <li><strong>New:</strong> URLs found only in the current crawl.</li>
+  <li><strong>Missing:</strong> URLs found only in the previous crawl.</li>
+</ul>
+<p>If you fixed duplicate titles on 600 product pages, you want to see roughly 600 in Removed under Page Titles &gt; Duplicate, and close to zero in Added. A large New count after a fix that wasn't supposed to create pages tells you something else changed, often a parameter or a pagination pattern now exposed to crawlers.</p>
+
+<h2>Step 4: turn on change detection</h2>
+<p>Filters only notice changes that move a URL between filters. A title rewritten from one acceptable wording to another triggers nothing. For that, open Config &gt; Compare before you run the comparison and select the elements you changed: page titles, meta descriptions, H1s, word count, crawl depth, internal links, structured data, or content. A Change Detection tab then lists every URL where those elements differ between the crawls.</p>
+<p>This is how I answer the question every client eventually asks: did the new titles actually go live everywhere? The tab gives a URL by URL answer, and the pages that didn't change are the ones to chase.</p>
+
+<h2>Step 5: check structure and internal links</h2>
+<p>The Site Structure tab in a comparison shows the directory tree with URLs added and removed, and how crawl depth shifted. The lower window's inlinks view can filter to links added or removed. When a menu change quietly pushes a section of pages one click deeper, this is where it shows up, along with the exact links that went away.</p>
+
+<h2>Comparing staging with live</h2>
+<p>Before a migration or a redesign launches, URL Mapping under Config &gt; Compare lets you compare crawls whose URLs differ. A regex maps the previous crawl's URLs onto the current crawl's, so a staging hostname can be compared page for page with the live site. Run it before launch and you'll catch missing titles, dropped schema, and lost internal links while they're still cheap to fix.</p>
+
+<h2>Step 6: confirm with Google</h2>
+<p>A clean crawl proves what your site serves. Search Console shows what Google has noticed.</p>
+<ul>
+  <li><strong>URL Inspection</strong> on a handful of representative URLs. The live test shows whether Google can index the page as it stands now, and the indexed result shows the version Google currently holds, including its chosen canonical.</li>
+  <li><strong>Validate fix</strong> in the Page indexing report, once every instance of an issue is fixed. Google rechecks the affected URLs and emails you when the fix is confirmed or when it finds one still broken, which stops the validation. Google says this typically takes up to about two weeks and sometimes longer.</li>
+  <li><strong>A smaller sitemap</strong> for speed. Google suggests submitting a sitemap of your most important affected pages and filtering the report to it before validating, since a smaller set can finish sooner.</li>
+</ul>
+
+<h2>Write it down</h2>
+<p>A verification note after each release can be short: the two crawl dates, the counts in Removed and Added for each targeted issue, a list of any URLs that didn't change and why, and the Search Console validation status with its date. It turns "fixed" into a record anyone can check, and it catches the missed template before Google does.</p>
+
+<p>Verification is built into my <a href="{root}services/sitewide-technical-seo/">sitewide technical SEO</a> work and every <a href="{root}services/migrations/">site migration</a>. The extractors I use for before and after comparisons are in <a href="{root}guides/custom-extraction/">Screaming Frog custom extraction recipes</a>.</p>

@@ -70,6 +70,8 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Is a Screaming Frog licence worth $279 a year? Mine was](https://christopherabraham.com/guides/screaming-frog-licence/): Why I finally paid for the Screaming Frog SEO Spider, what the free 500 URL version leaves out, and everything a $279 a year licence can do in 2026.
 - [Why your SEO should work in your Git repository, with AI at their side](https://christopherabraham.com/guides/seo-in-your-repository/): An SEO who can read your codebase and work with Claude Code, Copilot, or ChatGPT fixes causes in templates, not symptoms page by page. What to expect and ask.
 - [How to find near duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Find near duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.
+- [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/): XPath and regex recipes for Screaming Frog custom extraction to audit a site: heading counts, canonicals, robots tags, schema types, alt text, and tag IDs.
+- [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/): Proof that an SEO fix shipped: compare before and after crawls in Screaming Frog, check change detection, then confirm in Search Console with validation.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 
 ## Case studies

@@ -1,0 +1,68 @@
+name: Custom Extraction Recipes
+title: Screaming Frog custom extraction recipes for SEO audits
+description: XPath and regex recipes for Screaming Frog custom extraction to audit a site: heading counts, canonicals, robots tags, schema types, alt text, and tag IDs.
+type: guide
+published: 2026-10-13
+keywords: Screaming Frog custom extraction, XPath for SEO, technical SEO audit, JSON-LD audit, SEO crawl
+sources: Screaming Frog: Web scraping and data extraction | https://www.screamingfrog.co.uk/seo-spider/tutorials/web-scraping/ ;; Screaming Frog: SEO Spider configuration | https://www.screamingfrog.co.uk/seo-spider/user-guide/configuration/
+updated: 2026-10-13
+about: XPath | https://en.wikipedia.org/wiki/XPath ;; Web scraping | https://en.wikipedia.org/wiki/Web_scraping
+mentions: Regular expression | https://en.wikipedia.org/wiki/Regular_expression ;; JSON-LD | https://en.wikipedia.org/wiki/JSON-LD ;; Google Tag Manager | https://en.wikipedia.org/wiki/Google_Tag_Manager
+---
+<h1>Screaming Frog custom extraction recipes for sitewide SEO audits</h1>
+<p class="lead">The standard Screaming Frog tabs answer the standard questions. Custom extraction answers yours. With a few lines of XPath or regex, every URL in a crawl gets a new column holding exactly the fact you need, and a question like "which templates are missing a canonical?" becomes a sort and a filter. These are the extractors I load into almost every audit.</p>
+
+<h2>Setting it up</h2>
+<p>Custom extraction needs a paid licence. Open Configuration &gt; Custom &gt; Custom Extraction and click Add. Each extractor gets a name, which becomes its column heading, a type, and an expression. You can run up to 100 extractors in one crawl.</p>
+<p>There are three types:</p>
+<ul>
+  <li><strong>XPath,</strong> which selects elements and attributes from the HTML. Most of my recipes use it.</li>
+  <li><strong>CSSPath,</strong> the same idea using CSS selectors, often the quickest to write.</li>
+  <li><strong>Regex,</strong> for anything that isn't an HTML element, such as JSON inside a script tag or an ID in inline JavaScript.</li>
+</ul>
+<p>For XPath and CSSPath you then choose what to return: the whole element, its inner HTML, its text, or, with Function Value, the result of a function such as a count. If you'd rather not write expressions at all, the visual extraction browser lets you click an element on a sample page and suggests the expression for you.</p>
+<p>One setting matters more than any recipe. Screaming Frog extracts from the raw HTML unless JavaScript rendering is on, in which case it reads the rendered page. On a React or Next.js site, run the same extractors in both modes and compare. Any column that fills in only after rendering is content that depends on JavaScript to exist.</p>
+
+<h2>Heading recipes</h2>
+<ul>
+  <li><strong>H1 count</strong> (XPath, Function Value): <code>count(//h1)</code>. Sort descending to find templates with two or more, ascending to find pages with none.</li>
+  <li><strong>All H1 text</strong> (XPath, Extract Text): <code>//h1</code>. Shows when a logo or a hidden mobile heading is the H1.</li>
+  <li><strong>H2 count</strong> (XPath, Function Value): <code>count(//h2)</code>. A zero on a long page usually means the template styles its subheads as plain text.</li>
+</ul>
+
+<h2>Indexing and canonical recipes</h2>
+<ul>
+  <li><strong>Canonical count</strong> (XPath, Function Value): <code>count(//link[@rel='canonical'])</code>. More than one canonical tag on a page is a conflict worth fixing at once.</li>
+  <li><strong>Canonical target</strong> (XPath, Extract Inner HTML): <code>//link[@rel='canonical']/@href</code>. Screaming Frog reports canonicals already; I extract it anyway when I need it beside other custom columns in one export.</li>
+  <li><strong>Robots meta</strong> (XPath, Extract Inner HTML): <code>//meta[@name='robots']/@content</code>. Catches noindex left behind from a staging site.</li>
+  <li><strong>Hreflang values</strong> (XPath, Extract Inner HTML): <code>//link[@rel='alternate'][@hreflang]/@hreflang</code>. A quick check that every language version lists the same set.</li>
+</ul>
+
+<h2>Structured data recipes</h2>
+<p>JSON-LD lives inside a script tag as JSON, so element selectors can't reach the fields inside it. Screaming Frog's own guidance is to use regex for any JSON in the code.</p>
+<ul>
+  <li><strong>JSON-LD block count</strong> (XPath, Function Value): <code>count(//script[@type='application/ld+json'])</code>. Zero on a template that should carry schema is the first thing to fix.</li>
+  <li><strong>Schema types</strong> (Regex): <code>"@type"\s*:\s*"(.*?)"</code>. Lists every type declared on the page, so you can see which templates emit Product, Article, or nothing at all.</li>
+  <li><strong>The whole block</strong> (Regex): <code>&lt;script type="application/ld\+json"&gt;(.*?)&lt;/script&gt;</code>. Useful for exporting and validating a sample per template.</li>
+</ul>
+
+<h2>Content and authorship recipes</h2>
+<ul>
+  <li><strong>Published date</strong> (XPath, Extract Inner HTML): <code>//meta[@property='article:published_time']/@content</code>. Finds articles with no machine readable date.</li>
+  <li><strong>Author meta</strong> (XPath, Extract Inner HTML): <code>//meta[@name='author']/@content</code>. Many themes leave this blank or set it to the site name.</li>
+  <li><strong>Images with no alt attribute</strong> (XPath, Function Value): <code>count(//img[not(@alt)])</code>. Counts per page, so you can see which template is the repeat offender.</li>
+  <li><strong>Links inside the main content</strong> (XPath, Function Value): <code>count(//main//a)</code>. Separates contextual internal links from the menu and footer, assuming the template uses a main element.</li>
+</ul>
+
+<h2>Tracking recipes</h2>
+<ul>
+  <li><strong>Google Tag Manager container</strong> (Regex): <code>["'](GTM-.*?)["']</code>. Shows pages with no container, or two different ones.</li>
+  <li><strong>GA4 measurement ID</strong> (Regex): <code>["'](G-[A-Z0-9]+)["']</code>. Same idea for sites that load GA4 directly.</li>
+</ul>
+
+<h2>Reading the results</h2>
+<p>A column of numbers is only useful once it's grouped. Export the crawl, add a column for the URL pattern or template, and pivot. When every product page reports two H1s and every blog post reports one, the cause is in the product template, and one change fixes thousands of URLs. That is the habit that turns a crawl from a list of warnings into a short list of causes.</p>
+<p>Check a few rows by hand before you trust a recipe. View the source of one page, confirm the extracted value matches, and adjust the expression if a theme uses different markup from the one you expected.</p>
+
+<h2>Where this fits</h2>
+<p>Custom extraction is how I make a full crawl answer the specific questions in a <a href="{root}services/sitewide-technical-seo/">sitewide technical SEO</a> engagement. For the licence question itself, read <a href="{root}guides/screaming-frog-licence/">whether a Screaming Frog licence is worth it</a>, and for two problems these recipes surface constantly, see <a href="{root}guides/near-duplicates-and-h1s/">finding near duplicates and multiple H1s</a>.</p>

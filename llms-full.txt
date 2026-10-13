@@ -845,6 +845,8 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
 - [Why your SEO should work in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/): fixing causes in templates instead of symptoms page by page, what AI coding assistants add, and what to ask before you hire.
 - [How to find near duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Screaming Frog settings that catch both, what heading problems really cost, and how to settle each duplicate cluster.
+- [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/): XPath and regex for heading counts, canonicals, robots tags, JSON-LD types, missing alt text, and tag IDs.
+- [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/): before and after crawls, the four change columns, change detection, and Search Console validation.
 - [Is a Screaming Frog licence worth $279 a year?](https://christopherabraham.com/guides/screaming-frog-licence/): what the free 500 URL version leaves out and everything the paid crawler can do, from JavaScript rendering to the new MCP server.
 - [What a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/): how to tell a useful audit from a tool export, before and after you pay for one.
 - [How to hire an SEO on Upwork](https://christopherabraham.com/guides/hiring-an-seo/): five screening questions that expose real skill, the red flags, and a safer paid first step.
@@ -3345,6 +3347,141 @@ This is part of the full crawl and repair work I describe on [sitewide technical
 
 ---
 
+Source: https://christopherabraham.com/guides/custom-extraction/
+Updated: 2026-10-13
+
+# Screaming Frog custom extraction recipes for sitewide SEO audits
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 13, 2026
+
+The standard Screaming Frog tabs answer the standard questions. Custom extraction answers yours. With a few lines of XPath or regex, every URL in a crawl gets a new column holding exactly the fact you need, and a question like "which templates are missing a canonical?" becomes a sort and a filter. These are the extractors I load into almost every audit.
+
+## Setting it up
+
+Custom extraction needs a paid licence. Open Configuration > Custom > Custom Extraction and click Add. Each extractor gets a name, which becomes its column heading, a type, and an expression. You can run up to 100 extractors in one crawl.
+
+There are three types:
+- **XPath,** which selects elements and attributes from the HTML. Most of my recipes use it.
+- **CSSPath,** the same idea using CSS selectors, often the quickest to write.
+- **Regex,** for anything that isn't an HTML element, such as JSON inside a script tag or an ID in inline JavaScript.
+
+For XPath and CSSPath you then choose what to return: the whole element, its inner HTML, its text, or, with Function Value, the result of a function such as a count. If you'd rather not write expressions at all, the visual extraction browser lets you click an element on a sample page and suggests the expression for you.
+
+One setting matters more than any recipe. Screaming Frog extracts from the raw HTML unless JavaScript rendering is on, in which case it reads the rendered page. On a React or Next.js site, run the same extractors in both modes and compare. Any column that fills in only after rendering is content that depends on JavaScript to exist.
+
+## Heading recipes
+- **H1 count** (XPath, Function Value): `count(//h1)`. Sort descending to find templates with two or more, ascending to find pages with none.
+- **All H1 text** (XPath, Extract Text): `//h1`. Shows when a logo or a hidden mobile heading is the H1.
+- **H2 count** (XPath, Function Value): `count(//h2)`. A zero on a long page usually means the template styles its subheads as plain text.
+
+## Indexing and canonical recipes
+- **Canonical count** (XPath, Function Value): `count(//link[@rel='canonical'])`. More than one canonical tag on a page is a conflict worth fixing at once.
+- **Canonical target** (XPath, Extract Inner HTML): `//link[@rel='canonical']/@href`. Screaming Frog reports canonicals already; I extract it anyway when I need it beside other custom columns in one export.
+- **Robots meta** (XPath, Extract Inner HTML): `//meta[@name='robots']/@content`. Catches noindex left behind from a staging site.
+- **Hreflang values** (XPath, Extract Inner HTML): `//link[@rel='alternate'][@hreflang]/@hreflang`. A quick check that every language version lists the same set.
+
+## Structured data recipes
+
+JSON-LD lives inside a script tag as JSON, so element selectors can't reach the fields inside it. Screaming Frog's own guidance is to use regex for any JSON in the code.
+- **JSON-LD block count** (XPath, Function Value): `count(//script[@type='application/ld+json'])`. Zero on a template that should carry schema is the first thing to fix.
+- **Schema types** (Regex): `"@type"\s*:\s*"(.*?)"`. Lists every type declared on the page, so you can see which templates emit Product, Article, or nothing at all.
+- **The whole block** (Regex): `<script type="application/ld\+json">(.*?)</script>`. Useful for exporting and validating a sample per template.
+
+## Content and authorship recipes
+- **Published date** (XPath, Extract Inner HTML): `//meta[@property='article:published_time']/@content`. Finds articles with no machine readable date.
+- **Author meta** (XPath, Extract Inner HTML): `//meta[@name='author']/@content`. Many themes leave this blank or set it to the site name.
+- **Images with no alt attribute** (XPath, Function Value): `count(//img[not(@alt)])`. Counts per page, so you can see which template is the repeat offender.
+- **Links inside the main content** (XPath, Function Value): `count(//main//a)`. Separates contextual internal links from the menu and footer, assuming the template uses a main element.
+
+## Tracking recipes
+- **Google Tag Manager container** (Regex): `["'](GTM-.*?)["']`. Shows pages with no container, or two different ones.
+- **GA4 measurement ID** (Regex): `["'](G-[A-Z0-9]+)["']`. Same idea for sites that load GA4 directly.
+
+## Reading the results
+
+A column of numbers is only useful once it's grouped. Export the crawl, add a column for the URL pattern or template, and pivot. When every product page reports two H1s and every blog post reports one, the cause is in the product template, and one change fixes thousands of URLs. That is the habit that turns a crawl from a list of warnings into a short list of causes.
+
+Check a few rows by hand before you trust a recipe. View the source of one page, confirm the extracted value matches, and adjust the expression if a theme uses different markup from the one you expected.
+
+## Where this fits
+
+Custom extraction is how I make a full crawl answer the specific questions in a [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) engagement. For the licence question itself, read [whether a Screaming Frog licence is worth it](https://christopherabraham.com/guides/screaming-frog-licence/), and for two problems these recipes surface constantly, see [finding near duplicates and multiple H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/).
+
+## Sources
+- [Screaming Frog: Web scraping and data extraction](https://www.screamingfrog.co.uk/seo-spider/tutorials/web-scraping/)
+- [Screaming Frog: SEO Spider configuration](https://www.screamingfrog.co.uk/seo-spider/user-guide/configuration/)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
+Source: https://christopherabraham.com/guides/prove-seo-fixes/
+Updated: 2026-10-13
+
+# How to prove an SEO fix actually worked
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 13, 2026
+
+"Done" is the most dangerous word in SEO. A developer marks the ticket closed, the CMS shows the new titles, and three months later a crawl finds the old ones still live on half the site. A cache never cleared, a second template was missed, or the change only applied to new pages. I don't call a fix finished until two crawls and Search Console agree that it is. Here is the routine.
+
+## Step 1: crawl before you change anything
+
+The baseline is the step people skip, and without it there's nothing to compare. Before any fix ships, crawl the site with the settings you'll use afterward: the same start URL, the same rendering mode, the same exclusions, the same custom extractors. Save it.
+
+In Screaming Frog, comparison needs a licence and database storage mode, which you switch on under File > Settings > Storage Mode. Database storage saves every crawl automatically and lists it under File > Crawls, and it copes with large sites far better than memory storage. Crawls saved in the old file format can be imported and converted.
+
+## Step 2: crawl again after the release
+
+Once the fix is live and caches have cleared, crawl again with identical settings. Then switch to Mode > Compare, pick the two crawls, and run the comparison. The newer crawl becomes Current and the older one Previous.
+
+## Step 3: read the four change columns
+
+For every tab and filter, the comparison sorts URLs into four groups, and the difference between them is the whole point:
+- **Added:** URLs present in both crawls that have moved into this filter. If the filter is an error, these are new problems on existing pages.
+- **Removed:** URLs present in both crawls that have left this filter. For an error filter, these are your fixes.
+- **New:** URLs found only in the current crawl.
+- **Missing:** URLs found only in the previous crawl.
+
+If you fixed duplicate titles on 600 product pages, you want to see roughly 600 in Removed under Page Titles > Duplicate, and close to zero in Added. A large New count after a fix that wasn't supposed to create pages tells you something else changed, often a parameter or a pagination pattern now exposed to crawlers.
+
+## Step 4: turn on change detection
+
+Filters only notice changes that move a URL between filters. A title rewritten from one acceptable wording to another triggers nothing. For that, open Config > Compare before you run the comparison and select the elements you changed: page titles, meta descriptions, H1s, word count, crawl depth, internal links, structured data, or content. A Change Detection tab then lists every URL where those elements differ between the crawls.
+
+This is how I answer the question every client eventually asks: did the new titles actually go live everywhere? The tab gives a URL by URL answer, and the pages that didn't change are the ones to chase.
+
+## Step 5: check structure and internal links
+
+The Site Structure tab in a comparison shows the directory tree with URLs added and removed, and how crawl depth shifted. The lower window's inlinks view can filter to links added or removed. When a menu change quietly pushes a section of pages one click deeper, this is where it shows up, along with the exact links that went away.
+
+## Comparing staging with live
+
+Before a migration or a redesign launches, URL Mapping under Config > Compare lets you compare crawls whose URLs differ. A regex maps the previous crawl's URLs onto the current crawl's, so a staging hostname can be compared page for page with the live site. Run it before launch and you'll catch missing titles, dropped schema, and lost internal links while they're still cheap to fix.
+
+## Step 6: confirm with Google
+
+A clean crawl proves what your site serves. Search Console shows what Google has noticed.
+- **URL Inspection** on a handful of representative URLs. The live test shows whether Google can index the page as it stands now, and the indexed result shows the version Google currently holds, including its chosen canonical.
+- **Validate fix** in the Page indexing report, once every instance of an issue is fixed. Google rechecks the affected URLs and emails you when the fix is confirmed or when it finds one still broken, which stops the validation. Google says this typically takes up to about two weeks and sometimes longer.
+- **A smaller sitemap** for speed. Google suggests submitting a sitemap of your most important affected pages and filtering the report to it before validating, since a smaller set can finish sooner.
+
+## Write it down
+
+A verification note after each release can be short: the two crawl dates, the counts in Removed and Added for each targeted issue, a list of any URLs that didn't change and why, and the Search Console validation status with its date. It turns "fixed" into a record anyone can check, and it catches the missed template before Google does.
+
+Verification is built into my [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) work and every [site migration](https://christopherabraham.com/services/migrations/). The extractors I use for before and after comparisons are in [Screaming Frog custom extraction recipes](https://christopherabraham.com/guides/custom-extraction/).
+
+## Sources
+- [Screaming Frog: How to compare crawls](https://www.screamingfrog.co.uk/seo-spider/tutorials/how-to-compare-crawls/)
+- [Google Search Console Help: Page indexing report](https://support.google.com/webmasters/answer/7440203)
+- [Google Search Console Help: URL Inspection tool](https://support.google.com/webmasters/answer/9012289)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
 Source: https://christopherabraham.com/guides/glossary/
 Updated: 2026-10-06
 
@@ -4499,6 +4636,8 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Is a Screaming Frog licence worth $279 a year? Mine was](https://christopherabraham.com/guides/screaming-frog-licence/): Why I finally paid for the Screaming Frog SEO Spider, what the free 500 URL version leaves out, and everything a $279 a year licence can do in 2026.
 - [Why your SEO should work in your Git repository, with AI at their side](https://christopherabraham.com/guides/seo-in-your-repository/): An SEO who can read your codebase and work with Claude Code, Copilot, or ChatGPT fixes causes in templates, not symptoms page by page. What to expect and ask.
 - [How to find near duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Find near duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.
+- [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/): XPath and regex recipes for Screaming Frog custom extraction to audit a site: heading counts, canonicals, robots tags, schema types, alt text, and tag IDs.
+- [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/): Proof that an SEO fix shipped: compare before and after crawls in Screaming Frog, check change detection, then confirm in Search Console with validation.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 
 ## Case studies
