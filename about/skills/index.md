@@ -45,6 +45,11 @@
 - Administer my own Debian servers with key only SSH, firewalls, and unattended security updates.
 - Moved domains to Cloudflare DNS without breaking Google Workspace mail, and set up SPF, DKIM, and DMARC. See [protecting a domain that sends no mail](https://christopherabraham.com/guides/non-sending-domain/).
 
+## Email and Google Workspace
+- Run Google Workspace administration end to end: users, aliases, groups, Gmail routing, Calendar, and Drive sharing.
+- Know mail from the server up: Sendmail on Linux, IMAP and POP3, SMTP ports, and the DNS records that tell the world where your mail lives and who may send it.
+- Diagnose mail that bounces or lands in spam, and lock down domains that never send mail so nobody can borrow their names, as in [protecting a domain that sends no mail](https://christopherabraham.com/guides/non-sending-domain/).
+
 ## Local search and Google Business Profile
 - Got a suspended profile reinstated with a documented appeal. [Profile reinstated](https://christopherabraham.com/case-studies/profile-reinstated/).
 
