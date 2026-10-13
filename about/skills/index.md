@@ -52,7 +52,7 @@
 
 ## Platforms
 
-WordPress with Yoast, Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal; Squarespace; Wix; Webflow; Next.js, React, and Create React App; Sanity; Vercel, Netlify, Cloudflare, and GitHub Pages; Jekyll and hand built Python generators; and Plone, which I've run since the early 2000s.
+WordPress with Yoast, Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal; Squarespace; Wix; Webflow; Next.js, React, and Create React App; Sanity; Vercel, Netlify, Cloudflare, and GitHub Pages; Jekyll and hand built Python generators; and Plone on the Zope application server, which I've run since the early 2000s.
 
 ## Tools
 
