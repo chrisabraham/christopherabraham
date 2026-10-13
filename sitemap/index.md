@@ -1,6 +1,6 @@
 > Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.
 >
-> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-11 · By Christopher Abraham
+> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-12 · By Christopher Abraham
 
 # Site map
 
@@ -37,6 +37,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): A monthly SEO retainer with a senior consultant: monitoring, hands on fixes, developer QA, AI search checks, and a plain English report every month.
 
 ## Guides
+- [AI catnip for fall 2026: become the source worth citing](https://christopherabraham.com/guides/ai-catnip/): Make your expertise easier to discover and cite in AI search this fall with original evidence, clear answers, accessible pages, and honest measurement.
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): A field guide to Search Console's Page indexing report: what each exclusion reason means, which ones need action, and how to find the template behind them.
 - [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/): A practical checklist for AI search: crawler access, server rendered content, entity schema, answer shaped pages, llms.txt, outside evidence, and measurement.
 - [What a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/): How to tell a useful technical SEO audit from a tool export: a clear question, evidence for each finding, a ranked plan, developer tickets, and a plain summary.
@@ -89,4 +90,4 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 11, 2026
+Updated October 12, 2026

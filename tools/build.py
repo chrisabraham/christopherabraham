@@ -51,7 +51,7 @@ FILES = ["index",
          "services/search-console", "services/migrations",
          "services/ai-search", "services/schema", "services/on-page-seo",
          "services/wordpress-seo", "services/ecommerce-seo", "services/local-seo", "services/seo-retainer",
-         "guides/index", "guides/page-indexing-report", "guides/ai-search-checklist", "guides/seo-audit-deliverables",
+         "guides/index", "guides/ai-catnip", "guides/page-indexing-report", "guides/ai-search-checklist", "guides/seo-audit-deliverables",
          "guides/small-business-schema", "guides/redirect-rules", "guides/core-web-vitals",
          "guides/correct-ai-answers", "guides/two-names-one-entity", "guides/third-party-proof", "guides/about-page-ai",
          "guides/parked-domain-launch", "guides/non-sending-domain", "guides/lapsed-domains", "guides/llms-txt",
@@ -679,6 +679,16 @@ Allow: /
 Sitemap: https://christopherabraham.com/sitemap.xml
 """)
 
+# Feed bodies travel outside the site, so every local resource needs an absolute URL.
+from urllib.parse import urljoin
+
+def feed_body(p):
+    body = body_html(p)
+    return re.sub(r'(href|src)="([^"]+)"',
+                  lambda m: m[1] + '="' + html.escape(urljoin(p["url"], html.unescape(m[2])), quote=True) + '"', body)
+
+guides = sorted(guides, key=lambda p: (p["updated"], p.get("published", p["updated"]), p["url"]), reverse=True)
+
 esc = lambda s: html.escape(s, quote=False)
 newest = max(p["updated"] for p in guides)
 open("feed.xml", "w", encoding="utf-8").write(
@@ -698,13 +708,14 @@ open("feed.xml", "w", encoding="utf-8").write(
     <published>{p.get("published", p["updated"])}T12:00:00Z</published>
     <updated>{p["updated"]}T12:00:00Z</updated>
     <summary>{esc(p["description"])}</summary>
+    <content type="html">{esc(feed_body(p))}</content>
   </entry>
 """ for p in guides) + "</feed>\n")
 
 rfc822 = lambda d: datetime.date.fromisoformat(d).strftime("%a, %d %b %Y 12:00:00 +0000")
 open("rss.xml", "w", encoding="utf-8").write(
     f"""<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
   <title>SEO guides by Christopher Abraham</title>
   <link>{SITE}guides/</link>
@@ -718,6 +729,7 @@ open("rss.xml", "w", encoding="utf-8").write(
     <guid isPermaLink="true">{p["url"]}</guid>
     <pubDate>{rfc822(p.get("published", p["updated"]))}</pubDate>
     <description>{esc(p["description"])}</description>
+    <content:encoded>{esc(feed_body(p))}</content:encoded>
   </item>
 """ for p in guides) + "</channel>\n</rss>\n")
 

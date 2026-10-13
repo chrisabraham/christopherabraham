@@ -1,10 +1,10 @@
 > Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
 >
-> Source: https://christopherabraham.com/guides/ · Updated 2026-10-07 · By Christopher Abraham
+> Source: https://christopherabraham.com/guides/ · Updated 2026-10-12 · By Christopher Abraham
 
 # SEO guides
 
-These eighteen guides cover the questions clients ask me most, written so you can act on them yourself. Each one is self-contained, with links to related guides and to the glossary for terms.
+These guides cover the questions clients ask me most, written so you can act on them yourself. Each one is self-contained, with links to related guides and to the glossary for terms.
 
 ## Indexing and audits
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
@@ -14,6 +14,7 @@ These eighteen guides cover the questions clients ask me most, written so you ca
 - [How to hire an SEO on Upwork](https://christopherabraham.com/guides/hiring-an-seo/): five screening questions that expose real skill, the red flags, and a safer paid first step.
 
 ## AI search and structured data
+- [AI catnip for fall 2026](https://christopherabraham.com/guides/ai-catnip/): original evidence, useful answers, crawler access, and realistic expectations for citations.
 - [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/): crawler access, server-rendered content, entities, answer-shaped pages, llms.txt, and measurement.
 - [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/): five types, example JSON-LD, and the rules that keep it accurate.
 
@@ -51,10 +52,10 @@ These eighteen guides cover the questions clients ask me most, written so you ca
 
 ## Stay current
 
-New and updated guides appear in the [Atom feed](https://christopherabraham.com/feed.xml). AI tools can read every guide as Markdown through [llms.txt](https://christopherabraham.com/llms.txt).
+New and updated guides appear in the [full text RSS feed](https://christopherabraham.com/rss.xml) or [Atom feed](https://christopherabraham.com/feed.xml). AI tools can read every guide as Markdown through [llms.txt](https://christopherabraham.com/llms.txt).
 
 ## When a guide isn't enough
 
 If you've worked through a guide and the problem is still there, that's usually the point where a second set of eyes on the actual site helps. Every engagement begins with a scoped audit; see the [services](https://christopherabraham.com/services/) or [get in touch](https://christopherabraham.com/contact/).
 
-Updated October 7, 2026
+Updated October 12, 2026

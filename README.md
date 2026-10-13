@@ -42,3 +42,17 @@ The site starts as a noindexed preview at https://chrisabraham.github.io/christo
 2. Set `LIVE = True` in `tools/build.py`, rebuild, commit, and push (this writes `CNAME`).
 3. In the repo's Settings → Pages, set the custom domain to christopherabraham.com and turn on Enforce HTTPS once the certificate is issued.
 4. Verify the domain in Google Search Console (Domain property, DNS TXT) and Bing Webmaster Tools, submit `https://christopherabraham.com/sitemap.xml`, and run the IndexNow workflow once by hand.
+
+
+## Guides syndication
+
+`/rss.xml` and `/feed.xml` contain every Guide, with full HTML article content,
+stable source URL identifiers, publication and revision dates, and absolute
+links and image addresses. RSS uses `content:encoded`; Atom uses HTML content.
+Entries are sorted by revision date, newest first. For Plone, import the RSS URL
+and test one entry before enabling scheduled ingestion. Attribution and any
+canonical setting must be configured in the destination CMS.
+
+The IndexNow workflow waits for the public sitemap to match the repository's
+intended inventory before submitting. A key that already exists is insufficient
+to prove that a new release has deployed. API acceptance is not indexing proof.
