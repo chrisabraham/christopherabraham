@@ -1,12 +1,13 @@
-> Thirteen SEO services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
+> Fourteen SEO services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
 >
-> Source: https://christopherabraham.com/services/ · Updated 2026-10-06 · By Christopher Abraham
+> Source: https://christopherabraham.com/services/ · Updated 2026-10-13 · By Christopher Abraham
 
 # SEO services
 
 Every service starts from the same place: find out what search engines and AI systems actually receive from your site, compare it with what you meant to publish, and close the gap. Pick the symptom closest to yours, or start with an [audit](https://christopherabraham.com/services/seo-audit/) if you aren't sure.
 
 ## Technical SEO
+- [Sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/): every URL crawled, each problem traced to the template or code behind it, fixed once, and recrawled to prove it held.
 - [Technical SEO audit](https://christopherabraham.com/services/seo-audit/): the cause of a traffic loss or a stall, with evidence and a ranked plan.
 - [Indexing repair](https://christopherabraham.com/services/indexing/): pages stuck in "Crawled, currently not indexed," "Discovered, currently not indexed," soft 404s, and canonical conflicts.
 - [JavaScript and headless SEO](https://christopherabraham.com/services/javascript-seo/): React, Next.js, Vue, Alpine.js, Sanity, Vercel, and other stacks where content depends on scripts.
@@ -33,4 +34,4 @@ Each one begins with a scoped, paid diagnostic. You get findings in writing, a p
 
 WordPress with Yoast or Rank Math, WooCommerce, Shopify and Liquid, Magento 2 and Hyvä, Drupal, Umbraco, Squarespace, Wix, Webflow, Framer, and custom builds on React, Next.js, and Vue. Around them: Cloudflare, Google Search Console, Bing Webmaster Tools, GA4, Screaming Frog, Semrush, PageSpeed Insights, and the Rich Results Test.
 
-Updated October 6, 2026
+Updated October 13, 2026

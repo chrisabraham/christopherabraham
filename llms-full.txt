@@ -88,13 +88,14 @@ Updated October 6, 2026
 ---
 
 Source: https://christopherabraham.com/services/
-Updated: 2026-10-06
+Updated: 2026-10-13
 
 # SEO services
 
 Every service starts from the same place: find out what search engines and AI systems actually receive from your site, compare it with what you meant to publish, and close the gap. Pick the symptom closest to yours, or start with an [audit](https://christopherabraham.com/services/seo-audit/) if you aren't sure.
 
 ## Technical SEO
+- [Sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/): every URL crawled, each problem traced to the template or code behind it, fixed once, and recrawled to prove it held.
 - [Technical SEO audit](https://christopherabraham.com/services/seo-audit/): the cause of a traffic loss or a stall, with evidence and a ranked plan.
 - [Indexing repair](https://christopherabraham.com/services/indexing/): pages stuck in "Crawled, currently not indexed," "Discovered, currently not indexed," soft 404s, and canonical conflicts.
 - [JavaScript and headless SEO](https://christopherabraham.com/services/javascript-seo/): React, Next.js, Vue, Alpine.js, Sanity, Vercel, and other stacks where content depends on scripts.
@@ -121,7 +122,77 @@ Each one begins with a scoped, paid diagnostic. You get findings in writing, a p
 
 WordPress with Yoast or Rank Math, WooCommerce, Shopify and Liquid, Magento 2 and Hyvä, Drupal, Umbraco, Squarespace, Wix, Webflow, Framer, and custom builds on React, Next.js, and Vue. Around them: Cloudflare, Google Search Console, Bing Webmaster Tools, GA4, Screaming Frog, Semrush, PageSpeed Insights, and the Rich Results Test.
 
-Updated October 6, 2026
+Updated October 13, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/sitewide-technical-seo/
+Updated: 2026-10-13
+
+# Sitewide technical SEO: crawl, trace, fix, recrawl
+
+This is the deep tissue work. I crawl every URL your site serves, group what I find by the template, component, or import script that produces it, fix that cause once, and then crawl the whole site again to show the fix held everywhere it should. You get fewer, larger fixes, and proof that each one landed.
+
+## Why the whole site and not a sample
+
+A sample of fifty pages tells you what fifty pages look like. The expensive problems live in the patterns: one archive template that clones its title onto 900 tag pages, one product import that writes the same description into every variant, one layout component that drops a second H1 into every post. Patterns only show up when every URL sits in the same table, sorted and grouped. A full crawl also catches the pages nobody remembers publishing, which are often the ones causing trouble.
+
+## What a full sweep covers
+- **Status and indexability:** every response code, every noindex, every canonical pointing somewhere unexpected.
+- **Sitemaps compared with the crawl:** URLs listed in the sitemap that the crawl can't reach, and reachable, indexable URLs the sitemap leaves out.
+- **Titles and descriptions,** including suffixes a theme appends without asking and wording that changed during a migration.
+- **Headings:** missing H1s, a logo wrapped in an H1 on every page, and H1s split across styled elements so the words run together.
+- **Duplicate and near duplicate content,** with a decision for each cluster: rewrite to differentiate, merge and redirect, or canonicalize.
+- **Redirects and links:** chains, loops, internal links still aimed at old URLs, and orphaned pages.
+- **Images and alt text:** oversized files and missing or meaningless alternatives.
+- **Structured data coverage:** which templates emit JSON-LD, which don't, and whether it matches the visible page.
+- **Rendering faults,** including hydration errors, found by loading each page in headless Chrome and collecting what the console reports.
+
+## From a crawl row to its cause
+
+A row in a crawl export is a symptom. The cause is a file. When I have access to the codebase, I use Claude Code and Codex to read it, find which component writes the faulty title or the extra heading, and draft small scripts that test for the problem across the site. Those assistants are quick and occasionally wrong, so every claim they make gets checked against the live site before it goes into a finding. My guide to [doing SEO inside your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/) explains the approach in more detail.
+
+## How fixes reach the site
+
+There are three routes, and I'll use whichever your setup allows:
+- **In the CMS.** I export the affected fields before touching anything, make the changes, and export again, so there's a clean before and after record.
+- **In the repository.** I work on a branch, open a pull request, and check the preview build before anyone merges it.
+- **Through your developer.** I write the ticket with the file, the cause, the fix, and a test that proves it's done, then confirm what ships.
+
+## Protecting the pages that earn the clicks
+
+Search Console tells me which pages bring in most of your organic visits. Those pages get changed last. A new title pattern or heading standard goes first onto a lower traffic section, where I can watch how it behaves for a few weeks, and only then onto the pages that pay the bills.
+
+## Proving the fix held
+
+After each release, I crawl again and compare the two crawls row by row, so you can see exactly which URLs changed and which didn't. Scripted Chrome sessions confirm what a real browser renders. Search Console shows Google picking up the changes over the following weeks. I report what moved, what didn't, and why.
+
+## What you receive
+- The full crawl and a findings report grouped by cause, with example URLs for each.
+- A ranked fix list that names the template, file, or setting behind each problem.
+- Changes made directly where I have access, as CMS edits or pull requests.
+- A recrawl comparison after release, and a Search Console read once Google has caught up.
+
+## What the industry calls this work
+
+If you're searching for someone to do this, the labels you'll see are technical SEO, technical SEO implementation, SEO engineering, and SEO QA. On sites built in React or Next.js it goes by JavaScript SEO, Next.js SEO, or headless SEO, and covers rendering (SSR, SSG, CSR, and hydration). The underlying checks are crawlability, indexability, canonicalization, duplicate and near duplicate content, heading hierarchy, template level SEO, internal linking, structured data and JSON-LD for entity SEO, Core Web Vitals (LCP, INP, and CLS), and site migrations with redirect mapping. Newer labels for the AI side are GEO and AEO, which includes making sure AI crawlers such as GPTBot, ClaudeBot, and PerplexityBot can read your pages. I do it in Git, through pull requests and deploy previews. I don't do paid search; this is all organic.
+
+## Tools
+
+Screaming Frog SEO Spider with JavaScript rendering, near duplicate detection, and custom extraction; Playwright for scripted headless Chrome; Claude Code and Codex for reading and testing codebases; Google Search Console; and Bing Webmaster Tools.
+
+## Who it suits
+
+Sites with hundreds or thousands of URLs built from a handful of templates: ecommerce catalogs, publishers, directories, and businesses on Next.js, React, or a headless CMS whose team will grant read access to the repository. It also suits WordPress and Shopify sites where a theme or plugin is quietly repeating the same mistake on every page.
+
+## Related services and guides
+
+This sweep draws on several narrower services: the [technical SEO audit](https://christopherabraham.com/services/seo-audit/) when the question is why traffic fell, [JavaScript and headless SEO](https://christopherabraham.com/services/javascript-seo/), [indexing repair](https://christopherabraham.com/services/indexing/), [on-page SEO](https://christopherabraham.com/services/on-page-seo/), [schema markup](https://christopherabraham.com/services/schema/), [Core Web Vitals](https://christopherabraham.com/services/site-speed/), [site migrations](https://christopherabraham.com/services/migrations/), and [AI search visibility](https://christopherabraham.com/services/ai-search/). For the method behind two of the most common findings, read [finding near duplicates and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/). Examples from past work: [product details Googlebot never loaded](https://christopherabraham.com/case-studies/scroll-gated-products/) and [a React app with 2,000 pages Google missed](https://christopherabraham.com/case-studies/event-app-links/).
+
+To start, [send me your site and what's bothering you about it](https://christopherabraham.com/contact/), or see how engagements run on [Hire Me](https://christopherabraham.com/hire-me/).
+
+Updated October 13, 2026
 
 
 ---
@@ -773,6 +844,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 ## Indexing and audits
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
 - [Why your SEO should work in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/): fixing causes in templates instead of symptoms page by page, what AI coding assistants add, and what to ask before you hire.
+- [How to find near duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Screaming Frog settings that catch both, what heading problems really cost, and how to settle each duplicate cluster.
 - [Is a Screaming Frog licence worth $279 a year?](https://christopherabraham.com/guides/screaming-frog-licence/): what the free 500 URL version leaves out and everything the paid crawler can do, from JavaScript rendering to the new MCP server.
 - [What a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/): how to tell a useful audit from a tool export, before and after you pay for one.
 - [How to hire an SEO on Upwork](https://christopherabraham.com/guides/hiring-an-seo/): five screening questions that expose real skill, the red flags, and a safer paid first step.
@@ -3186,12 +3258,87 @@ For the broader hiring checklist, see [how to hire an SEO on Upwork](https://chr
 
 ## Work with me
 
-I've built websites since 1994 and practiced SEO since 1998, and today I work the way modern sites are built: in the repository, through pull requests, with AI coding assistants doing the heavy reading under my direction. If your site lives in GitHub and your SEO lives in a spreadsheet, [send me the site](https://christopherabraham.com/contact/) or see my [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/) and [technical audit](https://christopherabraham.com/services/seo-audit/) services. I'll tell you what the code is doing to your search visibility and how to fix it.
+I've built websites since 1994 and practiced SEO since 1998, and today I work the way modern sites are built: in the repository, through pull requests, with AI coding assistants doing the heavy reading under my direction. If your site lives in GitHub and your SEO lives in a spreadsheet, [send me the site](https://christopherabraham.com/contact/) or see my [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), and [technical audit](https://christopherabraham.com/services/seo-audit/) services. I'll tell you what the code is doing to your search visibility and how to fix it.
 
 ## Sources
 - [Git: A short history of Git](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
 - [Anthropic: Claude Code overview](https://code.claude.com/docs/en/overview)
 - [GitHub Docs: GitHub Copilot on GitHub.com](https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
+Source: https://christopherabraham.com/guides/near-duplicates-and-h1s/
+Updated: 2026-10-13
+
+# How to find near duplicate pages and multiple H1s across a whole site
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 13, 2026
+
+Two findings turn up in almost every full crawl I run: clusters of pages that say nearly the same thing, and headings that don't describe the page. Neither can be judged one URL at a time. Here is how I find both across every page, and how I decide what to do about each.
+
+## Crawl the rendered page, not only the source
+
+Set Screaming Frog to JavaScript rendering under Configuration > Spider > Rendering before you start. On sites built with React, Next.js, or a page builder, the H1 a browser shows can differ from the one in the raw HTML. A component may replace it after load, or a script may inject a second one. If you crawl only the source, you're auditing a page nobody sees.
+
+## Turn on near duplicate detection
+
+Screaming Frog finds exact duplicates by default. Near duplicates need switching on, under Configuration > Content > Duplicates, which tells the crawler to store each page's text. The default similarity threshold is 90%, and you can lower it to cast a wider net. By default it compares only indexable pages, which is usually what you want.
+
+Before crawling, open Configuration > Content > Area and exclude the navigation, header, and footer elements. Otherwise every page shares hundreds of words of menu text, and pages that differ in their main content can still score as near twins. You can adjust the content area and threshold after a crawl without crawling again.
+
+One step trips people up: the Near Duplicates filter stays empty until you run Crawl Analysis at the end of the crawl. The overview pane marks the filters that are waiting on it. Once the analysis finishes, the Content tab lists each page's closest similarity match and how many near duplicates it has, and the Duplicate Details tab shows the matching text and highlights where the pages differ.
+
+## Count headings with custom extraction
+
+The crawler's H1 columns show you the heading text page by page. A custom extraction gives you a number you can sort by. Under Configuration > Custom > Custom Extraction, add an XPath rule in Function Value mode with `count(//h1)`. Every URL gets a column with its H1 count. Add `count(//h2)` alongside it if you want to see which templates skip a level. Group the results by URL pattern and the template behind each problem usually becomes obvious.
+
+## What multiple H1s actually cost you
+
+Less than most audit tools suggest. Google's SEO Starter Guide says headings in semantic order are fantastic for screen readers, and that from Google Search's perspective it doesn't matter if they're out of order. There is no ranking penalty for two H1s. The W3C's accessibility tutorial explains why order still matters: people using screen readers move through a page by its headings, so the ranks should describe how the page is organized.
+
+So I treat headings as a clarity and accessibility problem. The cases worth fixing are:
+- **No H1 at all,** often because a theme styles the page title as a div.
+- **The logo wrapped in an H1** on every page, so the site name is the main heading of every URL.
+- **An H1 split across styled elements,** such as two spans with no space between them, so extracted text reads "BestPrices" instead of "Best Prices."
+- **The same H1 sitewide,** usually from a layout that hard codes it.
+
+Each of these is one template fix. That's the payoff of finding them by count rather than by spot checking.
+
+## Where near duplicates come from
+
+When I group near duplicate clusters by URL pattern, the same handful of causes come up again and again:
+- **City swap location pages,** where the only difference is the town name.
+- **Tag and category archives** that list the same posts under different labels.
+- **Parameter URLs** for sorting, filtering, or tracking that serve the same content.
+- **Printer friendly versions** of articles and recipes.
+- **Quiz or calculator variants** that share an explanation and change a few inputs.
+
+## Decide, cluster by cluster
+
+Every cluster gets one of three decisions:
+1. **Differentiate.** If each page has a real reason to exist, such as location pages for offices that actually differ, rewrite them so each carries information the others don't: staff, services, directions, local proof.
+2. **Merge and 301.** If the pages serve the same purpose, keep the strongest, fold in anything useful from the rest, and permanently redirect the others to it. Google's documentation calls a redirect a strong signal, and recommends redirects when you want to get rid of duplicate pages.
+3. **Canonicalize.** If the duplicates have to stay reachable, as parameter and printer versions usually do, point them at the main version with rel="canonical." Google treats that as a strong signal too.
+
+Noindex is rarely the right tool here. Google specifically advises against using noindex to steer canonical selection within a site, since it removes the page from Search entirely. I reserve it for pages that should never appear in results at all.
+
+## Check the fix with a second crawl
+
+After the changes ship, crawl again with the same settings and compare the two crawls. The clusters you merged should now show redirects, the canonicalized URLs should point where you meant, and the H1 count column should read 1 across the templates you fixed. Then give Google a few weeks and check the Page indexing report in Search Console for duplicates it has resolved.
+
+## Get help
+
+This is part of the full crawl and repair work I describe on [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/). If heading and title patterns are the main issue, see [on-page SEO](https://christopherabraham.com/services/on-page-seo/). Unfamiliar terms are in the [glossary](https://christopherabraham.com/guides/glossary/).
+
+## Sources
+- [Google Search Central: SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
+- [Google Search Central: How to specify a canonical URL](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)
+- [W3C WAI: Headings tutorial](https://www.w3.org/WAI/tutorials/page-structure/headings/)
+- [Screaming Frog: How to check for duplicate content](https://www.screamingfrog.co.uk/seo-spider/tutorials/how-to-check-for-duplicate-content/)
+- [Screaming Frog: SEO Spider configuration](https://www.screamingfrog.co.uk/seo-spider/user-guide/configuration/)
 
 **[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
@@ -4290,7 +4437,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 
 ## Main pages
 - [Senior SEO help, from the person who does the work](https://christopherabraham.com/): Christopher Abraham is a senior SEO consultant: technical audits, indexing repair, schema, site speed, migrations, and visibility in AI answer engines.
-- [SEO services](https://christopherabraham.com/services/): Thirteen SEO services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
+- [SEO services](https://christopherabraham.com/services/): Fourteen SEO services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
 - [SEO guides](https://christopherabraham.com/guides/): Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
 - [Case studies](https://christopherabraham.com/case-studies/): Anonymized SEO case studies: hidden product content, consent tools blocking Google, React apps, migrations, programmatic indexing, schema, and local listings.
 - [About Christopher Abraham](https://christopherabraham.com/about/): Christopher Abraham is an SEO consultant in Arlington, VA, working on AI search, rendering forensics, and modern stacks, with SEO experience dating to 1998.
@@ -4300,6 +4447,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Privacy](https://christopherabraham.com/privacy/): How christopherabraham.com uses Google Analytics with consent mode, why visitors in Europe and the UK get no analytics cookies, and what happens to your email.
 
 ## Technical SEO
+- [Sitewide technical SEO: crawl, trace, fix, recrawl](https://christopherabraham.com/services/sitewide-technical-seo/): I crawl every URL on your site, trace each problem to the template, component, or script behind it, fix the cause once, then crawl again to prove it held.
 - [Technical SEO audit](https://christopherabraham.com/services/seo-audit/): A technical SEO audit that answers one question with evidence: why traffic fell or stalled, the mechanism behind it, and which fixes should come first.
 - [Indexing repair](https://christopherabraham.com/services/indexing/): Fix Google indexing problems: pages crawled but not indexed, discovered but never crawled, soft 404s, canonical conflicts, and sitemaps that mislead.
 - [JavaScript and headless SEO](https://christopherabraham.com/services/javascript-seo/): Make JavaScript and headless websites visible to search and AI crawlers: rendering comparisons, crawlable links, prerendering, and code level review.
@@ -4350,6 +4498,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Will Google penalize AI-written content? What Google actually says](https://christopherabraham.com/guides/ai-content-seo/): Does Google penalize AI written copy? What Google's guidance says in 2026, what the data shows, the new fact checking rule, fake authors, and safe AI use.
 - [Is a Screaming Frog licence worth $279 a year? Mine was](https://christopherabraham.com/guides/screaming-frog-licence/): Why I finally paid for the Screaming Frog SEO Spider, what the free 500 URL version leaves out, and everything a $279 a year licence can do in 2026.
 - [Why your SEO should work in your Git repository, with AI at their side](https://christopherabraham.com/guides/seo-in-your-repository/): An SEO who can read your codebase and work with Claude Code, Copilot, or ChatGPT fixes causes in templates, not symptoms page by page. What to expect and ask.
+- [How to find near duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Find near duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 
 ## Case studies

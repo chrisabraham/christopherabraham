@@ -1,0 +1,60 @@
+name: Near Duplicates and H1s
+title: How to find near duplicate pages and multiple H1s sitewide
+description: Find near duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.
+type: guide
+published: 2026-10-13
+keywords: near duplicate content, multiple H1 tags, duplicate content audit, heading hierarchy, Screaming Frog near duplicates
+sources: Google Search Central: SEO Starter Guide | https://developers.google.com/search/docs/fundamentals/seo-starter-guide ;; Google Search Central: How to specify a canonical URL | https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls ;; W3C WAI: Headings tutorial | https://www.w3.org/WAI/tutorials/page-structure/headings/ ;; Screaming Frog: How to check for duplicate content | https://www.screamingfrog.co.uk/seo-spider/tutorials/how-to-check-for-duplicate-content/ ;; Screaming Frog: SEO Spider configuration | https://www.screamingfrog.co.uk/seo-spider/user-guide/configuration/
+updated: 2026-10-13
+about: Duplicate content | https://en.wikipedia.org/wiki/Duplicate_content ;; HTML element | https://en.wikipedia.org/wiki/HTML_element
+mentions: Canonical link element | https://en.wikipedia.org/wiki/Canonical_link_element ;; XPath | https://en.wikipedia.org/wiki/XPath
+---
+<h1>How to find near duplicate pages and multiple H1s across a whole site</h1>
+<p class="lead">Two findings turn up in almost every full crawl I run: clusters of pages that say nearly the same thing, and headings that don't describe the page. Neither can be judged one URL at a time. Here is how I find both across every page, and how I decide what to do about each.</p>
+
+<h2>Crawl the rendered page, not only the source</h2>
+<p>Set Screaming Frog to JavaScript rendering under Configuration &gt; Spider &gt; Rendering before you start. On sites built with React, Next.js, or a page builder, the H1 a browser shows can differ from the one in the raw HTML. A component may replace it after load, or a script may inject a second one. If you crawl only the source, you're auditing a page nobody sees.</p>
+
+<h2>Turn on near duplicate detection</h2>
+<p>Screaming Frog finds exact duplicates by default. Near duplicates need switching on, under Configuration &gt; Content &gt; Duplicates, which tells the crawler to store each page's text. The default similarity threshold is 90%, and you can lower it to cast a wider net. By default it compares only indexable pages, which is usually what you want.</p>
+<p>Before crawling, open Configuration &gt; Content &gt; Area and exclude the navigation, header, and footer elements. Otherwise every page shares hundreds of words of menu text, and pages that differ in their main content can still score as near twins. You can adjust the content area and threshold after a crawl without crawling again.</p>
+<p>One step trips people up: the Near Duplicates filter stays empty until you run Crawl Analysis at the end of the crawl. The overview pane marks the filters that are waiting on it. Once the analysis finishes, the Content tab lists each page's closest similarity match and how many near duplicates it has, and the Duplicate Details tab shows the matching text and highlights where the pages differ.</p>
+
+<h2>Count headings with custom extraction</h2>
+<p>The crawler's H1 columns show you the heading text page by page. A custom extraction gives you a number you can sort by. Under Configuration &gt; Custom &gt; Custom Extraction, add an XPath rule in Function Value mode with <code>count(//h1)</code>. Every URL gets a column with its H1 count. Add <code>count(//h2)</code> alongside it if you want to see which templates skip a level. Group the results by URL pattern and the template behind each problem usually becomes obvious.</p>
+
+<h2>What multiple H1s actually cost you</h2>
+<p>Less than most audit tools suggest. Google's SEO Starter Guide says headings in semantic order are fantastic for screen readers, and that from Google Search's perspective it doesn't matter if they're out of order. There is no ranking penalty for two H1s. The W3C's accessibility tutorial explains why order still matters: people using screen readers move through a page by its headings, so the ranks should describe how the page is organized.</p>
+<p>So I treat headings as a clarity and accessibility problem. The cases worth fixing are:</p>
+<ul>
+  <li><strong>No H1 at all,</strong> often because a theme styles the page title as a div.</li>
+  <li><strong>The logo wrapped in an H1</strong> on every page, so the site name is the main heading of every URL.</li>
+  <li><strong>An H1 split across styled elements,</strong> such as two spans with no space between them, so extracted text reads "BestPrices" instead of "Best Prices."</li>
+  <li><strong>The same H1 sitewide,</strong> usually from a layout that hard codes it.</li>
+</ul>
+<p>Each of these is one template fix. That's the payoff of finding them by count rather than by spot checking.</p>
+
+<h2>Where near duplicates come from</h2>
+<p>When I group near duplicate clusters by URL pattern, the same handful of causes come up again and again:</p>
+<ul>
+  <li><strong>City swap location pages,</strong> where the only difference is the town name.</li>
+  <li><strong>Tag and category archives</strong> that list the same posts under different labels.</li>
+  <li><strong>Parameter URLs</strong> for sorting, filtering, or tracking that serve the same content.</li>
+  <li><strong>Printer friendly versions</strong> of articles and recipes.</li>
+  <li><strong>Quiz or calculator variants</strong> that share an explanation and change a few inputs.</li>
+</ul>
+
+<h2>Decide, cluster by cluster</h2>
+<p>Every cluster gets one of three decisions:</p>
+<ol>
+  <li><strong>Differentiate.</strong> If each page has a real reason to exist, such as location pages for offices that actually differ, rewrite them so each carries information the others don't: staff, services, directions, local proof.</li>
+  <li><strong>Merge and 301.</strong> If the pages serve the same purpose, keep the strongest, fold in anything useful from the rest, and permanently redirect the others to it. Google's documentation calls a redirect a strong signal, and recommends redirects when you want to get rid of duplicate pages.</li>
+  <li><strong>Canonicalize.</strong> If the duplicates have to stay reachable, as parameter and printer versions usually do, point them at the main version with rel="canonical." Google treats that as a strong signal too.</li>
+</ol>
+<p>Noindex is rarely the right tool here. Google specifically advises against using noindex to steer canonical selection within a site, since it removes the page from Search entirely. I reserve it for pages that should never appear in results at all.</p>
+
+<h2>Check the fix with a second crawl</h2>
+<p>After the changes ship, crawl again with the same settings and compare the two crawls. The clusters you merged should now show redirects, the canonicalized URLs should point where you meant, and the H1 count column should read 1 across the templates you fixed. Then give Google a few weeks and check the Page indexing report in Search Console for duplicates it has resolved.</p>
+
+<h2>Get help</h2>
+<p>This is part of the full crawl and repair work I describe on <a href="{root}services/sitewide-technical-seo/">sitewide technical SEO</a>. If heading and title patterns are the main issue, see <a href="{root}services/on-page-seo/">on-page SEO</a>. Unfamiliar terms are in the <a href="{root}guides/glossary/">glossary</a>.</p>

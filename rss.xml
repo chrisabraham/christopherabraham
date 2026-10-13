@@ -8,6 +8,75 @@
   <lastBuildDate>Tue, 13 Oct 2026 12:00:00 +0000</lastBuildDate>
   <atom:link href="https://christopherabraham.com/rss.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>How to find near duplicate pages and multiple H1s across a whole site</title>
+    <link>https://christopherabraham.com/guides/near-duplicates-and-h1s/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/near-duplicates-and-h1s/</guid>
+    <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+    <description>Find near duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.</description>
+    <content:encoded>&lt;h1&gt;How to find near duplicate pages and multiple H1s across a whole site&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 13, 2026&lt;/p&gt;
+&lt;p class="lead"&gt;Two findings turn up in almost every full crawl I run: clusters of pages that say nearly the same thing, and headings that don't describe the page. Neither can be judged one URL at a time. Here is how I find both across every page, and how I decide what to do about each.&lt;/p&gt;
+
+&lt;h2&gt;Crawl the rendered page, not only the source&lt;/h2&gt;
+&lt;p&gt;Set Screaming Frog to JavaScript rendering under Configuration &amp;gt; Spider &amp;gt; Rendering before you start. On sites built with React, Next.js, or a page builder, the H1 a browser shows can differ from the one in the raw HTML. A component may replace it after load, or a script may inject a second one. If you crawl only the source, you're auditing a page nobody sees.&lt;/p&gt;
+
+&lt;h2&gt;Turn on near duplicate detection&lt;/h2&gt;
+&lt;p&gt;Screaming Frog finds exact duplicates by default. Near duplicates need switching on, under Configuration &amp;gt; Content &amp;gt; Duplicates, which tells the crawler to store each page's text. The default similarity threshold is 90%, and you can lower it to cast a wider net. By default it compares only indexable pages, which is usually what you want.&lt;/p&gt;
+&lt;p&gt;Before crawling, open Configuration &amp;gt; Content &amp;gt; Area and exclude the navigation, header, and footer elements. Otherwise every page shares hundreds of words of menu text, and pages that differ in their main content can still score as near twins. You can adjust the content area and threshold after a crawl without crawling again.&lt;/p&gt;
+&lt;p&gt;One step trips people up: the Near Duplicates filter stays empty until you run Crawl Analysis at the end of the crawl. The overview pane marks the filters that are waiting on it. Once the analysis finishes, the Content tab lists each page's closest similarity match and how many near duplicates it has, and the Duplicate Details tab shows the matching text and highlights where the pages differ.&lt;/p&gt;
+
+&lt;h2&gt;Count headings with custom extraction&lt;/h2&gt;
+&lt;p&gt;The crawler's H1 columns show you the heading text page by page. A custom extraction gives you a number you can sort by. Under Configuration &amp;gt; Custom &amp;gt; Custom Extraction, add an XPath rule in Function Value mode with &lt;code&gt;count(//h1)&lt;/code&gt;. Every URL gets a column with its H1 count. Add &lt;code&gt;count(//h2)&lt;/code&gt; alongside it if you want to see which templates skip a level. Group the results by URL pattern and the template behind each problem usually becomes obvious.&lt;/p&gt;
+
+&lt;h2&gt;What multiple H1s actually cost you&lt;/h2&gt;
+&lt;p&gt;Less than most audit tools suggest. Google's SEO Starter Guide says headings in semantic order are fantastic for screen readers, and that from Google Search's perspective it doesn't matter if they're out of order. There is no ranking penalty for two H1s. The W3C's accessibility tutorial explains why order still matters: people using screen readers move through a page by its headings, so the ranks should describe how the page is organized.&lt;/p&gt;
+&lt;p&gt;So I treat headings as a clarity and accessibility problem. The cases worth fixing are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;No H1 at all,&lt;/strong&gt; often because a theme styles the page title as a div.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The logo wrapped in an H1&lt;/strong&gt; on every page, so the site name is the main heading of every URL.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;An H1 split across styled elements,&lt;/strong&gt; such as two spans with no space between them, so extracted text reads "BestPrices" instead of "Best Prices."&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The same H1 sitewide,&lt;/strong&gt; usually from a layout that hard codes it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each of these is one template fix. That's the payoff of finding them by count rather than by spot checking.&lt;/p&gt;
+
+&lt;h2&gt;Where near duplicates come from&lt;/h2&gt;
+&lt;p&gt;When I group near duplicate clusters by URL pattern, the same handful of causes come up again and again:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;City swap location pages,&lt;/strong&gt; where the only difference is the town name.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tag and category archives&lt;/strong&gt; that list the same posts under different labels.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Parameter URLs&lt;/strong&gt; for sorting, filtering, or tracking that serve the same content.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Printer friendly versions&lt;/strong&gt; of articles and recipes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Quiz or calculator variants&lt;/strong&gt; that share an explanation and change a few inputs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Decide, cluster by cluster&lt;/h2&gt;
+&lt;p&gt;Every cluster gets one of three decisions:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Differentiate.&lt;/strong&gt; If each page has a real reason to exist, such as location pages for offices that actually differ, rewrite them so each carries information the others don't: staff, services, directions, local proof.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Merge and 301.&lt;/strong&gt; If the pages serve the same purpose, keep the strongest, fold in anything useful from the rest, and permanently redirect the others to it. Google's documentation calls a redirect a strong signal, and recommends redirects when you want to get rid of duplicate pages.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Canonicalize.&lt;/strong&gt; If the duplicates have to stay reachable, as parameter and printer versions usually do, point them at the main version with rel="canonical." Google treats that as a strong signal too.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Noindex is rarely the right tool here. Google specifically advises against using noindex to steer canonical selection within a site, since it removes the page from Search entirely. I reserve it for pages that should never appear in results at all.&lt;/p&gt;
+
+&lt;h2&gt;Check the fix with a second crawl&lt;/h2&gt;
+&lt;p&gt;After the changes ship, crawl again with the same settings and compare the two crawls. The clusters you merged should now show redirects, the canonicalized URLs should point where you meant, and the H1 count column should read 1 across the templates you fixed. Then give Google a few weeks and check the Page indexing report in Search Console for duplicates it has resolved.&lt;/p&gt;
+
+&lt;h2&gt;Get help&lt;/h2&gt;
+&lt;p&gt;This is part of the full crawl and repair work I describe on &lt;a href="https://christopherabraham.com/services/sitewide-technical-seo/"&gt;sitewide technical SEO&lt;/a&gt;. If heading and title patterns are the main issue, see &lt;a href="https://christopherabraham.com/services/on-page-seo/"&gt;on-page SEO&lt;/a&gt;. Unfamiliar terms are in the &lt;a href="https://christopherabraham.com/guides/glossary/"&gt;glossary&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide"&gt;Google Search Central: SEO Starter Guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls"&gt;Google Search Central: How to specify a canonical URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.w3.org/WAI/tutorials/page-structure/headings/"&gt;W3C WAI: Headings tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.screamingfrog.co.uk/seo-spider/tutorials/how-to-check-for-duplicate-content/"&gt;Screaming Frog: How to check for duplicate content&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.screamingfrog.co.uk/seo-spider/user-guide/configuration/"&gt;Screaming Frog: SEO Spider configuration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content:encoded>
+  </item>
+  <item>
     <title>When to keep your brand name in your page titles, and when to let it go</title>
     <link>https://christopherabraham.com/guides/brand-name-in-titles/</link>
     <guid isPermaLink="true">https://christopherabraham.com/guides/brand-name-in-titles/</guid>
@@ -236,7 +305,7 @@
 &lt;p&gt;For the broader hiring checklist, see &lt;a href="https://christopherabraham.com/guides/hiring-an-seo/"&gt;how to hire an SEO on Upwork&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2&gt;Work with me&lt;/h2&gt;
-&lt;p&gt;I've built websites since 1994 and practiced SEO since 1998, and today I work the way modern sites are built: in the repository, through pull requests, with AI coding assistants doing the heavy reading under my direction. If your site lives in GitHub and your SEO lives in a spreadsheet, &lt;a href="https://christopherabraham.com/contact/"&gt;send me the site&lt;/a&gt; or see my &lt;a href="https://christopherabraham.com/services/javascript-seo/"&gt;JavaScript SEO&lt;/a&gt; and &lt;a href="https://christopherabraham.com/services/seo-audit/"&gt;technical audit&lt;/a&gt; services. I'll tell you what the code is doing to your search visibility and how to fix it.&lt;/p&gt;
+&lt;p&gt;I've built websites since 1994 and practiced SEO since 1998, and today I work the way modern sites are built: in the repository, through pull requests, with AI coding assistants doing the heavy reading under my direction. If your site lives in GitHub and your SEO lives in a spreadsheet, &lt;a href="https://christopherabraham.com/contact/"&gt;send me the site&lt;/a&gt; or see my &lt;a href="https://christopherabraham.com/services/sitewide-technical-seo/"&gt;sitewide technical SEO&lt;/a&gt;, &lt;a href="https://christopherabraham.com/services/javascript-seo/"&gt;JavaScript SEO&lt;/a&gt;, and &lt;a href="https://christopherabraham.com/services/seo-audit/"&gt;technical audit&lt;/a&gt; services. I'll tell you what the code is doing to your search visibility and how to fix it.&lt;/p&gt;
 &lt;h2&gt;Sources&lt;/h2&gt;
 &lt;ul class="sources"&gt;
   &lt;li&gt;&lt;a href="https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git"&gt;Git: A short history of Git&lt;/a&gt;&lt;/li&gt;

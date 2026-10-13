@@ -8,7 +8,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 
 ## Main pages
 - [Senior SEO help, from the person who does the work](https://christopherabraham.com/): Christopher Abraham is a senior SEO consultant: technical audits, indexing repair, schema, site speed, migrations, and visibility in AI answer engines.
-- [SEO services](https://christopherabraham.com/services/): Thirteen SEO services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
+- [SEO services](https://christopherabraham.com/services/): Fourteen SEO services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
 - [SEO guides](https://christopherabraham.com/guides/): Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
 - [Case studies](https://christopherabraham.com/case-studies/): Anonymized SEO case studies: hidden product content, consent tools blocking Google, React apps, migrations, programmatic indexing, schema, and local listings.
 - [About Christopher Abraham](https://christopherabraham.com/about/): Christopher Abraham is an SEO consultant in Arlington, VA, working on AI search, rendering forensics, and modern stacks, with SEO experience dating to 1998.
@@ -18,6 +18,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Privacy](https://christopherabraham.com/privacy/): How christopherabraham.com uses Google Analytics with consent mode, why visitors in Europe and the UK get no analytics cookies, and what happens to your email.
 
 ## Technical SEO
+- [Sitewide technical SEO: crawl, trace, fix, recrawl](https://christopherabraham.com/services/sitewide-technical-seo/): I crawl every URL on your site, trace each problem to the template, component, or script behind it, fix the cause once, then crawl again to prove it held.
 - [Technical SEO audit](https://christopherabraham.com/services/seo-audit/): A technical SEO audit that answers one question with evidence: why traffic fell or stalled, the mechanism behind it, and which fixes should come first.
 - [Indexing repair](https://christopherabraham.com/services/indexing/): Fix Google indexing problems: pages crawled but not indexed, discovered but never crawled, soft 404s, canonical conflicts, and sitemaps that mislead.
 - [JavaScript and headless SEO](https://christopherabraham.com/services/javascript-seo/): Make JavaScript and headless websites visible to search and AI crawlers: rendering comparisons, crawlable links, prerendering, and code level review.
@@ -68,6 +69,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Will Google penalize AI-written content? What Google actually says](https://christopherabraham.com/guides/ai-content-seo/): Does Google penalize AI written copy? What Google's guidance says in 2026, what the data shows, the new fact checking rule, fake authors, and safe AI use.
 - [Is a Screaming Frog licence worth $279 a year? Mine was](https://christopherabraham.com/guides/screaming-frog-licence/): Why I finally paid for the Screaming Frog SEO Spider, what the free 500 URL version leaves out, and everything a $279 a year licence can do in 2026.
 - [Why your SEO should work in your Git repository, with AI at their side](https://christopherabraham.com/guides/seo-in-your-repository/): An SEO who can read your codebase and work with Claude Code, Copilot, or ChatGPT fixes causes in templates, not symptoms page by page. What to expect and ask.
+- [How to find near duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Find near duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 
 ## Case studies

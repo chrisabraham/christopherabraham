@@ -53,7 +53,7 @@ For the broader hiring checklist, see [how to hire an SEO on Upwork](https://chr
 
 ## Work with me
 
-I've built websites since 1994 and practiced SEO since 1998, and today I work the way modern sites are built: in the repository, through pull requests, with AI coding assistants doing the heavy reading under my direction. If your site lives in GitHub and your SEO lives in a spreadsheet, [send me the site](https://christopherabraham.com/contact/) or see my [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/) and [technical audit](https://christopherabraham.com/services/seo-audit/) services. I'll tell you what the code is doing to your search visibility and how to fix it.
+I've built websites since 1994 and practiced SEO since 1998, and today I work the way modern sites are built: in the repository, through pull requests, with AI coding assistants doing the heavy reading under my direction. If your site lives in GitHub and your SEO lives in a spreadsheet, [send me the site](https://christopherabraham.com/contact/) or see my [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), and [technical audit](https://christopherabraham.com/services/seo-audit/) services. I'll tell you what the code is doing to your search visibility and how to fix it.
 
 ## Sources
 - [Git: A short history of Git](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)

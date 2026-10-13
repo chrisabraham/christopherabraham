@@ -1,0 +1,63 @@
+name: Sitewide Technical SEO
+title: Sitewide technical SEO: every URL crawled, fixed, rechecked
+description: I crawl every URL on your site, trace each problem to the template, component, or script behind it, fix the cause once, then crawl again to prove it held.
+keywords: technical SEO, sitewide SEO audit, SEO engineering, technical SEO implementation, Next.js SEO, SEO QA
+updated: 2026-10-13
+---
+<h1>Sitewide technical SEO: crawl, trace, fix, recrawl</h1>
+<p class="lead">This is the deep tissue work. I crawl every URL your site serves, group what I find by the template, component, or import script that produces it, fix that cause once, and then crawl the whole site again to show the fix held everywhere it should. You get fewer, larger fixes, and proof that each one landed.</p>
+
+<h2>Why the whole site and not a sample</h2>
+<p>A sample of fifty pages tells you what fifty pages look like. The expensive problems live in the patterns: one archive template that clones its title onto 900 tag pages, one product import that writes the same description into every variant, one layout component that drops a second H1 into every post. Patterns only show up when every URL sits in the same table, sorted and grouped. A full crawl also catches the pages nobody remembers publishing, which are often the ones causing trouble.</p>
+
+<h2>What a full sweep covers</h2>
+<ul>
+  <li><strong>Status and indexability:</strong> every response code, every noindex, every canonical pointing somewhere unexpected.</li>
+  <li><strong>Sitemaps compared with the crawl:</strong> URLs listed in the sitemap that the crawl can't reach, and reachable, indexable URLs the sitemap leaves out.</li>
+  <li><strong>Titles and descriptions,</strong> including suffixes a theme appends without asking and wording that changed during a migration.</li>
+  <li><strong>Headings:</strong> missing H1s, a logo wrapped in an H1 on every page, and H1s split across styled elements so the words run together.</li>
+  <li><strong>Duplicate and near duplicate content,</strong> with a decision for each cluster: rewrite to differentiate, merge and redirect, or canonicalize.</li>
+  <li><strong>Redirects and links:</strong> chains, loops, internal links still aimed at old URLs, and orphaned pages.</li>
+  <li><strong>Images and alt text:</strong> oversized files and missing or meaningless alternatives.</li>
+  <li><strong>Structured data coverage:</strong> which templates emit JSON-LD, which don't, and whether it matches the visible page.</li>
+  <li><strong>Rendering faults,</strong> including hydration errors, found by loading each page in headless Chrome and collecting what the console reports.</li>
+</ul>
+
+<h2>From a crawl row to its cause</h2>
+<p>A row in a crawl export is a symptom. The cause is a file. When I have access to the codebase, I use Claude Code and Codex to read it, find which component writes the faulty title or the extra heading, and draft small scripts that test for the problem across the site. Those assistants are quick and occasionally wrong, so every claim they make gets checked against the live site before it goes into a finding. My guide to <a href="{root}guides/seo-in-your-repository/">doing SEO inside your Git repository</a> explains the approach in more detail.</p>
+
+<h2>How fixes reach the site</h2>
+<p>There are three routes, and I'll use whichever your setup allows:</p>
+<ul>
+  <li><strong>In the CMS.</strong> I export the affected fields before touching anything, make the changes, and export again, so there's a clean before and after record.</li>
+  <li><strong>In the repository.</strong> I work on a branch, open a pull request, and check the preview build before anyone merges it.</li>
+  <li><strong>Through your developer.</strong> I write the ticket with the file, the cause, the fix, and a test that proves it's done, then confirm what ships.</li>
+</ul>
+
+<h2>Protecting the pages that earn the clicks</h2>
+<p>Search Console tells me which pages bring in most of your organic visits. Those pages get changed last. A new title pattern or heading standard goes first onto a lower traffic section, where I can watch how it behaves for a few weeks, and only then onto the pages that pay the bills.</p>
+
+<h2>Proving the fix held</h2>
+<p>After each release, I crawl again and compare the two crawls row by row, so you can see exactly which URLs changed and which didn't. Scripted Chrome sessions confirm what a real browser renders. Search Console shows Google picking up the changes over the following weeks. I report what moved, what didn't, and why.</p>
+
+<h2>What you receive</h2>
+<ul>
+  <li>The full crawl and a findings report grouped by cause, with example URLs for each.</li>
+  <li>A ranked fix list that names the template, file, or setting behind each problem.</li>
+  <li>Changes made directly where I have access, as CMS edits or pull requests.</li>
+  <li>A recrawl comparison after release, and a Search Console read once Google has caught up.</li>
+</ul>
+
+<h2>What the industry calls this work</h2>
+<p>If you're searching for someone to do this, the labels you'll see are technical SEO, technical SEO implementation, SEO engineering, and SEO QA. On sites built in React or Next.js it goes by JavaScript SEO, Next.js SEO, or headless SEO, and covers rendering (SSR, SSG, CSR, and hydration). The underlying checks are crawlability, indexability, canonicalization, duplicate and near duplicate content, heading hierarchy, template level SEO, internal linking, structured data and JSON-LD for entity SEO, Core Web Vitals (LCP, INP, and CLS), and site migrations with redirect mapping. Newer labels for the AI side are GEO and AEO, which includes making sure AI crawlers such as GPTBot, ClaudeBot, and PerplexityBot can read your pages. I do it in Git, through pull requests and deploy previews. I don't do paid search; this is all organic.</p>
+
+<h2>Tools</h2>
+<p>Screaming Frog SEO Spider with JavaScript rendering, near duplicate detection, and custom extraction; Playwright for scripted headless Chrome; Claude Code and Codex for reading and testing codebases; Google Search Console; and Bing Webmaster Tools.</p>
+
+<h2>Who it suits</h2>
+<p>Sites with hundreds or thousands of URLs built from a handful of templates: ecommerce catalogs, publishers, directories, and businesses on Next.js, React, or a headless CMS whose team will grant read access to the repository. It also suits WordPress and Shopify sites where a theme or plugin is quietly repeating the same mistake on every page.</p>
+
+<h2>Related services and guides</h2>
+<p>This sweep draws on several narrower services: the <a href="{root}services/seo-audit/">technical SEO audit</a> when the question is why traffic fell, <a href="{root}services/javascript-seo/">JavaScript and headless SEO</a>, <a href="{root}services/indexing/">indexing repair</a>, <a href="{root}services/on-page-seo/">on-page SEO</a>, <a href="{root}services/schema/">schema markup</a>, <a href="{root}services/site-speed/">Core Web Vitals</a>, <a href="{root}services/migrations/">site migrations</a>, and <a href="{root}services/ai-search/">AI search visibility</a>. For the method behind two of the most common findings, read <a href="{root}guides/near-duplicates-and-h1s/">finding near duplicates and multiple H1s across a whole site</a>. Examples from past work: <a href="{root}case-studies/scroll-gated-products/">product details Googlebot never loaded</a> and <a href="{root}case-studies/event-app-links/">a React app with 2,000 pages Google missed</a>.</p>
+
+<p>To start, <a href="{root}contact/">send me your site and what's bothering you about it</a>, or see how engagements run on <a href="{root}hire-me/">Hire Me</a>.</p>
