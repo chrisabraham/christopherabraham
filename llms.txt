@@ -29,6 +29,7 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 ## Guides
 
 - [SEO guides](https://christopherabraham.com/guides/index.md): Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
+- [When to keep your brand name in your page titles, and when to let it go](https://christopherabraham.com/guides/brand-name-in-titles/index.md): Where a brand name belongs in a title tag, how to write it into the sentence instead of a pipe suffix, and how to test the change after a site migration.
 - [How to publish useful original research without a big budget](https://christopherabraham.com/guides/small-original-research/index.md): Turn a small, repeatable investigation into useful original research with a clear question, honest sample, documented method, and evidence readers can check.
 - [AI catnip for fall 2026: become the source worth citing](https://christopherabraham.com/guides/ai-catnip/index.md): Make your expertise easier to discover and cite in AI search this fall with original evidence, clear answers, accessible pages, and honest measurement.
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/index.md): A field guide to Search Console's Page indexing report: what each exclusion reason means, which ones need action, and how to find the template behind them.

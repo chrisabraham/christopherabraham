@@ -5,8 +5,67 @@
   <link>https://christopherabraham.com/guides/</link>
   <description>Guides to indexing, audits, schema, redirects, site speed, and AI search</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 12 Oct 2026 12:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 12:00:00 +0000</lastBuildDate>
   <atom:link href="https://christopherabraham.com/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>When to keep your brand name in your page titles, and when to let it go</title>
+    <link>https://christopherabraham.com/guides/brand-name-in-titles/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/brand-name-in-titles/</guid>
+    <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+    <description>Where a brand name belongs in a title tag, how to write it into the sentence instead of a pipe suffix, and how to test the change after a site migration.</description>
+    <content:encoded>&lt;h1&gt;When to keep your brand name in your page titles, and when to let it go&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 13, 2026&lt;/p&gt;
+&lt;p class="lead"&gt;Most site templates finish every title the same way: the page topic, a pipe, and the company name. I take that suffix off almost every page I work on and keep the name only where it earns the space. Google allows either choice, so this is an editorial decision, not a rule. Here is how I make it, how I write the name into a title when it stays, and how I test the change instead of trusting it.&lt;/p&gt;
+
+&lt;h2&gt;What Google says about site names in titles&lt;/h2&gt;
+&lt;p&gt;Google's documentation on title links suggests that a site with many pages can include its name at the beginning or end of each title. It also says Google may leave the site name out of the displayed title when it repeats the name already shown in the result. The title element has no maximum length; Google shortens the displayed title to fit the screen.&lt;/p&gt;
+&lt;p&gt;Two things follow from that. A suffix is not a penalty, and removing one will not lift rankings by itself. And on most results the searcher already sees your site name and icon directly above the title, so a suffix repeats information inside the same result.&lt;/p&gt;
+&lt;p&gt;Part of my position is plain taste. A pipe and a company name stamped on every page reads unfinished to me. Taste is a fair reason to propose a change. It is not evidence that the change will bring more visitors, which is why I test it.&lt;/p&gt;
+
+&lt;h2&gt;Three questions I ask about every page&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Is the organization the subject?&lt;/strong&gt; Home, About, Contact, booking, and team pages are about the business itself. The name belongs on those.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Would the name persuade a stranger to click?&lt;/strong&gt; For a household brand, perhaps. For a practice or consultancy most searchers have never heard of, the topic does the persuading.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Does the topic need the room?&lt;/strong&gt; If the subject of the page fills the visible width, the subject wins.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When the organization is not the subject, I drop the name and spend those characters on what the page answers.&lt;/p&gt;
+
+&lt;h2&gt;Write the name into the sentence&lt;/h2&gt;
+&lt;p&gt;Where the name stays, I write it into the title as part of the sentence instead of bolting it on after a separator. Using a made-up practice:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Template:&lt;/strong&gt; Couples Counseling in Portland &amp;amp; Online | Harbor Counseling Group&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Written:&lt;/strong&gt; Couples Counseling at Harbor Counseling Group in Portland and Online&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Template:&lt;/strong&gt; Book a Session | Harbor Counseling Group&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Written:&lt;/strong&gt; Book a Free Consultation with Harbor Counseling Group&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The written versions read like headlines. I spell out “and” instead of using an ampersand, and I keep separators out of the topic as well. A title stitched together from three phrases with pipes between them looks like a keyword list. Choose the one idea the page is about and say it plainly.&lt;/p&gt;
+
+&lt;h2&gt;Compare titles before and after a migration&lt;/h2&gt;
+&lt;p&gt;A new theme, plugin, or site generator often arrives with its own title template, and that template can quietly overwrite titles someone tuned by hand. On a recent recovery project, a therapy practice moved off WordPress and the share of indexable pages ending in the site name rose from 83 percent to 96 percent. About 95 pages that had carefully written titles without a suffix gained one, including articles that had been earning a large share of the practice's search clicks.&lt;/p&gt;
+&lt;p&gt;The check is simple. Crawl the old site before launch and the new site after it, export both sets of titles, and compare them by URL. Every page whose title changed during the move deserves a look before anyone writes new titles.&lt;/p&gt;
+
+&lt;h2&gt;Roll the change out as a test&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Restore titles that were working before a migration.&lt;/strong&gt; That is a return to known performance, not an experiment.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Protect titles that already match their main query.&lt;/strong&gt; If a page's most searched phrase opens its title, edit around those words or leave the page alone.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Remove the suffix from one section first,&lt;/strong&gt; such as the blog, and leave comparable sections unchanged.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Compare the two groups in Search Console&lt;/strong&gt; for three to four weeks, looking at clicks and click-through rate. Updates and seasonal swings hit both groups, which makes the comparison fairer than a before and after view of one group.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Expand only if the changed section held steady or improved.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Keep every change reversible. Export the current titles or keep them in version control before editing, so any page can go back in minutes.&lt;/p&gt;
+
+&lt;h2&gt;What a title cleanup can and cannot fix&lt;/h2&gt;
+&lt;p&gt;A cleaner title gives a searcher a clearer reason to pick your result and gives Google less boilerplate to rewrite. It cannot repair thin pages, broken redirects, or a missing image library. Treat it as one tidy, measurable improvement. If traffic has fallen, keep looking for the larger cause; my guide to &lt;a href="https://christopherabraham.com/guides/update-recovery-2026/"&gt;recovering from a 2026 Google update&lt;/a&gt; walks through finding it, and the &lt;a href="https://christopherabraham.com/guides/redirect-rules/"&gt;ten rules for 301 redirects&lt;/a&gt; cover the migration mistakes that cost the most.&lt;/p&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/appearance/title-link"&gt;Google Search Central: Influencing your title links in search results&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/appearance/site-names"&gt;Google Search Central: Provide a site name to Google Search&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content:encoded>
+  </item>
   <item>
     <title>How to publish useful original research without a big budget</title>
     <link>https://christopherabraham.com/guides/small-original-research/</link>

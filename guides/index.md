@@ -1,6 +1,6 @@
 > Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
 >
-> Source: https://christopherabraham.com/guides/ · Updated 2026-10-12 · By Christopher Abraham
+> Source: https://christopherabraham.com/guides/ · Updated 2026-10-13 · By Christopher Abraham
 
 # SEO guides
 
@@ -20,6 +20,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/): five types, example JSON-LD, and the rules that keep it accurate.
 
 ## Migrations and performance
+- [When to keep your brand name in page titles](https://christopherabraham.com/guides/brand-name-in-titles/): where the name earns its place, writing it into the sentence, checking titles after a migration, and testing the change.
 - [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/): inventories, one-to-one maps, chains, 410s, and bulk testing.
 - [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/): LCP, INP, and CLS, field versus lab data, and the fixes that usually work.
 
@@ -59,4 +60,4 @@ New and updated guides appear in the [full text RSS feed](https://christopherabr
 
 If you've worked through a guide and the problem is still there, that's usually the point where a second set of eyes on the actual site helps. Every engagement begins with a scoped audit; see the [services](https://christopherabraham.com/services/) or [get in touch](https://christopherabraham.com/contact/).
 
-Updated October 12, 2026
+Updated October 13, 2026
