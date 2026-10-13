@@ -69,7 +69,7 @@ SERVICE_GROUPS = [
                                            "services/seo-retainer/"]),
 ]
 # The island rule: this site stands alone. None of these may appear in any source or generated page.
-ISLAND = [r"(?i)gerris", r"(?i)chrisabraham\.com", r"(?i)gerriscorp", r"(?i)hillmole", r"(?i)hill mole",
+ISLAND = [r"(?i)gerris", r"(?i)gerriscorp", r"(?i)hillmole", r"(?i)hill mole",
           r"(?i)podcast", r"(?i)substack", r"(?i)chris abraham show"]
 # The sibling site, built from the same kind of material. Pages here may not borrow its phrasing.
 SIBLING = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "gerris")
@@ -86,7 +86,7 @@ CALENDLY = "https://calendly.com/chrisabraham/30"
 LINKEDIN = "https://www.linkedin.com/in/chrisabraham"
 GBP = "https://share.google/xZ98ksFq3nhO2OvuF"  # Google Business Profile "Chris Abraham" (verified)
 # Profiles and bylines published as Chris Abraham: the same person, for search engines and AI.
-PROFILES = [UPWORK, LINKEDIN, "https://biznology.com/author/chrisabraham/",
+PROFILES = [UPWORK, LINKEDIN, "https://chrisabraham.com/", "https://biznology.com/author/chrisabraham/",
             "https://www.huffpost.com/author/chris-abraham", "https://muckrack.com/chrisabraham",
             "https://rheingold.com/Associates/team_abraham.html", "https://www.reddit.com/user/chrisabraham/"]
 

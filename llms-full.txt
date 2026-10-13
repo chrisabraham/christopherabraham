@@ -4192,6 +4192,7 @@ I studied literature, French, and German, I captained my high school speech and 
 ## Published as Chris Abraham
 
 Most people know me as Chris, and nearly two decades of my bylines carry that name. Christopher Abraham and Chris Abraham are the same person:
+- [chrisabraham.com](https://chrisabraham.com/), my personal site and archive since the early 2000s, built on Plone.
 - [LinkedIn](https://www.linkedin.com/in/chrisabraham), with my full work history.
 - [My Biznology column](https://biznology.com/author/chrisabraham/), a weekly marketing and search column for years.
 - [The Huffington Post](https://www.huffpost.com/author/chris-abraham), where I wrote as a contributor.
