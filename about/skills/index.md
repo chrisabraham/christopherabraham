@@ -51,6 +51,18 @@
 ## Data
 - Wrote Python pipelines that built an 88,900 contact master list, merged two 28,800 record exports at 94% email coverage, and caught an AI built tracker inventing its data.
 
+## Strengths that don't fit on a skills list
+
+These are habits, not tools, and they shape every engagement.
+- **I keep two problems apart.** When a traffic loss and a spam spike land in the same month, I run them as separate investigations until the evidence connects them, so nobody spends a quarter fixing the wrong thing. It's built into every [technical SEO audit](https://christopherabraham.com/services/seo-audit/).
+- **I catch AI tools inventing things.** I use AI every day and trust none of it unchecked, which is how I caught an AI built outreach tracker logging messages to contacts who didn't exist. My guide to [correcting what AI says about you](https://christopherabraham.com/guides/correct-ai-answers/) comes from the same habit.
+- **I build a case like a brief.** I captained my high school speech and debate team, and my Google appeals still read that way: the strongest document first, nothing that exposes private information, and no date claimed without paper behind it. That's how a [suspended profile came back](https://christopherabraham.com/case-studies/profile-reinstated/).
+- **I vet sources for a living.** At Edelman my job included checking online influencers for a genuine, multi year track record before clients went near them. I bring the same suspicion to every crawl export, vendor dashboard, and confident AI answer.
+- **I write for the developer and the owner at once.** The same finding becomes a ranked ticket with acceptance criteria for engineering and a plain summary for the person paying, as in the [13 page spec for a React app](https://christopherabraham.com/case-studies/event-app-links/).
+- **I ship at speed without dropping the checks.** This site went from first commit to 75 pages and more than 50,000 words in a week, built with Claude Code under my direction, and every page passes automated checks for title and description length, duplicate wording, broken links, and voice before it publishes.
+- **I've made myself machine readable.** Two decades of publishing under one name, tied together with structured data so search engines and AI tools know the profiles belong to one person. The method is in [two names, one entity](https://christopherabraham.com/guides/two-names-one-entity/).
+- **I know how online communities behave from the inside.** I moderate a Reddit community of more than 16,000 runners and have for nine years, and Reddit threads turn up constantly in AI answers. The story is [off the clock](https://christopherabraham.com/about/off-the-clock/).
+
 ## Platforms
 
 WordPress with Yoast, Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal; Squarespace; Wix; Webflow; Next.js, React, and Create React App; Sanity; Vercel, Netlify, Cloudflare, and GitHub Pages; Jekyll and hand built Python generators; and Plone on the Zope application server, which I've run since the early 2000s.
