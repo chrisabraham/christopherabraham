@@ -1,0 +1,77 @@
+name: Skills and Proof
+title: Technical SEO skills with proof: what I've actually done
+description: A technical SEO skills list where each line links to evidence: rendering forensics, pull requests, crawl automation, redirects, schema, AI search, and servers.
+keywords: technical SEO skills, SEO consultant resume, JavaScript SEO experience, SEO engineering skills, technical SEO portfolio
+updated: 2026-10-13
+---
+<h1>Technical SEO skills, and the proof for each one</h1>
+<p class="lead">"Technical SEO" on a profile can mean anything from installing a plugin to rebuilding a rendering pipeline. So here's my list, specific enough to check. Every skill below is something I've done on a real site, and wherever I can show it, it links to the case study or guide that proves it. My full career history lives in my <a href="https://chrisabraham.com/cv">CV on chrisabraham.com</a>; this page is the technical inventory.</p>
+
+<h2>Crawling and auditing whole sites</h2>
+<ul>
+  <li>Full site crawls in Screaming Frog with JavaScript rendering, run in raw and rendered modes and compared, so I can see which content exists only after scripts run.</li>
+  <li>Custom extraction with XPath and regex to audit every URL for heading counts, canonicals, robots tags, schema types, and tracking IDs. My <a href="{root}guides/custom-extraction/">extraction recipes</a> are published.</li>
+  <li>Near duplicate detection and multiple H1 audits across entire sites, with a decision per cluster. See <a href="{root}guides/near-duplicates-and-h1s/">how I find both</a>.</li>
+  <li>Before and after crawl comparisons to prove a fix landed on every URL, described in <a href="{root}guides/prove-seo-fixes/">proving an SEO fix worked</a>.</li>
+  <li>Crawl and index management for a programmatic site of more than 20,000 pages: segmented sitemaps, robots rules for parameter URLs, and baselines per segment. <a href="{root}case-studies/card-price-index/">Programmatic price index</a>.</li>
+</ul>
+
+<h2>JavaScript rendering forensics</h2>
+<ul>
+  <li>Traced a Magento and Hyvä store's traffic loss to Alpine.js sections that loaded specs, FAQs, and reviews only on scroll, and proved it with crawler extraction counts. <a href="{root}case-studies/scroll-gated-products/">Hidden product content</a>.</li>
+  <li>Found 2,000 event pages Google never discovered in a Create React App build, and wrote the 13 page developer spec, ranked P0 to P3, that fixed it. <a href="{root}case-studies/event-app-links/">React event app</a>.</li>
+  <li>Diagnosed a consent platform that blocked the script displaying every article, so bots saw empty pages. <a href="{root}case-studies/consent-banner/">Consent banner case</a>.</li>
+  <li>Hunted hydration errors sitewide by loading every URL in scripted headless Chrome and collecting console errors by template.</li>
+</ul>
+
+<h2>Working in the code</h2>
+<ul>
+  <li>Made metadata changes in a client's Sanity and Vercel codebase through a GitHub pull request the developer reviewed and merged, then verified prerendering. <a href="{root}case-studies/headless-local/">Headless local business</a>.</li>
+  <li>Read whole repositories with Claude Code and Codex to trace a crawl finding to the component or import script that causes it, checking every answer against the live site.</li>
+  <li>Built SEO checks into the build of sites I run, so a page with a bad title, a duplicate description, a broken internal link, or borrowed phrasing fails before it publishes. That's how this site is built.</li>
+  <li>Automated IndexNow submissions with GitHub Actions, gated on the new sitemap actually being live.</li>
+  <li>Built a 12,000 line command line assistant in Python with 140 end to end tests, directing Claude Code the way a technical lead directs a team.</li>
+</ul>
+
+<h2>Migrations, redirects, and recovery</h2>
+<ul>
+  <li>Audited a Squarespace to Shopify move that left 3,400 broken URLs and duplicate product paths, and did the theme schema work. <a href="{root}case-studies/shopify-cleanup/">Shopify cleanup</a>.</li>
+  <li>Rebuilt the redirect map for a site that had lived on three platforms over fourteen years, by pulling every URL the Wayback Machine ever captured, testing all 848 against the live site, and redirecting every one that had ever served a page.</li>
+  <li>Diagnosed a WooCommerce store's loss of indexing, traffic, and AI referrals after its SEO plugin was switched off, and checked the recovery. <a href="{root}case-studies/plugin-outage/">Plugin outage</a>.</li>
+</ul>
+
+<h2>Schema, entities, and AI search</h2>
+<ul>
+  <li>Separated a multi state brand from its first showroom in schema and on the page, so search engines stopped blurring the two. <a href="{root}case-studies/closet-locations/">Closet locations</a>.</li>
+  <li>Fixed a gym whose brand name Google read as an ordinary word, which lifted calls and visits. <a href="{root}case-studies/training-gym/">Training gym</a>.</li>
+  <li>Audited how ChatGPT and Perplexity described an AI company's jobs and pay, and planned the fix. <a href="{root}case-studies/recruiting-answers/">Recruiting answers</a>.</li>
+  <li>Built JSON-LD graphs, llms.txt files, Markdown twins of every page, and full text feeds for AI crawlers, on this site and others I run.</li>
+</ul>
+
+<h2>Servers, DNS, and email</h2>
+<ul>
+  <li>Revived a stalled Node application on a DigitalOcean server over SSH: read the logs, fixed the configuration, managed it with PM2, and found the port conflict keeping it down.</li>
+  <li>Administer my own Debian servers with key only SSH, firewalls, and unattended security updates.</li>
+  <li>Moved domains to Cloudflare DNS without breaking Google Workspace mail, and set up SPF, DKIM, and DMARC. See <a href="{root}guides/non-sending-domain/">protecting a domain that sends no mail</a>.</li>
+</ul>
+
+<h2>Local search and Google Business Profile</h2>
+<ul>
+  <li>Got a suspended profile reinstated with a documented appeal. <a href="{root}case-studies/profile-reinstated/">Profile reinstated</a>.</li>
+</ul>
+
+<h2>Data</h2>
+<ul>
+  <li>Wrote Python pipelines that built an 88,900 contact master list, merged two 28,800 record exports at 94% email coverage, and caught an AI built tracker inventing its data.</li>
+</ul>
+
+<h2>Platforms</h2>
+<p>WordPress with Yoast, Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal; Squarespace; Wix; Webflow; Next.js, React, and Create React App; Sanity; Vercel, Netlify, Cloudflare, and GitHub Pages; Jekyll and hand built Python generators; and Plone, which I've run since the early 2000s.</p>
+
+<h2>Tools</h2>
+<p>Screaming Frog SEO Spider, Google Search Console and its APIs, Bing Webmaster Tools, GA4, Semrush, PageSpeed Insights and the Chrome UX Report, Playwright, Claude Code, Codex, Git and GitHub, GitHub Actions, Python, and the command line.</p>
+
+<h2>What I don't do</h2>
+<p>Paid search and paid social. Everything here is organic.</p>
+
+<p>Want this on your site? <a href="{root}contact/">Send me the URL and the problem</a>, or see how I work on <a href="{root}hire-me/">Hire Me</a>. The longer story is on the <a href="{root}about/">About page</a>, and the full bio is at <a href="https://chrisabraham.com/bio">chrisabraham.com/bio</a>.</p>

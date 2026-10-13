@@ -60,7 +60,7 @@ FILES = ["index",
          "case-studies/event-app-links", "case-studies/headless-local", "case-studies/clinic-migration",
          "case-studies/shopify-cleanup", "case-studies/card-price-index", "case-studies/plugin-outage",
          "case-studies/closet-locations", "case-studies/profile-reinstated", "case-studies/training-gym", "case-studies/recruiting-answers",
-         "about", "about/off-the-clock", "about/editorial-policy", "about/colophon", "hire-me", "faq", "contact", "privacy"]
+         "about", "about/skills", "about/off-the-clock", "about/editorial-policy", "about/colophon", "hire-me", "faq", "contact", "privacy"]
 SERVICE_GROUPS = [
     ("Technical SEO", ["services/sitewide-technical-seo/", "services/seo-audit/", "services/indexing/", "services/javascript-seo/", "services/site-speed/",
                        "services/search-console/", "services/migrations/"]),

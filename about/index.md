@@ -63,6 +63,8 @@ Most people know me as Chris, and nearly two decades of my bylines carry that na
 
 There's more to the story than search: Honolulu, crew, Freemasonry, hyperfiction, Renaissance Weekend, and a Reddit community of slow joggers. It's all [off the clock](https://christopherabraham.com/about/off-the-clock/).
 
+For the technical inventory, every skill with the case study that proves it, see [skills and proof](https://christopherabraham.com/about/skills/).
+
 ## Check my work
 - [My Upwork profile](https://www.upwork.com/freelancers/chrisjabraham), with job history and client feedback.
 - [My LinkedIn profile](https://www.linkedin.com/in/chrisabraham).
