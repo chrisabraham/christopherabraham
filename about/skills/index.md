@@ -38,6 +38,7 @@
 - Built JSON-LD graphs, llms.txt files, Markdown twins of every page, and full text feeds for AI crawlers, on this site and others I run.
 
 ## Servers, DNS, and email
+- Ran Linux servers and built on Apache, MySQL, Perl, and PHP for years before anyone called that combination the LAMP stack, right up until my SEO career began in 2002.
 - Revived a stalled Node application on a DigitalOcean server over SSH: read the logs, fixed the configuration, managed it with PM2, and found the port conflict keeping it down.
 - Administer my own Debian servers with key only SSH, firewalls, and unattended security updates.
 - Moved domains to Cloudflare DNS without breaking Google Workspace mail, and set up SPF, DKIM, and DMARC. See [protecting a domain that sends no mail](https://christopherabraham.com/guides/non-sending-domain/).
