@@ -1,6 +1,6 @@
 > Christopher Abraham is an SEO consultant in Arlington, VA, working on AI search, rendering forensics, and modern stacks, with SEO experience dating to 1998.
 >
-> Source: https://christopherabraham.com/about/ · Updated 2026-10-06 · By Christopher Abraham
+> Source: https://christopherabraham.com/about/ · Updated 2026-10-14 · By Christopher Abraham
 
 # About Christopher Abraham
 
@@ -59,7 +59,8 @@ Most people know me as Chris, and nearly two decades of my bylines carry that na
 - [My Biznology column](https://biznology.com/author/chrisabraham/), a weekly marketing and search column for years.
 - [The Huffington Post](https://www.huffpost.com/author/chris-abraham), where I wrote as a contributor.
 - [Muck Rack](https://muckrack.com/chrisabraham), which collects my articles across publications.
-- Earlier columns for Advertising Age's DigitalNext, Socialmedia.biz, and Marketing Conversation.
+- [Advertising Age](https://adage.com/author/chris-abraham/1797), where [DigitalNext introduced me in 2008](https://adage.com/article/digitalnext/meet-digitalnext-bloggers/126355/) as a specialist in blogger outreach and search-reputation management, and where I later wrote from Berlin for the Global Idea Network.
+- Earlier columns for Socialmedia.biz and Marketing Conversation.
 
 There's more to the story than search: Honolulu, crew, Freemasonry, hyperfiction, Renaissance Weekend, and a Reddit community of slow joggers. It's all [off the clock](https://christopherabraham.com/about/off-the-clock/).
 
@@ -71,4 +72,4 @@ For the technical inventory, every skill with the case study that proves it, see
 - [Case studies](https://christopherabraham.com/case-studies/), written up with the evidence and anonymized.
 - [Guides](https://christopherabraham.com/guides/) that show how I think about indexing, audits, schema, and AI search.
 
-Updated October 6, 2026
+Updated October 14, 2026

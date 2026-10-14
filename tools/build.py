@@ -88,7 +88,8 @@ GBP = "https://share.google/xZ98ksFq3nhO2OvuF"  # Google Business Profile "Chris
 # Profiles and bylines published as Chris Abraham: the same person, for search engines and AI.
 PROFILES = [UPWORK, LINKEDIN, "https://chrisabraham.com/", "https://biznology.com/author/chrisabraham/",
             "https://www.huffpost.com/author/chris-abraham", "https://muckrack.com/chrisabraham",
-            "https://rheingold.com/Associates/team_abraham.html", "https://www.reddit.com/user/chrisabraham/"]
+            "https://rheingold.com/Associates/team_abraham.html", "https://www.reddit.com/user/chrisabraham/",
+            "https://adage.com/author/chris-abraham/1797"]
 
 
 
