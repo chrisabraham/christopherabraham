@@ -55,11 +55,11 @@ FILES = ["index",
          "guides/small-business-schema", "guides/redirect-rules", "guides/core-web-vitals",
          "guides/correct-ai-answers", "guides/two-names-one-entity", "guides/third-party-proof", "guides/about-page-ai",
          "guides/parked-domain-launch", "guides/non-sending-domain", "guides/lapsed-domains", "guides/llms-txt",
-         "guides/meta-keywords", "guides/accessible-websites", "guides/accessibility-seo-dividends", "guides/lynx-test", "guides/hiring-an-seo", "guides/reddit-ai-answers", "guides/ai-built-websites", "guides/earned-mentions", "guides/buying-backlinks", "guides/business-name-change", "guides/holiday-hours", "guides/update-recovery-2026", "guides/seo-news-sources", "guides/wordpress-seo-101", "guides/cloudflare-wordpress", "guides/ai-content-seo", "guides/screaming-frog-licence", "guides/seo-in-your-repository", "guides/near-duplicates-and-h1s", "guides/custom-extraction", "guides/prove-seo-fixes", "guides/ai-share-of-voice", "guides/topic-clusters", "guides/glossary",
+         "guides/meta-keywords", "guides/accessible-websites", "guides/accessibility-seo-dividends", "guides/lynx-test", "guides/hiring-an-seo", "guides/reddit-ai-answers", "guides/ai-built-websites", "guides/earned-mentions", "guides/buying-backlinks", "guides/business-name-change", "guides/holiday-hours", "guides/update-recovery-2026", "guides/seo-news-sources", "guides/wordpress-seo-101", "guides/cloudflare-wordpress", "guides/ai-content-seo", "guides/screaming-frog-licence", "guides/seo-in-your-repository", "guides/near-duplicates-and-h1s", "guides/custom-extraction", "guides/prove-seo-fixes", "guides/ai-share-of-voice", "guides/topic-clusters", "guides/ga4-pagespeed", "guides/glossary",
          "case-studies/index", "case-studies/scroll-gated-products", "case-studies/consent-banner",
          "case-studies/event-app-links", "case-studies/headless-local", "case-studies/clinic-migration",
          "case-studies/shopify-cleanup", "case-studies/card-price-index", "case-studies/plugin-outage",
-         "case-studies/closet-locations", "case-studies/profile-reinstated", "case-studies/training-gym", "case-studies/recruiting-answers",
+         "case-studies/closet-locations", "case-studies/profile-reinstated", "case-studies/training-gym", "case-studies/recruiting-answers", "case-studies/ai-visibility-baseline",
          "about", "about/skills", "about/off-the-clock", "about/editorial-policy", "about/colophon", "hire-me", "faq", "contact", "privacy"]
 SERVICE_GROUPS = [
     ("Technical SEO", ["services/sitewide-technical-seo/", "services/seo-audit/", "services/indexing/", "services/javascript-seo/", "services/site-speed/",

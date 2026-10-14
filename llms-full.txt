@@ -871,12 +871,14 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Why I turn down backlink work, and who I recommend](https://christopherabraham.com/guides/buying-backlinks/): a decade as a FatJoe publisher, what to ask any link vendor, and Google's rule on paid links.
 - [Reddit and AI answers](https://christopherabraham.com/guides/reddit-ai-answers/): why threads shape what Google and ChatGPT say about you, what moderators remove, and honest participation.
 - [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/): five types, example JSON-LD, and the rules that keep it accurate.
+- [Topic clusters for AI search](https://christopherabraham.com/guides/topic-clusters/): one hub, one page per buyer question, and no two pages competing for the same query.
 
 ## Migrations and performance
 - [When to keep your brand name in page titles](https://christopherabraham.com/guides/brand-name-in-titles/): where the name earns its place, writing it into the sentence, checking titles after a migration, and testing the change.
 - [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/): inventories, one-to-one maps, chains, 410s, and bulk testing.
 - [SEO for sites built with AI app builders](https://christopherabraham.com/guides/ai-built-websites/): rendering, real links, per page titles, soft 404s, sitemaps, and owning the code.
 - [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/): LCP, INP, and CLS, field versus lab data, and the fixes that usually work.
+- [Load Google Analytics 4 without hurting PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/): load gtag.js after the first scroll or tap, keep every pageview command, and know the cost.
 
 ## Local listings
 - [How to change a business name without losing your reviews](https://christopherabraham.com/guides/business-name-change/): edit the listing you have, let the sign go first, and connect the old name on the web.
@@ -888,6 +890,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Holiday hours on Google Business Profile](https://christopherabraham.com/guides/holiday-hours/): special hours versus temporarily closed, a calendar for the season, and multiple locations.
 
 ## Your name, your entity, and AI answers
+- [How to measure your share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/): a fixed question set, who gets named, the tone, and the sources cited, run monthly.
 - [How to correct what AI search says about you](https://christopherabraham.com/guides/correct-ai-answers/): trace each wrong fact to its source and publish corrections that stick.
 - [One person, two names](https://christopherabraham.com/guides/two-names-one-entity/): connecting a nickname, pen name, or formal name into a single entity with schema and sameAs.
 - [Proving expertise with third-party sources](https://christopherabraham.com/guides/third-party-proof/): alumni news, vendor case studies, old team pages, and bylines as evidence.
@@ -4173,6 +4176,88 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 
 ---
 
+Source: https://christopherabraham.com/guides/ga4-pagespeed/
+Updated: 2026-10-14
+
+# How to load Google Analytics 4 without hurting PageSpeed
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 14, 2026
+
+On a lean site, the Google Analytics tag can be the heaviest thing on the page. When I tested this site in October 2026, gtag.js accounted for most of the main-thread work during load on mobile, about twice what the site's own code used. Loading the tag after the visitor's first scroll, tap, or key press, or four seconds after the page finishes loading, took the home page from a mobile Lighthouse score of 73 to 80 up to 100. Pageviews still count. The cost is the visitors who leave within a few seconds without touching the page.
+
+## What the tag costs
+
+The standard GA4 snippet loads gtag.js asynchronously, which keeps it from blocking the HTML parser. It still runs on the main thread once it arrives, and the script is large: about 176 KB on my pages. On a phone, parsing and running it lands in the same window as the page's first paint, and Lighthouse counts every long task in that window toward Total Blocking Time. On my home page, Total Blocking Time ran from 700 to 1,760 milliseconds, depending on the run.
+
+Total Blocking Time is a lab measure. Google's ranking signals use field data, and the field measure for responsiveness is Interaction to Next Paint. Real phones on real networks still pay the cost of a large script parsed during load, so a lab fix that removes that work tends to show up in the field too, a month or so later, once enough visits have been recorded.
+
+## Load the tag after the visitor acts
+
+The fix keeps every analytics command and moves only the script download. The page defines dataLayer and the gtag function as usual, queues the consent defaults, the js timestamp, and the config call, and then waits. The first scroll, pointer press, touch, or key press loads gtag.js. If none comes, a timer loads it four seconds after the page's load event. When the script arrives it reads the queued commands in order, so the pageview is recorded with the right consent state.
+
+```
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+  (function () {
+    var done = false;
+    function load() {
+      if (done) return;
+      done = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX';
+      document.head.appendChild(s);
+    }
+    ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (e) {
+      addEventListener(e, load, {once: true, passive: true});
+    });
+    addEventListener('load', function () { setTimeout(load, 4000); });
+  })();
+</script>
+```
+
+Keep your consent mode defaults above the config line, exactly where they were. They are commands in the same queue and run before anything is sent.
+
+## The result
+
+I tested the original and the deferred version of the same page side by side, twice each, with Lighthouse in mobile mode on the same machine. The original scored 73 and 80, with 1,760 and 890 milliseconds of blocking time. The deferred version scored 100 both times, with 40 and 30 milliseconds. The two pages I measured on this site afterward scored 98 and 100.
+
+## The cost, stated plainly
+
+A visitor who opens a page and leaves within about four seconds without scrolling, tapping, or typing is never counted. On most sites that group is small and includes a share of bots, but it is real, and a client should hear it before the change ships. Bounce rate and short-session counts will shift on the day you deploy, so annotate the change in GA4 and compare like with like afterward.
+
+Two cases call for the standard snippet instead. A site whose business depends on counting single-page visits exactly, such as a landing page measured by paid campaigns, should keep the tag loading immediately. So should any page where the tag fires conversion events the moment it loads.
+
+## Check the rest of the page first
+
+Deferring analytics is the right first move only when analytics is the problem. Run Lighthouse, open the diagnostics, and read which scripts take the main-thread time. If a theme, a page builder, or a chat widget is the larger cost, fix that first. My guide to [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/) covers the other common causes.
+
+## Where I fit
+
+I find what is actually slowing a site, measure the fix before it ships, and explain the trade-offs to the people who own the analytics. If your PageSpeed scores are stuck and nobody can say why, [send me the URL](https://christopherabraham.com/contact/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [Chrome for Developers: Total Blocking Time](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time)
+- [Google Analytics: Set up consent mode](https://developers.google.com/tag-platform/security/guides/consent)
+- [web.dev: Interaction to Next Paint](https://web.dev/articles/inp)
+- [Google Search Central: Core Web Vitals and Google Search results](https://developers.google.com/search/docs/appearance/core-web-vitals)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
 Source: https://christopherabraham.com/guides/glossary/
 Updated: 2026-10-06
 
@@ -4361,6 +4446,7 @@ Each case explains the problem, my role, what I found, what was done and by whom
 - [Therapy practice: a suspended Business Profile reinstated](https://christopherabraham.com/case-studies/profile-reinstated/). An evidence-first appeal.
 - [Private training gym: a brand name that is also a verb](https://christopherabraham.com/case-studies/training-gym/). Calls from the profile went from 7 to 56 a month.
 - [AI research company: accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/). A GEO audit for recruiting.
+- [My own consultancy: an AI visibility baseline](https://christopherabraham.com/case-studies/ai-visibility-baseline/). Named in 3 of 3 branded answers and 0 of 9 hiring questions.
 
 ## The common thread
 
@@ -4832,6 +4918,50 @@ Recommendations delivered; the engagement is paused. See [AI SEO, GEO, and AEO](
 **[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/case-studies/ai-visibility-baseline/
+Updated: 2026-10-14
+
+# My own consultancy: an AI visibility baseline, with nothing redacted
+
+In October 2026 an agency asked me for a sample AI visibility audit. Every audit I had run belonged to a client under confidentiality, so I ran one on myself. Claude, with live web search, answered sixteen questions a prospect of mine might ask. It found me every time someone asked for me by name, and never when someone asked who to hire.
+
+## The engagement
+
+My own name and sites, measured the way I measure clients: a fixed question set, every answer saved word for word, and a second pass that recorded who was named, my position, the tone, each factual claim about me, and every cited source.
+
+## What I found
+- **Branded questions:** named in 3 of 3 answers, with my sites cited in each.
+- **Open hiring questions:** named in 0 of 9. The names came from marketplace listing pages, an agency directory, and "best consultants" roundups.
+- **How-to questions:** 0 of 4 answers cited any of my guides. Vendor blogs supplied most of the citations.
+- **Accuracy:** 46 factual claims about me across the branded answers. Most were right. Four needed action, and every one traced to a page I control.
+
+## Tracing the wrong facts
+
+One answer gave my consultancy the founding year of my earlier agency. The cause was a single sentence on one of my own About pages that named both companies and both years. The assistant kept the first year and attached it to the second company. I split the sentence into two lines, one company and one year each.
+
+Another answer described my sites as a preview that hadn't launched. The source was a public GitHub repository README, still carrying launch instructions written before the site went live. I rewrote it to say the site is live and to point readers to it.
+
+Older figures, a stale Upwork status and job count, came from a profile page on my personal site written two years earlier. A recognition the assistant called unconfirmed, a 2012 Forbes contributor's ranking, turned out to be real: the archived list shows me at number 33. It needed a link, which I added.
+
+## What the gap means
+
+The answer to "Is Chris Abraham a good SEO consultant to hire?" put it plainly: almost everything it found about me was written by me. The sites were crawlable and current. The rest of the web hadn't caught up. That finding sets the program: complete listings on the marketplaces the answers drew from, pitches to the roundups that supplied the hiring names, and independent coverage over the following months. My guide to [earned mentions](https://christopherabraham.com/guides/earned-mentions/) describes the outreach side.
+
+## Cost and method
+
+The full run cost $1.88 in API fees and took about fifteen minutes. The same sixteen questions rerun monthly give a trend, and the method is in my guide to [measuring AI share of voice](https://christopherabraham.com/guides/ai-share-of-voice/). One engine on one day is a reading. The monthly series is the measure.
+
+## Status
+
+The errors on the sites I build from code were corrected the same day, and the older profile page is next. Outreach follows, and the next run will show whether the open questions start to name me. See [AEO and GEO consulting](https://christopherabraham.com/services/ai-search/) for the same audit on your brand.
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+Updated October 14, 2026
 
 
 ---
@@ -5441,6 +5571,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/): Proof that an SEO fix shipped: compare before and after crawls in Screaming Frog, check change detection, then confirm in Search Console with validation.
 - [How to measure your share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/): Track how often ChatGPT, Claude, and Google's AI name you beside competitors, in what tone, and from which sources, with a fixed question set and a monthly run.
 - [Topic clusters for AI search, without your pages competing with each other](https://christopherabraham.com/guides/topic-clusters/): Plan a hub page and one page per buyer question so AI fan out searches find a match for every subtopic, and keep your pages from competing for one query.
+- [How to load Google Analytics 4 without hurting PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/): On a fast static site, gtag.js caused most of the blocking time. Loading it after the first scroll or tap took mobile Lighthouse to 100. How, and the cost.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 
 ## Case studies
@@ -5456,6 +5587,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Therapy practice: a suspended Business Profile restored](https://christopherabraham.com/case-studies/profile-reinstated/): A Canadian hypnotherapy office disappeared from Google Maps after a profile suspension. The listing was corrected, proof organized, and the profile restored.
 - [Private training gym: a brand name Google kept misreading](https://christopherabraham.com/case-studies/training-gym/): A members only training gym in Northern Virginia had a brand name Google read as an ordinary word. Fixing its profile and pages lifted calls and visits.
 - [AI research company: accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/): An AI research company hiring Bay Area engineers wanted ChatGPT and Perplexity to answer accurately about its jobs and pay. The audit findings and the plan.
+- [My own consultancy: an AI visibility baseline, with nothing redacted](https://christopherabraham.com/case-studies/ai-visibility-baseline/): I ran sixteen buyer questions about my own services through Claude with web search, then traced every wrong fact and every missing mention to a fixable cause.
 
 ## Files for machines
 - [sitemap.xml](https://christopherabraham.com/sitemap.xml): the XML sitemap for search engines.

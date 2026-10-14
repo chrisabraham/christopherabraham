@@ -25,6 +25,7 @@ Each case explains the problem, my role, what I found, what was done and by whom
 - [Therapy practice: a suspended Business Profile reinstated](https://christopherabraham.com/case-studies/profile-reinstated/). An evidence-first appeal.
 - [Private training gym: a brand name that is also a verb](https://christopherabraham.com/case-studies/training-gym/). Calls from the profile went from 7 to 56 a month.
 - [AI research company: accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/). A GEO audit for recruiting.
+- [My own consultancy: an AI visibility baseline](https://christopherabraham.com/case-studies/ai-visibility-baseline/). Named in 3 of 3 branded answers and 0 of 9 hiring questions.
 
 ## The common thread
 

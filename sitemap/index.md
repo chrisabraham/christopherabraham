@@ -78,6 +78,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/): Proof that an SEO fix shipped: compare before and after crawls in Screaming Frog, check change detection, then confirm in Search Console with validation.
 - [How to measure your share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/): Track how often ChatGPT, Claude, and Google's AI name you beside competitors, in what tone, and from which sources, with a fixed question set and a monthly run.
 - [Topic clusters for AI search, without your pages competing with each other](https://christopherabraham.com/guides/topic-clusters/): Plan a hub page and one page per buyer question so AI fan out searches find a match for every subtopic, and keep your pages from competing for one query.
+- [How to load Google Analytics 4 without hurting PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/): On a fast static site, gtag.js caused most of the blocking time. Loading it after the first scroll or tap took mobile Lighthouse to 100. How, and the cost.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 
 ## Case studies
@@ -93,6 +94,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Therapy practice: a suspended Business Profile restored](https://christopherabraham.com/case-studies/profile-reinstated/): A Canadian hypnotherapy office disappeared from Google Maps after a profile suspension. The listing was corrected, proof organized, and the profile restored.
 - [Private training gym: a brand name Google kept misreading](https://christopherabraham.com/case-studies/training-gym/): A members only training gym in Northern Virginia had a brand name Google read as an ordinary word. Fixing its profile and pages lifted calls and visits.
 - [AI research company: accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/): An AI research company hiring Bay Area engineers wanted ChatGPT and Perplexity to answer accurately about its jobs and pay. The audit findings and the plan.
+- [My own consultancy: an AI visibility baseline, with nothing redacted](https://christopherabraham.com/case-studies/ai-visibility-baseline/): I ran sixteen buyer questions about my own services through Claude with web search, then traced every wrong fact and every missing mention to a fixable cause.
 
 ## Files for machines
 - [sitemap.xml](https://christopherabraham.com/sitemap.xml): the XML sitemap for search engines.

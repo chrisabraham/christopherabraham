@@ -24,12 +24,14 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Why I turn down backlink work, and who I recommend](https://christopherabraham.com/guides/buying-backlinks/): a decade as a FatJoe publisher, what to ask any link vendor, and Google's rule on paid links.
 - [Reddit and AI answers](https://christopherabraham.com/guides/reddit-ai-answers/): why threads shape what Google and ChatGPT say about you, what moderators remove, and honest participation.
 - [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/): five types, example JSON-LD, and the rules that keep it accurate.
+- [Topic clusters for AI search](https://christopherabraham.com/guides/topic-clusters/): one hub, one page per buyer question, and no two pages competing for the same query.
 
 ## Migrations and performance
 - [When to keep your brand name in page titles](https://christopherabraham.com/guides/brand-name-in-titles/): where the name earns its place, writing it into the sentence, checking titles after a migration, and testing the change.
 - [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/): inventories, one-to-one maps, chains, 410s, and bulk testing.
 - [SEO for sites built with AI app builders](https://christopherabraham.com/guides/ai-built-websites/): rendering, real links, per page titles, soft 404s, sitemaps, and owning the code.
 - [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/): LCP, INP, and CLS, field versus lab data, and the fixes that usually work.
+- [Load Google Analytics 4 without hurting PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/): load gtag.js after the first scroll or tap, keep every pageview command, and know the cost.
 
 ## Local listings
 - [How to change a business name without losing your reviews](https://christopherabraham.com/guides/business-name-change/): edit the listing you have, let the sign go first, and connect the old name on the web.
@@ -41,6 +43,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Holiday hours on Google Business Profile](https://christopherabraham.com/guides/holiday-hours/): special hours versus temporarily closed, a calendar for the season, and multiple locations.
 
 ## Your name, your entity, and AI answers
+- [How to measure your share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/): a fixed question set, who gets named, the tone, and the sources cited, run monthly.
 - [How to correct what AI search says about you](https://christopherabraham.com/guides/correct-ai-answers/): trace each wrong fact to its source and publish corrections that stick.
 - [One person, two names](https://christopherabraham.com/guides/two-names-one-entity/): connecting a nickname, pen name, or formal name into a single entity with schema and sameAs.
 - [Proving expertise with third-party sources](https://christopherabraham.com/guides/third-party-proof/): alumni news, vendor case studies, old team pages, and bylines as evidence.
