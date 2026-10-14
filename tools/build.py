@@ -845,7 +845,7 @@ for p in pages:
 # The island rule, over every source page and every generated file.
 _generated = [os.path.join(p["path"], f) for p in pages for f in ("index.html", "index.md")]
 for f in [f"src/{x}.html" for x in FILES] + _generated + ["404.html", "llms.txt", "llms-full.txt", "feed.xml", "rss.xml", "robots.txt", "sitemap.xml"]:
-    text = open(f, encoding="utf-8").read()
+    text = open(f, encoding="utf-8").read().replace("tag=gerris-20", "")  # Chris' Amazon Associates tag is allowed (owner, 2026-10-13)
     for pat in ISLAND:
         for m in re.finditer(pat, text):
             problems.append(f"{f}: island rule: {m.group(0)!r} near {text[max(0, m.start() - 40):m.end() + 20]!r}")
@@ -869,7 +869,7 @@ if os.path.isdir(SIBLING):
             if share > 0.10:
                 problems.append(f"/{p['path']} shares {share:.0%} of its phrasing with sibling /{other}")
         for sentence in re.split(r"(?<=[.!?])\s+", _words(p)[0]):
-            if len(sentence.split()) >= 8 and sentence.strip() in _sib_sent:
+            if len(sentence.split()) >= 8 and sentence.strip() in _sib_sent and "Amazon Associate" not in sentence:  # the required Associates disclosure is identical by design
                 problems.append(f"/{p['path']} repeats a sibling sentence: {sentence[:80]}")
 else:
     print("note: sibling site not found, skipping the borrowed-phrasing check")
