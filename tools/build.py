@@ -88,7 +88,7 @@ GBP = "https://share.google/xZ98ksFq3nhO2OvuF"  # Google Business Profile "Chris
 # Profiles and bylines published as Chris Abraham: the same person, for search engines and AI.
 PROFILES = [UPWORK, LINKEDIN, "https://chrisabraham.com/", "https://biznology.com/author/chrisabraham/",
             "https://www.huffpost.com/author/chris-abraham", "https://muckrack.com/chrisabraham",
-            "https://rheingold.com/Associates/team_abraham.html", "https://www.reddit.com/user/chrisabraham/",
+            "https://rheingold.com/Associates/team_abraham.html", "https://www.reddit.com/user/chrisabraham/", "https://mastodon.social/@chrisa",
             "https://adage.com/author/chris-abraham/1797"]
 
 
@@ -455,6 +455,7 @@ GA = f"""
 
 # Chrome prefetches a same-site page when a reader hovers or starts to tap its link,
 # so the next page opens at once. Markdown, text, and XML files are left alone.
+RELME = '\n<link rel="me" href="https://mastodon.social/@chrisa">'  # Mastodon profile verification
 SPECULATION = """
 <script type="speculationrules">{"prefetch": [{"where": {"and": [{"href_matches": "/*"}, {"not": {"href_matches": ["/*.md", "/*.txt", "/*.xml"]}}]}, "eagerness": "moderate"}]}</script>"""
 
@@ -496,7 +497,7 @@ def render(p):
 <link rel="alternate" type="application/atom+xml" title="SEO guides by Christopher Abraham" href="{r}feed.xml">
 <link rel="alternate" type="text/plain" title="llms.txt" href="{r}llms.txt">
 <link rel="sitemap" type="application/xml" href="{r}sitemap.xml">
-<meta name="theme-color" content="#ffffff">{GA}{SPECULATION}
+<meta name="theme-color" content="#ffffff">{GA}{SPECULATION}{RELME}
 <meta property="og:site_name" content="Christopher Abraham">
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="{og_type}">
