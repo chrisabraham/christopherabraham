@@ -17,7 +17,6 @@
 <link rel="alternate" type="text/plain" title="llms.txt" href="../../llms.txt">
 <link rel="sitemap" type="application/xml" href="../../sitemap.xml">
 <meta name="theme-color" content="#ffffff">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MR3P3612MM"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -25,7 +24,23 @@
   gtag('consent', 'default', {analytics_storage: 'denied', region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"]});
   gtag('js', new Date());
   gtag('config', 'G-MR3P3612MM');
+  (function () {
+    // gtag.js loads on the first scroll, tap, or key, or 4 seconds after the page loads,
+    // so it never competes with the page itself. The commands above wait in dataLayer.
+    var done = false;
+    function load() {
+      if (done) return;
+      done = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-MR3P3612MM';
+      document.head.appendChild(s);
+    }
+    ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (e) { addEventListener(e, load, {once: true, passive: true}); });
+    addEventListener('load', function () { setTimeout(load, 4000); });
+  })();
 </script>
+<script type="speculationrules">{"prefetch": [{"where": {"and": [{"href_matches": "/*"}, {"not": {"href_matches": ["/*.md", "/*.txt", "/*.xml"]}}]}, "eagerness": "moderate"}]}</script>
 <meta property="og:site_name" content="Christopher Abraham">
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
@@ -719,7 +734,7 @@ dd { margin: .2rem 0 0 0; }
 <a class="skip" href="#main">Skip to content</a>
 <div class="wrap">
 <header class="top">
-  <a href="../../"><img src="../../logo-128.png" width="64" height="64" alt="Christopher Abraham home"></a>
+  <a href="../../"><img src="../../logo-128.png" width="64" height="64" alt="Christopher Abraham home" fetchpriority="high"></a>
   <div>
     <a class="brand" href="../../">Christopher Abraham</a>
     <p class="tag">SEO consultant: technical SEO, indexing, schema, and AI search</p>
@@ -739,7 +754,7 @@ dd { margin: .2rem 0 0 0; }
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../../guides/">Guides</a></li><li aria-current="page">AI catnip</li></ol></nav>
 <main id="main">
 <h1>AI catnip for fall 2026: become the source worth citing</h1>
-<p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published October 12, 2026</p>
+<p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-12">October 12, 2026</time></p>
 <p class="lead">If I wanted to attract AI search attention this fall, I would publish something a reader could use and another writer could verify. Think of catnip as a memorable description of useful source material: a documented test, a precise explanation, a comparison with stated limits. Clever instructions aimed at a model do not create expertise. A page needs a reason to exist before it needs a distribution strategy.</p>
 
 <h2>Choose a question you can answer better</h2>

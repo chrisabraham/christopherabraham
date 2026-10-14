@@ -1,6 +1,6 @@
 > Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.
 >
-> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-13 · By Christopher Abraham
+> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-14 · By Christopher Abraham
 
 # Site map
 
@@ -100,4 +100,4 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 13, 2026
+Updated October 14, 2026

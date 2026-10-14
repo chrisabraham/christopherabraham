@@ -17,7 +17,6 @@
 <link rel="alternate" type="text/plain" title="llms.txt" href="../../llms.txt">
 <link rel="sitemap" type="application/xml" href="../../sitemap.xml">
 <meta name="theme-color" content="#ffffff">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MR3P3612MM"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -25,7 +24,23 @@
   gtag('consent', 'default', {analytics_storage: 'denied', region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"]});
   gtag('js', new Date());
   gtag('config', 'G-MR3P3612MM');
+  (function () {
+    // gtag.js loads on the first scroll, tap, or key, or 4 seconds after the page loads,
+    // so it never competes with the page itself. The commands above wait in dataLayer.
+    var done = false;
+    function load() {
+      if (done) return;
+      done = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-MR3P3612MM';
+      document.head.appendChild(s);
+    }
+    ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (e) { addEventListener(e, load, {once: true, passive: true}); });
+    addEventListener('load', function () { setTimeout(load, 4000); });
+  })();
 </script>
+<script type="speculationrules">{"prefetch": [{"where": {"and": [{"href_matches": "/*"}, {"not": {"href_matches": ["/*.md", "/*.txt", "/*.xml"]}}]}, "eagerness": "moderate"}]}</script>
 <meta property="og:site_name" content="Christopher Abraham">
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
@@ -729,7 +744,7 @@ dd { margin: .2rem 0 0 0; }
 <a class="skip" href="#main">Skip to content</a>
 <div class="wrap">
 <header class="top">
-  <a href="../../"><img src="../../logo-128.png" width="64" height="64" alt="Christopher Abraham home"></a>
+  <a href="../../"><img src="../../logo-128.png" width="64" height="64" alt="Christopher Abraham home" fetchpriority="high"></a>
   <div>
     <a class="brand" href="../../">Christopher Abraham</a>
     <p class="tag">SEO consultant: technical SEO, indexing, schema, and AI search</p>
@@ -749,7 +764,7 @@ dd { margin: .2rem 0 0 0; }
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../../guides/">Guides</a></li><li aria-current="page">AI Content and SEO</li></ol></nav>
 <main id="main">
 <h1>Will Google penalize AI-written content? What Google actually says</h1>
-<p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published October 9, 2026</p>
+<p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-09">October 9, 2026</time></p>
 <p class="lead">Almost every client asks me some version of this: if I use ChatGPT or Claude to help write my pages, will Google punish me? The short answer is no, Google doesn't punish content for being written with AI. It punishes content for being unhelpful, inaccurate, deceptive, or mass-produced to game rankings, and AI makes all four of those very easy. Here is what Google has said, in its own words, and how to use AI without risk.</p>
 
 <h2>What Google said in 2023, and still says</h2>

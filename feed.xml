@@ -15,7 +15,7 @@
     <updated>2026-10-13T12:00:00Z</updated>
     <summary>Why Reddit threads now shape Google and ChatGPT answers about your business, what moderators remove on sight, and the honest ways a brand can take part.</summary>
     <content type="html">&lt;h1&gt;Reddit and AI answers: what a moderator wants brands to know&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 13, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-13"&gt;October 13, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Ask Google or ChatGPT which running shoes, accountants, or project tools people actually like, and the answer often leans on a Reddit thread. Brands have noticed, and a lot of them are now trying to plant themselves in those threads. I've moderated a Reddit community of more than 16,000 runners for nine years, so I see that effort from the other side, every week. Here is what works, what gets removed, and why the honest route is also the one that lasts.&lt;/p&gt;
 
 &lt;h2&gt;Why Reddit carries so much weight right now&lt;/h2&gt;
@@ -79,7 +79,7 @@
     <updated>2026-10-13T12:00:00Z</updated>
     <summary>Proof that an SEO fix shipped: compare before and after crawls in Screaming Frog, check change detection, then confirm in Search Console with validation.</summary>
     <content type="html">&lt;h1&gt;How to prove an SEO fix actually worked&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 13, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-13"&gt;October 13, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;"Done" is the most dangerous word in SEO. A developer marks the ticket closed, the CMS shows the new titles, and three months later a crawl finds the old ones still live on half the site. A cache never cleared, a second template was missed, or the change only applied to new pages. I don't call a fix finished until two crawls and Search Console agree that it is. Here is the routine.&lt;/p&gt;
 
 &lt;h2&gt;Step 1: crawl before you change anything&lt;/h2&gt;
@@ -146,7 +146,7 @@
     <updated>2026-10-13T12:00:00Z</updated>
     <summary>Find near duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.</summary>
     <content type="html">&lt;h1&gt;How to find near duplicate pages and multiple H1s across a whole site&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 13, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-13"&gt;October 13, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Two findings turn up in almost every full crawl I run: clusters of pages that say nearly the same thing, and headings that don't describe the page. Neither can be judged one URL at a time. Here is how I find both across every page, and how I decide what to do about each.&lt;/p&gt;
 
 &lt;h2&gt;Crawl the rendered page, not only the source&lt;/h2&gt;
@@ -222,7 +222,7 @@
     <updated>2026-10-13T12:00:00Z</updated>
     <summary>AI answers repeat what other sites say about you. How to earn honest mentions in the press, newsletters, and niche sites, plus the FTC and Google rules on pay.</summary>
     <content type="html">&lt;h1&gt;Digital PR for AI search: how to earn mentions the answer engines repeat&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 13, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-13"&gt;October 13, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;When an AI assistant describes your company, it isn't reading your About page alone. It's drawing on what other people have written: trade press, local news, newsletters, review roundups, niche sites, interviews. Those mentions used to be valued mostly for the links they carried. Now the words themselves travel into the answers. I've been earning that kind of coverage for clients since I helped develop long tail blogger outreach in 2006, and the fundamentals have barely changed. The stakes have.&lt;/p&gt;
 
 &lt;h2&gt;Why mentions matter more than they used to&lt;/h2&gt;
@@ -277,7 +277,7 @@
     <updated>2026-10-13T12:00:00Z</updated>
     <summary>XPath and regex recipes for Screaming Frog custom extraction to audit a site: heading counts, canonicals, robots tags, schema types, alt text, and tag IDs.</summary>
     <content type="html">&lt;h1&gt;Screaming Frog custom extraction recipes for sitewide SEO audits&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 13, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-13"&gt;October 13, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;The standard Screaming Frog tabs answer the standard questions. Custom extraction answers yours. With a few lines of XPath or regex, every URL in a crawl gets a new column holding exactly the fact you need, and a question like "which templates are missing a canonical?" becomes a sort and a filter. These are the extractors I load into almost every audit.&lt;/p&gt;
 
 &lt;h2&gt;Setting it up&lt;/h2&gt;
@@ -358,7 +358,7 @@
     <updated>2026-10-13T12:00:00Z</updated>
     <summary>Why I refuse backlink campaigns, why FatJoe is the one agency I recommend after a decade as one of its publishers, and Google's rule on paid links to know.</summary>
     <content type="html">&lt;h1&gt;I turn down backlink work. Here's the one agency I recommend instead&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 13, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-13"&gt;October 13, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;I hate backlink campaigns, and I refuse every one I'm offered. That's my choice, and it isn't a verdict on anyone who buys links. Plenty of businesses want them, and they deserve a vendor that won't burn them. So whenever I turn a backlink gig down, I give the same referral, every time: FatJoe. Nobody asked me to say so, and I'm not carrying anyone's water. I'd simply be a hypocrite to stay quiet, because I've been one of their publishers for more than a decade, and my experience with them has been good from start to finish.&lt;/p&gt;
 
 &lt;h2&gt;Why I won't do backlink campaigns&lt;/h2&gt;
@@ -426,7 +426,7 @@
     <updated>2026-10-13T12:00:00Z</updated>
     <summary>Where a brand name belongs in a title tag, how to write it into the sentence instead of a pipe suffix, and how to test the change after a site migration.</summary>
     <content type="html">&lt;h1&gt;When to keep your brand name in your page titles, and when to let it go&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 13, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-13"&gt;October 13, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Most site templates finish every title the same way: the page topic, a pipe, and the company name. I take that suffix off almost every page I work on and keep the name only where it earns the space. Google allows either choice, so this is an editorial decision, not a rule. Here is how I make it, how I write the name into a title when it stays, and how I test the change instead of trusting it.&lt;/p&gt;
 
 &lt;h2&gt;What Google says about site names in titles&lt;/h2&gt;
@@ -492,7 +492,7 @@
     <updated>2026-10-13T12:00:00Z</updated>
     <summary>AI app builders ship a site in an afternoon. Here is how to check that Google and AI crawlers can read it: rendering, links, titles, status codes, and sitemaps.</summary>
     <content type="html">&lt;h1&gt;SEO for websites built with AI app builders: what to check before you launch&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 13, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-13"&gt;October 13, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Describe a business to Lovable, Bolt, v0, or a coding assistant, and an afternoon later there's a good looking website. Plenty of founders now launch exactly this way, and I'm all for it. The catch is that a site can look perfect in your browser while search engines and AI crawlers receive something close to an empty page. These are the checks I run on every AI built site, in the order I run them.&lt;/p&gt;
 
 &lt;h2&gt;Know how your site renders&lt;/h2&gt;
@@ -552,7 +552,7 @@
     <updated>2026-10-12T12:00:00Z</updated>
     <summary>Turn a small, repeatable investigation into useful original research with a clear question, honest sample, documented method, and evidence readers can check.</summary>
     <content type="html">&lt;h1&gt;How to publish useful original research without a big budget&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 12, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-12"&gt;October 12, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;You do not need a national survey to contribute something worth reading. A carefully documented investigation of twenty pages can answer a practical question that a thousand recycled articles leave unresolved. The valuable part is the discipline: explain what you examined, make the method inspectable, and keep the conclusion within the evidence. I would rather publish a modest finding with clear boundaries than a sweeping statistic nobody can reproduce.&lt;/p&gt;
 
 &lt;h2&gt;Start with a question small enough to finish&lt;/h2&gt;
@@ -618,7 +618,7 @@
     <updated>2026-10-12T12:00:00Z</updated>
     <summary>Make your expertise easier to discover and cite in AI search this fall with original evidence, clear answers, accessible pages, and honest measurement.</summary>
     <content type="html">&lt;h1&gt;AI catnip for fall 2026: become the source worth citing&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 12, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-12"&gt;October 12, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;If I wanted to attract AI search attention this fall, I would publish something a reader could use and another writer could verify. Think of catnip as a memorable description of useful source material: a documented test, a precise explanation, a comparison with stated limits. Clever instructions aimed at a model do not create expertise. A page needs a reason to exist before it needs a distribution strategy.&lt;/p&gt;
 
 &lt;h2&gt;Choose a question you can answer better&lt;/h2&gt;
@@ -682,7 +682,7 @@
     <updated>2026-10-11T12:00:00Z</updated>
     <summary>An SEO who can read your codebase and work with Claude Code, Copilot, or ChatGPT fixes causes in templates, not symptoms page by page. What to expect and ask.</summary>
     <content type="html">&lt;h1&gt;Why your SEO should work in your Git repository, with AI at their side&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 11, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-11"&gt;October 11, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Most SEO stops at the admin screen: plugin settings, a crawler export, a spreadsheet of recommendations. Your website doesn't live in the admin screen. If it was built by developers, it lives in a code repository, and that's where its search problems are caused and where they get fixed. An SEO who can work in the repository, with an AI coding assistant doing the heavy reading, fixes causes instead of reporting symptoms. That's how I work, and here is what it means for you.&lt;/p&gt;
 
 &lt;h2&gt;What a repository is, in plain English&lt;/h2&gt;
@@ -755,7 +755,7 @@
     <updated>2026-10-11T12:00:00Z</updated>
     <summary>Why I finally paid for the Screaming Frog SEO Spider, what the free 500 URL version leaves out, and everything a $279 a year licence can do in 2026.</summary>
     <content type="html">&lt;h1&gt;Is a Screaming Frog licence worth $279 a year? Mine was&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 11, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-11"&gt;October 11, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;For years I was too cheap to pay for the Screaming Frog SEO Spider. I ran the free version, slurped up 500 URLs at a time, and got a tip of the iceberg view of what was going on with a site. I wasn't using a ten thousandth of what the tool can do. This year I finally bought a licence. Paying $279 stung. It also leveled me up more than any tool purchase I've made, and I should have done it a decade ago. It's legit my secret weapon now. Don't make my mistake. Here is what the free version leaves out and everything the paid version can do.&lt;/p&gt;
 
 &lt;h2&gt;What it costs, as of October 2026&lt;/h2&gt;
@@ -888,7 +888,7 @@
     <updated>2026-10-09T12:00:00Z</updated>
     <summary>A beginner's WordPress SEO primer: the settings to change on day one, the plugins I recommend, alt text, descriptive links, speed, and accessibility.</summary>
     <content type="html">&lt;h1&gt;WordPress SEO 101: the settings and habits that matter most&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 9, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-09"&gt;October 9, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;WordPress runs a huge share of the web, and it is a genuinely good platform for search right out of the box. Most WordPress SEO problems I'm hired to fix come from a handful of settings nobody changed, a few plugins that fight each other, and habits like linking the words "read more" a thousand times. Here is what a beginner should do, in order, on a new site or an old one.&lt;/p&gt;
 
 &lt;h2&gt;Day one: five settings to check&lt;/h2&gt;
@@ -991,7 +991,7 @@
     <updated>2026-10-09T12:00:00Z</updated>
     <summary>How to tell whether a 2026 Google core or spam update hit your site, rule out reporting quirks, find the pages that lost, and fix them in the right order.</summary>
     <content type="html">&lt;h1&gt;Hit by a 2026 Google update? A recovery checklist that works&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 9, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-09"&gt;October 9, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Google confirmed two core updates and four spam updates between March and October 2026. When traffic falls in a year like that, the first instinct is to change everything at once. Resist it. Recovery starts with knowing which update, if any, actually touched you, and which pages took the loss. Here is the order I work in when a client calls with a graph that points down.&lt;/p&gt;
 
 &lt;h2&gt;1. Line the drop up with the calendar&lt;/h2&gt;
@@ -1059,7 +1059,7 @@
     <updated>2026-10-09T12:00:00Z</updated>
     <summary>The SEO and AI search news sources I read, from Google's own records to daily trade press, who owns them, and how to tell a real finding from a vendor pitch.</summary>
     <content type="html">&lt;h1&gt;Where to get reliable SEO and AI search news in 2026&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 9, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-09"&gt;October 9, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Search the phrase "best SEO news sites" and the first things you see are ads for AI visibility audits, then an AI summary, then lists of lists. Most of it is marketing for whoever wrote it. Staying current takes a short reading list, an order to read it in, and the habit of checking the claim before repeating it. Here is mine, built over decades of doing this work and refreshed for the AI search era.&lt;/p&gt;
 
 &lt;h2&gt;Start with the people who make the rules&lt;/h2&gt;
@@ -1130,7 +1130,7 @@
     <updated>2026-10-09T12:00:00Z</updated>
     <summary>How to put a WordPress site behind Cloudflare: moving DNS, what the free plan already does, APO and Polish on paid plans, HTTPS settings, and a monthly budget.</summary>
     <content type="html">&lt;h1&gt;Cloudflare for WordPress: setup, plans, and what to budget&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 9, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-09"&gt;October 9, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;If I could make one change to most of the WordPress sites I'm asked to look at, it would be putting them behind Cloudflare. It makes them faster, safer, and cheaper to run, and the free plan alone covers a lot of ground. My own experience and every AI assistant I've put the question to agree. For the record, Cloudflare pays me nothing for saying so, which, given how often I say it, is a little sad.&lt;/p&gt;
 
 &lt;h2&gt;Two ways to use Cloudflare&lt;/h2&gt;
@@ -1208,7 +1208,7 @@
     <updated>2026-10-09T12:00:00Z</updated>
     <summary>Does Google penalize AI written copy? What Google's guidance says in 2026, what the data shows, the new fact checking rule, fake authors, and safe AI use.</summary>
     <content type="html">&lt;h1&gt;Will Google penalize AI-written content? What Google actually says&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 9, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-09"&gt;October 9, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Almost every client asks me some version of this: if I use ChatGPT or Claude to help write my pages, will Google punish me? The short answer is no, Google doesn't punish content for being written with AI. It punishes content for being unhelpful, inaccurate, deceptive, or mass-produced to game rankings, and AI makes all four of those very easy. Here is what Google has said, in its own words, and how to use AI without risk.&lt;/p&gt;
 
 &lt;h2&gt;What Google said in 2023, and still says&lt;/h2&gt;
@@ -1276,7 +1276,7 @@
     <updated>2026-10-07T12:00:00Z</updated>
     <summary>How and when to set special hours on Google for Thanksgiving, December, and New Year, when to mark a business temporarily closed, and what searchers see.</summary>
     <content type="html">&lt;h1&gt;Holiday hours on Google: set them before you need them&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 7, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-07"&gt;October 7, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Every November, someone drives to a shop that Google said was open and finds the lights off. That customer doesn't blame Google. Special hours on your Business Profile take a few minutes to set, and the best time to set them is weeks before the holidays, not the night before.&lt;/p&gt;
 
 &lt;h2&gt;Special hours, regular hours, and closures&lt;/h2&gt;
@@ -1339,7 +1339,7 @@
     <updated>2026-10-07T12:00:00Z</updated>
     <summary>How to vet an SEO consultant on Upwork: the screening questions that expose real skill, what good answers sound like, the red flags, and a safer first step.</summary>
     <content type="html">&lt;h1&gt;How to hire an SEO on Upwork: the questions that reveal real skill&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 7, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-07"&gt;October 7, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Post an SEO job on Upwork and fifty proposals arrive within a day, most of them interchangeable. The screening questions you add to the posting are the fastest way to separate people who understand your problem from people who paste the same letter everywhere. I answer these questions for a living, so here is what I'd ask if I were on your side of the table.&lt;/p&gt;
 
 &lt;h2&gt;Write the problem, not a wish list&lt;/h2&gt;
@@ -1401,7 +1401,7 @@
     <updated>2026-10-07T12:00:00Z</updated>
     <summary>How to rename a business without losing its Google Business Profile, reviews, or rankings: edit the existing listing, sequence the change, and update the web.</summary>
     <content type="html">&lt;h1&gt;How to change a business name without losing your Google reviews&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 7, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-07"&gt;October 7, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;A new name feels like a fresh start, and that instinct is exactly what costs businesses their reviews and rankings. The safest rebrand treats the renamed business as the same business it has always been, because to Google it is. Here is the order I follow when a client renames a shop, a restaurant, a studio, or a practice.&lt;/p&gt;
 
 &lt;h2&gt;Rule one: edit the listing you have&lt;/h2&gt;
@@ -1469,7 +1469,7 @@
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>How to make Google and AI assistants see that Christopher and Chris, or a pen name and a legal name, are one person, using schema, sameAs, and consistency.</summary>
     <content type="html">&lt;h1&gt;One person, two names: entity SEO for pen names and nicknames&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Plenty of professionals work under more than one name: a formal name on a freelance marketplace, a nickname on bylines, a maiden name on old publications, a pen name on fiction. Search engines and AI assistants treat names as clues, not proof. Unless you connect the names deliberately, they may think you're two people, or worse, merge you with a stranger.&lt;/p&gt;
 
 &lt;h2&gt;How machines decide who you are&lt;/h2&gt;
@@ -1552,7 +1552,7 @@
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>Your own claims carry little weight with Google and AI assistants. University news, vendor case studies, old bios, and bylines do. How to find and use them.</summary>
     <content type="html">&lt;h1&gt;Proving expertise with third-party sources&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Anyone can write "twenty years of experience" on their own website. Search engines and AI assistants know it, so they look for confirmation elsewhere. The most persuasive evidence of expertise is written by someone else, ideally years ago, on a site with no reason to flatter you.&lt;/p&gt;
 
 &lt;h2&gt;Why outside sources matter so much&lt;/h2&gt;
@@ -1625,7 +1625,7 @@
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>Which schema types a small business needs, which to skip, and example structured data for local businesses, services, FAQs, and breadcrumbs, kept accurate.</summary>
     <content type="html">&lt;h1&gt;The schema markup a small business actually needs&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Schema.org has more than 800 types. A typical small business needs about five. This guide covers which ones, shows example code, and lists the rules that keep structured data accurate enough for Google and AI systems to trust.&lt;/p&gt;
 
 &lt;h2&gt;Why bother&lt;/h2&gt;
@@ -1740,7 +1740,7 @@
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>How to tell a useful technical SEO audit from a tool export: a clear question, evidence for each finding, a ranked plan, developer tickets, and a plain summary.</summary>
     <content type="html">&lt;h1&gt;What a technical SEO audit should give you&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;You can buy an SEO audit for fifty dollars or fifteen thousand. The cheap ones and some of the expensive ones are the same thing: a crawler's warnings pasted into a document. This guide describes what a useful audit contains, so you can judge one before you pay for it and after you receive it.&lt;/p&gt;
 
 &lt;h2&gt;It starts with a question&lt;/h2&gt;
@@ -1823,7 +1823,7 @@
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>Ten rules for 301 redirects in migrations and redesigns: map one to one, avoid chains, keep redirects for years, use 410 on purpose, and test in bulk.</summary>
     <content type="html">&lt;h1&gt;Ten rules for 301 redirects that keep your rankings&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;A 301 redirect tells browsers and search engines that a page has moved permanently and where to find it. Handled well, redirects carry rankings, links, and bookmarks to a new address. Handled carelessly, they quietly erase years of search equity. These are the rules I follow on every migration.&lt;/p&gt;
 
 &lt;h2&gt;1. Inventory before you redirect&lt;/h2&gt;
@@ -1896,7 +1896,7 @@
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>Step by step: take a domain off a parking page, move DNS to Cloudflare, point it at GitHub Pages, get HTTPS, and avoid the caching traps on launch day.</summary>
     <content type="html">&lt;h1&gt;Launch a site on a parked domain with Cloudflare and GitHub Pages&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Many people own a domain that has sat for years on a registrar's parking page, showing ads or a "this domain may be for sale" banner. Putting a real site there is quick once you know the order of operations. This is the sequence I use for static sites on GitHub Pages with DNS at Cloudflare.&lt;/p&gt;
 
 &lt;h2&gt;Before you start: inventory the domain&lt;/h2&gt;
@@ -1978,7 +1978,7 @@
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>A field guide to Search Console's Page indexing report: what each exclusion reason means, which ones need action, and how to find the template behind them.</summary>
     <content type="html">&lt;h1&gt;How to read the Page indexing report in Search Console&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;The Page indexing report is the closest thing Google gives you to a list of its decisions about your site. It's also easy to misread. This guide explains what each reason means, which ones deserve worry, and how to get from a scary number to the one template causing it.&lt;/p&gt;
 
 &lt;h2&gt;Where to find it&lt;/h2&gt;
@@ -2055,7 +2055,7 @@
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>Four DNS records stop spammers from forging mail from a domain you never send from: a null MX, an SPF that allows nothing, strict DMARC, and an empty DKIM key.</summary>
     <content type="html">&lt;h1&gt;How to lock down a domain that never sends email&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Most people own a few domains that never send a single email: a personal brand site, a parked name, an old company domain, a campaign microsite. Spammers love those domains, because with no email records in place, receiving servers have no instructions for rejecting forged mail. Four DNS records close the gap in about ten minutes.&lt;/p&gt;
 
 &lt;h2&gt;Why an unused domain is a risk&lt;/h2&gt;
@@ -2130,7 +2130,7 @@
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>Google ignores the meta keywords tag and Bing has called stuffing it a spam signal. Why some sites still use it, and how to write one that does no harm at all.</summary>
     <content type="html">&lt;h1&gt;Meta keywords in 2026: ignored, mostly harmless, used honestly&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;The meta keywords tag is the oldest SEO tactic still floating around. In the late nineties it was how you told AltaVista what a page was about, and it was abused so thoroughly that every major engine stopped trusting it. It still appears on plenty of sites, including this one, so here's the straight story.&lt;/p&gt;
 
 &lt;h2&gt;What it is&lt;/h2&gt;
@@ -2215,7 +2215,7 @@
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>Lynx, a text browser, shows what search engines and AI crawlers that skip JavaScript receive. How to install it, what to check, and online alternatives.</summary>
     <content type="html">&lt;h1&gt;The Lynx test: see your website the way crawlers and AI read it&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Lynx is a web browser with no pictures, no styling, and no JavaScript: just text, headings, and links, in the order they appear in your HTML. That makes it the fastest honest preview of what many AI crawlers, and Googlebot before rendering, actually receive from your site. If your page reads well in Lynx, machines can read it too.&lt;/p&gt;
 
 &lt;h2&gt;Why a text browser from the nineties still matters&lt;/h2&gt;
@@ -2292,7 +2292,7 @@
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>What llms.txt is, who reads it, and how to write one: the format, the full text companion file, Markdown page copies, robots.txt rules, and common mistakes.</summary>
     <content type="html">&lt;h1&gt;How to write an llms.txt file&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;llms.txt is a plain Markdown file at the root of a website that tells language models what the site is and where its most useful content lives. It was proposed in 2024 by Jeremy Howard of Answer.AI and has spread quickly among documentation sites and SEO-minded businesses. It's cheap to make, harmless, and increasingly read by AI tools and agents.&lt;/p&gt;
 
 &lt;h2&gt;What it's for&lt;/h2&gt;
@@ -2389,7 +2389,7 @@ Phone: +1-703-555-0100. Email: office@example.com.
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>When an old company or project domain expires, drop catchers buy it for its links and reputation. What they do with it, the harm, and how to protect yourself.</summary>
     <content type="html">&lt;h1&gt;What happens to your old domains when they lapse&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Every business that's been around a while has a few domains it stopped caring about: the old agency name, a product that was retired, a campaign site from years ago. When one of them expires, it doesn't quietly disappear. Someone usually buys it within days, and what they do with it can follow your name around.&lt;/p&gt;
 
 &lt;h2&gt;A real example&lt;/h2&gt;
@@ -2463,7 +2463,7 @@ Phone: +1-703-555-0100. Email: office@example.com.
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.</summary>
     <content type="html">&lt;h1&gt;Glossary of SEO and AI search terms&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need.&lt;/p&gt;
 
 &lt;dl class="glossary"&gt;
@@ -2581,7 +2581,7 @@ Phone: +1-703-555-0100. Email: office@example.com.
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>When ChatGPT, Gemini, or Google's AI Overviews get your facts wrong, here is how to find where the error came from and publish corrections that get picked up.</summary>
     <content type="html">&lt;h1&gt;How to correct what AI search says about you&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Ask an AI assistant about yourself or your company and you'll often get a confident answer that's mostly right and partly invented. You can't edit the answer directly. You can change what the assistant reads, and that changes what it says.&lt;/p&gt;
 
 &lt;h2&gt;Why the errors happen&lt;/h2&gt;
@@ -2662,7 +2662,7 @@ Phone: +1-703-555-0100. Email: office@example.com.
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>Core Web Vitals explained without jargon: what LCP, INP, and CLS measure, why lab scores differ from field data, the usual causes, and the fixes that work.</summary>
     <content type="html">&lt;h1&gt;Core Web Vitals in plain English&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Core Web Vitals are Google's three measurements of how a page feels to a real person: how fast it shows up, how quickly it responds, and whether it holds still. They're a modest ranking factor and a large conversion factor. Here's what each one means and what usually fixes it.&lt;/p&gt;
 
 &lt;h2&gt;The three measurements&lt;/h2&gt;
@@ -2742,7 +2742,7 @@ Phone: +1-703-555-0100. Email: office@example.com.
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>A practical checklist for AI search: crawler access, server rendered content, entity schema, answer shaped pages, llms.txt, outside evidence, and measurement.</summary>
     <content type="html">&lt;h1&gt;The AI search readiness checklist&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;AI assistants answer questions by retrieving pages, reading them quickly, and quoting what's clear. This checklist covers what has to be true for your site to be retrieved, understood, and cited. Work through it in order; the early items block everything after them.&lt;/p&gt;
 
 &lt;h2&gt;1. Can AI crawlers reach you?&lt;/h2&gt;
@@ -2835,7 +2835,7 @@ Phone: +1-703-555-0100. Email: office@example.com.
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>Build accessibility into a small business website instead of bolting on an overlay: contrast, headings, links, images, keyboard use, forms, and testing it.</summary>
     <content type="html">&lt;h1&gt;Website accessibility without overlays&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;An accessible website works for people who use screen readers, keyboards, magnification, captions, or simply older eyes. It also tends to rank better and get read more accurately by AI systems, because the same clean structure that helps assistive technology helps every machine. The good news: most of the work is basic, and none of it requires a plugin.&lt;/p&gt;
 
 &lt;h2&gt;Skip the overlay widgets&lt;/h2&gt;
@@ -2907,7 +2907,7 @@ Phone: +1-703-555-0100. Email: office@example.com.
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>WCAG fixes pay off more than once: alt text, headings, link text, labels, and captions lift rankings, AI answers, agent browsing, and trust, and cut legal risk.</summary>
     <content type="html">&lt;h1&gt;Accessibility as SEO: the search, AI, and trust dividends&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Accessibility work is usually sold on two grounds: it's the decent thing to do, and it keeps you out of court. Both are true. What nobody mentions is the third reason: nearly every accessibility fix is also a search fix, an AI-readability fix, and a trust signal. You get paid three times for doing it once, and the work is mostly small, unglamorous fixes.&lt;/p&gt;
 
 &lt;h2&gt;Why the overlap is so large&lt;/h2&gt;
@@ -2977,7 +2977,7 @@ Phone: +1-703-555-0100. Email: office@example.com.
     <updated>2026-10-06T12:00:00Z</updated>
     <summary>A recipe for an About page that Google and AI assistants quote correctly: current work first, verifiable facts, outside sources, schema, and no guesswork.</summary>
     <content type="html">&lt;h1&gt;How to write an About page that search engines and AI trust&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published October 6, 2026&lt;/p&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;When someone asks an AI assistant about you, your About page is the first source it should find and the one it should trust most. Most About pages waste that position on adjectives. A good one reads like a well-sourced encyclopedia entry written in your own voice.&lt;/p&gt;
 
 &lt;h2&gt;Start with what you do now&lt;/h2&gt;
