@@ -1,0 +1,45 @@
+name: AI Share of Voice
+title: How to measure your brand's share of voice in AI answers
+description: Track how often ChatGPT, Claude, and Google's AI name you beside competitors, in what tone, and from which sources, with a fixed question set and a monthly run.
+type: guide
+published: 2026-10-14
+keywords: AI share of voice, AI visibility tracking, brand mentions in AI answers, AI sentiment
+sources: Google Search Central: AI features and your website (updated December 10, 2025) | https://developers.google.com/search/docs/appearance/ai-features ;; Anthropic: Claude API pricing, web search tool | https://platform.claude.com/docs/en/about-claude/pricing ;; OpenAI: Web search tool guide | https://developers.openai.com/api/docs/guides/tools-web-search ;; Microsoft Bing: AI visibility insights in Bing Webmaster Tools | https://blogs.bing.com/search/2026/6/New-AI-Visibility-Insights-in-Bing-Webmaster-Tools-Intents-Topics-Citation-Share-Compare/
+about: Share of voice | https://en.wikipedia.org/wiki/Share_of_voice ;; Generative engine optimization | https://en.wikipedia.org/wiki/Generative_engine_optimization
+mentions: Sentiment analysis | https://en.wikipedia.org/wiki/Sentiment_analysis ;; ChatGPT | https://en.wikipedia.org/wiki/ChatGPT ;; Claude (language model) | https://en.wikipedia.org/wiki/Claude_(language_model)
+updated: 2026-10-14
+---
+<h1>How to measure your share of voice in AI answers</h1>
+<p class="lead">Share of voice in AI answers is the share of relevant questions where an assistant names you, measured against the competitors it names instead. You get a number you can track by asking the same set of buyer questions every month, with web search turned on, and recording four things from every answer: who it names, where you rank among them, the tone toward you, and the sources it cites. I run this on my own name, and the first run told me more than a year of guessing would have.</p>
+
+<h2>Why a fixed question set beats screenshots</h2>
+<p>AI answers change from run to run. Ask ChatGPT the same question twice and the list of names shifts. A screenshot someone sends you on a Tuesday proves only that the answer looked that way once. A fixed set of questions, asked on the same schedule with the same settings, turns that noise into a trend: one run is a reading, and three monthly runs show a direction.</p>
+<p>The set stays stable from month to month. New questions go on the end so earlier months still compare. Change the wording of an old question and you have started a new series.</p>
+
+<h2>Build the question set from three kinds of question</h2>
+<p>I split every set into three groups, because they measure different things and a single blended number hides the gap that matters.</p>
+<ul>
+  <li><strong>Branded questions</strong> name you: "Who is this company?" "Is this consultant any good?" They test whether assistants know you and describe you correctly.</li>
+  <li><strong>Open questions</strong> are the ones buyers ask before they have a name: "Who should I hire to fix my JavaScript indexing?" "Recommend an agency for a B2B AI search program." These measure whether you are in the consideration set at all.</li>
+  <li><strong>How-to questions</strong> ask for an answer your content provides: "How do I fix Crawled, currently not indexed?" They show whether your guides get cited as a source.</li>
+</ul>
+<p>Pull the wording from places buyers speak in their own words: Search Console queries, sales call notes, the first lines of inbound emails, and the questions clients ask on a first call. Sixteen questions is a workable start for one person or a small firm. A client program usually runs forty to a hundred.</p>
+
+<h2>Record four things from every answer</h2>
+<p>For each answer, I record the providers it names in the order they appear, my position in that list, the tone toward me (positive, neutral, negative, or mixed), and every URL it cites. I also copy out each factual claim it makes about me, word for word, because tone and accuracy are separate questions. A warm answer with the wrong founding date still needs fixing.</p>
+<p>Share of voice for a group is the number of answers that name you divided by the number of answers in that group. Report it per group, beside the names that appear most often in the answers where you are missing. Those names are your real competitors in AI search, and they are often different from the ones your sales team worries about.</p>
+
+<h2>What my own first run showed</h2>
+<p>In October 2026 I asked Claude, with live web search, sixteen questions a prospect of mine might ask. It named me in all three branded answers and cited my sites in each. It named me in none of the nine open hiring questions and cited none of my guides on the four how-to questions. The answers about me were mostly accurate, with two dated facts and one sentence that had merged two of my companies into one founding year.</p>
+<p>The sharpest line came from the answer to "Is Chris Abraham a good SEO consultant to hire?" It noted that almost everything it found about me was written by me. That is the finding that sets the work: the sites are readable and current, and the rest of the web hasn't caught up with them.</p>
+<p>The run cost $1.88 in API fees. Web search on both Anthropic's and OpenAI's APIs is billed at $10 per thousand searches plus tokens, so a monthly run of this size stays in the single dollars.</p>
+
+<h2>Read the competitors from the answers</h2>
+<p>The names that appear when you are absent tell you what the assistants are working from. In my run, the hiring answers drew names from marketplace listing pages and "best consultants" roundups, and the how-to answers cited vendor blogs. Each pattern points at a different fix: listings and roundups are an outreach problem, and how-to citations are a content problem. My guide to <a href="{root}guides/earned-mentions/">earning mentions that last</a> covers the first.</p>
+
+<h2>Know the limits before you report the number</h2>
+<p>An API call with web search is close to what a person sees in the assistant's app, and the two are not identical. The app adds memory, personalization, and the user's location. Google says AI Overviews and AI Mode use different models and techniques, so their answers and links vary between the two features as well. Report the trend across runs, name the engine and the date on every figure, and keep the raw answers so anyone can check a number against the words behind it.</p>
+<p>Bing Webmaster Tools now reports citations of your pages in Copilot answers, and Search Console includes AI features in its performance data. Use both beside the question set: they count what actually happened on those platforms, and the question set shows what you would see if you asked.</p>
+
+<h2>Where I fit</h2>
+<p>I build and run these question sets for companies and agencies, and I use the results to decide what to fix first. If you want a baseline for your brand, <a href="{root}contact/">tell me who you compete with and who your buyers are</a>. When the answers about you are wrong, my guide to <a href="{root}guides/correct-ai-answers/">correcting AI answers</a> walks through tracing each error to its source.</p>

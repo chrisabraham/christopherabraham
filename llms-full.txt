@@ -494,11 +494,15 @@ Updated October 6, 2026
 ---
 
 Source: https://christopherabraham.com/services/ai-search/
-Updated: 2026-10-06
+Updated: 2026-10-14
 
-# AI SEO, GEO, and AEO
+# AEO and GEO consulting for companies and agencies
 
 More people now ask an assistant before they search. ChatGPT, Perplexity, Gemini, Claude, Microsoft Copilot, and Google's AI Overviews and AI Mode answer the question directly and cite a handful of sources. I find out what they say about you, where they're getting it, and what would make them say it more accurately and more often.
+
+## Who I do this for
+
+I run AI search work for B2B technology companies and support agencies as the search specialist on their client accounts, the way I have on the Meritus Media team. For a company, I own the program: the question set, the fixes, and the reporting. For an agency, I work inside your client accounts under your process, deliver findings your account team can present, and stay out of the client relationship unless you want me in it.
 
 ## The vocabulary, briefly
 
@@ -508,7 +512,7 @@ The field has too many acronyms for one idea. GEO (generative engine optimizatio
 - **A prompt set built from your buyers' questions.** "Best X for Y," "Is Z legitimate," "Who does A near B," and comparisons with named competitors, run across the major assistants.
 - **What each answer says.** Whether you appear, how you're described, and whether the facts are current.
 - **Where the answer came from.** The sources each assistant cites, and which of them you control, can influence, or should correct.
-- **Crawler access.** Whether GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended, and Bingbot can reach your pages, through robots rules, Cloudflare, and your firewall.
+- **Crawler access.** Whether GPTBot, OAI-SearchBot, ClaudeBot, Claude-SearchBot, PerplexityBot, Perplexity-User, Google-Extended, meta-externalagent, and Bingbot can reach your pages, through robots rules, Cloudflare, and your firewall.
 - **Machine readability.** Whether your key content is in the server HTML, since most AI crawlers don't run JavaScript.
 
 ## What I change
@@ -529,15 +533,23 @@ Assistants trust what other sources confirm. I identify the directories, review 
 
 An llms.txt file that summarizes your site and links to clean Markdown versions of key pages, XML sitemaps, and IndexNow, so changes reach Bing, and through it Copilot, quickly.
 
+## The first month
+
+The first month produces a baseline and a ranked list of fixes. I start with access: the site or its repository, Google Search Console as an owner, Google Analytics, and Bing Webmaster Tools. I crawl the whole site with Screaming Frog, including a JavaScript rendering pass, and check redirects, broken pages, sitemaps, canonicals, structured data, and what crawlers receive in the first HTML response. Search Console and Bing show which AI-related queries and referrals already exist.
+
+At the same time I run the question set across the assistants and record who gets named, who gets cited, and what each answer says about you. By the end of the month you have the baseline, the gaps between what the assistants say and what is true, and the fixes in order of payoff, written so a developer can act on them.
+
 ## Measuring it
 
-AI answers vary from run to run, so I measure with repeated prompts over time rather than one screenshot. Alongside that: AI assistant referrals in GA4, citations of your pages, and the share of tested prompts where you appear and are described correctly. Results are reported as trends, with the prompt set kept stable so the comparison is fair.
+I measure AI visibility with a fixed set of questions your buyers ask, run every month on the same assistants. Each run records share of voice (the share of answers that name you), your position among the names, the tone of what is said, the sources each answer cites, and every factual claim made about you, checked against the truth. The citation gaps, meaning sources that cite your competitors and leave you out, become the outreach list. Alongside that: AI assistant referrals in GA4 and Bing's AI performance reporting.
+
+My own baseline from October 2026: named in every answer that asked about me by name, and in none of the open hiring questions. That is the gap I am closing, and I report it the same way to clients.
 
 ## What to expect
 
-Technical access problems can be fixed in days. Changes in how assistants describe you follow their crawl and retrieval cycles, which take weeks to months. Start with my [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/), or see [a company that wanted accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/).
+Technical access problems can be fixed in days. Changes in how assistants describe you follow their crawl and retrieval cycles, which take weeks to months. Start with my [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/), or see [a company that wanted accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/). For the parts of the work you can do yourself, read how to [correct what AI says about you](https://christopherabraham.com/guides/correct-ai-answers/), how to [earn the mentions answers repeat](https://christopherabraham.com/guides/earned-mentions/), and what [llms.txt](https://christopherabraham.com/guides/llms-txt/) does and doesn't do.
 
-Updated October 6, 2026
+Updated October 14, 2026
 
 
 ---
@@ -4026,6 +4038,141 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 
 ---
 
+Source: https://christopherabraham.com/guides/ai-share-of-voice/
+Updated: 2026-10-14
+
+# How to measure your share of voice in AI answers
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 14, 2026
+
+Share of voice in AI answers is the share of relevant questions where an assistant names you, measured against the competitors it names instead. You get a number you can track by asking the same set of buyer questions every month, with web search turned on, and recording four things from every answer: who it names, where you rank among them, the tone toward you, and the sources it cites. I run this on my own name, and the first run told me more than a year of guessing would have.
+
+## Why a fixed question set beats screenshots
+
+AI answers change from run to run. Ask ChatGPT the same question twice and the list of names shifts. A screenshot someone sends you on a Tuesday proves only that the answer looked that way once. A fixed set of questions, asked on the same schedule with the same settings, turns that noise into a trend: one run is a reading, and three monthly runs show a direction.
+
+The set stays stable from month to month. New questions go on the end so earlier months still compare. Change the wording of an old question and you have started a new series.
+
+## Build the question set from three kinds of question
+
+I split every set into three groups, because they measure different things and a single blended number hides the gap that matters.
+- **Branded questions** name you: "Who is this company?" "Is this consultant any good?" They test whether assistants know you and describe you correctly.
+- **Open questions** are the ones buyers ask before they have a name: "Who should I hire to fix my JavaScript indexing?" "Recommend an agency for a B2B AI search program." These measure whether you are in the consideration set at all.
+- **How-to questions** ask for an answer your content provides: "How do I fix Crawled, currently not indexed?" They show whether your guides get cited as a source.
+
+Pull the wording from places buyers speak in their own words: Search Console queries, sales call notes, the first lines of inbound emails, and the questions clients ask on a first call. Sixteen questions is a workable start for one person or a small firm. A client program usually runs forty to a hundred.
+
+## Record four things from every answer
+
+For each answer, I record the providers it names in the order they appear, my position in that list, the tone toward me (positive, neutral, negative, or mixed), and every URL it cites. I also copy out each factual claim it makes about me, word for word, because tone and accuracy are separate questions. A warm answer with the wrong founding date still needs fixing.
+
+Share of voice for a group is the number of answers that name you divided by the number of answers in that group. Report it per group, beside the names that appear most often in the answers where you are missing. Those names are your real competitors in AI search, and they are often different from the ones your sales team worries about.
+
+## What my own first run showed
+
+In October 2026 I asked Claude, with live web search, sixteen questions a prospect of mine might ask. It named me in all three branded answers and cited my sites in each. It named me in none of the nine open hiring questions and cited none of my guides on the four how-to questions. The answers about me were mostly accurate, with two dated facts and one sentence that had merged two of my companies into one founding year.
+
+The sharpest line came from the answer to "Is Chris Abraham a good SEO consultant to hire?" It noted that almost everything it found about me was written by me. That is the finding that sets the work: the sites are readable and current, and the rest of the web hasn't caught up with them.
+
+The run cost $1.88 in API fees. Web search on both Anthropic's and OpenAI's APIs is billed at $10 per thousand searches plus tokens, so a monthly run of this size stays in the single dollars.
+
+## Read the competitors from the answers
+
+The names that appear when you are absent tell you what the assistants are working from. In my run, the hiring answers drew names from marketplace listing pages and "best consultants" roundups, and the how-to answers cited vendor blogs. Each pattern points at a different fix: listings and roundups are an outreach problem, and how-to citations are a content problem. My guide to [earning mentions that last](https://christopherabraham.com/guides/earned-mentions/) covers the first.
+
+## Know the limits before you report the number
+
+An API call with web search is close to what a person sees in the assistant's app, and the two are not identical. The app adds memory, personalization, and the user's location. Google says AI Overviews and AI Mode use different models and techniques, so their answers and links vary between the two features as well. Report the trend across runs, name the engine and the date on every figure, and keep the raw answers so anyone can check a number against the words behind it.
+
+Bing Webmaster Tools now reports citations of your pages in Copilot answers, and Search Console includes AI features in its performance data. Use both beside the question set: they count what actually happened on those platforms, and the question set shows what you would see if you asked.
+
+## Where I fit
+
+I build and run these question sets for companies and agencies, and I use the results to decide what to fix first. If you want a baseline for your brand, [tell me who you compete with and who your buyers are](https://christopherabraham.com/contact/). When the answers about you are wrong, my guide to [correcting AI answers](https://christopherabraham.com/guides/correct-ai-answers/) walks through tracing each error to its source.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [Google Search Central: AI features and your website (updated December 10, 2025)](https://developers.google.com/search/docs/appearance/ai-features)
+- [Anthropic: Claude API pricing, web search tool](https://platform.claude.com/docs/en/about-claude/pricing)
+- [OpenAI: Web search tool guide](https://developers.openai.com/api/docs/guides/tools-web-search)
+- [Microsoft Bing: AI visibility insights in Bing Webmaster Tools](https://blogs.bing.com/search/2026/6/New-AI-Visibility-Insights-in-Bing-Webmaster-Tools-Intents-Topics-Citation-Share-Compare/)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
+Source: https://christopherabraham.com/guides/topic-clusters/
+Updated: 2026-10-14
+
+# Topic clusters for AI search, without your pages competing with each other
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 14, 2026
+
+A topic cluster is one hub page that defines a subject and routes readers, plus a set of pages that each answer one buyer question in full, all linked to each other. AI search rewards the shape because Google's AI Overviews and AI Mode break a question into subtopics and run a separate search for each one. Every subtopic page you publish is another chance to be the page that search returns. The discipline that makes it work is one page per question, and no two pages answering the same one.
+
+## Why the shape suits AI search
+
+Google's documentation says AI Overviews and AI Mode may use a "query fan-out" technique, issuing multiple related searches across subtopics and data sources to build a response. Elizabeth Reid, Google's head of Search, described it when AI Mode launched in May 2025: the system breaks a question into subtopics and runs many queries at once. A buyer's one question becomes a dozen narrower searches behind the scenes.
+
+A single long page that covers everything competes in each of those searches with one URL and a diluted focus. A cluster puts a page with a clear, specific answer in front of each subtopic search. To be eligible as a supporting link, Google's guidance adds, a page only has to be indexed and eligible for a snippet in ordinary search. The cluster changes how many questions you can be the best answer to.
+
+## Start from questions, not keywords
+
+I build a cluster from the questions buyers ask, in their own words. The best sources are the Search Console query report for the pages you already have, the first lines of inbound emails, notes from sales calls, and the open questions in an [AI share of voice question set](https://christopherabraham.com/guides/ai-share-of-voice/). Group the questions by what the buyer is trying to decide. Each group that needs more than a few paragraphs to answer properly becomes a page.
+
+Keyword tools still help with volume and wording, and they come second. A cluster planned from a keyword export tends to produce pages that differ by one modifier and answer the same thing, which is how a site ends up competing with itself.
+
+## One page per question
+
+When two pages on your site answer the same question, search engines have to pick one, and they often alternate between them or choose the one you'd rank lower. Google's canonicalization guidance exists for exact and near duplicates; the softer version, two different pages chasing one intent, gets no such help. The fix is a decision for each pair: merge them and redirect the weaker URL, or rewrite one so it answers a different question.
+
+I enforce this mechanically on my own sites. The script that builds them refuses to publish a page that shares more than 15 percent of its phrasing with another page on the same site, or a sentence of ten words or more that already appears elsewhere. A human editor misses overlap across eighty pages; a check that runs on every build doesn't.
+
+## Build the hub to route, and the spokes to answer
+
+The hub page defines the subject in its first paragraph, says who it's for, and links to every spoke with anchor text that names the question the spoke answers. Google's starter guide asks for exactly that: link text that tells people and Google something about the page it points to. A hub that tries to answer every question itself becomes the long page the cluster was meant to replace.
+
+Each spoke opens with a direct answer in two or three sentences, then supports it. Every section should make sense if it is the only part an AI system lifts. Spokes link back to the hub and to the other spokes a reader would naturally need next, and nowhere else by habit.
+
+## A cluster on this site
+
+My [AI search service page](https://christopherabraham.com/services/ai-search/) is the hub for one cluster. Its spokes each answer one question: whether a site is ready (the [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/)), how to fix a wrong answer ([correcting AI answers](https://christopherabraham.com/guides/correct-ai-answers/)), how to earn the mentions answers repeat ([earned mentions](https://christopherabraham.com/guides/earned-mentions/)), what [llms.txt](https://christopherabraham.com/guides/llms-txt/) does, and how to [measure share of voice](https://christopherabraham.com/guides/ai-share-of-voice/). None of them answers another's question, and each links back to the hub.
+
+## Check the cluster every quarter
+
+Open Search Console's performance report, filter to the cluster's pages, and look at the queries. When two pages draw impressions for the same query, one of them is drifting into the other's territory. When a page draws queries you never planned for, the buyers are telling you what the next spoke should be. Add it, link it from the hub, and keep the rule of one question per page.
+
+## Where I fit
+
+I plan clusters from real buyer questions, find the pages already competing with each other, and decide what to merge, rewrite, or add. If your site has grown by accretion and you suspect it is splitting its own signals, [send me the domain](https://christopherabraham.com/contact/) and I'll tell you where I would start.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [Google Search Central: AI features and your website (query fan-out)](https://developers.google.com/search/docs/appearance/ai-features)
+- [Google: AI Mode update, Elizabeth Reid, May 20, 2025](https://blog.google/products/search/google-search-ai-mode-update/)
+- [Google Search Central: SEO starter guide, links and anchor text](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
+- [Google Search Central: How to specify a canonical URL](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
 Source: https://christopherabraham.com/guides/glossary/
 Updated: 2026-10-06
 
@@ -4752,6 +4899,8 @@ Most people know me as Chris, and nearly two decades of my bylines carry that na
 - [Advertising Age](https://adage.com/author/chris-abraham/1797), where [DigitalNext introduced me in 2008](https://adage.com/article/digitalnext/meet-digitalnext-bloggers/126355/) as a specialist in blogger outreach and search-reputation management, and where I later wrote from Berlin for the Global Idea Network.
 - Earlier columns for Socialmedia.biz and Marketing Conversation.
 
+In January 2012, Forbes contributor Haydn Shaughnessy ranked me 33rd in his list of the [top 50 social media power influencers](https://web.archive.org/web/20120126192951/http://www.forbes.com/sites/haydnshaughnessy/2012/01/25/who-are-the-top-50-social-media-power-influencers/print/), a ranking built on Twitter reach, four places ahead of Jeff Jarvis.
+
 There's more to the story than search: Honolulu, crew, Freemasonry, hyperfiction, Renaissance Weekend, and a Reddit community of slow joggers. It's all [off the clock](https://christopherabraham.com/about/off-the-clock/).
 
 For the technical inventory, every skill with the case study that proves it, see [skills and proof](https://christopherabraham.com/about/skills/).
@@ -5241,7 +5390,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/): Plan and verify a website migration: full URL inventories, one to one 301 redirect maps, launch day checks, and recovery when a move has already lost traffic.
 
 ## AI search, schema, and content
-- [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/): Improve how ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google AI Overviews describe and cite your business, with prompt testing, entities, and content.
+- [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/): Improve how ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google AI Overviews describe and cite your business, with prompt testing, entities, and content.
 - [Schema markup and entity SEO](https://christopherabraham.com/services/schema/): Structured data that validates, matches the visible page, and connects your organization, people, products, and locations as entities for Google and AI.
 - [On-page SEO](https://christopherabraham.com/services/on-page-seo/): On page SEO fixed at the template level: titles and meta descriptions, headings, internal links, thin and duplicate pages, and carefully edited AI drafts.
 
@@ -5290,6 +5439,8 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [How to find near duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Find near duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.
 - [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/): XPath and regex recipes for Screaming Frog custom extraction to audit a site: heading counts, canonicals, robots tags, schema types, alt text, and tag IDs.
 - [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/): Proof that an SEO fix shipped: compare before and after crawls in Screaming Frog, check change detection, then confirm in Search Console with validation.
+- [How to measure your share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/): Track how often ChatGPT, Claude, and Google's AI name you beside competitors, in what tone, and from which sources, with a fixed question set and a monthly run.
+- [Topic clusters for AI search, without your pages competing with each other](https://christopherabraham.com/guides/topic-clusters/): Plan a hub page and one page per buyer question so AI fan out searches find a match for every subtopic, and keep your pages from competing for one query.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 
 ## Case studies

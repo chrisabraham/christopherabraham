@@ -62,6 +62,8 @@ Most people know me as Chris, and nearly two decades of my bylines carry that na
 - [Advertising Age](https://adage.com/author/chris-abraham/1797), where [DigitalNext introduced me in 2008](https://adage.com/article/digitalnext/meet-digitalnext-bloggers/126355/) as a specialist in blogger outreach and search-reputation management, and where I later wrote from Berlin for the Global Idea Network.
 - Earlier columns for Socialmedia.biz and Marketing Conversation.
 
+In January 2012, Forbes contributor Haydn Shaughnessy ranked me 33rd in his list of the [top 50 social media power influencers](https://web.archive.org/web/20120126192951/http://www.forbes.com/sites/haydnshaughnessy/2012/01/25/who-are-the-top-50-social-media-power-influencers/print/), a ranking built on Twitter reach, four places ahead of Jeff Jarvis.
+
 There's more to the story than search: Honolulu, crew, Freemasonry, hyperfiction, Renaissance Weekend, and a Reddit community of slow joggers. It's all [off the clock](https://christopherabraham.com/about/off-the-clock/).
 
 For the technical inventory, every skill with the case study that proves it, see [skills and proof](https://christopherabraham.com/about/skills/).
