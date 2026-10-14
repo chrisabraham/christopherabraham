@@ -1,6 +1,8 @@
 # christopherabraham.com
 
-Christopher Abraham, independent SEO consultant. Static pages on GitHub Pages: plain HTML with inline CSS and no JavaScript except the Google Analytics 4 tag (consent mode: ad storage off everywhere, analytics cookies off in the EEA, Switzerland, and the UK; see /privacy/). Plone classic look (tabs, slate-blue links), built for legibility and accessibility (black Verdana at 18px, AAA link contrast, visible focus, skip link, labeled landmarks, breadcrumb list, table header scopes, descriptive link text).
+This repository builds https://christopherabraham.com, live since October 6, 2026. For who Christopher Abraham is and what he does, read the site; this file only explains how the site is built.
+
+Christopher Abraham, independent SEO consultant. Static pages on GitHub Pages: plain HTML with inline CSS and no JavaScript except a Google Analytics 4 tag that loads after the reader's first scroll or tap (consent mode: ad storage off everywhere, analytics cookies off in the EEA, Switzerland, and the UK; see /privacy/) and a speculation rule that prefetches the next page. Plone classic look (tabs, slate-blue links), built for legibility and accessibility (black Verdana at 18px, AAA link contrast, visible focus, skip link, labeled landmarks, breadcrumb list, table header scopes, descriptive link text).
 
 This site stands on its own: it links to Upwork and Calendly, and "Chris" is fine, but it never names or links the owner's other sites and brands. `ISLAND` in `tools/build.py` enforces that on every source and generated file.
 
@@ -28,20 +30,11 @@ Preview locally: `python3 -m http.server`, then open http://localhost:8000
 - Per-page title, description, keywords, canonical, Open Graph, and Twitter card; 1200×630 `social-card.png`.
 - JSON-LD on every page: WebSite, ProfessionalService (Arlington, VA 22204, with geo and area served), Person, Place, and the page itself with its own keywords, `about` topics, and a `speakable` selector; plus breadcrumbs, `Service` on service pages, `Article` on case studies, `TechArticle` on guides, `FAQPage` wherever there are questions, `DefinedTermSet` on the glossary, and `ItemList` on section pages.
 - `robots.txt` welcomes every crawler and names the AI crawlers explicitly. `llms.txt` and `llm.txt` link to Markdown versions of every page; `llms-full.txt` holds the full text.
-- IndexNow: the `<key>.txt` file, `tools/indexnow.py`, and `.github/workflows/indexnow.yml` ping Bing and the other IndexNow engines after each push, once christopherabraham.com really serves this site.
+- IndexNow: the `<key>.txt` file, `tools/indexnow.py`, and `.github/workflows/indexnow.yml` ping Bing and the other IndexNow engines after each push.
 
-## Going live
+## Live
 
-The site starts as a noindexed preview at https://chrisabraham.github.io/christopherabraham/ (`LIVE = False`). christopherabraham.com currently sits on Afternic parking nameservers (ns3/ns4.afternic.com) with a null MX and `v=spf1 -all`, so it sends and receives no email; nothing there needs preserving. To go live:
-
-1. Point DNS at GitHub Pages, either at the registrar or by moving the domain to Cloudflare:
-   - A @: 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153
-   - AAAA @: 2606:50c0:8000::153, 2606:50c0:8001::153, 2606:50c0:8002::153, 2606:50c0:8003::153
-   - CNAME www: chrisabraham.github.io
-   - Keep the null MX and `v=spf1 -all` TXT records (the domain sends no mail; cja@well.com is the contact).
-2. Set `LIVE = True` in `tools/build.py`, rebuild, commit, and push (this writes `CNAME`).
-3. In the repo's Settings → Pages, set the custom domain to christopherabraham.com and turn on Enforce HTTPS once the certificate is issued.
-4. Verify the domain in Google Search Console (Domain property, DNS TXT) and Bing Webmaster Tools, submit `https://christopherabraham.com/sitemap.xml`, and run the IndexNow workflow once by hand.
+The site went live on christopherabraham.com on October 6, 2026 (`LIVE = True` in `tools/build.py`, custom domain set in the repo's Pages settings, HTTPS enforced). The github.io address redirects to it. The domain sends no email: it keeps a null MX and `v=spf1 -all`, and cja@well.com is the contact.
 
 
 ## Guides syndication
