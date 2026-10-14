@@ -14,6 +14,7 @@ Each case explains the problem, my role, what I found, what was done and by whom
 ## Modern stacks and migrations
 - [Junk removal company on a headless stack](https://christopherabraham.com/case-studies/headless-local/). Sanity, Vercel, and SEO changes merged through GitHub.
 - [Medical clinic: WordPress to Next.js](https://christopherabraham.com/case-studies/clinic-migration/). A decision for every legacy URL and an AI-assisted code review.
+- [Serialized novel: Movable Type to static HTML](https://christopherabraham.com/case-studies/movable-type-novel/). All 953 old URLs kept, with DNS moved before the site.
 - [Fly fishing shop: cleanup after a Shopify move](https://christopherabraham.com/case-studies/shopify-cleanup/). 3,400 broken URLs and duplicate product markup.
 
 ## Indexing at scale and recovery

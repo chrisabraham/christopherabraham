@@ -1,0 +1,23 @@
+name: Movable Type Novel
+title: Case study: a 17 year Movable Type blog moves to static HTML
+description: How I moved a serialized novel off Movable Type 3.33 to static hosting, keeping all 953 old URLs: entries, archive pages, feeds, TrackBack files, and images.
+keywords: Movable Type migration, static site migration, URL preservation
+updated: 2026-10-14
+---
+<h1>A serialized novel: 17 years of Movable Type URLs, all kept</h1>
+<p class="lead">This one is my own work, not a client's. A serialized novel I published as a blog from 2005 to 2022 ran on Movable Type 3.33 until its CGI stopped working on the old shared host. I moved it to static HTML on free hosting, and every address the old site ever published still answers.</p>
+
+<h2>Counting what the old site published</h2>
+<p>Movable Type publishes far more than its entries. Besides 309 chapters, the old site had monthly, weekly, daily, and category archive pages, per entry TrackBack files, three separate feed formats, and an images folder that other sites had linked to for years. I took the list from the database dump and the old web root, not from memory, and it came to 953 URLs.</p>
+
+<h2>Same addresses, not redirects</h2>
+<p>Where I could, I kept each URL exactly rather than redirecting it. Each chapter carries an explicit permalink matching its original path. The 389 old archive addresses are generated stubs, and the few pages Movable Type left behind after entries moved get redirects. The TrackBack files still answer, minus the spam pings that had piled up in them. All three feed URLs still serve their original formats, and the images keep their paths.</p>
+
+<h2>Cleaner for search than before</h2>
+<p>The archive pages repeat chapter text, so they are now noindex, follow and left out of the sitemap, and only the chapters and the main pages are indexable. Every chapter got a hand written title and description, checked by a script. Spelling and typography fixes went into a log, one row per change, so any of them can be undone.</p>
+
+<h2>Cutting over in the right order</h2>
+<p>The old host also ran the domain's DNS, so canceling hosting would have taken DNS down with it. I moved DNS first, with the old records and the Search Console verification record copied exactly, and only then switched the site. A check script confirmed all 953 URLs, the https and www redirects, and the canonicals before I told Google and Bing.</p>
+
+<h2>The point</h2>
+<p>A small site gets the same discipline as a large one: count every URL first, keep the ones you can, and redirect the rest. The same approach carried a <a href="{root}case-studies/clinic-migration/">medical clinic from WordPress to Next.js</a>. See my <a href="{root}services/migrations/">migration services</a>.</p>
