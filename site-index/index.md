@@ -4,7 +4,7 @@
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 544 headings across 92 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 550 headings across 92 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -117,7 +117,7 @@ People are listed surname first. Cross-references point to related headings. For
   - stale sources, [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)
 
 - AI catnip, [Guides](https://christopherabraham.com/guides/), **[AI catnip](https://christopherabraham.com/guides/ai-catnip/)**
-- AI coding assistants, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), **[SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)**, [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/)
+- AI coding assistants, [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), **[SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)**, [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Colophon](https://christopherabraham.com/about/colophon/)
 - AI crawlers, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Site Speed](https://christopherabraham.com/services/site-speed/), [AI Search](https://christopherabraham.com/services/ai-search/), [Static Websites](https://christopherabraham.com/services/static-sites/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/), [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/). *See also* [robots.txt](https://christopherabraham.com/site-index/#ix-robotstxt)
 - AI detectors, [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/)
 - AI drafts, verifying, [Fact-Checked Articles](https://christopherabraham.com/services/fact-checked-articles/), [About Page for AI](https://christopherabraham.com/guides/about-page-ai/)
@@ -162,7 +162,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Amazon Associates, [Off the Clock](https://christopherabraham.com/about/off-the-clock/), [Editorial Policy](https://christopherabraham.com/about/editorial-policy/), [Colophon](https://christopherabraham.com/about/colophon/)
 - American University, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - AMP, [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
-- anchor text, [SEO Audit](https://christopherabraham.com/services/seo-audit/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/), [Consent Banner](https://christopherabraham.com/case-studies/consent-banner/)
+- anchor text, [SEO Audit](https://christopherabraham.com/services/seo-audit/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/), [Consent Banner](https://christopherabraham.com/case-studies/consent-banner/), [Internal Linking Strategy](https://christopherabraham.com/services/internal-linking/), [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
 - anonymized clients, [Case Studies](https://christopherabraham.com/case-studies/), [Editorial Policy](https://christopherabraham.com/about/editorial-policy/), [FAQ](https://christopherabraham.com/faq/)
 - Answer.AI, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
 - answer-shaped content, [AI Search](https://christopherabraham.com/services/ai-search/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/)
@@ -256,7 +256,7 @@ People are listed surname first. Cross-references point to related headings. For
 - ClaudeBot, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/). *See also* [AI crawlers](https://christopherabraham.com/site-index/#ix-ai-crawlers)
 - Claude-SearchBot, [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
 - client-side rendering, [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
-- clinic migration (anonymized client), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
+- clinic migration (anonymized client), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
 - Close Up, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Cloudflare, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Site Speed](https://christopherabraham.com/services/site-speed/)**, [Migrations](https://christopherabraham.com/services/migrations/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/), [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/), [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), **[Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/)**, [Colophon](https://christopherabraham.com/about/colophon/). *See also* [DNS](https://christopherabraham.com/site-index/#ix-dns)
   - AI bot blocking, [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/)
@@ -276,7 +276,7 @@ People are listed surname first. Cross-references point to related headings. For
   - what to budget, [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/)
 
 - CNN Radio, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- Codex, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
+- Codex, [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Editorial Policy](https://christopherabraham.com/about/editorial-policy/), [Colophon](https://christopherabraham.com/about/colophon/)
 - Coelaboration, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Collabor8 (8: A Collaborative Hypernarrative Fiction), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - colophon, **[Colophon](https://christopherabraham.com/about/colophon/)**
@@ -287,7 +287,7 @@ People are listed surname first. Cross-references point to related headings. For
 - compensation facts, [Recruiting Answers](https://christopherabraham.com/case-studies/recruiting-answers/)
 - confidence, stating, [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/)
 - consent mode, [GA4 and PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/), [Privacy](https://christopherabraham.com/privacy/)
-- consent tools, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), **[Consent Banner](https://christopherabraham.com/case-studies/consent-banner/)**
+- consent tools, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), **[Consent Banner](https://christopherabraham.com/case-studies/consent-banner/)**, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
   - prior-consent blocking, [Consent Banner](https://christopherabraham.com/case-studies/consent-banner/)
 
 - contrast, [Colophon](https://christopherabraham.com/about/colophon/)
@@ -479,6 +479,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Google-Extended, [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
 - GPTBot, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/). *See also* [AI crawlers](https://christopherabraham.com/site-index/#ix-ai-crawlers)
 - Greymatter, [About](https://christopherabraham.com/about/)
+- Grok, [Home](https://christopherabraham.com/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Editorial Policy](https://christopherabraham.com/about/editorial-policy/), [Colophon](https://christopherabraham.com/about/colophon/)
 - gtag.js, [GA4 and PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/)
 - guarantees, ranking, [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/), [Hiring an SEO](https://christopherabraham.com/guides/hiring-an-seo/), [Hire Me](https://christopherabraham.com/hire-me/)
 - GW Today, [Third-Party Proof](https://christopherabraham.com/guides/third-party-proof/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -538,7 +539,15 @@ People are listed surname first. Cross-references point to related headings. For
 - IndexNow, [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/), [Skills and Proof](https://christopherabraham.com/about/skills/)
   - Google not a participant, [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
 
-- internal links, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
+- internal links, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), **[Internal Linking Strategy](https://christopherabraham.com/services/internal-linking/)**, **[Internal Linking](https://christopherabraham.com/guides/internal-linking/)**
+  - anchor wording, [Internal Linking Strategy](https://christopherabraham.com/services/internal-linking/), [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
+  - crawl and inventory compared, [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
+  - ecommerce hierarchy, [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
+  - hubs and contextual links, [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
+  - planning worksheet, [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
+  - section anchors and fragments, [Internal Linking Strategy](https://christopherabraham.com/services/internal-linking/), [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
+  - source and destination maps, [Internal Linking Strategy](https://christopherabraham.com/services/internal-linking/), [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
+  - verifying additions, [Internal Linking Strategy](https://christopherabraham.com/services/internal-linking/), [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
 
 ## J
 - Jarvis, Jeff, [About](https://christopherabraham.com/about/)
@@ -618,6 +627,16 @@ People are listed surname first. Cross-references point to related headings. For
 - MCP (Model Context Protocol), [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
 - measurement journals, [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
 - mechanisms versus symptoms, [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/)
+- media migration, **[Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)**
+  - a second inventory for files, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
+  - checking file types, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
+  - inventory worksheet, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
+  - old addresses and redirects, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
+  - original artwork, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
+  - sign-off, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
+  - testing the old host dependency, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
+  - updating references, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
+
 - Memes.org, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - MemeSpace, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - memetic lexicon, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -693,7 +712,7 @@ People are listed surname first. Cross-references point to related headings. For
   - limits and corrections, [Small original research](https://christopherabraham.com/guides/small-original-research/)
   - method notes, [Small original research](https://christopherabraham.com/guides/small-original-research/)
 
-- orphaned pages, [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Glossary](https://christopherabraham.com/guides/glossary/), [Event App Links](https://christopherabraham.com/case-studies/event-app-links/)
+- orphaned pages, [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Glossary](https://christopherabraham.com/guides/glossary/), [Event App Links](https://christopherabraham.com/case-studies/event-app-links/), [Internal Linking Strategy](https://christopherabraham.com/services/internal-linking/), [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
 - Owens Corning, [About](https://christopherabraham.com/about/)
 - Oxford Blues (film), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 
@@ -727,6 +746,7 @@ People are listed surname first. Cross-references point to related headings. For
 - paid search, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Skills and Proof](https://christopherabraham.com/about/skills/)
 - parameter URLs, [Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)
 - parked domains, **[Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/)**, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/)
+- PDFs, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
 - pen names and nicknames, [Guides](https://christopherabraham.com/guides/), **[Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/)**
 - Perl, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - permalinks, [Glossary](https://christopherabraham.com/guides/glossary/)
@@ -786,6 +806,7 @@ People are listed surname first. Cross-references point to related headings. For
 - rendering, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/)
 - reports, disagreeing, [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/)
 - Reputation.com, [About](https://christopherabraham.com/about/)
+- responsive images, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
 - retainers, [Services](https://christopherabraham.com/services/), **[SEO Retainer](https://christopherabraham.com/services/seo-retainer/)**
   - ending, [SEO Retainer](https://christopherabraham.com/services/seo-retainer/)
   - hours and billing, [SEO Retainer](https://christopherabraham.com/services/seo-retainer/)
@@ -841,13 +862,19 @@ People are listed surname first. Cross-references point to related headings. For
 - SEO Browser, [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
 - SEO news sources, **[SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)**
 - SEO plugins, switched off, **[Plugin Outage](https://christopherabraham.com/case-studies/plugin-outage/)**
+- SEO release QA, **[SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)**
+  - after deployment, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
+  - agreeing the test, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
+  - what you receive, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
+  - when to bring it in, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
+
 - SEOFOMO, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - separate tracks for separate problems, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Migrations](https://christopherabraham.com/services/migrations/), [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/), [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/), [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), [Skills and Proof](https://christopherabraham.com/about/skills/)
 - serialized novel (Chris’), **[Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)**
 - server-side rendering, [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - service-area pages, [Local SEO](https://christopherabraham.com/services/local-seo/)
 - Shadow Conventions, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- share cards (Open Graph images), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), **[Social Share Cards](https://christopherabraham.com/guides/social-share-cards/)**, [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/)
+- share cards (Open Graph images), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), **[Social Share Cards](https://christopherabraham.com/guides/social-share-cards/)**, [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/), [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
   - 1,200 by 630 standard, [Social Share Cards](https://christopherabraham.com/guides/social-share-cards/)
   - refreshing old previews, [Social Share Cards](https://christopherabraham.com/guides/social-share-cards/)
   - square artwork trap, [Social Share Cards](https://christopherabraham.com/guides/social-share-cards/)
@@ -868,6 +895,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Site Kit by Google, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
 - site migrations, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), **[Migrations](https://christopherabraham.com/services/migrations/)**, [Static Websites](https://christopherabraham.com/services/static-sites/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/). *See also* [301 redirects](https://christopherabraham.com/site-index/#ix-301-redirects)
   - four outcomes per URL, [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/)
+  - images and PDFs, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/), [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
   - launch day checks, [Migrations](https://christopherabraham.com/services/migrations/)
   - old media library references, [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/)
   - recovery afterward, [Migrations](https://christopherabraham.com/services/migrations/)
@@ -891,7 +919,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Squarespace, [Services](https://christopherabraham.com/services/), [Migrations](https://christopherabraham.com/services/migrations/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)
 - SRA, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - St. Monica and St. James, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- staging sites, [Indexing](https://christopherabraham.com/services/indexing/), [Migrations](https://christopherabraham.com/services/migrations/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
+- staging sites, [Indexing](https://christopherabraham.com/services/indexing/), [Migrations](https://christopherabraham.com/services/migrations/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/), [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
 - Stainless Communications, [About](https://christopherabraham.com/about/)
 - static websites, [Services](https://christopherabraham.com/services/), **[Static Websites](https://christopherabraham.com/services/static-sites/)**, [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/), [Colophon](https://christopherabraham.com/about/colophon/)
 - stock photography, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -959,7 +987,7 @@ People are listed surname first. Cross-references point to related headings. For
   - brand name suffixes, [Brand name in titles](https://christopherabraham.com/guides/brand-name-in-titles/)
   - testing a change by section, [Brand name in titles](https://christopherabraham.com/guides/brand-name-in-titles/)
 
-- topic clusters, **[Topic Clusters](https://christopherabraham.com/guides/topic-clusters/)**, [Glossary](https://christopherabraham.com/guides/glossary/)
+- topic clusters, **[Topic Clusters](https://christopherabraham.com/guides/topic-clusters/)**, [Glossary](https://christopherabraham.com/guides/glossary/), [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
   - example on this site, [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/)
   - hubs and spokes, [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/)
   - one page per question, [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/)
@@ -994,7 +1022,7 @@ People are listed surname first. Cross-references point to related headings. For
 - variable isolation. *See* [separate tracks for separate problems](https://christopherabraham.com/site-index/#ix-separate-tracks-for-separate-problems)
 - Vercel, [Services](https://christopherabraham.com/services/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Migrations](https://christopherabraham.com/services/migrations/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)
 - Verdana, [Colophon](https://christopherabraham.com/about/colophon/)
-- verifying fixes, **[Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/)**
+- verifying fixes, **[Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/)**, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
   - Added, Removed, New, and Missing, [Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/)
   - baseline crawl, [Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/)
   - change detection, [Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/)
@@ -1047,6 +1075,7 @@ People are listed surname first. Cross-references point to related headings. For
   - speed, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
   - updates and spam, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
 
+- worksheets (CSV), [Internal Linking](https://christopherabraham.com/guides/internal-linking/), [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
 - WP Rocket, [Site Speed](https://christopherabraham.com/services/site-speed/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
 - WPCode, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
 - WRGW radio, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)

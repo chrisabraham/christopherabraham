@@ -506,7 +506,10 @@
     "services/sitewide-technical-seo",
     "services/static-sites",
     "guides/seo-in-your-repository",
-    "case-studies/clinic-migration"
+    "case-studies/clinic-migration",
+    "home",
+    "about/skills",
+    "about/colophon"
    ],
    "subs": {},
    "see": [],
@@ -828,7 +831,9 @@
     "services/on-page-seo",
     "services/seo-audit",
     "guides/topic-clusters",
-    "case-studies/consent-banner"
+    "case-studies/consent-banner",
+    "services/internal-linking",
+    "guides/internal-linking"
    ],
    "subs": {},
    "see": [],
@@ -1570,7 +1575,8 @@
   "clinic migration (anonymized client)": {
    "kind": "topic",
    "pages": [
-    "guides/seo-in-your-repository"
+    "guides/seo-in-your-repository",
+    "guides/media-migration"
    ],
    "subs": {},
    "see": [],
@@ -1673,7 +1679,13 @@
    "kind": "topic",
    "pages": [
     "services/sitewide-technical-seo",
-    "guides/seo-in-your-repository"
+    "guides/seo-in-your-repository",
+    "services/static-sites",
+    "about/colophon",
+    "about/skills",
+    "case-studies/podcast-site",
+    "home",
+    "about/editorial-policy"
    ],
    "subs": {},
    "see": [],
@@ -1779,7 +1791,8 @@
     "services/seo-audit",
     "services/javascript-seo",
     "home",
-    "case-studies/consent-banner"
+    "case-studies/consent-banner",
+    "services/seo-release-qa"
    ],
    "subs": {
     "prior-consent blocking": [
@@ -3030,6 +3043,18 @@
    "see": [],
    "main": []
   },
+  "Grok": {
+   "kind": "topic",
+   "pages": [
+    "home",
+    "about/editorial-policy",
+    "about/colophon",
+    "about/skills"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "gtag.js": {
    "kind": "topic",
    "pages": [
@@ -3399,11 +3424,45 @@
     "services/on-page-seo",
     "services/seo-audit",
     "services/javascript-seo",
-    "guides/wordpress-seo-101"
+    "guides/wordpress-seo-101",
+    "services/internal-linking",
+    "guides/internal-linking"
    ],
-   "subs": {},
+   "subs": {
+    "source and destination maps": [
+     "services/internal-linking",
+     "guides/internal-linking"
+    ],
+    "anchor wording": [
+     "services/internal-linking",
+     "guides/internal-linking"
+    ],
+    "section anchors and fragments": [
+     "services/internal-linking",
+     "guides/internal-linking"
+    ],
+    "crawl and inventory compared": [
+     "guides/internal-linking"
+    ],
+    "verifying additions": [
+     "services/internal-linking",
+     "guides/internal-linking"
+    ],
+    "hubs and contextual links": [
+     "guides/internal-linking"
+    ],
+    "ecommerce hierarchy": [
+     "guides/internal-linking"
+    ],
+    "planning worksheet": [
+     "guides/internal-linking"
+    ]
+   },
    "see": [],
-   "main": []
+   "main": [
+    "services/internal-linking",
+    "guides/internal-linking"
+   ]
   },
   "Jarvis, Jeff": {
    "kind": "person",
@@ -3945,6 +4004,42 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "media migration": {
+   "kind": "topic",
+   "pages": [
+    "guides/media-migration"
+   ],
+   "subs": {
+    "a second inventory for files": [
+     "guides/media-migration"
+    ],
+    "checking file types": [
+     "guides/media-migration"
+    ],
+    "updating references": [
+     "guides/media-migration"
+    ],
+    "old addresses and redirects": [
+     "guides/media-migration"
+    ],
+    "original artwork": [
+     "guides/media-migration"
+    ],
+    "testing the old host dependency": [
+     "guides/media-migration"
+    ],
+    "sign-off": [
+     "guides/media-migration"
+    ],
+    "inventory worksheet": [
+     "guides/media-migration"
+    ]
+   },
+   "see": [],
+   "main": [
+    "guides/media-migration"
+   ]
   },
   "Memes.org": {
    "kind": "topic",
@@ -4518,7 +4613,9 @@
     "services/sitewide-technical-seo",
     "services/seo-audit",
     "guides/glossary",
-    "case-studies/event-app-links"
+    "case-studies/event-app-links",
+    "services/internal-linking",
+    "guides/internal-linking"
    ],
    "subs": {},
    "see": [],
@@ -4708,6 +4805,15 @@
    "main": [
     "guides/parked-domain-launch"
    ]
+  },
+  "PDFs": {
+   "kind": "topic",
+   "pages": [
+    "guides/media-migration"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
   },
   "pen names and nicknames": {
    "kind": "topic",
@@ -5205,6 +5311,15 @@
    "see": [],
    "main": []
   },
+  "responsive images": {
+   "kind": "topic",
+   "pages": [
+    "guides/media-migration"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "retainers": {
    "kind": "topic",
    "pages": [
@@ -5639,6 +5754,30 @@
     "case-studies/plugin-outage"
    ]
   },
+  "SEO release QA": {
+   "kind": "topic",
+   "pages": [
+    "services/seo-release-qa"
+   ],
+   "subs": {
+    "when to bring it in": [
+     "services/seo-release-qa"
+    ],
+    "agreeing the test": [
+     "services/seo-release-qa"
+    ],
+    "what you receive": [
+     "services/seo-release-qa"
+    ],
+    "after deployment": [
+     "services/seo-release-qa"
+    ]
+   },
+   "see": [],
+   "main": [
+    "services/seo-release-qa"
+   ]
+  },
   "SEOFOMO": {
    "kind": "topic",
    "pages": [
@@ -5707,7 +5846,8 @@
     "services/static-sites",
     "services/podcast-website",
     "guides/social-share-cards",
-    "case-studies/podcast-site"
+    "case-studies/podcast-site",
+    "guides/media-migration"
    ],
    "subs": {
     "1,200 by 630 standard": [
@@ -5840,6 +5980,10 @@
     ],
     "four outcomes per URL": [
      "case-studies/clinic-migration"
+    ],
+    "images and PDFs": [
+     "guides/media-migration",
+     "services/seo-release-qa"
     ]
    },
    "see": [
@@ -6030,7 +6174,8 @@
    "pages": [
     "services/indexing",
     "services/migrations",
-    "services/wordpress-seo"
+    "services/wordpress-seo",
+    "services/seo-release-qa"
    ],
    "subs": {},
    "see": [],
@@ -6450,7 +6595,8 @@
    "kind": "topic",
    "pages": [
     "guides/topic-clusters",
-    "guides/glossary"
+    "guides/glossary",
+    "guides/internal-linking"
    ],
    "subs": {
     "query fan-out": [
@@ -6683,7 +6829,8 @@
   "verifying fixes": {
    "kind": "topic",
    "pages": [
-    "guides/prove-seo-fixes"
+    "guides/prove-seo-fixes",
+    "services/seo-release-qa"
    ],
    "subs": {
     "baseline crawl": [
@@ -7019,6 +7166,16 @@
     "guides/wordpress-seo-101"
    ]
   },
+  "worksheets (CSV)": {
+   "kind": "topic",
+   "pages": [
+    "guides/internal-linking",
+    "guides/media-migration"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "WP Rocket": {
    "kind": "topic",
    "pages": [
@@ -7225,6 +7382,10 @@
   "hire-me",
   "faq",
   "contact",
-  "privacy"
+  "privacy",
+  "services/internal-linking",
+  "services/seo-release-qa",
+  "guides/internal-linking",
+  "guides/media-migration"
  ]
 }
