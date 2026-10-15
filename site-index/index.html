@@ -117,7 +117,12 @@ dd { margin: .2rem 0 0 0; }
 .guide-contents li { margin-bottom: .35rem; }
 h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
-.index-letters p { font-size: 1.05rem; word-spacing: .35em; }
+.index-letters { position: sticky; top: 0; z-index: 1; background: var(--bg); border-bottom: 1px solid var(--rule); margin: 0 0 1rem; }
+.index-letters p { margin: 0; padding: .35rem 0; font-size: 1.05rem; display: flex; flex-wrap: wrap; gap: .1rem .2rem; }
+.index-letters a, .index-letters span { display: inline-block; min-width: 1.9rem; min-height: 1.9rem; line-height: 1.9rem; text-align: center; }
+.index-letters .index-empty { color: #767676; }
+.index-top { font-size: .9rem; margin: -.4rem 0 1.25rem; }
+[id^="ix-"] { scroll-margin-top: 4.5rem; }
 ul.site-index { list-style: none; padding: 0; }
 ul.site-index > li { margin-bottom: .35rem; padding-left: 1.5rem; text-indent: -1.5rem; }
 ul.site-index ul { list-style: none; padding-left: 1.5rem; margin: .15rem 0 .3rem; }
@@ -777,7 +782,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
 <h1>Index</h1>
 <p class="lead">This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 550 headings across 92 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.</p>
 <p>People are listed surname first. Cross-references point to related headings. For definitions, the <a href="../guides/glossary/">glossary</a> is the place to start; for a plain list of pages, the <a href="../sitemap/">site map</a>.</p>
-<nav class="index-letters" aria-label="Index letters"><p><a href="#ix-letter-0">0–9</a> <a href="#ix-letter-a">A</a> <a href="#ix-letter-b">B</a> <a href="#ix-letter-c">C</a> <a href="#ix-letter-d">D</a> <a href="#ix-letter-e">E</a> <a href="#ix-letter-f">F</a> <a href="#ix-letter-g">G</a> <a href="#ix-letter-h">H</a> <a href="#ix-letter-i">I</a> <a href="#ix-letter-j">J</a> <a href="#ix-letter-k">K</a> <a href="#ix-letter-l">L</a> <a href="#ix-letter-m">M</a> <a href="#ix-letter-n">N</a> <a href="#ix-letter-o">O</a> <a href="#ix-letter-p">P</a> <a href="#ix-letter-q">Q</a> <a href="#ix-letter-r">R</a> <a href="#ix-letter-s">S</a> <a href="#ix-letter-t">T</a> <a href="#ix-letter-u">U</a> <a href="#ix-letter-v">V</a> <a href="#ix-letter-w">W</a> <a href="#ix-letter-x">X</a> <a href="#ix-letter-y">Y</a> <a href="#ix-letter-z">Z</a></p></nav>
+<nav class="index-letters" id="index-letters" aria-label="Jump to a letter"><p><a href="#ix-letter-0">0–9</a> <a href="#ix-letter-a">A</a> <a href="#ix-letter-b">B</a> <a href="#ix-letter-c">C</a> <a href="#ix-letter-d">D</a> <a href="#ix-letter-e">E</a> <a href="#ix-letter-f">F</a> <a href="#ix-letter-g">G</a> <a href="#ix-letter-h">H</a> <a href="#ix-letter-i">I</a> <a href="#ix-letter-j">J</a> <a href="#ix-letter-k">K</a> <a href="#ix-letter-l">L</a> <a href="#ix-letter-m">M</a> <a href="#ix-letter-n">N</a> <a href="#ix-letter-o">O</a> <a href="#ix-letter-p">P</a> <a href="#ix-letter-q">Q</a> <a href="#ix-letter-r">R</a> <a href="#ix-letter-s">S</a> <a href="#ix-letter-t">T</a> <a href="#ix-letter-u">U</a> <a href="#ix-letter-v">V</a> <a href="#ix-letter-w">W</a> <a href="#ix-letter-x">X</a> <a href="#ix-letter-y">Y</a> <a href="#ix-letter-z">Z</a></p></nav>
 <h2 id="ix-letter-0">0–9</h2>
 <ul class="site-index">
   <li id="ix-301-redirects">301 redirects, <a href="../" title="Senior SEO help, from the person who does the work">Home</a>, <a href="../services/" title="SEO services">Services</a>, <a href="../services/migrations/" title="Site migrations and 301 redirects">Migrations</a>, <a href="../services/static-sites/" title="Static websites built for search">Static Websites</a>, <a href="../guides/" title="SEO guides">Guides</a>, <strong><a href="../guides/redirect-rules/" title="Ten rules for 301 redirects that keep your rankings">Redirect Rules</a></strong>. <em>See also</em> <a href="#ix-site-migrations">site migrations</a>
@@ -796,6 +801,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-404-errors">404 errors, <a href="../services/migrations/" title="Site migrations and 301 redirects">Migrations</a>, <a href="../guides/page-indexing-report/" title="How to read the Page indexing report in Search Console">Page Indexing Report</a>, <a href="../guides/redirect-rules/" title="Ten rules for 301 redirects that keep your rankings">Redirect Rules</a>, <a href="../case-studies/shopify-cleanup/" title="Fly fishing shop: cleaning up after Squarespace to Shopify">Shopify Cleanup</a>. <em>See also</em> <a href="#ix-soft-404s">soft 404s</a></li>
   <li id="ix-410-status">410 status, <a href="../services/javascript-seo/" title="JavaScript and headless SEO">JavaScript SEO</a>, <a href="../services/migrations/" title="Site migrations and 301 redirects">Migrations</a>, <a href="../guides/redirect-rules/" title="Ten rules for 301 redirects that keep your rankings">Redirect Rules</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-a">A</h2>
 <ul class="site-index">
   <li id="ix-about-pages">About pages, <a href="../guides/ai-search-checklist/" title="The AI search readiness checklist">AI Search Checklist</a>, <a href="../guides/correct-ai-answers/" title="How to correct what AI search says about you">Correcting AI Answers</a>, <a href="../guides/third-party-proof/" title="Proving expertise with third-party sources">Third-Party Proof</a>, <strong><a href="../guides/about-page-ai/" title="How to write an About page that search engines and AI trust">About Page for AI</a></strong>
@@ -961,6 +967,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-astroturfing">astroturfing, <a href="../guides/reddit-ai-answers/" title="Reddit and AI answers: what a moderator wants brands to know">Reddit and AI Answers</a></li>
   <li id="ix-axe-accessibility-rules">axe (accessibility rules), <a href="../guides/screaming-frog-licence/" title="Is a Screaming Frog licence worth $279 a year? Mine was">Screaming Frog Licence</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-b">B</h2>
 <ul class="site-index">
   <li id="ix-backlinks-buying">backlinks, buying, <strong><a href="../guides/buying-backlinks/" title="I turn down backlink work. Here&#x27;s the one agency I recommend instead">Buying Backlinks</a></strong>
@@ -1005,6 +1012,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
       <li>telling customers, <a href="../guides/business-name-change/" title="How to change a business name without losing your Google reviews">Business Name Change</a></li>
     </ul></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-c">C</h2>
 <ul class="site-index">
   <li id="ix-caching">caching, <a href="../services/site-speed/" title="Core Web Vitals and Cloudflare">Site Speed</a>, <a href="../services/wordpress-seo/" title="WordPress SEO">WordPress SEO</a></li>
@@ -1112,6 +1120,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
     </ul></li>
   <li id="ix-cvs-and-subversion">CVS and Subversion, <a href="../guides/seo-in-your-repository/" title="Why your SEO should work in your Git repository, with AI at their side">SEO in Your Repository</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-d">D</h2>
 <ul class="site-index">
   <li id="ix-debian">Debian, <a href="../about/skills/" title="Technical SEO skills, and the proof for each one">Skills and Proof</a></li>
@@ -1146,6 +1155,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-duplicatephrasing-build-check">duplicate-phrasing build check, <a href="../guides/topic-clusters/" title="Topic clusters for AI search, without your pages competing with each other">Topic Clusters</a>. <em>See also</em> <a href="#ix-build-checks">build checks</a></li>
   <li id="ix-dyson-esther">Dyson, Esther, <a href="../about/off-the-clock/" title="Off the clock">Off the Clock</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-e">E</h2>
 <ul class="site-index">
   <li id="ix-earned-media">earned media, <a href="../guides/glossary/" title="Glossary of SEO and AI search terms">Glossary</a></li>
@@ -1179,6 +1189,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-expired-domain-abuse">expired domain abuse, <a href="../guides/update-recovery-2026/" title="Hit by a 2026 Google update? A recovery checklist that works">Update Recovery 2026</a></li>
   <li id="ix-expired-domains">expired domains, <a href="../case-studies/card-price-index/" title="Trading card price site: managing 20,000 pages in Google&#x27;s index">Card Price Index</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-f">F</h2>
 <ul class="site-index">
   <li id="ix-faceted-navigation">faceted navigation, <a href="../services/wordpress-seo/" title="WordPress SEO">WordPress SEO</a>, <a href="../services/ecommerce-seo/" title="Ecommerce SEO">Ecommerce SEO</a></li>
@@ -1201,6 +1212,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-ftc-endorsement-guides">FTC Endorsement Guides, <a href="../guides/reddit-ai-answers/" title="Reddit and AI answers: what a moderator wants brands to know">Reddit and AI Answers</a>, <a href="../guides/earned-mentions/" title="Digital PR for AI search: how to earn mentions the answer engines repeat">Earned Mentions for AI Search</a></li>
   <li id="ix-ftc-rule-on-fake-reviews-2024">FTC rule on fake reviews (2024), <a href="../guides/earned-mentions/" title="Digital PR for AI search: how to earn mentions the answer engines repeat">Earned Mentions for AI Search</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-g">G</h2>
 <ul class="site-index">
   <li id="ix-ga4-google-analytics-4">GA4 (Google Analytics 4), <a href="../services/" title="SEO services">Services</a>, <strong><a href="../services/search-console/" title="Search Console, Bing Webmaster Tools, and GA4">Search Console</a></strong>, <a href="../services/ai-search/" title="AEO and GEO consulting for companies and agencies">AI Search</a>, <strong><a href="../guides/ga4-pagespeed/" title="How to load Google Analytics 4 without hurting PageSpeed">GA4 and PageSpeed</a></strong>
@@ -1297,6 +1309,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-guarantees-ranking">guarantees, ranking, <a href="../guides/seo-audit-deliverables/" title="What a technical SEO audit should give you">SEO Audit Deliverables</a>, <a href="../guides/hiring-an-seo/" title="How to hire an SEO on Upwork: the questions that reveal real skill">Hiring an SEO</a>, <a href="../hire-me/" title="Hire me">Hire Me</a></li>
   <li id="ix-gw-today">GW Today, <a href="../guides/third-party-proof/" title="Proving expertise with third-party sources">Third-Party Proof</a>, <a href="../about/off-the-clock/" title="Off the clock">Off the Clock</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-h">H</h2>
 <ul class="site-index">
   <li id="ix-h1-headings">H1 headings, <a href="../services/sitewide-technical-seo/" title="Sitewide technical SEO: crawl, trace, fix, recrawl">Sitewide Technical SEO</a>, <a href="../services/on-page-seo/" title="On-page SEO">On-Page SEO</a>, <a href="../services/static-sites/" title="Static websites built for search">Static Websites</a>, <a href="../guides/accessible-websites/" title="Website accessibility without overlays">Accessible Websites</a>, <a href="../guides/accessibility-seo-dividends/" title="Accessibility as SEO: the search, AI, and trust dividends">Accessibility Dividends</a>, <strong><a href="../guides/near-duplicates-and-h1s/" title="How to find near duplicate pages and multiple H1s across a whole site">Near Duplicates and H1s</a></strong>, <a href="../guides/custom-extraction/" title="Screaming Frog custom extraction recipes for sitewide SEO audits">Custom Extraction Recipes</a>
@@ -1350,6 +1363,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-hyperfiction">hyperfiction, <strong><a href="../about/off-the-clock/" title="Off the clock">Off the Clock</a></strong></li>
   <li id="ix-hyv-magento-theme">Hyvä (Magento theme), <a href="../" title="Senior SEO help, from the person who does the work">Home</a>, <a href="../services/javascript-seo/" title="JavaScript and headless SEO">JavaScript SEO</a>, <a href="../services/ecommerce-seo/" title="Ecommerce SEO">Ecommerce SEO</a>, <a href="../case-studies/scroll-gated-products/" title="Equipment retailer: product details that loaded only on scroll">Scroll-Gated Products</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-i">I</h2>
 <ul class="site-index">
   <li id="ix-i-was-a-teenage-russian-troll">&quot;I was a teenage Russian troll&quot;, <a href="../about/" title="About Christopher Abraham">About</a></li>
@@ -1371,6 +1385,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
       <li>verifying additions, <a href="../services/internal-linking/" title="Internal linking strategy: stitch your website together">Internal Linking Strategy</a>, <a href="../guides/internal-linking/" title="Internal linking: stitching your pages into a useful website">Internal Linking</a></li>
     </ul></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-j">J</h2>
 <ul class="site-index">
   <li id="ix-jarvis-jeff">Jarvis, Jeff, <a href="../about/" title="About Christopher Abraham">About</a></li>
@@ -1387,6 +1402,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-jquery-ui-tabs">jQuery UI tabs, <a href="../case-studies/consent-banner/" title="Film review site: a consent tool that emptied every article for Google">Consent Banner</a></li>
   <li id="ix-jsonld">JSON-LD, <a href="../services/" title="SEO services">Services</a>, <a href="../services/sitewide-technical-seo/" title="Sitewide technical SEO: crawl, trace, fix, recrawl">Sitewide Technical SEO</a>, <a href="../services/schema/" title="Schema markup and entity SEO">Schema</a>. <em>See also</em> <a href="#ix-structured-data">structured data</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-k">K</h2>
 <ul class="site-index">
   <li id="ix-kahn-bob">Kahn, Bob, <a href="../about/off-the-clock/" title="Off the clock">Off the Clock</a></li>
@@ -1400,6 +1416,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-knowledge-graph">Knowledge Graph, <a href="../guides/two-names-one-entity/" title="One person, two names: entity SEO for pen names and nicknames">Two Names, One Entity</a></li>
   <li id="ix-known-unknowns">known unknowns, <a href="../guides/screaming-frog-licence/" title="Is a Screaming Frog licence worth $279 a year? Mine was">Screaming Frog Licence</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-l">L</h2>
 <ul class="site-index">
   <li id="ix-lamp-stack">LAMP stack, <a href="../about/skills/" title="Technical SEO skills, and the proof for each one">Skills and Proof</a></li>
@@ -1444,6 +1461,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
     </ul></li>
   <li id="ix-lynx-viewer">Lynx Viewer, <a href="../guides/lynx-test/" title="The Lynx test: see your website the way crawlers and AI read it">The Lynx Test</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-m">M</h2>
 <ul class="site-index">
   <li id="ix-macromedia-dreamweaver">Macromedia Dreamweaver, <a href="../about/" title="About Christopher Abraham">About</a></li>
@@ -1503,6 +1521,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-muck-rack">Muck Rack, <a href="../about/" title="About Christopher Abraham">About</a></li>
   <li id="ix-multilocation-businesses">multi-location businesses, <a href="../services/schema/" title="Schema markup and entity SEO">Schema</a>, <a href="../services/local-seo/" title="Local SEO and Google Business Profile">Local SEO</a>, <strong><a href="../case-studies/closet-locations/" title="Custom closet brand: separating the company from its first showroom">Closet Locations</a></strong></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-n">N</h2>
 <ul class="site-index">
   <li id="ix-name-is-scibe">Name is Scibe, <a href="../about/off-the-clock/" title="Off the clock">Off the Clock</a></li>
@@ -1535,6 +1554,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-nuxt">Nuxt, <a href="../guides/seo-in-your-repository/" title="Why your SEO should work in your Git repository, with AI at their side">SEO in Your Repository</a></li>
   <li id="ix-nvda">NVDA, <a href="../guides/lynx-test/" title="The Lynx test: see your website the way crawlers and AI read it">The Lynx Test</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-o">O</h2>
 <ul class="site-index">
   <li id="ix-oaisearchbot">OAI-SearchBot, <a href="../services/ai-search/" title="AEO and GEO consulting for companies and agencies">AI Search</a>, <a href="../guides/ai-catnip/" title="AI catnip for fall 2026: become the source worth citing">AI catnip</a>, <a href="../guides/ai-search-checklist/" title="The AI search readiness checklist">AI Search Checklist</a></li>
@@ -1555,6 +1575,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-owens-corning">Owens Corning, <a href="../about/" title="About Christopher Abraham">About</a></li>
   <li id="ix-oxford-blues-film">Oxford Blues (film), <a href="../about/off-the-clock/" title="Off the clock">Off the Clock</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-p">P</h2>
 <ul class="site-index">
   <li id="ix-p0-to-p3-priorities">P0 to P3 priorities, <a href="../guides/seo-audit-deliverables/" title="What a technical SEO audit should give you">SEO Audit Deliverables</a></li>
@@ -1621,11 +1642,13 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-pyra">Pyra, <a href="../about/" title="About Christopher Abraham">About</a></li>
   <li id="ix-python">Python, <a href="../about/skills/" title="Technical SEO skills, and the proof for each one">Skills and Proof</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-q">Q</h2>
 <ul class="site-index">
   <li id="ix-quality-rater-guidelines">quality rater guidelines, <a href="../guides/third-party-proof/" title="Proving expertise with third-party sources">Third-Party Proof</a>, <a href="../guides/accessibility-seo-dividends/" title="Accessibility as SEO: the search, AI, and trust dividends">Accessibility Dividends</a></li>
   <li id="ix-query-fanout">query fan-out, <a href="../guides/topic-clusters/" title="Topic clusters for AI search, without your pages competing with each other">Topic Clusters</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-r">R</h2>
 <ul class="site-index">
   <li id="ix-rank-math">Rank Math, <a href="../services/" title="SEO services">Services</a>, <a href="../services/schema/" title="Schema markup and entity SEO">Schema</a>, <a href="../services/on-page-seo/" title="On-page SEO">On-Page SEO</a>, <a href="../services/wordpress-seo/" title="WordPress SEO">WordPress SEO</a>, <a href="../guides/small-business-schema/" title="The schema markup a small business actually needs">Small Business Schema</a>, <a href="../guides/redirect-rules/" title="Ten rules for 301 redirects that keep your rankings">Redirect Rules</a></li>
@@ -1672,6 +1695,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-rss-feeds">RSS feeds, <a href="../services/podcast-website/" title="Podcast website SEO">Podcast Website SEO</a></li>
   <li id="ix-rumsfeld-donald">Rumsfeld, Donald, <a href="../guides/screaming-frog-licence/" title="Is a Screaming Frog licence worth $279 a year? Mine was">Screaming Frog Licence</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-s">S</h2>
 <ul class="site-index">
   <li id="ix-saint-louis-school">Saint Louis School, <a href="../about/off-the-clock/" title="Off the clock">Off the Clock</a></li>
@@ -1806,6 +1830,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-sucuri">Sucuri, <a href="../guides/ai-search-checklist/" title="The AI search readiness checklist">AI Search Checklist</a></li>
   <li id="ix-sun-sparcstation-and-solaris">Sun SPARCstation and Solaris, <a href="../about/skills/" title="Technical SEO skills, and the proof for each one">Skills and Proof</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-t">T</h2>
 <ul class="site-index">
   <li id="ix-talkback">TalkBack, <a href="../guides/accessible-websites/" title="Website accessibility without overlays">Accessible Websites</a></li>
@@ -1862,6 +1887,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-tripadvisor">Tripadvisor, <a href="../guides/business-name-change/" title="How to change a business name without losing your Google reviews">Business Name Change</a></li>
   <li id="ix-two-audiences-on-one-site">two audiences on one site, <a href="../case-studies/training-gym/" title="Private training gym: a brand name Google kept misreading">Training Gym</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-u">U</h2>
 <ul class="site-index">
   <li id="ix-umbraco">Umbraco, <a href="../services/" title="SEO services">Services</a></li>
@@ -1879,6 +1905,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-url-preservation">URL preservation, <a href="../case-studies/movable-type-novel/" title="A serialized novel: 17 years of Movable Type URLs, all kept">Movable Type Novel</a></li>
   <li id="ix-usenet">Usenet, <a href="../about/" title="About Christopher Abraham">About</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-v">V</h2>
 <ul class="site-index">
   <li id="ix-v0">v0, <a href="../guides/ai-built-websites/" title="SEO for websites built with AI app builders: what to check before you launch">SEO for AI Built Websites</a></li>
@@ -1905,6 +1932,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-voiceover">VoiceOver, <a href="../guides/accessible-websites/" title="Website accessibility without overlays">Accessible Websites</a>, <a href="../guides/lynx-test/" title="The Lynx test: see your website the way crawlers and AI read it">The Lynx Test</a></li>
   <li id="ix-vue">Vue, <a href="../services/" title="SEO services">Services</a>, <a href="../services/javascript-seo/" title="JavaScript and headless SEO">JavaScript SEO</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-w">W</h2>
 <ul class="site-index">
   <li id="ix-w3-total-cache">W3 Total Cache, <a href="../services/site-speed/" title="Core Web Vitals and Cloudflare">Site Speed</a>, <a href="../services/wordpress-seo/" title="WordPress SEO">WordPress SEO</a></li>
@@ -1946,6 +1974,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li id="ix-wpcode">WPCode, <a href="../guides/wordpress-seo-101/" title="WordPress SEO 101: the settings and habits that matter most">WordPress SEO 101</a></li>
   <li id="ix-wrgw-radio">WRGW radio, <a href="../about/off-the-clock/" title="Off the clock">Off the Clock</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-x">X</h2>
 <ul class="site-index">
   <li id="ix-x-twitter-cards">X (Twitter) cards, <a href="../guides/social-share-cards/" title="Social share cards: Open Graph tags and images that fit">Social Share Cards</a>, <a href="../guides/meta-keywords/" title="Meta keywords in 2026: ignored, mostly harmless, used honestly">Meta Keywords</a></li>
@@ -1955,6 +1984,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
     </ul></li>
   <li id="ix-xpath">XPath. <em>See</em> <a href="#ix-custom-extraction">custom extraction</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-y">Y</h2>
 <ul class="site-index">
   <li id="ix-yahoo-directory">Yahoo directory, <a href="../about/" title="About Christopher Abraham">About</a></li>
@@ -1964,10 +1994,12 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
       <li>Premium redirects and IndexNow, <a href="../guides/wordpress-seo-101/" title="WordPress SEO 101: the settings and habits that matter most">WordPress SEO 101</a></li>
     </ul></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <h2 id="ix-letter-z">Z</h2>
 <ul class="site-index">
   <li id="ix-zope">Zope, <a href="../about/skills/" title="Technical SEO skills, and the proof for each one">Skills and Proof</a></li>
 </ul>
+<p class="index-top"><a href="#index-letters">Back to the letters</a></p>
 <p class="updated">Updated <time datetime="2026-10-15">October 15, 2026</time></p>
 </main>
 <footer class="site-footer">

@@ -6258,6 +6258,8 @@ People are listed surname first. Cross-references point to related headings. For
 - 404 errors, [Migrations](https://christopherabraham.com/services/migrations/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/). *See also* [soft 404s](https://christopherabraham.com/site-index/#ix-soft-404s)
 - 410 status, [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Migrations](https://christopherabraham.com/services/migrations/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## A
 - About pages, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Third-Party Proof](https://christopherabraham.com/guides/third-party-proof/), **[About Page for AI](https://christopherabraham.com/guides/about-page-ai/)**
   - correcting common errors, [About Page for AI](https://christopherabraham.com/guides/about-page-ai/)
@@ -6414,6 +6416,8 @@ People are listed surname first. Cross-references point to related headings. For
 - astroturfing, [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/)
 - axe (accessibility rules), [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## B
 - backlinks, buying, **[Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/)**
   - five questions for any vendor, [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/)
@@ -6451,6 +6455,8 @@ People are listed surname first. Cross-references point to related headings. For
   - no keywords in the name, [Business Name Change](https://christopherabraham.com/guides/business-name-change/)
   - signage first, [Business Name Change](https://christopherabraham.com/guides/business-name-change/)
   - telling customers, [Business Name Change](https://christopherabraham.com/guides/business-name-change/)
+
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
 ## C
 - caching, [Site Speed](https://christopherabraham.com/services/site-speed/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
@@ -6552,6 +6558,8 @@ People are listed surname first. Cross-references point to related headings. For
 
 - CVS and Subversion, [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## D
 - Debian, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - DemandSphere, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
@@ -6582,6 +6590,8 @@ People are listed surname first. Cross-references point to related headings. For
 - duplicate-phrasing build check, [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/). *See also* [build checks](https://christopherabraham.com/site-index/#ix-build-checks)
 - Dyson, Esther, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## E
 - earned media, [Glossary](https://christopherabraham.com/guides/glossary/)
 - ecommerce SEO, [Services](https://christopherabraham.com/services/), **[Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/)**, [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)
@@ -6611,6 +6621,8 @@ People are listed surname first. Cross-references point to related headings. For
 - expired domain abuse, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
 - expired domains, [Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## F
 - faceted navigation, [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/)
 - fact-checking, [Fact-Checked Articles](https://christopherabraham.com/services/fact-checked-articles/)
@@ -6630,6 +6642,8 @@ People are listed surname first. Cross-references point to related headings. For
 - Freemasonry. *See* [Naval Lodge No. 4](https://christopherabraham.com/site-index/#ix-naval-lodge-no-4); [Scottish Rite](https://christopherabraham.com/site-index/#ix-scottish-rite)
 - FTC Endorsement Guides, [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/)
 - FTC rule on fake reviews (2024), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/)
+
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
 ## G
 - GA4 (Google Analytics 4), [Services](https://christopherabraham.com/services/), **[Search Console](https://christopherabraham.com/services/search-console/)**, [AI Search](https://christopherabraham.com/services/ai-search/), **[GA4 and PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/)**
@@ -6716,6 +6730,8 @@ People are listed surname first. Cross-references point to related headings. For
 - guarantees, ranking, [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/), [Hiring an SEO](https://christopherabraham.com/guides/hiring-an-seo/), [Hire Me](https://christopherabraham.com/hire-me/)
 - GW Today, [Third-Party Proof](https://christopherabraham.com/guides/third-party-proof/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## H
 - H1 headings, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/), [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/), **[Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)**, [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/)
   - template faults, [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
@@ -6764,6 +6780,8 @@ People are listed surname first. Cross-references point to related headings. For
 - hyperfiction, **[Off the Clock](https://christopherabraham.com/about/off-the-clock/)**
 - Hyvä (Magento theme), [Home](https://christopherabraham.com/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/)
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## I
 - "I was a teenage Russian troll", [About](https://christopherabraham.com/about/)
 - image CDNs, [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/)
@@ -6781,6 +6799,8 @@ People are listed surname first. Cross-references point to related headings. For
   - source and destination maps, [Internal Linking Strategy](https://christopherabraham.com/services/internal-linking/), [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
   - verifying additions, [Internal Linking Strategy](https://christopherabraham.com/services/internal-linking/), [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## J
 - Jarvis, Jeff, [About](https://christopherabraham.com/about/)
 - JavaScript SEO, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), **[JavaScript SEO](https://christopherabraham.com/services/javascript-seo/)**, [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/), [Consent Banner](https://christopherabraham.com/case-studies/consent-banner/), [Event App Links](https://christopherabraham.com/case-studies/event-app-links/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/). *See also* [rendering](https://christopherabraham.com/site-index/#ix-rendering)
@@ -6795,6 +6815,8 @@ People are listed surname first. Cross-references point to related headings. For
 - jQuery UI tabs, [Consent Banner](https://christopherabraham.com/case-studies/consent-banner/)
 - JSON-LD, [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Schema](https://christopherabraham.com/services/schema/). *See also* [structured data](https://christopherabraham.com/site-index/#ix-structured-data)
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## K
 - Kahn, Bob, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Kanter, Beth, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -6806,6 +6828,8 @@ People are listed surname first. Cross-references point to related headings. For
 - keyword stuffing, [Meta Keywords](https://christopherabraham.com/guides/meta-keywords/)
 - Knowledge Graph, [Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/)
 - known unknowns, [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
+
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
 ## L
 - LAMP stack, [Skills and Proof](https://christopherabraham.com/about/skills/)
@@ -6845,6 +6869,8 @@ People are listed surname first. Cross-references point to related headings. For
   - what to look for, [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
 
 - Lynx Viewer, [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
+
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
 ## M
 - Macromedia Dreamweaver, [About](https://christopherabraham.com/about/)
@@ -6901,6 +6927,8 @@ People are listed surname first. Cross-references point to related headings. For
 - Muck Rack, [About](https://christopherabraham.com/about/)
 - multi-location businesses, [Schema](https://christopherabraham.com/services/schema/), [Local SEO](https://christopherabraham.com/services/local-seo/), **[Closet Locations](https://christopherabraham.com/case-studies/closet-locations/)**
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## N
 - Name is Scibe, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - namesakes, [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/)
@@ -6930,6 +6958,8 @@ People are listed surname first. Cross-references point to related headings. For
 - Nuxt, [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
 - NVDA, [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## O
 - OAI-SearchBot, [AI Search](https://christopherabraham.com/services/ai-search/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
 - Ollama, [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
@@ -6947,6 +6977,8 @@ People are listed surname first. Cross-references point to related headings. For
 - orphaned pages, [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Glossary](https://christopherabraham.com/guides/glossary/), [Event App Links](https://christopherabraham.com/case-studies/event-app-links/), [Internal Linking Strategy](https://christopherabraham.com/services/internal-linking/), [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
 - Owens Corning, [About](https://christopherabraham.com/about/)
 - Oxford Blues (film), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
+
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
 ## P
 - P0 to P3 priorities, [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/)
@@ -7010,9 +7042,13 @@ People are listed surname first. Cross-references point to related headings. For
 - Pyra, [About](https://christopherabraham.com/about/)
 - Python, [Skills and Proof](https://christopherabraham.com/about/skills/)
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## Q
 - quality rater guidelines, [Third-Party Proof](https://christopherabraham.com/guides/third-party-proof/), [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
 - query fan-out, [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/)
+
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
 ## R
 - Rank Math, [Services](https://christopherabraham.com/services/), [Schema](https://christopherabraham.com/services/schema/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
@@ -7056,6 +7092,8 @@ People are listed surname first. Cross-references point to related headings. For
 - r/slowjogging, [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/), [Skills and Proof](https://christopherabraham.com/about/skills/), **[Off the Clock](https://christopherabraham.com/about/off-the-clock/)**
 - RSS feeds, [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/)
 - Rumsfeld, Donald, [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
+
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
 ## S
 - Saint Louis School, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -7183,6 +7221,8 @@ People are listed surname first. Cross-references point to related headings. For
 - Sucuri, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
 - Sun SPARCstation and Solaris, [Skills and Proof](https://christopherabraham.com/about/skills/)
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## T
 - TalkBack, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/)
 - Tanaka, Hiroaki, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -7234,6 +7274,8 @@ People are listed surname first. Cross-references point to related headings. For
 - Tripadvisor, [Business Name Change](https://christopherabraham.com/guides/business-name-change/)
 - two audiences on one site, [Training Gym](https://christopherabraham.com/case-studies/training-gym/)
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## U
 - Umbraco, [Services](https://christopherabraham.com/services/)
 - University of East Anglia, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -7248,6 +7290,8 @@ People are listed surname first. Cross-references point to related headings. For
 - urban.net, [About](https://christopherabraham.com/about/)
 - URL preservation, [Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)
 - Usenet, [About](https://christopherabraham.com/about/)
+
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
 ## V
 - v0, [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
@@ -7272,6 +7316,8 @@ People are listed surname first. Cross-references point to related headings. For
 - voice rules, [Fact-Checked Articles](https://christopherabraham.com/services/fact-checked-articles/)
 - VoiceOver, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
 - Vue, [Services](https://christopherabraham.com/services/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/)
+
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
 ## W
 - W3 Total Cache, [Site Speed](https://christopherabraham.com/services/site-speed/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
@@ -7312,6 +7358,8 @@ People are listed surname first. Cross-references point to related headings. For
 - WPCode, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
 - WRGW radio, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## X
 - X (Twitter) cards, [Social Share Cards](https://christopherabraham.com/guides/social-share-cards/), [Meta Keywords](https://christopherabraham.com/guides/meta-keywords/)
 - XML sitemaps, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Search Console](https://christopherabraham.com/services/search-console/), [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
@@ -7319,13 +7367,19 @@ People are listed surname first. Cross-references point to related headings. For
 
 - XPath. *See* [custom extraction](https://christopherabraham.com/site-index/#ix-custom-extraction)
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## Y
 - Yahoo directory, [About](https://christopherabraham.com/about/)
 - Yelp, [Business Name Change](https://christopherabraham.com/guides/business-name-change/)
 - Yoast SEO, [Services](https://christopherabraham.com/services/), [Schema](https://christopherabraham.com/services/schema/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
   - Premium redirects and IndexNow, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
 
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
+
 ## Z
 - Zope, [Skills and Proof](https://christopherabraham.com/about/skills/)
+
+[Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
 Updated October 15, 2026
