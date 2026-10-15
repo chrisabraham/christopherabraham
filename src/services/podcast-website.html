@@ -18,10 +18,13 @@ updated: 2026-10-14
 </ul>
 
 <h2>It runs itself</h2>
-<p>A scheduled job reads your feed every morning, adds new episodes, picks up transcripts your host posts late, and rebuilds the site. If the feed suddenly lists far fewer episodes than the site holds, the job stops and publishes nothing, so a bad day at your host never empties the archive. The audio stays with your host, which keeps your download numbers whole.</p>
+<p>A scheduled job reads your feed every morning, adds new episodes, picks up transcripts your host posts late, and rebuilds the site. If the feed suddenly lists far fewer episodes than the site holds, the job stops and publishes nothing, so a bad day at your host never empties the archive. When the audio stays with your host, your download numbers stay whole there.</p>
+
+<h2>Your domain, your feed, your audio</h2>
+<p>You own the domain and the repository from day one. The site can mirror the show you already publish on Spotify, Apple, or any other host, reading that feed so nothing changes for your listeners. If you'd rather own the whole chain, the site can publish its own RSS feed for the directories, with the audio files stored on your own domain, for example in Cloudflare R2, which charges no fees for downloads. The check for new episodes runs nightly by default, or on whatever schedule suits your release days.</p>
 
 <h2>Where it lives and what it costs to run</h2>
-<p>The site is plain HTML on GitHub Pages, behind Cloudflare. Hosting and HTTPS cost nothing, so your only running cost is the domain. There is no WordPress install to patch, no plugin to update, and no database to back up. The repository is yours from the first day, and every change is in its history.</p>
+<p>The site is plain HTML on GitHub Pages, behind Cloudflare. Hosting and HTTPS cost nothing, so your only running cost is the domain, plus storage if you keep your own audio files. There is no WordPress install to patch, no plugin to update, and no database to back up. The repository is yours from the first day, and every change is in its history.</p>
 
 <h2>Episodes that grow into articles</h2>
 <p>An episode that drew a reaction is a good start for a written piece. I can turn an episode into an article in your voice, built from the transcript and checked claim by claim before it goes up. That work is described under <a href="{root}services/fact-checked-articles/">fact-checked articles written with AI</a>.</p>
@@ -30,4 +33,4 @@ updated: 2026-10-14
 <p>Your RSS feed address, your domain or the name you want, the cover art at full size, and an hour to agree on how episode pages should read. Transcripts from your host are ideal. When a host doesn't provide them, I'll propose another source.</p>
 
 <h2>How it's delivered</h2>
-<p>The build is a fixed-scope project quoted after a short call. Ongoing additions, such as articles or new page types, can be billed by the hour. Terms are on <a href="{root}hire-me/">Hire Me</a>. For the static approach in general, see <a href="{root}services/static-sites/">static websites built for search</a>.</p>
+<p>A standard build from an existing feed takes about an afternoon of my time, and it's quoted as a fixed-scope project after a short call. Ongoing additions, such as articles or new page types, can be billed by the hour. Terms are on <a href="{root}hire-me/">Hire Me</a>. For the static approach in general, see <a href="{root}services/static-sites/">static websites built for search</a>.</p>
