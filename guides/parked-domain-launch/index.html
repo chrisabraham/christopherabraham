@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -812,17 +817,33 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-06">October 6, 2026</time></p>
 <p class="lead">Many people own a domain that has sat for years on a registrar's parking page, showing ads or a "this domain may be for sale" banner. Putting a real site there is quick once you know the order of operations. This is the sequence I use for static sites on GitHub Pages with DNS at Cloudflare.</p>
 
-<h2>Before you start: inventory the domain</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-before-you-start-inventory-the-domain">Before you start: inventory the domain</a></li>
+    <li><a href="#section-step-1-build-and-publish-the-site-to-github-pages-first">Step 1: Build and publish the site to GitHub Pages first</a></li>
+    <li><a href="#section-step-2-add-the-domain-to-cloudflare">Step 2: Add the domain to Cloudflare</a></li>
+    <li><a href="#section-step-3-create-the-github-pages-records">Step 3: Create the GitHub Pages records</a></li>
+    <li><a href="#section-step-4-lock-down-email-if-the-domain-doesn-t-send-any">Step 4: Lock down email if the domain doesn&#x27;t send any</a></li>
+    <li><a href="#section-step-5-switch-the-nameservers">Step 5: Switch the nameservers</a></li>
+    <li><a href="#section-step-6-go-live-on-github-pages">Step 6: Go live on GitHub Pages</a></li>
+    <li><a href="#section-the-caching-trap">The caching trap</a></li>
+    <li><a href="#section-a-launch-day-checklist">A launch-day checklist</a></li>
+    <li><a href="#section-after-launch">After launch</a></li>
+  </ol>
+</details>
+
+<h2 id="section-before-you-start-inventory-the-domain" tabindex="-1">Before you start: inventory the domain</h2>
 <p>Look up the current DNS records with a public DNS lookup tool or a DNS-over-HTTPS query. Note the nameservers, A and AAAA records, MX records, and TXT records. A parked domain usually has the registrar's parking nameservers, a couple of parking A records, and often a null MX or no mail at all. If the domain receives email, write down every mail-related record before you touch anything; moving nameservers without copying them breaks email.</p>
 <p>Also check the registrar account itself. Domains on parking pages are sometimes listed on aftermarket sale platforms by default. Turn that off.</p>
 
-<h2>Step 1: Build and publish the site to GitHub Pages first</h2>
+<h2 id="section-step-1-build-and-publish-the-site-to-github-pages-first" tabindex="-1">Step 1: Build and publish the site to GitHub Pages first</h2>
 <p>Publish the site to its github.io address before touching DNS, and keep it out of search indexes while it's a preview: a noindex robots meta tag on every page does the job. That way you can check every page and link on the preview, and the domain only switches once the site is ready.</p>
 
-<h2>Step 2: Add the domain to Cloudflare</h2>
+<h2 id="section-step-2-add-the-domain-to-cloudflare" tabindex="-1">Step 2: Add the domain to Cloudflare</h2>
 <p>Create a free Cloudflare account, add the domain, and let Cloudflare scan the existing records. Review the scan carefully. Delete the parking records: the old A records pointing at the parking service will otherwise compete with your new ones.</p>
 
-<h2>Step 3: Create the GitHub Pages records</h2>
+<h2 id="section-step-3-create-the-github-pages-records" tabindex="-1">Step 3: Create the GitHub Pages records</h2>
 <table>
 <thead><tr><th scope="col">Type</th><th scope="col">Name</th><th scope="col">Value</th></tr></thead>
 <tbody>
@@ -837,13 +858,13 @@ dd { margin: .2rem 0 0 0; }
 <p>Set them all to <strong>DNS only</strong>, the grey cloud. GitHub needs to see the traffic directly to issue its HTTPS certificate. You can switch to Cloudflare's proxy later, with SSL set to Full (strict).</p>
 <p>One rule worth knowing: a name with a CNAME can't have any other record. If the scan left a TXT record on www next to your CNAME, delete it.</p>
 
-<h2>Step 4: Lock down email if the domain doesn't send any</h2>
+<h2 id="section-step-4-lock-down-email-if-the-domain-doesn-t-send-any" tabindex="-1">Step 4: Lock down email if the domain doesn't send any</h2>
 <p>If no one will send or receive mail at this domain, publish records that say so, so spammers can't use it. The details are in <a href="../../guides/non-sending-domain/">locking down a domain that never sends email</a>.</p>
 
-<h2>Step 5: Switch the nameservers</h2>
+<h2 id="section-step-5-switch-the-nameservers" tabindex="-1">Step 5: Switch the nameservers</h2>
 <p>At the registrar, replace the parking nameservers with the two Cloudflare assigns you. Cloudflare marks the domain active once it sees the change, often within minutes and sometimes after a few hours.</p>
 
-<h2>Step 6: Go live on GitHub Pages</h2>
+<h2 id="section-step-6-go-live-on-github-pages" tabindex="-1">Step 6: Go live on GitHub Pages</h2>
 <ol>
   <li>Remove the noindex tag from every page and rebuild.</li>
   <li>Add a CNAME file at the repository root containing the bare domain.</li>
@@ -852,13 +873,13 @@ dd { margin: .2rem 0 0 0; }
 </ol>
 <p>Check that http, https, and www all end up at the https bare domain with a single 301 redirect.</p>
 
-<h2>The caching trap</h2>
+<h2 id="section-the-caching-trap" tabindex="-1">The caching trap</h2>
 <p>Your own computer, your router, and your internet provider cache DNS answers. For a while after the switch, you may keep seeing the old parking page while the rest of the world sees your new site. Before panicking, check public resolvers such as Google's and Cloudflare's DNS-over-HTTPS services, or request the page directly from one of GitHub's IP addresses. If those show your site, the launch worked and your local cache will catch up.</p>
 
-<h2>A launch-day checklist</h2>
+<h2 id="section-a-launch-day-checklist" tabindex="-1">A launch-day checklist</h2>
 <p>Load the home page, one deep page, and a missing page to see the custom 404. Confirm the sitemap and robots.txt load at the new address and that canonical tags point at the bare domain.</p>
 
-<h2>After launch</h2>
+<h2 id="section-after-launch" tabindex="-1">After launch</h2>
 <ul>
   <li>Verify the domain in Google Search Console as a Domain property, using a TXT record in Cloudflare, and submit your sitemap.</li>
   <li>Import the site into Bing Webmaster Tools and set up IndexNow.</li>

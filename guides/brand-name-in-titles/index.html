@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -816,12 +821,24 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-13">October 13, 2026</time></p>
 <p class="lead">Most site templates finish every title the same way: the page topic, a pipe, and the company name. I take that suffix off almost every page I work on and keep the name only where it earns the space. Google allows either choice, so this is an editorial decision, not a rule. Here is how I make it, how I write the name into a title when it stays, and how I test the change instead of trusting it.</p>
 
-<h2>What Google says about site names in titles</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-what-google-says-about-site-names-in-titles">What Google says about site names in titles</a></li>
+    <li><a href="#section-three-questions-i-ask-about-every-page">Three questions I ask about every page</a></li>
+    <li><a href="#section-write-the-name-into-the-sentence">Write the name into the sentence</a></li>
+    <li><a href="#section-compare-titles-before-and-after-a-migration">Compare titles before and after a migration</a></li>
+    <li><a href="#section-roll-the-change-out-as-a-test">Roll the change out as a test</a></li>
+    <li><a href="#section-what-a-title-cleanup-can-and-cannot-fix">What a title cleanup can and cannot fix</a></li>
+  </ol>
+</details>
+
+<h2 id="section-what-google-says-about-site-names-in-titles" tabindex="-1">What Google says about site names in titles</h2>
 <p>Google's documentation on title links suggests that a site with many pages can include its name at the beginning or end of each title. It also says Google may leave the site name out of the displayed title when it repeats the name already shown in the result. The title element has no maximum length; Google shortens the displayed title to fit the screen.</p>
 <p>Two things follow from that. A suffix is not a penalty, and removing one will not lift rankings by itself. And on most results the searcher already sees your site name and icon directly above the title, so a suffix repeats information inside the same result.</p>
 <p>Part of my position is plain taste. A pipe and a company name stamped on every page reads unfinished to me. Taste is a fair reason to propose a change. It is not evidence that the change will bring more visitors, which is why I test it.</p>
 
-<h2>Three questions I ask about every page</h2>
+<h2 id="section-three-questions-i-ask-about-every-page" tabindex="-1">Three questions I ask about every page</h2>
 <ul>
   <li><strong>Is the organization the subject?</strong> Home, About, Contact, booking, and team pages are about the business itself. The name belongs on those.</li>
   <li><strong>Would the name persuade a stranger to click?</strong> For a household brand, perhaps. For a practice or consultancy most searchers have never heard of, the topic does the persuading.</li>
@@ -829,7 +846,7 @@ dd { margin: .2rem 0 0 0; }
 </ul>
 <p>When the organization is not the subject, I drop the name and spend those characters on what the page answers.</p>
 
-<h2>Write the name into the sentence</h2>
+<h2 id="section-write-the-name-into-the-sentence" tabindex="-1">Write the name into the sentence</h2>
 <p>Where the name stays, I write it into the title as part of the sentence instead of bolting it on after a separator. Using a made-up practice:</p>
 <ul>
   <li><strong>Template:</strong> Couples Counseling in Portland &amp; Online | Harbor Counseling Group</li>
@@ -839,11 +856,11 @@ dd { margin: .2rem 0 0 0; }
 </ul>
 <p>The written versions read like headlines. I spell out “and” instead of using an ampersand, and I keep separators out of the topic as well. A title stitched together from three phrases with pipes between them looks like a keyword list. Choose the one idea the page is about and say it plainly.</p>
 
-<h2>Compare titles before and after a migration</h2>
+<h2 id="section-compare-titles-before-and-after-a-migration" tabindex="-1">Compare titles before and after a migration</h2>
 <p>A new theme, plugin, or site generator often arrives with its own title template, and that template can quietly overwrite titles someone tuned by hand. On a recent recovery project, a therapy practice moved off WordPress and the share of indexable pages ending in the site name rose from 83 percent to 96 percent. About 95 pages that had carefully written titles without a suffix gained one, including articles that had been earning a large share of the practice's search clicks.</p>
 <p>The check is simple. Crawl the old site before launch and the new site after it, export both sets of titles, and compare them by URL. Every page whose title changed during the move deserves a look before anyone writes new titles.</p>
 
-<h2>Roll the change out as a test</h2>
+<h2 id="section-roll-the-change-out-as-a-test" tabindex="-1">Roll the change out as a test</h2>
 <ol>
   <li><strong>Restore titles that were working before a migration.</strong> That is a return to known performance, not an experiment.</li>
   <li><strong>Protect titles that already match their main query.</strong> If a page's most searched phrase opens its title, edit around those words or leave the page alone.</li>
@@ -853,7 +870,7 @@ dd { margin: .2rem 0 0 0; }
 </ol>
 <p>Keep every change reversible. Export the current titles or keep them in version control before editing, so any page can go back in minutes.</p>
 
-<h2>What a title cleanup can and cannot fix</h2>
+<h2 id="section-what-a-title-cleanup-can-and-cannot-fix" tabindex="-1">What a title cleanup can and cannot fix</h2>
 <p>A cleaner title gives a searcher a clearer reason to pick your result and gives Google less boilerplate to rewrite. It cannot repair thin pages, broken redirects, or a missing image library. Treat it as one tidy, measurable improvement. If traffic has fallen, keep looking for the larger cause; my guide to <a href="../../guides/update-recovery-2026/">recovering from a 2026 Google update</a> walks through finding it, and the <a href="../../guides/redirect-rules/">ten rules for 301 redirects</a> cover the migration mistakes that cost the most.</p>
 <aside class="help-box" aria-label="Get help">
   <h2>Let me help you with this</h2>

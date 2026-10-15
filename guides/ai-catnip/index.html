@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -817,11 +822,24 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-12">October 12, 2026</time></p>
 <p class="lead">If I wanted to attract AI search attention this fall, I would publish something a reader could use and another writer could verify. Think of catnip as a memorable description of useful source material: a documented test, a precise explanation, a comparison with stated limits. Clever instructions aimed at a model do not create expertise. A page needs a reason to exist before it needs a distribution strategy.</p>
 
-<h2>Choose a question you can answer better</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-choose-a-question-you-can-answer-better">Choose a question you can answer better</a></li>
+    <li><a href="#section-give-the-answer-a-useful-shape">Give the answer a useful shape</a></li>
+    <li><a href="#section-make-your-identity-and-evidence-easy-to-check">Make your identity and evidence easy to check</a></li>
+    <li><a href="#section-access-comes-before-attraction">Access comes before attraction</a></li>
+    <li><a href="#section-use-indexnow-without-confusing-notification-with-a-citation">Use IndexNow without confusing notification with a citation</a></li>
+    <li><a href="#section-keep-a-small-measurement-journal">Keep a small measurement journal</a></li>
+    <li><a href="#section-a-realistic-afternoon-of-work">A realistic afternoon of work</a></li>
+  </ol>
+</details>
+
+<h2 id="section-choose-a-question-you-can-answer-better" tabindex="-1">Choose a question you can answer better</h2>
 <p>Start with a decision, rather than a keyword variation. A business owner might ask whether a migration preserved old image addresses. A developer might need to distinguish an unavailable resource from a harmless browser warning. A buyer might want to know what an audit actually delivers. Each question suggests a bounded article with evidence, a method, and an answer.</p>
 <p>I would keep a notebook of the questions that required investigation, then choose one where the explanation can stand without private client data. Describe the setting, show the test, and explain how the result changes the decision. An anonymized example should say it is anonymized. A hypothetical scenario should be labeled as such. Invented experience is a poor foundation for a public reference.</p>
 
-<h2>Give the answer a useful shape</h2>
+<h2 id="section-give-the-answer-a-useful-shape" tabindex="-1">Give the answer a useful shape</h2>
 <p>Put the direct answer near the beginning. Follow it with the conditions under which it holds. If the answer is “keep the existing URL,” explain which signals make that sensible and what would justify changing it. A reader should not have to cross a sales pitch to discover the conclusion.</p>
 <p>Use headings that describe the next practical question. Define unfamiliar terms where they first appear. A comparison belongs in a table when the rows genuinely share the same criteria; a sequence belongs in a numbered list. Formatting should reveal the reasoning rather than manufacture dozens of nearly identical questions.</p>
 <p>My preferred evidence package has four parts:</p>
@@ -833,24 +851,24 @@ dd { margin: .2rem 0 0 0; }
 </ol>
 <p>For example, a successful HTTP response proves availability at the time of testing. It does not establish that a search engine indexed the resource, selected it for an answer, or credited a conversion to it. Keeping those distinctions visible makes an article more useful than a confident claim assembled from unrelated screenshots.</p>
 
-<h2>Make your identity and evidence easy to check</h2>
+<h2 id="section-make-your-identity-and-evidence-easy-to-check" tabindex="-1">Make your identity and evidence easy to check</h2>
 <p>A named author, a relevant biography, and a clear way to contact the publisher help readers assess responsibility. Link technical assertions to their primary documentation. Explain which parts are your recommendation. Keep a publication date separate from a substantive revision date, and record what changed when the advice changes.</p>
 <p>On your own site, link a new explanation from the appropriate topic hub and from an older article that actually needs it. Avoid orphaned material and generic anchor text. My <a href="../../guides/third-party-proof/">guide to independent evidence of expertise</a> covers corroboration beyond an author's own biography.</p>
 
-<h2>Access comes before attraction</h2>
+<h2 id="section-access-comes-before-attraction" tabindex="-1">Access comes before attraction</h2>
 <p>Google's documentation says existing SEO practices apply to its AI search features. A supporting page needs indexing and snippet eligibility; a special AI file is not an admission ticket. That makes a technical check worthwhile before rewriting successful content.</p>
 <p>Open the page without signing in. Inspect the returned HTML, then compare it with the browser's rendered view. Confirm the main explanation is present, the canonical identifies the intended page, and crawler requests are not caught by a challenge. Check both robots rules and response headers. An attractive design can coexist with straightforward text, descriptive links, and accessible navigation.</p>
 <p>Different crawler purposes also deserve separate decisions. OpenAI documents OAI-SearchBot for search and GPTBot for training. Allowing one is not the same policy choice as allowing the other. Consult the current provider documentation before changing access, and do not treat a copied user agent string as proof that a real provider visited.</p>
 
-<h2>Use IndexNow without confusing notification with a citation</h2>
+<h2 id="section-use-indexnow-without-confusing-notification-with-a-citation" tabindex="-1">Use IndexNow without confusing notification with a citation</h2>
 <p>IndexNow tells participating search engines that a URL was added, changed, or removed. It can improve discovery of a meaningful update. Bing is a participant; Google is not listed among the participating endpoints in the documentation checked for this guide. An accepted notification is not a promise to index or recommend the page.</p>
 <p>The useful connection to AI search is indirect: fresher search indexes can help products that retrieve from those indexes. IndexNow does not deliver every article to every AI crawler. I would pair it with a valid sitemap, ordinary internal links, and Bing Webmaster Tools rather than describe it as a universal AI feed.</p>
 
-<h2>Keep a small measurement journal</h2>
+<h2 id="section-keep-a-small-measurement-journal" tabindex="-1">Keep a small measurement journal</h2>
 <p>Choose a handful of realistic questions and record the wording, date, product, cited URLs, and any factual errors. Repeat the same checks periodically. Answers vary, so one favorable screenshot is an observation rather than a ranking report. Separately record search impressions, referred visits, and inquiries. Those are different outcomes.</p>
 <p>Give a revision time to be discovered before changing the next variable. If you replace the title, illustrations, introduction, and URL together, you make the outcome harder to interpret. Keep a short change log so a future traffic movement can be compared with actual releases rather than memory.</p>
 
-<h2>A realistic afternoon of work</h2>
+<h2 id="section-a-realistic-afternoon-of-work" tabindex="-1">A realistic afternoon of work</h2>
 <p>Select one strong article. Improve its opening answer, add one verifiable example, repair its references, and link it from a relevant guide. Test the published page and notify the participating engines after the change is live. Then write down what you changed and when you will review it.</p>
 <p>That is my version of AI catnip: material someone can confidently build on, delivered through a site that works. For a broader technical review, use the <a href="../../guides/ai-search-checklist/">AI search readiness checklist</a>. New Guides also appear in the <a href="../../rss.xml">full text RSS feed</a>, which can be imported into a feed reader or publishing system.</p>
 <aside class="help-box" aria-label="Get help">

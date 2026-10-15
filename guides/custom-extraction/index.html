@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -845,7 +850,21 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-13">October 13, 2026</time></p>
 <p class="lead">The standard Screaming Frog tabs answer the standard questions. Custom extraction answers yours. With a few lines of XPath or regex, every URL in a crawl gets a new column holding exactly the fact you need, and a question like "which templates are missing a canonical?" becomes a sort and a filter. These are the extractors I load into almost every audit.</p>
 
-<h2>Setting it up</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-setting-it-up">Setting it up</a></li>
+    <li><a href="#section-heading-recipes">Heading recipes</a></li>
+    <li><a href="#section-indexing-and-canonical-recipes">Indexing and canonical recipes</a></li>
+    <li><a href="#section-structured-data-recipes">Structured data recipes</a></li>
+    <li><a href="#section-content-and-authorship-recipes">Content and authorship recipes</a></li>
+    <li><a href="#section-tracking-recipes">Tracking recipes</a></li>
+    <li><a href="#section-reading-the-results">Reading the results</a></li>
+    <li><a href="#section-where-this-fits">Where this fits</a></li>
+  </ol>
+</details>
+
+<h2 id="section-setting-it-up" tabindex="-1">Setting it up</h2>
 <p>Custom extraction needs a paid licence. Open Configuration &gt; Custom &gt; Custom Extraction and click Add. Each extractor gets a name, which becomes its column heading, a type, and an expression. You can run up to 100 extractors in one crawl.</p>
 <p>There are three types:</p>
 <ul>
@@ -856,14 +875,14 @@ dd { margin: .2rem 0 0 0; }
 <p>For XPath and CSSPath you then choose what to return: the whole element, its inner HTML, its text, or, with Function Value, the result of a function such as a count. If you'd rather not write expressions at all, the visual extraction browser lets you click an element on a sample page and suggests the expression for you.</p>
 <p>One setting matters more than any recipe. Screaming Frog extracts from the raw HTML unless JavaScript rendering is on, in which case it reads the rendered page. On a React or Next.js site, run the same extractors in both modes and compare. Any column that fills in only after rendering is content that depends on JavaScript to exist.</p>
 
-<h2>Heading recipes</h2>
+<h2 id="section-heading-recipes" tabindex="-1">Heading recipes</h2>
 <ul>
   <li><strong>H1 count</strong> (XPath, Function Value): <code>count(//h1)</code>. Sort descending to find templates with two or more, ascending to find pages with none.</li>
   <li><strong>All H1 text</strong> (XPath, Extract Text): <code>//h1</code>. Shows when a logo or a hidden mobile heading is the H1.</li>
   <li><strong>H2 count</strong> (XPath, Function Value): <code>count(//h2)</code>. A zero on a long page usually means the template styles its subheads as plain text.</li>
 </ul>
 
-<h2>Indexing and canonical recipes</h2>
+<h2 id="section-indexing-and-canonical-recipes" tabindex="-1">Indexing and canonical recipes</h2>
 <ul>
   <li><strong>Canonical count</strong> (XPath, Function Value): <code>count(//link[@rel='canonical'])</code>. More than one canonical tag on a page is a conflict worth fixing at once.</li>
   <li><strong>Canonical target</strong> (XPath, Extract Inner HTML): <code>//link[@rel='canonical']/@href</code>. Screaming Frog reports canonicals already; I extract it anyway when I need it beside other custom columns in one export.</li>
@@ -871,7 +890,7 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>Hreflang values</strong> (XPath, Extract Inner HTML): <code>//link[@rel='alternate'][@hreflang]/@hreflang</code>. A quick check that every language version lists the same set.</li>
 </ul>
 
-<h2>Structured data recipes</h2>
+<h2 id="section-structured-data-recipes" tabindex="-1">Structured data recipes</h2>
 <p>JSON-LD lives inside a script tag as JSON, so element selectors can't reach the fields inside it. Screaming Frog's own guidance is to use regex for any JSON in the code.</p>
 <ul>
   <li><strong>JSON-LD block count</strong> (XPath, Function Value): <code>count(//script[@type='application/ld+json'])</code>. Zero on a template that should carry schema is the first thing to fix.</li>
@@ -879,7 +898,7 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>The whole block</strong> (Regex): <code>&lt;script type="application/ld\+json"&gt;(.*?)&lt;/script&gt;</code>. Useful for exporting and validating a sample per template.</li>
 </ul>
 
-<h2>Content and authorship recipes</h2>
+<h2 id="section-content-and-authorship-recipes" tabindex="-1">Content and authorship recipes</h2>
 <ul>
   <li><strong>Published date</strong> (XPath, Extract Inner HTML): <code>//meta[@property='article:published_time']/@content</code>. Finds articles with no machine readable date.</li>
   <li><strong>Author meta</strong> (XPath, Extract Inner HTML): <code>//meta[@name='author']/@content</code>. Many themes leave this blank or set it to the site name.</li>
@@ -887,17 +906,17 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>Links inside the main content</strong> (XPath, Function Value): <code>count(//main//a)</code>. Separates contextual internal links from the menu and footer, assuming the template uses a main element.</li>
 </ul>
 
-<h2>Tracking recipes</h2>
+<h2 id="section-tracking-recipes" tabindex="-1">Tracking recipes</h2>
 <ul>
   <li><strong>Google Tag Manager container</strong> (Regex): <code>["'](GTM-.*?)["']</code>. Shows pages with no container, or two different ones.</li>
   <li><strong>GA4 measurement ID</strong> (Regex): <code>["'](G-[A-Z0-9]+)["']</code>. Same idea for sites that load GA4 directly.</li>
 </ul>
 
-<h2>Reading the results</h2>
+<h2 id="section-reading-the-results" tabindex="-1">Reading the results</h2>
 <p>A column of numbers is only useful once it's grouped. Export the crawl, add a column for the URL pattern or template, and pivot. When every product page reports two H1s and every blog post reports one, the cause is in the product template, and one change fixes thousands of URLs. That is the habit that turns a crawl from a list of warnings into a short list of causes.</p>
 <p>Check a few rows by hand before you trust a recipe. View the source of one page, confirm the extracted value matches, and adjust the expression if a theme uses different markup from the one you expected.</p>
 
-<h2>Where this fits</h2>
+<h2 id="section-where-this-fits" tabindex="-1">Where this fits</h2>
 <p>Custom extraction is how I make a full crawl answer the specific questions in a <a href="../../services/sitewide-technical-seo/">sitewide technical SEO</a> engagement. For the licence question itself, read <a href="../../guides/screaming-frog-licence/">whether a Screaming Frog licence is worth it</a>, and for two problems these recipes surface constantly, see <a href="../../guides/near-duplicates-and-h1s/">finding near duplicates and multiple H1s</a>.</p>
 <aside class="help-box" aria-label="Get help">
   <h2>Let me help you with this</h2>

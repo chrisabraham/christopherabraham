@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -845,14 +850,28 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-13">October 13, 2026</time></p>
 <p class="lead">"Done" is the most dangerous word in SEO. A developer marks the ticket closed, the CMS shows the new titles, and three months later a crawl finds the old ones still live on half the site. A cache never cleared, a second template was missed, or the change only applied to new pages. I don't call a fix finished until two crawls and Search Console agree that it is. Here is the routine.</p>
 
-<h2>Step 1: crawl before you change anything</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-step-1-crawl-before-you-change-anything">Step 1: crawl before you change anything</a></li>
+    <li><a href="#section-step-2-crawl-again-after-the-release">Step 2: crawl again after the release</a></li>
+    <li><a href="#section-step-3-read-the-four-change-columns">Step 3: read the four change columns</a></li>
+    <li><a href="#section-step-4-turn-on-change-detection">Step 4: turn on change detection</a></li>
+    <li><a href="#section-step-5-check-structure-and-internal-links">Step 5: check structure and internal links</a></li>
+    <li><a href="#section-comparing-staging-with-live">Comparing staging with live</a></li>
+    <li><a href="#section-step-6-confirm-with-google">Step 6: confirm with Google</a></li>
+    <li><a href="#section-write-it-down">Write it down</a></li>
+  </ol>
+</details>
+
+<h2 id="section-step-1-crawl-before-you-change-anything" tabindex="-1">Step 1: crawl before you change anything</h2>
 <p>The baseline is the step people skip, and without it there's nothing to compare. Before any fix ships, crawl the site with the settings you'll use afterward: the same start URL, the same rendering mode, the same exclusions, the same custom extractors. Save it.</p>
 <p>In Screaming Frog, comparison needs a licence and database storage mode, which you switch on under File &gt; Settings &gt; Storage Mode. Database storage saves every crawl automatically and lists it under File &gt; Crawls, and it copes with large sites far better than memory storage. Crawls saved in the old file format can be imported and converted.</p>
 
-<h2>Step 2: crawl again after the release</h2>
+<h2 id="section-step-2-crawl-again-after-the-release" tabindex="-1">Step 2: crawl again after the release</h2>
 <p>Once the fix is live and caches have cleared, crawl again with identical settings. Then switch to Mode &gt; Compare, pick the two crawls, and run the comparison. The newer crawl becomes Current and the older one Previous.</p>
 
-<h2>Step 3: read the four change columns</h2>
+<h2 id="section-step-3-read-the-four-change-columns" tabindex="-1">Step 3: read the four change columns</h2>
 <p>For every tab and filter, the comparison sorts URLs into four groups, and the difference between them is the whole point:</p>
 <ul>
   <li><strong>Added:</strong> URLs present in both crawls that have moved into this filter. If the filter is an error, these are new problems on existing pages.</li>
@@ -862,17 +881,17 @@ dd { margin: .2rem 0 0 0; }
 </ul>
 <p>If you fixed duplicate titles on 600 product pages, you want to see roughly 600 in Removed under Page Titles &gt; Duplicate, and close to zero in Added. A large New count after a fix that wasn't supposed to create pages tells you something else changed, often a parameter or a pagination pattern now exposed to crawlers.</p>
 
-<h2>Step 4: turn on change detection</h2>
+<h2 id="section-step-4-turn-on-change-detection" tabindex="-1">Step 4: turn on change detection</h2>
 <p>Filters only notice changes that move a URL between filters. A title rewritten from one acceptable wording to another triggers nothing. For that, open Config &gt; Compare before you run the comparison and select the elements you changed: page titles, meta descriptions, H1s, word count, crawl depth, internal links, structured data, or content. A Change Detection tab then lists every URL where those elements differ between the crawls.</p>
 <p>This is how I answer the question every client eventually asks: did the new titles actually go live everywhere? The tab gives a URL by URL answer, and the pages that didn't change are the ones to chase.</p>
 
-<h2>Step 5: check structure and internal links</h2>
+<h2 id="section-step-5-check-structure-and-internal-links" tabindex="-1">Step 5: check structure and internal links</h2>
 <p>The Site Structure tab in a comparison shows the directory tree with URLs added and removed, and how crawl depth shifted. The lower window's inlinks view can filter to links added or removed. When a menu change quietly pushes a section of pages one click deeper, this is where it shows up, along with the exact links that went away.</p>
 
-<h2>Comparing staging with live</h2>
+<h2 id="section-comparing-staging-with-live" tabindex="-1">Comparing staging with live</h2>
 <p>Before a migration or a redesign launches, URL Mapping under Config &gt; Compare lets you compare crawls whose URLs differ. A regex maps the previous crawl's URLs onto the current crawl's, so a staging hostname can be compared page for page with the live site. Run it before launch and you'll catch missing titles, dropped schema, and lost internal links while they're still cheap to fix.</p>
 
-<h2>Step 6: confirm with Google</h2>
+<h2 id="section-step-6-confirm-with-google" tabindex="-1">Step 6: confirm with Google</h2>
 <p>A clean crawl proves what your site serves. Search Console shows what Google has noticed.</p>
 <ul>
   <li><strong>URL Inspection</strong> on a handful of representative URLs. The live test shows whether Google can index the page as it stands now, and the indexed result shows the version Google currently holds, including its chosen canonical.</li>
@@ -880,7 +899,7 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>A smaller sitemap</strong> for speed. Google suggests submitting a sitemap of your most important affected pages and filtering the report to it before validating, since a smaller set can finish sooner.</li>
 </ul>
 
-<h2>Write it down</h2>
+<h2 id="section-write-it-down" tabindex="-1">Write it down</h2>
 <p>A verification note after each release can be short: the two crawl dates, the counts in Removed and Added for each targeted issue, a list of any URLs that didn't change and why, and the Search Console validation status with its date. It turns "fixed" into a record anyone can check, and it catches the missed template before Google does.</p>
 
 <p>Verification is built into my <a href="../../services/sitewide-technical-seo/">sitewide technical SEO</a> work and every <a href="../../services/migrations/">site migration</a>. The extractors I use for before and after comparisons are in <a href="../../guides/custom-extraction/">Screaming Frog custom extraction recipes</a>.</p>

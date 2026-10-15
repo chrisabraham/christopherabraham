@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -812,17 +817,32 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-06">October 6, 2026</time></p>
 <p class="lead">Plenty of professionals work under more than one name: a formal name on a freelance marketplace, a nickname on bylines, a maiden name on old publications, a pen name on fiction. Search engines and AI assistants treat names as clues, not proof. Unless you connect the names deliberately, they may think you're two people, or worse, merge you with a stranger.</p>
 
-<h2>How machines decide who you are</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-how-machines-decide-who-you-are">How machines decide who you are</a></li>
+    <li><a href="#section-pick-a-primary-name-for-each-site">Pick a primary name for each site</a></li>
+    <li><a href="#section-say-it-in-plain-words">Say it in plain words</a></li>
+    <li><a href="#section-connect-the-names-in-person-schema">Connect the names in Person schema</a></li>
+    <li><a href="#section-choose-sameas-links-carefully">Choose sameAs links carefully</a></li>
+    <li><a href="#section-make-the-profiles-agree">Make the profiles agree</a></li>
+    <li><a href="#section-keep-your-field-attached-to-your-name">Keep your field attached to your name</a></li>
+    <li><a href="#section-what-not-to-do">What not to do</a></li>
+    <li><a href="#section-check-the-result">Check the result</a></li>
+  </ol>
+</details>
+
+<h2 id="section-how-machines-decide-who-you-are" tabindex="-1">How machines decide who you are</h2>
 <p>Google's Knowledge Graph and the retrieval systems behind AI assistants build an <em>entity</em>: a single record for a person, with facts attached. They assemble it from pages that agree with each other. When one page says "Christopher Abraham, SEO consultant in Arlington" and another says "Chris Abraham, SEO and reputation specialist in Arlington," the overlap in field and place suggests one person. Structured data and links turn that suggestion into something close to certainty.</p>
 
-<h2>Pick a primary name for each site</h2>
+<h2 id="section-pick-a-primary-name-for-each-site" tabindex="-1">Pick a primary name for each site</h2>
 <p>Each website should have one primary name for you, used consistently in its headings, bylines, and title tags. A site built for marketplace clients can lead with the name they know from the marketplace; a writing archive can lead with the byline name. Having different primaries on different sites is fine, as long as each site acknowledges the other names somewhere visible.</p>
 
-<h2>Say it in plain words</h2>
+<h2 id="section-say-it-in-plain-words" tabindex="-1">Say it in plain words</h2>
 <p>Put a sentence on your About page that names the connection: "Most people know me as Chris, and nearly two decades of my bylines carry that name." Plain text is the strongest signal because every crawler reads it, including the ones that ignore structured data.</p>
 <p>If you have a full legal name with a middle name, list it once. It distinguishes you from namesakes and matches public records, diplomas, and CVs.</p>
 
-<h2>Connect the names in Person schema</h2>
+<h2 id="section-connect-the-names-in-person-schema" tabindex="-1">Connect the names in Person schema</h2>
 <p>Schema.org's Person type has properties built for exactly this:</p>
 <pre><code>{
   "@type": "Person",
@@ -847,24 +867,24 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>@id</strong> gives the entity a permanent identifier, so every page on the site refers to the same person.</li>
 </ul>
 
-<h2>Choose sameAs links carefully</h2>
+<h2 id="section-choose-sameas-links-carefully" tabindex="-1">Choose sameAs links carefully</h2>
 <p>sameAs says "this other page is about the same person." Use it only for pages about you: your LinkedIn profile, marketplace profile, author pages at publications, a speaker bio, a consultancy team page. Never point it at a page that merely mentions you, and never at a domain you no longer control. If an old company site has lapsed and now redirects somewhere unrelated, remove it.</p>
 <p>Old bios on reputable third-party sites are especially valuable. A team page from decades ago, still online, is independent evidence that you are who you say you are.</p>
 
-<h2>Make the profiles agree</h2>
+<h2 id="section-make-the-profiles-agree" tabindex="-1">Make the profiles agree</h2>
 <p>Go through each profile you list in sameAs and check the basics: field, city, current role, photo. They don't have to be identical, but they shouldn't contradict each other. A headshot used on every profile is a surprisingly strong signal; image search connects them instantly.</p>
 
-<h2>Keep your field attached to your name</h2>
+<h2 id="section-keep-your-field-attached-to-your-name" tabindex="-1">Keep your field attached to your name</h2>
 <p>Namesakes are the biggest risk. Pair your name with your field everywhere it matters: title tags, page headings, social bios, and author lines. "Christopher Abraham, SEO consultant" repeated across consistent sources teaches the systems which Christopher Abraham this is, and keeps you apart from the theatre director and the novelist who share the name.</p>
 
-<h2>What not to do</h2>
+<h2 id="section-what-not-to-do" tabindex="-1">What not to do</h2>
 <ul>
   <li>Don't create a separate fake persona with its own invented history. Two names for one real person is normal; two biographies is a credibility problem.</li>
   <li>Don't hide the connection. A name that appears from nowhere, with no link to an established record, looks like a new entity with no history.</li>
   <li>Don't stuff every variant into titles and headings. Use the primary name in titles and let alternateName and the About page carry the rest.</li>
 </ul>
 
-<h2>Check the result</h2>
+<h2 id="section-check-the-result" tabindex="-1">Check the result</h2>
 <p>A few weeks after publishing, search each name with your field and city, and ask the major AI assistants who each name is. When they connect the names and describe the same career, the entity has merged. If they don't, look for a profile that contradicts the others.</p>
 
 <p>Related: <a href="../../guides/correct-ai-answers/">correcting what AI says about you</a>, <a href="../../guides/third-party-proof/">proving expertise with third-party sources</a>, and <a href="../../services/schema/">schema markup and entity SEO</a>.</p>

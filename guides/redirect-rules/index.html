@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -817,37 +822,55 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-06">October 6, 2026</time></p>
 <p class="lead">A 301 redirect tells browsers and search engines that a page has moved permanently and where to find it. Handled well, redirects carry rankings, links, and bookmarks to a new address. Handled carelessly, they quietly erase years of search equity. These are the rules I follow on every migration.</p>
 
-<h2>1. Inventory before you redirect</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-1-inventory-before-you-redirect">1. Inventory before you redirect</a></li>
+    <li><a href="#section-2-map-one-to-one-to-the-closest-equivalent">2. Map one to one, to the closest equivalent</a></li>
+    <li><a href="#section-3-don-t-send-everything-to-the-home-page">3. Don&#x27;t send everything to the home page</a></li>
+    <li><a href="#section-4-use-301-or-308-for-permanent-moves">4. Use 301 or 308 for permanent moves</a></li>
+    <li><a href="#section-5-no-chains-no-loops">5. No chains, no loops</a></li>
+    <li><a href="#section-6-use-410-deliberately">6. Use 410 deliberately</a></li>
+    <li><a href="#section-7-keep-redirects-for-years">7. Keep redirects for years</a></li>
+    <li><a href="#section-8-update-everything-that-points-at-old-urls">8. Update everything that points at old URLs</a></li>
+    <li><a href="#section-9-preserve-parameters-and-casing-on-purpose">9. Preserve parameters and casing on purpose</a></li>
+    <li><a href="#section-10-test-in-bulk-then-watch">10. Test in bulk, then watch</a></li>
+    <li><a href="#section-where-redirects-live">Where redirects live</a></li>
+    <li><a href="#section-a-note-on-disavow-files">A note on disavow files</a></li>
+  </ol>
+</details>
+
+<h2 id="section-1-inventory-before-you-redirect" tabindex="-1">1. Inventory before you redirect</h2>
 <p>You can't redirect URLs you don't know about. Build the old URL list from several sources: a full crawl, every XML sitemap, Search Console's performance and indexing exports, analytics landing pages over at least a year, and backlink tools. Old campaign pages and PDFs that nobody links from the menu often carry the most external links.</p>
 
-<h2>2. Map one to one, to the closest equivalent</h2>
+<h2 id="section-2-map-one-to-one-to-the-closest-equivalent" tabindex="-1">2. Map one to one, to the closest equivalent</h2>
 <p>Each old URL should point to the new page that best serves the same visitor. A product goes to the same product, a category to the same category, an article to its new address. When the content is merged, point to the merged page.</p>
 
-<h2>3. Don't send everything to the home page</h2>
+<h2 id="section-3-don-t-send-everything-to-the-home-page" tabindex="-1">3. Don't send everything to the home page</h2>
 <p>Redirecting hundreds of old pages to the home page is easy and almost worthless. Google treats irrelevant redirects as soft 404s, and the equity those pages carried is lost. If there's no real equivalent, use rule 6.</p>
 
-<h2>4. Use 301 or 308 for permanent moves</h2>
+<h2 id="section-4-use-301-or-308-for-permanent-moves" tabindex="-1">4. Use 301 or 308 for permanent moves</h2>
 <p>A 301 (or 308, which also preserves the request method) signals a permanent move. A 302 or 307 says "temporarily elsewhere," and search engines may keep the old URL indexed. Meta refresh and JavaScript redirects work in some cases, but server-side redirects are the clear signal.</p>
 
-<h2>5. No chains, no loops</h2>
+<h2 id="section-5-no-chains-no-loops" tabindex="-1">5. No chains, no loops</h2>
 <p>Each redirect should go straight to the final destination in one hop. Chains build up over years: http to https, then www to apex, then old path to new path. Every hop adds delay and risks the crawler giving up. When you add new redirects, update the old ones to point at the final URL.</p>
 
-<h2>6. Use 410 deliberately</h2>
+<h2 id="section-6-use-410-deliberately" tabindex="-1">6. Use 410 deliberately</h2>
 <p>For pages that are gone for good with no replacement, a 410 status says so plainly and gets them dropped from the index faster than a 404. Use it for retired products with no successor, expired events, and spam pages left from a hack.</p>
 
-<h2>7. Keep redirects for years</h2>
+<h2 id="section-7-keep-redirects-for-years" tabindex="-1">7. Keep redirects for years</h2>
 <p>Search engines need time to process a move, and links, bookmarks, and old emails keep sending visitors for years. Keep redirects in place for at least a year, and for valuable URLs, indefinitely. Removing them to "clean up" the configuration is a common way to lose traffic a second time.</p>
 
-<h2>8. Update everything that points at old URLs</h2>
+<h2 id="section-8-update-everything-that-points-at-old-urls" tabindex="-1">8. Update everything that points at old URLs</h2>
 <p>Redirects are a safety net, not the plan. Update internal links, canonical tags, hreflang annotations, XML sitemaps, structured data, and your Google Business Profile website link to point directly at new URLs. Ask the sites that link to you most to update their links too.</p>
 
-<h2>9. Preserve parameters and casing on purpose</h2>
+<h2 id="section-9-preserve-parameters-and-casing-on-purpose" tabindex="-1">9. Preserve parameters and casing on purpose</h2>
 <p>Decide how query strings, trailing slashes, and uppercase URLs are handled. Tracking parameters should usually pass through; old filter parameters may need their own rules. Test a handful of odd real URLs from your logs, not just the clean ones.</p>
 
-<h2>10. Test in bulk, then watch</h2>
+<h2 id="section-10-test-in-bulk-then-watch" tabindex="-1">10. Test in bulk, then watch</h2>
 <p>Before launch, run the full old URL list against staging and confirm each returns one 301 to the expected destination, which then returns 200. Repeat on launch day against production. Afterward, watch 404 reports in Search Console and Bing Webmaster Tools, your server logs, and traffic by page group for several weeks.</p>
 
-<h2>Where redirects live</h2>
+<h2 id="section-where-redirects-live" tabindex="-1">Where redirects live</h2>
 <ul>
   <li><strong>Apache:</strong> .htaccess or the virtual host configuration.</li>
   <li><strong>Nginx:</strong> server blocks with return 301 or map files for large lists.</li>
@@ -858,7 +881,7 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>GitHub Pages and other static hosts:</strong> no server redirects, so a page with a meta refresh and a canonical tag is the fallback.</li>
 </ul>
 
-<h2>A note on disavow files</h2>
+<h2 id="section-a-note-on-disavow-files" tabindex="-1">A note on disavow files</h2>
 <p>Migrations are a common moment to review backlinks. Disavow only genuinely manipulative or spammy links, and keep legitimate ones; disavowing good links throws away the equity your redirects are trying to preserve.</p>
 
 <p>For a full move, see <a href="../../services/migrations/">site migrations and 301 redirects</a>, or <a href="../../case-studies/clinic-migration/">a clinic's redirect decisions URL by URL</a>.</p>

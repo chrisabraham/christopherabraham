@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -896,11 +901,23 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-11">October 11, 2026</time> · Updated <time datetime="2026-10-15">October 15, 2026</time></p>
 <p class="lead">Most SEO stops at the admin screen: plugin settings, a crawler export, a spreadsheet of recommendations. Your website doesn't live in the admin screen. If it was built by developers, it lives in a code repository, and that's where its search problems are caused and where they get fixed. An SEO who can work in the repository, with an AI coding assistant doing the heavy reading, fixes causes instead of reporting symptoms. That's how I work, and here is what it means for you.</p>
 
-<h2>What a repository is, in plain English</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-what-a-repository-is-in-plain-english">What a repository is, in plain English</a></li>
+    <li><a href="#section-plugins-and-crawlers-report-the-code-is-where-it-s-fixed">Plugins and crawlers report. The code is where it&#x27;s fixed.</a></li>
+    <li><a href="#section-what-ai-coding-assistants-add">What AI coding assistants add</a></li>
+    <li><a href="#section-how-i-work-in-a-client-s-repository">How I work in a client&#x27;s repository</a></li>
+    <li><a href="#section-questions-to-ask-any-seo-you-re-about-to-hire">Questions to ask any SEO you&#x27;re about to hire</a></li>
+    <li><a href="#section-work-with-me">Work with me</a></li>
+  </ol>
+</details>
+
+<h2 id="section-what-a-repository-is-in-plain-english" tabindex="-1">What a repository is, in plain English</h2>
 <p>A repository is the master copy of your site's code, with its entire history. Almost every team now keeps it in Git, the version control system Linus Torvalds and the Linux community created in 2005, usually hosted on GitHub, GitLab, or Bitbucket. Older systems such as CVS and Subversion did the same job before Git took over.</p>
 <p>The history is the point. Every change is recorded with who made it, when, and why. Changes are proposed as pull requests that someone reviews before they go live, and any change can be rolled back. That's exactly the discipline SEO changes have usually lacked.</p>
 
-<h2>Plugins and crawlers report. The code is where it's fixed.</h2>
+<h2 id="section-plugins-and-crawlers-report-the-code-is-where-it-s-fixed" tabindex="-1">Plugins and crawlers report. The code is where it's fixed.</h2>
 <p>Yoast is a fine plugin and Screaming Frog is the best crawler I own. Both tell you what's wrong on the pages they can see. Neither can tell you why a template produces the problem, and neither can change the template. On a site built with Next.js, Nuxt, Astro, Shopify themes, or a headless CMS, there may be no SEO plugin at all. The titles, canonicals, structured data, redirects, robots rules, and sitemaps are all code.</p>
 <p>When the SEO can read that code, the work changes:</p>
 <ul>
@@ -911,7 +928,7 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>No lost work.</strong> Every SEO change has a commit, a reviewer, and a way back.</li>
 </ul>
 
-<h2>What AI coding assistants add</h2>
+<h2 id="section-what-ai-coding-assistants-add" tabindex="-1">What AI coding assistants add</h2>
 <p>A medium sized site can have thousands of files. Reading them used to be the developer's job alone. Now AI coding assistants such as OpenAI Codex, Claude Code, and GitHub Copilot can read an entire codebase, explain how it's organized, trace a problem to the files that cause it, and draft the change. GitHub describes Copilot planning changes, editing code, running tests, and reviewing pull requests. Claude Code works the same way from a terminal.</p>
 <p>That puts an SEO who knows what to look for within reach of answers that used to take a developer a week. Two examples from my own client work:</p>
 <ul>
@@ -920,7 +937,7 @@ dd { margin: .2rem 0 0 0; }
 </ul>
 <p>The assistant is fast, tireless, and sometimes confidently wrong. The skill is knowing what search engines need, asking the right questions of the code, and checking every answer. AI doesn't replace that judgment; it multiplies it.</p>
 
-<h2>How I work in a client's repository</h2>
+<h2 id="section-how-i-work-in-a-client-s-repository" tabindex="-1">How I work in a client's repository</h2>
 <p>I work primarily with Codex and Claude Code, and also use Copilot. The repository, the written brief, and the checks carry the work between assistants, so the process does not depend on a single AI provider.</p>
 <ol>
   <li><strong>Read only first.</strong> I start with read access, map the templates and routes, and compare the code to what crawlers actually see.</li>
@@ -930,7 +947,7 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>Verified on the live site</strong> after deploy, with a crawl and Search Console.</li>
 </ol>
 
-<h2>Questions to ask any SEO you're about to hire</h2>
+<h2 id="section-questions-to-ask-any-seo-you-re-about-to-hire" tabindex="-1">Questions to ask any SEO you're about to hire</h2>
 <ul>
   <li>Can you read the site's templates, or only the pages they produce?</li>
   <li>Will you hand the developer findings tied to specific files?</li>
@@ -940,7 +957,7 @@ dd { margin: .2rem 0 0 0; }
 </ul>
 <p>For the broader hiring checklist, see <a href="../../guides/hiring-an-seo/">how to hire an SEO on Upwork</a>.</p>
 
-<h2>Work with me</h2>
+<h2 id="section-work-with-me" tabindex="-1">Work with me</h2>
 <p>I've built websites since 1994 and practiced SEO since 1998, and today I work the way modern sites are built: in the repository, through pull requests, with AI coding assistants doing the heavy reading under my direction. If your site lives in GitHub and your SEO lives in a spreadsheet, <a href="../../contact/">send me the site</a> or see my <a href="../../services/sitewide-technical-seo/">sitewide technical SEO</a>, <a href="../../services/javascript-seo/">JavaScript SEO</a>, and <a href="../../services/seo-audit/">technical audit</a> services. I'll tell you what the code is doing to your search visibility and how to fix it.</p>
 <aside class="help-box" aria-label="Get help">
   <h2>Let me help you with this</h2>

@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -813,10 +818,23 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-06">October 6, 2026</time></p>
 <p class="lead">Schema.org has more than 800 types. A typical small business needs about five. This guide covers which ones, shows example code, and lists the rules that keep structured data accurate enough for Google and AI systems to trust.</p>
 
-<h2>Why bother</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-why-bother">Why bother</a></li>
+    <li><a href="#section-the-five-you-need">The five you need</a></li>
+    <li><a href="#section-add-if-they-apply">Add if they apply</a></li>
+    <li><a href="#section-the-rules">The rules</a></li>
+    <li><a href="#section-how-to-add-it">How to add it</a></li>
+    <li><a href="#section-a-five-minute-self-check">A five-minute self-check</a></li>
+    <li><a href="#section-multiple-locations">Multiple locations</a></li>
+  </ol>
+</details>
+
+<h2 id="section-why-bother" tabindex="-1">Why bother</h2>
 <p>Structured data states your facts in a format machines don't have to guess at. It can earn rich results in Google, such as review stars, FAQs, and breadcrumbs, and it helps search engines and AI assistants connect your business, its location, and its services into one clear entity. It won't rescue a weak page, but it makes a good page unambiguous.</p>
 
-<h2>The five you need</h2>
+<h2 id="section-the-five-you-need" tabindex="-1">The five you need</h2>
 <h3>1. LocalBusiness or Organization, on the home page</h3>
 <p>Use the most specific LocalBusiness subtype that fits: Dentist, Plumber, LegalService, Restaurant, HomeAndConstructionBusiness, and so on. If customers never visit you and you don't serve a defined area, use Organization instead.</p>
 <pre><code>&lt;script type="application/ld+json"&gt;
@@ -866,7 +884,7 @@ dd { margin: .2rem 0 0 0; }
 <h3>5. Person, for the owner or practitioner</h3>
 <p>If customers choose you partly because of who you are, such as a lawyer, therapist, consultant, or chef, add Person markup on the About page with name, job title, image, and sameAs links to professional profiles, connected to the business with <code>worksFor</code>.</p>
 
-<h2>Add if they apply</h2>
+<h2 id="section-add-if-they-apply" tabindex="-1">Add if they apply</h2>
 <ul>
   <li><strong>Product and Offer</strong> if you sell products online.</li>
   <li><strong>Article or BlogPosting</strong> on blog posts, with author and dates.</li>
@@ -874,7 +892,7 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>Review</strong> markup only for reviews that are visible on the page. Self-serving review stars on your own business are ignored by Google.</li>
 </ul>
 
-<h2>The rules</h2>
+<h2 id="section-the-rules" tabindex="-1">The rules</h2>
 <ol>
   <li><strong>Match the page.</strong> Everything in the markup should be visible to visitors. Hidden facts in schema get ignored or penalized.</li>
   <li><strong>Match the world.</strong> Name, address, and phone should match your Google Business Profile exactly.</li>
@@ -883,10 +901,10 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>Validate.</strong> Test every template in Google's Rich Results Test and the Schema.org validator, then watch Search Console's enhancement reports.</li>
 </ol>
 
-<h2>How to add it</h2>
+<h2 id="section-how-to-add-it" tabindex="-1">How to add it</h2>
 <p>On WordPress, Yoast SEO and Rank Math generate Organization, WebSite, Breadcrumb, and Article markup and let you add more. On Shopify, the theme usually outputs Product markup; check for duplicates before adding an app. On Squarespace and Wix, add JSON-LD through code injection or the platform's SEO settings. On custom sites, generate it from the same data that renders the page.</p>
 
-<h2>A five-minute self-check</h2>
+<h2 id="section-a-five-minute-self-check" tabindex="-1">A five-minute self-check</h2>
 <ol>
   <li>Paste your home page address into Google's Rich Results Test and note every type it detects.</li>
   <li>Open the Schema.org validator on the same page and look for duplicates: two Organization or LocalBusiness blocks usually mean a theme and a plugin are both writing markup.</li>
@@ -896,7 +914,7 @@ dd { margin: .2rem 0 0 0; }
 </ol>
 <p>If all five checks come back clean, your structured data is in better shape than most.</p>
 
-<h2>Multiple locations</h2>
+<h2 id="section-multiple-locations" tabindex="-1">Multiple locations</h2>
 <p>With more than one location, the home page describes the Organization, and each location page describes its own LocalBusiness with <code>parentOrganization</code> pointing to it. Never describe the company and its first location as the same entity.</p>
 
 <p>For help with markup that validates and stays accurate, see <a href="../../services/schema/">schema markup and entity SEO</a>.</p>

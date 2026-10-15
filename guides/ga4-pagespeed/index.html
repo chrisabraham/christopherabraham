@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -846,11 +851,23 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-14">October 14, 2026</time></p>
 <p class="lead">On a lean site, the Google Analytics tag can be the heaviest thing on the page. When I tested this site in October 2026, gtag.js accounted for most of the main-thread work during load on mobile, about twice what the site's own code used. Loading the tag after the visitor's first scroll, tap, or key press, or four seconds after the page finishes loading, took the home page from a mobile Lighthouse score of 73 to 80 up to 100. Pageviews still count. The cost is the visitors who leave within a few seconds without touching the page.</p>
 
-<h2>What the tag costs</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-what-the-tag-costs">What the tag costs</a></li>
+    <li><a href="#section-load-the-tag-after-the-visitor-acts">Load the tag after the visitor acts</a></li>
+    <li><a href="#section-the-result">The result</a></li>
+    <li><a href="#section-the-cost-stated-plainly">The cost, stated plainly</a></li>
+    <li><a href="#section-check-the-rest-of-the-page-first">Check the rest of the page first</a></li>
+    <li><a href="#section-where-i-fit">Where I fit</a></li>
+  </ol>
+</details>
+
+<h2 id="section-what-the-tag-costs" tabindex="-1">What the tag costs</h2>
 <p>The standard GA4 snippet loads gtag.js asynchronously, which keeps it from blocking the HTML parser. It still runs on the main thread once it arrives, and the script is large: about 176 KB on my pages. On a phone, parsing and running it lands in the same window as the page's first paint, and Lighthouse counts every long task in that window toward Total Blocking Time. On my home page, Total Blocking Time ran from 700 to 1,760 milliseconds, depending on the run.</p>
 <p>Total Blocking Time is a lab measure. Google's ranking signals use field data, and the field measure for responsiveness is Interaction to Next Paint. Real phones on real networks still pay the cost of a large script parsed during load, so a lab fix that removes that work tends to show up in the field too, a month or so later, once enough visits have been recorded.</p>
 
-<h2>Load the tag after the visitor acts</h2>
+<h2 id="section-load-the-tag-after-the-visitor-acts" tabindex="-1">Load the tag after the visitor acts</h2>
 <p>The fix keeps every analytics command and moves only the script download. The page defines dataLayer and the gtag function as usual, queues the consent defaults, the js timestamp, and the config call, and then waits. The first scroll, pointer press, touch, or key press loads gtag.js. If none comes, a timer loads it four seconds after the page's load event. When the script arrives it reads the queued commands in order, so the pageview is recorded with the right consent state.</p>
 <pre><code>&lt;script&gt;
   window.dataLayer = window.dataLayer || [];
@@ -875,17 +892,17 @@ dd { margin: .2rem 0 0 0; }
 &lt;/script&gt;</code></pre>
 <p>Keep your consent mode defaults above the config line, exactly where they were. They are commands in the same queue and run before anything is sent.</p>
 
-<h2>The result</h2>
+<h2 id="section-the-result" tabindex="-1">The result</h2>
 <p>I tested the original and the deferred version of the same page side by side, twice each, with Lighthouse in mobile mode on the same machine. The original scored 73 and 80, with 1,760 and 890 milliseconds of blocking time. The deferred version scored 100 both times, with 40 and 30 milliseconds. The two pages I measured on this site afterward scored 98 and 100.</p>
 
-<h2>The cost, stated plainly</h2>
+<h2 id="section-the-cost-stated-plainly" tabindex="-1">The cost, stated plainly</h2>
 <p>A visitor who opens a page and leaves within about four seconds without scrolling, tapping, or typing is never counted. On most sites that group is small and includes a share of bots, but it is real, and a client should hear it before the change ships. Bounce rate and short-session counts will shift on the day you deploy, so annotate the change in GA4 and compare like with like afterward.</p>
 <p>Two cases call for the standard snippet instead. A site whose business depends on counting single-page visits exactly, such as a landing page measured by paid campaigns, should keep the tag loading immediately. So should any page where the tag fires conversion events the moment it loads.</p>
 
-<h2>Check the rest of the page first</h2>
+<h2 id="section-check-the-rest-of-the-page-first" tabindex="-1">Check the rest of the page first</h2>
 <p>Deferring analytics is the right first move only when analytics is the problem. Run Lighthouse, open the diagnostics, and read which scripts take the main-thread time. If a theme, a page builder, or a chat widget is the larger cost, fix that first. My guide to <a href="../../guides/core-web-vitals/">Core Web Vitals</a> covers the other common causes.</p>
 
-<h2>Where I fit</h2>
+<h2 id="section-where-i-fit" tabindex="-1">Where I fit</h2>
 <p>I find what is actually slowing a site, measure the fix before it ships, and explain the trade-offs to the people who own the analytics. If your PageSpeed scores are stuck and nobody can say why, <a href="../../contact/">send me the URL</a>.</p>
 <aside class="help-box" aria-label="Get help">
   <h2>Let me help you with this</h2>

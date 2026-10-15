@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -860,13 +865,26 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-13">October 13, 2026</time></p>
 <p class="lead">When an AI assistant describes your company, it isn't reading your About page alone. It's drawing on what other people have written: trade press, local news, newsletters, review roundups, niche sites, interviews. Those mentions used to be valued mostly for the links they carried. Now the words themselves travel into the answers. I've been earning that kind of coverage for clients since I helped develop long tail blogger outreach in 2006, and the fundamentals have barely changed. The stakes have.</p>
 
-<h2>Why mentions matter more than they used to</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-why-mentions-matter-more-than-they-used-to">Why mentions matter more than they used to</a></li>
+    <li><a href="#section-aim-at-the-long-tail">Aim at the long tail</a></li>
+    <li><a href="#section-give-writers-something-worth-using">Give writers something worth using</a></li>
+    <li><a href="#section-say-your-name-the-same-way-every-time">Say your name the same way every time</a></li>
+    <li><a href="#section-the-rules-on-paying">The rules on paying</a></li>
+    <li><a href="#section-measure-mentions-not-only-links">Measure mentions, not only links</a></li>
+    <li><a href="#section-where-i-fit">Where I fit</a></li>
+  </ol>
+</details>
+
+<h2 id="section-why-mentions-matter-more-than-they-used-to" tabindex="-1">Why mentions matter more than they used to</h2>
 <p>A link tells a search engine that one page points to another. A mention tells a reader, and a language model, what you are: "the neighborhood bakery known for its sourdough," "the accountant who specializes in restaurants." AI answers are built from sentences like those, gathered across many sources. If ten independent sites describe you the same accurate way, that description tends to become the answer. If the only sentences about you are your own, the machines have little to confirm them with.</p>
 
-<h2>Aim at the long tail</h2>
+<h2 id="section-aim-at-the-long-tail" tabindex="-1">Aim at the long tail</h2>
 <p>Everyone wants the national newspaper. Far fewer people pitch the newsletter with 4,000 devoted readers in your exact niche, the trade association's blog, the local business journal, or the hobbyist site that has covered your category for a decade. Those outlets are easier to reach, their writers know the subject, and their coverage is usually more specific, which is exactly what makes a mention useful to an AI answer. Twenty small, accurate mentions beat one big vague one.</p>
 
-<h2>Give writers something worth using</h2>
+<h2 id="section-give-writers-something-worth-using" tabindex="-1">Give writers something worth using</h2>
 <ul>
   <li><strong>Original numbers.</strong> A small survey, a count from your own records, a price index. Writers need facts nobody else has. My guide to <a href="../../guides/small-original-research/">original research on a small budget</a> shows how to produce them honestly.</li>
   <li><strong>A quotable expert.</strong> A founder or specialist who answers a reporter's question in two clear sentences, on deadline, gets quoted again.</li>
@@ -874,17 +892,17 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>A pitch about them.</strong> Read what the writer has published, and explain in three sentences why this fits their readers. A personal note to one writer outperforms a blast to five hundred.</li>
 </ul>
 
-<h2>Say your name the same way every time</h2>
+<h2 id="section-say-your-name-the-same-way-every-time" tabindex="-1">Say your name the same way every time</h2>
 <p>A mention only helps if machines can connect it to you. Use one consistent business name, one description, and the same founder name everywhere, and make sure your own site states those facts plainly, with structured data that ties your profiles together. If you trade under two names, my guide to <a href="../../guides/two-names-one-entity/">connecting two names into one entity</a> covers the method.</p>
 
-<h2>The rules on paying</h2>
+<h2 id="section-the-rules-on-paying" tabindex="-1">The rules on paying</h2>
 <p>Paying for coverage isn't forbidden, but it changes what you must disclose. In the United States, the FTC's Endorsement Guides, revised in 2023, require clear disclosure of any material connection between a brand and the person talking about it: payment, free product, or employment. The revision also says agencies, PR firms, and reputation management companies can share liability for deceptive endorsements they help create. In August 2024 the FTC announced a separate final rule banning fake reviews and testimonials, including ones attributed to people who don't exist, which took effect that October.</p>
 <p>Google has its own rule. Its spam policies treat buying or selling links that pass ranking credit as link spam, and it asks that paid placements carry <code>rel="sponsored"</code>. A sponsored article can still describe you well; it just shouldn't pretend to be editorial or pass link value.</p>
 
-<h2>Measure mentions, not only links</h2>
+<h2 id="section-measure-mentions-not-only-links" tabindex="-1">Measure mentions, not only links</h2>
 <p>Keep a simple log: outlet, date, the sentence that describes you, and whether it's accurate. Then, monthly, ask ChatGPT, Gemini, and Perplexity the questions your customers ask and see which of those sentences come back. When an answer is wrong, trace the claim to its source; my guide to <a href="../../guides/correct-ai-answers/">correcting AI answers</a> explains how.</p>
 
-<h2>Where I fit</h2>
+<h2 id="section-where-i-fit" tabindex="-1">Where I fit</h2>
 <p>I've taught influencer marketing as a guest lecturer at Georgetown, run outreach teams, and spent years on both sides of the pitch: as the person asking for coverage and as an editor deciding what to run. If you want an outreach plan that earns accurate mentions without buying anything you'd have to hide, <a href="../../contact/">tell me who you are and who you want to reach</a>. More about my background is on the <a href="../../about/">About page</a>.</p>
 <aside class="help-box" aria-label="Get help">
   <h2>Let me help you with this</h2>

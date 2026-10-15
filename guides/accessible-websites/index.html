@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -822,13 +827,25 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-06">October 6, 2026</time></p>
 <p class="lead">An accessible website works for people who use screen readers, keyboards, magnification, captions, or simply older eyes. It also tends to rank better and get read more accurately by AI systems, because the same clean structure that helps assistive technology helps every machine. The good news: most of the work is basic, and none of it requires a plugin.</p>
 
-<h2>Skip the overlay widgets</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-skip-the-overlay-widgets">Skip the overlay widgets</a></li>
+    <li><a href="#section-the-standard">The standard</a></li>
+    <li><a href="#section-the-essentials">The essentials</a></li>
+    <li><a href="#section-test-it-yourself">Test it yourself</a></li>
+    <li><a href="#section-why-it-helps-search-too">Why it helps search too</a></li>
+    <li><a href="#section-keep-it-from-slipping">Keep it from slipping</a></li>
+  </ol>
+</details>
+
+<h2 id="section-skip-the-overlay-widgets" tabindex="-1">Skip the overlay widgets</h2>
 <p>Accessibility overlays are scripts that add a toolbar or claim to fix a site automatically. Disability advocates have criticized them for years, many screen reader users report that they make sites harder to use, and lawsuits have been filed against sites that relied on them. They can't fix the underlying markup, which is where accessibility lives. Fix the site itself instead.</p>
 
-<h2>The standard</h2>
+<h2 id="section-the-standard" tabindex="-1">The standard</h2>
 <p>The Web Content Accessibility Guidelines, WCAG, are the reference courts and regulators point to. Aim for WCAG 2.2 at level AA. Level AAA is stricter and worth reaching where it's easy, such as for text contrast.</p>
 
-<h2>The essentials</h2>
+<h2 id="section-the-essentials" tabindex="-1">The essentials</h2>
 <h3>Contrast</h3>
 <p>Normal text needs a contrast ratio of at least 4.5 to 1 against its background; large text, roughly 24 pixels or 19 pixels bold, needs 3 to 1. Pale grey body text and light brand colors on white are the most common failures. Check each color pair with a contrast checker. Pure black text on white is never wrong.</p>
 <h3>Headings</h3>
@@ -850,7 +867,7 @@ dd { margin: .2rem 0 0 0; }
 <h3>Motion and media</h3>
 <p>Caption videos, provide transcripts for audio, and avoid autoplaying motion. Respect the reduced-motion setting where animation is used.</p>
 
-<h2>Test it yourself</h2>
+<h2 id="section-test-it-yourself" tabindex="-1">Test it yourself</h2>
 <ol>
   <li><strong>Unplug the mouse.</strong> Tab through the home page and a form. Can you reach and use everything, and always see where you are?</li>
   <li><strong>Zoom to 200 percent.</strong> Does everything still fit and work?</li>
@@ -858,10 +875,10 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>Listen to a page</strong> with the screen reader built into your computer or phone: VoiceOver on Apple devices, Narrator on Windows, TalkBack on Android.</li>
 </ol>
 
-<h2>Why it helps search too</h2>
+<h2 id="section-why-it-helps-search-too" tabindex="-1">Why it helps search too</h2>
 <p>Descriptive headings, meaningful link text, alt text, and semantic HTML are exactly what search engines and AI systems use to understand a page. Accessible markup is machine-readable markup. Fixing one improves the other.</p>
 
-<h2>Keep it from slipping</h2>
+<h2 id="section-keep-it-from-slipping" tabindex="-1">Keep it from slipping</h2>
 <p>Accessibility decays as content is added: a new image without alt text, a color tweak, a "click here." Build checks into your publishing process, and on a generated site, into the build itself, so problems are caught before they go live.</p>
 
 <p>Related: <a href="../../guides/core-web-vitals/">Core Web Vitals in plain English</a> and <a href="../../services/on-page-seo/">on-page SEO</a>.</p>

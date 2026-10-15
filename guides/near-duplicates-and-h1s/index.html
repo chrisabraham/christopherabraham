@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -855,18 +860,32 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-13">October 13, 2026</time></p>
 <p class="lead">Two findings turn up in almost every full crawl I run: clusters of pages that say nearly the same thing, and headings that don't describe the page. Neither can be judged one URL at a time. Here is how I find both across every page, and how I decide what to do about each.</p>
 
-<h2>Crawl the rendered page, not only the source</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-crawl-the-rendered-page-not-only-the-source">Crawl the rendered page, not only the source</a></li>
+    <li><a href="#section-turn-on-near-duplicate-detection">Turn on near duplicate detection</a></li>
+    <li><a href="#section-count-headings-with-custom-extraction">Count headings with custom extraction</a></li>
+    <li><a href="#section-what-multiple-h1s-actually-cost-you">What multiple H1s actually cost you</a></li>
+    <li><a href="#section-where-near-duplicates-come-from">Where near duplicates come from</a></li>
+    <li><a href="#section-decide-cluster-by-cluster">Decide, cluster by cluster</a></li>
+    <li><a href="#section-check-the-fix-with-a-second-crawl">Check the fix with a second crawl</a></li>
+    <li><a href="#section-get-help">Get help</a></li>
+  </ol>
+</details>
+
+<h2 id="section-crawl-the-rendered-page-not-only-the-source" tabindex="-1">Crawl the rendered page, not only the source</h2>
 <p>Set Screaming Frog to JavaScript rendering under Configuration &gt; Spider &gt; Rendering before you start. On sites built with React, Next.js, or a page builder, the H1 a browser shows can differ from the one in the raw HTML. A component may replace it after load, or a script may inject a second one. If you crawl only the source, you're auditing a page nobody sees.</p>
 
-<h2>Turn on near duplicate detection</h2>
+<h2 id="section-turn-on-near-duplicate-detection" tabindex="-1">Turn on near duplicate detection</h2>
 <p>Screaming Frog finds exact duplicates by default. Near duplicates need switching on, under Configuration &gt; Content &gt; Duplicates, which tells the crawler to store each page's text. The default similarity threshold is 90%, and you can lower it to cast a wider net. By default it compares only indexable pages, which is usually what you want.</p>
 <p>Before crawling, open Configuration &gt; Content &gt; Area and exclude the navigation, header, and footer elements. Otherwise every page shares hundreds of words of menu text, and pages that differ in their main content can still score as near twins. You can adjust the content area and threshold after a crawl without crawling again.</p>
 <p>One step trips people up: the Near Duplicates filter stays empty until you run Crawl Analysis at the end of the crawl. The overview pane marks the filters that are waiting on it. Once the analysis finishes, the Content tab lists each page's closest similarity match and how many near duplicates it has, and the Duplicate Details tab shows the matching text and highlights where the pages differ.</p>
 
-<h2>Count headings with custom extraction</h2>
+<h2 id="section-count-headings-with-custom-extraction" tabindex="-1">Count headings with custom extraction</h2>
 <p>The crawler's H1 columns show you the heading text page by page. A custom extraction gives you a number you can sort by. Under Configuration &gt; Custom &gt; Custom Extraction, add an XPath rule in Function Value mode with <code>count(//h1)</code>. Every URL gets a column with its H1 count. Add <code>count(//h2)</code> alongside it if you want to see which templates skip a level. Group the results by URL pattern and the template behind each problem usually becomes obvious.</p>
 
-<h2>What multiple H1s actually cost you</h2>
+<h2 id="section-what-multiple-h1s-actually-cost-you" tabindex="-1">What multiple H1s actually cost you</h2>
 <p>Less than most audit tools suggest. Google's SEO Starter Guide says headings in semantic order are fantastic for screen readers, and that from Google Search's perspective it doesn't matter if they're out of order. There is no ranking penalty for two H1s. The W3C's accessibility tutorial explains why order still matters: people using screen readers move through a page by its headings, so the ranks should describe how the page is organized.</p>
 <p>So I treat headings as a clarity and accessibility problem. The cases worth fixing are:</p>
 <ul>
@@ -877,7 +896,7 @@ dd { margin: .2rem 0 0 0; }
 </ul>
 <p>Each of these is one template fix. That's the payoff of finding them by count rather than by spot checking.</p>
 
-<h2>Where near duplicates come from</h2>
+<h2 id="section-where-near-duplicates-come-from" tabindex="-1">Where near duplicates come from</h2>
 <p>When I group near duplicate clusters by URL pattern, the same handful of causes come up again and again:</p>
 <ul>
   <li><strong>City swap location pages,</strong> where the only difference is the town name.</li>
@@ -887,7 +906,7 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>Quiz or calculator variants</strong> that share an explanation and change a few inputs.</li>
 </ul>
 
-<h2>Decide, cluster by cluster</h2>
+<h2 id="section-decide-cluster-by-cluster" tabindex="-1">Decide, cluster by cluster</h2>
 <p>Every cluster gets one of three decisions:</p>
 <ol>
   <li><strong>Differentiate.</strong> If each page has a real reason to exist, such as location pages for offices that actually differ, rewrite them so each carries information the others don't: staff, services, directions, local proof.</li>
@@ -896,10 +915,10 @@ dd { margin: .2rem 0 0 0; }
 </ol>
 <p>Noindex is rarely the right tool here. Google specifically advises against using noindex to steer canonical selection within a site, since it removes the page from Search entirely. I reserve it for pages that should never appear in results at all.</p>
 
-<h2>Check the fix with a second crawl</h2>
+<h2 id="section-check-the-fix-with-a-second-crawl" tabindex="-1">Check the fix with a second crawl</h2>
 <p>After the changes ship, crawl again with the same settings and compare the two crawls. The clusters you merged should now show redirects, the canonicalized URLs should point where you meant, and the H1 count column should read 1 across the templates you fixed. Then give Google a few weeks and check the Page indexing report in Search Console for duplicates it has resolved.</p>
 
-<h2>Get help</h2>
+<h2 id="section-get-help" tabindex="-1">Get help</h2>
 <p>This is part of the full crawl and repair work I describe on <a href="../../services/sitewide-technical-seo/">sitewide technical SEO</a>. If heading and title patterns are the main issue, see <a href="../../services/on-page-seo/">on-page SEO</a>. Unfamiliar terms are in the <a href="../../guides/glossary/">glossary</a>.</p>
 <aside class="help-box" aria-label="Get help">
   <h2>Let me help you with this</h2>

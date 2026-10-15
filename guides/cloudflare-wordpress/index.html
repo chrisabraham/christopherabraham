@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -832,14 +837,26 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-09">October 9, 2026</time></p>
 <p class="lead">If I could make one change to most of the WordPress sites I'm asked to look at, it would be putting them behind Cloudflare. It makes them faster, safer, and cheaper to run, and the free plan alone covers a lot of ground. My own experience and every AI assistant I've put the question to agree. For the record, Cloudflare pays me nothing for saying so, which, given how often I say it, is a little sad.</p>
 
-<h2>Two ways to use Cloudflare</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-two-ways-to-use-cloudflare">Two ways to use Cloudflare</a></li>
+    <li><a href="#section-what-the-free-plan-does-once-you-re-proxied">What the free plan does once you&#x27;re proxied</a></li>
+    <li><a href="#section-the-paid-features-that-matter-for-wordpress">The paid features that matter for WordPress</a></li>
+    <li><a href="#section-setting-it-up">Setting it up</a></li>
+    <li><a href="#section-what-to-leave-alone">What to leave alone</a></li>
+    <li><a href="#section-when-cloudflare-isn-t-the-right-layer">When Cloudflare isn&#x27;t the right layer</a></li>
+  </ol>
+</details>
+
+<h2 id="section-two-ways-to-use-cloudflare" tabindex="-1">Two ways to use Cloudflare</h2>
 <p>Every DNS record in Cloudflare shows a cloud. A gray cloud means DNS only: Cloudflare tells browsers where your server is, then steps aside. An orange cloud means proxied: visitors reach Cloudflare's network first, and it serves what it can from the data center nearest them before passing the rest to your host. The speed and protection only apply to orange records.</p>
 <ul>
   <li><strong>Gray, DNS only:</strong> if Cloudflare just registers the domain and answers DNS, the free plan is all you need.</li>
   <li><strong>Orange, proxied:</strong> this is where WordPress gains the most, and where the paid features become worth considering.</li>
 </ul>
 
-<h2>What the free plan does once you're proxied</h2>
+<h2 id="section-what-the-free-plan-does-once-you-re-proxied" tabindex="-1">What the free plan does once you're proxied</h2>
 <ul>
   <li>Caches your images, scripts, and stylesheets close to visitors. HTML pages aren't cached by default; that takes APO or a cache rule, below.</li>
   <li>Compresses files on the way out.</li>
@@ -848,14 +865,14 @@ dd { margin: .2rem 0 0 0; }
   <li>Tells Bing and other engines that support IndexNow when your content changes, through a free feature called Crawler Hints.</li>
 </ul>
 
-<h2>The paid features that matter for WordPress</h2>
+<h2 id="section-the-paid-features-that-matter-for-wordpress" tabindex="-1">The paid features that matter for WordPress</h2>
 <ul>
   <li><strong>Automatic Platform Optimization (APO):</strong> caches whole WordPress pages at Cloudflare's edge, so even the first byte arrives fast from anywhere. It works with the official Cloudflare WordPress plugin, comes included with the Pro plan and above, and costs $5 a month on the free plan.</li>
   <li><strong>Polish:</strong> compresses images and can convert them to WebP automatically. Available on Pro and above.</li>
 </ul>
 <p>Even though Cloudflare can cost nothing, when a WordPress site runs through it I recommend budgeting about $50 a month for Cloudflare's paid services, starting with Pro. WordPress almost always benefits. I pay for Pro on my own main site.</p>
 
-<h2>Setting it up</h2>
+<h2 id="section-setting-it-up" tabindex="-1">Setting it up</h2>
 <ol>
   <li><strong>Add the site</strong> in a free Cloudflare account. Cloudflare scans your existing DNS records; compare them against your current DNS provider line by line, especially mail records, before going further.</li>
   <li><strong>Change the nameservers</strong> at your registrar to the two Cloudflare gives you. Or transfer the domain to Cloudflare Registrar, which charges the registry's wholesale price with no markup on renewals.</li>
@@ -868,14 +885,14 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>Test</strong> your home page and a post in PageSpeed Insights before and after.</li>
 </ol>
 
-<h2>What to leave alone</h2>
+<h2 id="section-what-to-leave-alone" tabindex="-1">What to leave alone</h2>
 <ul>
   <li><strong>Rocket Loader</strong> rewrites how scripts load. It can speed up a simple site and break a complex one, including forms, analytics, and cookie banners. If anything acts strangely, turn it off first.</li>
   <li><strong>Caching the admin.</strong> Never cache <code>/wp-admin/</code>, the login page, carts, checkouts, or account pages. APO is built to skip logged-in visitors and the admin; any cache rule you write by hand has to exclude them too.</li>
   <li><strong>Under Attack Mode</strong> challenges every visitor, search engine crawlers included. Use it during an actual attack only.</li>
 </ul>
 
-<h2>When Cloudflare isn't the right layer</h2>
+<h2 id="section-when-cloudflare-isn-t-the-right-layer" tabindex="-1">When Cloudflare isn't the right layer</h2>
 <p>If a site runs on a hosted builder such as Shopify, Squarespace, or Wix, the builder already provides a CDN and certificates. Cloudflare can still hold the domain and answer DNS, but keep those records gray and follow the builder's own connection instructions. Some managed WordPress hosts also bundle Cloudflare or their own CDN; ask before stacking two.</p>
 
 <p>For the rest of the WordPress basics, see <a href="../../guides/wordpress-seo-101/">WordPress SEO 101</a>, and for what the speed scores mean, my <a href="../../guides/core-web-vitals/">Core Web Vitals guide</a>. Want Cloudflare set up on your site without the guesswork? <a href="../../contact/">Tell me about it</a>.</p>

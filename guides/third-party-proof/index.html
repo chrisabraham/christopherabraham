@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -817,10 +822,23 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-06">October 6, 2026</time></p>
 <p class="lead">Anyone can write "twenty years of experience" on their own website. Search engines and AI assistants know it, so they look for confirmation elsewhere. The most persuasive evidence of expertise is written by someone else, ideally years ago, on a site with no reason to flatter you.</p>
 
-<h2>Why outside sources matter so much</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-why-outside-sources-matter-so-much">Why outside sources matter so much</a></li>
+    <li><a href="#section-the-kinds-of-evidence-worth-hunting-for">The kinds of evidence worth hunting for</a></li>
+    <li><a href="#section-how-to-find-what-already-exists">How to find what already exists</a></li>
+    <li><a href="#section-how-to-use-it-on-your-site">How to use it on your site</a></li>
+    <li><a href="#section-respect-the-details">Respect the details</a></li>
+    <li><a href="#section-keep-a-file">Keep a file</a></li>
+    <li><a href="#section-create-new-evidence-going-forward">Create new evidence going forward</a></li>
+  </ol>
+</details>
+
+<h2 id="section-why-outside-sources-matter-so-much" tabindex="-1">Why outside sources matter so much</h2>
 <p>Google's quality guidelines ask raters to look at what others say about a creator, not just what the creator says. AI assistants behave similarly in practice: when several independent sources agree on a fact, the assistant states it with confidence; when only your own site says it, the assistant hedges or ignores it. Third-party sources are how a claim becomes a fact in the eyes of a machine.</p>
 
-<h2>The kinds of evidence worth hunting for</h2>
+<h2 id="section-the-kinds-of-evidence-worth-hunting-for" tabindex="-1">The kinds of evidence worth hunting for</h2>
 <h3>University and alumni news</h3>
 <p>Alumni profiles in a university's news site are gold: an institution with a strong domain, an editor, and a publication date. A ten-year-old feature about your company in your college's news site is better evidence than anything you could write today.</p>
 <h3>Vendor case studies</h3>
@@ -834,7 +852,7 @@ dd { margin: .2rem 0 0 0; }
 <h3>Recommendations with names attached</h3>
 <p>A testimonial is stronger when the person giving it is identifiable and credible in their own right.</p>
 
-<h2>How to find what already exists</h2>
+<h2 id="section-how-to-find-what-already-exists" tabindex="-1">How to find what already exists</h2>
 <ol>
   <li>Search your name in quotes with each employer, school, and project name.</li>
   <li>Search your name with distinctive terms from your past: product names, community names, event names.</li>
@@ -843,7 +861,7 @@ dd { margin: .2rem 0 0 0; }
   <li>Ask old colleagues what they remember; they often know about write-ups you never saw.</li>
 </ol>
 
-<h2>How to use it on your site</h2>
+<h2 id="section-how-to-use-it-on-your-site" tabindex="-1">How to use it on your site</h2>
 <ul>
   <li><strong>Link to the source, don't just mention it.</strong> "GW Today once wrote up some of this story" with a link is verifiable; "I've been featured in the press" isn't.</li>
   <li><strong>Quote accurately.</strong> Use the source's exact words. If you trim, mark the cut with an ellipsis.</li>
@@ -852,13 +870,13 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>Skip what doesn't hold up.</strong> If a source now redirects somewhere unrelated, or describes you inaccurately, leave it out.</li>
 </ul>
 
-<h2>Respect the details</h2>
+<h2 id="section-respect-the-details" tabindex="-1">Respect the details</h2>
 <p>Old sources come with old details. A case study may name clients you can no longer mention, an alumni profile may print your class year, and a team page may describe a role you've long since left. You don't control their content, but you control what you quote and where you link. Weigh each source's value against what it reveals, and decide deliberately.</p>
 
-<h2>Keep a file</h2>
+<h2 id="section-keep-a-file" tabindex="-1">Keep a file</h2>
 <p>Save a copy of every source you find, with the URL and the date. Pages disappear. A PDF in your own archive, plus the Wayback Machine's copy, means you can still point to the evidence if the original goes away.</p>
 
-<h2>Create new evidence going forward</h2>
+<h2 id="section-create-new-evidence-going-forward" tabindex="-1">Create new evidence going forward</h2>
 <p>The best time to collect third-party proof was years ago; the second best is now. Write for publications in your field, speak where talks are published, contribute to projects that credit contributors, and ask satisfied clients for testimonials you're allowed to attribute. Each one becomes a source that confirms you to the next reader, human or machine.</p>
 
 <p>Related: <a href="../../guides/about-page-ai/">an About page AI trusts</a> and <a href="../../guides/two-names-one-entity/">entity SEO for people with two names</a>.</p>

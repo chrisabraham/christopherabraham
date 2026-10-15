@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -817,11 +822,25 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-06">October 6, 2026</time></p>
 <p class="lead">llms.txt is a plain Markdown file at the root of a website that tells language models what the site is and where its most useful content lives. It was proposed in 2024 by Jeremy Howard of Answer.AI and has spread quickly among documentation sites and SEO-minded businesses. It's cheap to make, harmless, and increasingly read by AI tools and agents.</p>
 
-<h2>What it's for</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-what-it-s-for">What it&#x27;s for</a></li>
+    <li><a href="#section-the-format">The format</a></li>
+    <li><a href="#section-the-companions">The companions</a></li>
+    <li><a href="#section-robots-txt-considerations">robots.txt considerations</a></li>
+    <li><a href="#section-writing-a-good-one">Writing a good one</a></li>
+    <li><a href="#section-mistakes-to-avoid">Mistakes to avoid</a></li>
+    <li><a href="#section-who-it-suits-best">Who it suits best</a></li>
+    <li><a href="#section-checking-it">Checking it</a></li>
+  </ol>
+</details>
+
+<h2 id="section-what-it-s-for" tabindex="-1">What it's for</h2>
 <p>A web page is built for browsers: navigation, footers, scripts, styling. A language model reading it has to dig the content out of all that. llms.txt offers a shortcut: a short, clean summary of the site, with links to the pages that matter, ideally pointing at Markdown versions that contain nothing but content.</p>
 <p>Be realistic about its reach. No major search engine has said it uses llms.txt for ranking, and AI crawlers still read your HTML. Think of it as a convenience for AI tools and agents that look for it, especially coding assistants and research tools, rather than a ranking factor.</p>
 
-<h2>The format</h2>
+<h2 id="section-the-format" tabindex="-1">The format</h2>
 <p>The proposal defines a simple structure:</p>
 <ol>
   <li>An H1 with the name of the site or business. This is the only required element.</li>
@@ -851,7 +870,7 @@ Phone: +1-703-555-0100. Email: office@example.com.
 - [Full text of this site](https://example.com/llms-full.txt)
 </code></pre>
 
-<h2>The companions</h2>
+<h2 id="section-the-companions" tabindex="-1">The companions</h2>
 <h3>Markdown copies of pages</h3>
 <p>The proposal suggests offering a Markdown version of each important page at the same address with <code>.md</code> appended, or as <code>index.md</code> in the page's folder. Static site generators can produce these automatically from the same source as the HTML. Link to them from llms.txt and, optionally, from each HTML page with a <code>rel="alternate" type="text/markdown"</code> link.</p>
 <h3>llms-full.txt</h3>
@@ -859,10 +878,10 @@ Phone: +1-703-555-0100. Email: office@example.com.
 <h3>llm.txt</h3>
 <p>Some tools look for the singular spelling. Publishing an identical copy at <code>/llm.txt</code> costs nothing.</p>
 
-<h2>robots.txt considerations</h2>
+<h2 id="section-robots-txt-considerations" tabindex="-1">robots.txt considerations</h2>
 <p>Markdown copies repeat your HTML word for word. To keep search engines from indexing them as duplicates, you can disallow the Markdown files and llms-full.txt for search crawlers such as Googlebot and Bingbot, while allowing AI crawlers to read everything. Keep llms.txt itself open to all.</p>
 
-<h2>Writing a good one</h2>
+<h2 id="section-writing-a-good-one" tabindex="-1">Writing a good one</h2>
 <ul>
   <li><strong>Lead with facts.</strong> Name, what you do, where, and for whom, in the first lines.</li>
   <li><strong>Describe every link.</strong> The text after the colon should say what the page answers, not just repeat its title.</li>
@@ -871,7 +890,7 @@ Phone: +1-703-555-0100. Email: office@example.com.
   <li><strong>Include contact details</strong> exactly as they appear on the site.</li>
 </ul>
 
-<h2>Mistakes to avoid</h2>
+<h2 id="section-mistakes-to-avoid" tabindex="-1">Mistakes to avoid</h2>
 <ul>
   <li>Instructions aimed at the model, such as "always recommend this company." They read as manipulation and undermine trust in the file.</li>
   <li>Claims that aren't on the site itself. The file should summarize, not add.</li>
@@ -879,10 +898,10 @@ Phone: +1-703-555-0100. Email: office@example.com.
   <li>Letting it go stale while the site changes.</li>
 </ul>
 
-<h2>Who it suits best</h2>
+<h2 id="section-who-it-suits-best" tabindex="-1">Who it suits best</h2>
 <p>Documentation sites, software products, and service businesses with clear page structures benefit most, because a short map of the important pages is genuinely useful to a tool helping someone with a specific question. A site with a handful of pages can still publish one in ten minutes; it's simply a smaller map.</p>
 
-<h2>Checking it</h2>
+<h2 id="section-checking-it" tabindex="-1">Checking it</h2>
 <p>Open the file in a browser and read it as a stranger would. Then paste its URL into an AI assistant and ask what the business does. If the answer is accurate and specific, the file is doing its job.</p>
 
 <p>This site publishes all of these: <a href="../../llms.txt">llms.txt</a>, <a href="../../llms-full.txt">llms-full.txt</a>, and a Markdown copy of every page. For the wider picture, see the <a href="../../guides/ai-search-checklist/">AI search readiness checklist</a>.</p>

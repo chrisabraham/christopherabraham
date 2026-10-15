@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -832,7 +837,20 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-09">October 9, 2026</time></p>
 <p class="lead">Search the phrase "best SEO news sites" and the first things you see are ads for AI visibility audits, then an AI summary, then lists of lists. Most of it is marketing for whoever wrote it. Staying current takes a short reading list, an order to read it in, and the habit of checking the claim before repeating it. Here is mine, built over decades of doing this work and refreshed for the AI search era.</p>
 
-<h2>Start with the people who make the rules</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-start-with-the-people-who-make-the-rules">Start with the people who make the rules</a></li>
+    <li><a href="#section-then-the-daily-trade-press">Then the daily trade press</a></li>
+    <li><a href="#section-a-weekly-digest">A weekly digest</a></li>
+    <li><a href="#section-research-with-a-grain-of-salt">Research, with a grain of salt</a></li>
+    <li><a href="#section-three-habits-that-keep-you-from-repeating-mistakes">Three habits that keep you from repeating mistakes</a></li>
+    <li><a href="#section-what-to-skip">What to skip</a></li>
+    <li><a href="#section-how-i-use-all-this">How I use all this</a></li>
+  </ol>
+</details>
+
+<h2 id="section-start-with-the-people-who-make-the-rules" tabindex="-1">Start with the people who make the rules</h2>
 <ul>
   <li><strong>Google Search Central Blog.</strong> Official announcements: core updates, policy changes, new Search Console reports. Recent posts covered the site reputation policy update on August 28 and new multimodal performance reporting on September 24.</li>
   <li><strong>Google Search Status Dashboard.</strong> The authoritative record of every ranking update, with start dates and durations. When an article and the dashboard disagree, the dashboard wins.</li>
@@ -841,7 +859,7 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>The AI companies' own policies.</strong> OpenAI's crawler documentation, and usage policies like the one Anthropic updated on October 8, change what is allowed faster than any trade article can summarize.</li>
 </ul>
 
-<h2>Then the daily trade press</h2>
+<h2 id="section-then-the-daily-trade-press" tabindex="-1">Then the daily trade press</h2>
 <ul>
   <li><strong>Search Engine Roundtable.</strong> Barry Schwartz's site is the fastest on tests, volatility, and small interface changes, often within hours.</li>
   <li><strong>Search Engine Land.</strong> Broad daily coverage and analysis from many contributors. Its footer notes that it is a trademark of Semrush, the SEO software company, which is worth knowing when a story touches SEO tools.</li>
@@ -849,13 +867,13 @@ dd { margin: .2rem 0 0 0; }
 </ul>
 <p>Read at least two for anything big. They often break the same story with different details.</p>
 
-<h2>A weekly digest</h2>
+<h2 id="section-a-weekly-digest" tabindex="-1">A weekly digest</h2>
 <p>Aleyda Solis' SEOFOMO newsletter arrives every Sunday with the week's news, guides, tools, and events. If you read only one thing a week, make it this.</p>
 
-<h2>Research, with a grain of salt</h2>
+<h2 id="section-research-with-a-grain-of-salt" tabindex="-1">Research, with a grain of salt</h2>
 <p>The big tool makers, Ahrefs and Semrush among them, publish large studies on AI Overviews, citations, and click rates. They are valuable and they are also marketing for the tools that produced the data. Independent practitioners who publish their own tracking, such as Lily Ray and Marie Haynes, are worth following for the same reason: you can see their method and their sample.</p>
 
-<h2>Three habits that keep you from repeating mistakes</h2>
+<h2 id="section-three-habits-that-keep-you-from-repeating-mistakes" tabindex="-1">Three habits that keep you from repeating mistakes</h2>
 <h3>1. Check dates against the primary record</h3>
 <p>This month a widely read write-up gave the start of Google's September spam update as "Thursday, September 28." The dashboard says September 24, which was the Thursday. Small slip, easy check, and the kind of error that spreads when everyone copies everyone.</p>
 <h3>2. Compare studies before quoting one</h3>
@@ -863,14 +881,14 @@ dd { margin: .2rem 0 0 0; }
 <h3>3. Read the footnote on every bold claim</h3>
 <p>One agency's ad this month promises a 100 percent success rate at increasing AI visibility. The footnote defines success as an increase in any one of several visibility metrics from the start of a campaign to its latest measurement. Another vendor reports a "100% client success rate" for making reviews crawlable. Neither claim is false. Both describe something much smaller than the headline suggests.</p>
 
-<h2>What to skip</h2>
+<h2 id="section-what-to-skip" tabindex="-1">What to skip</h2>
 <ul>
   <li>"Best agency" lists written by an agency that ranks itself first.</li>
   <li>Statistics with no named study, sample, or date, especially round ones repeated by AI summaries.</li>
   <li>Anyone claiming a secret formula for AI Overviews. Google's own documentation says there are no special requirements beyond ordinary search eligibility.</li>
 </ul>
 
-<h2>How I use all this</h2>
+<h2 id="section-how-i-use-all-this" tabindex="-1">How I use all this</h2>
 <p>Every guide on this site starts with these sources and ends with a list of them, so you can check my work the same way. For what the news has added up to this year, see <a href="../../guides/update-recovery-2026/">my recovery checklist for 2026 Google updates</a> and <a href="../../guides/ai-search-checklist/">my AI search checklist</a>, or <a href="../../contact/">ask me what a headline means for your site</a>.</p>
 <aside class="help-box" aria-label="Get help">
   <h2>Let me help you with this</h2>

@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -865,36 +870,51 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-13">October 13, 2026</time></p>
 <p class="lead">Describe a business to Lovable, Bolt, v0, or a coding assistant, and an afternoon later there's a good looking website. Plenty of founders now launch exactly this way, and I'm all for it. The catch is that a site can look perfect in your browser while search engines and AI crawlers receive something close to an empty page. These are the checks I run on every AI built site, in the order I run them.</p>
 
-<h2>Know how your site renders</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-know-how-your-site-renders">Know how your site renders</a></li>
+    <li><a href="#section-the-two-minute-test">The two minute test</a></li>
+    <li><a href="#section-check-that-every-page-has-its-own-address">Check that every page has its own address</a></li>
+    <li><a href="#section-check-the-links-are-real-links">Check the links are real links</a></li>
+    <li><a href="#section-check-titles-and-descriptions-per-page">Check titles and descriptions per page</a></li>
+    <li><a href="#section-check-what-a-missing-page-returns">Check what a missing page returns</a></li>
+    <li><a href="#section-give-crawlers-a-map-and-an-open-door">Give crawlers a map and an open door</a></li>
+    <li><a href="#section-own-the-code">Own the code</a></li>
+    <li><a href="#section-where-i-fit">Where I fit</a></li>
+  </ol>
+</details>
+
+<h2 id="section-know-how-your-site-renders" tabindex="-1">Know how your site renders</h2>
 <p>Everything else depends on one question: does the server send finished HTML, or does it send a script that builds the page in the visitor's browser? The second approach, client side rendering, is how many React single page apps work. Google can render JavaScript, but its own documentation describes rendering as a separate step after crawling, and recommends server side rendering or prerendering because it's faster for everyone and because not every bot runs JavaScript. Many AI crawlers fetch the raw HTML and stop there.</p>
 <p>Defaults change quickly, so check rather than assume. Lovable is a good example. Its documentation says apps created from May 13, 2026 (June 22, 2026 for Enterprise workspaces) use TanStack Start, which renders pages on the server. Older Lovable apps are React and Vite apps that render in the browser; for those, Lovable serves prerendered copies of published pages to verified search engines, social preview bots, and AI crawlers, and it offers an upgrade path to the newer stack. If your site was built before the change, find out which one you have.</p>
 
-<h2>The two minute test</h2>
+<h2 id="section-the-two-minute-test" tabindex="-1">The two minute test</h2>
 <p>Open a page, then open its source with View Source (not the inspector, which shows the page after scripts run). Search the source for a sentence from the middle of the page. If it's there, crawlers that don't run JavaScript can read it. If the source is mostly a single empty <code>div</code> and a script tag, your content exists only after rendering. For a fuller picture, run the URL through Search Console's URL Inspection tool and look at the rendered HTML Google captured. My <a href="../../guides/lynx-test/">text browser test</a> is another quick way to see a page the way the simplest bots do.</p>
 
-<h2>Check that every page has its own address</h2>
+<h2 id="section-check-that-every-page-has-its-own-address" tabindex="-1">Check that every page has its own address</h2>
 <p>Search engines index URLs. If the "Services" and "About" sections are views inside one page, or live behind a <code>#</code> in the address, they may never be indexed as pages at all. Each page you want found needs its own clean path, such as <code>/services/</code>, that loads that page directly when someone pastes it into a new tab.</p>
 
-<h2>Check the links are real links</h2>
+<h2 id="section-check-the-links-are-real-links" tabindex="-1">Check the links are real links</h2>
 <p>Generated code often moves between pages with a button and a click handler. It works for people and is invisible to crawlers. Google says plainly that it can follow links only when they're <code>&lt;a&gt;</code> elements with an <code>href</code>. Crawl the site with a crawler such as Screaming Frog; if it finds only the home page, your navigation is the reason. Ask the builder to change navigation to its router's link component, which produces real anchors.</p>
 
-<h2>Check titles and descriptions per page</h2>
+<h2 id="section-check-titles-and-descriptions-per-page" tabindex="-1">Check titles and descriptions per page</h2>
 <p>A common result of a fast build is one title, written for the home page, on every URL. Look at the browser tab on five different pages. Each needs its own title and meta description, present in the HTML the server sends. The same goes for the canonical tag: one that points every page at the home page tells Google to ignore the rest.</p>
 
-<h2>Check what a missing page returns</h2>
+<h2 id="section-check-what-a-missing-page-returns" tabindex="-1">Check what a missing page returns</h2>
 <p>Type a nonsense address on your site. Single page apps often show a friendly "not found" message while telling crawlers everything is fine, with a 200 status code. Google calls these soft 404s, and a site with many of them wastes crawling on pages that don't exist. A missing page should return a real 404, and a moved page a 301 redirect.</p>
 
-<h2>Give crawlers a map and an open door</h2>
+<h2 id="section-give-crawlers-a-map-and-an-open-door" tabindex="-1">Give crawlers a map and an open door</h2>
 <ul>
   <li><strong>A sitemap.</strong> An XML sitemap listing every real page, submitted in Google Search Console and Bing Webmaster Tools.</li>
   <li><strong>A robots.txt that allows the bots you want.</strong> Check it by hand; generated files sometimes block everything, a leftover from a staging setup.</li>
   <li><strong>Structured data.</strong> Organization or LocalBusiness markup in the server HTML, matching what the page says. My <a href="../../guides/small-business-schema/">small business schema guide</a> has examples.</li>
 </ul>
 
-<h2>Own the code</h2>
+<h2 id="section-own-the-code" tabindex="-1">Own the code</h2>
 <p>Most AI builders can sync a project to GitHub. Do it on day one, in an account your business controls. A repository means any developer, or any SEO who works in code, can fix problems at the template level instead of patching pages through a chat window. I explain why that matters in <a href="../../guides/seo-in-your-repository/">SEO in your Git repository</a>.</p>
 
-<h2>Where I fit</h2>
+<h2 id="section-where-i-fit" tabindex="-1">Where I fit</h2>
 <p>Rendering problems are my specialty; I once found 2,000 event pages Google had never discovered in a React app, and the <a href="../../case-studies/event-app-links/">case study</a> shows how. If you built your site with an AI tool and it isn't showing up in search, <a href="../../contact/">send me the URL</a>. I'll tell you what the crawlers see, and if there's a problem, I'll write the fix in a form you can paste straight back into the builder. More on that work is on my <a href="../../services/javascript-seo/">JavaScript SEO</a> page.</p>
 <aside class="help-box" aria-label="Get help">
   <h2>Let me help you with this</h2>

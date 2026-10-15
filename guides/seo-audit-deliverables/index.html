@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -809,24 +814,41 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-06">October 6, 2026</time></p>
 <p class="lead">You can buy an SEO audit for fifty dollars or fifteen thousand. The cheap ones and some of the expensive ones are the same thing: a crawler's warnings pasted into a document. This guide describes what a useful audit contains, so you can judge one before you pay for it and after you receive it.</p>
 
-<h2>It starts with a question</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-it-starts-with-a-question">It starts with a question</a></li>
+    <li><a href="#section-findings-come-with-evidence">Findings come with evidence</a></li>
+    <li><a href="#section-findings-explain-the-mechanism">Findings explain the mechanism</a></li>
+    <li><a href="#section-separate-problems-stay-separate">Separate problems stay separate</a></li>
+    <li><a href="#section-confidence-is-stated">Confidence is stated</a></li>
+    <li><a href="#section-the-plan-is-ranked">The plan is ranked</a></li>
+    <li><a href="#section-developers-get-tickets-they-can-build-from">Developers get tickets they can build from</a></li>
+    <li><a href="#section-leadership-gets-a-summary">Leadership gets a summary</a></li>
+    <li><a href="#section-what-a-useful-audit-leaves-out">What a useful audit leaves out</a></li>
+    <li><a href="#section-after-delivery">After delivery</a></li>
+    <li><a href="#section-questions-to-ask-before-you-hire">Questions to ask before you hire</a></li>
+  </ol>
+</details>
+
+<h2 id="section-it-starts-with-a-question" tabindex="-1">It starts with a question</h2>
 <p>A useful audit answers something specific. "Why did organic revenue from product pages fall 30% since May?" "What is at risk in a move to Shopify?" "Why are half the location pages not indexed?" The question decides what gets examined and how deeply. An audit with no question examines everything at the same shallow depth and concludes nothing.</p>
 <p><strong>How to judge it:</strong> the first page should restate your question. If it opens with a score out of 100, be wary.</p>
 
-<h2>Findings come with evidence</h2>
+<h2 id="section-findings-come-with-evidence" tabindex="-1">Findings come with evidence</h2>
 <p>Every finding should show how the auditor knows it: a screenshot of the rendered HTML missing the product description, a Search Console export showing which pages dropped, a crawl comparison, server response headers, a log excerpt. Evidence lets your developers verify the finding themselves, and it protects you from fixing things that were never broken.</p>
 <p><strong>How to judge it:</strong> pick any finding and ask, "How is this known?" The answer should already be on the page.</p>
 
-<h2>Findings explain the mechanism</h2>
+<h2 id="section-findings-explain-the-mechanism" tabindex="-1">Findings explain the mechanism</h2>
 <p>"Product pages have low word count" is a symptom. "Product specifications and reviews are mounted by a script that runs only when a visitor scrolls, so crawlers receive 300 words of a 3,000-word page" is a mechanism. Mechanisms tell you what to fix. Symptoms tell you to go find someone who can explain them.</p>
 
-<h2>Separate problems stay separate</h2>
+<h2 id="section-separate-problems-stay-separate" tabindex="-1">Separate problems stay separate</h2>
 <p>Traffic losses often coincide with several things at once: an algorithm update, a plugin change, a backlink spike, a redesign. A good audit treats each as its own line of inquiry and says which ones the evidence actually connects to the loss. Folding everything into one story feels satisfying and leads to fixing the wrong thing.</p>
 
-<h2>Confidence is stated</h2>
+<h2 id="section-confidence-is-stated" tabindex="-1">Confidence is stated</h2>
 <p>Not every finding is certain. Good auditors say which conclusions are confirmed, which are likely, and which need more data, and they say what data would settle it. An audit that's equally sure of everything has probably not tested much.</p>
 
-<h2>The plan is ranked</h2>
+<h2 id="section-the-plan-is-ranked" tabindex="-1">The plan is ranked</h2>
 <p>You should finish the audit knowing what to do first. That means a prioritized list, often P0 through P3, where each item has:</p>
 <ul>
   <li>the problem, in one sentence;</li>
@@ -837,13 +859,13 @@ dd { margin: .2rem 0 0 0; }
 </ul>
 <p><strong>How to judge it:</strong> could your team start work Monday morning without another meeting?</p>
 
-<h2>Developers get tickets they can build from</h2>
+<h2 id="section-developers-get-tickets-they-can-build-from" tabindex="-1">Developers get tickets they can build from</h2>
 <p>For anything that requires code, a strong audit includes developer-ready tickets: what to change, where, exact steps where possible, and acceptance criteria that say how everyone will know it's done. "Event links must be present as anchor elements in the server HTML of /events/" is testable. "Improve crawlability" isn't.</p>
 
-<h2>Leadership gets a summary</h2>
+<h2 id="section-leadership-gets-a-summary" tabindex="-1">Leadership gets a summary</h2>
 <p>A one-page plain-English summary: what's wrong, what it's costing, what it will take, and what to expect afterward. The people who approve the budget shouldn't need to read crawl data to make a decision.</p>
 
-<h2>What a useful audit leaves out</h2>
+<h2 id="section-what-a-useful-audit-leaves-out" tabindex="-1">What a useful audit leaves out</h2>
 <ul>
   <li>Hundreds of low-priority warnings with no ranking. Missing alt text on a footer logo isn't why traffic fell.</li>
   <li>Generic best-practice sections copied between clients.</li>
@@ -851,10 +873,10 @@ dd { margin: .2rem 0 0 0; }
   <li>Proprietary scores that can't be traced back to evidence.</li>
 </ul>
 
-<h2>After delivery</h2>
+<h2 id="section-after-delivery" tabindex="-1">After delivery</h2>
 <p>The audit's value shows up when fixes ship. Ask whether the auditor will verify the fixes against the acceptance criteria, check the live site after deployment, and watch the relevant reports. An audit followed by verification turns findings into results.</p>
 
-<h2>Questions to ask before you hire</h2>
+<h2 id="section-questions-to-ask-before-you-hire" tabindex="-1">Questions to ask before you hire</h2>
 <ol>
   <li>What question will this audit answer?</li>
   <li>Can I see an anonymized sample?</li>

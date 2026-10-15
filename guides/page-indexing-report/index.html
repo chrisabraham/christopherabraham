@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -813,13 +818,27 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-06">October 6, 2026</time></p>
 <p class="lead">The Page indexing report is the closest thing Google gives you to a list of its decisions about your site. It's also easy to misread. This guide explains what each reason means, which ones deserve worry, and how to get from a scary number to the one template causing it.</p>
 
-<h2>Where to find it</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-where-to-find-it">Where to find it</a></li>
+    <li><a href="#section-rule-one-not-indexed-isn-t-always-bad">Rule one: not indexed isn&#x27;t always bad</a></li>
+    <li><a href="#section-the-reasons-sorted-by-how-much-attention-they-deserve">The reasons, sorted by how much attention they deserve</a></li>
+    <li><a href="#section-from-a-count-to-a-cause">From a count to a cause</a></li>
+    <li><a href="#section-make-the-report-work-for-you">Make the report work for you</a></li>
+    <li><a href="#section-mind-the-lag">Mind the lag</a></li>
+    <li><a href="#section-check-bing-too">Check Bing too</a></li>
+    <li><a href="#section-when-to-get-help">When to get help</a></li>
+  </ol>
+</details>
+
+<h2 id="section-where-to-find-it" tabindex="-1">Where to find it</h2>
 <p>In Google Search Console, open <strong>Indexing</strong>, then <strong>Pages</strong>. The chart shows indexed and not-indexed URLs over time. Below it, the table "Why pages aren't indexed" lists each reason with a count. Click any reason to see example URLs and a trend for that reason alone.</p>
 
-<h2>Rule one: not indexed isn't always bad</h2>
+<h2 id="section-rule-one-not-indexed-isn-t-always-bad" tabindex="-1">Rule one: not indexed isn't always bad</h2>
 <p>A healthy site always has excluded URLs. Redirects, deliberate noindex tags, parameter variants pointing to a canonical, and old 404s all belong outside the index. The question is never "why is this number above zero?" It's "are any pages I need in the index sitting in this list?"</p>
 
-<h2>The reasons, sorted by how much attention they deserve</h2>
+<h2 id="section-the-reasons-sorted-by-how-much-attention-they-deserve" tabindex="-1">The reasons, sorted by how much attention they deserve</h2>
 <h3>Usually fine</h3>
 <ul>
   <li><strong>Page with redirect.</strong> The URL redirects elsewhere. Expected after any migration. Check only that the targets are indexed.</li>
@@ -841,7 +860,7 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>Discovered, currently not indexed.</strong> Google knows the URL exists but hasn't fetched it. Common on large sites with weak internal linking, slow servers, or floods of low-value URLs competing for crawl attention.</li>
 </ul>
 
-<h2>From a count to a cause</h2>
+<h2 id="section-from-a-count-to-a-cause" tabindex="-1">From a count to a cause</h2>
 <ol>
   <li><strong>Export the examples.</strong> Each reason lists up to 1,000 example URLs. Export them.</li>
   <li><strong>Group by pattern.</strong> Sort by URL path. You'll usually see the problem cluster in one directory or page type, such as /product/, /tag/, or /events/.</li>
@@ -851,16 +870,16 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>Compare with a healthy page.</strong> Find a page of the same type that is indexed. Whatever differs between the two is your lead.</li>
 </ol>
 
-<h2>Make the report work for you</h2>
+<h2 id="section-make-the-report-work-for-you" tabindex="-1">Make the report work for you</h2>
 <p>Submit separate XML sitemaps for each page type: products, categories, articles, locations. Then filter the Page indexing report by sitemap. Instead of one blended number, you see that 96% of articles are indexed and 41% of products are not, which tells you exactly where to look.</p>
 
-<h2>Mind the lag</h2>
+<h2 id="section-mind-the-lag" tabindex="-1">Mind the lag</h2>
 <p>The report updates days behind reality, and counts can move in steps rather than smoothly. After a fix, check individual URLs with the live test rather than waiting for the chart. When you've fixed a cluster, use <strong>Validate fix</strong> on that reason, and Google will recheck the examples and report progress.</p>
 
-<h2>Check Bing too</h2>
+<h2 id="section-check-bing-too" tabindex="-1">Check Bing too</h2>
 <p>Bing Webmaster Tools has its own URL Inspection and index coverage reports. When Bing indexes pages Google won't, the difference often points straight at the cause, because the two crawlers render JavaScript and apply consent and robots rules differently.</p>
 
-<h2>When to get help</h2>
+<h2 id="section-when-to-get-help" tabindex="-1">When to get help</h2>
 <p>If the cause isn't obvious after a few inspections, or if important pages keep falling out, a structured diagnosis saves time. See <a href="../../services/indexing/">indexing repair</a>, or a real example where <a href="../../case-studies/consent-banner/">a consent tool caused the exclusions</a>.</p>
 <aside class="help-box" aria-label="Get help">
   <h2>Let me help you with this</h2>

@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -812,7 +817,20 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-06">October 6, 2026</time></p>
 <p class="lead">Core Web Vitals are Google's three measurements of how a page feels to a real person: how fast it shows up, how quickly it responds, and whether it holds still. They're a modest ranking factor and a large conversion factor. Here's what each one means and what usually fixes it.</p>
 
-<h2>The three measurements</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-the-three-measurements">The three measurements</a></li>
+    <li><a href="#section-field-data-versus-lab-data">Field data versus lab data</a></li>
+    <li><a href="#section-common-causes-and-fixes">Common causes and fixes</a></li>
+    <li><a href="#section-where-to-look">Where to look</a></li>
+    <li><a href="#section-how-long-until-it-improves">How long until it improves</a></li>
+    <li><a href="#section-a-quick-self-check">A quick self-check</a></li>
+    <li><a href="#section-keep-it-in-proportion">Keep it in proportion</a></li>
+  </ol>
+</details>
+
+<h2 id="section-the-three-measurements" tabindex="-1">The three measurements</h2>
 <h3>Largest Contentful Paint (LCP): does it show up fast?</h3>
 <p>The time until the biggest thing in the first screen, usually a hero image or headline, finishes appearing. <strong>Good: 2.5 seconds or less.</strong> Poor: over 4 seconds.</p>
 <h3>Interaction to Next Paint (INP): does it respond fast?</h3>
@@ -820,12 +838,12 @@ dd { margin: .2rem 0 0 0; }
 <h3>Cumulative Layout Shift (CLS): does it hold still?</h3>
 <p>How much content jumps around while the page loads, the effect that makes you tap the wrong button. <strong>Good: 0.1 or less.</strong> Poor: over 0.25.</p>
 
-<h2>Field data versus lab data</h2>
+<h2 id="section-field-data-versus-lab-data" tabindex="-1">Field data versus lab data</h2>
 <p>This confuses almost everyone. <strong>Field data</strong> comes from real Chrome users visiting your site over the past 28 days, collected in the Chrome UX Report. It's what Google uses for ranking and what Search Console's Core Web Vitals report shows. A page passes when 75% of visits meet the "good" threshold.</p>
 <p><strong>Lab data</strong> is a single simulated test, like the score at the top of PageSpeed Insights or Lighthouse in your browser. It's useful for diagnosing causes, but it isn't the number Google judges you on. A site can score 95 in the lab and fail in the field because real visitors use slower phones and networks, or the reverse.</p>
 <p>In PageSpeed Insights, the section titled "Discover what your real users are experiencing" is field data. Start there.</p>
 
-<h2>Common causes and fixes</h2>
+<h2 id="section-common-causes-and-fixes" tabindex="-1">Common causes and fixes</h2>
 <h3>Slow LCP</h3>
 <ul>
   <li><strong>Huge hero images.</strong> Serve correctly sized images in WebP or AVIF, with srcset for different screens.</li>
@@ -848,20 +866,20 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>Cookie banners</strong> inserted at the top of the page. Overlay them instead.</li>
 </ul>
 
-<h2>Where to look</h2>
+<h2 id="section-where-to-look" tabindex="-1">Where to look</h2>
 <ol>
   <li><strong>Search Console, Core Web Vitals report.</strong> Groups failing URLs by similar pages, which usually means by template. Fix the template, fix the group.</li>
   <li><strong>PageSpeed Insights.</strong> Field data for a URL or the whole origin, plus lab diagnostics pointing at specific resources.</li>
   <li><strong>Chrome DevTools, Performance panel.</strong> For developers tracing exactly what blocks rendering or interaction.</li>
 </ol>
 
-<h2>How long until it improves</h2>
+<h2 id="section-how-long-until-it-improves" tabindex="-1">How long until it improves</h2>
 <p>Field data is a rolling 28-day window, so a fix shipped today shows its full effect about four weeks later. Use lab tests to confirm the fix works immediately, then watch field data climb.</p>
 
-<h2>A quick self-check</h2>
+<h2 id="section-a-quick-self-check" tabindex="-1">A quick self-check</h2>
 <p>Open Search Console's Core Web Vitals report and note which group of URLs fails and on which metric. Run one example through PageSpeed Insights and read the field data first, then the diagnostics. If the failing metric is LCP, look at the hero image and server response time; if INP, count the third-party scripts; if CLS, look for images without dimensions and late banners.</p>
 
-<h2>Keep it in proportion</h2>
+<h2 id="section-keep-it-in-proportion" tabindex="-1">Keep it in proportion</h2>
 <p>Core Web Vitals won't lift weak content above strong content. But between comparable pages they can tip the balance, and they always affect whether visitors stay. Fix the templates that carry your revenue first.</p>
 
 <p>For hands-on help, see <a href="../../services/site-speed/">Core Web Vitals and Cloudflare</a>. Terms are defined in the <a href="../../guides/glossary/">glossary</a>.</p>

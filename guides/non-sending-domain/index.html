@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -817,10 +822,23 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-06">October 6, 2026</time></p>
 <p class="lead">Most people own a few domains that never send a single email: a personal brand site, a parked name, an old company domain, a campaign microsite. Spammers love those domains, because with no email records in place, receiving servers have no instructions for rejecting forged mail. Four DNS records close the gap in about ten minutes.</p>
 
-<h2>Why an unused domain is a risk</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-why-an-unused-domain-is-a-risk">Why an unused domain is a risk</a></li>
+    <li><a href="#section-the-four-records">The four records</a></li>
+    <li><a href="#section-what-about-subdomains">What about subdomains?</a></li>
+    <li><a href="#section-when-you-later-start-sending">When you later start sending</a></li>
+    <li><a href="#section-common-mistakes">Common mistakes</a></li>
+    <li><a href="#section-checking-your-work">Checking your work</a></li>
+    <li><a href="#section-where-to-send-people-instead">Where to send people instead</a></li>
+  </ol>
+</details>
+
+<h2 id="section-why-an-unused-domain-is-a-risk" tabindex="-1">Why an unused domain is a risk</h2>
 <p>Anyone can put any address in the "From" line of an email. Receiving servers decide whether to trust it by checking the sending domain's DNS: SPF lists who may send, DKIM proves a message was signed, and DMARC tells receivers what to do when those checks fail. A domain with none of these records gives receivers nothing to go on, so forged messages have a better chance of reaching inboxes, with your name on them.</p>
 
-<h2>The four records</h2>
+<h2 id="section-the-four-records" tabindex="-1">The four records</h2>
 <table>
 <thead><tr><th scope="col">Type</th><th scope="col">Name</th><th scope="col">Value</th><th scope="col">What it says</th></tr></thead>
 <tbody>
@@ -843,13 +861,13 @@ dd { margin: .2rem 0 0 0; }
 <h3>Empty DKIM wildcard</h3>
 <p>A DKIM record with an empty key, on the wildcard selector, tells receivers that no valid signing key exists for any selector. Signatures claiming to come from the domain can't verify.</p>
 
-<h2>What about subdomains?</h2>
+<h2 id="section-what-about-subdomains" tabindex="-1">What about subdomains?</h2>
 <p>The <code>sp=reject</code> tag in the DMARC record covers subdomains automatically, and the wildcard SPF record covers invented ones such as <code>billing.example.com</code>. If you later add a real subdomain that sends mail, it needs its own SPF and DKIM records, and you'll want to relax the subdomain policy deliberately rather than by accident.</p>
 
-<h2>When you later start sending</h2>
+<h2 id="section-when-you-later-start-sending" tabindex="-1">When you later start sending</h2>
 <p>Plans change. If the domain ever needs to send mail, remove the null MX, replace the SPF record with one listing your actual mail provider, publish that provider's DKIM key, and move DMARC to a monitoring policy while you confirm everything passes.</p>
 
-<h2>Common mistakes</h2>
+<h2 id="section-common-mistakes" tabindex="-1">Common mistakes</h2>
 <ul>
   <li><strong>Copying records into one.</strong> When pasting a zone file, two records can merge into one long TXT value. Check that the DMARC record contains only the DMARC policy.</li>
   <li><strong>Using these records on a domain that does send mail.</strong> If the domain sends even occasional mail, such as contact form notifications or invoices from an accounting tool, these records will block it. Inventory every service first.</li>
@@ -857,10 +875,10 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>A record conflicting with a CNAME.</strong> Don't put TXT records on a name that already has a CNAME, such as www pointing to a hosting service.</li>
 </ul>
 
-<h2>Checking your work</h2>
+<h2 id="section-checking-your-work" tabindex="-1">Checking your work</h2>
 <p>Look up each record with a DNS lookup tool or a DNS-over-HTTPS query, and run the domain through a free DMARC and SPF checker. The tools should report a valid SPF record with a hard fail, a DMARC policy of reject, and a null MX.</p>
 
-<h2>Where to send people instead</h2>
+<h2 id="section-where-to-send-people-instead" tabindex="-1">Where to send people instead</h2>
 <p>If your website lists an email address, it should be on a domain that really does handle mail. A personal site can happily publish an address hosted elsewhere, while its own domain stays locked down.</p>
 
 <p>For the full setup of parking a domain on Cloudflare and GitHub Pages, see <a href="../../guides/parked-domain-launch/">launching a site on a parked domain</a>. Domains that do send email need SPF, DKIM, and DMARC configured for every service that sends on their behalf, a different job entirely.</p>

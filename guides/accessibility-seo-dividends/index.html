@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -827,10 +832,23 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-06">October 6, 2026</time></p>
 <p class="lead">Accessibility work is usually sold on two grounds: it's the decent thing to do, and it keeps you out of court. Both are true. What nobody mentions is the third reason: nearly every accessibility fix is also a search fix, an AI-readability fix, and a trust signal. You get paid three times for doing it once, and the work is mostly small, unglamorous fixes.</p>
 
-<h2>Why the overlap is so large</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-why-the-overlap-is-so-large">Why the overlap is so large</a></li>
+    <li><a href="#section-practice-by-practice">Practice by practice</a></li>
+    <li><a href="#section-the-agent-era-makes-this-urgent">The agent era makes this urgent</a></li>
+    <li><a href="#section-how-it-feeds-e-e-a-t">How it feeds E-E-A-T</a></li>
+    <li><a href="#section-and-yes-the-legal-side">And yes, the legal side</a></li>
+    <li><a href="#section-where-to-start-for-the-biggest-double-payoff">Where to start for the biggest double payoff</a></li>
+    <li><a href="#section-measure-both-sides">Measure both sides</a></li>
+  </ol>
+</details>
+
+<h2 id="section-why-the-overlap-is-so-large" tabindex="-1">Why the overlap is so large</h2>
 <p>A screen reader, Googlebot, and a language model have the same handicap: none of them can look at your page. They all rely on the structure underneath it, the text, the headings, the labels, and the names given to links and buttons. When a site is built so a blind visitor can use it, it's automatically built so machines can understand it.</p>
 
-<h2>Practice by practice</h2>
+<h2 id="section-practice-by-practice" tabindex="-1">Practice by practice</h2>
 <table>
 <thead><tr><th scope="col">Accessibility practice</th><th scope="col">Search payoff</th><th scope="col">AI payoff</th></tr></thead>
 <tbody>
@@ -846,16 +864,16 @@ dd { margin: .2rem 0 0 0; }
 </tbody>
 </table>
 
-<h2>The agent era makes this urgent</h2>
+<h2 id="section-the-agent-era-makes-this-urgent" tabindex="-1">The agent era makes this urgent</h2>
 <p>AI agents that browse on someone's behalf, booking appointments, filling in quote forms, comparing prices, increasingly navigate pages through the same accessibility information screen readers use: the names, roles, and labels of each control. An unlabeled "submit" icon is as much a dead end for an agent as for a blind customer. Google's Lighthouse audit added an Agentic Browsing category for exactly this reason. An accessible site is a site agents can transact on.</p>
 
-<h2>How it feeds E-E-A-T</h2>
+<h2 id="section-how-it-feeds-e-e-a-t" tabindex="-1">How it feeds E-E-A-T</h2>
 <p>Trust is the center of Google's quality framework, and much of what quality raters judge is whether a site looks maintained, careful, and honest. A site where every image is described, every form works with a keyboard, and every link says where it goes reads as a business that pays attention. It's the same impression it leaves on customers, which is the point.</p>
 
-<h2>And yes, the legal side</h2>
+<h2 id="section-and-yes-the-legal-side" tabindex="-1">And yes, the legal side</h2>
 <p>The Justice Department considers business websites covered by the ADA, and nearly all claims cite WCAG level AA failures that free scanners detect. WebAIM's 2026 scan of the most-visited million home pages found that six error types, led by low contrast and missing alt text, made up 96% of what it caught. Fix those first and you've removed most of the easy targets. The basics and how to test them are in <a href="../../guides/accessible-websites/">website accessibility without overlays</a>.</p>
 
-<h2>Where to start for the biggest double payoff</h2>
+<h2 id="section-where-to-start-for-the-biggest-double-payoff" tabindex="-1">Where to start for the biggest double payoff</h2>
 <ol>
   <li><strong>Headings.</strong> Rewrite generic headings into descriptive ones; it helps screen reader navigation, rankings, and AI extraction at once.</li>
   <li><strong>Link text.</strong> Replace every "read more" with a phrase naming the destination.</li>
@@ -864,7 +882,7 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>Transcripts.</strong> Add them to your most-watched videos; it's the cheapest new indexable content you'll ever publish.</li>
 </ol>
 
-<h2>Measure both sides</h2>
+<h2 id="section-measure-both-sides" tabindex="-1">Measure both sides</h2>
 <p><strong>A site that reads cleanly in the Lynx text browser is already way more than halfway to accessible, and way more than halfway to readable by machines.</strong></p>
 <p>Run Lighthouse or PageSpeed Insights and watch the Accessibility, SEO, and Agentic Browsing scores together; they tend to rise as a group. Then look at the page in a text browser, as described in <a href="../../guides/lynx-test/">the Lynx test</a>, to see what screen readers and crawlers both receive. No badge, no overlay, no announcement needed. Just a better site.</p>
 <aside class="help-box" aria-label="Get help">

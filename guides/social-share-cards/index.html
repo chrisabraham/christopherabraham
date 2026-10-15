@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -822,7 +827,20 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-14">October 14, 2026</time></p>
 <p class="lead">When someone pastes your link into Facebook, LinkedIn, X, Slack, or a text message, the preview that appears is built from a few tags in your page's head. Those tags decide the headline, the summary, and the picture. When they're missing, the platform guesses, and it guesses badly. When they're present but the image is the wrong shape, the platform crops it, and the crop usually cuts off the part that mattered.</p>
 
-<h2>The tags that build the preview</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-the-tags-that-build-the-preview">The tags that build the preview</a></li>
+    <li><a href="#section-why-1-200-by-630">Why 1,200 by 630</a></li>
+    <li><a href="#section-the-square-artwork-trap">The square artwork trap</a></li>
+    <li><a href="#section-making-the-image-work-as-a-preview">Making the image work as a preview</a></li>
+    <li><a href="#section-checking-your-pages">Checking your pages</a></li>
+    <li><a href="#section-refreshing-previews-that-are-already-out-there">Refreshing previews that are already out there</a></li>
+    <li><a href="#section-where-this-fits">Where this fits</a></li>
+  </ol>
+</details>
+
+<h2 id="section-the-tags-that-build-the-preview" tabindex="-1">The tags that build the preview</h2>
 <p>The Open Graph protocol, which Facebook introduced and almost every platform now reads, asks for four properties on every page:</p>
 <ul>
   <li><code>og:title</code>: the headline as it should appear in the preview.</li>
@@ -833,16 +851,16 @@ dd { margin: .2rem 0 0 0; }
 <p>Add <code>og:description</code> and <code>og:site_name</code> as well. Then describe the image with three structured properties: <code>og:image:width</code> and <code>og:image:height</code> in pixels, and <code>og:image:alt</code>, which the protocol defines as a description of what is in the image, not a caption.</p>
 <p>X reads its own set of tags. The one that matters most is <code>twitter:card</code>: <code>summary</code> shows a small square thumbnail beside the text, and <code>summary_large_image</code> shows a wide image above it. I add <code>twitter:title</code>, <code>twitter:description</code>, <code>twitter:image</code>, and <code>twitter:image:alt</code> too, so nothing depends on how a platform falls back.</p>
 
-<h2>Why 1,200 by 630</h2>
+<h2 id="section-why-1-200-by-630" tabindex="-1">Why 1,200 by 630</h2>
 <p>Meta's documentation asks for images at least 1,200 by 630 pixels for the best display on high-resolution screens, and says to keep them as close to a 1.91 to 1 ratio as you can so the whole image shows in the feed without cropping. Images smaller than 600 by 315 get shown small. Files must stay under 8 MB. LinkedIn and X lay out their large previews as wide rectangles too, so one image at 1,200 by 630 serves all of them.</p>
 <p>Declaring the width and height matters more than it looks. Meta says those two tags let its crawler render the image immediately. Without them, the first person to share a new page can get a preview with no picture while the platform downloads and measures the file.</p>
 
-<h2>The square artwork trap</h2>
+<h2 id="section-the-square-artwork-trap" tabindex="-1">The square artwork trap</h2>
 <p>Square images are everywhere: podcast covers, product photos, logos, album art. Put a square image in a large card, and every platform crops it to a wide strip from the middle. The top and bottom are gone, and on cover art that's usually where the title is.</p>
 <p>I found exactly this on a podcast site I built. Every page had complete Open Graph and X tags, and every image existed at the declared size, so a tag audit passed. But 458 episode pages pointed at square cover art inside large cards, so every shared episode lost the top and bottom of its cover. More than two hundred episodes shared the same default cover, so their previews were also identical. The fix was a generated card for each episode, 1,200 by 630, with the cover art on one side and the episode title in large type on the other. The build makes the card once, reuses it on every later build, and makes a new one when an episode is renamed.</p>
 <p>If you can't generate cards, switch square images to the <code>summary</code> card on X, which shows a square thumbnail uncropped, and accept a smaller preview elsewhere.</p>
 
-<h2>Making the image work as a preview</h2>
+<h2 id="section-making-the-image-work-as-a-preview" tabindex="-1">Making the image work as a preview</h2>
 <ul>
   <li><strong>Put the page's own title in the image</strong> when pages share artwork, so each preview is distinct.</li>
   <li><strong>Keep important content near the center.</strong> Some apps trim the edges or round the corners.</li>
@@ -851,13 +869,13 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>Write alt text</strong> that describes the image, since some apps read it aloud.</li>
 </ul>
 
-<h2>Checking your pages</h2>
+<h2 id="section-checking-your-pages" tabindex="-1">Checking your pages</h2>
 <p>View the source of a page and confirm every tag is present, every image address is absolute and loads, and every declared size matches the real file. On a large site, crawl it with Screaming Frog and extract the <code>og:image</code> value from each page, then check the images in bulk; the method is in my guide to <a href="../../guides/custom-extraction/">custom extraction</a>. Group the results by image. A single image behind hundreds of pages is a sign your previews all look the same.</p>
 
-<h2>Refreshing previews that are already out there</h2>
+<h2 id="section-refreshing-previews-that-are-already-out-there" tabindex="-1">Refreshing previews that are already out there</h2>
 <p>Platforms cache what they fetch. Meta notes that changing the image for a URL doesn't update the preview on old shares. After fixing a page, paste its address into Meta's Sharing Debugger and ask it to scrape again, and do the same in LinkedIn's Post Inspector. Other platforms refresh on their own schedule.</p>
 
-<h2>Where this fits</h2>
+<h2 id="section-where-this-fits" tabindex="-1">Where this fits</h2>
 <p>Share cards don't move rankings directly. They decide whether a shared link gets clicked, and clicks bring the visits, links, and mentions that do matter. I check them in every audit and build them into every site I make; see <a href="../../services/static-sites/">static websites built for search</a> and <a href="../../services/podcast-website/">podcast website SEO</a>.</p>
 <aside class="help-box" aria-label="Get help">
   <h2>Let me help you with this</h2>

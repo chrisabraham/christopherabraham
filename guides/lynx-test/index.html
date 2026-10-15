@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -822,22 +827,34 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-06">October 6, 2026</time></p>
 <p class="lead">Lynx is a web browser with no pictures, no styling, and no JavaScript: just text, headings, and links, in the order they appear in your HTML. That makes it the fastest honest preview of what many AI crawlers, and Googlebot before rendering, actually receive from your site. If your page reads well in Lynx, machines can read it too.</p>
 
-<h2>Why a text browser from the nineties still matters</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-why-a-text-browser-from-the-nineties-still-matters">Why a text browser from the nineties still matters</a></li>
+    <li><a href="#section-installing-lynx">Installing Lynx</a></li>
+    <li><a href="#section-the-three-commands-you-need">The three commands you need</a></li>
+    <li><a href="#section-what-to-look-for">What to look for</a></li>
+    <li><a href="#section-no-terminal-use-one-of-these-instead">No terminal? Use one of these instead</a></li>
+    <li><a href="#section-a-five-minute-routine">A five-minute routine</a></li>
+  </ol>
+</details>
+
+<h2 id="section-why-a-text-browser-from-the-nineties-still-matters" tabindex="-1">Why a text browser from the nineties still matters</h2>
 <p>Most of the crawlers that feed AI assistants fetch your HTML and move on without running scripts. Googlebot renders JavaScript, but in a second pass, with limits. Whatever exists only after scripts run is invisible or delayed for those systems. Lynx shows you the pre-script version in seconds. Every site I build gets looked at this way before launch, and it's how I first spot content that a framework hides from crawlers.</p>
 
-<h2>Installing Lynx</h2>
+<h2 id="section-installing-lynx" tabindex="-1">Installing Lynx</h2>
 <p>On Debian, Ubuntu, or a Linux server you reach over SSH:</p>
 <pre><code>sudo apt update &amp;&amp; sudo apt install lynx</code></pre>
 <p>On a Mac with Homebrew, run <code>brew install lynx</code>. On Windows, install the Windows Subsystem for Linux and use the apt command above inside it. Fedora and Red Hat systems use <code>sudo dnf install lynx</code>.</p>
 
-<h2>The three commands you need</h2>
+<h2 id="section-the-three-commands-you-need" tabindex="-1">The three commands you need</h2>
 <ul>
   <li><code>lynx https://example.com/</code> opens the page interactively. Arrow keys move between links, Enter follows one, the left arrow goes back, and <kbd>q</kbd> quits.</li>
   <li><code>lynx -dump https://example.com/</code> prints the whole page as text, with numbered references to every link listed at the bottom. Pipe it to <code>less</code> to read it, or save it to a file.</li>
   <li><code>lynx -dump -listonly https://example.com/</code> prints only the links: the paths a crawler can follow from that page.</li>
 </ul>
 
-<h2>What to look for</h2>
+<h2 id="section-what-to-look-for" tabindex="-1">What to look for</h2>
 <h3>Is your main content there?</h3>
 <p>Search the dump for a sentence from the middle of your page. If product descriptions, reviews, FAQs, or article text are missing, they're being added by JavaScript, and AI crawlers that don't render scripts will never see them. This single check has explained more mysterious indexing problems for my clients than any other.</p>
 <h3>Does the page start with what it's about?</h3>
@@ -851,7 +868,7 @@ dd { margin: .2rem 0 0 0; }
 <h3>Is anything there that shouldn't be?</h3>
 <p>Hidden text, leftover placeholder copy, and duplicated blocks from a page builder are all easy to miss in a styled browser and obvious in Lynx.</p>
 
-<h2>No terminal? Use one of these instead</h2>
+<h2 id="section-no-terminal-use-one-of-these-instead" tabindex="-1">No terminal? Use one of these instead</h2>
 <ul>
   <li><strong><a href="https://www.delorie.com/web/lynxview.html">Lynx Viewer</a></strong>, a long-running free service that shows a page roughly as Lynx would. Fine for a quick look at a public page.</li>
   <li><strong><a href="https://www.seo-browser.com/">SEO Browser</a></strong> compares what a browser receives with what a crawler receives, and what JavaScript changes in between.</li>
@@ -860,7 +877,7 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>Accessibility tools.</strong> The <a href="https://wave.webaim.org/">WAVE</a> checker can show a page without styles, and a free screen reader such as <a href="https://www.nvaccess.org/">NVDA</a> on Windows, or VoiceOver built into Macs and iPhones, reads your page in the same linear order Lynx shows.</li>
 </ul>
 
-<h2>A five-minute routine</h2>
+<h2 id="section-a-five-minute-routine" tabindex="-1">A five-minute routine</h2>
 <ol>
   <li>Dump your home page, a key service or product page, and one article.</li>
   <li>Check each one for its main content, a sensible first screen, meaningful headings, and descriptive links.</li>

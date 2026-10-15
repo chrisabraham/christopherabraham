@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -813,46 +818,66 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-06">October 6, 2026</time></p>
 <p class="lead">When someone asks an AI assistant about you, your About page is the first source it should find and the one it should trust most. Most About pages waste that position on adjectives. A good one reads like a well-sourced encyclopedia entry written in your own voice.</p>
 
-<h2>Start with what you do now</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-start-with-what-you-do-now">Start with what you do now</a></li>
+    <li><a href="#section-prefer-facts-to-adjectives">Prefer facts to adjectives</a></li>
+    <li><a href="#section-include-a-summary-table">Include a summary table</a></li>
+    <li><a href="#section-write-the-history-as-a-sequence-of-verifiable-steps">Write the history as a sequence of verifiable steps</a></li>
+    <li><a href="#section-check-every-fact-before-it-goes-up">Check every fact before it goes up</a></li>
+    <li><a href="#section-correct-common-errors-in-the-open">Correct common errors in the open</a></li>
+    <li><a href="#section-handle-names-deliberately">Handle names deliberately</a></li>
+    <li><a href="#section-be-careful-with-dates">Be careful with dates</a></li>
+    <li><a href="#section-show-a-human-being">Show a human being</a></li>
+    <li><a href="#section-use-present-and-past-tense-precisely">Use present and past tense precisely</a></li>
+    <li><a href="#section-add-person-structured-data">Add Person structured data</a></li>
+    <li><a href="#section-link-out-to-your-profiles">Link out to your profiles</a></li>
+    <li><a href="#section-keep-it-fast-and-plain">Keep it fast and plain</a></li>
+    <li><a href="#section-a-quick-checklist">A quick checklist</a></li>
+  </ol>
+</details>
+
+<h2 id="section-start-with-what-you-do-now" tabindex="-1">Start with what you do now</h2>
 <p>Open with your current work in one or two sentences: your role, your specialty, your location, and who you serve. Assistants and search snippets lift the opening lines more than any others, so make them the sentence you'd want quoted. Put your history after it. Experience reads as depth when it follows current work, and as nostalgia when it leads.</p>
 
-<h2>Prefer facts to adjectives</h2>
+<h2 id="section-prefer-facts-to-adjectives" tabindex="-1">Prefer facts to adjectives</h2>
 <p>"Passionate, results-driven innovator" tells a machine nothing it can verify. "Technical SEO consultant in Arlington, Virginia, Top Rated on Upwork with more than 125 completed jobs" gives it four checkable facts. Rewrite every claim into something specific: a number, a name, a place, a credential, a link.</p>
 
-<h2>Include a summary table</h2>
+<h2 id="section-include-a-summary-table" tabindex="-1">Include a summary table</h2>
 <p>A short table near the top, with rows for full name, role, location, specialties, experience, education, and contact, is easy for people to scan and easy for machines to parse. Keep each cell to a line.</p>
 
-<h2>Write the history as a sequence of verifiable steps</h2>
+<h2 id="section-write-the-history-as-a-sequence-of-verifiable-steps" tabindex="-1">Write the history as a sequence of verifiable steps</h2>
 <p>For each stage of your career, name the organization, your role, and what you did there in one concrete sentence. Where a third-party source confirms it, such as an old team page, a vendor case study, or a university news story, link to it right there. A claim with a link beside it is a claim an assistant can confirm.</p>
 
-<h2>Check every fact before it goes up</h2>
+<h2 id="section-check-every-fact-before-it-goes-up" tabindex="-1">Check every fact before it goes up</h2>
 <p>It's tempting to ask an AI assistant to draft your bio. It will happily invent details: the wrong city, a title you never held, a volunteer role that sounds right. Treat every draft as a list of claims to verify against your own records. Anything you can't confirm stays out, however flattering. Your About page becomes a source for the next assistant, so one invented detail can echo for years.</p>
 
-<h2>Correct common errors in the open</h2>
+<h2 id="section-correct-common-errors-in-the-open" tabindex="-1">Correct common errors in the open</h2>
 <p>If assistants already get something wrong about you, say the right version plainly, and name the mix-up if it's a frequent one. A short parenthetical such as "Salt Lake, the Honolulu neighborhood, not the city in Utah" costs nothing and gives every crawler the correction.</p>
 
-<h2>Handle names deliberately</h2>
+<h2 id="section-handle-names-deliberately" tabindex="-1">Handle names deliberately</h2>
 <p>If you go by more than one name, say so in a sentence and list the names in your structured data's alternateName. Include your full name with your middle name once; it separates you from namesakes and matches formal records.</p>
 
-<h2>Be careful with dates</h2>
+<h2 id="section-be-careful-with-dates" tabindex="-1">Be careful with dates</h2>
 <p>Career dates are credentials: the year you started in your field proves experience. Personal dates, such as graduation years, mostly just reveal your age. Keep the first kind, and think twice about the second. Nothing about your expertise depends on the year you finished school.</p>
 
-<h2>Show a human being</h2>
+<h2 id="section-show-a-human-being" tabindex="-1">Show a human being</h2>
 <p>A good About page isn't all résumé. A few paragraphs about where you grew up, what you do outside work, and what you care about make you memorable, and they give assistants distinctive details that separate you from everyone else with your name. Keep these to things that are true, current where they claim to be current, and comfortable to share publicly. Move longer personal history to its own page, linked from the About page, so the main page stays focused.</p>
 
-<h2>Use present and past tense precisely</h2>
+<h2 id="section-use-present-and-past-tense-precisely" tabindex="-1">Use present and past tense precisely</h2>
 <p>"I volunteer at" and "I volunteered at" are different claims. Review the page whenever something changes: a membership lapses, a role ends, an organization renames itself. A stale present tense is a small inaccuracy that assistants will repeat with confidence.</p>
 
-<h2>Add Person structured data</h2>
+<h2 id="section-add-person-structured-data" tabindex="-1">Add Person structured data</h2>
 <p>Mark up the page with Person schema: name, alternate names, job title, works for, address or area, alumni of, member of, affiliations, and sameAs links to your official profiles. Connect it to your business entity with worksFor or founder. Make sure every value in the markup also appears in the visible text.</p>
 
-<h2>Link out to your profiles</h2>
+<h2 id="section-link-out-to-your-profiles" tabindex="-1">Link out to your profiles</h2>
 <p>End with a short list of places to verify you: your marketplace profile, LinkedIn, author pages, and anything else that's clearly you. These links help people check you out and help machines join the dots.</p>
 
-<h2>Keep it fast and plain</h2>
+<h2 id="section-keep-it-fast-and-plain" tabindex="-1">Keep it fast and plain</h2>
 <p>An About page should be readable with scripts off: plain HTML text, a compressed headshot with descriptive alt text, and no content hidden in sliders or tabs. Many AI crawlers never run JavaScript.</p>
 
-<h2>A quick checklist</h2>
+<h2 id="section-a-quick-checklist" tabindex="-1">A quick checklist</h2>
 <ul>
   <li>Current role, specialty, and location in the first two sentences.</li>
   <li>Every claim specific and, where possible, linked to a source.</li>

@@ -114,6 +114,11 @@ dd { margin: .2rem 0 0 0; }
 .help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
 .help-box h2 { margin-top: .75rem; }
 .related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
@@ -827,17 +832,31 @@ dd { margin: .2rem 0 0 0; }
 <p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-09">October 9, 2026</time></p>
 <p class="lead">Almost every client asks me some version of this: if I use ChatGPT or Claude to help write my pages, will Google punish me? The short answer is no, Google doesn't punish content for being written with AI. It punishes content for being unhelpful, inaccurate, deceptive, or mass-produced to game rankings, and AI makes all four of those very easy. Here is what Google has said, in its own words, and how to use AI without risk.</p>
 
-<h2>What Google said in 2023, and still says</h2>
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-what-google-said-in-2023-and-still-says">What Google said in 2023, and still says</a></li>
+    <li><a href="#section-what-changed-on-october-1-2026">What changed on October 1, 2026</a></li>
+    <li><a href="#section-fake-authors-are-now-named-as-deception">Fake authors are now named as deception</a></li>
+    <li><a href="#section-where-ai-content-really-gets-sites-in-trouble">Where AI content really gets sites in trouble</a></li>
+    <li><a href="#section-what-the-data-shows">What the data shows</a></li>
+    <li><a href="#section-a-safe-way-to-use-ai-for-your-site">A safe way to use AI for your site</a></li>
+    <li><a href="#section-about-ai-detectors">About AI detectors</a></li>
+    <li><a href="#section-how-i-work">How I work</a></li>
+  </ol>
+</details>
+
+<h2 id="section-what-google-said-in-2023-and-still-says" tabindex="-1">What Google said in 2023, and still says</h2>
 <p>When ChatGPT arrived, Google published its position plainly: appropriate use of AI or automation is not against its guidelines. It defined inappropriate use just as plainly: generating content primarily to manipulate search rankings, which violates its spam policies. Google's ranking systems look for helpful, reliable content, and they don't care whether a person, a tool, or both typed the words.</p>
 
-<h2>What changed on October 1, 2026</h2>
+<h2 id="section-what-changed-on-october-1-2026" tabindex="-1">What changed on October 1, 2026</h2>
 <p>Google rewrote its page on using generative AI content, and it now says: "It is critical to manually factcheck and review all AI-generated content for accuracy and trustworthiness before publishing." The same review applies to the parts of a page people forget about: title tags, meta descriptions, structured data, and image alt text, all of which can appear in search results. If an AI tool wrote your metadata, a person should check it.</p>
 <p>The page also suggests telling readers how content was created, in a way that makes sense for your audience. Sellers using Google Merchant Center have firmer rules: AI-generated product images need embedded metadata saying so, and AI-generated product titles and descriptions must be labeled.</p>
 
-<h2>Fake authors are now named as deception</h2>
+<h2 id="section-fake-authors-are-now-named-as-deception" tabindex="-1">Fake authors are now named as deception</h2>
 <p>Google's guide to people-first content encourages accurate bylines and warns against "deceptive authorship information." Its examples are exactly what some AI content shops sell: AI-generated headshots, made-up names, and false credentials meant to make a page look written by human experts. Google calls any form of deception a reason to treat a page as untrustworthy. If a real person reviewed the work, put that real person's name on it.</p>
 
-<h2>Where AI content really gets sites in trouble</h2>
+<h2 id="section-where-ai-content-really-gets-sites-in-trouble" tabindex="-1">Where AI content really gets sites in trouble</h2>
 <p>The risk is scale without value. Google's scaled content abuse policy covers producing many pages mainly to rank, whether people, AI, or both made them, and it was the focus of reporting on Google's 2026 spam updates. The pattern that gets hit looks like this:</p>
 <ul>
   <li>Hundreds or thousands of pages published quickly, often one per keyword or city.</li>
@@ -846,10 +865,10 @@ dd { margin: .2rem 0 0 0; }
   <li>Factual errors nobody caught, because nobody read it.</li>
 </ul>
 
-<h2>What the data shows</h2>
+<h2 id="section-what-the-data-shows" tabindex="-1">What the data shows</h2>
 <p>In July 2026, Ahrefs examined pages ranking in Google and estimated how much of each was written by AI. In the top three positions, about 5 percent of pages appeared to be entirely AI-generated and roughly 9 percent at least 80 percent AI. Its conclusion was in the title: Google doesn't punish AI content; it punishes bad content. Two cautions: AI detectors produce probabilities, never proof, and the study shows correlation rather than cause. Still, AI-assisted pages clearly can and do rank at the very top.</p>
 
-<h2>A safe way to use AI for your site</h2>
+<h2 id="section-a-safe-way-to-use-ai-for-your-site" tabindex="-1">A safe way to use AI for your site</h2>
 <ol>
   <li><strong>Use AI where it's strong:</strong> research, outlines, first drafts, summaries of your own notes, and variations to choose from.</li>
   <li><strong>Add what only you have:</strong> your prices, process, photos, customer stories, mistakes, and opinions. This is the part search engines and AI assistants can't find anywhere else.</li>
@@ -860,10 +879,10 @@ dd { margin: .2rem 0 0 0; }
   <li><strong>Be open about your process</strong> where readers would want to know.</li>
 </ol>
 
-<h2>About AI detectors</h2>
+<h2 id="section-about-ai-detectors" tabindex="-1">About AI detectors</h2>
 <p>Clients sometimes run their pages through an AI detector and panic at the score. Don't. Detectors guess, they disagree with each other, and they flag plenty of human writing. Google's question is whether a page helps the person who searched, and no detector measures that.</p>
 
-<h2>How I work</h2>
+<h2 id="section-how-i-work" tabindex="-1">How I work</h2>
 <p>I use AI tools every day, for research, drafts, and checking my own work. Every guide on this site is drafted with AI assistance under my direction, checked claim by claim against named sources, and published with those sources listed at the bottom. That is the standard I'd hold any client's site to. For the broader picture of this year's updates, see <a href="../../guides/update-recovery-2026/">my 2026 update recovery checklist</a>; if you're worried about pages you've already published, <a href="../../contact/">send me the site</a> and I'll tell you which ones need a human pass.</p>
 <aside class="help-box" aria-label="Get help">
   <h2>Let me help you with this</h2>
