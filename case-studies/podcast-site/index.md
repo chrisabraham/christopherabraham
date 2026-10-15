@@ -1,12 +1,14 @@
 > How I turned my own podcast feed into a static site with a page, share card, and alt text for each of 458 episodes, plus transcripts, updated daily.
 >
-> Source: https://christopherabraham.com/case-studies/podcast-site/ · Updated 2026-10-14 · By Christopher Abraham
+> Source: https://christopherabraham.com/case-studies/podcast-site/ · Updated 2026-10-15 · By Christopher Abraham
 
 # My own podcast: 458 episodes, each with a page of its own
 
 My show, [The Chris Abraham Show](https://thechrisabrahamshow.com/), has published episodes since 2019, and for most of that time it lived only where the platforms put it. On October 8, 2026, I built it a website from its RSS feed with Claude Code. This is the site I point to when someone asks what a podcast website from me looks like, because you can open any page of it right now.
 
 ## What the build produced
+
+Claude Code handled the original build described here. For ongoing site work I use OpenAI Codex as well, with the same requirements for stable episode URLs, readable HTML, and a checked build.
 - 458 episode pages, one per episode, each at an address recorded once and never changed.
 - Full transcripts on 151 episodes, every one the host provides, rendered in the HTML where crawlers can read them.
 - A written description for each of more than 230 distinct cover images, done by looking at the art and quoting any words on it.
@@ -33,4 +35,4 @@ A podcast feed already holds everything a website needs. What keeps the site hon
 
 **[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
-Updated October 14, 2026
+Updated October 15, 2026

@@ -1,13 +1,13 @@
 # Christopher Abraham: full text of christopherabraham.com
 
 > Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.
-> Built 2026-10-14. Quote freely with attribution and a link to the source page.
+> Built 2026-10-15. Quote freely with attribution and a link to the source page.
 
 
 ---
 
 Source: https://christopherabraham.com/
-Updated: 2026-10-06
+Updated: 2026-10-15
 
 # Senior SEO help, from the person who does the work
 
@@ -16,6 +16,8 @@ I'm Christopher Abraham, an independent SEO consultant. When traffic drops, page
 This year's work looks like this: GEO and AEO audits that test what ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google's AI Overviews say about a business; rendering forensics on React, Next.js, and Hyvä builds; SEO changes merged through GitHub on headless stacks; and AI-assisted analysis of a site's code before a migration. The fundamentals carry across every engine. Pages that load fast, render cleanly, say plainly what they are about, and carry accurate structured data get crawled, indexed, ranked, and quoted.
 
 I know those fundamentals cold because I've been practicing them a long time: I built my first websites in 1994 and started doing search engine optimization in 1998, back when the job meant hand-editing meta tags for AltaVista. Every shift since then, from links to mobile to AI answers, has been one more thing to learn, and learning it is my favorite part of the job.
+
+I use OpenAI Codex and Claude Code as my primary coding assistants, alongside GitHub Copilot, Gemini, Grok, and occasional Perplexity research. My approach is platform agnostic: I choose the tool to suit the task and verify what it produces.
 
 ## Problems I solve
 - **Traffic dropped and nobody knows why.** A [technical SEO audit](https://christopherabraham.com/services/seo-audit/) that ends with a cause, evidence, and a ranked list of fixes.
@@ -82,7 +84,7 @@ Send me your site's address and a sentence about what's wrong. Email [cja@well.c
 
 [Contact me](https://christopherabraham.com/contact/) [Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
-Updated October 6, 2026
+Updated October 15, 2026
 
 
 ---
@@ -131,7 +133,7 @@ Updated October 13, 2026
 ---
 
 Source: https://christopherabraham.com/services/sitewide-technical-seo/
-Updated: 2026-10-13
+Updated: 2026-10-15
 
 # Sitewide technical SEO: crawl, trace, fix, recrawl
 
@@ -154,7 +156,7 @@ A sample of fifty pages tells you what fifty pages look like. The expensive prob
 
 ## From a crawl row to its cause
 
-A row in a crawl export is a symptom. The cause is a file. When I have access to the codebase, I use Claude Code and Codex to read it, find which component writes the faulty title or the extra heading, and draft small scripts that test for the problem across the site. Those assistants are quick and occasionally wrong, so every claim they make gets checked against the live site before it goes into a finding. My guide to [doing SEO inside your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/) explains the approach in more detail.
+A row in a crawl export is a symptom. The cause is a file. When I have access to the codebase, I use OpenAI Codex and Claude Code to read it, find which component writes the faulty title or the extra heading, and draft small scripts that test for the problem across the site. Those assistants are quick and occasionally wrong, so every claim they make gets checked against the live site before it goes into a finding. My guide to [doing SEO inside your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/) explains the approach in more detail.
 
 ## How fixes reach the site
 
@@ -183,7 +185,7 @@ If you're searching for someone to do this, the labels you'll see are technical 
 
 ## Tools
 
-Screaming Frog SEO Spider with JavaScript rendering, near duplicate detection, and custom extraction; Playwright for scripted headless Chrome; Claude Code and Codex for reading and testing codebases; Google Search Console; and Bing Webmaster Tools.
+Screaming Frog SEO Spider with JavaScript rendering, near duplicate detection, and custom extraction; Playwright for scripted headless Chrome; OpenAI Codex and Claude Code for reading and testing codebases; Google Search Console; and Bing Webmaster Tools.
 
 ## Who it suits
 
@@ -195,7 +197,7 @@ This sweep draws on several narrower services: the [technical SEO audit](https:/
 
 To start, [send me your site and what's bothering you about it](https://christopherabraham.com/contact/), or see how engagements run on [Hire Me](https://christopherabraham.com/hire-me/).
 
-Updated October 13, 2026
+Updated October 15, 2026
 
 
 ---
@@ -752,11 +754,11 @@ Updated October 6, 2026
 ---
 
 Source: https://christopherabraham.com/services/static-sites/
-Updated: 2026-10-14
+Updated: 2026-10-15
 
 # Static websites built for search
 
-A static website is a folder of finished HTML files. Nothing runs when a visitor arrives, so pages load fast, nothing can be hacked through a login screen, and hosting costs next to nothing. I build them with Claude Code, Anthropic's AI coding assistant, and every build has to pass the same SEO checks I'd run on a client's site before it can publish.
+A static website is a folder of finished HTML files. Nothing runs when a visitor arrives, so pages load fast, nothing can be hacked through a login screen, and hosting costs next to nothing. I build them with OpenAI Codex and Claude Code, and every build has to pass the same SEO checks I'd run on a client's site before it can publish.
 
 ## Proof you're reading
 
@@ -788,7 +790,7 @@ A podcast feed is a natural source for a static site, with a page per episode ad
 
 A fixed-scope build quoted after a short call, or a migration scoped from an inventory of your current site. Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
 
-Updated October 14, 2026
+Updated October 15, 2026
 
 
 ---
@@ -3946,11 +3948,11 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 ---
 
 Source: https://christopherabraham.com/guides/seo-in-your-repository/
-Updated: 2026-10-11
+Updated: 2026-10-15
 
 # Why your SEO should work in your Git repository, with AI at their side
 
-By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 11, 2026
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 11, 2026 · Updated October 15, 2026
 
 Most SEO stops at the admin screen: plugin settings, a crawler export, a spreadsheet of recommendations. Your website doesn't live in the admin screen. If it was built by developers, it lives in a code repository, and that's where its search problems are caused and where they get fixed. An SEO who can work in the repository, with an AI coding assistant doing the heavy reading, fixes causes instead of reporting symptoms. That's how I work, and here is what it means for you.
 
@@ -3973,7 +3975,7 @@ When the SEO can read that code, the work changes:
 
 ## What AI coding assistants add
 
-A medium sized site can have thousands of files. Reading them used to be the developer's job alone. Now AI coding assistants such as Anthropic's Claude Code, GitHub Copilot, and OpenAI's Codex can read an entire codebase, explain how it's organized, trace a problem to the files that cause it, and draft the change. GitHub describes Copilot planning changes, editing code, running tests, and reviewing pull requests. Claude Code works the same way from a terminal.
+A medium sized site can have thousands of files. Reading them used to be the developer's job alone. Now AI coding assistants such as OpenAI Codex, Claude Code, and GitHub Copilot can read an entire codebase, explain how it's organized, trace a problem to the files that cause it, and draft the change. GitHub describes Copilot planning changes, editing code, running tests, and reviewing pull requests. Claude Code works the same way from a terminal.
 
 That puts an SEO who knows what to look for within reach of answers that used to take a developer a week. Two examples from my own client work:
 - During [a clinic's move from WordPress to Next.js](https://christopherabraham.com/case-studies/clinic-migration/), a read only analysis of the repository with an AI coding assistant found thousands of image references still pointing at the old media library and traced them to a handful of central files. The developer got a short, concrete plan.
@@ -3982,6 +3984,8 @@ That puts an SEO who knows what to look for within reach of answers that used to
 The assistant is fast, tireless, and sometimes confidently wrong. The skill is knowing what search engines need, asking the right questions of the code, and checking every answer. AI doesn't replace that judgment; it multiplies it.
 
 ## How I work in a client's repository
+
+I work primarily with Codex and Claude Code, and also use Copilot. The repository, the written brief, and the checks carry the work between assistants, so the process does not depend on a single AI provider.
 1. **Read only first.** I start with read access, map the templates and routes, and compare the code to what crawlers actually see.
 2. **Findings tied to files.** Every issue comes with the file and line that cause it, so your developer can act without guessing.
 3. **Small pull requests.** When you want me to make changes, each one is a separate branch with a clear description, reviewed by your developer before it merges.
@@ -4010,6 +4014,7 @@ If you'd rather have this done than do it yourself, it's exactly the work I do f
 Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
+- [OpenAI: Codex for code generation](https://developers.openai.com/api/docs/guides/code-generation)
 - [Git: A short history of Git](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
 - [Anthropic: Claude Code overview](https://code.claude.com/docs/en/overview)
 - [GitHub Docs: GitHub Copilot on GitHub.com](https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github)
@@ -5238,13 +5243,15 @@ Updated October 14, 2026
 ---
 
 Source: https://christopherabraham.com/case-studies/podcast-site/
-Updated: 2026-10-14
+Updated: 2026-10-15
 
 # My own podcast: 458 episodes, each with a page of its own
 
 My show, [The Chris Abraham Show](https://thechrisabrahamshow.com/), has published episodes since 2019, and for most of that time it lived only where the platforms put it. On October 8, 2026, I built it a website from its RSS feed with Claude Code. This is the site I point to when someone asks what a podcast website from me looks like, because you can open any page of it right now.
 
 ## What the build produced
+
+Claude Code handled the original build described here. For ongoing site work I use OpenAI Codex as well, with the same requirements for stable episode URLs, readable HTML, and a checked build.
 - 458 episode pages, one per episode, each at an address recorded once and never changed.
 - Full transcripts on 151 episodes, every one the host provides, rendered in the HTML where crawlers can read them.
 - A written description for each of more than 230 distinct cover images, done by looking at the art and quoting any words on it.
@@ -5271,7 +5278,7 @@ A podcast feed already holds everything a website needs. What keeps the site hon
 
 **[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
-Updated October 14, 2026
+Updated October 15, 2026
 
 
 ---
@@ -5391,7 +5398,7 @@ Updated October 14, 2026
 ---
 
 Source: https://christopherabraham.com/about/skills/
-Updated: 2026-10-13
+Updated: 2026-10-15
 
 # Technical SEO skills, and the proof for each one
 
@@ -5413,7 +5420,7 @@ Updated: 2026-10-13
 ## Working in the code
 - Hacked Perl and PHP by the bucketful long before AI coding assistants: Movable Type's Perl CGI scripts, PHP-Nuke and PostNuke portals, and scripts of my own. Reading somebody else's codebase has felt like home ever since.
 - Made metadata changes in a client's Sanity and Vercel codebase through a GitHub pull request the developer reviewed and merged, then verified prerendering. [Headless local business](https://christopherabraham.com/case-studies/headless-local/).
-- Read whole repositories with Claude Code and Codex to trace a crawl finding to the component or import script that causes it, checking every answer against the live site.
+- Read whole repositories with OpenAI Codex and Claude Code to trace a crawl finding to the component or import script that causes it, checking every answer against the live site.
 - Built SEO checks into the build of sites I run, so a page with a bad title, a duplicate description, a broken internal link, or borrowed phrasing fails before it publishes. That's how this site is built.
 - Automated IndexNow submissions with GitHub Actions, gated on the new sitemap actually being live.
 - Built a 12,000 line command line assistant in Python with 140 end to end tests, directing Claude Code the way a technical lead directs a team.
@@ -5465,7 +5472,9 @@ WordPress with Yoast, Rank Math, Elementor, and WooCommerce; Shopify and Liquid;
 
 ## Tools
 
-Screaming Frog SEO Spider, Google Search Console and its APIs, Bing Webmaster Tools, GA4, Semrush, PageSpeed Insights and the Chrome UX Report, Playwright, Claude Code, Codex, Git and GitHub, GitHub Actions, Python, and the command line.
+OpenAI Codex and Claude Code are my main coding assistants. I also use GitHub Copilot, Gemini, and Grok, with Perplexity on occasion. I choose tools for the work at hand and check their output against the code, the crawl, and the published page.
+
+Screaming Frog SEO Spider, Google Search Console and its APIs, Bing Webmaster Tools, GA4, Semrush, PageSpeed Insights and the Chrome UX Report, Playwright, OpenAI Codex, Claude Code, GitHub Copilot, Gemini, Grok, Perplexity, Git and GitHub, GitHub Actions, Python, and the command line.
 
 ## What I don't do
 
@@ -5473,7 +5482,7 @@ Paid search and paid social. Everything here is organic.
 
 Want this on your site? [Send me the URL and the problem](https://christopherabraham.com/contact/), or see how I work on [Hire Me](https://christopherabraham.com/hire-me/). The longer story is on the [About page](https://christopherabraham.com/about/), and the full bio is at [chrisabraham.com/bio](https://chrisabraham.com/bio).
 
-Updated October 13, 2026
+Updated October 15, 2026
 
 
 ---
@@ -5563,7 +5572,7 @@ Updated October 6, 2026
 ---
 
 Source: https://christopherabraham.com/about/editorial-policy/
-Updated: 2026-10-06
+Updated: 2026-10-15
 
 # How these pages are written and checked
 
@@ -5578,6 +5587,8 @@ The case studies describe engagements I worked on myself: the problem, my role, 
 Where a guide states how Google, Bing, a standard, or a protocol behaves, it links to the primary documentation: Google Search Central, Bing Webmaster Guidelines, the W3C's accessibility standards, the RFCs that define email records, and the specifications for files like llms.txt. Those links are listed under "Sources" at the end of each guide, and in the page's structured data as citations. When the official documentation and common practice disagree, I say so.
 
 ## How I use AI tools
+
+My workflow is platform agnostic. OpenAI Codex and Claude Code do most of my coding work; I also use GitHub Copilot, Gemini, Grok, and sometimes Perplexity for assistance with research, writing, and checking ideas. A tool gets chosen for the task, and I remain responsible for the result.
 
 I use AI assistants the way I'd use a capable junior colleague: to draft outlines and first passes, to check code and markup, and to build and test this site's generator. I don't publish anything they produce until I've read it, corrected it, and checked its claims. Two rules are absolute:
 - **Personal and biographical details come only from my own records** and verifiable published sources, never from an AI summary. AI search tools have confidently told the world things about me that aren't true, and none of those get a second life here.
@@ -5608,13 +5619,13 @@ If you find an error, email [cja@well.com](mailto:cja@well.com) with the page an
 
 This is a one-person practice. My background, credentials, and the third-party sources that confirm them are on the [About page](https://christopherabraham.com/about/), and the life behind the work is [off the clock](https://christopherabraham.com/about/off-the-clock/). You can also find me on [Upwork](https://www.upwork.com/freelancers/chrisjabraham) and [LinkedIn](https://www.linkedin.com/in/chrisabraham), or [get in touch directly](https://christopherabraham.com/contact/).
 
-Updated October 6, 2026
+Updated October 15, 2026
 
 
 ---
 
 Source: https://christopherabraham.com/about/colophon/
-Updated: 2026-10-06
+Updated: 2026-10-15
 
 # Colophon
 
@@ -5625,6 +5636,8 @@ Book publishers end a fine edition with a colophon, a few lines on the type, the
 The design is deliberately plain, after the classic Plone theme: a row of tabs, a breadcrumb trail, and generous black text in Verdana. The CA monogram and the social sharing card were drawn in code with Python and the Pillow imaging library. My name is set in burnt orange, page titles in blue, and section headings in teal, and every one of those colors clears the 4.5 to 1 contrast ratio that accessibility guidelines ask for.
 
 ## Under the hood
+
+I now maintain this site with both OpenAI Codex and Claude Code. My wider toolkit includes GitHub Copilot, Gemini, Grok, and occasional use of Perplexity; the original build credit below records how the site began.
 
 Each page is a hand-written HTML file with a few lines of metadata on top. A short Python script assembles them into the finished site and generates the extras machines look for: a Markdown version of every page, llms.txt and llms-full.txt, an XML sitemap and a readable one, RSS and Atom feeds, and structured data describing every page, every guide's sources, and me. The script also refuses to publish anything that breaks the house rules, from title length to repeated sentences to any slip into the royal plural.
 
@@ -5645,7 +5658,7 @@ The source is public at [github.com/chrisabraham/christopherabraham](https://git
 
 As an Amazon Associate I earn from qualifying purchases.
 
-Updated October 6, 2026
+Updated October 15, 2026
 
 
 ---
@@ -5837,7 +5850,7 @@ Updated October 6, 2026
 ---
 
 Source: https://christopherabraham.com/sitemap/
-Updated: 2026-10-14
+Updated: 2026-10-15
 
 # Site map
 
@@ -5871,7 +5884,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 
 ## Platforms, local, and ongoing work
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): WordPress SEO done carefully: Yoast and Rank Math settings, theme and plugin conflicts, page builder bloat, caching, and old installs that need a steady hand.
-- [Static websites built for search](https://christopherabraham.com/services/static-sites/): Fast static websites on GitHub Pages and Cloudflare, built with Claude Code and held to SEO checks on every build. No plugins, no database, nothing to patch.
+- [Static websites built for search](https://christopherabraham.com/services/static-sites/): Static websites on GitHub Pages and Cloudflare, built with OpenAI Codex and Claude Code. Every build checks SEO, links, and copy before the site publishes.
 - [Podcast website SEO](https://christopherabraham.com/services/podcast-website/): I turn a podcast feed into a fast website on your own domain, with a page per episode, transcripts, schema, share cards, and new episodes added each morning.
 - [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Ecommerce SEO for Shopify, WooCommerce, and Magento: product and category templates, faceted navigation, duplicate URLs, product schema, and AI answers.
 - [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/): Align your website, location pages, and Google Business Profiles, with hard profile cases like suspensions handled as scoped, paid written diagnostics.
@@ -5913,7 +5926,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Cloudflare for WordPress: setup, plans, and what to budget](https://christopherabraham.com/guides/cloudflare-wordpress/): How to put a WordPress site behind Cloudflare: moving DNS, what the free plan already does, APO and Polish on paid plans, HTTPS settings, and a monthly budget.
 - [Will Google penalize AI-written content? What Google actually says](https://christopherabraham.com/guides/ai-content-seo/): Does Google penalize AI written copy? What Google's guidance says in 2026, what the data shows, the new fact checking rule, fake authors, and safe AI use.
 - [Is a Screaming Frog licence worth $279 a year? Mine was](https://christopherabraham.com/guides/screaming-frog-licence/): Why I finally paid for the Screaming Frog SEO Spider, what the free 500 URL version leaves out, and everything a $279 a year licence can do in 2026.
-- [Why your SEO should work in your Git repository, with AI at their side](https://christopherabraham.com/guides/seo-in-your-repository/): An SEO who can read your codebase and work with Claude Code, Copilot, or ChatGPT fixes causes in templates, not symptoms page by page. What to expect and ask.
+- [Why your SEO should work in your Git repository, with AI at their side](https://christopherabraham.com/guides/seo-in-your-repository/): An SEO using OpenAI Codex, Claude Code, or GitHub Copilot can trace search problems to the files that cause them. What repository access and review should mean.
 - [How to find near duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Find near duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.
 - [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/): XPath and regex recipes for Screaming Frog custom extraction to audit a site: heading counts, canonicals, robots tags, schema types, alt text, and tag IDs.
 - [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/): Proof that an SEO fix shipped: compare before and after crawls in Screaming Frog, check change detection, then confirm in Search Console with validation.
@@ -5947,4 +5960,4 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 14, 2026
+Updated October 15, 2026

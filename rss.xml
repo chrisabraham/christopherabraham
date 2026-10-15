@@ -8,6 +8,80 @@
   <lastBuildDate>Thu, 15 Oct 2026 12:00:00 +0000</lastBuildDate>
   <atom:link href="https://christopherabraham.com/rss.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Why your SEO should work in your Git repository, with AI at their side</title>
+    <link>https://christopherabraham.com/guides/seo-in-your-repository/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/seo-in-your-repository/</guid>
+    <pubDate>Sun, 11 Oct 2026 12:00:00 +0000</pubDate>
+    <description>An SEO using OpenAI Codex, Claude Code, or GitHub Copilot can trace search problems to the files that cause them. What repository access and review should mean.</description>
+    <content:encoded>&lt;h1&gt;Why your SEO should work in your Git repository, with AI at their side&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-11"&gt;October 11, 2026&lt;/time&gt; · Updated &lt;time datetime="2026-10-15"&gt;October 15, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;Most SEO stops at the admin screen: plugin settings, a crawler export, a spreadsheet of recommendations. Your website doesn't live in the admin screen. If it was built by developers, it lives in a code repository, and that's where its search problems are caused and where they get fixed. An SEO who can work in the repository, with an AI coding assistant doing the heavy reading, fixes causes instead of reporting symptoms. That's how I work, and here is what it means for you.&lt;/p&gt;
+
+&lt;h2&gt;What a repository is, in plain English&lt;/h2&gt;
+&lt;p&gt;A repository is the master copy of your site's code, with its entire history. Almost every team now keeps it in Git, the version control system Linus Torvalds and the Linux community created in 2005, usually hosted on GitHub, GitLab, or Bitbucket. Older systems such as CVS and Subversion did the same job before Git took over.&lt;/p&gt;
+&lt;p&gt;The history is the point. Every change is recorded with who made it, when, and why. Changes are proposed as pull requests that someone reviews before they go live, and any change can be rolled back. That's exactly the discipline SEO changes have usually lacked.&lt;/p&gt;
+
+&lt;h2&gt;Plugins and crawlers report. The code is where it's fixed.&lt;/h2&gt;
+&lt;p&gt;Yoast is a fine plugin and Screaming Frog is the best crawler I own. Both tell you what's wrong on the pages they can see. Neither can tell you why a template produces the problem, and neither can change the template. On a site built with Next.js, Nuxt, Astro, Shopify themes, or a headless CMS, there may be no SEO plugin at all. The titles, canonicals, structured data, redirects, robots rules, and sitemaps are all code.&lt;/p&gt;
+&lt;p&gt;When the SEO can read that code, the work changes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;One fix instead of a thousand.&lt;/strong&gt; A duplicate title on 3,000 product pages is one line in one template.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Redirects where they belong:&lt;/strong&gt; in the framework's configuration or the host's rules file, tested before launch.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Structured data built into components,&lt;/strong&gt; so every new page gets it automatically.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;JavaScript problems traced to the line.&lt;/strong&gt; When content only appears after a scroll or a click, the cause is in a component, and that's where to look.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;No lost work.&lt;/strong&gt; Every SEO change has a commit, a reviewer, and a way back.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;What AI coding assistants add&lt;/h2&gt;
+&lt;p&gt;A medium sized site can have thousands of files. Reading them used to be the developer's job alone. Now AI coding assistants such as OpenAI Codex, Claude Code, and GitHub Copilot can read an entire codebase, explain how it's organized, trace a problem to the files that cause it, and draft the change. GitHub describes Copilot planning changes, editing code, running tests, and reviewing pull requests. Claude Code works the same way from a terminal.&lt;/p&gt;
+&lt;p&gt;That puts an SEO who knows what to look for within reach of answers that used to take a developer a week. Two examples from my own client work:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;During &lt;a href="https://christopherabraham.com/case-studies/clinic-migration/"&gt;a clinic's move from WordPress to Next.js&lt;/a&gt;, a read only analysis of the repository with an AI coding assistant found thousands of image references still pointing at the old media library and traced them to a handful of central files. The developer got a short, concrete plan.&lt;/li&gt;
+  &lt;li&gt;For &lt;a href="https://christopherabraham.com/case-studies/headless-local/"&gt;a local business on Sanity, Vercel, and GitHub&lt;/a&gt;, I made the metadata changes myself in a pull request the developer reviewed and merged.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The assistant is fast, tireless, and sometimes confidently wrong. The skill is knowing what search engines need, asking the right questions of the code, and checking every answer. AI doesn't replace that judgment; it multiplies it.&lt;/p&gt;
+
+&lt;h2&gt;How I work in a client's repository&lt;/h2&gt;
+&lt;p&gt;I work primarily with Codex and Claude Code, and also use Copilot. The repository, the written brief, and the checks carry the work between assistants, so the process does not depend on a single AI provider.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Read only first.&lt;/strong&gt; I start with read access, map the templates and routes, and compare the code to what crawlers actually see.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Findings tied to files.&lt;/strong&gt; Every issue comes with the file and line that cause it, so your developer can act without guessing.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Small pull requests.&lt;/strong&gt; When you want me to make changes, each one is a separate branch with a clear description, reviewed by your developer before it merges.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nothing reaches production without your approval,&lt;/strong&gt; and no passwords or API keys go into the code or into an AI tool.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Verified on the live site&lt;/strong&gt; after deploy, with a crawl and Search Console.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Questions to ask any SEO you're about to hire&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Can you read the site's templates, or only the pages they produce?&lt;/li&gt;
+  &lt;li&gt;Will you hand the developer findings tied to specific files?&lt;/li&gt;
+  &lt;li&gt;Can you open a pull request, and will you follow the team's review process?&lt;/li&gt;
+  &lt;li&gt;How do you use AI tools on the code, and how do you check what they produce?&lt;/li&gt;
+  &lt;li&gt;What access do you need, and what will you never touch?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For the broader hiring checklist, see &lt;a href="https://christopherabraham.com/guides/hiring-an-seo/"&gt;how to hire an SEO on Upwork&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Work with me&lt;/h2&gt;
+&lt;p&gt;I've built websites since 1994 and practiced SEO since 1998, and today I work the way modern sites are built: in the repository, through pull requests, with AI coding assistants doing the heavy reading under my direction. If your site lives in GitHub and your SEO lives in a spreadsheet, &lt;a href="https://christopherabraham.com/contact/"&gt;send me the site&lt;/a&gt; or see my &lt;a href="https://christopherabraham.com/services/sitewide-technical-seo/"&gt;sitewide technical SEO&lt;/a&gt;, &lt;a href="https://christopherabraham.com/services/javascript-seo/"&gt;JavaScript SEO&lt;/a&gt;, and &lt;a href="https://christopherabraham.com/services/seo-audit/"&gt;technical audit&lt;/a&gt; services. I'll tell you what the code is doing to your search visibility and how to fix it.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://developers.openai.com/api/docs/guides/code-generation"&gt;OpenAI: Codex for code generation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git"&gt;Git: A short history of Git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://code.claude.com/docs/en/overview"&gt;Anthropic: Claude Code overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github"&gt;GitHub Docs: GitHub Copilot on GitHub.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content:encoded>
+  </item>
+  <item>
     <title>Glossary of SEO and AI search terms</title>
     <link>https://christopherabraham.com/guides/glossary/</link>
     <guid isPermaLink="true">https://christopherabraham.com/guides/glossary/</guid>
@@ -1058,78 +1132,6 @@
   &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/appearance/ai-features"&gt;Google Search Central AI features&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://www.indexnow.org/faq"&gt;IndexNow FAQ&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://developers.openai.com/api/docs/bots"&gt;OpenAI crawler documentation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;aside class="author-box" aria-label="About the author"&gt;
-  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
-  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
-&lt;/aside&gt;</content:encoded>
-  </item>
-  <item>
-    <title>Why your SEO should work in your Git repository, with AI at their side</title>
-    <link>https://christopherabraham.com/guides/seo-in-your-repository/</link>
-    <guid isPermaLink="true">https://christopherabraham.com/guides/seo-in-your-repository/</guid>
-    <pubDate>Sun, 11 Oct 2026 12:00:00 +0000</pubDate>
-    <description>An SEO who can read your codebase and work with Claude Code, Copilot, or ChatGPT fixes causes in templates, not symptoms page by page. What to expect and ask.</description>
-    <content:encoded>&lt;h1&gt;Why your SEO should work in your Git repository, with AI at their side&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-11"&gt;October 11, 2026&lt;/time&gt;&lt;/p&gt;
-&lt;p class="lead"&gt;Most SEO stops at the admin screen: plugin settings, a crawler export, a spreadsheet of recommendations. Your website doesn't live in the admin screen. If it was built by developers, it lives in a code repository, and that's where its search problems are caused and where they get fixed. An SEO who can work in the repository, with an AI coding assistant doing the heavy reading, fixes causes instead of reporting symptoms. That's how I work, and here is what it means for you.&lt;/p&gt;
-
-&lt;h2&gt;What a repository is, in plain English&lt;/h2&gt;
-&lt;p&gt;A repository is the master copy of your site's code, with its entire history. Almost every team now keeps it in Git, the version control system Linus Torvalds and the Linux community created in 2005, usually hosted on GitHub, GitLab, or Bitbucket. Older systems such as CVS and Subversion did the same job before Git took over.&lt;/p&gt;
-&lt;p&gt;The history is the point. Every change is recorded with who made it, when, and why. Changes are proposed as pull requests that someone reviews before they go live, and any change can be rolled back. That's exactly the discipline SEO changes have usually lacked.&lt;/p&gt;
-
-&lt;h2&gt;Plugins and crawlers report. The code is where it's fixed.&lt;/h2&gt;
-&lt;p&gt;Yoast is a fine plugin and Screaming Frog is the best crawler I own. Both tell you what's wrong on the pages they can see. Neither can tell you why a template produces the problem, and neither can change the template. On a site built with Next.js, Nuxt, Astro, Shopify themes, or a headless CMS, there may be no SEO plugin at all. The titles, canonicals, structured data, redirects, robots rules, and sitemaps are all code.&lt;/p&gt;
-&lt;p&gt;When the SEO can read that code, the work changes:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;One fix instead of a thousand.&lt;/strong&gt; A duplicate title on 3,000 product pages is one line in one template.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Redirects where they belong:&lt;/strong&gt; in the framework's configuration or the host's rules file, tested before launch.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Structured data built into components,&lt;/strong&gt; so every new page gets it automatically.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;JavaScript problems traced to the line.&lt;/strong&gt; When content only appears after a scroll or a click, the cause is in a component, and that's where to look.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;No lost work.&lt;/strong&gt; Every SEO change has a commit, a reviewer, and a way back.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;What AI coding assistants add&lt;/h2&gt;
-&lt;p&gt;A medium sized site can have thousands of files. Reading them used to be the developer's job alone. Now AI coding assistants such as Anthropic's Claude Code, GitHub Copilot, and OpenAI's Codex can read an entire codebase, explain how it's organized, trace a problem to the files that cause it, and draft the change. GitHub describes Copilot planning changes, editing code, running tests, and reviewing pull requests. Claude Code works the same way from a terminal.&lt;/p&gt;
-&lt;p&gt;That puts an SEO who knows what to look for within reach of answers that used to take a developer a week. Two examples from my own client work:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;During &lt;a href="https://christopherabraham.com/case-studies/clinic-migration/"&gt;a clinic's move from WordPress to Next.js&lt;/a&gt;, a read only analysis of the repository with an AI coding assistant found thousands of image references still pointing at the old media library and traced them to a handful of central files. The developer got a short, concrete plan.&lt;/li&gt;
-  &lt;li&gt;For &lt;a href="https://christopherabraham.com/case-studies/headless-local/"&gt;a local business on Sanity, Vercel, and GitHub&lt;/a&gt;, I made the metadata changes myself in a pull request the developer reviewed and merged.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The assistant is fast, tireless, and sometimes confidently wrong. The skill is knowing what search engines need, asking the right questions of the code, and checking every answer. AI doesn't replace that judgment; it multiplies it.&lt;/p&gt;
-
-&lt;h2&gt;How I work in a client's repository&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Read only first.&lt;/strong&gt; I start with read access, map the templates and routes, and compare the code to what crawlers actually see.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Findings tied to files.&lt;/strong&gt; Every issue comes with the file and line that cause it, so your developer can act without guessing.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Small pull requests.&lt;/strong&gt; When you want me to make changes, each one is a separate branch with a clear description, reviewed by your developer before it merges.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Nothing reaches production without your approval,&lt;/strong&gt; and no passwords or API keys go into the code or into an AI tool.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Verified on the live site&lt;/strong&gt; after deploy, with a crawl and Search Console.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2&gt;Questions to ask any SEO you're about to hire&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Can you read the site's templates, or only the pages they produce?&lt;/li&gt;
-  &lt;li&gt;Will you hand the developer findings tied to specific files?&lt;/li&gt;
-  &lt;li&gt;Can you open a pull request, and will you follow the team's review process?&lt;/li&gt;
-  &lt;li&gt;How do you use AI tools on the code, and how do you check what they produce?&lt;/li&gt;
-  &lt;li&gt;What access do you need, and what will you never touch?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For the broader hiring checklist, see &lt;a href="https://christopherabraham.com/guides/hiring-an-seo/"&gt;how to hire an SEO on Upwork&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Work with me&lt;/h2&gt;
-&lt;p&gt;I've built websites since 1994 and practiced SEO since 1998, and today I work the way modern sites are built: in the repository, through pull requests, with AI coding assistants doing the heavy reading under my direction. If your site lives in GitHub and your SEO lives in a spreadsheet, &lt;a href="https://christopherabraham.com/contact/"&gt;send me the site&lt;/a&gt; or see my &lt;a href="https://christopherabraham.com/services/sitewide-technical-seo/"&gt;sitewide technical SEO&lt;/a&gt;, &lt;a href="https://christopherabraham.com/services/javascript-seo/"&gt;JavaScript SEO&lt;/a&gt;, and &lt;a href="https://christopherabraham.com/services/seo-audit/"&gt;technical audit&lt;/a&gt; services. I'll tell you what the code is doing to your search visibility and how to fix it.&lt;/p&gt;
-&lt;aside class="help-box" aria-label="Get help"&gt;
-  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
-  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
-  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
-  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
-&lt;/aside&gt;
-&lt;h2&gt;Sources&lt;/h2&gt;
-&lt;ul class="sources"&gt;
-  &lt;li&gt;&lt;a href="https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git"&gt;Git: A short history of Git&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://code.claude.com/docs/en/overview"&gt;Anthropic: Claude Code overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github"&gt;GitHub Docs: GitHub Copilot on GitHub.com&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;aside class="author-box" aria-label="About the author"&gt;
   &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;

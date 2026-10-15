@@ -1,6 +1,6 @@
 > Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.
 >
-> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-14 · By Christopher Abraham
+> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-15 · By Christopher Abraham
 
 # Site map
 
@@ -34,7 +34,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 
 ## Platforms, local, and ongoing work
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): WordPress SEO done carefully: Yoast and Rank Math settings, theme and plugin conflicts, page builder bloat, caching, and old installs that need a steady hand.
-- [Static websites built for search](https://christopherabraham.com/services/static-sites/): Fast static websites on GitHub Pages and Cloudflare, built with Claude Code and held to SEO checks on every build. No plugins, no database, nothing to patch.
+- [Static websites built for search](https://christopherabraham.com/services/static-sites/): Static websites on GitHub Pages and Cloudflare, built with OpenAI Codex and Claude Code. Every build checks SEO, links, and copy before the site publishes.
 - [Podcast website SEO](https://christopherabraham.com/services/podcast-website/): I turn a podcast feed into a fast website on your own domain, with a page per episode, transcripts, schema, share cards, and new episodes added each morning.
 - [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Ecommerce SEO for Shopify, WooCommerce, and Magento: product and category templates, faceted navigation, duplicate URLs, product schema, and AI answers.
 - [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/): Align your website, location pages, and Google Business Profiles, with hard profile cases like suspensions handled as scoped, paid written diagnostics.
@@ -76,7 +76,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Cloudflare for WordPress: setup, plans, and what to budget](https://christopherabraham.com/guides/cloudflare-wordpress/): How to put a WordPress site behind Cloudflare: moving DNS, what the free plan already does, APO and Polish on paid plans, HTTPS settings, and a monthly budget.
 - [Will Google penalize AI-written content? What Google actually says](https://christopherabraham.com/guides/ai-content-seo/): Does Google penalize AI written copy? What Google's guidance says in 2026, what the data shows, the new fact checking rule, fake authors, and safe AI use.
 - [Is a Screaming Frog licence worth $279 a year? Mine was](https://christopherabraham.com/guides/screaming-frog-licence/): Why I finally paid for the Screaming Frog SEO Spider, what the free 500 URL version leaves out, and everything a $279 a year licence can do in 2026.
-- [Why your SEO should work in your Git repository, with AI at their side](https://christopherabraham.com/guides/seo-in-your-repository/): An SEO who can read your codebase and work with Claude Code, Copilot, or ChatGPT fixes causes in templates, not symptoms page by page. What to expect and ask.
+- [Why your SEO should work in your Git repository, with AI at their side](https://christopherabraham.com/guides/seo-in-your-repository/): An SEO using OpenAI Codex, Claude Code, or GitHub Copilot can trace search problems to the files that cause them. What repository access and review should mean.
 - [How to find near duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Find near duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.
 - [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/): XPath and regex recipes for Screaming Frog custom extraction to audit a site: heading counts, canonicals, robots tags, schema types, alt text, and tag IDs.
 - [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/): Proof that an SEO fix shipped: compare before and after crawls in Screaming Frog, check change detection, then confirm in Search Console with validation.
@@ -110,4 +110,4 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 14, 2026
+Updated October 15, 2026

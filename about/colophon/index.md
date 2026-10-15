@@ -1,6 +1,6 @@
 > How christopherabraham.com is made: hand written HTML, a small Python generator with strict checks, GitHub Pages, Cloudflare, accessible colors, Lynx testing.
 >
-> Source: https://christopherabraham.com/about/colophon/ · Updated 2026-10-06 · By Christopher Abraham
+> Source: https://christopherabraham.com/about/colophon/ · Updated 2026-10-15 · By Christopher Abraham
 
 # Colophon
 
@@ -11,6 +11,8 @@ Book publishers end a fine edition with a colophon, a few lines on the type, the
 The design is deliberately plain, after the classic Plone theme: a row of tabs, a breadcrumb trail, and generous black text in Verdana. The CA monogram and the social sharing card were drawn in code with Python and the Pillow imaging library. My name is set in burnt orange, page titles in blue, and section headings in teal, and every one of those colors clears the 4.5 to 1 contrast ratio that accessibility guidelines ask for.
 
 ## Under the hood
+
+I now maintain this site with both OpenAI Codex and Claude Code. My wider toolkit includes GitHub Copilot, Gemini, Grok, and occasional use of Perplexity; the original build credit below records how the site began.
 
 Each page is a hand-written HTML file with a few lines of metadata on top. A short Python script assembles them into the finished site and generates the extras machines look for: a Markdown version of every page, llms.txt and llms-full.txt, an XML sitemap and a readable one, RSS and Atom feeds, and structured data describing every page, every guide's sources, and me. The script also refuses to publish anything that breaks the house rules, from title length to repeated sentences to any slip into the royal plural.
 
@@ -31,4 +33,4 @@ The source is public at [github.com/chrisabraham/christopherabraham](https://git
 
 As an Amazon Associate I earn from qualifying purchases.
 
-Updated October 6, 2026
+Updated October 15, 2026

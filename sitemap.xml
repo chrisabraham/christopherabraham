@@ -3,7 +3,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://christopherabraham.com/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <image:image><image:loc>https://christopherabraham.com/logo.png</image:loc></image:image>
     <image:image><image:loc>https://christopherabraham.com/social-card.png</image:loc></image:image>
   </url>
@@ -13,7 +13,7 @@
   </url>
   <url>
     <loc>https://christopherabraham.com/services/sitewide-technical-seo/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://christopherabraham.com/services/seo-audit/</loc>
@@ -61,7 +61,7 @@
   </url>
   <url>
     <loc>https://christopherabraham.com/services/static-sites/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://christopherabraham.com/services/podcast-website/</loc>
@@ -225,7 +225,7 @@
   </url>
   <url>
     <loc>https://christopherabraham.com/guides/seo-in-your-repository/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://christopherabraham.com/guides/near-duplicates-and-h1s/</loc>
@@ -313,7 +313,7 @@
   </url>
   <url>
     <loc>https://christopherabraham.com/case-studies/podcast-site/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://christopherabraham.com/case-studies/movable-type-novel/</loc>
@@ -326,7 +326,7 @@
   </url>
   <url>
     <loc>https://christopherabraham.com/about/skills/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://christopherabraham.com/about/off-the-clock/</loc>
@@ -334,11 +334,11 @@
   </url>
   <url>
     <loc>https://christopherabraham.com/about/editorial-policy/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://christopherabraham.com/about/colophon/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://christopherabraham.com/hire-me/</loc>
@@ -358,6 +358,6 @@
   </url>
   <url>
     <loc>https://christopherabraham.com/sitemap/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
 </urlset>

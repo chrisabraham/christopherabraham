@@ -2,7 +2,7 @@ name: Colophon
 title: Colophon: the design, build, and hosting of this website
 description: How christopherabraham.com is made: hand written HTML, a small Python generator with strict checks, GitHub Pages, Cloudflare, accessible colors, Lynx testing.
 keywords: colophon, static website, GitHub Pages, accessible design
-updated: 2026-10-06
+updated: 2026-10-15
 ---
 <h1>Colophon</h1>
 <p class="lead">Book publishers end a fine edition with a colophon, a few lines on the type, the paper, and the press. Here are the equivalent details for this website.</p>
@@ -11,6 +11,7 @@ updated: 2026-10-06
 <p>The design is deliberately plain, after the classic Plone theme: a row of tabs, a breadcrumb trail, and generous black text in Verdana. The CA monogram and the social sharing card were drawn in code with Python and the Pillow imaging library. My name is set in burnt orange, page titles in blue, and section headings in teal, and every one of those colors clears the 4.5 to 1 contrast ratio that accessibility guidelines ask for.</p>
 
 <h2>Under the hood</h2>
+<p>I now maintain this site with both OpenAI Codex and Claude Code. My wider toolkit includes GitHub Copilot, Gemini, Grok, and occasional use of Perplexity; the original build credit below records how the site began.</p>
 <p>Each page is a hand-written HTML file with a few lines of metadata on top. A short Python script assembles them into the finished site and generates the extras machines look for: a Markdown version of every page, llms.txt and llms-full.txt, an XML sitemap and a readable one, RSS and Atom feeds, and structured data describing every page, every guide's sources, and me. The script also refuses to publish anything that breaks the house rules, from title length to repeated sentences to any slip into the royal plural.</p>
 <p>I built it in a terminal session from a <a href="https://www.amazon.com/s?k=Lenovo+ThinkPad+X220&tag=gerris-20" rel="sponsored noopener">ThinkPad X220</a>, connected over SSH to a DigitalOcean droplet, with Claude Code, Anthropic's AI coding assistant, as my collaborator. I decided what the site would say and checked every fact in it; the assistant handled much of the typing. The rules for that collaboration are spelled out in <a href="{root}about/editorial-policy/">how these pages are written</a>.</p>
 

@@ -1,6 +1,6 @@
 > A technical SEO skills list where each line links to evidence: rendering forensics, pull requests, crawl automation, redirects, schema, AI search, and servers.
 >
-> Source: https://christopherabraham.com/about/skills/ · Updated 2026-10-13 · By Christopher Abraham
+> Source: https://christopherabraham.com/about/skills/ · Updated 2026-10-15 · By Christopher Abraham
 
 # Technical SEO skills, and the proof for each one
 
@@ -22,7 +22,7 @@
 ## Working in the code
 - Hacked Perl and PHP by the bucketful long before AI coding assistants: Movable Type's Perl CGI scripts, PHP-Nuke and PostNuke portals, and scripts of my own. Reading somebody else's codebase has felt like home ever since.
 - Made metadata changes in a client's Sanity and Vercel codebase through a GitHub pull request the developer reviewed and merged, then verified prerendering. [Headless local business](https://christopherabraham.com/case-studies/headless-local/).
-- Read whole repositories with Claude Code and Codex to trace a crawl finding to the component or import script that causes it, checking every answer against the live site.
+- Read whole repositories with OpenAI Codex and Claude Code to trace a crawl finding to the component or import script that causes it, checking every answer against the live site.
 - Built SEO checks into the build of sites I run, so a page with a bad title, a duplicate description, a broken internal link, or borrowed phrasing fails before it publishes. That's how this site is built.
 - Automated IndexNow submissions with GitHub Actions, gated on the new sitemap actually being live.
 - Built a 12,000 line command line assistant in Python with 140 end to end tests, directing Claude Code the way a technical lead directs a team.
@@ -74,7 +74,9 @@ WordPress with Yoast, Rank Math, Elementor, and WooCommerce; Shopify and Liquid;
 
 ## Tools
 
-Screaming Frog SEO Spider, Google Search Console and its APIs, Bing Webmaster Tools, GA4, Semrush, PageSpeed Insights and the Chrome UX Report, Playwright, Claude Code, Codex, Git and GitHub, GitHub Actions, Python, and the command line.
+OpenAI Codex and Claude Code are my main coding assistants. I also use GitHub Copilot, Gemini, and Grok, with Perplexity on occasion. I choose tools for the work at hand and check their output against the code, the crawl, and the published page.
+
+Screaming Frog SEO Spider, Google Search Console and its APIs, Bing Webmaster Tools, GA4, Semrush, PageSpeed Insights and the Chrome UX Report, Playwright, OpenAI Codex, Claude Code, GitHub Copilot, Gemini, Grok, Perplexity, Git and GitHub, GitHub Actions, Python, and the command line.
 
 ## What I don't do
 
@@ -82,4 +84,4 @@ Paid search and paid social. Everything here is organic.
 
 Want this on your site? [Send me the URL and the problem](https://christopherabraham.com/contact/), or see how I work on [Hire Me](https://christopherabraham.com/hire-me/). The longer story is on the [About page](https://christopherabraham.com/about/), and the full bio is at [chrisabraham.com/bio](https://chrisabraham.com/bio).
 
-Updated October 13, 2026
+Updated October 15, 2026

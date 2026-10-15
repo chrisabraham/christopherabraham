@@ -1,6 +1,6 @@
 > Christopher Abraham is a senior SEO consultant: technical audits, indexing repair, schema, site speed, migrations, and visibility in AI answer engines.
 >
-> Source: https://christopherabraham.com/ · Updated 2026-10-06 · By Christopher Abraham
+> Source: https://christopherabraham.com/ · Updated 2026-10-15 · By Christopher Abraham
 
 # Senior SEO help, from the person who does the work
 
@@ -9,6 +9,8 @@ I'm Christopher Abraham, an independent SEO consultant. When traffic drops, page
 This year's work looks like this: GEO and AEO audits that test what ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google's AI Overviews say about a business; rendering forensics on React, Next.js, and Hyvä builds; SEO changes merged through GitHub on headless stacks; and AI-assisted analysis of a site's code before a migration. The fundamentals carry across every engine. Pages that load fast, render cleanly, say plainly what they are about, and carry accurate structured data get crawled, indexed, ranked, and quoted.
 
 I know those fundamentals cold because I've been practicing them a long time: I built my first websites in 1994 and started doing search engine optimization in 1998, back when the job meant hand-editing meta tags for AltaVista. Every shift since then, from links to mobile to AI answers, has been one more thing to learn, and learning it is my favorite part of the job.
+
+I use OpenAI Codex and Claude Code as my primary coding assistants, alongside GitHub Copilot, Gemini, Grok, and occasional Perplexity research. My approach is platform agnostic: I choose the tool to suit the task and verify what it produces.
 
 ## Problems I solve
 - **Traffic dropped and nobody knows why.** A [technical SEO audit](https://christopherabraham.com/services/seo-audit/) that ends with a cause, evidence, and a ranked list of fixes.
@@ -75,4 +77,4 @@ Send me your site's address and a sentence about what's wrong. Email [cja@well.c
 
 [Contact me](https://christopherabraham.com/contact/) [Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
-Updated October 6, 2026
+Updated October 15, 2026

@@ -1,11 +1,11 @@
 name: SEO in Your Repository
 title: Why your SEO should work in your Git repository, with AI
-description: An SEO who can read your codebase and work with Claude Code, Copilot, or ChatGPT fixes causes in templates, not symptoms page by page. What to expect and ask.
+description: An SEO using OpenAI Codex, Claude Code, or GitHub Copilot can trace search problems to the files that cause them. What repository access and review should mean.
 type: guide
 published: 2026-10-11
 keywords: SEO Git repository, technical SEO developers, AI coding assistant SEO, SEO pull request
-sources: Git: A short history of Git | https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git ;; Anthropic: Claude Code overview | https://code.claude.com/docs/en/overview ;; GitHub Docs: GitHub Copilot on GitHub.com | https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github
-updated: 2026-10-11
+sources: OpenAI: Codex for code generation | https://developers.openai.com/api/docs/guides/code-generation ;; Git: A short history of Git | https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git ;; Anthropic: Claude Code overview | https://code.claude.com/docs/en/overview ;; GitHub Docs: GitHub Copilot on GitHub.com | https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github
+updated: 2026-10-15
 about: Search engine optimization | https://en.wikipedia.org/wiki/Search_engine_optimization ;; Git | https://en.wikipedia.org/wiki/Git ;; Version control | https://en.wikipedia.org/wiki/Version_control
 mentions: GitHub | https://en.wikipedia.org/wiki/GitHub ;; GitHub Copilot | https://en.wikipedia.org/wiki/GitHub_Copilot ;; Claude | https://en.wikipedia.org/wiki/Claude_(language_model) ;; OpenAI Codex | https://en.wikipedia.org/wiki/OpenAI_Codex ;; ChatGPT | https://en.wikipedia.org/wiki/ChatGPT ;; Yoast | https://en.wikipedia.org/wiki/Yoast ;; Concurrent Versions System | https://en.wikipedia.org/wiki/Concurrent_Versions_System ;; Apache Subversion | https://en.wikipedia.org/wiki/Apache_Subversion ;; Linus Torvalds | https://en.wikipedia.org/wiki/Linus_Torvalds ;; Code review | https://en.wikipedia.org/wiki/Code_review ;; Schema.org | https://en.wikipedia.org/wiki/Schema.org
 ---
@@ -28,7 +28,7 @@ mentions: GitHub | https://en.wikipedia.org/wiki/GitHub ;; GitHub Copilot | http
 </ul>
 
 <h2>What AI coding assistants add</h2>
-<p>A medium sized site can have thousands of files. Reading them used to be the developer's job alone. Now AI coding assistants such as Anthropic's Claude Code, GitHub Copilot, and OpenAI's Codex can read an entire codebase, explain how it's organized, trace a problem to the files that cause it, and draft the change. GitHub describes Copilot planning changes, editing code, running tests, and reviewing pull requests. Claude Code works the same way from a terminal.</p>
+<p>A medium sized site can have thousands of files. Reading them used to be the developer's job alone. Now AI coding assistants such as OpenAI Codex, Claude Code, and GitHub Copilot can read an entire codebase, explain how it's organized, trace a problem to the files that cause it, and draft the change. GitHub describes Copilot planning changes, editing code, running tests, and reviewing pull requests. Claude Code works the same way from a terminal.</p>
 <p>That puts an SEO who knows what to look for within reach of answers that used to take a developer a week. Two examples from my own client work:</p>
 <ul>
   <li>During <a href="{root}case-studies/clinic-migration/">a clinic's move from WordPress to Next.js</a>, a read only analysis of the repository with an AI coding assistant found thousands of image references still pointing at the old media library and traced them to a handful of central files. The developer got a short, concrete plan.</li>
@@ -37,6 +37,7 @@ mentions: GitHub | https://en.wikipedia.org/wiki/GitHub ;; GitHub Copilot | http
 <p>The assistant is fast, tireless, and sometimes confidently wrong. The skill is knowing what search engines need, asking the right questions of the code, and checking every answer. AI doesn't replace that judgment; it multiplies it.</p>
 
 <h2>How I work in a client's repository</h2>
+<p>I work primarily with Codex and Claude Code, and also use Copilot. The repository, the written brief, and the checks carry the work between assistants, so the process does not depend on a single AI provider.</p>
 <ol>
   <li><strong>Read only first.</strong> I start with read access, map the templates and routes, and compare the code to what crawlers actually see.</li>
   <li><strong>Findings tied to files.</strong> Every issue comes with the file and line that cause it, so your developer can act without guessing.</li>

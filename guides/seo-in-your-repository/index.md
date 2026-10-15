@@ -1,10 +1,10 @@
-> An SEO who can read your codebase and work with Claude Code, Copilot, or ChatGPT fixes causes in templates, not symptoms page by page. What to expect and ask.
+> An SEO using OpenAI Codex, Claude Code, or GitHub Copilot can trace search problems to the files that cause them. What repository access and review should mean.
 >
-> Source: https://christopherabraham.com/guides/seo-in-your-repository/ · Updated 2026-10-11 · By Christopher Abraham
+> Source: https://christopherabraham.com/guides/seo-in-your-repository/ · Updated 2026-10-15 · By Christopher Abraham
 
 # Why your SEO should work in your Git repository, with AI at their side
 
-By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 11, 2026
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 11, 2026 · Updated October 15, 2026
 
 Most SEO stops at the admin screen: plugin settings, a crawler export, a spreadsheet of recommendations. Your website doesn't live in the admin screen. If it was built by developers, it lives in a code repository, and that's where its search problems are caused and where they get fixed. An SEO who can work in the repository, with an AI coding assistant doing the heavy reading, fixes causes instead of reporting symptoms. That's how I work, and here is what it means for you.
 
@@ -27,7 +27,7 @@ When the SEO can read that code, the work changes:
 
 ## What AI coding assistants add
 
-A medium sized site can have thousands of files. Reading them used to be the developer's job alone. Now AI coding assistants such as Anthropic's Claude Code, GitHub Copilot, and OpenAI's Codex can read an entire codebase, explain how it's organized, trace a problem to the files that cause it, and draft the change. GitHub describes Copilot planning changes, editing code, running tests, and reviewing pull requests. Claude Code works the same way from a terminal.
+A medium sized site can have thousands of files. Reading them used to be the developer's job alone. Now AI coding assistants such as OpenAI Codex, Claude Code, and GitHub Copilot can read an entire codebase, explain how it's organized, trace a problem to the files that cause it, and draft the change. GitHub describes Copilot planning changes, editing code, running tests, and reviewing pull requests. Claude Code works the same way from a terminal.
 
 That puts an SEO who knows what to look for within reach of answers that used to take a developer a week. Two examples from my own client work:
 - During [a clinic's move from WordPress to Next.js](https://christopherabraham.com/case-studies/clinic-migration/), a read only analysis of the repository with an AI coding assistant found thousands of image references still pointing at the old media library and traced them to a handful of central files. The developer got a short, concrete plan.
@@ -36,6 +36,8 @@ That puts an SEO who knows what to look for within reach of answers that used to
 The assistant is fast, tireless, and sometimes confidently wrong. The skill is knowing what search engines need, asking the right questions of the code, and checking every answer. AI doesn't replace that judgment; it multiplies it.
 
 ## How I work in a client's repository
+
+I work primarily with Codex and Claude Code, and also use Copilot. The repository, the written brief, and the checks carry the work between assistants, so the process does not depend on a single AI provider.
 1. **Read only first.** I start with read access, map the templates and routes, and compare the code to what crawlers actually see.
 2. **Findings tied to files.** Every issue comes with the file and line that cause it, so your developer can act without guessing.
 3. **Small pull requests.** When you want me to make changes, each one is a separate branch with a clear description, reviewed by your developer before it merges.
@@ -64,6 +66,7 @@ If you'd rather have this done than do it yourself, it's exactly the work I do f
 Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
 ## Sources
+- [OpenAI: Codex for code generation](https://developers.openai.com/api/docs/guides/code-generation)
 - [Git: A short history of Git](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
 - [Anthropic: Claude Code overview](https://code.claude.com/docs/en/overview)
 - [GitHub Docs: GitHub Copilot on GitHub.com](https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github)

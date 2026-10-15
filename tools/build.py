@@ -248,7 +248,7 @@ dd { margin: .2rem 0 0 0; }
 
 KNOWS = ["Search engine optimization", "Technical SEO", "SEO audits", "Indexing", "Google Search Console",
          "Bing Webmaster Tools", "JavaScript SEO", "Core Web Vitals", "Cloudflare", "Schema markup", "Structured data",
-         "Answer engine optimization", "Generative engine optimization", "AI search", "llms.txt",
+         "Answer engine optimization", "Generative engine optimization", "AI search", "llms.txt", "OpenAI Codex", "Claude Code", "GitHub Copilot", "Gemini", "Grok", "Perplexity",
          "301 redirects", "Website migrations", "WordPress", "Yoast SEO", "Rank Math", "Shopify", "WooCommerce",
          "Magento", "Local SEO", "Google Business Profile", "Internal linking", "Metadata"]
 ENGLISH_SPEAKING = [("Country", "United States", "US"), ("Country", "Canada", "CA"), ("Country", "United Kingdom", "GB"),
@@ -307,7 +307,7 @@ PERSON = {
     "nationality": {"@type": "Country", "name": "United States"}, "knowsLanguage": "en",
     "hasOccupation": {"@type": "Occupation", "name": "SEO consultant",
                       "occupationLocation": {"@type": "Country", "name": "United States"},
-                      "skills": "Technical SEO, indexing, Google Search Console, schema, Core Web Vitals, migrations, AI search"},
+                      "skills": "Technical SEO, indexing, Google Search Console, schema, Core Web Vitals, migrations, AI search, OpenAI Codex, Claude Code, GitHub Copilot"},
     "knowsAbout": KNOWS,
     "email": EMAIL, "telephone": "+1-202-352-5051",
     "sameAs": PROFILES,

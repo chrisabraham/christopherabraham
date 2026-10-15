@@ -1,6 +1,6 @@
 > I crawl every URL on your site, trace each problem to the template, component, or script behind it, fix the cause once, then crawl again to prove it held.
 >
-> Source: https://christopherabraham.com/services/sitewide-technical-seo/ · Updated 2026-10-13 · By Christopher Abraham
+> Source: https://christopherabraham.com/services/sitewide-technical-seo/ · Updated 2026-10-15 · By Christopher Abraham
 
 # Sitewide technical SEO: crawl, trace, fix, recrawl
 
@@ -23,7 +23,7 @@ A sample of fifty pages tells you what fifty pages look like. The expensive prob
 
 ## From a crawl row to its cause
 
-A row in a crawl export is a symptom. The cause is a file. When I have access to the codebase, I use Claude Code and Codex to read it, find which component writes the faulty title or the extra heading, and draft small scripts that test for the problem across the site. Those assistants are quick and occasionally wrong, so every claim they make gets checked against the live site before it goes into a finding. My guide to [doing SEO inside your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/) explains the approach in more detail.
+A row in a crawl export is a symptom. The cause is a file. When I have access to the codebase, I use OpenAI Codex and Claude Code to read it, find which component writes the faulty title or the extra heading, and draft small scripts that test for the problem across the site. Those assistants are quick and occasionally wrong, so every claim they make gets checked against the live site before it goes into a finding. My guide to [doing SEO inside your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/) explains the approach in more detail.
 
 ## How fixes reach the site
 
@@ -52,7 +52,7 @@ If you're searching for someone to do this, the labels you'll see are technical 
 
 ## Tools
 
-Screaming Frog SEO Spider with JavaScript rendering, near duplicate detection, and custom extraction; Playwright for scripted headless Chrome; Claude Code and Codex for reading and testing codebases; Google Search Console; and Bing Webmaster Tools.
+Screaming Frog SEO Spider with JavaScript rendering, near duplicate detection, and custom extraction; Playwright for scripted headless Chrome; OpenAI Codex and Claude Code for reading and testing codebases; Google Search Console; and Bing Webmaster Tools.
 
 ## Who it suits
 
@@ -64,4 +64,4 @@ This sweep draws on several narrower services: the [technical SEO audit](https:/
 
 To start, [send me your site and what's bothering you about it](https://christopherabraham.com/contact/), or see how engagements run on [Hire Me](https://christopherabraham.com/hire-me/).
 
-Updated October 13, 2026
+Updated October 15, 2026

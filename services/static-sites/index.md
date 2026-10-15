@@ -1,10 +1,10 @@
-> Fast static websites on GitHub Pages and Cloudflare, built with Claude Code and held to SEO checks on every build. No plugins, no database, nothing to patch.
+> Static websites on GitHub Pages and Cloudflare, built with OpenAI Codex and Claude Code. Every build checks SEO, links, and copy before the site publishes.
 >
-> Source: https://christopherabraham.com/services/static-sites/ · Updated 2026-10-14 · By Christopher Abraham
+> Source: https://christopherabraham.com/services/static-sites/ · Updated 2026-10-15 · By Christopher Abraham
 
 # Static websites built for search
 
-A static website is a folder of finished HTML files. Nothing runs when a visitor arrives, so pages load fast, nothing can be hacked through a login screen, and hosting costs next to nothing. I build them with Claude Code, Anthropic's AI coding assistant, and every build has to pass the same SEO checks I'd run on a client's site before it can publish.
+A static website is a folder of finished HTML files. Nothing runs when a visitor arrives, so pages load fast, nothing can be hacked through a login screen, and hosting costs next to nothing. I build them with OpenAI Codex and Claude Code, and every build has to pass the same SEO checks I'd run on a client's site before it can publish.
 
 ## Proof you're reading
 
@@ -36,4 +36,4 @@ A podcast feed is a natural source for a static site, with a page per episode ad
 
 A fixed-scope build quoted after a short call, or a migration scoped from an inventory of your current site. Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
 
-Updated October 14, 2026
+Updated October 15, 2026

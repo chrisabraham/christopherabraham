@@ -1,6 +1,6 @@
 > The standards behind this site: firsthand experience, primary sources, how AI tools are used and checked, anonymized clients, corrections, no paid placements.
 >
-> Source: https://christopherabraham.com/about/editorial-policy/ · Updated 2026-10-06 · By Christopher Abraham
+> Source: https://christopherabraham.com/about/editorial-policy/ · Updated 2026-10-15 · By Christopher Abraham
 
 # How these pages are written and checked
 
@@ -15,6 +15,8 @@ The case studies describe engagements I worked on myself: the problem, my role, 
 Where a guide states how Google, Bing, a standard, or a protocol behaves, it links to the primary documentation: Google Search Central, Bing Webmaster Guidelines, the W3C's accessibility standards, the RFCs that define email records, and the specifications for files like llms.txt. Those links are listed under "Sources" at the end of each guide, and in the page's structured data as citations. When the official documentation and common practice disagree, I say so.
 
 ## How I use AI tools
+
+My workflow is platform agnostic. OpenAI Codex and Claude Code do most of my coding work; I also use GitHub Copilot, Gemini, Grok, and sometimes Perplexity for assistance with research, writing, and checking ideas. A tool gets chosen for the task, and I remain responsible for the result.
 
 I use AI assistants the way I'd use a capable junior colleague: to draft outlines and first passes, to check code and markup, and to build and test this site's generator. I don't publish anything they produce until I've read it, corrected it, and checked its claims. Two rules are absolute:
 - **Personal and biographical details come only from my own records** and verifiable published sources, never from an AI summary. AI search tools have confidently told the world things about me that aren't true, and none of those get a second life here.
@@ -45,4 +47,4 @@ If you find an error, email [cja@well.com](mailto:cja@well.com) with the page an
 
 This is a one-person practice. My background, credentials, and the third-party sources that confirm them are on the [About page](https://christopherabraham.com/about/), and the life behind the work is [off the clock](https://christopherabraham.com/about/off-the-clock/). You can also find me on [Upwork](https://www.upwork.com/freelancers/chrisjabraham) and [LinkedIn](https://www.linkedin.com/in/chrisabraham), or [get in touch directly](https://christopherabraham.com/contact/).
 
-Updated October 6, 2026
+Updated October 15, 2026

@@ -2,7 +2,7 @@ name: Sitewide Technical SEO
 title: Sitewide technical SEO: every URL crawled, fixed, rechecked
 description: I crawl every URL on your site, trace each problem to the template, component, or script behind it, fix the cause once, then crawl again to prove it held.
 keywords: technical SEO, sitewide SEO audit, SEO engineering, technical SEO implementation, Next.js SEO, SEO QA
-updated: 2026-10-13
+updated: 2026-10-15
 ---
 <h1>Sitewide technical SEO: crawl, trace, fix, recrawl</h1>
 <p class="lead">This is the deep tissue work. I crawl every URL your site serves, group what I find by the template, component, or import script that produces it, fix that cause once, and then crawl the whole site again to show the fix held everywhere it should. You get fewer, larger fixes, and proof that each one landed.</p>
@@ -24,7 +24,7 @@ updated: 2026-10-13
 </ul>
 
 <h2>From a crawl row to its cause</h2>
-<p>A row in a crawl export is a symptom. The cause is a file. When I have access to the codebase, I use Claude Code and Codex to read it, find which component writes the faulty title or the extra heading, and draft small scripts that test for the problem across the site. Those assistants are quick and occasionally wrong, so every claim they make gets checked against the live site before it goes into a finding. My guide to <a href="{root}guides/seo-in-your-repository/">doing SEO inside your Git repository</a> explains the approach in more detail.</p>
+<p>A row in a crawl export is a symptom. The cause is a file. When I have access to the codebase, I use OpenAI Codex and Claude Code to read it, find which component writes the faulty title or the extra heading, and draft small scripts that test for the problem across the site. Those assistants are quick and occasionally wrong, so every claim they make gets checked against the live site before it goes into a finding. My guide to <a href="{root}guides/seo-in-your-repository/">doing SEO inside your Git repository</a> explains the approach in more detail.</p>
 
 <h2>How fixes reach the site</h2>
 <p>There are three routes, and I'll use whichever your setup allows:</p>
@@ -52,7 +52,7 @@ updated: 2026-10-13
 <p>If you're searching for someone to do this, the labels you'll see are technical SEO, technical SEO implementation, SEO engineering, and SEO QA. On sites built in React or Next.js it goes by JavaScript SEO, Next.js SEO, or headless SEO, and covers rendering (SSR, SSG, CSR, and hydration). The underlying checks are crawlability, indexability, canonicalization, duplicate and near duplicate content, heading hierarchy, template level SEO, internal linking, structured data and JSON-LD for entity SEO, Core Web Vitals (LCP, INP, and CLS), and site migrations with redirect mapping. Newer labels for the AI side are GEO and AEO, which includes making sure AI crawlers such as GPTBot, ClaudeBot, and PerplexityBot can read your pages. I do it in Git, through pull requests and deploy previews. I don't do paid search; this is all organic.</p>
 
 <h2>Tools</h2>
-<p>Screaming Frog SEO Spider with JavaScript rendering, near duplicate detection, and custom extraction; Playwright for scripted headless Chrome; Claude Code and Codex for reading and testing codebases; Google Search Console; and Bing Webmaster Tools.</p>
+<p>Screaming Frog SEO Spider with JavaScript rendering, near duplicate detection, and custom extraction; Playwright for scripted headless Chrome; OpenAI Codex and Claude Code for reading and testing codebases; Google Search Console; and Bing Webmaster Tools.</p>
 
 <h2>Who it suits</h2>
 <p>Sites with hundreds or thousands of URLs built from a handful of templates: ecommerce catalogs, publishers, directories, and businesses on Next.js, React, or a headless CMS whose team will grant read access to the repository. It also suits WordPress and Shopify sites where a theme or plugin is quietly repeating the same mistake on every page.</p>
