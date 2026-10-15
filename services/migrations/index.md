@@ -39,4 +39,6 @@ If traffic fell after a migration, the old site is usually the best evidence. I 
 
 My rules for redirects are in [ten rules for 301 redirects](https://christopherabraham.com/guides/redirect-rules/). Examples: [a clinic's move from WordPress to Next.js](https://christopherabraham.com/case-studies/clinic-migration/) and [cleaning up after a Squarespace to Shopify move](https://christopherabraham.com/case-studies/shopify-cleanup/).
 
+A move also needs a decision about every image and downloadable document. My [media migration inventory guide](https://christopherabraham.com/guides/media-migration/) covers those dependencies, and [SEO release QA](https://christopherabraham.com/services/seo-release-qa/) provides a focused acceptance review for a named launch.
+
 Updated October 6, 2026

@@ -44,6 +44,8 @@ Open Search Console's performance report, filter to the cluster's pages, and loo
 
 I plan clusters from real buyer questions, find the pages already competing with each other, and decide what to merge, rewrite, or add. If your site has grown by accretion and you suspect it is splitting its own signals, [send me the domain](https://christopherabraham.com/contact/) and I'll tell you where I would start.
 
+Once the questions and their pages are mapped, the [internal linking guide](https://christopherabraham.com/guides/internal-linking/) takes that structure down to individual sentences and destinations, with a worksheet for recording each proposed connection.
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

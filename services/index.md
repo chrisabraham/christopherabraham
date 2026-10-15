@@ -7,6 +7,8 @@
 Every service starts from the same place: find out what search engines and AI systems actually receive from your site, compare it with what you meant to publish, and close the gap. Pick the symptom closest to yours, or start with an [audit](https://christopherabraham.com/services/seo-audit/) if you aren't sure.
 
 ## Technical SEO
+- [Internal linking strategy](https://christopherabraham.com/services/internal-linking/): contextual text links, clear anchors, useful destinations, and a plan to stitch existing pages together.
+- [SEO release QA](https://christopherabraham.com/services/seo-release-qa/): independent checks of a named redesign, template update, or deployment, before and after it goes live.
 - [Sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/): every URL crawled, each problem traced to the template or code behind it, fixed once, and recrawled to prove it held.
 - [Technical SEO audit](https://christopherabraham.com/services/seo-audit/): the cause of a traffic loss or a stall, with evidence and a ranked plan.
 - [Indexing repair](https://christopherabraham.com/services/indexing/): pages stuck in "Crawled, currently not indexed," "Discovered, currently not indexed," soft 404s, and canonical conflicts.

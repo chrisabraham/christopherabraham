@@ -46,4 +46,6 @@ Pages that answer a question directly in the first paragraph, define their terms
 
 On WordPress, much of this runs through Yoast or Rank Math; see [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/). For a real example of on-page problems hiding a whole site, see [the consent banner case](https://christopherabraham.com/case-studies/consent-banner/).
 
+For a project centered on the connections between pages, see [internal linking strategy](https://christopherabraham.com/services/internal-linking/). The [link planning guide and worksheet](https://christopherabraham.com/guides/internal-linking/) show how I choose placements, anchor wording, and destinations.
+
 Updated October 6, 2026

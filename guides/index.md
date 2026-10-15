@@ -7,6 +7,7 @@
 These guides cover the questions clients ask me most, written so you can act on them yourself. Each one is self-contained, with links to related guides and to the glossary for terms.
 
 ## Indexing and audits
+- [Internal linking: stitching your pages together](https://christopherabraham.com/guides/internal-linking/): choose useful destinations, write natural anchors, check section targets, and plan the additions in a downloadable worksheet.
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
 - [Why your SEO should work in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/): fixing causes in templates instead of symptoms page by page, what AI coding assistants add, and what to ask before you hire.
 - [How to find near duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Screaming Frog settings that catch both, what heading problems really cost, and how to settle each duplicate cluster.
@@ -27,6 +28,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Topic clusters for AI search](https://christopherabraham.com/guides/topic-clusters/): one hub, one page per buyer question, and no two pages competing for the same query.
 
 ## Migrations and performance
+- [Check images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/): inventory media, inspect the new files, find old references, and record the handover.
 - [When to keep your brand name in page titles](https://christopherabraham.com/guides/brand-name-in-titles/): where the name earns its place, writing it into the sentence, checking titles after a migration, and testing the change.
 - [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/): inventories, one-to-one maps, chains, 410s, and bulk testing.
 - [SEO for sites built with AI app builders](https://christopherabraham.com/guides/ai-built-websites/): rendering, real links, per page titles, soft 404s, sitemaps, and owning the code.

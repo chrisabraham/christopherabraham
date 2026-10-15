@@ -68,6 +68,10 @@ SERVICE_GROUPS = [
     ("Platforms, local, and ongoing work", ["services/wordpress-seo/", "services/static-sites/", "services/podcast-website/", "services/ecommerce-seo/", "services/local-seo/",
                                            "services/seo-retainer/"]),
 ]
+# Additional services and guides, October 15, 2026.
+FILES += ['services/internal-linking', 'services/seo-release-qa', 'guides/internal-linking', 'guides/media-migration']
+SERVICE_GROUPS[0][1].extend(['services/internal-linking/', 'services/seo-release-qa/'])
+
 # The island rule: this site stands alone. None of these may appear in any source or generated page.
 ISLAND = [r"(?i)gerris", r"(?i)gerriscorp", r"(?i)hillmole", r"(?i)hill mole",
           r"(?i)substack"]  # "podcast" and his show allowed (owner, 2026-10-14: the show is the podcast-site case study)

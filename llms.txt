@@ -13,6 +13,8 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 - [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/index.md): Speed up a website for real visitors: Core Web Vitals diagnosis, image and script cleanup, page caching, and Cloudflare rules that still welcome crawlers.
 - [Search Console, Bing Webmaster Tools, and GA4](https://christopherabraham.com/services/search-console/index.md): Set up and clean up Google Search Console, Bing Webmaster Tools, and GA4 so every report is verified, accurate, owned by you, and useful for decisions.
 - [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/index.md): Plan and verify a website migration: full URL inventories, one to one 301 redirect maps, launch day checks, and recovery when a move has already lost traffic.
+- [Internal linking strategy: stitch your website together](https://christopherabraham.com/services/internal-linking/index.md): Internal linking strategy for an established website: contextual text links, descriptive anchors, orphan page recovery, useful hubs, and a measured rollout.
+- [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/index.md): Independent SEO checks before and after a website release: rendering, indexing signals, redirects, media, and evidence your developer can act on.
 
 ## AI search, schema, and content
 
@@ -76,6 +78,8 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 - [Topic clusters for AI search, without your pages competing with each other](https://christopherabraham.com/guides/topic-clusters/index.md): Plan a hub page and one page per buyer question so AI fan out searches find a match for every subtopic, and keep your pages from competing for one query.
 - [How to load Google Analytics 4 without hurting PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/index.md): On a fast static site, gtag.js caused most of the blocking time. Loading it after the first scroll or tap took mobile Lighthouse to 100. How, and the cost.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/index.md): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
+- [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/index.md): Build useful paths through your existing pages with contextual links, clear anchor text, working section targets, and an internal linking worksheet.
+- [Moving a website? Check its images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/index.md): Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.
 
 ## About and working together
 

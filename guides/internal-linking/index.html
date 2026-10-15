@@ -1,0 +1,879 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Internal linking: stitch your website together with text</title>
+<meta name="description" content="Build useful paths through your existing pages with contextual links, clear anchor text, working section targets, and an internal linking worksheet.">
+<meta name="keywords" content="internal linking strategy, contextual internal links, anchor text, orphan page audit, internal link worksheet">
+<link rel="canonical" href="https://christopherabraham.com/guides/internal-linking/">
+<meta name="author" content="Christopher Abraham">
+<link rel="icon" href="../../logo.png" type="image/png">
+<link rel="apple-touch-icon" href="../../logo.png">
+<link rel="manifest" href="../../manifest.webmanifest">
+<link rel="alternate" type="text/markdown" title="This page as Markdown" href="index.md">
+<link rel="alternate" type="application/rss+xml" title="SEO guides (RSS)" href="../../rss.xml">
+<link rel="alternate" type="application/atom+xml" title="SEO guides by Christopher Abraham" href="../../feed.xml">
+<link rel="alternate" type="text/plain" title="llms.txt" href="../../llms.txt">
+<link rel="sitemap" type="application/xml" href="../../sitemap.xml">
+<meta name="theme-color" content="#ffffff">
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'granted'});
+  gtag('consent', 'default', {analytics_storage: 'denied', region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"]});
+  gtag('js', new Date());
+  gtag('config', 'G-MR3P3612MM');
+  (function () {
+    // gtag.js loads on the first scroll, tap, or key, or 4 seconds after the page loads,
+    // so it never competes with the page itself. The commands above wait in dataLayer.
+    var done = false;
+    function load() {
+      if (done) return;
+      done = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-MR3P3612MM';
+      document.head.appendChild(s);
+    }
+    ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (e) { addEventListener(e, load, {once: true, passive: true}); });
+    addEventListener('load', function () { setTimeout(load, 4000); });
+  })();
+</script>
+<script type="speculationrules">{"prefetch": [{"where": {"and": [{"href_matches": "/*"}, {"not": {"href_matches": ["/*.md", "/*.txt", "/*.xml"]}}]}, "eagerness": "moderate"}]}</script>
+<link rel="me" href="https://mastodon.social/@chrisa">
+<meta property="og:site_name" content="Christopher Abraham">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Internal linking: stitch your website together with text">
+<meta property="og:description" content="Build useful paths through your existing pages with contextual links, clear anchor text, working section targets, and an internal linking worksheet.">
+<meta property="og:url" content="https://christopherabraham.com/guides/internal-linking/">
+<meta property="og:image" content="https://christopherabraham.com/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Christopher Abraham, SEO consultant: technical SEO, indexing, schema, and AI search">
+<meta property="article:published_time" content="2026-10-15">
+<meta property="article:modified_time" content="2026-10-15">
+<meta property="article:author" content="https://christopherabraham.com/about/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Internal linking: stitch your website together with text">
+<meta name="twitter:description" content="Build useful paths through your existing pages with contextual links, clear anchor text, working section targets, and an internal linking worksheet.">
+<meta name="twitter:image" content="https://christopherabraham.com/social-card.png">
+<style>
+:root { --orange: #c75000; --blue: #16729e; --teal: #237482; --text: #000; --muted: #333; --link: #284a57; --tab: #8cacbb; --bar: #dee7ec; --rule: #c8d3d8; --bg: #fff; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { margin: 0; color: var(--text); background: var(--bg); font: 18px/1.65 Verdana, "Lucida Grande", Lucida, "DejaVu Sans", Helvetica, Arial, sans-serif; }
+.wrap { max-width: 46rem; margin: 0 auto; padding: 0 1rem; }
+a { color: var(--link); text-decoration: underline; text-underline-offset: .15em; overflow-wrap: anywhere; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid #000; outline-offset: 2px; }
+img { max-width: 100%; height: auto; }
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 1rem; top: .5rem; background: #fff; padding: .5rem; z-index: 1; }
+.top { display: flex; align-items: center; gap: .9rem; padding: 1.25rem 0 .9rem; }
+.top > a { flex: none; line-height: 0; }
+.top img { width: 64px; height: 64px; max-width: none; }
+.brand { font-size: 1.6rem; font-weight: bold; color: var(--orange); text-decoration: none; }
+.brand:hover { text-decoration: underline; }
+.tag { margin: 0; color: var(--muted); font-size: .95rem; line-height: 1.4; }
+nav.tabs { border-bottom: 4px solid var(--bar); }
+nav.tabs ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .3rem; }
+nav.tabs li { margin: 0; }
+nav.tabs a { display: block; padding: .4rem .7rem; border: 1px solid var(--tab); border-bottom: none; text-decoration: none; font-size: .9rem; white-space: nowrap; }
+nav.tabs a:hover { background: var(--bar); text-decoration: underline; }
+nav.tabs a[aria-current] { background: var(--bar); color: #000; font-weight: bold; }
+.crumbs { font-size: .9rem; margin: 1rem 0 0; color: var(--muted); }
+.crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; }
+.crumbs li { margin: 0; }
+.crumbs li + li::before { content: "›"; padding: 0 .4em; }
+blockquote { margin: 0 0 1rem; padding: .25rem 0 .25rem 1rem; border-left: 4px solid var(--tab); }
+blockquote p:last-child { color: var(--muted); font-size: .9rem; }
+main { padding: 1.25rem 0 2rem; }
+h1 { color: var(--blue); font-size: 1.4rem; line-height: 1.25; margin: .25rem 0 1rem; }
+h2 { color: var(--teal); font-size: 1.3rem; line-height: 1.3; margin: 2rem 0 .5rem; }
+h3 { font-size: 1.08rem; line-height: 1.35; margin: 1.5rem 0 .4rem; }
+p, ul, ol, dl, table { margin: 0 0 1rem; }
+li { margin-bottom: .4rem; }
+.lead { font-size: 1.1rem; }
+.byline { color: var(--muted); font-size: .9rem; margin-top: -.5rem; }
+.updated { color: var(--muted); font-size: .9rem; margin-top: 2rem; }
+code { font-family: Consolas, Menlo, monospace; font-size: .92em; background: #f2f5f7; padding: 0 .2em; }
+pre { background: #f2f5f7; padding: .75rem; overflow-x: auto; font-size: .9rem; line-height: 1.45; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+th, td { border: 1px solid var(--rule); padding: .4rem .55rem; text-align: left; vertical-align: top; }
+th { background: var(--bar); }
+dt { font-weight: bold; margin-top: 1rem; }
+dd { margin: .2rem 0 0 0; }
+.portrait { float: right; width: 160px; height: 160px; margin: .25rem 0 1rem 1.25rem; border: 1px solid var(--rule); }
+.button { display: inline-block; margin: 0 .5rem .6rem 0; padding: .6rem 1.1rem; border: 2px solid var(--link); background: var(--bar); color: #000; font-weight: bold; text-decoration: none; }
+.button:hover { text-decoration: underline; }
+.author-box { display: flex; gap: 1rem; align-items: flex-start; border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: 1rem; font-size: .95rem; }
+.author-box img { width: 72px; height: 72px; flex: none; border: 1px solid var(--rule); }
+.author-box p { margin: 0; }
+.help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
+.help-box h2 { margin-top: .75rem; }
+.related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.contact li { margin-bottom: .6rem; }
+.site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
+.site-footer p { margin: 0 0 .4rem; }
+@media (max-width: 34rem) {
+  body { font-size: 17px; }
+  .top img { width: 52px; height: 52px; }
+  nav.tabs a { padding: .45rem .55rem; }
+  h1 { font-size: 1.25rem; }
+  .portrait { width: 112px; height: 112px; margin-left: 1rem; }
+}
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://christopherabraham.com/#website",
+   "url": "https://christopherabraham.com/",
+   "name": "Christopher Abraham",
+   "inLanguage": "en-US",
+   "publisher": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "publishingPrinciples": "https://christopherabraham.com/about/editorial-policy/"
+  },
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://christopherabraham.com/#service-business",
+   "name": "Christopher Abraham, SEO consultant",
+   "url": "https://christopherabraham.com/",
+   "logo": "https://christopherabraham.com/logo.png",
+   "image": "https://christopherabraham.com/social-card.png",
+   "description": "Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.",
+   "founder": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "employee": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "slogan": "Senior SEO help, from the person who does the work",
+   "email": "cja@well.com",
+   "telephone": "+1-202-352-5051",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+   },
+   "location": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.86,
+    "longitude": -77.1
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Arlington, Virginia"
+    },
+    {
+     "@type": "City",
+     "name": "Alexandria, Virginia"
+    },
+    {
+     "@type": "City",
+     "name": "Washington, District of Columbia"
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Washington, DC metropolitan area"
+    },
+    {
+     "@type": "State",
+     "name": "Virginia",
+     "containedInPlace": {
+      "@type": "Country",
+      "name": "United States"
+     }
+    },
+    {
+     "@type": "Country",
+     "name": "United States",
+     "identifier": "US"
+    },
+    {
+     "@type": "Country",
+     "name": "Canada",
+     "identifier": "CA"
+    },
+    {
+     "@type": "Country",
+     "name": "United Kingdom",
+     "identifier": "GB"
+    },
+    {
+     "@type": "Country",
+     "name": "Ireland",
+     "identifier": "IE"
+    },
+    {
+     "@type": "Country",
+     "name": "Australia",
+     "identifier": "AU"
+    },
+    {
+     "@type": "Country",
+     "name": "New Zealand",
+     "identifier": "NZ"
+    },
+    "Worldwide"
+   ],
+   "knowsLanguage": "en",
+   "knowsAbout": [
+    "Search engine optimization",
+    "Technical SEO",
+    "SEO audits",
+    "Indexing",
+    "Google Search Console",
+    "Bing Webmaster Tools",
+    "JavaScript SEO",
+    "Core Web Vitals",
+    "Cloudflare",
+    "Schema markup",
+    "Structured data",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "AI search",
+    "llms.txt",
+    "OpenAI Codex",
+    "Claude Code",
+    "GitHub Copilot",
+    "Gemini",
+    "Grok",
+    "Perplexity",
+    "301 redirects",
+    "Website migrations",
+    "WordPress",
+    "Yoast SEO",
+    "Rank Math",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Local SEO",
+    "Google Business Profile",
+    "Internal linking",
+    "Metadata"
+   ],
+   "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "value": 1
+   },
+   "contactPoint": [
+    {
+     "@type": "ContactPoint",
+     "contactType": "sales",
+     "email": "cja@well.com",
+     "telephone": "+1-202-352-5051",
+     "areaServed": [
+      "US",
+      "CA",
+      "GB",
+      "IE",
+      "AU",
+      "NZ"
+     ],
+     "availableLanguage": "English"
+    }
+   ],
+   "sameAs": [
+    "https://www.upwork.com/freelancers/chrisjabraham",
+    "https://www.linkedin.com/in/chrisabraham",
+    "https://share.google/xZ98ksFq3nhO2OvuF"
+   ],
+   "publishingPrinciples": "https://christopherabraham.com/about/editorial-policy/",
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "SEO services by Christopher Abraham",
+    "itemListElement": [
+     {
+      "@type": "OfferCatalog",
+      "name": "Technical SEO",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/sitewide-technical-seo/#service",
+         "name": "Sitewide technical SEO: crawl, trace, fix, recrawl",
+         "url": "https://christopherabraham.com/services/sitewide-technical-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-audit/#service",
+         "name": "Technical SEO audit",
+         "url": "https://christopherabraham.com/services/seo-audit/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/indexing/#service",
+         "name": "Indexing repair",
+         "url": "https://christopherabraham.com/services/indexing/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/javascript-seo/#service",
+         "name": "JavaScript and headless SEO",
+         "url": "https://christopherabraham.com/services/javascript-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/site-speed/#service",
+         "name": "Core Web Vitals and Cloudflare",
+         "url": "https://christopherabraham.com/services/site-speed/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/search-console/#service",
+         "name": "Search Console, Bing Webmaster Tools, and GA4",
+         "url": "https://christopherabraham.com/services/search-console/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/migrations/#service",
+         "name": "Site migrations and 301 redirects",
+         "url": "https://christopherabraham.com/services/migrations/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/internal-linking/#service",
+         "name": "Internal linking strategy: stitch your website together",
+         "url": "https://christopherabraham.com/services/internal-linking/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-release-qa/#service",
+         "name": "SEO release QA: check the change before it reaches every page",
+         "url": "https://christopherabraham.com/services/seo-release-qa/"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "AI search, schema, and content",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ai-search/#service",
+         "name": "AEO and GEO consulting for companies and agencies",
+         "url": "https://christopherabraham.com/services/ai-search/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/schema/#service",
+         "name": "Schema markup and entity SEO",
+         "url": "https://christopherabraham.com/services/schema/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/on-page-seo/#service",
+         "name": "On-page SEO",
+         "url": "https://christopherabraham.com/services/on-page-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/fact-checked-articles/#service",
+         "name": "Fact-checked articles written with AI",
+         "url": "https://christopherabraham.com/services/fact-checked-articles/"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "Platforms, local, and ongoing work",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/wordpress-seo/#service",
+         "name": "WordPress SEO",
+         "url": "https://christopherabraham.com/services/wordpress-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/static-sites/#service",
+         "name": "Static websites built for search",
+         "url": "https://christopherabraham.com/services/static-sites/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/podcast-website/#service",
+         "name": "Podcast website SEO",
+         "url": "https://christopherabraham.com/services/podcast-website/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ecommerce-seo/#service",
+         "name": "Ecommerce SEO",
+         "url": "https://christopherabraham.com/services/ecommerce-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/local-seo/#service",
+         "name": "Local SEO and Google Business Profile",
+         "url": "https://christopherabraham.com/services/local-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-retainer/#service",
+         "name": "Monthly SEO retainer",
+         "url": "https://christopherabraham.com/services/seo-retainer/"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://christopherabraham.com/#person",
+   "name": "Christopher Abraham",
+   "givenName": "Christopher",
+   "additionalName": "James",
+   "familyName": "Abraham",
+   "alternateName": [
+    "Christopher James Abraham",
+    "Chris Abraham"
+   ],
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://christopherabraham.com/christopher-abraham.jpg",
+    "width": 225,
+    "height": 225,
+    "caption": "Christopher Abraham, SEO consultant"
+   },
+   "url": "https://christopherabraham.com/",
+   "jobTitle": "SEO consultant",
+   "worksFor": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "description": "Christopher Abraham is an independent SEO consultant in Arlington, Virginia, building websites since 1994 and doing SEO since 1998.",
+   "alumniOf": [
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "The George Washington University",
+     "sameAs": "https://en.wikipedia.org/wiki/George_Washington_University"
+    },
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "University of East Anglia",
+     "sameAs": "https://en.wikipedia.org/wiki/University_of_East_Anglia"
+    },
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "University of Hawaiʻi at Mānoa"
+    },
+    {
+     "@type": "EducationalOrganization",
+     "name": "Goethe-Institut"
+    },
+    {
+     "@type": "HighSchool",
+     "name": "Saint Louis School, Honolulu"
+    },
+    {
+     "@type": "ElementarySchool",
+     "name": "Aliamanu Elementary School, Honolulu"
+    }
+   ],
+   "affiliation": [
+    {
+     "@type": "Organization",
+     "name": "Meritus Media",
+     "url": "https://meritusmedia.com/",
+     "description": "Digital PR and marketing agency"
+    },
+    {
+     "@type": "Organization",
+     "name": "Stainless Communications",
+     "url": "https://stainlesscommunications.com/",
+     "description": "Senior-led brand, PR, web, and growth firm"
+    }
+   ],
+   "memberOf": [
+    {
+     "@type": "Organization",
+     "name": "Naval Lodge No. 4, F.A.A.M.",
+     "description": "Masonic lodge on Capitol Hill, Washington, DC, chartered 1805"
+    },
+    {
+     "@type": "Organization",
+     "name": "Scottish Rite of Freemasonry, Southern Jurisdiction",
+     "description": "32nd degree"
+    },
+    {
+     "@type": "Organization",
+     "name": "Phi Kappa Psi, DC Alpha chapter",
+     "description": "Founding father"
+    },
+    {
+     "@type": "Organization",
+     "name": "The WELL",
+     "url": "https://www.well.com/"
+    }
+   ],
+   "award": [
+    "Top Rated on Upwork"
+   ],
+   "homeLocation": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "workLocation": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "nationality": {
+    "@type": "Country",
+    "name": "United States"
+   },
+   "knowsLanguage": "en",
+   "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SEO consultant",
+    "occupationLocation": {
+     "@type": "Country",
+     "name": "United States"
+    },
+    "skills": "Technical SEO, indexing, Google Search Console, schema, Core Web Vitals, migrations, AI search, OpenAI Codex, Claude Code, GitHub Copilot"
+   },
+   "knowsAbout": [
+    "Search engine optimization",
+    "Technical SEO",
+    "SEO audits",
+    "Indexing",
+    "Google Search Console",
+    "Bing Webmaster Tools",
+    "JavaScript SEO",
+    "Core Web Vitals",
+    "Cloudflare",
+    "Schema markup",
+    "Structured data",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "AI search",
+    "llms.txt",
+    "OpenAI Codex",
+    "Claude Code",
+    "GitHub Copilot",
+    "Gemini",
+    "Grok",
+    "Perplexity",
+    "301 redirects",
+    "Website migrations",
+    "WordPress",
+    "Yoast SEO",
+    "Rank Math",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Local SEO",
+    "Google Business Profile",
+    "Internal linking",
+    "Metadata"
+   ],
+   "email": "cja@well.com",
+   "telephone": "+1-202-352-5051",
+   "sameAs": [
+    "https://www.upwork.com/freelancers/chrisjabraham",
+    "https://www.linkedin.com/in/chrisabraham",
+    "https://chrisabraham.com/",
+    "https://biznology.com/author/chrisabraham/",
+    "https://www.huffpost.com/author/chris-abraham",
+    "https://muckrack.com/chrisabraham",
+    "https://rheingold.com/Associates/team_abraham.html",
+    "https://www.reddit.com/user/chrisabraham/",
+    "https://mastodon.social/@chrisa",
+    "https://adage.com/author/chris-abraham/1797"
+   ]
+  },
+  {
+   "@type": "Place",
+   "@id": "https://christopherabraham.com/#place",
+   "name": "Arlington, Virginia",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.86,
+    "longitude": -77.1
+   },
+   "containedInPlace": {
+    "@type": "AdministrativeArea",
+    "name": "Arlington County, Virginia",
+    "containedInPlace": {
+     "@type": "State",
+     "name": "Virginia"
+    }
+   }
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://christopherabraham.com/guides/internal-linking/#webpage",
+   "url": "https://christopherabraham.com/guides/internal-linking/",
+   "name": "Internal linking: stitch your website together with text",
+   "description": "Build useful paths through your existing pages with contextual links, clear anchor text, working section targets, and an internal linking worksheet.",
+   "isPartOf": {
+    "@id": "https://christopherabraham.com/#website"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "internal linking strategy"
+    },
+    {
+     "@type": "Thing",
+     "name": "contextual internal links"
+    },
+    {
+     "@type": "Thing",
+     "name": "anchor text"
+    },
+    {
+     "@type": "Thing",
+     "name": "orphan page audit"
+    },
+    {
+     "@type": "Thing",
+     "name": "internal link worksheet"
+    }
+   ],
+   "primaryImageOfPage": "https://christopherabraham.com/social-card.png",
+   "inLanguage": "en-US",
+   "dateModified": "2026-10-15",
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "keywords": "internal linking strategy, contextual internal links, anchor text, orphan page audit, internal link worksheet",
+   "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+     "h1",
+     ".lead"
+    ]
+   },
+   "potentialAction": {
+    "@type": "ReadAction",
+    "target": "https://christopherabraham.com/guides/internal-linking/"
+   },
+   "breadcrumb": {
+    "@id": "https://christopherabraham.com/guides/internal-linking/#breadcrumb"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://christopherabraham.com/guides/internal-linking/#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://christopherabraham.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Guides",
+     "item": "https://christopherabraham.com/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Internal Linking",
+     "item": "https://christopherabraham.com/guides/internal-linking/"
+    }
+   ]
+  },
+  {
+   "@type": "TechArticle",
+   "@id": "https://christopherabraham.com/guides/internal-linking/#article",
+   "headline": "Internal linking: stitching your pages into a useful website",
+   "description": "Build useful paths through your existing pages with contextual links, clear anchor text, working section targets, and an internal linking worksheet.",
+   "url": "https://christopherabraham.com/guides/internal-linking/",
+   "mainEntityOfPage": {
+    "@id": "https://christopherabraham.com/guides/internal-linking/#webpage"
+   },
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "publisher": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "datePublished": "2026-10-15",
+   "dateModified": "2026-10-15",
+   "image": "https://christopherabraham.com/social-card.png",
+   "inLanguage": "en-US",
+   "wordCount": 975,
+   "citation": [
+    {
+     "@type": "CreativeWork",
+     "name": "Google Search Central: Link best practices",
+     "url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Google Search Central: Help Google understand your ecommerce site structure",
+     "url": "https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure"
+    }
+   ],
+   "keywords": "internal linking strategy, contextual internal links, anchor text, orphan page audit, internal link worksheet"
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+<header class="top">
+  <a href="../../"><img src="../../logo-128.png" width="64" height="64" alt="Christopher Abraham home" fetchpriority="high"></a>
+  <div>
+    <a class="brand" href="../../">Christopher Abraham</a>
+    <p class="tag">SEO consultant: technical SEO, indexing, schema, and AI search</p>
+  </div>
+</header>
+<nav class="tabs" aria-label="Main">
+  <ul>
+    <li><a href="../../">Home</a></li>
+    <li><a href="../../services/">Services</a></li>
+    <li><a href="../../guides/" aria-current="true">Guides</a></li>
+    <li><a href="../../case-studies/">Case Studies</a></li>
+    <li><a href="../../about/">About</a></li>
+    <li><a href="../../hire-me/">Hire Me</a></li>
+    <li><a href="../../contact/">Contact</a></li>
+  </ul>
+</nav>
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../../guides/">Guides</a></li><li aria-current="page">Internal Linking</li></ol></nav>
+<main id="main">
+<h1>Internal linking: stitching your pages into a useful website</h1>
+<p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-15">October 15, 2026</time></p>
+<p class="lead">A visitor arrives on one page. That page can either end the visit or give them a sensible next step into the rest of your work. Internal linking is how individual pages become a website: a connected body of explanations, services, examples, and answers. The opportunities are often already there, waiting for a sentence that joins them.</p>
+
+<h2>Start with the destination, then find its neighbors</h2>
+<p>Choose a page that deserves to be found: a service with a clear offer, a substantial guide, or a category that helps a buyer narrow the choices. Read it first. Write down which questions it answers and who would benefit from reading it. Then look for other pages where those questions arise naturally.</p>
+<p>For example, an article about missing product specifications creates a reason to explain how JavaScript rendering works. A page about moving an old blog creates a reason to visit a redirect guide. The connection follows the subject and the reader's next question. A shared keyword alone is not enough to establish that relationship.</p>
+
+<h2>Use a crawl and a content inventory together</h2>
+<p>A crawl shows the pages reachable through the paths it followed. A CMS export, sitemap, or approved list of production URLs can expose pages absent from that crawl. Compare the lists and investigate the difference. A page missing from a crawl may be orphaned, blocked, redirected, or simply outside the crawl's settings; the label needs checking before it becomes a task.</p>
+<p>Record the pages worth retaining and the destinations visitors should reach from them. The <a href="../../downloads/internal-link-plan.csv">internal link planning worksheet</a> has columns for source, target, placement, anchor wording, reason, and verification. Its sample addresses are invented. A working copy should describe real paragraphs on real pages, not a list of hoped for keywords.</p>
+
+<h2>Write the sentence before inserting the link</h2>
+<p>A useful editing test is to read the paragraph aloud with the link treated as ordinary text. Does the sentence still make sense? Does the phrase describe what somebody will find? If the destination takes a whole explanation to justify, move the link to a place where the subject is already being discussed.</p>
+<p>Google's link guidance favors descriptive, concise, relevant anchor text and contextual connections between pages. It does not prescribe a magic number of links. In practice, I look for an actual reason for every addition. The destination's topic matters more than fitting an exact phrase into every sentence.</p>
+<table>
+<thead><tr><th scope="col">Where the reader is</th><th scope="col">A useful next destination</th><th scope="col">Possible anchor wording</th></tr></thead>
+<tbody>
+<tr><th scope="row">A migration overview</th><td>A detailed media move checklist</td><td>check images and PDFs before retiring the old host</td></tr>
+<tr><th scope="row">A service description</th><td>A relevant account of completed work</td><td>how the event links investigation unfolded</td></tr>
+<tr><th scope="row">A diagnostic guide</th><td>A service that handles the same problem</td><td>independent SEO review of the release</td></tr>
+<tr><th scope="row">A long reference page</th><td>A specific section of another guide</td><td>the section on checking destination URLs</td></tr>
+</tbody>
+</table>
+
+<h2>Give anchors real targets</h2>
+<p>The word anchor can mean the text someone clicks, or a named section inside a page. Both deserve attention. A link to a whole page should point to the intended production URL. A section link adds a fragment such as <code>#checking-destinations</code>, which should match an actual element ID on that destination.</p>
+<p>A section link helps someone arrive at the relevant part of a long document. It does not create a separate article. Keep the identifier stable when a heading is edited, and check it after a template or CMS change. A working page address with a missing fragment can still drop the visitor at the top, far from the promised answer.</p>
+
+<h2>Check the markup and the route</h2>
+<p>Google's crawlable link examples use anchor elements with valid <code>href</code> values. Inspect what your template emits, especially when navigation depends on JavaScript. A card that reacts to a click can look like a link without providing the same route in the HTML. The <a href="../../guides/seo-in-your-repository/">repository guide</a> explains how to trace that behavior back to the component.</p>
+<p>Follow each proposed destination and record its final address. Avoid sending a new link through an old redirect when the final page is known. Check that the destination is the intended version and that its indexing signals agree with its role. Adding more routes to an accidental duplicate only adds another problem to untangle.</p>
+
+<h2>Keep hubs and editorial links doing useful jobs</h2>
+<p>A hub gives people an overview of related material. A contextual link helps at the moment a particular question arises. They can support each other: a clear index introduces the topic, while the detailed pages provide the next connections. The <a href="../../guides/topic-clusters/">topic cluster guide</a> covers choosing distinct questions for those pages.</p>
+<p>For a shop, think about routes between categories, subcategories, and products as well as editorial content. Google's ecommerce structure guidance discusses linking through that hierarchy. The practical question is whether a shopper can navigate to the relevant item without having to guess the phrase your search box expects.</p>
+
+<h2>Verify additions before reporting results</h2>
+<p>Keep a before and after record of the changed source pages. Check that the links appear in the agreed locations, open their destinations, and land at the expected sections. Crawl again with comparable settings to inspect incoming links and changes to discovery. If you changed a shared component, sample its different uses rather than assuming one good page represents them all.</p>
+<p>After the links are live, watch the destination pages over time and keep other changes in the record. Discovery and a successful fetch can be observed separately from indexing or traffic. This makes the result useful even when search takes time to respond, because the team can see exactly which connections were added.</p>
+
+<p>I offer <a href="../../services/internal-linking/">internal linking strategy and implementation</a> as a focused engagement. A good first brief is the site address, the pages that matter most to the business, and the parts of the archive that visitors rarely find.</p>
+<aside class="help-box" aria-label="Get help">
+  <h2>Let me help you with this</h2>
+  <p>If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.</p>
+  <p><a class="button" href="https://calendly.com/chrisabraham/30">Book a 30 minute call</a> <a class="button" href="tel:+12023525051">Call +1 202-352-5051</a> <a class="button" href="mailto:cja@well.com">Email cja@well.com</a></p>
+  <p>Prefer to hire through Upwork? I'm <a href="https://www.upwork.com/freelancers/chrisjabraham">Top Rated there too</a>.</p>
+</aside>
+<h2>Sources</h2>
+<ul class="sources">
+  <li><a href="https://developers.google.com/search/docs/crawling-indexing/links-crawlable">Google Search Central: Link best practices</a></li>
+  <li><a href="https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure">Google Search Central: Help Google understand your ecommerce site structure</a></li>
+</ul>
+<aside class="author-box" aria-label="About the author">
+  <img src="../../christopher-abraham.jpg" width="72" height="72" alt="">
+  <p><strong><a href="../../about/">Christopher Abraham</a></strong> is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. <a href="../../about/editorial-policy/">How these pages are written</a> · <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a> · <a href="https://www.upwork.com/freelancers/chrisjabraham">Upwork</a></p>
+</aside>
+</main>
+<footer class="site-footer">
+  <p><a href="mailto:cja@well.com">cja@well.com</a> · <a href="tel:+12023525051">+1 202-352-5051</a> · <a href="https://calendly.com/chrisabraham/30">Book a call</a> · <a href="https://www.upwork.com/freelancers/chrisjabraham">Hire me on Upwork</a> · <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a></p>
+  <p>© 2026 Christopher Abraham, Arlington, Virginia · <a href="../../faq/">FAQ</a> · <a href="../../about/editorial-policy/">How I write</a> · <a href="../../privacy/">Privacy</a> · <a href="../../sitemap/">Site map</a> · <a href="../../guides/glossary/">Glossary</a> · <a href="../../about/colophon/">Colophon</a> · <a href="../../llms.txt">llms.txt</a> · <a href="../../rss.xml">RSS</a></p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+name: Image and PDF Migrations
+title: Image and PDF migration checks before old hosting closes
+description: Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.
+type: guide
+published: 2026-10-15
+updated: 2026-10-15
+keywords: image migration SEO, PDF migration checklist, WordPress media migration, old media URLs, social image migration
+sources: Google Search Central: Site moves with URL changes | https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes ;; Google Search Central: Google image SEO best practices | https://developers.google.com/search/docs/appearance/google-images ;; Google Search Central: Redirects and Google Search | https://developers.google.com/search/docs/crawling-indexing/301-redirects
+---
+<h1>Moving a website? Check its images and PDFs before closing the old host</h1>
+<p class="lead">A website can finish its move while its pictures are still living in the old house. Every article loads, the new domain works, and the migration looks complete until somebody cancels the previous hosting account. Then the photos, brochures, and link previews disappear together. Media deserves its own inventory and its own acceptance check.</p>
+
+<h2>Make a second list for files</h2>
+<p>The familiar migration spreadsheet maps old pages to new pages. Add a separate sheet for images, documents, and other files. Google's site move guidance explicitly includes hosted images and downloads in the move. That matters because a page address and the files used by that page can belong to different servers, accounts, and caching systems.</p>
+<p>Start with the old site's crawl, the media library or storage export, and any list of downloads linked from the content. Include files referenced in templates as well as files an editor inserted into an article. A crawl of visible links alone may miss a social image declared in metadata or an alternative image used on a narrow screen.</p>
+<p>I provide a <a href="{root}downloads/media-migration-inventory.csv">media migration inventory worksheet in CSV format</a>. Its example rows are fictional. Replace them with the old file address, its new destination, the page that uses it, and the checks that establish whether the move is complete. Keep the worksheet private if the real inventory contains unpublished documents.</p>
+
+<h2>Record what the file is supposed to be</h2>
+<p>A successful request does not prove the file is right. An image URL can return an HTML error page with a successful status. A brochure link can open a different brochure from three years earlier. Record the expected file type and, where useful, its dimensions, page count, or another detail that distinguishes it from a placeholder.</p>
+<table>
+<thead><tr><th>Item</th><th>Check</th><th>Evidence to keep</th></tr></thead>
+<tbody>
+<tr><th>Article image</th><td>The intended image opens at the new address.</td><td>Response type, dimensions, and a visual check.</td></tr>
+<tr><th>PDF download</th><td>The document opens and contains the expected version.</td><td>Document title, version date, and referring page.</td></tr>
+<tr><th>Share card</th><td>The page points to the correct public image.</td><td>Metadata URL, image size, and a preview check.</td></tr>
+<tr><th>Responsive image</th><td>Each offered image variant can still be fetched.</td><td>The complete source set and its destinations.</td></tr>
+</tbody>
+</table>
+
+<h2>Separate copying from updating references</h2>
+<p>There are two jobs. First, put the intended files somewhere the new site controls. Second, change the references that still ask for them at the previous location. Finishing the first does not finish the second. Search the repository or exported content for the retiring hostname, upload directory, and media delivery domain. Include any encoded versions your content system stores.</p>
+<p>Look at image elements, responsive source sets, CSS backgrounds, document links, structured data, Open Graph images, and social card metadata. Check generated pages as well as source files: an import script may keep rebuilding the old addresses after a manual correction. Google's image guidance describes how standard image markup helps discovery; this inventory also checks whether that markup reaches a surviving file.</p>
+
+<h2>Decide what happens at the old address</h2>
+<p>If the media URL changes, decide how visitors and existing links should reach the replacement. For a permanent move, Google's redirect guidance favors a permanent server redirect where possible. Map a file to its actual replacement rather than sending every missing image or download to the home page. A replacement page is a different thing from the image or document a browser requested.</p>
+<p>Write down who controls the old hostname and how its redirects will be served after the old application closes. A redirect rule inside an account you are about to cancel will not provide continuity. If a particular hosting plan cannot keep those addresses working, resolve that limitation while the old service is still available.</p>
+
+<h2>Check original artwork before resizing</h2>
+<p>A technically valid social card can still crop a face, stretch a square cover, or replace distinctive original artwork with a generic image. Compare the new card with the original. Decide whether the image should fill its frame or sit inside it with space around it, then inspect the result at the size a person will see. The <a href="{root}guides/social-share-cards/">social share card guide</a> covers the metadata and preview side.</p>
+<p>When a source file is small, record that fact instead of treating an enlarged copy as a new high resolution original. Keep the source and the transformed output separately. That makes a later correction possible without downloading an already compressed derivative and processing it again.</p>
+
+<h2>Test the dependency you intend to remove</h2>
+<p>Before shutting anything down, use a controlled test to find requests to the old media host. A developer can block that hostname locally in a test browser and load representative pages on the new site. Compare the network requests with the inventory. This is a diagnostic exercise in a test session, not a request to change public DNS or interrupt the live service.</p>
+<p>Repeat it for a short article, an image heavy page, a page with a PDF, and a link shared on a social platform. Then run the wider crawl to find exceptions outside the sample. A cached picture in one browser is weak evidence that an external dependency has gone.</p>
+
+<h2>Sign off the files as well as the pages</h2>
+<p>Close each inventory row with the destination checked, the references updated, the old address decision recorded, and any unresolved exception assigned to a person. Keep the date and the deployment being tested. That gives the owner a concrete basis for deciding when the old hosting can be retired.</p>
+<p>My <a href="{root}case-studies/clinic-migration/">clinic migration case study</a> describes repository analysis that exposed references to the previous media library. I can review this part of your move through <a href="{root}services/migrations/">migration oversight</a> or a focused <a href="{root}services/seo-release-qa/">SEO release QA review</a>.</p>

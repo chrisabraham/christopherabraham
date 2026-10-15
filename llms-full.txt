@@ -97,6 +97,8 @@ Updated: 2026-10-13
 Every service starts from the same place: find out what search engines and AI systems actually receive from your site, compare it with what you meant to publish, and close the gap. Pick the symptom closest to yours, or start with an [audit](https://christopherabraham.com/services/seo-audit/) if you aren't sure.
 
 ## Technical SEO
+- [Internal linking strategy](https://christopherabraham.com/services/internal-linking/): contextual text links, clear anchors, useful destinations, and a plan to stitch existing pages together.
+- [SEO release QA](https://christopherabraham.com/services/seo-release-qa/): independent checks of a named redesign, template update, or deployment, before and after it goes live.
 - [Sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/): every URL crawled, each problem traced to the template or code behind it, fixed once, and recrawled to prove it held.
 - [Technical SEO audit](https://christopherabraham.com/services/seo-audit/): the cause of a traffic loss or a stall, with evidence and a ranked plan.
 - [Indexing repair](https://christopherabraham.com/services/indexing/): pages stuck in "Crawled, currently not indexed," "Discovered, currently not indexed," soft 404s, and canonical conflicts.
@@ -493,6 +495,8 @@ If traffic fell after a migration, the old site is usually the best evidence. I 
 
 My rules for redirects are in [ten rules for 301 redirects](https://christopherabraham.com/guides/redirect-rules/). Examples: [a clinic's move from WordPress to Next.js](https://christopherabraham.com/case-studies/clinic-migration/) and [cleaning up after a Squarespace to Shopify move](https://christopherabraham.com/case-studies/shopify-cleanup/).
 
+A move also needs a decision about every image and downloadable document. My [media migration inventory guide](https://christopherabraham.com/guides/media-migration/) covers those dependencies, and [SEO release QA](https://christopherabraham.com/services/seo-release-qa/) provides a focused acceptance review for a named launch.
+
 Updated October 6, 2026
 
 
@@ -648,6 +652,8 @@ For large sites I work through templates and fields instead of page by page: fix
 Pages that answer a question directly in the first paragraph, define their terms, use real numbers, and keep each section self-contained tend to win both featured snippets and AI citations. I can brief your writers in that style, edit their drafts, or write service and landing pages myself.
 
 On WordPress, much of this runs through Yoast or Rank Math; see [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/). For a real example of on-page problems hiding a whole site, see [the consent banner case](https://christopherabraham.com/case-studies/consent-banner/).
+
+For a project centered on the connections between pages, see [internal linking strategy](https://christopherabraham.com/services/internal-linking/). The [link planning guide and worksheet](https://christopherabraham.com/guides/internal-linking/) show how I choose placements, anchor wording, and destinations.
 
 Updated October 6, 2026
 
@@ -994,6 +1000,7 @@ Updated: 2026-10-13
 These guides cover the questions clients ask me most, written so you can act on them yourself. Each one is self-contained, with links to related guides and to the glossary for terms.
 
 ## Indexing and audits
+- [Internal linking: stitching your pages together](https://christopherabraham.com/guides/internal-linking/): choose useful destinations, write natural anchors, check section targets, and plan the additions in a downloadable worksheet.
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
 - [Why your SEO should work in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/): fixing causes in templates instead of symptoms page by page, what AI coding assistants add, and what to ask before you hire.
 - [How to find near duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Screaming Frog settings that catch both, what heading problems really cost, and how to settle each duplicate cluster.
@@ -1014,6 +1021,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Topic clusters for AI search](https://christopherabraham.com/guides/topic-clusters/): one hub, one page per buyer question, and no two pages competing for the same query.
 
 ## Migrations and performance
+- [Check images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/): inventory media, inspect the new files, find old references, and record the handover.
 - [When to keep your brand name in page titles](https://christopherabraham.com/guides/brand-name-in-titles/): where the name earns its place, writing it into the sentence, checking titles after a migration, and testing the change.
 - [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/): inventories, one-to-one maps, chains, 410s, and bulk testing.
 - [SEO for sites built with AI app builders](https://christopherabraham.com/guides/ai-built-websites/): rendering, real links, per page titles, soft 404s, sitemaps, and owning the code.
@@ -4374,6 +4382,8 @@ Open Search Console's performance report, filter to the cluster's pages, and loo
 
 I plan clusters from real buyer questions, find the pages already competing with each other, and decide what to merge, rewrite, or add. If your site has grown by accretion and you suspect it is splitting its own signals, [send me the domain](https://christopherabraham.com/contact/) and I'll tell you where I would start.
 
+Once the questions and their pages are mapped, the [internal linking guide](https://christopherabraham.com/guides/internal-linking/) takes that structure down to individual sentences and destinations, with a worksheet for recording each proposed connection.
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
@@ -5849,6 +5859,256 @@ Updated October 6, 2026
 
 ---
 
+Source: https://christopherabraham.com/services/internal-linking/
+Updated: 2026-10-15
+
+# Internal linking strategy: stitch your website together
+
+You may already have the answer a visitor needs somewhere on your website. The problem is that the page they found never points to it. Internal linking joins those pieces: an explanation to a detailed guide, a guide to a relevant service, a service to the case study that shows the work. I call it stitching together all the pages of your site with text links and targets and anchors.
+
+## Make existing work easier to find
+
+A website accumulates knowledge over years. Articles arrive in the blog, services sit in another section, and older pages disappear from the paths a visitor normally follows. A linking strategy looks across that whole collection and asks which page would help somebody next. That can expose useful connections without commissioning another batch of articles or waiting for another website to link to yours.
+
+## What I examine
+- **The destinations that matter:** important services, products, categories, guides, and supporting evidence.
+- **Existing routes:** navigation, breadcrumbs, body links, related content, and links generated by templates.
+- **Missing connections:** relevant pages with few useful incoming links and pages found in exports but absent from the crawl.
+- **The wording:** whether the visible anchor text explains the destination in the sentence around it.
+- **The targets:** live canonical URLs, working section anchors, and links still aimed at redirects or retired pages.
+
+## A plan an editor can implement
+
+The deliverable is a source and destination map. Each proposed link names the page where it belongs, the paragraph or section that gives it context, the target URL, and suggested anchor text. I group template work separately from individual editorial additions so your developer and your content editor each get an actionable list. Where authorized, I can make the additions in the CMS or through a reviewed repository change.
+
+## Choose a useful path, then a useful phrase
+
+The link should earn its place in the reader's journey. A page about a missing product description might lead to an explanation of rendering, while a migration checklist might point to a redirect worksheet. The destination decides the wording. Repeating a search phrase across unrelated sentences makes the page harder to read and does not substitute for a relevant connection.
+
+## When the link exists only after interaction
+
+In my [event platform investigation](https://christopherabraham.com/case-studies/event-app-links/), the way an application exposed its routes affected discovery. That is why a linking review includes the HTML and rendering behavior, not just the words an editor sees. A visible card, a search box, and a normal text link can give crawlers different ways into the same content. I check the actual path.
+
+## Measure the work in two stages
+
+First I verify that the agreed links are present, readable, and aimed at the intended pages or sections. A fresh crawl shows changes to incoming links, discovery, and depth. Then I monitor the destination pages' search observations over an agreed period. The implementation record and the later search results stay separate, so a published link is never reported as a ranking gain before there is evidence.
+
+## Internal linking questions
+
+### Can you work with the pages I already have?
+
+Yes. Existing content is the starting point. If a proposed destination does not answer a useful next question, I flag the content gap rather than forcing a link to an unsuitable page.
+
+### Can this be a focused project?
+
+Yes. A review can cover a particular service, a group of related guides, an ecommerce category, or the whole site. The agreed inventory sets the scope.
+
+My [practical internal linking guide](https://christopherabraham.com/guides/internal-linking/) includes a planning worksheet. For help with your own pages, [send me the site and the destinations you want people to find](https://christopherabraham.com/contact/). This can also sit inside [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) or an [ongoing SEO retainer](https://christopherabraham.com/services/seo-retainer/).
+
+Updated October 15, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/seo-release-qa/
+Updated: 2026-10-15
+
+# SEO release QA: check the change before it reaches every page
+
+A developer is ready to release a new template. The staging site looks good. What you need now is someone to check what that change does to search: the content crawlers receive, the URLs they follow, and the signals that tell them what belongs in the index. I can review that release as a defined piece of work.
+
+## When to bring me in
+
+This is useful before a redesign, a CMS upgrade, a new navigation system, a consent banner change, or a move from one rendering approach to another. It also fits a team that has already had an SEO audit and wants an independent check that its developer's implementation meets the brief. There is a specific release to examine, a list of expected changes, and a decision somebody needs to make.
+
+## Agree the test before the release
+
+I start with the pages and behaviors the change could affect. A product template needs product examples, an unavailable product, a category, and a route that should not exist. A navigation change needs the destinations it is supposed to expose. A media move needs the image and document addresses as well as the pages that contain them. The scope says which templates and URL sets will be checked in full and where a sample is appropriate.
+- **Content:** the important text, links, and images in the initial response and in the rendered page.
+- **Search signals:** titles, canonicals, robots directives, structured data, and the production sitemap.
+- **Routing:** expected destinations, redirect behavior, missing pages, and any retired URLs.
+- **Dependencies:** content held behind consent, interaction, old hosting, or an account that is about to close.
+
+## What you receive
+
+The deliverable is a release note with the test date, the build or deployment examined, the affected URLs, and a clear result for each agreed check. Failed checks include the observed behavior, the expected behavior, and enough evidence for a developer to reproduce the problem. Items I could not verify are labeled with the access or information needed to finish them. A green result for one template is not silently applied to the rest of the site.
+
+## Why I look beyond the browser
+
+My [consent banner investigation](https://christopherabraham.com/case-studies/consent-banner/) concerned article content that a normal browser session could show while a nonconsenting crawl could not. In the [event platform case](https://christopherabraham.com/case-studies/event-app-links/), discovery depended on how the application exposed its links. Those are examples of the gap this review is designed to find: an interface can look finished while an important search behavior is still broken.
+
+## After deployment
+
+I repeat the agreed checks against the public site, since staging cannot show every production redirect, cache rule, or domain setting. The handover separates release acceptance from later search observations. A response can be verified today; recrawling, indexing, and traffic changes need their own dated followup. My guide to [proving an SEO fix worked](https://christopherabraham.com/guides/prove-seo-fixes/) explains that second part.
+
+## Questions about a release review
+
+### Can you review a site another developer built?
+
+Yes. I can work from a staging address and the release brief. Repository access helps when a finding needs tracing to a template or component, and any proposed code change can go through your team's normal review.
+
+### Does this replace a complete SEO audit?
+
+The review answers whether the named release meets its agreed search requirements. A broader investigation of an unexplained traffic loss belongs in a separately scoped audit.
+
+For a release involving old images or downloads, start with my [image and PDF migration checklist](https://christopherabraham.com/guides/media-migration/). To arrange a review, [send me the release brief and staging address](https://christopherabraham.com/contact/); scope and terms follow the process on [Hire Me](https://christopherabraham.com/hire-me/).
+
+Updated October 15, 2026
+
+
+---
+
+Source: https://christopherabraham.com/guides/internal-linking/
+Updated: 2026-10-15
+
+# Internal linking: stitching your pages into a useful website
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 15, 2026
+
+A visitor arrives on one page. That page can either end the visit or give them a sensible next step into the rest of your work. Internal linking is how individual pages become a website: a connected body of explanations, services, examples, and answers. The opportunities are often already there, waiting for a sentence that joins them.
+
+## Start with the destination, then find its neighbors
+
+Choose a page that deserves to be found: a service with a clear offer, a substantial guide, or a category that helps a buyer narrow the choices. Read it first. Write down which questions it answers and who would benefit from reading it. Then look for other pages where those questions arise naturally.
+
+For example, an article about missing product specifications creates a reason to explain how JavaScript rendering works. A page about moving an old blog creates a reason to visit a redirect guide. The connection follows the subject and the reader's next question. A shared keyword alone is not enough to establish that relationship.
+
+## Use a crawl and a content inventory together
+
+A crawl shows the pages reachable through the paths it followed. A CMS export, sitemap, or approved list of production URLs can expose pages absent from that crawl. Compare the lists and investigate the difference. A page missing from a crawl may be orphaned, blocked, redirected, or simply outside the crawl's settings; the label needs checking before it becomes a task.
+
+Record the pages worth retaining and the destinations visitors should reach from them. The [internal link planning worksheet](https://christopherabraham.com/downloads/internal-link-plan.csv) has columns for source, target, placement, anchor wording, reason, and verification. Its sample addresses are invented. A working copy should describe real paragraphs on real pages, not a list of hoped for keywords.
+
+## Write the sentence before inserting the link
+
+A useful editing test is to read the paragraph aloud with the link treated as ordinary text. Does the sentence still make sense? Does the phrase describe what somebody will find? If the destination takes a whole explanation to justify, move the link to a place where the subject is already being discussed.
+
+Google's link guidance favors descriptive, concise, relevant anchor text and contextual connections between pages. It does not prescribe a magic number of links. In practice, I look for an actual reason for every addition. The destination's topic matters more than fitting an exact phrase into every sentence.
+| Where the reader is | A useful next destination | Possible anchor wording |
+| --- | --- | --- |
+| A migration overview | A detailed media move checklist | check images and PDFs before retiring the old host |
+| A service description | A relevant account of completed work | how the event links investigation unfolded |
+| A diagnostic guide | A service that handles the same problem | independent SEO review of the release |
+| A long reference page | A specific section of another guide | the section on checking destination URLs |
+
+## Give anchors real targets
+
+The word anchor can mean the text someone clicks, or a named section inside a page. Both deserve attention. A link to a whole page should point to the intended production URL. A section link adds a fragment such as `#checking-destinations`, which should match an actual element ID on that destination.
+
+A section link helps someone arrive at the relevant part of a long document. It does not create a separate article. Keep the identifier stable when a heading is edited, and check it after a template or CMS change. A working page address with a missing fragment can still drop the visitor at the top, far from the promised answer.
+
+## Check the markup and the route
+
+Google's crawlable link examples use anchor elements with valid `href` values. Inspect what your template emits, especially when navigation depends on JavaScript. A card that reacts to a click can look like a link without providing the same route in the HTML. The [repository guide](https://christopherabraham.com/guides/seo-in-your-repository/) explains how to trace that behavior back to the component.
+
+Follow each proposed destination and record its final address. Avoid sending a new link through an old redirect when the final page is known. Check that the destination is the intended version and that its indexing signals agree with its role. Adding more routes to an accidental duplicate only adds another problem to untangle.
+
+## Keep hubs and editorial links doing useful jobs
+
+A hub gives people an overview of related material. A contextual link helps at the moment a particular question arises. They can support each other: a clear index introduces the topic, while the detailed pages provide the next connections. The [topic cluster guide](https://christopherabraham.com/guides/topic-clusters/) covers choosing distinct questions for those pages.
+
+For a shop, think about routes between categories, subcategories, and products as well as editorial content. Google's ecommerce structure guidance discusses linking through that hierarchy. The practical question is whether a shopper can navigate to the relevant item without having to guess the phrase your search box expects.
+
+## Verify additions before reporting results
+
+Keep a before and after record of the changed source pages. Check that the links appear in the agreed locations, open their destinations, and land at the expected sections. Crawl again with comparable settings to inspect incoming links and changes to discovery. If you changed a shared component, sample its different uses rather than assuming one good page represents them all.
+
+After the links are live, watch the destination pages over time and keep other changes in the record. Discovery and a successful fetch can be observed separately from indexing or traffic. This makes the result useful even when search takes time to respond, because the team can see exactly which connections were added.
+
+I offer [internal linking strategy and implementation](https://christopherabraham.com/services/internal-linking/) as a focused engagement. A good first brief is the site address, the pages that matter most to the business, and the parts of the archive that visitors rarely find.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [Google Search Central: Link best practices](https://developers.google.com/search/docs/crawling-indexing/links-crawlable)
+- [Google Search Central: Help Google understand your ecommerce site structure](https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
+Source: https://christopherabraham.com/guides/media-migration/
+Updated: 2026-10-15
+
+# Moving a website? Check its images and PDFs before closing the old host
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 15, 2026
+
+A website can finish its move while its pictures are still living in the old house. Every article loads, the new domain works, and the migration looks complete until somebody cancels the previous hosting account. Then the photos, brochures, and link previews disappear together. Media deserves its own inventory and its own acceptance check.
+
+## Make a second list for files
+
+The familiar migration spreadsheet maps old pages to new pages. Add a separate sheet for images, documents, and other files. Google's site move guidance explicitly includes hosted images and downloads in the move. That matters because a page address and the files used by that page can belong to different servers, accounts, and caching systems.
+
+Start with the old site's crawl, the media library or storage export, and any list of downloads linked from the content. Include files referenced in templates as well as files an editor inserted into an article. A crawl of visible links alone may miss a social image declared in metadata or an alternative image used on a narrow screen.
+
+I provide a [media migration inventory worksheet in CSV format](https://christopherabraham.com/downloads/media-migration-inventory.csv). Its example rows are fictional. Replace them with the old file address, its new destination, the page that uses it, and the checks that establish whether the move is complete. Keep the worksheet private if the real inventory contains unpublished documents.
+
+## Record what the file is supposed to be
+
+A successful request does not prove the file is right. An image URL can return an HTML error page with a successful status. A brochure link can open a different brochure from three years earlier. Record the expected file type and, where useful, its dimensions, page count, or another detail that distinguishes it from a placeholder.
+| Item | Check | Evidence to keep |
+| --- | --- | --- |
+| Article image | The intended image opens at the new address. | Response type, dimensions, and a visual check. |
+| PDF download | The document opens and contains the expected version. | Document title, version date, and referring page. |
+| Share card | The page points to the correct public image. | Metadata URL, image size, and a preview check. |
+| Responsive image | Each offered image variant can still be fetched. | The complete source set and its destinations. |
+
+## Separate copying from updating references
+
+There are two jobs. First, put the intended files somewhere the new site controls. Second, change the references that still ask for them at the previous location. Finishing the first does not finish the second. Search the repository or exported content for the retiring hostname, upload directory, and media delivery domain. Include any encoded versions your content system stores.
+
+Look at image elements, responsive source sets, CSS backgrounds, document links, structured data, Open Graph images, and social card metadata. Check generated pages as well as source files: an import script may keep rebuilding the old addresses after a manual correction. Google's image guidance describes how standard image markup helps discovery; this inventory also checks whether that markup reaches a surviving file.
+
+## Decide what happens at the old address
+
+If the media URL changes, decide how visitors and existing links should reach the replacement. For a permanent move, Google's redirect guidance favors a permanent server redirect where possible. Map a file to its actual replacement rather than sending every missing image or download to the home page. A replacement page is a different thing from the image or document a browser requested.
+
+Write down who controls the old hostname and how its redirects will be served after the old application closes. A redirect rule inside an account you are about to cancel will not provide continuity. If a particular hosting plan cannot keep those addresses working, resolve that limitation while the old service is still available.
+
+## Check original artwork before resizing
+
+A technically valid social card can still crop a face, stretch a square cover, or replace distinctive original artwork with a generic image. Compare the new card with the original. Decide whether the image should fill its frame or sit inside it with space around it, then inspect the result at the size a person will see. The [social share card guide](https://christopherabraham.com/guides/social-share-cards/) covers the metadata and preview side.
+
+When a source file is small, record that fact instead of treating an enlarged copy as a new high resolution original. Keep the source and the transformed output separately. That makes a later correction possible without downloading an already compressed derivative and processing it again.
+
+## Test the dependency you intend to remove
+
+Before shutting anything down, use a controlled test to find requests to the old media host. A developer can block that hostname locally in a test browser and load representative pages on the new site. Compare the network requests with the inventory. This is a diagnostic exercise in a test session, not a request to change public DNS or interrupt the live service.
+
+Repeat it for a short article, an image heavy page, a page with a PDF, and a link shared on a social platform. Then run the wider crawl to find exceptions outside the sample. A cached picture in one browser is weak evidence that an external dependency has gone.
+
+## Sign off the files as well as the pages
+
+Close each inventory row with the destination checked, the references updated, the old address decision recorded, and any unresolved exception assigned to a person. Keep the date and the deployment being tested. That gives the owner a concrete basis for deciding when the old hosting can be retired.
+
+My [clinic migration case study](https://christopherabraham.com/case-studies/clinic-migration/) describes repository analysis that exposed references to the previous media library. I can review this part of your move through [migration oversight](https://christopherabraham.com/services/migrations/) or a focused [SEO release QA review](https://christopherabraham.com/services/seo-release-qa/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [Google Search Central: Site moves with URL changes](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes)
+- [Google Search Central: Google image SEO best practices](https://developers.google.com/search/docs/appearance/google-images)
+- [Google Search Central: Redirects and Google Search](https://developers.google.com/search/docs/crawling-indexing/301-redirects)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
 Source: https://christopherabraham.com/sitemap/
 Updated: 2026-10-15
 
@@ -5875,6 +6135,8 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/): Speed up a website for real visitors: Core Web Vitals diagnosis, image and script cleanup, page caching, and Cloudflare rules that still welcome crawlers.
 - [Search Console, Bing Webmaster Tools, and GA4](https://christopherabraham.com/services/search-console/): Set up and clean up Google Search Console, Bing Webmaster Tools, and GA4 so every report is verified, accurate, owned by you, and useful for decisions.
 - [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/): Plan and verify a website migration: full URL inventories, one to one 301 redirect maps, launch day checks, and recovery when a move has already lost traffic.
+- [Internal linking strategy: stitch your website together](https://christopherabraham.com/services/internal-linking/): Internal linking strategy for an established website: contextual text links, descriptive anchors, orphan page recovery, useful hubs, and a measured rollout.
+- [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/): Independent SEO checks before and after a website release: rendering, indexing signals, redirects, media, and evidence your developer can act on.
 
 ## AI search, schema, and content
 - [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/): Improve how ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google AI Overviews describe and cite your business, with prompt testing, entities, and content.
@@ -5934,6 +6196,8 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Topic clusters for AI search, without your pages competing with each other](https://christopherabraham.com/guides/topic-clusters/): Plan a hub page and one page per buyer question so AI fan out searches find a match for every subtopic, and keep your pages from competing for one query.
 - [How to load Google Analytics 4 without hurting PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/): On a fast static site, gtag.js caused most of the blocking time. Loading it after the first scroll or tap took mobile Lighthouse to 100. How, and the cost.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
+- [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/): Build useful paths through your existing pages with contextual links, clear anchor text, working section targets, and an internal linking worksheet.
+- [Moving a website? Check its images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/): Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.

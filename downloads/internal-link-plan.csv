@@ -1,0 +1,4 @@
+source_page,target_page,source_section,proposed_anchor,reader_reason,target_fragment,placement_verified,target_verified,checked_at,owner,notes
+https://www.example.com/guides/moving-a-site/,https://www.example.com/guides/moving-media/,Media checklist,check images and documents,Reader needs a detailed asset inventory,,pending,pending,,,
+https://www.example.com/services/site-review/,https://www.example.com/case-studies/event-links/,Evidence,how event links were investigated,Reader needs a relevant work example,,pending,pending,,,
+https://www.example.com/guides/site-structure/,https://www.example.com/guides/navigation/,Navigation details,check section destinations,Reader needs the specific destination test,checking-destinations,pending,pending,,,

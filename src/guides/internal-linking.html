@@ -1,0 +1,50 @@
+name: Internal Linking
+title: Internal linking: stitch your website together with text
+description: Build useful paths through your existing pages with contextual links, clear anchor text, working section targets, and an internal linking worksheet.
+type: guide
+published: 2026-10-15
+updated: 2026-10-15
+keywords: internal linking strategy, contextual internal links, anchor text, orphan page audit, internal link worksheet
+sources: Google Search Central: Link best practices | https://developers.google.com/search/docs/crawling-indexing/links-crawlable ;; Google Search Central: Help Google understand your ecommerce site structure | https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure
+---
+<h1>Internal linking: stitching your pages into a useful website</h1>
+<p class="lead">A visitor arrives on one page. That page can either end the visit or give them a sensible next step into the rest of your work. Internal linking is how individual pages become a website: a connected body of explanations, services, examples, and answers. The opportunities are often already there, waiting for a sentence that joins them.</p>
+
+<h2>Start with the destination, then find its neighbors</h2>
+<p>Choose a page that deserves to be found: a service with a clear offer, a substantial guide, or a category that helps a buyer narrow the choices. Read it first. Write down which questions it answers and who would benefit from reading it. Then look for other pages where those questions arise naturally.</p>
+<p>For example, an article about missing product specifications creates a reason to explain how JavaScript rendering works. A page about moving an old blog creates a reason to visit a redirect guide. The connection follows the subject and the reader's next question. A shared keyword alone is not enough to establish that relationship.</p>
+
+<h2>Use a crawl and a content inventory together</h2>
+<p>A crawl shows the pages reachable through the paths it followed. A CMS export, sitemap, or approved list of production URLs can expose pages absent from that crawl. Compare the lists and investigate the difference. A page missing from a crawl may be orphaned, blocked, redirected, or simply outside the crawl's settings; the label needs checking before it becomes a task.</p>
+<p>Record the pages worth retaining and the destinations visitors should reach from them. The <a href="{root}downloads/internal-link-plan.csv">internal link planning worksheet</a> has columns for source, target, placement, anchor wording, reason, and verification. Its sample addresses are invented. A working copy should describe real paragraphs on real pages, not a list of hoped for keywords.</p>
+
+<h2>Write the sentence before inserting the link</h2>
+<p>A useful editing test is to read the paragraph aloud with the link treated as ordinary text. Does the sentence still make sense? Does the phrase describe what somebody will find? If the destination takes a whole explanation to justify, move the link to a place where the subject is already being discussed.</p>
+<p>Google's link guidance favors descriptive, concise, relevant anchor text and contextual connections between pages. It does not prescribe a magic number of links. In practice, I look for an actual reason for every addition. The destination's topic matters more than fitting an exact phrase into every sentence.</p>
+<table>
+<thead><tr><th>Where the reader is</th><th>A useful next destination</th><th>Possible anchor wording</th></tr></thead>
+<tbody>
+<tr><th>A migration overview</th><td>A detailed media move checklist</td><td>check images and PDFs before retiring the old host</td></tr>
+<tr><th>A service description</th><td>A relevant account of completed work</td><td>how the event links investigation unfolded</td></tr>
+<tr><th>A diagnostic guide</th><td>A service that handles the same problem</td><td>independent SEO review of the release</td></tr>
+<tr><th>A long reference page</th><td>A specific section of another guide</td><td>the section on checking destination URLs</td></tr>
+</tbody>
+</table>
+
+<h2>Give anchors real targets</h2>
+<p>The word anchor can mean the text someone clicks, or a named section inside a page. Both deserve attention. A link to a whole page should point to the intended production URL. A section link adds a fragment such as <code>#checking-destinations</code>, which should match an actual element ID on that destination.</p>
+<p>A section link helps someone arrive at the relevant part of a long document. It does not create a separate article. Keep the identifier stable when a heading is edited, and check it after a template or CMS change. A working page address with a missing fragment can still drop the visitor at the top, far from the promised answer.</p>
+
+<h2>Check the markup and the route</h2>
+<p>Google's crawlable link examples use anchor elements with valid <code>href</code> values. Inspect what your template emits, especially when navigation depends on JavaScript. A card that reacts to a click can look like a link without providing the same route in the HTML. The <a href="{root}guides/seo-in-your-repository/">repository guide</a> explains how to trace that behavior back to the component.</p>
+<p>Follow each proposed destination and record its final address. Avoid sending a new link through an old redirect when the final page is known. Check that the destination is the intended version and that its indexing signals agree with its role. Adding more routes to an accidental duplicate only adds another problem to untangle.</p>
+
+<h2>Keep hubs and editorial links doing useful jobs</h2>
+<p>A hub gives people an overview of related material. A contextual link helps at the moment a particular question arises. They can support each other: a clear index introduces the topic, while the detailed pages provide the next connections. The <a href="{root}guides/topic-clusters/">topic cluster guide</a> covers choosing distinct questions for those pages.</p>
+<p>For a shop, think about routes between categories, subcategories, and products as well as editorial content. Google's ecommerce structure guidance discusses linking through that hierarchy. The practical question is whether a shopper can navigate to the relevant item without having to guess the phrase your search box expects.</p>
+
+<h2>Verify additions before reporting results</h2>
+<p>Keep a before and after record of the changed source pages. Check that the links appear in the agreed locations, open their destinations, and land at the expected sections. Crawl again with comparable settings to inspect incoming links and changes to discovery. If you changed a shared component, sample its different uses rather than assuming one good page represents them all.</p>
+<p>After the links are live, watch the destination pages over time and keep other changes in the record. Discovery and a successful fetch can be observed separately from indexing or traffic. This makes the result useful even when search takes time to respond, because the team can see exactly which connections were added.</p>
+
+<p>I offer <a href="{root}services/internal-linking/">internal linking strategy and implementation</a> as a focused engagement. A good first brief is the site address, the pages that matter most to the business, and the parts of the archive that visitors rarely find.</p>

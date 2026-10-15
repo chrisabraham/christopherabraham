@@ -25,6 +25,8 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/): Speed up a website for real visitors: Core Web Vitals diagnosis, image and script cleanup, page caching, and Cloudflare rules that still welcome crawlers.
 - [Search Console, Bing Webmaster Tools, and GA4](https://christopherabraham.com/services/search-console/): Set up and clean up Google Search Console, Bing Webmaster Tools, and GA4 so every report is verified, accurate, owned by you, and useful for decisions.
 - [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/): Plan and verify a website migration: full URL inventories, one to one 301 redirect maps, launch day checks, and recovery when a move has already lost traffic.
+- [Internal linking strategy: stitch your website together](https://christopherabraham.com/services/internal-linking/): Internal linking strategy for an established website: contextual text links, descriptive anchors, orphan page recovery, useful hubs, and a measured rollout.
+- [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/): Independent SEO checks before and after a website release: rendering, indexing signals, redirects, media, and evidence your developer can act on.
 
 ## AI search, schema, and content
 - [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/): Improve how ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google AI Overviews describe and cite your business, with prompt testing, entities, and content.
@@ -84,6 +86,8 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Topic clusters for AI search, without your pages competing with each other](https://christopherabraham.com/guides/topic-clusters/): Plan a hub page and one page per buyer question so AI fan out searches find a match for every subtopic, and keep your pages from competing for one query.
 - [How to load Google Analytics 4 without hurting PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/): On a fast static site, gtag.js caused most of the blocking time. Loading it after the first scroll or tap took mobile Lighthouse to 100. How, and the cost.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
+- [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/): Build useful paths through your existing pages with contextual links, clear anchor text, working section targets, and an internal linking worksheet.
+- [Moving a website? Check its images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/): Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.

@@ -1,0 +1,883 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Image and PDF migration checks before old hosting closes</title>
+<meta name="description" content="Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.">
+<meta name="keywords" content="image migration SEO, PDF migration checklist, WordPress media migration, old media URLs, social image migration">
+<link rel="canonical" href="https://christopherabraham.com/guides/media-migration/">
+<meta name="author" content="Christopher Abraham">
+<link rel="icon" href="../../logo.png" type="image/png">
+<link rel="apple-touch-icon" href="../../logo.png">
+<link rel="manifest" href="../../manifest.webmanifest">
+<link rel="alternate" type="text/markdown" title="This page as Markdown" href="index.md">
+<link rel="alternate" type="application/rss+xml" title="SEO guides (RSS)" href="../../rss.xml">
+<link rel="alternate" type="application/atom+xml" title="SEO guides by Christopher Abraham" href="../../feed.xml">
+<link rel="alternate" type="text/plain" title="llms.txt" href="../../llms.txt">
+<link rel="sitemap" type="application/xml" href="../../sitemap.xml">
+<meta name="theme-color" content="#ffffff">
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'granted'});
+  gtag('consent', 'default', {analytics_storage: 'denied', region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"]});
+  gtag('js', new Date());
+  gtag('config', 'G-MR3P3612MM');
+  (function () {
+    // gtag.js loads on the first scroll, tap, or key, or 4 seconds after the page loads,
+    // so it never competes with the page itself. The commands above wait in dataLayer.
+    var done = false;
+    function load() {
+      if (done) return;
+      done = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-MR3P3612MM';
+      document.head.appendChild(s);
+    }
+    ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (e) { addEventListener(e, load, {once: true, passive: true}); });
+    addEventListener('load', function () { setTimeout(load, 4000); });
+  })();
+</script>
+<script type="speculationrules">{"prefetch": [{"where": {"and": [{"href_matches": "/*"}, {"not": {"href_matches": ["/*.md", "/*.txt", "/*.xml"]}}]}, "eagerness": "moderate"}]}</script>
+<link rel="me" href="https://mastodon.social/@chrisa">
+<meta property="og:site_name" content="Christopher Abraham">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Image and PDF migration checks before old hosting closes">
+<meta property="og:description" content="Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.">
+<meta property="og:url" content="https://christopherabraham.com/guides/media-migration/">
+<meta property="og:image" content="https://christopherabraham.com/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Christopher Abraham, SEO consultant: technical SEO, indexing, schema, and AI search">
+<meta property="article:published_time" content="2026-10-15">
+<meta property="article:modified_time" content="2026-10-15">
+<meta property="article:author" content="https://christopherabraham.com/about/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Image and PDF migration checks before old hosting closes">
+<meta name="twitter:description" content="Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.">
+<meta name="twitter:image" content="https://christopherabraham.com/social-card.png">
+<style>
+:root { --orange: #c75000; --blue: #16729e; --teal: #237482; --text: #000; --muted: #333; --link: #284a57; --tab: #8cacbb; --bar: #dee7ec; --rule: #c8d3d8; --bg: #fff; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { margin: 0; color: var(--text); background: var(--bg); font: 18px/1.65 Verdana, "Lucida Grande", Lucida, "DejaVu Sans", Helvetica, Arial, sans-serif; }
+.wrap { max-width: 46rem; margin: 0 auto; padding: 0 1rem; }
+a { color: var(--link); text-decoration: underline; text-underline-offset: .15em; overflow-wrap: anywhere; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid #000; outline-offset: 2px; }
+img { max-width: 100%; height: auto; }
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 1rem; top: .5rem; background: #fff; padding: .5rem; z-index: 1; }
+.top { display: flex; align-items: center; gap: .9rem; padding: 1.25rem 0 .9rem; }
+.top > a { flex: none; line-height: 0; }
+.top img { width: 64px; height: 64px; max-width: none; }
+.brand { font-size: 1.6rem; font-weight: bold; color: var(--orange); text-decoration: none; }
+.brand:hover { text-decoration: underline; }
+.tag { margin: 0; color: var(--muted); font-size: .95rem; line-height: 1.4; }
+nav.tabs { border-bottom: 4px solid var(--bar); }
+nav.tabs ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .3rem; }
+nav.tabs li { margin: 0; }
+nav.tabs a { display: block; padding: .4rem .7rem; border: 1px solid var(--tab); border-bottom: none; text-decoration: none; font-size: .9rem; white-space: nowrap; }
+nav.tabs a:hover { background: var(--bar); text-decoration: underline; }
+nav.tabs a[aria-current] { background: var(--bar); color: #000; font-weight: bold; }
+.crumbs { font-size: .9rem; margin: 1rem 0 0; color: var(--muted); }
+.crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; }
+.crumbs li { margin: 0; }
+.crumbs li + li::before { content: "›"; padding: 0 .4em; }
+blockquote { margin: 0 0 1rem; padding: .25rem 0 .25rem 1rem; border-left: 4px solid var(--tab); }
+blockquote p:last-child { color: var(--muted); font-size: .9rem; }
+main { padding: 1.25rem 0 2rem; }
+h1 { color: var(--blue); font-size: 1.4rem; line-height: 1.25; margin: .25rem 0 1rem; }
+h2 { color: var(--teal); font-size: 1.3rem; line-height: 1.3; margin: 2rem 0 .5rem; }
+h3 { font-size: 1.08rem; line-height: 1.35; margin: 1.5rem 0 .4rem; }
+p, ul, ol, dl, table { margin: 0 0 1rem; }
+li { margin-bottom: .4rem; }
+.lead { font-size: 1.1rem; }
+.byline { color: var(--muted); font-size: .9rem; margin-top: -.5rem; }
+.updated { color: var(--muted); font-size: .9rem; margin-top: 2rem; }
+code { font-family: Consolas, Menlo, monospace; font-size: .92em; background: #f2f5f7; padding: 0 .2em; }
+pre { background: #f2f5f7; padding: .75rem; overflow-x: auto; font-size: .9rem; line-height: 1.45; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+th, td { border: 1px solid var(--rule); padding: .4rem .55rem; text-align: left; vertical-align: top; }
+th { background: var(--bar); }
+dt { font-weight: bold; margin-top: 1rem; }
+dd { margin: .2rem 0 0 0; }
+.portrait { float: right; width: 160px; height: 160px; margin: .25rem 0 1rem 1.25rem; border: 1px solid var(--rule); }
+.button { display: inline-block; margin: 0 .5rem .6rem 0; padding: .6rem 1.1rem; border: 2px solid var(--link); background: var(--bar); color: #000; font-weight: bold; text-decoration: none; }
+.button:hover { text-decoration: underline; }
+.author-box { display: flex; gap: 1rem; align-items: flex-start; border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: 1rem; font-size: .95rem; }
+.author-box img { width: 72px; height: 72px; flex: none; border: 1px solid var(--rule); }
+.author-box p { margin: 0; }
+.help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
+.help-box h2 { margin-top: .75rem; }
+.related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.contact li { margin-bottom: .6rem; }
+.site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
+.site-footer p { margin: 0 0 .4rem; }
+@media (max-width: 34rem) {
+  body { font-size: 17px; }
+  .top img { width: 52px; height: 52px; }
+  nav.tabs a { padding: .45rem .55rem; }
+  h1 { font-size: 1.25rem; }
+  .portrait { width: 112px; height: 112px; margin-left: 1rem; }
+}
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://christopherabraham.com/#website",
+   "url": "https://christopherabraham.com/",
+   "name": "Christopher Abraham",
+   "inLanguage": "en-US",
+   "publisher": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "publishingPrinciples": "https://christopherabraham.com/about/editorial-policy/"
+  },
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://christopherabraham.com/#service-business",
+   "name": "Christopher Abraham, SEO consultant",
+   "url": "https://christopherabraham.com/",
+   "logo": "https://christopherabraham.com/logo.png",
+   "image": "https://christopherabraham.com/social-card.png",
+   "description": "Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.",
+   "founder": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "employee": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "slogan": "Senior SEO help, from the person who does the work",
+   "email": "cja@well.com",
+   "telephone": "+1-202-352-5051",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+   },
+   "location": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.86,
+    "longitude": -77.1
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Arlington, Virginia"
+    },
+    {
+     "@type": "City",
+     "name": "Alexandria, Virginia"
+    },
+    {
+     "@type": "City",
+     "name": "Washington, District of Columbia"
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Washington, DC metropolitan area"
+    },
+    {
+     "@type": "State",
+     "name": "Virginia",
+     "containedInPlace": {
+      "@type": "Country",
+      "name": "United States"
+     }
+    },
+    {
+     "@type": "Country",
+     "name": "United States",
+     "identifier": "US"
+    },
+    {
+     "@type": "Country",
+     "name": "Canada",
+     "identifier": "CA"
+    },
+    {
+     "@type": "Country",
+     "name": "United Kingdom",
+     "identifier": "GB"
+    },
+    {
+     "@type": "Country",
+     "name": "Ireland",
+     "identifier": "IE"
+    },
+    {
+     "@type": "Country",
+     "name": "Australia",
+     "identifier": "AU"
+    },
+    {
+     "@type": "Country",
+     "name": "New Zealand",
+     "identifier": "NZ"
+    },
+    "Worldwide"
+   ],
+   "knowsLanguage": "en",
+   "knowsAbout": [
+    "Search engine optimization",
+    "Technical SEO",
+    "SEO audits",
+    "Indexing",
+    "Google Search Console",
+    "Bing Webmaster Tools",
+    "JavaScript SEO",
+    "Core Web Vitals",
+    "Cloudflare",
+    "Schema markup",
+    "Structured data",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "AI search",
+    "llms.txt",
+    "OpenAI Codex",
+    "Claude Code",
+    "GitHub Copilot",
+    "Gemini",
+    "Grok",
+    "Perplexity",
+    "301 redirects",
+    "Website migrations",
+    "WordPress",
+    "Yoast SEO",
+    "Rank Math",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Local SEO",
+    "Google Business Profile",
+    "Internal linking",
+    "Metadata"
+   ],
+   "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "value": 1
+   },
+   "contactPoint": [
+    {
+     "@type": "ContactPoint",
+     "contactType": "sales",
+     "email": "cja@well.com",
+     "telephone": "+1-202-352-5051",
+     "areaServed": [
+      "US",
+      "CA",
+      "GB",
+      "IE",
+      "AU",
+      "NZ"
+     ],
+     "availableLanguage": "English"
+    }
+   ],
+   "sameAs": [
+    "https://www.upwork.com/freelancers/chrisjabraham",
+    "https://www.linkedin.com/in/chrisabraham",
+    "https://share.google/xZ98ksFq3nhO2OvuF"
+   ],
+   "publishingPrinciples": "https://christopherabraham.com/about/editorial-policy/",
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "SEO services by Christopher Abraham",
+    "itemListElement": [
+     {
+      "@type": "OfferCatalog",
+      "name": "Technical SEO",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/sitewide-technical-seo/#service",
+         "name": "Sitewide technical SEO: crawl, trace, fix, recrawl",
+         "url": "https://christopherabraham.com/services/sitewide-technical-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-audit/#service",
+         "name": "Technical SEO audit",
+         "url": "https://christopherabraham.com/services/seo-audit/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/indexing/#service",
+         "name": "Indexing repair",
+         "url": "https://christopherabraham.com/services/indexing/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/javascript-seo/#service",
+         "name": "JavaScript and headless SEO",
+         "url": "https://christopherabraham.com/services/javascript-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/site-speed/#service",
+         "name": "Core Web Vitals and Cloudflare",
+         "url": "https://christopherabraham.com/services/site-speed/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/search-console/#service",
+         "name": "Search Console, Bing Webmaster Tools, and GA4",
+         "url": "https://christopherabraham.com/services/search-console/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/migrations/#service",
+         "name": "Site migrations and 301 redirects",
+         "url": "https://christopherabraham.com/services/migrations/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/internal-linking/#service",
+         "name": "Internal linking strategy: stitch your website together",
+         "url": "https://christopherabraham.com/services/internal-linking/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-release-qa/#service",
+         "name": "SEO release QA: check the change before it reaches every page",
+         "url": "https://christopherabraham.com/services/seo-release-qa/"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "AI search, schema, and content",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ai-search/#service",
+         "name": "AEO and GEO consulting for companies and agencies",
+         "url": "https://christopherabraham.com/services/ai-search/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/schema/#service",
+         "name": "Schema markup and entity SEO",
+         "url": "https://christopherabraham.com/services/schema/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/on-page-seo/#service",
+         "name": "On-page SEO",
+         "url": "https://christopherabraham.com/services/on-page-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/fact-checked-articles/#service",
+         "name": "Fact-checked articles written with AI",
+         "url": "https://christopherabraham.com/services/fact-checked-articles/"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "Platforms, local, and ongoing work",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/wordpress-seo/#service",
+         "name": "WordPress SEO",
+         "url": "https://christopherabraham.com/services/wordpress-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/static-sites/#service",
+         "name": "Static websites built for search",
+         "url": "https://christopherabraham.com/services/static-sites/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/podcast-website/#service",
+         "name": "Podcast website SEO",
+         "url": "https://christopherabraham.com/services/podcast-website/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ecommerce-seo/#service",
+         "name": "Ecommerce SEO",
+         "url": "https://christopherabraham.com/services/ecommerce-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/local-seo/#service",
+         "name": "Local SEO and Google Business Profile",
+         "url": "https://christopherabraham.com/services/local-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-retainer/#service",
+         "name": "Monthly SEO retainer",
+         "url": "https://christopherabraham.com/services/seo-retainer/"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://christopherabraham.com/#person",
+   "name": "Christopher Abraham",
+   "givenName": "Christopher",
+   "additionalName": "James",
+   "familyName": "Abraham",
+   "alternateName": [
+    "Christopher James Abraham",
+    "Chris Abraham"
+   ],
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://christopherabraham.com/christopher-abraham.jpg",
+    "width": 225,
+    "height": 225,
+    "caption": "Christopher Abraham, SEO consultant"
+   },
+   "url": "https://christopherabraham.com/",
+   "jobTitle": "SEO consultant",
+   "worksFor": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "description": "Christopher Abraham is an independent SEO consultant in Arlington, Virginia, building websites since 1994 and doing SEO since 1998.",
+   "alumniOf": [
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "The George Washington University",
+     "sameAs": "https://en.wikipedia.org/wiki/George_Washington_University"
+    },
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "University of East Anglia",
+     "sameAs": "https://en.wikipedia.org/wiki/University_of_East_Anglia"
+    },
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "University of Hawaiʻi at Mānoa"
+    },
+    {
+     "@type": "EducationalOrganization",
+     "name": "Goethe-Institut"
+    },
+    {
+     "@type": "HighSchool",
+     "name": "Saint Louis School, Honolulu"
+    },
+    {
+     "@type": "ElementarySchool",
+     "name": "Aliamanu Elementary School, Honolulu"
+    }
+   ],
+   "affiliation": [
+    {
+     "@type": "Organization",
+     "name": "Meritus Media",
+     "url": "https://meritusmedia.com/",
+     "description": "Digital PR and marketing agency"
+    },
+    {
+     "@type": "Organization",
+     "name": "Stainless Communications",
+     "url": "https://stainlesscommunications.com/",
+     "description": "Senior-led brand, PR, web, and growth firm"
+    }
+   ],
+   "memberOf": [
+    {
+     "@type": "Organization",
+     "name": "Naval Lodge No. 4, F.A.A.M.",
+     "description": "Masonic lodge on Capitol Hill, Washington, DC, chartered 1805"
+    },
+    {
+     "@type": "Organization",
+     "name": "Scottish Rite of Freemasonry, Southern Jurisdiction",
+     "description": "32nd degree"
+    },
+    {
+     "@type": "Organization",
+     "name": "Phi Kappa Psi, DC Alpha chapter",
+     "description": "Founding father"
+    },
+    {
+     "@type": "Organization",
+     "name": "The WELL",
+     "url": "https://www.well.com/"
+    }
+   ],
+   "award": [
+    "Top Rated on Upwork"
+   ],
+   "homeLocation": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "workLocation": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "nationality": {
+    "@type": "Country",
+    "name": "United States"
+   },
+   "knowsLanguage": "en",
+   "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SEO consultant",
+    "occupationLocation": {
+     "@type": "Country",
+     "name": "United States"
+    },
+    "skills": "Technical SEO, indexing, Google Search Console, schema, Core Web Vitals, migrations, AI search, OpenAI Codex, Claude Code, GitHub Copilot"
+   },
+   "knowsAbout": [
+    "Search engine optimization",
+    "Technical SEO",
+    "SEO audits",
+    "Indexing",
+    "Google Search Console",
+    "Bing Webmaster Tools",
+    "JavaScript SEO",
+    "Core Web Vitals",
+    "Cloudflare",
+    "Schema markup",
+    "Structured data",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "AI search",
+    "llms.txt",
+    "OpenAI Codex",
+    "Claude Code",
+    "GitHub Copilot",
+    "Gemini",
+    "Grok",
+    "Perplexity",
+    "301 redirects",
+    "Website migrations",
+    "WordPress",
+    "Yoast SEO",
+    "Rank Math",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Local SEO",
+    "Google Business Profile",
+    "Internal linking",
+    "Metadata"
+   ],
+   "email": "cja@well.com",
+   "telephone": "+1-202-352-5051",
+   "sameAs": [
+    "https://www.upwork.com/freelancers/chrisjabraham",
+    "https://www.linkedin.com/in/chrisabraham",
+    "https://chrisabraham.com/",
+    "https://biznology.com/author/chrisabraham/",
+    "https://www.huffpost.com/author/chris-abraham",
+    "https://muckrack.com/chrisabraham",
+    "https://rheingold.com/Associates/team_abraham.html",
+    "https://www.reddit.com/user/chrisabraham/",
+    "https://mastodon.social/@chrisa",
+    "https://adage.com/author/chris-abraham/1797"
+   ]
+  },
+  {
+   "@type": "Place",
+   "@id": "https://christopherabraham.com/#place",
+   "name": "Arlington, Virginia",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.86,
+    "longitude": -77.1
+   },
+   "containedInPlace": {
+    "@type": "AdministrativeArea",
+    "name": "Arlington County, Virginia",
+    "containedInPlace": {
+     "@type": "State",
+     "name": "Virginia"
+    }
+   }
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://christopherabraham.com/guides/media-migration/#webpage",
+   "url": "https://christopherabraham.com/guides/media-migration/",
+   "name": "Image and PDF migration checks before old hosting closes",
+   "description": "Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.",
+   "isPartOf": {
+    "@id": "https://christopherabraham.com/#website"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "image migration SEO"
+    },
+    {
+     "@type": "Thing",
+     "name": "PDF migration checklist"
+    },
+    {
+     "@type": "Thing",
+     "name": "WordPress media migration"
+    },
+    {
+     "@type": "Thing",
+     "name": "old media URLs"
+    },
+    {
+     "@type": "Thing",
+     "name": "social image migration"
+    }
+   ],
+   "primaryImageOfPage": "https://christopherabraham.com/social-card.png",
+   "inLanguage": "en-US",
+   "dateModified": "2026-10-15",
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "keywords": "image migration SEO, PDF migration checklist, WordPress media migration, old media URLs, social image migration",
+   "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+     "h1",
+     ".lead"
+    ]
+   },
+   "potentialAction": {
+    "@type": "ReadAction",
+    "target": "https://christopherabraham.com/guides/media-migration/"
+   },
+   "breadcrumb": {
+    "@id": "https://christopherabraham.com/guides/media-migration/#breadcrumb"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://christopherabraham.com/guides/media-migration/#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://christopherabraham.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Guides",
+     "item": "https://christopherabraham.com/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Image and PDF Migrations",
+     "item": "https://christopherabraham.com/guides/media-migration/"
+    }
+   ]
+  },
+  {
+   "@type": "TechArticle",
+   "@id": "https://christopherabraham.com/guides/media-migration/#article",
+   "headline": "Moving a website? Check its images and PDFs before closing the old host",
+   "description": "Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.",
+   "url": "https://christopherabraham.com/guides/media-migration/",
+   "mainEntityOfPage": {
+    "@id": "https://christopherabraham.com/guides/media-migration/#webpage"
+   },
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "publisher": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "datePublished": "2026-10-15",
+   "dateModified": "2026-10-15",
+   "image": "https://christopherabraham.com/social-card.png",
+   "inLanguage": "en-US",
+   "wordCount": 954,
+   "citation": [
+    {
+     "@type": "CreativeWork",
+     "name": "Google Search Central: Site moves with URL changes",
+     "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Google Search Central: Google image SEO best practices",
+     "url": "https://developers.google.com/search/docs/appearance/google-images"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Google Search Central: Redirects and Google Search",
+     "url": "https://developers.google.com/search/docs/crawling-indexing/301-redirects"
+    }
+   ],
+   "keywords": "image migration SEO, PDF migration checklist, WordPress media migration, old media URLs, social image migration"
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+<header class="top">
+  <a href="../../"><img src="../../logo-128.png" width="64" height="64" alt="Christopher Abraham home" fetchpriority="high"></a>
+  <div>
+    <a class="brand" href="../../">Christopher Abraham</a>
+    <p class="tag">SEO consultant: technical SEO, indexing, schema, and AI search</p>
+  </div>
+</header>
+<nav class="tabs" aria-label="Main">
+  <ul>
+    <li><a href="../../">Home</a></li>
+    <li><a href="../../services/">Services</a></li>
+    <li><a href="../../guides/" aria-current="true">Guides</a></li>
+    <li><a href="../../case-studies/">Case Studies</a></li>
+    <li><a href="../../about/">About</a></li>
+    <li><a href="../../hire-me/">Hire Me</a></li>
+    <li><a href="../../contact/">Contact</a></li>
+  </ul>
+</nav>
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../../guides/">Guides</a></li><li aria-current="page">Image and PDF Migrations</li></ol></nav>
+<main id="main">
+<h1>Moving a website? Check its images and PDFs before closing the old host</h1>
+<p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-15">October 15, 2026</time></p>
+<p class="lead">A website can finish its move while its pictures are still living in the old house. Every article loads, the new domain works, and the migration looks complete until somebody cancels the previous hosting account. Then the photos, brochures, and link previews disappear together. Media deserves its own inventory and its own acceptance check.</p>
+
+<h2>Make a second list for files</h2>
+<p>The familiar migration spreadsheet maps old pages to new pages. Add a separate sheet for images, documents, and other files. Google's site move guidance explicitly includes hosted images and downloads in the move. That matters because a page address and the files used by that page can belong to different servers, accounts, and caching systems.</p>
+<p>Start with the old site's crawl, the media library or storage export, and any list of downloads linked from the content. Include files referenced in templates as well as files an editor inserted into an article. A crawl of visible links alone may miss a social image declared in metadata or an alternative image used on a narrow screen.</p>
+<p>I provide a <a href="../../downloads/media-migration-inventory.csv">media migration inventory worksheet in CSV format</a>. Its example rows are fictional. Replace them with the old file address, its new destination, the page that uses it, and the checks that establish whether the move is complete. Keep the worksheet private if the real inventory contains unpublished documents.</p>
+
+<h2>Record what the file is supposed to be</h2>
+<p>A successful request does not prove the file is right. An image URL can return an HTML error page with a successful status. A brochure link can open a different brochure from three years earlier. Record the expected file type and, where useful, its dimensions, page count, or another detail that distinguishes it from a placeholder.</p>
+<table>
+<thead><tr><th scope="col">Item</th><th scope="col">Check</th><th scope="col">Evidence to keep</th></tr></thead>
+<tbody>
+<tr><th scope="row">Article image</th><td>The intended image opens at the new address.</td><td>Response type, dimensions, and a visual check.</td></tr>
+<tr><th scope="row">PDF download</th><td>The document opens and contains the expected version.</td><td>Document title, version date, and referring page.</td></tr>
+<tr><th scope="row">Share card</th><td>The page points to the correct public image.</td><td>Metadata URL, image size, and a preview check.</td></tr>
+<tr><th scope="row">Responsive image</th><td>Each offered image variant can still be fetched.</td><td>The complete source set and its destinations.</td></tr>
+</tbody>
+</table>
+
+<h2>Separate copying from updating references</h2>
+<p>There are two jobs. First, put the intended files somewhere the new site controls. Second, change the references that still ask for them at the previous location. Finishing the first does not finish the second. Search the repository or exported content for the retiring hostname, upload directory, and media delivery domain. Include any encoded versions your content system stores.</p>
+<p>Look at image elements, responsive source sets, CSS backgrounds, document links, structured data, Open Graph images, and social card metadata. Check generated pages as well as source files: an import script may keep rebuilding the old addresses after a manual correction. Google's image guidance describes how standard image markup helps discovery; this inventory also checks whether that markup reaches a surviving file.</p>
+
+<h2>Decide what happens at the old address</h2>
+<p>If the media URL changes, decide how visitors and existing links should reach the replacement. For a permanent move, Google's redirect guidance favors a permanent server redirect where possible. Map a file to its actual replacement rather than sending every missing image or download to the home page. A replacement page is a different thing from the image or document a browser requested.</p>
+<p>Write down who controls the old hostname and how its redirects will be served after the old application closes. A redirect rule inside an account you are about to cancel will not provide continuity. If a particular hosting plan cannot keep those addresses working, resolve that limitation while the old service is still available.</p>
+
+<h2>Check original artwork before resizing</h2>
+<p>A technically valid social card can still crop a face, stretch a square cover, or replace distinctive original artwork with a generic image. Compare the new card with the original. Decide whether the image should fill its frame or sit inside it with space around it, then inspect the result at the size a person will see. The <a href="../../guides/social-share-cards/">social share card guide</a> covers the metadata and preview side.</p>
+<p>When a source file is small, record that fact instead of treating an enlarged copy as a new high resolution original. Keep the source and the transformed output separately. That makes a later correction possible without downloading an already compressed derivative and processing it again.</p>
+
+<h2>Test the dependency you intend to remove</h2>
+<p>Before shutting anything down, use a controlled test to find requests to the old media host. A developer can block that hostname locally in a test browser and load representative pages on the new site. Compare the network requests with the inventory. This is a diagnostic exercise in a test session, not a request to change public DNS or interrupt the live service.</p>
+<p>Repeat it for a short article, an image heavy page, a page with a PDF, and a link shared on a social platform. Then run the wider crawl to find exceptions outside the sample. A cached picture in one browser is weak evidence that an external dependency has gone.</p>
+
+<h2>Sign off the files as well as the pages</h2>
+<p>Close each inventory row with the destination checked, the references updated, the old address decision recorded, and any unresolved exception assigned to a person. Keep the date and the deployment being tested. That gives the owner a concrete basis for deciding when the old hosting can be retired.</p>
+<p>My <a href="../../case-studies/clinic-migration/">clinic migration case study</a> describes repository analysis that exposed references to the previous media library. I can review this part of your move through <a href="../../services/migrations/">migration oversight</a> or a focused <a href="../../services/seo-release-qa/">SEO release QA review</a>.</p>
+<aside class="help-box" aria-label="Get help">
+  <h2>Let me help you with this</h2>
+  <p>If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.</p>
+  <p><a class="button" href="https://calendly.com/chrisabraham/30">Book a 30 minute call</a> <a class="button" href="tel:+12023525051">Call +1 202-352-5051</a> <a class="button" href="mailto:cja@well.com">Email cja@well.com</a></p>
+  <p>Prefer to hire through Upwork? I'm <a href="https://www.upwork.com/freelancers/chrisjabraham">Top Rated there too</a>.</p>
+</aside>
+<h2>Sources</h2>
+<ul class="sources">
+  <li><a href="https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes">Google Search Central: Site moves with URL changes</a></li>
+  <li><a href="https://developers.google.com/search/docs/appearance/google-images">Google Search Central: Google image SEO best practices</a></li>
+  <li><a href="https://developers.google.com/search/docs/crawling-indexing/301-redirects">Google Search Central: Redirects and Google Search</a></li>
+</ul>
+<aside class="author-box" aria-label="About the author">
+  <img src="../../christopher-abraham.jpg" width="72" height="72" alt="">
+  <p><strong><a href="../../about/">Christopher Abraham</a></strong> is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. <a href="../../about/editorial-policy/">How these pages are written</a> · <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a> · <a href="https://www.upwork.com/freelancers/chrisjabraham">Upwork</a></p>
+</aside>
+</main>
+<footer class="site-footer">
+  <p><a href="mailto:cja@well.com">cja@well.com</a> · <a href="tel:+12023525051">+1 202-352-5051</a> · <a href="https://calendly.com/chrisabraham/30">Book a call</a> · <a href="https://www.upwork.com/freelancers/chrisjabraham">Hire me on Upwork</a> · <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a></p>
+  <p>© 2026 Christopher Abraham, Arlington, Virginia · <a href="../../faq/">FAQ</a> · <a href="../../about/editorial-policy/">How I write</a> · <a href="../../privacy/">Privacy</a> · <a href="../../sitemap/">Site map</a> · <a href="../../guides/glossary/">Glossary</a> · <a href="../../about/colophon/">Colophon</a> · <a href="../../llms.txt">llms.txt</a> · <a href="../../rss.xml">RSS</a></p>
+</footer>
+</div>
+</body>
+</html>
