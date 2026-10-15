@@ -99,6 +99,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Private training gym: a brand name Google kept misreading](https://christopherabraham.com/case-studies/training-gym/): A members only training gym in Northern Virginia had a brand name Google read as an ordinary word. Fixing its profile and pages lifted calls and visits.
 - [AI research company: accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/): An AI research company hiring Bay Area engineers wanted ChatGPT and Perplexity to answer accurately about its jobs and pay. The audit findings and the plan.
 - [My own consultancy: an AI visibility baseline, with nothing redacted](https://christopherabraham.com/case-studies/ai-visibility-baseline/): I ran sixteen buyer questions about my own services through Claude with web search, then traced every wrong fact and every missing mention to a fixable cause.
+- [My own podcast: 458 episodes, each with a page of its own](https://christopherabraham.com/case-studies/podcast-site/): How I turned my own podcast feed into a static site with a page, share card, and alt text for each of 458 episodes, plus transcripts, updated daily.
 - [A serialized novel: 17 years of Movable Type URLs, all kept](https://christopherabraham.com/case-studies/movable-type-novel/): How I moved a serialized novel off Movable Type 3.33 to static hosting, keeping all 953 old URLs: entries, archive pages, feeds, TrackBack files, and images.
 
 ## Files for machines

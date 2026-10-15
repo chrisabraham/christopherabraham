@@ -6,6 +6,8 @@
 
 A show that lives only on Spotify and Apple has no pages of its own for Google, Bing, or an AI assistant to find. I build the website that fixes that: your RSS feed turned into a fast static site on your domain, one page for every episode, updated on its own when a new one drops.
 
+The working example is my own show's site, described in the [podcast site case study](https://christopherabraham.com/case-studies/podcast-site/).
+
 ## What gets built
 - **A page for every episode** at an address that never changes, with the cover art, a player that streams from your host, the show notes, and the full transcript in the HTML where crawlers can read it.
 - **Titles and descriptions written for search**, each unique and sized for the results page, drafted with AI and reviewed by me.

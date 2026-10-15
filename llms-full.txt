@@ -800,6 +800,8 @@ Updated: 2026-10-14
 
 A show that lives only on Spotify and Apple has no pages of its own for Google, Bing, or an AI assistant to find. I build the website that fixes that: your RSS feed turned into a fast static site on your domain, one page for every episode, updated on its own when a new one drops.
 
+The working example is my own show's site, described in the [podcast site case study](https://christopherabraham.com/case-studies/podcast-site/).
+
 ## What gets built
 - **A page for every episode** at an address that never changes, with the cover art, a player that streams from your host, the show notes, and the full transcript in the HTML where crawlers can read it.
 - **Titles and descriptions written for search**, each unique and sized for the results page, drafted with AI and reviewed by me.
@@ -4638,6 +4640,7 @@ Updated: 2026-10-07
 Each case explains the problem, my role, what I found, what was done and by whom, how it was checked, and where things stand. Clients are described by industry, never by name.
 
 ## Content crawlers couldn't see
+- [My own podcast: 458 episodes, each with a page of its own](https://christopherabraham.com/case-studies/podcast-site/). A feed turned into a static site that updates every morning, and a share card fix for every episode.
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/). Magento and Hyvä, Alpine.js, and a backlink spike kept on its own track.
 - [Film review site: a consent tool that emptied every article](https://christopherabraham.com/case-studies/consent-banner/). A cookie platform blocking the script that displayed the reviews.
 - [Event discovery app: 2,000 pages with no way in](https://christopherabraham.com/case-studies/event-app-links/). A React app, a 13-page spec, and testable fixes.
@@ -5169,6 +5172,45 @@ The full run cost $1.88 in API fees and took about fifteen minutes. The same six
 ## Status
 
 The errors on the sites I build from code were corrected the same day, and the older profile page is next. Outreach follows, and the next run will show whether the open questions start to name me. See [AEO and GEO consulting](https://christopherabraham.com/services/ai-search/) for the same audit on your brand.
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+Updated October 14, 2026
+
+
+---
+
+Source: https://christopherabraham.com/case-studies/podcast-site/
+Updated: 2026-10-14
+
+# My own podcast: 458 episodes, each with a page of its own
+
+My show, [The Chris Abraham Show](https://thechrisabrahamshow.com/), has published episodes since 2019, and for most of that time it lived only where the platforms put it. On October 8, 2026, I built it a website from its RSS feed with Claude Code. This is the site I point to when someone asks what a podcast website from me looks like, because you can open any page of it right now.
+
+## What the build produced
+- 458 episode pages, one per episode, each at an address recorded once and never changed.
+- Full transcripts on 151 episodes, every one the host provides, rendered in the HTML where crawlers can read them.
+- A written description for each of more than 230 distinct cover images, done by looking at the art and quoting any words on it.
+- PodcastEpisode and Person structured data, a 467-address sitemap, an llms.txt file, and IndexNow notices when pages change.
+- An articles section, where episodes that drew a response grow into longer written pieces.
+
+The generator is a single Python file. GitHub Pages hosts the site, Cloudflare handles DNS, and the domain is the only bill.
+
+## It runs every morning
+
+A scheduled GitHub Actions job reads the feed at 9:17 UTC, adds any new episode, picks up transcripts that arrive late, rebuilds, and commits. I record and upload as I always have; the site follows on its own.
+
+## Tags that passed, previews that didn't
+
+On October 14 I audited the social tags on all 469 pages. Every page had complete Open Graph and X card tags, and every image existed at its declared size. The audit still turned up a fault: episode pages offered square cover art inside large preview cards, so Facebook, LinkedIn, and X cropped off the top and bottom of every cover, and more than two hundred episodes shared one default cover and looked identical when shared. I added a generated 1,200 by 630 card for each episode, with the cover beside the episode title. Every one of the 469 pages now offers an image at the size the platforms ask for. The method is in my guide to [social share cards](https://christopherabraham.com/guides/social-share-cards/).
+
+## Corrections, made in public
+
+On one episode I misidentified a car I'd photographed. The episode's page now carries the correction, the photo, and the threads where readers identified it. Articles on the site go through a line-by-line fact-check before they're published, the same one I offer as [fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/).
+
+## The point
+
+A podcast feed already holds everything a website needs. What keeps the site honest and current is a set of rules the build enforces every day. If you want the same for your show, see [podcast website SEO](https://christopherabraham.com/services/podcast-website/).
 
 **[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
@@ -5837,6 +5879,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Private training gym: a brand name Google kept misreading](https://christopherabraham.com/case-studies/training-gym/): A members only training gym in Northern Virginia had a brand name Google read as an ordinary word. Fixing its profile and pages lifted calls and visits.
 - [AI research company: accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/): An AI research company hiring Bay Area engineers wanted ChatGPT and Perplexity to answer accurately about its jobs and pay. The audit findings and the plan.
 - [My own consultancy: an AI visibility baseline, with nothing redacted](https://christopherabraham.com/case-studies/ai-visibility-baseline/): I ran sixteen buyer questions about my own services through Claude with web search, then traced every wrong fact and every missing mention to a fixable cause.
+- [My own podcast: 458 episodes, each with a page of its own](https://christopherabraham.com/case-studies/podcast-site/): How I turned my own podcast feed into a static site with a page, share card, and alt text for each of 458 episodes, plus transcripts, updated daily.
 - [A serialized novel: 17 years of Movable Type URLs, all kept](https://christopherabraham.com/case-studies/movable-type-novel/): How I moved a serialized novel off Movable Type 3.33 to static hosting, keeping all 953 old URLs: entries, archive pages, feeds, TrackBack files, and images.
 
 ## Files for machines

@@ -7,6 +7,7 @@
 Each case explains the problem, my role, what I found, what was done and by whom, how it was checked, and where things stand. Clients are described by industry, never by name.
 
 ## Content crawlers couldn't see
+- [My own podcast: 458 episodes, each with a page of its own](https://christopherabraham.com/case-studies/podcast-site/). A feed turned into a static site that updates every morning, and a share card fix for every episode.
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/). Magento and Hyvä, Alpine.js, and a backlink spike kept on its own track.
 - [Film review site: a consent tool that emptied every article](https://christopherabraham.com/case-studies/consent-banner/). A cookie platform blocking the script that displayed the reviews.
 - [Event discovery app: 2,000 pages with no way in](https://christopherabraham.com/case-studies/event-app-links/). A React app, a 13-page spec, and testable fixes.
