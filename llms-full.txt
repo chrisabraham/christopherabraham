@@ -4471,19 +4471,25 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 ---
 
 Source: https://christopherabraham.com/guides/glossary/
-Updated: 2026-10-06
+Updated: 2026-10-15
 
 # Glossary of SEO and AI search terms
 
-By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026 · Updated October 15, 2026
 
 The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need.
+
+**301 redirect**
+A permanent forwarding instruction from an old address to a new one, which passes nearly all of the old page's ranking signals along.
 
 **AEO (answer engine optimization)**
 Shaping pages so that systems which reply with an answer rather than a list of links, from featured snippets to voice assistants to chatbots, can lift a passage and credit it.
 
 **AI Overviews**
 The generated summaries Google places on many results pages, citing the sites they borrowed from. AI Mode extends the idea into a back-and-forth conversation.
+
+**AI share of voice**
+The share of relevant buyer questions where an AI assistant names your brand, measured against the competitors it names instead, tracked with the same question set every month. Method in [measuring share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/).
 
 **Alt text**
 Words attached to an image in the markup that describe it for people using screen readers and give crawlers a clue about the picture's subject.
@@ -4494,6 +4500,9 @@ The visible, clickable wording of a hyperlink. When it names the destination's t
 **APO (Automatic Platform Optimization)**
 Cloudflare's WordPress feature that stores complete pages at the edge so even the first byte arrives quickly. Included with Cloudflare's Pro plan and above, or $5 a month on the free plan, per Cloudflare's pricing.
 
+**Astroturfing**
+Posting praise for a product while pretending to be an ordinary customer, often from new or borrowed accounts. Reddit moderators remove it on sight; see [Reddit and AI answers](https://christopherabraham.com/guides/reddit-ai-answers/).
+
 **Bing Webmaster Tools**
 Microsoft's no-cost dashboard for owners, covering crawl, index, and keyword data from Bing, whose index also supplies Copilot and several other assistants.
 
@@ -4502,6 +4511,9 @@ A line in a page's head nominating which address should represent a set of dupli
 
 **CDN (content delivery network)**
 A network of servers spread around the world that keeps copies of a site's files and hands them to each visitor from somewhere nearby.
+
+**Client-side rendering (CSR)**
+Building a page in the visitor's browser with JavaScript, so the HTML the server sends starts nearly empty. Crawlers that skip scripts see little or nothing. See [SEO for AI built websites](https://christopherabraham.com/guides/ai-built-websites/).
 
 **CLS (Cumulative Layout Shift)**
 The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.
@@ -4518,8 +4530,17 @@ The practical ceiling on how much of a site a search engine will fetch in a give
 **Crawler**
 Software that requests pages on its own to read them, such as Googlebot, Bingbot, GPTBot, or ClaudeBot. People also say bot or spider.
 
+**Custom extraction**
+A crawler feature that pulls a chosen piece of every page, by XPath, CSS selector, or regex, into a column, so one crawl can audit headings, schema types, or tracking codes sitewide. Recipes are in [custom extraction](https://christopherabraham.com/guides/custom-extraction/).
+
+**Digital PR**
+Earning coverage and mentions on other people's sites, newsletters, and shows by giving writers something worth using. The sentences those mentions contain now feed AI answers; see [digital PR for AI search](https://christopherabraham.com/guides/earned-mentions/).
+
 **E-E-A-T**
 Experience, expertise, authoritativeness, and trustworthiness: the qualities Google's quality raters look for in a page and its author, with trust counted as the most important.
+
+**Earned media**
+Coverage a business didn't pay for and doesn't control: a reporter's article, a reviewer's post, a mention in someone else's newsletter.
 
 **Entity**
 A single real-world thing, whether a company, person, place, or product, that search engines and AI models recognize as one concept however a page happens to phrase its name.
@@ -4560,11 +4581,23 @@ The Core Web Vital that times how long the biggest image or text block in the op
 **llms.txt**
 A suggested standard: a Markdown summary kept at the top level of a domain, pointing language models to the pages most worth reading.
 
+**Material connection**
+The FTC's term for any tie between a brand and the person endorsing it, such as payment, free product, or employment. In the United States it has to be disclosed clearly wherever the endorsement appears.
+
 **Meta description**
 The short summary written into a page's code that search engines often show beneath the title in results. It invites the click rather than setting the rank.
 
+**Near duplicate**
+Two pages whose text is almost, but not exactly, the same, such as product variants or city pages built from one template. Crawlers can flag them by similarity score; see [near duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/).
+
+**Niche edit**
+A paid link inserted into an article that's already published and indexed, rather than a new article written for the purpose.
+
 **noindex**
 A directive, set in a meta tag or a response header, asking search engines to keep a page out of results.
+
+**Open Graph tags**
+The og: meta tags in a page's head that set the headline, summary, and image Facebook, LinkedIn, Slack, and most messaging apps show when someone shares the link. See [social share cards](https://christopherabraham.com/guides/social-share-cards/).
 
 **Orange cloud**
 Cloudflare's icon for a proxied DNS record, meaning visitors pass through Cloudflare's network, with its caching and protection, on the way to the site. A gray cloud means DNS only.
@@ -4575,8 +4608,23 @@ A page nothing else on the site links to. Only a sitemap entry or an outside lin
 **Permalink**
 The permanent address of a single post or page. In WordPress, the Permalinks settings screen decides its pattern; the post name pattern produces readable addresses.
 
+**Placed article**
+An article published on another site through a paid arrangement, usually carrying a link back. Google expects the link to be marked rel="sponsored"; see [why I turn down backlink work](https://christopherabraham.com/guides/buying-backlinks/).
+
+**Prerendering**
+Generating a finished HTML copy of a JavaScript page ahead of time and serving it to crawlers or visitors, so the content is readable without running scripts.
+
+**Pull request**
+A proposed change to a code repository, shown line by line for review before it's merged. SEO fixes made this way are recorded, reviewable, and easy to undo; see [SEO in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/).
+
+**Reddit Answers**
+Reddit's own AI search, launched in December 2024, which summarizes discussions from across the site in reply to a question.
+
 **Redirect chain**
 Several redirects strung together before the visitor arrives. Every extra step costs time and can weaken the signals passed along.
+
+**rel="sponsored"**
+A link attribute that tells Google a link was paid for, so it passes no ranking credit. Google's spam policies ask for it on every paid or sponsored link.
 
 **Rendering**
 Running a page's scripts to produce what a browser finally shows. Anything that exists only after this step can escape crawlers that skip it.
@@ -4596,14 +4644,17 @@ Structured data written in the Schema.org vocabulary to spell out the people, or
 **Search Console**
 Google's free owner dashboard: clicks and impressions, index status, Core Web Vitals, and alerts about problems it detects.
 
+**Server-side rendering (SSR)**
+Assembling the complete HTML on the server so a crawler gets every word in the first response, no scripts required.
+
+**Single page application (SPA)**
+A website that loads one HTML shell and swaps content in with JavaScript as people click, instead of loading a new page for each address. Many AI app builders produce them.
+
 **Site reputation abuse**
 Placing a third party's low-value pages on a trusted site to borrow its standing in search, such as coupon or gambling sections rented out under a respected domain. Against Google's spam policies.
 
 **Soft 404**
 A URL that answers with a success code yet shows an empty or not-found page. Google files it with the real 404s.
-
-**Server-side rendering (SSR)**
-Assembling the complete HTML on the server so a crawler gets every word in the first response, no scripts required.
 
 **Spam update**
 An improvement to the automated systems Google uses to detect pages that break its spam policies. Sites caught by one usually drop sharply and quickly.
@@ -4611,8 +4662,14 @@ An improvement to the automated systems Google uses to detect pages that break i
 **Title tag**
 The headline written into a page's code that search engines usually show as the clickable link in results and browsers show on the tab.
 
-**301 redirect**
-A permanent forwarding instruction from an old address to a new one, which passes nearly all of the old page's ranking signals along.
+**Topic cluster**
+One hub page that defines a subject, plus a set of pages that each answer a single buyer question in full, all linked together. See [topic clusters for AI search](https://christopherabraham.com/guides/topic-clusters/).
+
+**Vibe coding**
+Building software by describing what you want to an AI tool and accepting what it writes, with little reading of the code itself. Andrej Karpathy coined the phrase in February 2025.
+
+**White label**
+A service delivered under someone else's brand: an agency resells the work, and its client never sees the vendor's name.
 
 **XML sitemap**
 A machine-readable list of the addresses a site wants crawled, often with the date each last changed.

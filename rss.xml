@@ -5,8 +5,163 @@
   <link>https://christopherabraham.com/guides/</link>
   <description>Guides to indexing, audits, schema, redirects, site speed, and AI search</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 14 Oct 2026 12:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 12:00:00 +0000</lastBuildDate>
   <atom:link href="https://christopherabraham.com/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Glossary of SEO and AI search terms</title>
+    <link>https://christopherabraham.com/guides/glossary/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/glossary/</guid>
+    <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+    <description>Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.</description>
+    <content:encoded>&lt;h1&gt;Glossary of SEO and AI search terms&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt; · Updated &lt;time datetime="2026-10-15"&gt;October 15, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need.&lt;/p&gt;
+
+&lt;dl class="glossary"&gt;
+  &lt;dt id="three-oh-one"&gt;301 redirect&lt;/dt&gt;
+  &lt;dd&gt;A permanent forwarding instruction from an old address to a new one, which passes nearly all of the old page's ranking signals along.&lt;/dd&gt;
+  &lt;dt id="aeo"&gt;AEO (answer engine optimization)&lt;/dt&gt;
+  &lt;dd&gt;Shaping pages so that systems which reply with an answer rather than a list of links, from featured snippets to voice assistants to chatbots, can lift a passage and credit it.&lt;/dd&gt;
+  &lt;dt id="ai-overviews"&gt;AI Overviews&lt;/dt&gt;
+  &lt;dd&gt;The generated summaries Google places on many results pages, citing the sites they borrowed from. AI Mode extends the idea into a back-and-forth conversation.&lt;/dd&gt;
+  &lt;dt id="ai-share-of-voice"&gt;AI share of voice&lt;/dt&gt;
+  &lt;dd&gt;The share of relevant buyer questions where an AI assistant names your brand, measured against the competitors it names instead, tracked with the same question set every month. Method in &lt;a href="https://christopherabraham.com/guides/ai-share-of-voice/"&gt;measuring share of voice in AI answers&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="alt-text"&gt;Alt text&lt;/dt&gt;
+  &lt;dd&gt;Words attached to an image in the markup that describe it for people using screen readers and give crawlers a clue about the picture's subject.&lt;/dd&gt;
+  &lt;dt id="anchor-text"&gt;Anchor text&lt;/dt&gt;
+  &lt;dd&gt;The visible, clickable wording of a hyperlink. When it names the destination's topic, both readers and crawlers know what they'll find.&lt;/dd&gt;
+  &lt;dt id="apo"&gt;APO (Automatic Platform Optimization)&lt;/dt&gt;
+  &lt;dd&gt;Cloudflare's WordPress feature that stores complete pages at the edge so even the first byte arrives quickly. Included with Cloudflare's Pro plan and above, or $5 a month on the free plan, per Cloudflare's pricing.&lt;/dd&gt;
+  &lt;dt id="astroturfing"&gt;Astroturfing&lt;/dt&gt;
+  &lt;dd&gt;Posting praise for a product while pretending to be an ordinary customer, often from new or borrowed accounts. Reddit moderators remove it on sight; see &lt;a href="https://christopherabraham.com/guides/reddit-ai-answers/"&gt;Reddit and AI answers&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="bing-webmaster-tools"&gt;Bing Webmaster Tools&lt;/dt&gt;
+  &lt;dd&gt;Microsoft's no-cost dashboard for owners, covering crawl, index, and keyword data from Bing, whose index also supplies Copilot and several other assistants.&lt;/dd&gt;
+  &lt;dt id="canonical"&gt;Canonical tag&lt;/dt&gt;
+  &lt;dd&gt;A line in a page's head nominating which address should represent a set of duplicate or close copies. Google weighs it heavily but may overrule it.&lt;/dd&gt;
+  &lt;dt id="cdn"&gt;CDN (content delivery network)&lt;/dt&gt;
+  &lt;dd&gt;A network of servers spread around the world that keeps copies of a site's files and hands them to each visitor from somewhere nearby.&lt;/dd&gt;
+  &lt;dt id="client-side-rendering"&gt;Client-side rendering (CSR)&lt;/dt&gt;
+  &lt;dd&gt;Building a page in the visitor's browser with JavaScript, so the HTML the server sends starts nearly empty. Crawlers that skip scripts see little or nothing. See &lt;a href="https://christopherabraham.com/guides/ai-built-websites/"&gt;SEO for AI built websites&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="cls"&gt;CLS (Cumulative Layout Shift)&lt;/dt&gt;
+  &lt;dd&gt;The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.&lt;/dd&gt;
+  &lt;dt id="core-update"&gt;Core update&lt;/dt&gt;
+  &lt;dd&gt;A broad change Google makes to how it ranks everything, several times a year. Pages can rise or fall without anything being wrong with them; Google lists each one on its Search Status Dashboard.&lt;/dd&gt;
+  &lt;dt id="core-web-vitals"&gt;Core Web Vitals&lt;/dt&gt;
+  &lt;dd&gt;Three experience scores Google tracks, LCP, INP, and CLS, taken from Chrome users over a rolling four weeks.&lt;/dd&gt;
+  &lt;dt id="crawl-budget"&gt;Crawl budget&lt;/dt&gt;
+  &lt;dd&gt;The practical ceiling on how much of a site a search engine will fetch in a given stretch of time. A concern for very large sites and those spawning endless URL variants.&lt;/dd&gt;
+  &lt;dt id="crawler"&gt;Crawler&lt;/dt&gt;
+  &lt;dd&gt;Software that requests pages on its own to read them, such as Googlebot, Bingbot, GPTBot, or ClaudeBot. People also say bot or spider.&lt;/dd&gt;
+  &lt;dt id="custom-extraction"&gt;Custom extraction&lt;/dt&gt;
+  &lt;dd&gt;A crawler feature that pulls a chosen piece of every page, by XPath, CSS selector, or regex, into a column, so one crawl can audit headings, schema types, or tracking codes sitewide. Recipes are in &lt;a href="https://christopherabraham.com/guides/custom-extraction/"&gt;custom extraction&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="digital-pr"&gt;Digital PR&lt;/dt&gt;
+  &lt;dd&gt;Earning coverage and mentions on other people's sites, newsletters, and shows by giving writers something worth using. The sentences those mentions contain now feed AI answers; see &lt;a href="https://christopherabraham.com/guides/earned-mentions/"&gt;digital PR for AI search&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="e-e-a-t"&gt;E-E-A-T&lt;/dt&gt;
+  &lt;dd&gt;Experience, expertise, authoritativeness, and trustworthiness: the qualities Google's quality raters look for in a page and its author, with trust counted as the most important.&lt;/dd&gt;
+  &lt;dt id="earned-media"&gt;Earned media&lt;/dt&gt;
+  &lt;dd&gt;Coverage a business didn't pay for and doesn't control: a reporter's article, a reviewer's post, a mention in someone else's newsletter.&lt;/dd&gt;
+  &lt;dt id="entity"&gt;Entity&lt;/dt&gt;
+  &lt;dd&gt;A single real-world thing, whether a company, person, place, or product, that search engines and AI models recognize as one concept however a page happens to phrase its name.&lt;/dd&gt;
+  &lt;dt id="faceted-navigation"&gt;Faceted navigation&lt;/dt&gt;
+  &lt;dd&gt;Category filters for attributes like color, size, or price. Left open to crawlers, the combinations can balloon into millions of addresses.&lt;/dd&gt;
+  &lt;dt id="field-data"&gt;Field data&lt;/dt&gt;
+  &lt;dd&gt;Speed and responsiveness figures gathered from actual visits, as opposed to one synthetic test run on a single machine.&lt;/dd&gt;
+  &lt;dt id="geo"&gt;GEO (generative engine optimization)&lt;/dt&gt;
+  &lt;dd&gt;Work aimed at how generative AI tools portray and cite a company or a page. In practice it overlaps almost entirely with AEO and AI SEO.&lt;/dd&gt;
+  &lt;dt id="google-business-profile"&gt;Google Business Profile&lt;/dt&gt;
+  &lt;dd&gt;The free Google listing that puts a business on Maps and in local results, carrying its hours, categories, photos, and reviews.&lt;/dd&gt;
+  &lt;dt id="hreflang"&gt;hreflang&lt;/dt&gt;
+  &lt;dd&gt;Markup that pairs each language or country edition of a page with the audience that should see it.&lt;/dd&gt;
+  &lt;dt id="hsts"&gt;HSTS&lt;/dt&gt;
+  &lt;dd&gt;A security header telling browsers to reach a site only over HTTPS for a set period, so no visit ever falls back to an unencrypted connection.&lt;/dd&gt;
+  &lt;dt id="index"&gt;Index&lt;/dt&gt;
+  &lt;dd&gt;The store of pages a search engine considers eligible for results. Nothing ranks until it's in there.&lt;/dd&gt;
+  &lt;dt id="indexnow"&gt;IndexNow&lt;/dt&gt;
+  &lt;dd&gt;A shared ping system: when a page appears, changes, or disappears, the site tells Bing, Yandex, and other members right away instead of waiting for a recrawl.&lt;/dd&gt;
+  &lt;dt id="inp"&gt;INP (Interaction to Next Paint)&lt;/dt&gt;
+  &lt;dd&gt;The Core Web Vital that times the gap between a tap, click, or keystroke and the screen's visible response. Aim for 200 ms or lower.&lt;/dd&gt;
+  &lt;dt id="json-ld"&gt;JSON-LD&lt;/dt&gt;
+  &lt;dd&gt;Google's preferred way to write structured data: a JSON object inside its own script element, kept apart from what visitors see.&lt;/dd&gt;
+  &lt;dt id="lcp"&gt;LCP (Largest Contentful Paint)&lt;/dt&gt;
+  &lt;dd&gt;The Core Web Vital that times how long the biggest image or text block in the opening view takes to finish drawing. Aim for 2.5 s or lower.&lt;/dd&gt;
+  &lt;dt id="llms-txt"&gt;llms.txt&lt;/dt&gt;
+  &lt;dd&gt;A suggested standard: a Markdown summary kept at the top level of a domain, pointing language models to the pages most worth reading.&lt;/dd&gt;
+  &lt;dt id="material-connection"&gt;Material connection&lt;/dt&gt;
+  &lt;dd&gt;The FTC's term for any tie between a brand and the person endorsing it, such as payment, free product, or employment. In the United States it has to be disclosed clearly wherever the endorsement appears.&lt;/dd&gt;
+  &lt;dt id="meta-description"&gt;Meta description&lt;/dt&gt;
+  &lt;dd&gt;The short summary written into a page's code that search engines often show beneath the title in results. It invites the click rather than setting the rank.&lt;/dd&gt;
+  &lt;dt id="near-duplicate"&gt;Near duplicate&lt;/dt&gt;
+  &lt;dd&gt;Two pages whose text is almost, but not exactly, the same, such as product variants or city pages built from one template. Crawlers can flag them by similarity score; see &lt;a href="https://christopherabraham.com/guides/near-duplicates-and-h1s/"&gt;near duplicates and H1s&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="niche-edit"&gt;Niche edit&lt;/dt&gt;
+  &lt;dd&gt;A paid link inserted into an article that's already published and indexed, rather than a new article written for the purpose.&lt;/dd&gt;
+  &lt;dt id="noindex"&gt;noindex&lt;/dt&gt;
+  &lt;dd&gt;A directive, set in a meta tag or a response header, asking search engines to keep a page out of results.&lt;/dd&gt;
+  &lt;dt id="open-graph"&gt;Open Graph tags&lt;/dt&gt;
+  &lt;dd&gt;The og: meta tags in a page's head that set the headline, summary, and image Facebook, LinkedIn, Slack, and most messaging apps show when someone shares the link. See &lt;a href="https://christopherabraham.com/guides/social-share-cards/"&gt;social share cards&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="orange-cloud"&gt;Orange cloud&lt;/dt&gt;
+  &lt;dd&gt;Cloudflare's icon for a proxied DNS record, meaning visitors pass through Cloudflare's network, with its caching and protection, on the way to the site. A gray cloud means DNS only.&lt;/dd&gt;
+  &lt;dt id="orphan-page"&gt;Orphan page&lt;/dt&gt;
+  &lt;dd&gt;A page nothing else on the site links to. Only a sitemap entry or an outside link can lead anyone to it.&lt;/dd&gt;
+  &lt;dt id="permalink"&gt;Permalink&lt;/dt&gt;
+  &lt;dd&gt;The permanent address of a single post or page. In WordPress, the Permalinks settings screen decides its pattern; the post name pattern produces readable addresses.&lt;/dd&gt;
+  &lt;dt id="placed-article"&gt;Placed article&lt;/dt&gt;
+  &lt;dd&gt;An article published on another site through a paid arrangement, usually carrying a link back. Google expects the link to be marked rel="sponsored"; see &lt;a href="https://christopherabraham.com/guides/buying-backlinks/"&gt;why I turn down backlink work&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="prerendering"&gt;Prerendering&lt;/dt&gt;
+  &lt;dd&gt;Generating a finished HTML copy of a JavaScript page ahead of time and serving it to crawlers or visitors, so the content is readable without running scripts.&lt;/dd&gt;
+  &lt;dt id="pull-request"&gt;Pull request&lt;/dt&gt;
+  &lt;dd&gt;A proposed change to a code repository, shown line by line for review before it's merged. SEO fixes made this way are recorded, reviewable, and easy to undo; see &lt;a href="https://christopherabraham.com/guides/seo-in-your-repository/"&gt;SEO in your Git repository&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="reddit-answers"&gt;Reddit Answers&lt;/dt&gt;
+  &lt;dd&gt;Reddit's own AI search, launched in December 2024, which summarizes discussions from across the site in reply to a question.&lt;/dd&gt;
+  &lt;dt id="redirect-chain"&gt;Redirect chain&lt;/dt&gt;
+  &lt;dd&gt;Several redirects strung together before the visitor arrives. Every extra step costs time and can weaken the signals passed along.&lt;/dd&gt;
+  &lt;dt id="rel-sponsored"&gt;rel="sponsored"&lt;/dt&gt;
+  &lt;dd&gt;A link attribute that tells Google a link was paid for, so it passes no ranking credit. Google's spam policies ask for it on every paid or sponsored link.&lt;/dd&gt;
+  &lt;dt id="rendering"&gt;Rendering&lt;/dt&gt;
+  &lt;dd&gt;Running a page's scripts to produce what a browser finally shows. Anything that exists only after this step can escape crawlers that skip it.&lt;/dd&gt;
+  &lt;dt id="rich-results"&gt;Rich results&lt;/dt&gt;
+  &lt;dd&gt;Search listings dressed up with extra details drawn from structured data, like star ratings, prices, or breadcrumb trails.&lt;/dd&gt;
+  &lt;dt id="robots-txt"&gt;robots.txt&lt;/dt&gt;
+  &lt;dd&gt;A plain text file at the top of a domain that tells bots which folders to stay out of. It governs fetching; keeping a page out of results takes noindex.&lt;/dd&gt;
+  &lt;dt id="scaled-content-abuse"&gt;Scaled content abuse&lt;/dt&gt;
+  &lt;dd&gt;Google's spam policy against publishing many pages mainly to manipulate rankings, whether people, AI, or both produce them. The main target of Google's 2026 spam updates.&lt;/dd&gt;
+  &lt;dt id="schema"&gt;Schema markup&lt;/dt&gt;
+  &lt;dd&gt;Structured data written in the Schema.org vocabulary to spell out the people, organizations, places, and products on a page.&lt;/dd&gt;
+  &lt;dt id="search-console"&gt;Search Console&lt;/dt&gt;
+  &lt;dd&gt;Google's free owner dashboard: clicks and impressions, index status, Core Web Vitals, and alerts about problems it detects.&lt;/dd&gt;
+  &lt;dt id="ssr"&gt;Server-side rendering (SSR)&lt;/dt&gt;
+  &lt;dd&gt;Assembling the complete HTML on the server so a crawler gets every word in the first response, no scripts required.&lt;/dd&gt;
+  &lt;dt id="spa"&gt;Single page application (SPA)&lt;/dt&gt;
+  &lt;dd&gt;A website that loads one HTML shell and swaps content in with JavaScript as people click, instead of loading a new page for each address. Many AI app builders produce them.&lt;/dd&gt;
+  &lt;dt id="site-reputation-abuse"&gt;Site reputation abuse&lt;/dt&gt;
+  &lt;dd&gt;Placing a third party's low-value pages on a trusted site to borrow its standing in search, such as coupon or gambling sections rented out under a respected domain. Against Google's spam policies.&lt;/dd&gt;
+  &lt;dt id="soft-404"&gt;Soft 404&lt;/dt&gt;
+  &lt;dd&gt;A URL that answers with a success code yet shows an empty or not-found page. Google files it with the real 404s.&lt;/dd&gt;
+  &lt;dt id="spam-update"&gt;Spam update&lt;/dt&gt;
+  &lt;dd&gt;An improvement to the automated systems Google uses to detect pages that break its spam policies. Sites caught by one usually drop sharply and quickly.&lt;/dd&gt;
+  &lt;dt id="title-tag"&gt;Title tag&lt;/dt&gt;
+  &lt;dd&gt;The headline written into a page's code that search engines usually show as the clickable link in results and browsers show on the tab.&lt;/dd&gt;
+  &lt;dt id="topic-cluster"&gt;Topic cluster&lt;/dt&gt;
+  &lt;dd&gt;One hub page that defines a subject, plus a set of pages that each answer a single buyer question in full, all linked together. See &lt;a href="https://christopherabraham.com/guides/topic-clusters/"&gt;topic clusters for AI search&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="vibe-coding"&gt;Vibe coding&lt;/dt&gt;
+  &lt;dd&gt;Building software by describing what you want to an AI tool and accepting what it writes, with little reading of the code itself. Andrej Karpathy coined the phrase in February 2025.&lt;/dd&gt;
+  &lt;dt id="white-label"&gt;White label&lt;/dt&gt;
+  &lt;dd&gt;A service delivered under someone else's brand: an agency resells the work, and its client never sees the vendor's name.&lt;/dd&gt;
+  &lt;dt id="xml-sitemap"&gt;XML sitemap&lt;/dt&gt;
+  &lt;dd&gt;A machine-readable list of the addresses a site wants crawled, often with the date each last changed.&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;These terms are used throughout the &lt;a href="https://christopherabraham.com/guides/"&gt;guides&lt;/a&gt; and &lt;a href="https://christopherabraham.com/services/"&gt;services&lt;/a&gt; pages.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content:encoded>
+  </item>
   <item>
     <title>Topic clusters for AI search, without your pages competing with each other</title>
     <link>https://christopherabraham.com/guides/topic-clusters/</link>
@@ -2663,123 +2818,6 @@ Phone: +1-703-555-0100. Email: office@example.com.
   &lt;li&gt;&lt;a href="https://www.icann.org/resources/pages/gtld-lifecycle-2012-02-25-en"&gt;ICANN: gTLD lifecycle&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://web.archive.org/"&gt;Internet Archive: Wayback Machine&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;aside class="author-box" aria-label="About the author"&gt;
-  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
-  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
-&lt;/aside&gt;</content:encoded>
-  </item>
-  <item>
-    <title>Glossary of SEO and AI search terms</title>
-    <link>https://christopherabraham.com/guides/glossary/</link>
-    <guid isPermaLink="true">https://christopherabraham.com/guides/glossary/</guid>
-    <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
-    <description>Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.</description>
-    <content:encoded>&lt;h1&gt;Glossary of SEO and AI search terms&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
-&lt;p class="lead"&gt;The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need.&lt;/p&gt;
-
-&lt;dl class="glossary"&gt;
-  &lt;dt id="aeo"&gt;AEO (answer engine optimization)&lt;/dt&gt;
-  &lt;dd&gt;Shaping pages so that systems which reply with an answer rather than a list of links, from featured snippets to voice assistants to chatbots, can lift a passage and credit it.&lt;/dd&gt;
-  &lt;dt id="ai-overviews"&gt;AI Overviews&lt;/dt&gt;
-  &lt;dd&gt;The generated summaries Google places on many results pages, citing the sites they borrowed from. AI Mode extends the idea into a back-and-forth conversation.&lt;/dd&gt;
-  &lt;dt id="alt-text"&gt;Alt text&lt;/dt&gt;
-  &lt;dd&gt;Words attached to an image in the markup that describe it for people using screen readers and give crawlers a clue about the picture's subject.&lt;/dd&gt;
-  &lt;dt id="anchor-text"&gt;Anchor text&lt;/dt&gt;
-  &lt;dd&gt;The visible, clickable wording of a hyperlink. When it names the destination's topic, both readers and crawlers know what they'll find.&lt;/dd&gt;
-  &lt;dt id="apo"&gt;APO (Automatic Platform Optimization)&lt;/dt&gt;
-  &lt;dd&gt;Cloudflare's WordPress feature that stores complete pages at the edge so even the first byte arrives quickly. Included with Cloudflare's Pro plan and above, or $5 a month on the free plan, per Cloudflare's pricing.&lt;/dd&gt;
-  &lt;dt id="bing-webmaster-tools"&gt;Bing Webmaster Tools&lt;/dt&gt;
-  &lt;dd&gt;Microsoft's no-cost dashboard for owners, covering crawl, index, and keyword data from Bing, whose index also supplies Copilot and several other assistants.&lt;/dd&gt;
-  &lt;dt id="canonical"&gt;Canonical tag&lt;/dt&gt;
-  &lt;dd&gt;A line in a page's head nominating which address should represent a set of duplicate or close copies. Google weighs it heavily but may overrule it.&lt;/dd&gt;
-  &lt;dt id="cdn"&gt;CDN (content delivery network)&lt;/dt&gt;
-  &lt;dd&gt;A network of servers spread around the world that keeps copies of a site's files and hands them to each visitor from somewhere nearby.&lt;/dd&gt;
-  &lt;dt id="cls"&gt;CLS (Cumulative Layout Shift)&lt;/dt&gt;
-  &lt;dd&gt;The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.&lt;/dd&gt;
-  &lt;dt id="core-update"&gt;Core update&lt;/dt&gt;
-  &lt;dd&gt;A broad change Google makes to how it ranks everything, several times a year. Pages can rise or fall without anything being wrong with them; Google lists each one on its Search Status Dashboard.&lt;/dd&gt;
-  &lt;dt id="core-web-vitals"&gt;Core Web Vitals&lt;/dt&gt;
-  &lt;dd&gt;Three experience scores Google tracks, LCP, INP, and CLS, taken from Chrome users over a rolling four weeks.&lt;/dd&gt;
-  &lt;dt id="crawl-budget"&gt;Crawl budget&lt;/dt&gt;
-  &lt;dd&gt;The practical ceiling on how much of a site a search engine will fetch in a given stretch of time. A concern for very large sites and those spawning endless URL variants.&lt;/dd&gt;
-  &lt;dt id="crawler"&gt;Crawler&lt;/dt&gt;
-  &lt;dd&gt;Software that requests pages on its own to read them, such as Googlebot, Bingbot, GPTBot, or ClaudeBot. People also say bot or spider.&lt;/dd&gt;
-  &lt;dt id="e-e-a-t"&gt;E-E-A-T&lt;/dt&gt;
-  &lt;dd&gt;Experience, expertise, authoritativeness, and trustworthiness: the qualities Google's quality raters look for in a page and its author, with trust counted as the most important.&lt;/dd&gt;
-  &lt;dt id="entity"&gt;Entity&lt;/dt&gt;
-  &lt;dd&gt;A single real-world thing, whether a company, person, place, or product, that search engines and AI models recognize as one concept however a page happens to phrase its name.&lt;/dd&gt;
-  &lt;dt id="faceted-navigation"&gt;Faceted navigation&lt;/dt&gt;
-  &lt;dd&gt;Category filters for attributes like color, size, or price. Left open to crawlers, the combinations can balloon into millions of addresses.&lt;/dd&gt;
-  &lt;dt id="field-data"&gt;Field data&lt;/dt&gt;
-  &lt;dd&gt;Speed and responsiveness figures gathered from actual visits, as opposed to one synthetic test run on a single machine.&lt;/dd&gt;
-  &lt;dt id="geo"&gt;GEO (generative engine optimization)&lt;/dt&gt;
-  &lt;dd&gt;Work aimed at how generative AI tools portray and cite a company or a page. In practice it overlaps almost entirely with AEO and AI SEO.&lt;/dd&gt;
-  &lt;dt id="google-business-profile"&gt;Google Business Profile&lt;/dt&gt;
-  &lt;dd&gt;The free Google listing that puts a business on Maps and in local results, carrying its hours, categories, photos, and reviews.&lt;/dd&gt;
-  &lt;dt id="hreflang"&gt;hreflang&lt;/dt&gt;
-  &lt;dd&gt;Markup that pairs each language or country edition of a page with the audience that should see it.&lt;/dd&gt;
-  &lt;dt id="hsts"&gt;HSTS&lt;/dt&gt;
-  &lt;dd&gt;A security header telling browsers to reach a site only over HTTPS for a set period, so no visit ever falls back to an unencrypted connection.&lt;/dd&gt;
-  &lt;dt id="index"&gt;Index&lt;/dt&gt;
-  &lt;dd&gt;The store of pages a search engine considers eligible for results. Nothing ranks until it's in there.&lt;/dd&gt;
-  &lt;dt id="indexnow"&gt;IndexNow&lt;/dt&gt;
-  &lt;dd&gt;A shared ping system: when a page appears, changes, or disappears, the site tells Bing, Yandex, and other members right away instead of waiting for a recrawl.&lt;/dd&gt;
-  &lt;dt id="inp"&gt;INP (Interaction to Next Paint)&lt;/dt&gt;
-  &lt;dd&gt;The Core Web Vital that times the gap between a tap, click, or keystroke and the screen's visible response. Aim for 200 ms or lower.&lt;/dd&gt;
-  &lt;dt id="json-ld"&gt;JSON-LD&lt;/dt&gt;
-  &lt;dd&gt;Google's preferred way to write structured data: a JSON object inside its own script element, kept apart from what visitors see.&lt;/dd&gt;
-  &lt;dt id="lcp"&gt;LCP (Largest Contentful Paint)&lt;/dt&gt;
-  &lt;dd&gt;The Core Web Vital that times how long the biggest image or text block in the opening view takes to finish drawing. Aim for 2.5 s or lower.&lt;/dd&gt;
-  &lt;dt id="llms-txt"&gt;llms.txt&lt;/dt&gt;
-  &lt;dd&gt;A suggested standard: a Markdown summary kept at the top level of a domain, pointing language models to the pages most worth reading.&lt;/dd&gt;
-  &lt;dt id="meta-description"&gt;Meta description&lt;/dt&gt;
-  &lt;dd&gt;The short summary written into a page's code that search engines often show beneath the title in results. It invites the click rather than setting the rank.&lt;/dd&gt;
-  &lt;dt id="noindex"&gt;noindex&lt;/dt&gt;
-  &lt;dd&gt;A directive, set in a meta tag or a response header, asking search engines to keep a page out of results.&lt;/dd&gt;
-  &lt;dt id="orange-cloud"&gt;Orange cloud&lt;/dt&gt;
-  &lt;dd&gt;Cloudflare's icon for a proxied DNS record, meaning visitors pass through Cloudflare's network, with its caching and protection, on the way to the site. A gray cloud means DNS only.&lt;/dd&gt;
-  &lt;dt id="orphan-page"&gt;Orphan page&lt;/dt&gt;
-  &lt;dd&gt;A page nothing else on the site links to. Only a sitemap entry or an outside link can lead anyone to it.&lt;/dd&gt;
-  &lt;dt id="permalink"&gt;Permalink&lt;/dt&gt;
-  &lt;dd&gt;The permanent address of a single post or page. In WordPress, the Permalinks settings screen decides its pattern; the post name pattern produces readable addresses.&lt;/dd&gt;
-  &lt;dt id="redirect-chain"&gt;Redirect chain&lt;/dt&gt;
-  &lt;dd&gt;Several redirects strung together before the visitor arrives. Every extra step costs time and can weaken the signals passed along.&lt;/dd&gt;
-  &lt;dt id="rendering"&gt;Rendering&lt;/dt&gt;
-  &lt;dd&gt;Running a page's scripts to produce what a browser finally shows. Anything that exists only after this step can escape crawlers that skip it.&lt;/dd&gt;
-  &lt;dt id="rich-results"&gt;Rich results&lt;/dt&gt;
-  &lt;dd&gt;Search listings dressed up with extra details drawn from structured data, like star ratings, prices, or breadcrumb trails.&lt;/dd&gt;
-  &lt;dt id="robots-txt"&gt;robots.txt&lt;/dt&gt;
-  &lt;dd&gt;A plain text file at the top of a domain that tells bots which folders to stay out of. It governs fetching; keeping a page out of results takes noindex.&lt;/dd&gt;
-  &lt;dt id="scaled-content-abuse"&gt;Scaled content abuse&lt;/dt&gt;
-  &lt;dd&gt;Google's spam policy against publishing many pages mainly to manipulate rankings, whether people, AI, or both produce them. The main target of Google's 2026 spam updates.&lt;/dd&gt;
-  &lt;dt id="schema"&gt;Schema markup&lt;/dt&gt;
-  &lt;dd&gt;Structured data written in the Schema.org vocabulary to spell out the people, organizations, places, and products on a page.&lt;/dd&gt;
-  &lt;dt id="search-console"&gt;Search Console&lt;/dt&gt;
-  &lt;dd&gt;Google's free owner dashboard: clicks and impressions, index status, Core Web Vitals, and alerts about problems it detects.&lt;/dd&gt;
-  &lt;dt id="site-reputation-abuse"&gt;Site reputation abuse&lt;/dt&gt;
-  &lt;dd&gt;Placing a third party's low-value pages on a trusted site to borrow its standing in search, such as coupon or gambling sections rented out under a respected domain. Against Google's spam policies.&lt;/dd&gt;
-  &lt;dt id="soft-404"&gt;Soft 404&lt;/dt&gt;
-  &lt;dd&gt;A URL that answers with a success code yet shows an empty or not-found page. Google files it with the real 404s.&lt;/dd&gt;
-  &lt;dt id="ssr"&gt;Server-side rendering (SSR)&lt;/dt&gt;
-  &lt;dd&gt;Assembling the complete HTML on the server so a crawler gets every word in the first response, no scripts required.&lt;/dd&gt;
-  &lt;dt id="spam-update"&gt;Spam update&lt;/dt&gt;
-  &lt;dd&gt;An improvement to the automated systems Google uses to detect pages that break its spam policies. Sites caught by one usually drop sharply and quickly.&lt;/dd&gt;
-  &lt;dt id="title-tag"&gt;Title tag&lt;/dt&gt;
-  &lt;dd&gt;The headline written into a page's code that search engines usually show as the clickable link in results and browsers show on the tab.&lt;/dd&gt;
-  &lt;dt id="three-oh-one"&gt;301 redirect&lt;/dt&gt;
-  &lt;dd&gt;A permanent forwarding instruction from an old address to a new one, which passes nearly all of the old page's ranking signals along.&lt;/dd&gt;
-  &lt;dt id="xml-sitemap"&gt;XML sitemap&lt;/dt&gt;
-  &lt;dd&gt;A machine-readable list of the addresses a site wants crawled, often with the date each last changed.&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;These terms are used throughout the &lt;a href="https://christopherabraham.com/guides/"&gt;guides&lt;/a&gt; and &lt;a href="https://christopherabraham.com/services/"&gt;services&lt;/a&gt; pages.&lt;/p&gt;
-&lt;aside class="help-box" aria-label="Get help"&gt;
-  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
-  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
-  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
-  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
-&lt;/aside&gt;
 &lt;aside class="author-box" aria-label="About the author"&gt;
   &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
   &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
