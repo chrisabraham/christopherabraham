@@ -19,9 +19,12 @@ Every service starts from the same place: find out what search engines and AI sy
 - [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/): how ChatGPT, Perplexity, Gemini, Claude, Copilot, and AI Overviews describe you, and how to improve it.
 - [Schema markup and entity SEO](https://christopherabraham.com/services/schema/): JSON-LD that validates, matches the page, and tells machines who you are.
 - [On-page SEO](https://christopherabraham.com/services/on-page-seo/): titles, descriptions, headings, internal links, and thin or duplicate pages.
+- [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/): drafted from your own material in your voice, then checked claim by claim against sources.
 
 ## Platforms, local, and ongoing work
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): Yoast, Rank Math, themes, plugins, and the performance cleanup old installs need.
+- [Static websites built for search](https://christopherabraham.com/services/static-sites/): fast sites on GitHub Pages and Cloudflare with SEO checks on every build, and WordPress brochure sites moved off WordPress.
+- [Podcast website SEO](https://christopherabraham.com/services/podcast-website/): your feed turned into a site with a page, transcript, and share card for every episode, updated each morning.
 - [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Shopify, WooCommerce, and Magento product, category, and faceted pages.
 - [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/): location pages, profiles, categories, and hard cases such as suspensions.
 - [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): steady monitoring, fixes, and reporting from a senior consultant.

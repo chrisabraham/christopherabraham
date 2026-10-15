@@ -28,6 +28,10 @@ Yoast SEO and Rank Math do a lot of work most owners never see: titles and descr
 
 A page cache, image compression, script deferral, database cleanup, and a CDN fix most slow WordPress sites. I configure WP Rocket, LiteSpeed Cache, or W3 Total Cache, test that caching doesn't serve the wrong canonical or a logged-in view to crawlers, and connect Cloudflare where it helps. More on speed under [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/).
 
+## What the cache doesn't cover
+
+A full-page cache at Cloudflare serves most visitors a saved copy, so they never touch WordPress or its database. Logged-in users, comments, searches, form posts, and requests to the login page still reach the server. Cloudflare's own documentation says APO bypasses the cache for logged-in users and when session or WooCommerce cookies are present. So caching handles the speed, and the parts it can't reach still need hardening: core, plugins, and themes kept current, unused plugins deleted, strong passwords with two-step login, the dashboard file editor turned off, the XML-RPC endpoint closed when nothing depends on it, and regular backups that include the database. For brochure sites that never needed WordPress, a [static website](https://christopherabraham.com/services/static-sites/) removes all of it.
+
 ## WooCommerce
 
 Product and category templates, faceted navigation, out-of-stock handling, and product schema are covered under [ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/).

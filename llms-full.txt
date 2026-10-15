@@ -107,9 +107,12 @@ Every service starts from the same place: find out what search engines and AI sy
 - [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/): how ChatGPT, Perplexity, Gemini, Claude, Copilot, and AI Overviews describe you, and how to improve it.
 - [Schema markup and entity SEO](https://christopherabraham.com/services/schema/): JSON-LD that validates, matches the page, and tells machines who you are.
 - [On-page SEO](https://christopherabraham.com/services/on-page-seo/): titles, descriptions, headings, internal links, and thin or duplicate pages.
+- [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/): drafted from your own material in your voice, then checked claim by claim against sources.
 
 ## Platforms, local, and ongoing work
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): Yoast, Rank Math, themes, plugins, and the performance cleanup old installs need.
+- [Static websites built for search](https://christopherabraham.com/services/static-sites/): fast sites on GitHub Pages and Cloudflare with SEO checks on every build, and WordPress brochure sites moved off WordPress.
+- [Podcast website SEO](https://christopherabraham.com/services/podcast-website/): your feed turned into a site with a page, transcript, and share card for every episode, updated each morning.
 - [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Shopify, WooCommerce, and Magento product, category, and faceted pages.
 - [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/): location pages, profiles, categories, and hard cases such as suspensions.
 - [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): steady monitoring, fixes, and reporting from a senior consultant.
@@ -649,6 +652,49 @@ Updated October 6, 2026
 
 ---
 
+Source: https://christopherabraham.com/services/fact-checked-articles/
+Updated: 2026-10-14
+
+# Fact-checked articles written with AI
+
+AI writes fast and invents freely. It will hand you a quote nobody said, a statistic with no source, and a motive you never had, all in confident prose. I write articles with AI and then check them the way a magazine fact-checker would, so what goes up under your name is in your voice and true.
+
+## Starting from your material
+
+Every article starts from something real: a recording, a transcript, an interview, notes, a thread you started, photos you took. The AI drafts from that material. It doesn't get to fill gaps with scenes, quotes, or details that sound plausible. When a gap matters, I ask you instead of guessing.
+
+## Your voice, written down
+
+Before the first draft, you and I write down your voice rules: words you'd never use, sentence habits you dislike, how you handle jokes, what tone your readers expect, and how you spell your own name in the possessive. The rules go into every draft and every revision. Generic AI prose has tells, such as hedging, stock transitions, and tidy motivational endings, and the rules screen those out.
+
+## The fact-check
+
+Every factual claim is traced to its source before publication:
+- **Your own claims** are checked against the recording or notes, so the article says exactly what you said.
+- **Public facts**, such as names, dates, ages, titles, and numbers, are checked against primary or reputable sources, and the article cites them.
+- **Other people's words** are quoted exactly and attributed to the person who said them.
+- **Numbers** are reported as what they measure. A Reddit score is not a head count, and a page view is not a reader.
+- **Anything unverifiable** is cut, attributed, or flagged to you with a note.
+
+You get the article and a short report of what changed in the check and why, with links to the sources.
+
+## Built for search and AI answers
+
+Each article gets a search-sized title and description, structured data, an image with real alt text, and internal links to the pages it supports. Google's guidance doesn't penalize content for being written with AI; it targets content that is unhelpful, inaccurate, or mass produced. I covered the details in [what Google says about AI-written content](https://christopherabraham.com/guides/ai-content-seo/). Accurate, sourced articles are also the kind AI assistants cite; see [how to correct what AI says about you](https://christopherabraham.com/guides/correct-ai-answers/).
+
+## What I won't write
+
+Fake reviews, invented testimonials, articles under a made-up author, and pages mass produced to rank for every variant of a keyword. Each one risks your site and your name.
+
+## How it's delivered
+
+Single articles or a monthly number, quoted once the voice rules and the sources are agreed. The first article takes longest, because it sets the rules every later one follows. Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
+
+Updated October 14, 2026
+
+
+---
+
 Source: https://christopherabraham.com/services/wordpress-seo/
 Updated: 2026-10-06
 
@@ -678,6 +724,10 @@ Yoast SEO and Rank Math do a lot of work most owners never see: titles and descr
 
 A page cache, image compression, script deferral, database cleanup, and a CDN fix most slow WordPress sites. I configure WP Rocket, LiteSpeed Cache, or W3 Total Cache, test that caching doesn't serve the wrong canonical or a logged-in view to crawlers, and connect Cloudflare where it helps. More on speed under [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/).
 
+## What the cache doesn't cover
+
+A full-page cache at Cloudflare serves most visitors a saved copy, so they never touch WordPress or its database. Logged-in users, comments, searches, form posts, and requests to the login page still reach the server. Cloudflare's own documentation says APO bypasses the cache for logged-in users and when session or WooCommerce cookies are present. So caching handles the speed, and the parts it can't reach still need hardening: core, plugins, and themes kept current, unused plugins deleted, strong passwords with two-step login, the dashboard file editor turned off, the XML-RPC endpoint closed when nothing depends on it, and regular backups that include the database. For brochure sites that never needed WordPress, a [static website](https://christopherabraham.com/services/static-sites/) removes all of it.
+
 ## WooCommerce
 
 Product and category templates, faceted navigation, out-of-stock handling, and product schema are covered under [ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/).
@@ -697,6 +747,88 @@ I'm comfortable inside a fifteen-year-old WordPress site with a custom theme nob
 An example of what goes wrong when the SEO plugin is switched off: [recovering a WooCommerce store's indexing](https://christopherabraham.com/case-studies/plugin-outage/).
 
 Updated October 6, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/static-sites/
+Updated: 2026-10-14
+
+# Static websites built for search
+
+A static website is a folder of finished HTML files. Nothing runs when a visitor arrives, so pages load fast, nothing can be hacked through a login screen, and hosting costs next to nothing. I build them with Claude Code, Anthropic's AI coding assistant, and every build has to pass the same SEO checks I'd run on a client's site before it can publish.
+
+## Proof you're reading
+
+This site is one. It's hand written HTML, a small Python generator, GitHub Pages, and Cloudflare, described on the [colophon](https://christopherabraham.com/about/colophon/). The build refuses to publish a page whose title or description is the wrong length, repeats another page, or borrows phrasing from elsewhere. Those rules live in code, so they hold on the hundredth page the same as the first.
+
+## What every site gets
+- **Titles, descriptions, and headings** checked on every build, with one H1 per page and no duplicates.
+- **Structured data** for the person or business behind the site, breadcrumbs, and the right type for each page.
+- **Open Graph and X card tags** with a correctly sized share image for every page.
+- **A sitemap, robots.txt, and llms.txt**, with AI crawlers allowed unless you say otherwise.
+- **Accessible markup and colors**, tested in a text browser, because what a screen reader can follow a crawler can follow.
+- **Speed**: no page builder, no unused scripts, images sized for the screen.
+
+## Leaving WordPress
+
+Plenty of WordPress sites are brochures that change a few times a year, paying for a database, a stack of plugins, and constant security updates to publish pages that never change. For those sites I move the content to static pages, keep every URL or redirect it with a 301, carry over titles and descriptions, and check rankings after launch. The method is the same one I use for any [site migration](https://christopherabraham.com/services/migrations/).
+
+WordPress stays the right choice when a site needs logins, a store, comments, or a team publishing daily through an editor. For those, I make WordPress fast and sound instead; see [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/).
+
+## Editing after launch
+
+Content lives in plain files in a Git repository you own. You can edit a page on GitHub in the browser, ask me to make changes, or describe a change to an AI coding assistant and review what it writes. Every edit is recorded, and any mistake can be rolled back in a minute. More on why that matters for SEO is in [why your SEO should work in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/).
+
+## Built for podcasts, too
+
+A podcast feed is a natural source for a static site, with a page per episode added automatically. That's its own service: [podcast website SEO](https://christopherabraham.com/services/podcast-website/).
+
+## How it's delivered
+
+A fixed-scope build quoted after a short call, or a migration scoped from an inventory of your current site. Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
+
+Updated October 14, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/podcast-website/
+Updated: 2026-10-14
+
+# Podcast website SEO
+
+A show that lives only on Spotify and Apple has no pages of its own for Google, Bing, or an AI assistant to find. I build the website that fixes that: your RSS feed turned into a fast static site on your domain, one page for every episode, updated on its own when a new one drops.
+
+## What gets built
+- **A page for every episode** at an address that never changes, with the cover art, a player that streams from your host, the show notes, and the full transcript in the HTML where crawlers can read it.
+- **Titles and descriptions written for search**, each unique and sized for the results page, drafted with AI and reviewed by me.
+- **PodcastSeries and PodcastEpisode structured data**, plus Person markup for the host, so search engines and assistants connect every episode to the show and the show to you.
+- **A share card for every episode**, sized at 1,200 by 630 pixels, with the cover art and the episode title, so links on Facebook, LinkedIn, and X show the whole image instead of a cropped square. The method is in [how social share cards work](https://christopherabraham.com/guides/social-share-cards/).
+- **A home page, an archive, and an about page** with every place to subscribe.
+- **A sitemap, an llms.txt file, and an RSS feed**, and the site registered in Google Search Console and Bing Webmaster Tools.
+
+## It runs itself
+
+A scheduled job reads your feed every morning, adds new episodes, picks up transcripts your host posts late, and rebuilds the site. If the feed suddenly lists far fewer episodes than the site holds, the job stops and publishes nothing, so a bad day at your host never empties the archive. The audio stays with your host, which keeps your download numbers whole.
+
+## Where it lives and what it costs to run
+
+The site is plain HTML on GitHub Pages, behind Cloudflare. Hosting and HTTPS cost nothing, so your only running cost is the domain. There is no WordPress install to patch, no plugin to update, and no database to back up. The repository is yours from the first day, and every change is in its history.
+
+## Episodes that grow into articles
+
+An episode that drew a reaction is a good start for a written piece. I can turn an episode into an article in your voice, built from the transcript and checked claim by claim before it goes up. That work is described under [fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/).
+
+## What I'll need from you
+
+Your RSS feed address, your domain or the name you want, the cover art at full size, and an hour to agree on how episode pages should read. Transcripts from your host are ideal. When a host doesn't provide them, I'll propose another source.
+
+## How it's delivered
+
+The build is a fixed-scope project quoted after a short call. Ongoing additions, such as articles or new page types, can be billed by the hour. Terms are on [Hire Me](https://christopherabraham.com/hire-me/). For the static approach in general, see [static websites built for search](https://christopherabraham.com/services/static-sites/).
+
+Updated October 14, 2026
 
 
 ---
@@ -901,6 +1033,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Lock down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/): null MX, SPF, DMARC, and an empty DKIM key.
 - [What happens to your old domains when they lapse](https://christopherabraham.com/guides/lapsed-domains/): drop catchers, redirects to strangers, and how to protect yourself.
 - [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/): the format, Markdown copies, llms-full.txt, and robots rules.
+- [Social share cards: Open Graph tags and images that fit](https://christopherabraham.com/guides/social-share-cards/): the tags behind every link preview, the 1,200 by 630 standard, the square artwork trap, and refreshing old previews.
 - [Meta keywords in 2026](https://christopherabraham.com/guides/meta-keywords/): ignored by Google, risky when stuffed, and how to use them honestly.
 - [Website accessibility without overlays](https://christopherabraham.com/guides/accessible-websites/): the WCAG essentials and how to test them yourself.
 - [Accessibility as SEO](https://christopherabraham.com/guides/accessibility-seo-dividends/): how each WCAG fix pays off in rankings, AI answers, browsing agents, and trust.
@@ -2380,6 +2513,79 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 - [The llms.txt proposal](https://llmstxt.org/)
 - [Google Search Central: Introduction to robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro)
 - [OpenAI: Overview of OpenAI crawlers](https://platform.openai.com/docs/bots)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
+Source: https://christopherabraham.com/guides/social-share-cards/
+Updated: 2026-10-14
+
+# Social share cards: Open Graph tags and images that fit
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 14, 2026
+
+When someone pastes your link into Facebook, LinkedIn, X, Slack, or a text message, the preview that appears is built from a few tags in your page's head. Those tags decide the headline, the summary, and the picture. When they're missing, the platform guesses, and it guesses badly. When they're present but the image is the wrong shape, the platform crops it, and the crop usually cuts off the part that mattered.
+
+## The tags that build the preview
+
+The Open Graph protocol, which Facebook introduced and almost every platform now reads, asks for four properties on every page:
+- `og:title`: the headline as it should appear in the preview.
+- `og:type`: what the page is, usually `website` or `article`.
+- `og:image`: the full address of the preview image.
+- `og:url`: the page's canonical address, which the platform treats as its permanent ID.
+
+Add `og:description` and `og:site_name` as well. Then describe the image with three structured properties: `og:image:width` and `og:image:height` in pixels, and `og:image:alt`, which the protocol defines as a description of what is in the image, not a caption.
+
+X reads its own set of tags. The one that matters most is `twitter:card`: `summary` shows a small square thumbnail beside the text, and `summary_large_image` shows a wide image above it. I add `twitter:title`, `twitter:description`, `twitter:image`, and `twitter:image:alt` too, so nothing depends on how a platform falls back.
+
+## Why 1,200 by 630
+
+Meta's documentation asks for images at least 1,200 by 630 pixels for the best display on high-resolution screens, and says to keep them as close to a 1.91 to 1 ratio as you can so the whole image shows in the feed without cropping. Images smaller than 600 by 315 get shown small. Files must stay under 8 MB. LinkedIn and X lay out their large previews as wide rectangles too, so one image at 1,200 by 630 serves all of them.
+
+Declaring the width and height matters more than it looks. Meta says those two tags let its crawler render the image immediately. Without them, the first person to share a new page can get a preview with no picture while the platform downloads and measures the file.
+
+## The square artwork trap
+
+Square images are everywhere: podcast covers, product photos, logos, album art. Put a square image in a large card, and every platform crops it to a wide strip from the middle. The top and bottom are gone, and on cover art that's usually where the title is.
+
+I found exactly this on a podcast site I built. Every page had complete Open Graph and X tags, and every image existed at the declared size, so a tag audit passed. But 458 episode pages pointed at square cover art inside large cards, so every shared episode lost the top and bottom of its cover. More than two hundred episodes shared the same default cover, so their previews were also identical. The fix was a generated card for each episode, 1,200 by 630, with the cover art on one side and the episode title in large type on the other. The build makes the card once, reuses it on every later build, and makes a new one when an episode is renamed.
+
+If you can't generate cards, switch square images to the `summary` card on X, which shows a square thumbnail uncropped, and accept a smaller preview elsewhere.
+
+## Making the image work as a preview
+- **Put the page's own title in the image** when pages share artwork, so each preview is distinct.
+- **Keep important content near the center.** Some apps trim the edges or round the corners.
+- **Use large type.** Most previews are seen on phones, at a fraction of full size.
+- **Use JPEG for photos and artwork** and keep files in the low hundreds of kilobytes.
+- **Write alt text** that describes the image, since some apps read it aloud.
+
+## Checking your pages
+
+View the source of a page and confirm every tag is present, every image address is absolute and loads, and every declared size matches the real file. On a large site, crawl it with Screaming Frog and extract the `og:image` value from each page, then check the images in bulk; the method is in my guide to [custom extraction](https://christopherabraham.com/guides/custom-extraction/). Group the results by image. A single image behind hundreds of pages is a sign your previews all look the same.
+
+## Refreshing previews that are already out there
+
+Platforms cache what they fetch. Meta notes that changing the image for a URL doesn't update the preview on old shares. After fixing a page, paste its address into Meta's Sharing Debugger and ask it to scrape again, and do the same in LinkedIn's Post Inspector. Other platforms refresh on their own schedule.
+
+## Where this fits
+
+Share cards don't move rankings directly. They decide whether a shared link gets clicked, and clicks bring the visits, links, and mentions that do matter. I check them in every audit and build them into every site I make; see [static websites built for search](https://christopherabraham.com/services/static-sites/) and [podcast website SEO](https://christopherabraham.com/services/podcast-website/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [The Open Graph protocol](https://ogp.me/)
+- [Meta for Developers: Images in link shares](https://developers.facebook.com/docs/sharing/webmasters/images/)
+- [Meta for Developers: Sharing Debugger](https://developers.facebook.com/tools/debug/)
+- [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/)
 
 **[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
@@ -5558,9 +5764,12 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/): Improve how ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google AI Overviews describe and cite your business, with prompt testing, entities, and content.
 - [Schema markup and entity SEO](https://christopherabraham.com/services/schema/): Structured data that validates, matches the visible page, and connects your organization, people, products, and locations as entities for Google and AI.
 - [On-page SEO](https://christopherabraham.com/services/on-page-seo/): On page SEO fixed at the template level: titles and meta descriptions, headings, internal links, thin and duplicate pages, and carefully edited AI drafts.
+- [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/): SEO articles drafted with AI from your own material, written to your voice rules, then checked claim by claim against sources before anything is published.
 
 ## Platforms, local, and ongoing work
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): WordPress SEO done carefully: Yoast and Rank Math settings, theme and plugin conflicts, page builder bloat, caching, and old installs that need a steady hand.
+- [Static websites built for search](https://christopherabraham.com/services/static-sites/): Fast static websites on GitHub Pages and Cloudflare, built with Claude Code and held to SEO checks on every build. No plugins, no database, nothing to patch.
+- [Podcast website SEO](https://christopherabraham.com/services/podcast-website/): I turn a podcast feed into a fast website on your own domain, with a page per episode, transcripts, schema, share cards, and new episodes added each morning.
 - [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Ecommerce SEO for Shopify, WooCommerce, and Magento: product and category templates, faceted navigation, duplicate URLs, product schema, and AI answers.
 - [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/): Align your website, location pages, and Google Business Profiles, with hard profile cases like suspensions handled as scoped, paid written diagnostics.
 - [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): A monthly SEO retainer with a senior consultant: monitoring, hands on fixes, developer QA, AI search checks, and a plain English report every month.
@@ -5583,6 +5792,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [How to lock down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/): Four DNS records stop spammers from forging mail from a domain you never send from: a null MX, an SPF that allows nothing, strict DMARC, and an empty DKIM key.
 - [What happens to your old domains when they lapse](https://christopherabraham.com/guides/lapsed-domains/): When an old company or project domain expires, drop catchers buy it for its links and reputation. What they do with it, the harm, and how to protect yourself.
 - [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/): What llms.txt is, who reads it, and how to write one: the format, the full text companion file, Markdown page copies, robots.txt rules, and common mistakes.
+- [Social share cards: Open Graph tags and images that fit](https://christopherabraham.com/guides/social-share-cards/): How Open Graph and X card tags control the preview when a link is shared, why square images get cropped, the 1200 by 630 standard, and refreshing old previews.
 - [Meta keywords in 2026: ignored, mostly harmless, used honestly](https://christopherabraham.com/guides/meta-keywords/): Google ignores the meta keywords tag and Bing has called stuffing it a spam signal. Why some sites still use it, and how to write one that does no harm at all.
 - [Website accessibility without overlays](https://christopherabraham.com/guides/accessible-websites/): Build accessibility into a small business website instead of bolting on an overlay: contrast, headings, links, images, keyboard use, forms, and testing it.
 - [Accessibility as SEO: the search, AI, and trust dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/): WCAG fixes pay off more than once: alt text, headings, link text, labels, and captions lift rankings, AI answers, agent browsing, and trust, and cut legal risk.

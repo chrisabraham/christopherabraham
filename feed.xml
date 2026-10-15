@@ -61,6 +61,72 @@
 &lt;/aside&gt;</content>
   </entry>
   <entry>
+    <title>Social share cards: Open Graph tags and images that fit</title>
+    <link href="https://christopherabraham.com/guides/social-share-cards/"/>
+    <id>https://christopherabraham.com/guides/social-share-cards/</id>
+    <published>2026-10-14T12:00:00Z</published>
+    <updated>2026-10-14T12:00:00Z</updated>
+    <summary>How Open Graph and X card tags control the preview when a link is shared, why square images get cropped, the 1200 by 630 standard, and refreshing old previews.</summary>
+    <content type="html">&lt;h1&gt;Social share cards: Open Graph tags and images that fit&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-14"&gt;October 14, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;When someone pastes your link into Facebook, LinkedIn, X, Slack, or a text message, the preview that appears is built from a few tags in your page's head. Those tags decide the headline, the summary, and the picture. When they're missing, the platform guesses, and it guesses badly. When they're present but the image is the wrong shape, the platform crops it, and the crop usually cuts off the part that mattered.&lt;/p&gt;
+
+&lt;h2&gt;The tags that build the preview&lt;/h2&gt;
+&lt;p&gt;The Open Graph protocol, which Facebook introduced and almost every platform now reads, asks for four properties on every page:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;og:title&lt;/code&gt;: the headline as it should appear in the preview.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;og:type&lt;/code&gt;: what the page is, usually &lt;code&gt;website&lt;/code&gt; or &lt;code&gt;article&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;og:image&lt;/code&gt;: the full address of the preview image.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;og:url&lt;/code&gt;: the page's canonical address, which the platform treats as its permanent ID.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Add &lt;code&gt;og:description&lt;/code&gt; and &lt;code&gt;og:site_name&lt;/code&gt; as well. Then describe the image with three structured properties: &lt;code&gt;og:image:width&lt;/code&gt; and &lt;code&gt;og:image:height&lt;/code&gt; in pixels, and &lt;code&gt;og:image:alt&lt;/code&gt;, which the protocol defines as a description of what is in the image, not a caption.&lt;/p&gt;
+&lt;p&gt;X reads its own set of tags. The one that matters most is &lt;code&gt;twitter:card&lt;/code&gt;: &lt;code&gt;summary&lt;/code&gt; shows a small square thumbnail beside the text, and &lt;code&gt;summary_large_image&lt;/code&gt; shows a wide image above it. I add &lt;code&gt;twitter:title&lt;/code&gt;, &lt;code&gt;twitter:description&lt;/code&gt;, &lt;code&gt;twitter:image&lt;/code&gt;, and &lt;code&gt;twitter:image:alt&lt;/code&gt; too, so nothing depends on how a platform falls back.&lt;/p&gt;
+
+&lt;h2&gt;Why 1,200 by 630&lt;/h2&gt;
+&lt;p&gt;Meta's documentation asks for images at least 1,200 by 630 pixels for the best display on high-resolution screens, and says to keep them as close to a 1.91 to 1 ratio as you can so the whole image shows in the feed without cropping. Images smaller than 600 by 315 get shown small. Files must stay under 8 MB. LinkedIn and X lay out their large previews as wide rectangles too, so one image at 1,200 by 630 serves all of them.&lt;/p&gt;
+&lt;p&gt;Declaring the width and height matters more than it looks. Meta says those two tags let its crawler render the image immediately. Without them, the first person to share a new page can get a preview with no picture while the platform downloads and measures the file.&lt;/p&gt;
+
+&lt;h2&gt;The square artwork trap&lt;/h2&gt;
+&lt;p&gt;Square images are everywhere: podcast covers, product photos, logos, album art. Put a square image in a large card, and every platform crops it to a wide strip from the middle. The top and bottom are gone, and on cover art that's usually where the title is.&lt;/p&gt;
+&lt;p&gt;I found exactly this on a podcast site I built. Every page had complete Open Graph and X tags, and every image existed at the declared size, so a tag audit passed. But 458 episode pages pointed at square cover art inside large cards, so every shared episode lost the top and bottom of its cover. More than two hundred episodes shared the same default cover, so their previews were also identical. The fix was a generated card for each episode, 1,200 by 630, with the cover art on one side and the episode title in large type on the other. The build makes the card once, reuses it on every later build, and makes a new one when an episode is renamed.&lt;/p&gt;
+&lt;p&gt;If you can't generate cards, switch square images to the &lt;code&gt;summary&lt;/code&gt; card on X, which shows a square thumbnail uncropped, and accept a smaller preview elsewhere.&lt;/p&gt;
+
+&lt;h2&gt;Making the image work as a preview&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Put the page's own title in the image&lt;/strong&gt; when pages share artwork, so each preview is distinct.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Keep important content near the center.&lt;/strong&gt; Some apps trim the edges or round the corners.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use large type.&lt;/strong&gt; Most previews are seen on phones, at a fraction of full size.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use JPEG for photos and artwork&lt;/strong&gt; and keep files in the low hundreds of kilobytes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Write alt text&lt;/strong&gt; that describes the image, since some apps read it aloud.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Checking your pages&lt;/h2&gt;
+&lt;p&gt;View the source of a page and confirm every tag is present, every image address is absolute and loads, and every declared size matches the real file. On a large site, crawl it with Screaming Frog and extract the &lt;code&gt;og:image&lt;/code&gt; value from each page, then check the images in bulk; the method is in my guide to &lt;a href="https://christopherabraham.com/guides/custom-extraction/"&gt;custom extraction&lt;/a&gt;. Group the results by image. A single image behind hundreds of pages is a sign your previews all look the same.&lt;/p&gt;
+
+&lt;h2&gt;Refreshing previews that are already out there&lt;/h2&gt;
+&lt;p&gt;Platforms cache what they fetch. Meta notes that changing the image for a URL doesn't update the preview on old shares. After fixing a page, paste its address into Meta's Sharing Debugger and ask it to scrape again, and do the same in LinkedIn's Post Inspector. Other platforms refresh on their own schedule.&lt;/p&gt;
+
+&lt;h2&gt;Where this fits&lt;/h2&gt;
+&lt;p&gt;Share cards don't move rankings directly. They decide whether a shared link gets clicked, and clicks bring the visits, links, and mentions that do matter. I check them in every audit and build them into every site I make; see &lt;a href="https://christopherabraham.com/services/static-sites/"&gt;static websites built for search&lt;/a&gt; and &lt;a href="https://christopherabraham.com/services/podcast-website/"&gt;podcast website SEO&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://ogp.me/"&gt;The Open Graph protocol&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developers.facebook.com/docs/sharing/webmasters/images/"&gt;Meta for Developers: Images in link shares&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developers.facebook.com/tools/debug/"&gt;Meta for Developers: Sharing Debugger&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.linkedin.com/post-inspector/"&gt;LinkedIn Post Inspector&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content>
+  </entry>
+  <entry>
     <title>How to load Google Analytics 4 without hurting PageSpeed</title>
     <link href="https://christopherabraham.com/guides/ga4-pagespeed/"/>
     <id>https://christopherabraham.com/guides/ga4-pagespeed/</id>

@@ -49,12 +49,12 @@ FILES = ["index",
          "services/index",
          "services/sitewide-technical-seo", "services/seo-audit", "services/indexing", "services/javascript-seo", "services/site-speed",
          "services/search-console", "services/migrations",
-         "services/ai-search", "services/schema", "services/on-page-seo",
-         "services/wordpress-seo", "services/ecommerce-seo", "services/local-seo", "services/seo-retainer",
+         "services/ai-search", "services/schema", "services/on-page-seo", "services/fact-checked-articles",
+         "services/wordpress-seo", "services/static-sites", "services/podcast-website", "services/ecommerce-seo", "services/local-seo", "services/seo-retainer",
          "guides/index", "guides/brand-name-in-titles", "guides/small-original-research", "guides/ai-catnip", "guides/page-indexing-report", "guides/ai-search-checklist", "guides/seo-audit-deliverables",
          "guides/small-business-schema", "guides/redirect-rules", "guides/core-web-vitals",
          "guides/correct-ai-answers", "guides/two-names-one-entity", "guides/third-party-proof", "guides/about-page-ai",
-         "guides/parked-domain-launch", "guides/non-sending-domain", "guides/lapsed-domains", "guides/llms-txt",
+         "guides/parked-domain-launch", "guides/non-sending-domain", "guides/lapsed-domains", "guides/llms-txt", "guides/social-share-cards",
          "guides/meta-keywords", "guides/accessible-websites", "guides/accessibility-seo-dividends", "guides/lynx-test", "guides/hiring-an-seo", "guides/reddit-ai-answers", "guides/ai-built-websites", "guides/earned-mentions", "guides/buying-backlinks", "guides/business-name-change", "guides/holiday-hours", "guides/update-recovery-2026", "guides/seo-news-sources", "guides/wordpress-seo-101", "guides/cloudflare-wordpress", "guides/ai-content-seo", "guides/screaming-frog-licence", "guides/seo-in-your-repository", "guides/near-duplicates-and-h1s", "guides/custom-extraction", "guides/prove-seo-fixes", "guides/ai-share-of-voice", "guides/topic-clusters", "guides/ga4-pagespeed", "guides/glossary",
          "case-studies/index", "case-studies/scroll-gated-products", "case-studies/consent-banner",
          "case-studies/event-app-links", "case-studies/headless-local", "case-studies/clinic-migration",
@@ -64,13 +64,13 @@ FILES = ["index",
 SERVICE_GROUPS = [
     ("Technical SEO", ["services/sitewide-technical-seo/", "services/seo-audit/", "services/indexing/", "services/javascript-seo/", "services/site-speed/",
                        "services/search-console/", "services/migrations/"]),
-    ("AI search, schema, and content", ["services/ai-search/", "services/schema/", "services/on-page-seo/"]),
-    ("Platforms, local, and ongoing work", ["services/wordpress-seo/", "services/ecommerce-seo/", "services/local-seo/",
+    ("AI search, schema, and content", ["services/ai-search/", "services/schema/", "services/on-page-seo/", "services/fact-checked-articles/"]),
+    ("Platforms, local, and ongoing work", ["services/wordpress-seo/", "services/static-sites/", "services/podcast-website/", "services/ecommerce-seo/", "services/local-seo/",
                                            "services/seo-retainer/"]),
 ]
 # The island rule: this site stands alone. None of these may appear in any source or generated page.
 ISLAND = [r"(?i)gerris", r"(?i)gerriscorp", r"(?i)hillmole", r"(?i)hill mole",
-          r"(?i)podcast", r"(?i)substack", r"(?i)chris abraham show"]
+          r"(?i)substack", r"(?i)chris abraham show"]  # "podcast" allowed as a service (owner, 2026-10-14); his own show stays off
 # The sibling site, built from the same kind of material. Pages here may not borrow its phrasing.
 SIBLING = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "gerris")
 MIN_WORDS = {"guide": 700, "service": 450, "case": 250, "page": 250}
