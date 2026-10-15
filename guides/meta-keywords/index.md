@@ -47,7 +47,7 @@ For a guide to reading Search Console's Page indexing report, a reasonable tag r
 
 ## Where the tag came from
 
-Meta tags arrived with early HTML as a way for authors to describe their own documents, and the first search engines leaned on them heavily, because analyzing full page text at scale was expensive. Within a few years, site owners were filling the tag with hundreds of terms, including popular searches that had nothing to do with their pages. The engines responded by discounting the tag, then ignoring it, and moved toward signals that are harder to fake, such as links and on-page text.
+Meta tags arrived with early HTML as a way for authors to describe their own documents, and the first search engines leaned on them heavily, because analyzing full-page text at scale was expensive. Within a few years, site owners were filling the tag with hundreds of terms, including popular searches that had nothing to do with their pages. The engines responded by discounting the tag, then ignoring it, and moved toward signals that are harder to fake, such as links and on-page text.
 
 ## Other meta tags that do matter
 - **Title.** Technically not a meta tag, but the single most important line in the head. It names the page in search results and browser tabs.

@@ -68,12 +68,12 @@ Here is the part I spent years ignoring. According to Screaming Frog's own compa
 
 ### See what Google sees on JavaScript sites
 
-The licence turns on rendering with built in headless Chromium, so the crawler runs the JavaScript on React, Angular, and Vue sites and reads the finished page. Crawl the same pages with rendering off and then on, compare word counts by template, and content that only exists after scripts run stands out immediately. Rendered screenshots and stored rendered HTML let you see exactly what the crawler saw.
+The licence turns on rendering with built-in headless Chromium, so the crawler runs the JavaScript on React, Angular, and Vue sites and reads the finished page. Crawl the same pages with rendering off and then on, compare word counts by template, and content that only exists after scripts run stands out immediately. Rendered screenshots and stored rendered HTML let you see exactly what the crawler saw.
 
 ### Catch the problems that cost rankings
-- **Near duplicate content.** Beyond exact copies, it finds near duplicates and semantically similar pages using algorithmic checks and vector embeddings.
+- **Near-duplicate content.** Beyond exact copies, it finds near duplicates and semantically similar pages using algorithmic checks and vector embeddings.
 - **Structured data validation.** Extracts schema markup and checks it against Schema.org and Google's rich result features.
-- **Accessibility auditing.** Runs the open source axe rules against WCAG on every page.
+- **Accessibility auditing.** Runs the open-source axe rules against WCAG on every page.
 - **Spelling and grammar** checks in more than 25 languages.
 - **Mobile usability** checks using Lighthouse.
 - **AMP crawling and validation** with the official AMP validator.
@@ -94,7 +94,7 @@ Put those side by side and the crawl answers the question that matters: which pa
 
 ### Use AI inside the crawl
 
-The licence connects the crawler to OpenAI, Gemini, Anthropic, and Ollama, so you can run your own prompt against every page as it's crawled: draft missing meta descriptions, write alt text, classify page intent, or flag thin content. Any AI written metadata still needs a person to check it before it goes live.
+The licence connects the crawler to OpenAI, Gemini, Anthropic, and Ollama, so you can run your own prompt against every page as it's crawled: draft missing meta descriptions, write alt text, classify page intent, or flag thin content. Any AI-written metadata still needs a person to check it before it goes live.
 
 Version 24.0, released May 19, 2026, also added an MCP server, so you can run crawls and analyze, export, and reshape the data from inside AI assistants such as Claude, in plain English. Screaming Frog says plainly that it isn't a replacement for an experienced SEO, and not every feature is available through it yet.
 

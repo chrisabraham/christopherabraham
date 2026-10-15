@@ -58,7 +58,7 @@ Give a revision time to be discovered before changing the next variable. If you 
 
 Select one strong article. Improve its opening answer, add one verifiable example, repair its references, and link it from a relevant guide. Test the published page and notify the participating engines after the change is live. Then write down what you changed and when you will review it.
 
-That is my version of AI catnip: material someone can confidently build on, delivered through a site that works. For a broader technical review, use the [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/). New Guides also appear in the [full text RSS feed](https://christopherabraham.com/rss.xml), which can be imported into a feed reader or publishing system.
+That is my version of AI catnip: material someone can confidently build on, delivered through a site that works. For a broader technical review, use the [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/). New Guides also appear in the [full-text RSS feed](https://christopherabraham.com/rss.xml), which can be imported into a feed reader or publishing system.
 
 ## Let me help you with this
 

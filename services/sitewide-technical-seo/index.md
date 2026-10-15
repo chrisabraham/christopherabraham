@@ -15,7 +15,7 @@ A sample of fifty pages tells you what fifty pages look like. The expensive prob
 - **Sitemaps compared with the crawl:** URLs listed in the sitemap that the crawl can't reach, and reachable, indexable URLs the sitemap leaves out.
 - **Titles and descriptions,** including suffixes a theme appends without asking and wording that changed during a migration.
 - **Headings:** missing H1s, a logo wrapped in an H1 on every page, and H1s split across styled elements so the words run together.
-- **Duplicate and near duplicate content,** with a decision for each cluster: rewrite to differentiate, merge and redirect, or canonicalize.
+- **Duplicate and near-duplicate content,** with a decision for each cluster: rewrite to differentiate, merge and redirect, or canonicalize.
 - **Redirects and links:** chains, loops, internal links still aimed at old URLs, and orphaned pages.
 - **Images and alt text:** oversized files and missing or meaningless alternatives.
 - **Structured data coverage:** which templates emit JSON-LD, which don't, and whether it matches the visible page.
@@ -28,7 +28,7 @@ A row in a crawl export is a symptom. The cause is a file. When I have access to
 ## How fixes reach the site
 
 There are three routes, and I'll use whichever your setup allows:
-- **In the CMS.** I export the affected fields before touching anything, make the changes, and export again, so there's a clean before and after record.
+- **In the CMS.** I export the affected fields before touching anything, make the changes, and export again, so there's a clean before-and-after record.
 - **In the repository.** I work on a branch, open a pull request, and check the preview build before anyone merges it.
 - **Through your developer.** I write the ticket with the file, the cause, the fix, and a test that proves it's done, then confirm what ships.
 
@@ -48,11 +48,11 @@ After each release, I crawl again and compare the two crawls row by row, so you 
 
 ## What the industry calls this work
 
-If you're searching for someone to do this, the labels you'll see are technical SEO, technical SEO implementation, SEO engineering, and SEO QA. On sites built in React or Next.js it goes by JavaScript SEO, Next.js SEO, or headless SEO, and covers rendering (SSR, SSG, CSR, and hydration). The underlying checks are crawlability, indexability, canonicalization, duplicate and near duplicate content, heading hierarchy, template level SEO, internal linking, structured data and JSON-LD for entity SEO, Core Web Vitals (LCP, INP, and CLS), and site migrations with redirect mapping. Newer labels for the AI side are GEO and AEO, which includes making sure AI crawlers such as GPTBot, ClaudeBot, and PerplexityBot can read your pages. I do it in Git, through pull requests and deploy previews. I don't do paid search; this is all organic.
+If you're searching for someone to do this, the labels you'll see are technical SEO, technical SEO implementation, SEO engineering, and SEO QA. On sites built in React or Next.js it goes by JavaScript SEO, Next.js SEO, or headless SEO, and covers rendering (SSR, SSG, CSR, and hydration). The underlying checks are crawlability, indexability, canonicalization, duplicate and near-duplicate content, heading hierarchy, template level SEO, internal linking, structured data and JSON-LD for entity SEO, Core Web Vitals (LCP, INP, and CLS), and site migrations with redirect mapping. Newer labels for the AI side are GEO and AEO, which includes making sure AI crawlers such as GPTBot, ClaudeBot, and PerplexityBot can read your pages. I do it in Git, through pull requests and deploy previews. I don't do paid search; this is all organic.
 
 ## Tools
 
-Screaming Frog SEO Spider with JavaScript rendering, near duplicate detection, and custom extraction; Playwright for scripted headless Chrome; OpenAI Codex and Claude Code for reading and testing codebases; Google Search Console; and Bing Webmaster Tools.
+Screaming Frog SEO Spider with JavaScript rendering, near-duplicate detection, and custom extraction; Playwright for scripted headless Chrome; OpenAI Codex and Claude Code for reading and testing codebases; Google Search Console; and Bing Webmaster Tools.
 
 ## Who it suits
 

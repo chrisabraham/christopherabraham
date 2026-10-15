@@ -40,7 +40,7 @@ For anything bigger than a quick fix, pay for a defined first step: a diagnosis 
 
 ## Fixed price or hourly
 
-Fixed price suits a well defined deliverable, such as an audit, a migration plan, or a set list of fixes. Hourly suits ongoing work where the next task depends on what the last one found. Either way, agree on what "done" means before work starts, and keep the scope written in the contract rather than scattered across messages.
+Fixed price suits a well-defined deliverable, such as an audit, a migration plan, or a set list of fixes. Hourly suits ongoing work where the next task depends on what the last one found. Either way, agree on what "done" means before work starts, and keep the scope written in the contract rather than scattered across messages.
 
 ## Where I fit
 

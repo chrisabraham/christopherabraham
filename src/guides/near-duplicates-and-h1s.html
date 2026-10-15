@@ -1,6 +1,6 @@
 name: Near Duplicates and H1s
-title: How to find near duplicate pages and multiple H1s sitewide
-description: Find near duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.
+title: How to find near-duplicate pages and multiple H1s sitewide
+description: Find near-duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.
 type: guide
 published: 2026-10-13
 keywords: near duplicate content, multiple H1 tags, duplicate content audit, heading hierarchy, Screaming Frog near duplicates
@@ -9,13 +9,13 @@ updated: 2026-10-13
 about: Duplicate content | https://en.wikipedia.org/wiki/Duplicate_content ;; HTML element | https://en.wikipedia.org/wiki/HTML_element
 mentions: Canonical link element | https://en.wikipedia.org/wiki/Canonical_link_element ;; XPath | https://en.wikipedia.org/wiki/XPath
 ---
-<h1>How to find near duplicate pages and multiple H1s across a whole site</h1>
+<h1>How to find near-duplicate pages and multiple H1s across a whole site</h1>
 <p class="lead">Two findings turn up in almost every full crawl I run: clusters of pages that say nearly the same thing, and headings that don't describe the page. Neither can be judged one URL at a time. Here is how I find both across every page, and how I decide what to do about each.</p>
 
 <h2>Crawl the rendered page, not only the source</h2>
 <p>Set Screaming Frog to JavaScript rendering under Configuration &gt; Spider &gt; Rendering before you start. On sites built with React, Next.js, or a page builder, the H1 a browser shows can differ from the one in the raw HTML. A component may replace it after load, or a script may inject a second one. If you crawl only the source, you're auditing a page nobody sees.</p>
 
-<h2>Turn on near duplicate detection</h2>
+<h2>Turn on near-duplicate detection</h2>
 <p>Screaming Frog finds exact duplicates by default. Near duplicates need switching on, under Configuration &gt; Content &gt; Duplicates, which tells the crawler to store each page's text. The default similarity threshold is 90%, and you can lower it to cast a wider net. By default it compares only indexable pages, which is usually what you want.</p>
 <p>Before crawling, open Configuration &gt; Content &gt; Area and exclude the navigation, header, and footer elements. Otherwise every page shares hundreds of words of menu text, and pages that differ in their main content can still score as near twins. You can adjust the content area and threshold after a crawl without crawling again.</p>
 <p>One step trips people up: the Near Duplicates filter stays empty until you run Crawl Analysis at the end of the crawl. The overview pane marks the filters that are waiting on it. Once the analysis finishes, the Content tab lists each page's closest similarity match and how many near duplicates it has, and the Duplicate Details tab shows the matching text and highlights where the pages differ.</p>
@@ -35,7 +35,7 @@ mentions: Canonical link element | https://en.wikipedia.org/wiki/Canonical_link_
 <p>Each of these is one template fix. That's the payoff of finding them by count rather than by spot checking.</p>
 
 <h2>Where near duplicates come from</h2>
-<p>When I group near duplicate clusters by URL pattern, the same handful of causes come up again and again:</p>
+<p>When I group near-duplicate clusters by URL pattern, the same handful of causes come up again and again:</p>
 <ul>
   <li><strong>City swap location pages,</strong> where the only difference is the town name.</li>
   <li><strong>Tag and category archives</strong> that list the same posts under different labels.</li>

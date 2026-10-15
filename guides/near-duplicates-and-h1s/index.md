@@ -1,8 +1,8 @@
-> Find near duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.
+> Find near-duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.
 >
 > Source: https://christopherabraham.com/guides/near-duplicates-and-h1s/ · Updated 2026-10-13 · By Christopher Abraham
 
-# How to find near duplicate pages and multiple H1s across a whole site
+# How to find near-duplicate pages and multiple H1s across a whole site
 
 By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 13, 2026
 
@@ -12,7 +12,7 @@ Two findings turn up in almost every full crawl I run: clusters of pages that sa
 
 Set Screaming Frog to JavaScript rendering under Configuration > Spider > Rendering before you start. On sites built with React, Next.js, or a page builder, the H1 a browser shows can differ from the one in the raw HTML. A component may replace it after load, or a script may inject a second one. If you crawl only the source, you're auditing a page nobody sees.
 
-## Turn on near duplicate detection
+## Turn on near-duplicate detection
 
 Screaming Frog finds exact duplicates by default. Near duplicates need switching on, under Configuration > Content > Duplicates, which tells the crawler to store each page's text. The default similarity threshold is 90%, and you can lower it to cast a wider net. By default it compares only indexable pages, which is usually what you want.
 
@@ -38,7 +38,7 @@ Each of these is one template fix. That's the payoff of finding them by count ra
 
 ## Where near duplicates come from
 
-When I group near duplicate clusters by URL pattern, the same handful of causes come up again and again:
+When I group near-duplicate clusters by URL pattern, the same handful of causes come up again and again:
 - **City swap location pages,** where the only difference is the town name.
 - **Tag and category archives** that list the same posts under different labels.
 - **Parameter URLs** for sorting, filtering, or tracking that serve the same content.

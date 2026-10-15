@@ -16,7 +16,7 @@ Where I could, I kept each URL exactly rather than redirecting it. Each chapter 
 
 ## Cleaner for search than before
 
-The archive pages repeat chapter text, so they are now noindex, follow and left out of the sitemap, and only the chapters and the main pages are indexable. Every chapter got a hand written title and description, checked by a script. Spelling and typography fixes went into a log, one row per change, so any of them can be undone.
+The archive pages repeat chapter text, so they are now noindex, follow and left out of the sitemap, and only the chapters and the main pages are indexable. Every chapter got a handwritten title and description, checked by a script. Spelling and typography fixes went into a log, one row per change, so any of them can be undone.
 
 ## Cutting over in the right order
 

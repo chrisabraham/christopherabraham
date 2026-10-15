@@ -10,7 +10,7 @@ A new name feels like a fresh start, and that instinct is exactly what costs bus
 
 ## Rule one: edit the listing you have
 
-Your reviews, photos, and history belong to your existing Business Profile, not to your name. If you create a new profile for the new name, you start from zero and leave a second, competing listing behind. Instead, change the name on the profile you already have. Google's help pages say to enter the name exactly as it appears on your real world signage, stationery, and branding, and they warn that changing a verified name may mean verifying again. Plan for that so it doesn't catch you mid launch.
+Your reviews, photos, and history belong to your existing Business Profile, not to your name. If you create a new profile for the new name, you start from zero and leave a second, competing listing behind. Instead, change the name on the profile you already have. Google's help pages say to enter the name exactly as it appears on your real-world signage, stationery, and branding, and they warn that changing a verified name may mean verifying again. Plan for that so it doesn't catch you mid launch.
 
 ## Rule two: let the real world go first
 

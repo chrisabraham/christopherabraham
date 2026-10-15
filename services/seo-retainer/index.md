@@ -1,4 +1,4 @@
-> A monthly SEO retainer with a senior consultant: monitoring, hands on fixes, developer QA, AI search checks, and a plain English report every month.
+> A monthly SEO retainer with a senior consultant: monitoring, hands on fixes, developer QA, AI search checks, and a plain-English report every month.
 >
 > Source: https://christopherabraham.com/services/seo-retainer/ · Updated 2026-10-06 · By Christopher Abraham
 

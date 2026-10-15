@@ -10,7 +10,7 @@ I hate backlink campaigns, and I refuse every one I'm offered. That's my choice,
 
 ## Why I won't do backlink campaigns
 
-A backlink campaign is pitching strangers, haggling over fees, collecting PayPal addresses, chasing posts that were promised and never went live, and checking every month that the links are still there. It's a full time job of follow up, and it's the opposite of the work I'm good at. I diagnose why sites lose traffic, fix how they render and get indexed, and make them readable to search engines and AI answers. That's what my [services](https://christopherabraham.com/services/) cover, and links aren't on the list.
+A backlink campaign is pitching strangers, haggling over fees, collecting PayPal addresses, chasing posts that were promised and never went live, and checking every month that the links are still there. It's a full-time job of follow-up, and it's the opposite of the work I'm good at. I diagnose why sites lose traffic, fix how they render and get indexed, and make them readable to search engines and AI answers. That's what my [services](https://christopherabraham.com/services/) cover, and links aren't on the list.
 
 There's also Google's rule, covered below, which puts every paid link in a gray zone I'd rather leave to the people who specialize in it.
 
@@ -31,11 +31,11 @@ Be clear about what you're buying: placed articles on real sites, paid for. That
 
 ## Another name I keep hearing
 
-Rhino Rank, a UK link building agency based in Shrewsbury, gets praised by colleagues whose judgment I trust. It sells curated links on existing articles, guest posts, and a managed service, and it calls itself the original white label link building agency. I have no experience with it at all, so this is secondhand: worth a look, and worth judging by the same tests below.
+Rhino Rank, a UK link building agency based in Shrewsbury, gets praised by colleagues whose judgment I trust. It sells curated links on existing articles, guest posts, and a managed service, and it calls itself the original white-label link-building agency. I have no experience with it at all, so this is secondhand: worth a look, and worth judging by the same tests below.
 
 ## Google's rule on paid links
 
-Google's spam policies treat buying or selling links that pass ranking credit as link spam, and Google asks that paid links carry `rel="sponsored"` or `rel="nofollow"`. That applies to every vendor and every hand built campaign alike. Placed articles still bring readers, referral visits, and brand mentions that AI answers can pick up; my guide to [digital PR for AI search](https://christopherabraham.com/guides/earned-mentions/) explains why mentions matter. Decide with your eyes open how much risk you'll accept, and ask any vendor how its placements are marked.
+Google's spam policies treat buying or selling links that pass ranking credit as link spam, and Google asks that paid links carry `rel="sponsored"` or `rel="nofollow"`. That applies to every vendor and every hand-built campaign alike. Placed articles still bring readers, referral visits, and brand mentions that AI answers can pick up; my guide to [digital PR for AI search](https://christopherabraham.com/guides/earned-mentions/) explains why mentions matter. Decide with your eyes open how much risk you'll accept, and ask any vendor how its placements are marked.
 
 ## Five questions for any link vendor
 - **Can I see the sites before I pay?** Real publications with an editorial voice, never a network of identical blogs.

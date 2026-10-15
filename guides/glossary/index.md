@@ -1,4 +1,4 @@
-> Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
+> Plain-English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 >
 > Source: https://christopherabraham.com/guides/glossary/ · Updated 2026-10-15 · By Christopher Abraham
 
@@ -42,7 +42,7 @@ A line in a page's head nominating which address should represent a set of dupli
 A network of servers spread around the world that keeps copies of a site's files and hands them to each visitor from somewhere nearby.
 
 **Client-side rendering (CSR)**
-Building a page in the visitor's browser with JavaScript, so the HTML the server sends starts nearly empty. Crawlers that skip scripts see little or nothing. See [SEO for AI built websites](https://christopherabraham.com/guides/ai-built-websites/).
+Building a page in the visitor's browser with JavaScript, so the HTML the server sends starts nearly empty. Crawlers that skip scripts see little or nothing. See [SEO for AI-built websites](https://christopherabraham.com/guides/ai-built-websites/).
 
 **CLS (Cumulative Layout Shift)**
 The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.
@@ -116,7 +116,7 @@ The FTC's term for any tie between a brand and the person endorsing it, such as 
 **Meta description**
 The short summary written into a page's code that search engines often show beneath the title in results. It invites the click rather than setting the rank.
 
-**Near duplicate**
+**Near-duplicate**
 Two pages whose text is almost, but not exactly, the same, such as product variants or city pages built from one template. Crawlers can flag them by similarity score; see [near duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/).
 
 **Niche edit**

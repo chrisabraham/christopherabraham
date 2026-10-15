@@ -1,4 +1,4 @@
-> SEO oversight for a clinic moving from WordPress to Next.js on Netlify: a decision for every legacy URL, an AI assisted code review, and a careful disavow.
+> SEO oversight for a clinic moving from WordPress to Next.js on Netlify: a decision for every legacy URL, an AI-assisted code review, and a careful disavow.
 >
 > Source: https://christopherabraham.com/case-studies/clinic-migration/ · Updated 2026-10-06 · By Christopher Abraham
 

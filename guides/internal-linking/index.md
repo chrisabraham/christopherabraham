@@ -52,7 +52,7 @@ For a shop, think about routes between categories, subcategories, and products a
 
 ## Verify additions before reporting results
 
-Keep a before and after record of the changed source pages. Check that the links appear in the agreed locations, open their destinations, and land at the expected sections. Crawl again with comparable settings to inspect incoming links and changes to discovery. If you changed a shared component, sample its different uses rather than assuming one good page represents them all.
+Keep a before-and-after record of the changed source pages. Check that the links appear in the agreed locations, open their destinations, and land at the expected sections. Crawl again with comparable settings to inspect incoming links and changes to discovery. If you changed a shared component, sample its different uses rather than assuming one good page represents them all.
 
 After the links are live, watch the destination pages over time and keep other changes in the record. Discovery and a successful fetch can be observed separately from indexing or traffic. This makes the result useful even when search takes time to respond, because the team can see exactly which connections were added.
 

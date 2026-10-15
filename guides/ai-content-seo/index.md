@@ -1,4 +1,4 @@
-> Does Google penalize AI written copy? What Google's guidance says in 2026, what the data shows, the new fact checking rule, fake authors, and safe AI use.
+> Does Google penalize AI-written copy? What Google's guidance says in 2026, what the data shows, the new fact checking rule, fake authors, and safe AI use.
 >
 > Source: https://christopherabraham.com/guides/ai-content-seo/ · Updated 2026-10-09 · By Christopher Abraham
 

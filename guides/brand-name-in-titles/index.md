@@ -43,7 +43,7 @@ The check is simple. Crawl the old site before launch and the new site after it,
 1. **Restore titles that were working before a migration.** That is a return to known performance, not an experiment.
 2. **Protect titles that already match their main query.** If a page's most searched phrase opens its title, edit around those words or leave the page alone.
 3. **Remove the suffix from one section first,** such as the blog, and leave comparable sections unchanged.
-4. **Compare the two groups in Search Console** for three to four weeks, looking at clicks and click-through rate. Updates and seasonal swings hit both groups, which makes the comparison fairer than a before and after view of one group.
+4. **Compare the two groups in Search Console** for three to four weeks, looking at clicks and click-through rate. Updates and seasonal swings hit both groups, which makes the comparison fairer than a before-and-after view of one group.
 5. **Expand only if the changed section held steady or improved.**
 
 Keep every change reversible. Export the current titles or keep them in version control before editing, so any page can go back in minutes.

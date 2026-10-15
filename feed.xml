@@ -45,7 +45,7 @@
 
 &lt;h2&gt;Check original artwork before resizing&lt;/h2&gt;
 &lt;p&gt;A technically valid social card can still crop a face, stretch a square cover, or replace distinctive original artwork with a generic image. Compare the new card with the original. Decide whether the image should fill its frame or sit inside it with space around it, then inspect the result at the size a person will see. The &lt;a href="https://christopherabraham.com/guides/social-share-cards/"&gt;social share card guide&lt;/a&gt; covers the metadata and preview side.&lt;/p&gt;
-&lt;p&gt;When a source file is small, record that fact instead of treating an enlarged copy as a new high resolution original. Keep the source and the transformed output separately. That makes a later correction possible without downloading an already compressed derivative and processing it again.&lt;/p&gt;
+&lt;p&gt;When a source file is small, record that fact instead of treating an enlarged copy as a new high-resolution original. Keep the source and the transformed output separately. That makes a later correction possible without downloading an already compressed derivative and processing it again.&lt;/p&gt;
 
 &lt;h2&gt;Test the dependency you intend to remove&lt;/h2&gt;
 &lt;p&gt;Before shutting anything down, use a controlled test to find requests to the old media host. A developer can block that hostname locally in a test browser and load representative pages on the new site. Compare the network requests with the inventory. This is a diagnostic exercise in a test session, not a request to change public DNS or interrupt the live service.&lt;/p&gt;
@@ -116,7 +116,7 @@
 &lt;p&gt;For a shop, think about routes between categories, subcategories, and products as well as editorial content. Google's ecommerce structure guidance discusses linking through that hierarchy. The practical question is whether a shopper can navigate to the relevant item without having to guess the phrase your search box expects.&lt;/p&gt;
 
 &lt;h2&gt;Verify additions before reporting results&lt;/h2&gt;
-&lt;p&gt;Keep a before and after record of the changed source pages. Check that the links appear in the agreed locations, open their destinations, and land at the expected sections. Crawl again with comparable settings to inspect incoming links and changes to discovery. If you changed a shared component, sample its different uses rather than assuming one good page represents them all.&lt;/p&gt;
+&lt;p&gt;Keep a before-and-after record of the changed source pages. Check that the links appear in the agreed locations, open their destinations, and land at the expected sections. Crawl again with comparable settings to inspect incoming links and changes to discovery. If you changed a shared component, sample its different uses rather than assuming one good page represents them all.&lt;/p&gt;
 &lt;p&gt;After the links are live, watch the destination pages over time and keep other changes in the record. Discovery and a successful fetch can be observed separately from indexing or traffic. This makes the result useful even when search takes time to respond, because the team can see exactly which connections were added.&lt;/p&gt;
 
 &lt;p&gt;I offer &lt;a href="https://christopherabraham.com/services/internal-linking/"&gt;internal linking strategy and implementation&lt;/a&gt; as a focused engagement. A good first brief is the site address, the pages that matter most to the business, and the parts of the archive that visitors rarely find.&lt;/p&gt;
@@ -166,7 +166,7 @@
 &lt;p&gt;A medium sized site can have thousands of files. Reading them used to be the developer's job alone. Now AI coding assistants such as OpenAI Codex, Claude Code, and GitHub Copilot can read an entire codebase, explain how it's organized, trace a problem to the files that cause it, and draft the change. GitHub describes Copilot planning changes, editing code, running tests, and reviewing pull requests. Claude Code works the same way from a terminal.&lt;/p&gt;
 &lt;p&gt;That puts an SEO who knows what to look for within reach of answers that used to take a developer a week. Two examples from my own client work:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;During &lt;a href="https://christopherabraham.com/case-studies/clinic-migration/"&gt;a clinic's move from WordPress to Next.js&lt;/a&gt;, a read only analysis of the repository with an AI coding assistant found thousands of image references still pointing at the old media library and traced them to a handful of central files. The developer got a short, concrete plan.&lt;/li&gt;
+  &lt;li&gt;During &lt;a href="https://christopherabraham.com/case-studies/clinic-migration/"&gt;a clinic's move from WordPress to Next.js&lt;/a&gt;, a read-only analysis of the repository with an AI coding assistant found thousands of image references still pointing at the old media library and traced them to a handful of central files. The developer got a short, concrete plan.&lt;/li&gt;
   &lt;li&gt;For &lt;a href="https://christopherabraham.com/case-studies/headless-local/"&gt;a local business on Sanity, Vercel, and GitHub&lt;/a&gt;, I made the metadata changes myself in a pull request the developer reviewed and merged.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The assistant is fast, tireless, and sometimes confidently wrong. The skill is knowing what search engines need, asking the right questions of the code, and checking every answer. AI doesn't replace that judgment; it multiplies it.&lt;/p&gt;
@@ -174,7 +174,7 @@
 &lt;h2&gt;How I work in a client's repository&lt;/h2&gt;
 &lt;p&gt;I work primarily with Codex and Claude Code, and also use Copilot. The repository, the written brief, and the checks carry the work between assistants, so the process does not depend on a single AI provider.&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Read only first.&lt;/strong&gt; I start with read access, map the templates and routes, and compare the code to what crawlers actually see.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Read-only first.&lt;/strong&gt; I start with read access, map the templates and routes, and compare the code to what crawlers actually see.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Findings tied to files.&lt;/strong&gt; Every issue comes with the file and line that cause it, so your developer can act without guessing.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Small pull requests.&lt;/strong&gt; When you want me to make changes, each one is a separate branch with a clear description, reviewed by your developer before it merges.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Nothing reaches production without your approval,&lt;/strong&gt; and no passwords or API keys go into the code or into an AI tool.&lt;/li&gt;
@@ -217,7 +217,7 @@
     <id>https://christopherabraham.com/guides/glossary/</id>
     <published>2026-10-06T12:00:00Z</published>
     <updated>2026-10-15T12:00:00Z</updated>
-    <summary>Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.</summary>
+    <summary>Plain-English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.</summary>
     <content type="html">&lt;h1&gt;Glossary of SEO and AI search terms&lt;/h1&gt;
 &lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt; · Updated &lt;time datetime="2026-10-15"&gt;October 15, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need. To find every page that discusses a term, use the &lt;a href="https://christopherabraham.com/site-index/"&gt;index&lt;/a&gt;.&lt;/p&gt;
@@ -246,7 +246,7 @@
   &lt;dt id="cdn"&gt;CDN (content delivery network)&lt;/dt&gt;
   &lt;dd&gt;A network of servers spread around the world that keeps copies of a site's files and hands them to each visitor from somewhere nearby.&lt;/dd&gt;
   &lt;dt id="client-side-rendering"&gt;Client-side rendering (CSR)&lt;/dt&gt;
-  &lt;dd&gt;Building a page in the visitor's browser with JavaScript, so the HTML the server sends starts nearly empty. Crawlers that skip scripts see little or nothing. See &lt;a href="https://christopherabraham.com/guides/ai-built-websites/"&gt;SEO for AI built websites&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dd&gt;Building a page in the visitor's browser with JavaScript, so the HTML the server sends starts nearly empty. Crawlers that skip scripts see little or nothing. See &lt;a href="https://christopherabraham.com/guides/ai-built-websites/"&gt;SEO for AI-built websites&lt;/a&gt;.&lt;/dd&gt;
   &lt;dt id="cls"&gt;CLS (Cumulative Layout Shift)&lt;/dt&gt;
   &lt;dd&gt;The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.&lt;/dd&gt;
   &lt;dt id="core-update"&gt;Core update&lt;/dt&gt;
@@ -295,7 +295,7 @@
   &lt;dd&gt;The FTC's term for any tie between a brand and the person endorsing it, such as payment, free product, or employment. In the United States it has to be disclosed clearly wherever the endorsement appears.&lt;/dd&gt;
   &lt;dt id="meta-description"&gt;Meta description&lt;/dt&gt;
   &lt;dd&gt;The short summary written into a page's code that search engines often show beneath the title in results. It invites the click rather than setting the rank.&lt;/dd&gt;
-  &lt;dt id="near-duplicate"&gt;Near duplicate&lt;/dt&gt;
+  &lt;dt id="near-duplicate"&gt;Near-duplicate&lt;/dt&gt;
   &lt;dd&gt;Two pages whose text is almost, but not exactly, the same, such as product variants or city pages built from one template. Crawlers can flag them by similarity score; see &lt;a href="https://christopherabraham.com/guides/near-duplicates-and-h1s/"&gt;near duplicates and H1s&lt;/a&gt;.&lt;/dd&gt;
   &lt;dt id="niche-edit"&gt;Niche edit&lt;/dt&gt;
   &lt;dd&gt;A paid link inserted into an article that's already published and indexed, rather than a new article written for the purpose.&lt;/dd&gt;
@@ -688,7 +688,7 @@
     <id>https://christopherabraham.com/guides/prove-seo-fixes/</id>
     <published>2026-10-13T12:00:00Z</published>
     <updated>2026-10-13T12:00:00Z</updated>
-    <summary>Proof that an SEO fix shipped: compare before and after crawls in Screaming Frog, check change detection, then confirm in Search Console with validation.</summary>
+    <summary>Proof that an SEO fix shipped: compare before-and-after crawls in Screaming Frog, check change detection, then confirm in Search Console with validation.</summary>
     <content type="html">&lt;h1&gt;How to prove an SEO fix actually worked&lt;/h1&gt;
 &lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-13"&gt;October 13, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;"Done" is the most dangerous word in SEO. A developer marks the ticket closed, the CMS shows the new titles, and three months later a crawl finds the old ones still live on half the site. A cache never cleared, a second template was missed, or the change only applied to new pages. I don't call a fix finished until two crawls and Search Console agree that it is. Here is the routine.&lt;/p&gt;
@@ -731,7 +731,7 @@
 &lt;h2&gt;Write it down&lt;/h2&gt;
 &lt;p&gt;A verification note after each release can be short: the two crawl dates, the counts in Removed and Added for each targeted issue, a list of any URLs that didn't change and why, and the Search Console validation status with its date. It turns "fixed" into a record anyone can check, and it catches the missed template before Google does.&lt;/p&gt;
 
-&lt;p&gt;Verification is built into my &lt;a href="https://christopherabraham.com/services/sitewide-technical-seo/"&gt;sitewide technical SEO&lt;/a&gt; work and every &lt;a href="https://christopherabraham.com/services/migrations/"&gt;site migration&lt;/a&gt;. The extractors I use for before and after comparisons are in &lt;a href="https://christopherabraham.com/guides/custom-extraction/"&gt;Screaming Frog custom extraction recipes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Verification is built into my &lt;a href="https://christopherabraham.com/services/sitewide-technical-seo/"&gt;sitewide technical SEO&lt;/a&gt; work and every &lt;a href="https://christopherabraham.com/services/migrations/"&gt;site migration&lt;/a&gt;. The extractors I use for before-and-after comparisons are in &lt;a href="https://christopherabraham.com/guides/custom-extraction/"&gt;Screaming Frog custom extraction recipes&lt;/a&gt;.&lt;/p&gt;
 &lt;aside class="help-box" aria-label="Get help"&gt;
   &lt;h2&gt;Let me help you with this&lt;/h2&gt;
   &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
@@ -750,20 +750,20 @@
 &lt;/aside&gt;</content>
   </entry>
   <entry>
-    <title>How to find near duplicate pages and multiple H1s across a whole site</title>
+    <title>How to find near-duplicate pages and multiple H1s across a whole site</title>
     <link href="https://christopherabraham.com/guides/near-duplicates-and-h1s/"/>
     <id>https://christopherabraham.com/guides/near-duplicates-and-h1s/</id>
     <published>2026-10-13T12:00:00Z</published>
     <updated>2026-10-13T12:00:00Z</updated>
-    <summary>Find near duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.</summary>
-    <content type="html">&lt;h1&gt;How to find near duplicate pages and multiple H1s across a whole site&lt;/h1&gt;
+    <summary>Find near-duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.</summary>
+    <content type="html">&lt;h1&gt;How to find near-duplicate pages and multiple H1s across a whole site&lt;/h1&gt;
 &lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-13"&gt;October 13, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Two findings turn up in almost every full crawl I run: clusters of pages that say nearly the same thing, and headings that don't describe the page. Neither can be judged one URL at a time. Here is how I find both across every page, and how I decide what to do about each.&lt;/p&gt;
 
 &lt;h2&gt;Crawl the rendered page, not only the source&lt;/h2&gt;
 &lt;p&gt;Set Screaming Frog to JavaScript rendering under Configuration &amp;gt; Spider &amp;gt; Rendering before you start. On sites built with React, Next.js, or a page builder, the H1 a browser shows can differ from the one in the raw HTML. A component may replace it after load, or a script may inject a second one. If you crawl only the source, you're auditing a page nobody sees.&lt;/p&gt;
 
-&lt;h2&gt;Turn on near duplicate detection&lt;/h2&gt;
+&lt;h2&gt;Turn on near-duplicate detection&lt;/h2&gt;
 &lt;p&gt;Screaming Frog finds exact duplicates by default. Near duplicates need switching on, under Configuration &amp;gt; Content &amp;gt; Duplicates, which tells the crawler to store each page's text. The default similarity threshold is 90%, and you can lower it to cast a wider net. By default it compares only indexable pages, which is usually what you want.&lt;/p&gt;
 &lt;p&gt;Before crawling, open Configuration &amp;gt; Content &amp;gt; Area and exclude the navigation, header, and footer elements. Otherwise every page shares hundreds of words of menu text, and pages that differ in their main content can still score as near twins. You can adjust the content area and threshold after a crawl without crawling again.&lt;/p&gt;
 &lt;p&gt;One step trips people up: the Near Duplicates filter stays empty until you run Crawl Analysis at the end of the crawl. The overview pane marks the filters that are waiting on it. Once the analysis finishes, the Content tab lists each page's closest similarity match and how many near duplicates it has, and the Duplicate Details tab shows the matching text and highlights where the pages differ.&lt;/p&gt;
@@ -783,7 +783,7 @@
 &lt;p&gt;Each of these is one template fix. That's the payoff of finding them by count rather than by spot checking.&lt;/p&gt;
 
 &lt;h2&gt;Where near duplicates come from&lt;/h2&gt;
-&lt;p&gt;When I group near duplicate clusters by URL pattern, the same handful of causes come up again and again:&lt;/p&gt;
+&lt;p&gt;When I group near-duplicate clusters by URL pattern, the same handful of causes come up again and again:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;City swap location pages,&lt;/strong&gt; where the only difference is the town name.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Tag and category archives&lt;/strong&gt; that list the same posts under different labels.&lt;/li&gt;
@@ -834,7 +834,7 @@
     <summary>AI answers repeat what other sites say about you. How to earn honest mentions in the press, newsletters, and niche sites, plus the FTC and Google rules on pay.</summary>
     <content type="html">&lt;h1&gt;Digital PR for AI search: how to earn mentions the answer engines repeat&lt;/h1&gt;
 &lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-13"&gt;October 13, 2026&lt;/time&gt;&lt;/p&gt;
-&lt;p class="lead"&gt;When an AI assistant describes your company, it isn't reading your About page alone. It's drawing on what other people have written: trade press, local news, newsletters, review roundups, niche sites, interviews. Those mentions used to be valued mostly for the links they carried. Now the words themselves travel into the answers. I've been earning that kind of coverage for clients since I helped develop long tail blogger outreach in 2006, and the fundamentals have barely changed. The stakes have.&lt;/p&gt;
+&lt;p class="lead"&gt;When an AI assistant describes your company, it isn't reading your About page alone. It's drawing on what other people have written: trade press, local news, newsletters, review roundups, niche sites, interviews. Those mentions used to be valued mostly for the links they carried. Now the words themselves travel into the answers. I've been earning that kind of coverage for clients since I helped develop long-tail blogger outreach in 2006, and the fundamentals have barely changed. The stakes have.&lt;/p&gt;
 
 &lt;h2&gt;Why mentions matter more than they used to&lt;/h2&gt;
 &lt;p&gt;A link tells a search engine that one page points to another. A mention tells a reader, and a language model, what you are: "the neighborhood bakery known for its sourdough," "the accountant who specializes in restaurants." AI answers are built from sentences like those, gathered across many sources. If ten independent sites describe you the same accurate way, that description tends to become the answer. If the only sentences about you are your own, the machines have little to confirm them with.&lt;/p&gt;
@@ -973,7 +973,7 @@
 &lt;p class="lead"&gt;I hate backlink campaigns, and I refuse every one I'm offered. That's my choice, and it isn't a verdict on anyone who buys links. Plenty of businesses want them, and they deserve a vendor that won't burn them. So whenever I turn a backlink gig down, I give the same referral, every time: FatJoe. Nobody asked me to say so, and I'm not carrying anyone's water. I'd simply be a hypocrite to stay quiet, because I've been one of their publishers for more than a decade, and my experience with them has been good from start to finish.&lt;/p&gt;
 
 &lt;h2&gt;Why I won't do backlink campaigns&lt;/h2&gt;
-&lt;p&gt;A backlink campaign is pitching strangers, haggling over fees, collecting PayPal addresses, chasing posts that were promised and never went live, and checking every month that the links are still there. It's a full time job of follow up, and it's the opposite of the work I'm good at. I diagnose why sites lose traffic, fix how they render and get indexed, and make them readable to search engines and AI answers. That's what my &lt;a href="https://christopherabraham.com/services/"&gt;services&lt;/a&gt; cover, and links aren't on the list.&lt;/p&gt;
+&lt;p&gt;A backlink campaign is pitching strangers, haggling over fees, collecting PayPal addresses, chasing posts that were promised and never went live, and checking every month that the links are still there. It's a full-time job of follow-up, and it's the opposite of the work I'm good at. I diagnose why sites lose traffic, fix how they render and get indexed, and make them readable to search engines and AI answers. That's what my &lt;a href="https://christopherabraham.com/services/"&gt;services&lt;/a&gt; cover, and links aren't on the list.&lt;/p&gt;
 &lt;p&gt;There's also Google's rule, covered below, which puts every paid link in a gray zone I'd rather leave to the people who specialize in it.&lt;/p&gt;
 
 &lt;h2&gt;What a decade as a FatJoe publisher has shown me&lt;/h2&gt;
@@ -991,10 +991,10 @@
 &lt;p&gt;Be clear about what you're buying: placed articles on real sites, paid for. That's a different thing from a link a writer gives you because they admire your work. Within the paid category, FatJoe is the only agency I recommend.&lt;/p&gt;
 
 &lt;h2&gt;Another name I keep hearing&lt;/h2&gt;
-&lt;p&gt;Rhino Rank, a UK link building agency based in Shrewsbury, gets praised by colleagues whose judgment I trust. It sells curated links on existing articles, guest posts, and a managed service, and it calls itself the original white label link building agency. I have no experience with it at all, so this is secondhand: worth a look, and worth judging by the same tests below.&lt;/p&gt;
+&lt;p&gt;Rhino Rank, a UK link building agency based in Shrewsbury, gets praised by colleagues whose judgment I trust. It sells curated links on existing articles, guest posts, and a managed service, and it calls itself the original white-label link-building agency. I have no experience with it at all, so this is secondhand: worth a look, and worth judging by the same tests below.&lt;/p&gt;
 
 &lt;h2&gt;Google's rule on paid links&lt;/h2&gt;
-&lt;p&gt;Google's spam policies treat buying or selling links that pass ranking credit as link spam, and Google asks that paid links carry &lt;code&gt;rel="sponsored"&lt;/code&gt; or &lt;code&gt;rel="nofollow"&lt;/code&gt;. That applies to every vendor and every hand built campaign alike. Placed articles still bring readers, referral visits, and brand mentions that AI answers can pick up; my guide to &lt;a href="https://christopherabraham.com/guides/earned-mentions/"&gt;digital PR for AI search&lt;/a&gt; explains why mentions matter. Decide with your eyes open how much risk you'll accept, and ask any vendor how its placements are marked.&lt;/p&gt;
+&lt;p&gt;Google's spam policies treat buying or selling links that pass ranking credit as link spam, and Google asks that paid links carry &lt;code&gt;rel="sponsored"&lt;/code&gt; or &lt;code&gt;rel="nofollow"&lt;/code&gt;. That applies to every vendor and every hand-built campaign alike. Placed articles still bring readers, referral visits, and brand mentions that AI answers can pick up; my guide to &lt;a href="https://christopherabraham.com/guides/earned-mentions/"&gt;digital PR for AI search&lt;/a&gt; explains why mentions matter. Decide with your eyes open how much risk you'll accept, and ask any vendor how its placements are marked.&lt;/p&gt;
 
 &lt;h2&gt;Five questions for any link vendor&lt;/h2&gt;
 &lt;ul&gt;
@@ -1072,7 +1072,7 @@
   &lt;li&gt;&lt;strong&gt;Restore titles that were working before a migration.&lt;/strong&gt; That is a return to known performance, not an experiment.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Protect titles that already match their main query.&lt;/strong&gt; If a page's most searched phrase opens its title, edit around those words or leave the page alone.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Remove the suffix from one section first,&lt;/strong&gt; such as the blog, and leave comparable sections unchanged.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Compare the two groups in Search Console&lt;/strong&gt; for three to four weeks, looking at clicks and click-through rate. Updates and seasonal swings hit both groups, which makes the comparison fairer than a before and after view of one group.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Compare the two groups in Search Console&lt;/strong&gt; for three to four weeks, looking at clicks and click-through rate. Updates and seasonal swings hit both groups, which makes the comparison fairer than a before-and-after view of one group.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Expand only if the changed section held steady or improved.&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Keep every change reversible. Export the current titles or keep them in version control before editing, so any page can go back in minutes.&lt;/p&gt;
@@ -1104,10 +1104,10 @@
     <summary>AI app builders ship a site in an afternoon. Here is how to check that Google and AI crawlers can read it: rendering, links, titles, status codes, and sitemaps.</summary>
     <content type="html">&lt;h1&gt;SEO for websites built with AI app builders: what to check before you launch&lt;/h1&gt;
 &lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-13"&gt;October 13, 2026&lt;/time&gt;&lt;/p&gt;
-&lt;p class="lead"&gt;Describe a business to Lovable, Bolt, v0, or a coding assistant, and an afternoon later there's a good looking website. Plenty of founders now launch exactly this way, and I'm all for it. The catch is that a site can look perfect in your browser while search engines and AI crawlers receive something close to an empty page. These are the checks I run on every AI built site, in the order I run them.&lt;/p&gt;
+&lt;p class="lead"&gt;Describe a business to Lovable, Bolt, v0, or a coding assistant, and an afternoon later there's a good looking website. Plenty of founders now launch exactly this way, and I'm all for it. The catch is that a site can look perfect in your browser while search engines and AI crawlers receive something close to an empty page. These are the checks I run on every AI-built site, in the order I run them.&lt;/p&gt;
 
 &lt;h2&gt;Know how your site renders&lt;/h2&gt;
-&lt;p&gt;Everything else depends on one question: does the server send finished HTML, or does it send a script that builds the page in the visitor's browser? The second approach, client side rendering, is how many React single page apps work. Google can render JavaScript, but its own documentation describes rendering as a separate step after crawling, and recommends server side rendering or prerendering because it's faster for everyone and because not every bot runs JavaScript. Many AI crawlers fetch the raw HTML and stop there.&lt;/p&gt;
+&lt;p&gt;Everything else depends on one question: does the server send finished HTML, or does it send a script that builds the page in the visitor's browser? The second approach, client-side rendering, is how many React single page apps work. Google can render JavaScript, but its own documentation describes rendering as a separate step after crawling, and recommends server-side rendering or prerendering because it's faster for everyone and because not every bot runs JavaScript. Many AI crawlers fetch the raw HTML and stop there.&lt;/p&gt;
 &lt;p&gt;Defaults change quickly, so check rather than assume. Lovable is a good example. Its documentation says apps created from May 13, 2026 (June 22, 2026 for Enterprise workspaces) use TanStack Start, which renders pages on the server. Older Lovable apps are React and Vite apps that render in the browser; for those, Lovable serves prerendered copies of published pages to verified search engines, social preview bots, and AI crawlers, and it offers an upgrade path to the newer stack. If your site was built before the change, find out which one you have.&lt;/p&gt;
 
 &lt;h2&gt;The two minute test&lt;/h2&gt;
@@ -1267,7 +1267,7 @@
 
 &lt;h2&gt;A realistic afternoon of work&lt;/h2&gt;
 &lt;p&gt;Select one strong article. Improve its opening answer, add one verifiable example, repair its references, and link it from a relevant guide. Test the published page and notify the participating engines after the change is live. Then write down what you changed and when you will review it.&lt;/p&gt;
-&lt;p&gt;That is my version of AI catnip: material someone can confidently build on, delivered through a site that works. For a broader technical review, use the &lt;a href="https://christopherabraham.com/guides/ai-search-checklist/"&gt;AI search readiness checklist&lt;/a&gt;. New Guides also appear in the &lt;a href="https://christopherabraham.com/rss.xml"&gt;full text RSS feed&lt;/a&gt;, which can be imported into a feed reader or publishing system.&lt;/p&gt;
+&lt;p&gt;That is my version of AI catnip: material someone can confidently build on, delivered through a site that works. For a broader technical review, use the &lt;a href="https://christopherabraham.com/guides/ai-search-checklist/"&gt;AI search readiness checklist&lt;/a&gt;. New Guides also appear in the &lt;a href="https://christopherabraham.com/rss.xml"&gt;full-text RSS feed&lt;/a&gt;, which can be imported into a feed reader or publishing system.&lt;/p&gt;
 &lt;aside class="help-box" aria-label="Get help"&gt;
   &lt;h2&gt;Let me help you with this&lt;/h2&gt;
   &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
@@ -1343,13 +1343,13 @@
 &lt;/ul&gt;
 
 &lt;h3&gt;See what Google sees on JavaScript sites&lt;/h3&gt;
-&lt;p&gt;The licence turns on rendering with built in headless Chromium, so the crawler runs the JavaScript on React, Angular, and Vue sites and reads the finished page. Crawl the same pages with rendering off and then on, compare word counts by template, and content that only exists after scripts run stands out immediately. Rendered screenshots and stored rendered HTML let you see exactly what the crawler saw.&lt;/p&gt;
+&lt;p&gt;The licence turns on rendering with built-in headless Chromium, so the crawler runs the JavaScript on React, Angular, and Vue sites and reads the finished page. Crawl the same pages with rendering off and then on, compare word counts by template, and content that only exists after scripts run stands out immediately. Rendered screenshots and stored rendered HTML let you see exactly what the crawler saw.&lt;/p&gt;
 
 &lt;h3&gt;Catch the problems that cost rankings&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Near duplicate content.&lt;/strong&gt; Beyond exact copies, it finds near duplicates and semantically similar pages using algorithmic checks and vector embeddings.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Near-duplicate content.&lt;/strong&gt; Beyond exact copies, it finds near duplicates and semantically similar pages using algorithmic checks and vector embeddings.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Structured data validation.&lt;/strong&gt; Extracts schema markup and checks it against Schema.org and Google's rich result features.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Accessibility auditing.&lt;/strong&gt; Runs the open source axe rules against WCAG on every page.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Accessibility auditing.&lt;/strong&gt; Runs the open-source axe rules against WCAG on every page.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Spelling and grammar&lt;/strong&gt; checks in more than 25 languages.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Mobile usability&lt;/strong&gt; checks using Lighthouse.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;AMP crawling and validation&lt;/strong&gt; with the official AMP validator.&lt;/li&gt;
@@ -1373,7 +1373,7 @@
 &lt;p&gt;Put those side by side and the crawl answers the question that matters: which pages earn traffic and have a technical problem? Fix those first.&lt;/p&gt;
 
 &lt;h3&gt;Use AI inside the crawl&lt;/h3&gt;
-&lt;p&gt;The licence connects the crawler to OpenAI, Gemini, Anthropic, and Ollama, so you can run your own prompt against every page as it's crawled: draft missing meta descriptions, write alt text, classify page intent, or flag thin content. Any AI written metadata still needs a person to check it before it goes live.&lt;/p&gt;
+&lt;p&gt;The licence connects the crawler to OpenAI, Gemini, Anthropic, and Ollama, so you can run your own prompt against every page as it's crawled: draft missing meta descriptions, write alt text, classify page intent, or flag thin content. Any AI-written metadata still needs a person to check it before it goes live.&lt;/p&gt;
 &lt;p&gt;Version 24.0, released May 19, 2026, also added an MCP server, so you can run crawls and analyze, export, and reshape the data from inside AI assistants such as Claude, in plain English. Screaming Frog says plainly that it isn't a replacement for an experienced SEO, and not every feature is available through it yet.&lt;/p&gt;
 
 &lt;h3&gt;Put audits on autopilot&lt;/h3&gt;
@@ -1744,7 +1744,7 @@
     <id>https://christopherabraham.com/guides/ai-content-seo/</id>
     <published>2026-10-09T12:00:00Z</published>
     <updated>2026-10-09T12:00:00Z</updated>
-    <summary>Does Google penalize AI written copy? What Google's guidance says in 2026, what the data shows, the new fact checking rule, fake authors, and safe AI use.</summary>
+    <summary>Does Google penalize AI-written copy? What Google's guidance says in 2026, what the data shows, the new fact checking rule, fake authors, and safe AI use.</summary>
     <content type="html">&lt;h1&gt;Will Google penalize AI-written content? What Google actually says&lt;/h1&gt;
 &lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-09"&gt;October 9, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;Almost every client asks me some version of this: if I use ChatGPT or Claude to help write my pages, will Google punish me? The short answer is no, Google doesn't punish content for being written with AI. It punishes content for being unhelpful, inaccurate, deceptive, or mass-produced to game rankings, and AI makes all four of those very easy. Here is what Google has said, in its own words, and how to use AI without risk.&lt;/p&gt;
@@ -1911,7 +1911,7 @@
 &lt;p&gt;For anything bigger than a quick fix, pay for a defined first step: a diagnosis of one problem, an audit with a prioritized list, or a fixed number of hours. You learn how the person works, they learn your site, and either side can stop cleanly. It also prices the work honestly, because a good diagnosis is real labor and you should own the result.&lt;/p&gt;
 
 &lt;h2&gt;Fixed price or hourly&lt;/h2&gt;
-&lt;p&gt;Fixed price suits a well defined deliverable, such as an audit, a migration plan, or a set list of fixes. Hourly suits ongoing work where the next task depends on what the last one found. Either way, agree on what "done" means before work starts, and keep the scope written in the contract rather than scattered across messages.&lt;/p&gt;
+&lt;p&gt;Fixed price suits a well-defined deliverable, such as an audit, a migration plan, or a set list of fixes. Hourly suits ongoing work where the next task depends on what the last one found. Either way, agree on what "done" means before work starts, and keep the scope written in the contract rather than scattered across messages.&lt;/p&gt;
 
 &lt;h2&gt;Where I fit&lt;/h2&gt;
 &lt;p&gt;I'm a technical SEO consultant on Upwork, and I like postings that ask hard questions, because they're the ones where I can show my thinking. If your problem sounds like indexing, rendering, migrations, local listings, or AI search visibility, &lt;a href="https://christopherabraham.com/contact/"&gt;tell me what happened&lt;/a&gt;, or see how I work on &lt;a href="https://christopherabraham.com/hire-me/"&gt;hiring me&lt;/a&gt;.&lt;/p&gt;
@@ -1943,7 +1943,7 @@
 &lt;p class="lead"&gt;A new name feels like a fresh start, and that instinct is exactly what costs businesses their reviews and rankings. The safest rebrand treats the renamed business as the same business it has always been, because to Google it is. Here is the order I follow when a client renames a shop, a restaurant, a studio, or a practice.&lt;/p&gt;
 
 &lt;h2&gt;Rule one: edit the listing you have&lt;/h2&gt;
-&lt;p&gt;Your reviews, photos, and history belong to your existing Business Profile, not to your name. If you create a new profile for the new name, you start from zero and leave a second, competing listing behind. Instead, change the name on the profile you already have. Google's help pages say to enter the name exactly as it appears on your real world signage, stationery, and branding, and they warn that changing a verified name may mean verifying again. Plan for that so it doesn't catch you mid launch.&lt;/p&gt;
+&lt;p&gt;Your reviews, photos, and history belong to your existing Business Profile, not to your name. If you create a new profile for the new name, you start from zero and leave a second, competing listing behind. Instead, change the name on the profile you already have. Google's help pages say to enter the name exactly as it appears on your real-world signage, stationery, and branding, and they warn that changing a verified name may mean verifying again. Plan for that so it doesn't catch you mid launch.&lt;/p&gt;
 
 &lt;h2&gt;Rule two: let the real world go first&lt;/h2&gt;
 &lt;p&gt;Google wants the name on the listing to match what customers see. That makes the sequence matter. The new sign, the receipts, the menu or price list, and the website header should carry the new name before or at the same moment the profile changes. If a reviewer at Google, or a customer standing on the sidewalk, sees the old name on the door and the new one online, you've created the kind of mismatch that slows edits down.&lt;/p&gt;
@@ -2707,7 +2707,7 @@
 &lt;p&gt;For a guide to reading Search Console's Page indexing report, a reasonable tag reads: "Page indexing report, Search Console indexing, crawled not indexed." Three phrases, each describing a real section of the page. An unreasonable one adds "SEO, Google, best SEO, SEO expert, rank higher, cheap SEO," none of which the page is about.&lt;/p&gt;
 
 &lt;h2&gt;Where the tag came from&lt;/h2&gt;
-&lt;p&gt;Meta tags arrived with early HTML as a way for authors to describe their own documents, and the first search engines leaned on them heavily, because analyzing full page text at scale was expensive. Within a few years, site owners were filling the tag with hundreds of terms, including popular searches that had nothing to do with their pages. The engines responded by discounting the tag, then ignoring it, and moved toward signals that are harder to fake, such as links and on-page text.&lt;/p&gt;
+&lt;p&gt;Meta tags arrived with early HTML as a way for authors to describe their own documents, and the first search engines leaned on them heavily, because analyzing full-page text at scale was expensive. Within a few years, site owners were filling the tag with hundreds of terms, including popular searches that had nothing to do with their pages. The engines responded by discounting the tag, then ignoring it, and moved toward signals that are harder to fake, such as links and on-page text.&lt;/p&gt;
 
 &lt;h2&gt;Other meta tags that do matter&lt;/h2&gt;
 &lt;ul&gt;
@@ -2828,7 +2828,7 @@
     <id>https://christopherabraham.com/guides/llms-txt/</id>
     <published>2026-10-06T12:00:00Z</published>
     <updated>2026-10-06T12:00:00Z</updated>
-    <summary>What llms.txt is, who reads it, and how to write one: the format, the full text companion file, Markdown page copies, robots.txt rules, and common mistakes.</summary>
+    <summary>What llms.txt is, who reads it, and how to write one: the format, the full-text companion file, Markdown page copies, robots.txt rules, and common mistakes.</summary>
     <content type="html">&lt;h1&gt;How to write an llms.txt file&lt;/h1&gt;
 &lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;llms.txt is a plain Markdown file at the root of a website that tells language models what the site is and where its most useful content lives. It was proposed in 2024 by Jeremy Howard of Answer.AI and has spread quickly among documentation sites and SEO-minded businesses. It's cheap to make, harmless, and increasingly read by AI tools and agents.&lt;/p&gt;

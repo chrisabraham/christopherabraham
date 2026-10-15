@@ -1,4 +1,4 @@
-> What llms.txt is, who reads it, and how to write one: the format, the full text companion file, Markdown page copies, robots.txt rules, and common mistakes.
+> What llms.txt is, who reads it, and how to write one: the format, the full-text companion file, Markdown page copies, robots.txt rules, and common mistakes.
 >
 > Source: https://christopherabraham.com/guides/llms-txt/ · Updated 2026-10-06 · By Christopher Abraham
 

@@ -10,9 +10,9 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Internal linking: stitching your pages together](https://christopherabraham.com/guides/internal-linking/): choose useful destinations, write natural anchors, check section targets, and plan the additions in a downloadable worksheet.
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
 - [Why your SEO should work in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/): fixing causes in templates instead of symptoms page by page, what AI coding assistants add, and what to ask before you hire.
-- [How to find near duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Screaming Frog settings that catch both, what heading problems really cost, and how to settle each duplicate cluster.
+- [How to find near-duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Screaming Frog settings that catch both, what heading problems really cost, and how to settle each duplicate cluster.
 - [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/): XPath and regex for heading counts, canonicals, robots tags, JSON-LD types, missing alt text, and tag IDs.
-- [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/): before and after crawls, the four change columns, change detection, and Search Console validation.
+- [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/): before-and-after crawls, the four change columns, change detection, and Search Console validation.
 - [Is a Screaming Frog licence worth $279 a year?](https://christopherabraham.com/guides/screaming-frog-licence/): what the free 500 URL version leaves out and everything the paid crawler can do, from JavaScript rendering to the new MCP server.
 - [What a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/): how to tell a useful audit from a tool export, before and after you pay for one.
 - [How to hire an SEO on Upwork](https://christopherabraham.com/guides/hiring-an-seo/): five screening questions that expose real skill, the red flags, and a safer paid first step.
@@ -21,7 +21,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Publish original research without a big budget](https://christopherabraham.com/guides/small-original-research/): a manageable question, repeatable method, honest sample, and evidence readers can inspect.
 - [AI catnip for fall 2026](https://christopherabraham.com/guides/ai-catnip/): original evidence, useful answers, crawler access, and realistic expectations for citations.
 - [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/): crawler access, server-rendered content, entities, answer-shaped pages, llms.txt, and measurement.
-- [Digital PR for AI search](https://christopherabraham.com/guides/earned-mentions/): long tail outreach, giving writers something worth using, consistent naming, and the FTC and Google rules on paid coverage.
+- [Digital PR for AI search](https://christopherabraham.com/guides/earned-mentions/): long-tail outreach, giving writers something worth using, consistent naming, and the FTC and Google rules on paid coverage.
 - [Why I turn down backlink work, and who I recommend](https://christopherabraham.com/guides/buying-backlinks/): a decade as a FatJoe publisher, what to ask any link vendor, and Google's rule on paid links.
 - [Reddit and AI answers](https://christopherabraham.com/guides/reddit-ai-answers/): why threads shape what Google and ChatGPT say about you, what moderators remove, and honest participation.
 - [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/): five types, example JSON-LD, and the rules that keep it accurate.
@@ -37,7 +37,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 
 ## Local listings
 - [How to change a business name without losing your reviews](https://christopherabraham.com/guides/business-name-change/): edit the listing you have, let the sign go first, and connect the old name on the web.
-- [Will Google penalize AI written content?](https://christopherabraham.com/guides/ai-content-seo/): what Google said in 2023 and in October 2026, fake authors, scaled content abuse, the data, and a safe way to use AI.
+- [Will Google penalize AI-written content?](https://christopherabraham.com/guides/ai-content-seo/): what Google said in 2023 and in October 2026, fake authors, scaled content abuse, the data, and a safe way to use AI.
 - [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/): gray cloud or orange, what the free plan already does, APO and Polish, the setup steps, and what to budget.
 - [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/): the day one settings, the plugins I recommend, archive pages, alt text, descriptive links, speed, and accessibility.
 - [Where to get reliable SEO and AI search news](https://christopherabraham.com/guides/seo-news-sources/): primary sources first, the daily trade press and who owns it, and three habits that keep you from repeating mistakes.
@@ -68,7 +68,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 
 ## Stay current
 
-New and updated guides appear in the [full text RSS feed](https://christopherabraham.com/rss.xml) or [Atom feed](https://christopherabraham.com/feed.xml). AI tools can read every guide as Markdown through [llms.txt](https://christopherabraham.com/llms.txt).
+New and updated guides appear in the [full-text RSS feed](https://christopherabraham.com/rss.xml) or [Atom feed](https://christopherabraham.com/feed.xml). AI tools can read every guide as Markdown through [llms.txt](https://christopherabraham.com/llms.txt).
 
 ## When a guide isn't enough
 

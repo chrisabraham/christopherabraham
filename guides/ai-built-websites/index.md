@@ -6,11 +6,11 @@
 
 By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 13, 2026
 
-Describe a business to Lovable, Bolt, v0, or a coding assistant, and an afternoon later there's a good looking website. Plenty of founders now launch exactly this way, and I'm all for it. The catch is that a site can look perfect in your browser while search engines and AI crawlers receive something close to an empty page. These are the checks I run on every AI built site, in the order I run them.
+Describe a business to Lovable, Bolt, v0, or a coding assistant, and an afternoon later there's a good looking website. Plenty of founders now launch exactly this way, and I'm all for it. The catch is that a site can look perfect in your browser while search engines and AI crawlers receive something close to an empty page. These are the checks I run on every AI-built site, in the order I run them.
 
 ## Know how your site renders
 
-Everything else depends on one question: does the server send finished HTML, or does it send a script that builds the page in the visitor's browser? The second approach, client side rendering, is how many React single page apps work. Google can render JavaScript, but its own documentation describes rendering as a separate step after crawling, and recommends server side rendering or prerendering because it's faster for everyone and because not every bot runs JavaScript. Many AI crawlers fetch the raw HTML and stop there.
+Everything else depends on one question: does the server send finished HTML, or does it send a script that builds the page in the visitor's browser? The second approach, client-side rendering, is how many React single page apps work. Google can render JavaScript, but its own documentation describes rendering as a separate step after crawling, and recommends server-side rendering or prerendering because it's faster for everyone and because not every bot runs JavaScript. Many AI crawlers fetch the raw HTML and stop there.
 
 Defaults change quickly, so check rather than assume. Lovable is a good example. Its documentation says apps created from May 13, 2026 (June 22, 2026 for Enterprise workspaces) use TanStack Start, which renders pages on the server. Older Lovable apps are React and Vite apps that render in the browser; for those, Lovable serves prerendered copies of published pages to verified search engines, social preview bots, and AI crawlers, and it offers an upgrade path to the newer stack. If your site was built before the change, find out which one you have.
 

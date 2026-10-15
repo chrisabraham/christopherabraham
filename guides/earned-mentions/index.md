@@ -6,7 +6,7 @@
 
 By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 13, 2026
 
-When an AI assistant describes your company, it isn't reading your About page alone. It's drawing on what other people have written: trade press, local news, newsletters, review roundups, niche sites, interviews. Those mentions used to be valued mostly for the links they carried. Now the words themselves travel into the answers. I've been earning that kind of coverage for clients since I helped develop long tail blogger outreach in 2006, and the fundamentals have barely changed. The stakes have.
+When an AI assistant describes your company, it isn't reading your About page alone. It's drawing on what other people have written: trade press, local news, newsletters, review roundups, niche sites, interviews. Those mentions used to be valued mostly for the links they carried. Now the words themselves travel into the answers. I've been earning that kind of coverage for clients since I helped develop long-tail blogger outreach in 2006, and the fundamentals have barely changed. The stakes have.
 
 ## Why mentions matter more than they used to
 

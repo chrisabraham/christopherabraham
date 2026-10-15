@@ -1,4 +1,4 @@
-> Plan and verify a website migration: full URL inventories, one to one 301 redirect maps, launch day checks, and recovery when a move has already lost traffic.
+> Plan and verify a website migration: full URL inventories, one-to-one 301 redirect maps, launch day checks, and recovery when a move has already lost traffic.
 >
 > Source: https://christopherabraham.com/services/migrations/ · Updated 2026-10-06 · By Christopher Abraham
 

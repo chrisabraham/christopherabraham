@@ -150,7 +150,7 @@ A sample of fifty pages tells you what fifty pages look like. The expensive prob
 - **Sitemaps compared with the crawl:** URLs listed in the sitemap that the crawl can't reach, and reachable, indexable URLs the sitemap leaves out.
 - **Titles and descriptions,** including suffixes a theme appends without asking and wording that changed during a migration.
 - **Headings:** missing H1s, a logo wrapped in an H1 on every page, and H1s split across styled elements so the words run together.
-- **Duplicate and near duplicate content,** with a decision for each cluster: rewrite to differentiate, merge and redirect, or canonicalize.
+- **Duplicate and near-duplicate content,** with a decision for each cluster: rewrite to differentiate, merge and redirect, or canonicalize.
 - **Redirects and links:** chains, loops, internal links still aimed at old URLs, and orphaned pages.
 - **Images and alt text:** oversized files and missing or meaningless alternatives.
 - **Structured data coverage:** which templates emit JSON-LD, which don't, and whether it matches the visible page.
@@ -163,7 +163,7 @@ A row in a crawl export is a symptom. The cause is a file. When I have access to
 ## How fixes reach the site
 
 There are three routes, and I'll use whichever your setup allows:
-- **In the CMS.** I export the affected fields before touching anything, make the changes, and export again, so there's a clean before and after record.
+- **In the CMS.** I export the affected fields before touching anything, make the changes, and export again, so there's a clean before-and-after record.
 - **In the repository.** I work on a branch, open a pull request, and check the preview build before anyone merges it.
 - **Through your developer.** I write the ticket with the file, the cause, the fix, and a test that proves it's done, then confirm what ships.
 
@@ -183,11 +183,11 @@ After each release, I crawl again and compare the two crawls row by row, so you 
 
 ## What the industry calls this work
 
-If you're searching for someone to do this, the labels you'll see are technical SEO, technical SEO implementation, SEO engineering, and SEO QA. On sites built in React or Next.js it goes by JavaScript SEO, Next.js SEO, or headless SEO, and covers rendering (SSR, SSG, CSR, and hydration). The underlying checks are crawlability, indexability, canonicalization, duplicate and near duplicate content, heading hierarchy, template level SEO, internal linking, structured data and JSON-LD for entity SEO, Core Web Vitals (LCP, INP, and CLS), and site migrations with redirect mapping. Newer labels for the AI side are GEO and AEO, which includes making sure AI crawlers such as GPTBot, ClaudeBot, and PerplexityBot can read your pages. I do it in Git, through pull requests and deploy previews. I don't do paid search; this is all organic.
+If you're searching for someone to do this, the labels you'll see are technical SEO, technical SEO implementation, SEO engineering, and SEO QA. On sites built in React or Next.js it goes by JavaScript SEO, Next.js SEO, or headless SEO, and covers rendering (SSR, SSG, CSR, and hydration). The underlying checks are crawlability, indexability, canonicalization, duplicate and near-duplicate content, heading hierarchy, template level SEO, internal linking, structured data and JSON-LD for entity SEO, Core Web Vitals (LCP, INP, and CLS), and site migrations with redirect mapping. Newer labels for the AI side are GEO and AEO, which includes making sure AI crawlers such as GPTBot, ClaudeBot, and PerplexityBot can read your pages. I do it in Git, through pull requests and deploy previews. I don't do paid search; this is all organic.
 
 ## Tools
 
-Screaming Frog SEO Spider with JavaScript rendering, near duplicate detection, and custom extraction; Playwright for scripted headless Chrome; OpenAI Codex and Claude Code for reading and testing codebases; Google Search Console; and Bing Webmaster Tools.
+Screaming Frog SEO Spider with JavaScript rendering, near-duplicate detection, and custom extraction; Playwright for scripted headless Chrome; OpenAI Codex and Claude Code for reading and testing codebases; Google Search Console; and Bing Webmaster Tools.
 
 ## Who it suits
 
@@ -768,7 +768,7 @@ A static website is a folder of finished HTML files. Nothing runs when a visitor
 
 ## Proof you're reading
 
-This site is one. It's hand written HTML, a small Python generator, GitHub Pages, and Cloudflare, described on the [colophon](https://christopherabraham.com/about/colophon/). The build refuses to publish a page whose title or description is the wrong length, repeats another page, or borrows phrasing from elsewhere. Those rules live in code, so they hold on the hundredth page the same as the first.
+This site is one. It's handwritten HTML, a small Python generator, GitHub Pages, and Cloudflare, described on the [colophon](https://christopherabraham.com/about/colophon/). The build refuses to publish a page whose title or description is the wrong length, repeats another page, or borrows phrasing from elsewhere. Those rules live in code, so they hold on the hundredth page the same as the first.
 
 ## What every site gets
 - **Titles, descriptions, and headings** checked on every build, with one H1 per page and no duplicates.
@@ -1003,9 +1003,9 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Internal linking: stitching your pages together](https://christopherabraham.com/guides/internal-linking/): choose useful destinations, write natural anchors, check section targets, and plan the additions in a downloadable worksheet.
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
 - [Why your SEO should work in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/): fixing causes in templates instead of symptoms page by page, what AI coding assistants add, and what to ask before you hire.
-- [How to find near duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Screaming Frog settings that catch both, what heading problems really cost, and how to settle each duplicate cluster.
+- [How to find near-duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Screaming Frog settings that catch both, what heading problems really cost, and how to settle each duplicate cluster.
 - [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/): XPath and regex for heading counts, canonicals, robots tags, JSON-LD types, missing alt text, and tag IDs.
-- [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/): before and after crawls, the four change columns, change detection, and Search Console validation.
+- [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/): before-and-after crawls, the four change columns, change detection, and Search Console validation.
 - [Is a Screaming Frog licence worth $279 a year?](https://christopherabraham.com/guides/screaming-frog-licence/): what the free 500 URL version leaves out and everything the paid crawler can do, from JavaScript rendering to the new MCP server.
 - [What a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/): how to tell a useful audit from a tool export, before and after you pay for one.
 - [How to hire an SEO on Upwork](https://christopherabraham.com/guides/hiring-an-seo/): five screening questions that expose real skill, the red flags, and a safer paid first step.
@@ -1014,7 +1014,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Publish original research without a big budget](https://christopherabraham.com/guides/small-original-research/): a manageable question, repeatable method, honest sample, and evidence readers can inspect.
 - [AI catnip for fall 2026](https://christopherabraham.com/guides/ai-catnip/): original evidence, useful answers, crawler access, and realistic expectations for citations.
 - [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/): crawler access, server-rendered content, entities, answer-shaped pages, llms.txt, and measurement.
-- [Digital PR for AI search](https://christopherabraham.com/guides/earned-mentions/): long tail outreach, giving writers something worth using, consistent naming, and the FTC and Google rules on paid coverage.
+- [Digital PR for AI search](https://christopherabraham.com/guides/earned-mentions/): long-tail outreach, giving writers something worth using, consistent naming, and the FTC and Google rules on paid coverage.
 - [Why I turn down backlink work, and who I recommend](https://christopherabraham.com/guides/buying-backlinks/): a decade as a FatJoe publisher, what to ask any link vendor, and Google's rule on paid links.
 - [Reddit and AI answers](https://christopherabraham.com/guides/reddit-ai-answers/): why threads shape what Google and ChatGPT say about you, what moderators remove, and honest participation.
 - [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/): five types, example JSON-LD, and the rules that keep it accurate.
@@ -1030,7 +1030,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 
 ## Local listings
 - [How to change a business name without losing your reviews](https://christopherabraham.com/guides/business-name-change/): edit the listing you have, let the sign go first, and connect the old name on the web.
-- [Will Google penalize AI written content?](https://christopherabraham.com/guides/ai-content-seo/): what Google said in 2023 and in October 2026, fake authors, scaled content abuse, the data, and a safe way to use AI.
+- [Will Google penalize AI-written content?](https://christopherabraham.com/guides/ai-content-seo/): what Google said in 2023 and in October 2026, fake authors, scaled content abuse, the data, and a safe way to use AI.
 - [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/): gray cloud or orange, what the free plan already does, APO and Polish, the setup steps, and what to budget.
 - [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/): the day one settings, the plugins I recommend, archive pages, alt text, descriptive links, speed, and accessibility.
 - [Where to get reliable SEO and AI search news](https://christopherabraham.com/guides/seo-news-sources/): primary sources first, the daily trade press and who owns it, and three habits that keep you from repeating mistakes.
@@ -1061,7 +1061,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 
 ## Stay current
 
-New and updated guides appear in the [full text RSS feed](https://christopherabraham.com/rss.xml) or [Atom feed](https://christopherabraham.com/feed.xml). AI tools can read every guide as Markdown through [llms.txt](https://christopherabraham.com/llms.txt).
+New and updated guides appear in the [full-text RSS feed](https://christopherabraham.com/rss.xml) or [Atom feed](https://christopherabraham.com/feed.xml). AI tools can read every guide as Markdown through [llms.txt](https://christopherabraham.com/llms.txt).
 
 ## When a guide isn't enough
 
@@ -1116,7 +1116,7 @@ The check is simple. Crawl the old site before launch and the new site after it,
 1. **Restore titles that were working before a migration.** That is a return to known performance, not an experiment.
 2. **Protect titles that already match their main query.** If a page's most searched phrase opens its title, edit around those words or leave the page alone.
 3. **Remove the suffix from one section first,** such as the blog, and leave comparable sections unchanged.
-4. **Compare the two groups in Search Console** for three to four weeks, looking at clicks and click-through rate. Updates and seasonal swings hit both groups, which makes the comparison fairer than a before and after view of one group.
+4. **Compare the two groups in Search Console** for three to four weeks, looking at clicks and click-through rate. Updates and seasonal swings hit both groups, which makes the comparison fairer than a before-and-after view of one group.
 5. **Expand only if the changed section held steady or improved.**
 
 Keep every change reversible. Export the current titles or keep them in version control before editing, so any page can go back in minutes.
@@ -1285,7 +1285,7 @@ Give a revision time to be discovered before changing the next variable. If you 
 
 Select one strong article. Improve its opening answer, add one verifiable example, repair its references, and link it from a relevant guide. Test the published page and notify the participating engines after the change is live. Then write down what you changed and when you will review it.
 
-That is my version of AI catnip: material someone can confidently build on, delivered through a site that works. For a broader technical review, use the [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/). New Guides also appear in the [full text RSS feed](https://christopherabraham.com/rss.xml), which can be imported into a feed reader or publishing system.
+That is my version of AI catnip: material someone can confidently build on, delivered through a site that works. For a broader technical review, use the [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/). New Guides also appear in the [full-text RSS feed](https://christopherabraham.com/rss.xml), which can be imported into a feed reader or publishing system.
 
 ## Let me help you with this
 
@@ -2657,7 +2657,7 @@ For a guide to reading Search Console's Page indexing report, a reasonable tag r
 
 ## Where the tag came from
 
-Meta tags arrived with early HTML as a way for authors to describe their own documents, and the first search engines leaned on them heavily, because analyzing full page text at scale was expensive. Within a few years, site owners were filling the tag with hundreds of terms, including popular searches that had nothing to do with their pages. The engines responded by discounting the tag, then ignoring it, and moved toward signals that are harder to fake, such as links and on-page text.
+Meta tags arrived with early HTML as a way for authors to describe their own documents, and the first search engines leaned on them heavily, because analyzing full-page text at scale was expensive. Within a few years, site owners were filling the tag with hundreds of terms, including popular searches that had nothing to do with their pages. The engines responded by discounting the tag, then ignoring it, and moved toward signals that are harder to fake, such as links and on-page text.
 
 ## Other meta tags that do matter
 - **Title.** Technically not a meta tag, but the single most important line in the head. It names the page in search results and browser tabs.
@@ -2994,7 +2994,7 @@ For anything bigger than a quick fix, pay for a defined first step: a diagnosis 
 
 ## Fixed price or hourly
 
-Fixed price suits a well defined deliverable, such as an audit, a migration plan, or a set list of fixes. Hourly suits ongoing work where the next task depends on what the last one found. Either way, agree on what "done" means before work starts, and keep the scope written in the contract rather than scattered across messages.
+Fixed price suits a well-defined deliverable, such as an audit, a migration plan, or a set list of fixes. Hourly suits ongoing work where the next task depends on what the last one found. Either way, agree on what "done" means before work starts, and keep the scope written in the contract rather than scattered across messages.
 
 ## Where I fit
 
@@ -3092,11 +3092,11 @@ Updated: 2026-10-13
 
 By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 13, 2026
 
-Describe a business to Lovable, Bolt, v0, or a coding assistant, and an afternoon later there's a good looking website. Plenty of founders now launch exactly this way, and I'm all for it. The catch is that a site can look perfect in your browser while search engines and AI crawlers receive something close to an empty page. These are the checks I run on every AI built site, in the order I run them.
+Describe a business to Lovable, Bolt, v0, or a coding assistant, and an afternoon later there's a good looking website. Plenty of founders now launch exactly this way, and I'm all for it. The catch is that a site can look perfect in your browser while search engines and AI crawlers receive something close to an empty page. These are the checks I run on every AI-built site, in the order I run them.
 
 ## Know how your site renders
 
-Everything else depends on one question: does the server send finished HTML, or does it send a script that builds the page in the visitor's browser? The second approach, client side rendering, is how many React single page apps work. Google can render JavaScript, but its own documentation describes rendering as a separate step after crawling, and recommends server side rendering or prerendering because it's faster for everyone and because not every bot runs JavaScript. Many AI crawlers fetch the raw HTML and stop there.
+Everything else depends on one question: does the server send finished HTML, or does it send a script that builds the page in the visitor's browser? The second approach, client-side rendering, is how many React single page apps work. Google can render JavaScript, but its own documentation describes rendering as a separate step after crawling, and recommends server-side rendering or prerendering because it's faster for everyone and because not every bot runs JavaScript. Many AI crawlers fetch the raw HTML and stop there.
 
 Defaults change quickly, so check rather than assume. Lovable is a good example. Its documentation says apps created from May 13, 2026 (June 22, 2026 for Enterprise workspaces) use TanStack Start, which renders pages on the server. Older Lovable apps are React and Vite apps that render in the browser; for those, Lovable serves prerendered copies of published pages to verified search engines, social preview bots, and AI crawlers, and it offers an upgrade path to the newer stack. If your site was built before the change, find out which one you have.
 
@@ -3159,7 +3159,7 @@ Updated: 2026-10-13
 
 By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 13, 2026
 
-When an AI assistant describes your company, it isn't reading your About page alone. It's drawing on what other people have written: trade press, local news, newsletters, review roundups, niche sites, interviews. Those mentions used to be valued mostly for the links they carried. Now the words themselves travel into the answers. I've been earning that kind of coverage for clients since I helped develop long tail blogger outreach in 2006, and the fundamentals have barely changed. The stakes have.
+When an AI assistant describes your company, it isn't reading your About page alone. It's drawing on what other people have written: trade press, local news, newsletters, review roundups, niche sites, interviews. Those mentions used to be valued mostly for the links they carried. Now the words themselves travel into the answers. I've been earning that kind of coverage for clients since I helped develop long-tail blogger outreach in 2006, and the fundamentals have barely changed. The stakes have.
 
 ## Why mentions matter more than they used to
 
@@ -3223,7 +3223,7 @@ I hate backlink campaigns, and I refuse every one I'm offered. That's my choice,
 
 ## Why I won't do backlink campaigns
 
-A backlink campaign is pitching strangers, haggling over fees, collecting PayPal addresses, chasing posts that were promised and never went live, and checking every month that the links are still there. It's a full time job of follow up, and it's the opposite of the work I'm good at. I diagnose why sites lose traffic, fix how they render and get indexed, and make them readable to search engines and AI answers. That's what my [services](https://christopherabraham.com/services/) cover, and links aren't on the list.
+A backlink campaign is pitching strangers, haggling over fees, collecting PayPal addresses, chasing posts that were promised and never went live, and checking every month that the links are still there. It's a full-time job of follow-up, and it's the opposite of the work I'm good at. I diagnose why sites lose traffic, fix how they render and get indexed, and make them readable to search engines and AI answers. That's what my [services](https://christopherabraham.com/services/) cover, and links aren't on the list.
 
 There's also Google's rule, covered below, which puts every paid link in a gray zone I'd rather leave to the people who specialize in it.
 
@@ -3244,11 +3244,11 @@ Be clear about what you're buying: placed articles on real sites, paid for. That
 
 ## Another name I keep hearing
 
-Rhino Rank, a UK link building agency based in Shrewsbury, gets praised by colleagues whose judgment I trust. It sells curated links on existing articles, guest posts, and a managed service, and it calls itself the original white label link building agency. I have no experience with it at all, so this is secondhand: worth a look, and worth judging by the same tests below.
+Rhino Rank, a UK link building agency based in Shrewsbury, gets praised by colleagues whose judgment I trust. It sells curated links on existing articles, guest posts, and a managed service, and it calls itself the original white-label link-building agency. I have no experience with it at all, so this is secondhand: worth a look, and worth judging by the same tests below.
 
 ## Google's rule on paid links
 
-Google's spam policies treat buying or selling links that pass ranking credit as link spam, and Google asks that paid links carry `rel="sponsored"` or `rel="nofollow"`. That applies to every vendor and every hand built campaign alike. Placed articles still bring readers, referral visits, and brand mentions that AI answers can pick up; my guide to [digital PR for AI search](https://christopherabraham.com/guides/earned-mentions/) explains why mentions matter. Decide with your eyes open how much risk you'll accept, and ask any vendor how its placements are marked.
+Google's spam policies treat buying or selling links that pass ranking credit as link spam, and Google asks that paid links carry `rel="sponsored"` or `rel="nofollow"`. That applies to every vendor and every hand-built campaign alike. Placed articles still bring readers, referral visits, and brand mentions that AI answers can pick up; my guide to [digital PR for AI search](https://christopherabraham.com/guides/earned-mentions/) explains why mentions matter. Decide with your eyes open how much risk you'll accept, and ask any vendor how its placements are marked.
 
 ## Five questions for any link vendor
 - **Can I see the sites before I pay?** Real publications with an editorial voice, never a network of identical blogs.
@@ -3296,7 +3296,7 @@ A new name feels like a fresh start, and that instinct is exactly what costs bus
 
 ## Rule one: edit the listing you have
 
-Your reviews, photos, and history belong to your existing Business Profile, not to your name. If you create a new profile for the new name, you start from zero and leave a second, competing listing behind. Instead, change the name on the profile you already have. Google's help pages say to enter the name exactly as it appears on your real world signage, stationery, and branding, and they warn that changing a verified name may mean verifying again. Plan for that so it doesn't catch you mid launch.
+Your reviews, photos, and history belong to your existing Business Profile, not to your name. If you create a new profile for the new name, you start from zero and leave a second, competing listing behind. Instead, change the name on the profile you already have. Google's help pages say to enter the name exactly as it appears on your real-world signage, stationery, and branding, and they warn that changing a verified name may mean verifying again. Plan for that so it doesn't catch you mid launch.
 
 ## Rule two: let the real world go first
 
@@ -3882,12 +3882,12 @@ Here is the part I spent years ignoring. According to Screaming Frog's own compa
 
 ### See what Google sees on JavaScript sites
 
-The licence turns on rendering with built in headless Chromium, so the crawler runs the JavaScript on React, Angular, and Vue sites and reads the finished page. Crawl the same pages with rendering off and then on, compare word counts by template, and content that only exists after scripts run stands out immediately. Rendered screenshots and stored rendered HTML let you see exactly what the crawler saw.
+The licence turns on rendering with built-in headless Chromium, so the crawler runs the JavaScript on React, Angular, and Vue sites and reads the finished page. Crawl the same pages with rendering off and then on, compare word counts by template, and content that only exists after scripts run stands out immediately. Rendered screenshots and stored rendered HTML let you see exactly what the crawler saw.
 
 ### Catch the problems that cost rankings
-- **Near duplicate content.** Beyond exact copies, it finds near duplicates and semantically similar pages using algorithmic checks and vector embeddings.
+- **Near-duplicate content.** Beyond exact copies, it finds near duplicates and semantically similar pages using algorithmic checks and vector embeddings.
 - **Structured data validation.** Extracts schema markup and checks it against Schema.org and Google's rich result features.
-- **Accessibility auditing.** Runs the open source axe rules against WCAG on every page.
+- **Accessibility auditing.** Runs the open-source axe rules against WCAG on every page.
 - **Spelling and grammar** checks in more than 25 languages.
 - **Mobile usability** checks using Lighthouse.
 - **AMP crawling and validation** with the official AMP validator.
@@ -3908,7 +3908,7 @@ Put those side by side and the crawl answers the question that matters: which pa
 
 ### Use AI inside the crawl
 
-The licence connects the crawler to OpenAI, Gemini, Anthropic, and Ollama, so you can run your own prompt against every page as it's crawled: draft missing meta descriptions, write alt text, classify page intent, or flag thin content. Any AI written metadata still needs a person to check it before it goes live.
+The licence connects the crawler to OpenAI, Gemini, Anthropic, and Ollama, so you can run your own prompt against every page as it's crawled: draft missing meta descriptions, write alt text, classify page intent, or flag thin content. Any AI-written metadata still needs a person to check it before it goes live.
 
 Version 24.0, released May 19, 2026, also added an MCP server, so you can run crawls and analyze, export, and reshape the data from inside AI assistants such as Claude, in plain English. Screaming Frog says plainly that it isn't a replacement for an experienced SEO, and not every feature is available through it yet.
 
@@ -3987,7 +3987,7 @@ When the SEO can read that code, the work changes:
 A medium sized site can have thousands of files. Reading them used to be the developer's job alone. Now AI coding assistants such as OpenAI Codex, Claude Code, and GitHub Copilot can read an entire codebase, explain how it's organized, trace a problem to the files that cause it, and draft the change. GitHub describes Copilot planning changes, editing code, running tests, and reviewing pull requests. Claude Code works the same way from a terminal.
 
 That puts an SEO who knows what to look for within reach of answers that used to take a developer a week. Two examples from my own client work:
-- During [a clinic's move from WordPress to Next.js](https://christopherabraham.com/case-studies/clinic-migration/), a read only analysis of the repository with an AI coding assistant found thousands of image references still pointing at the old media library and traced them to a handful of central files. The developer got a short, concrete plan.
+- During [a clinic's move from WordPress to Next.js](https://christopherabraham.com/case-studies/clinic-migration/), a read-only analysis of the repository with an AI coding assistant found thousands of image references still pointing at the old media library and traced them to a handful of central files. The developer got a short, concrete plan.
 - For [a local business on Sanity, Vercel, and GitHub](https://christopherabraham.com/case-studies/headless-local/), I made the metadata changes myself in a pull request the developer reviewed and merged.
 
 The assistant is fast, tireless, and sometimes confidently wrong. The skill is knowing what search engines need, asking the right questions of the code, and checking every answer. AI doesn't replace that judgment; it multiplies it.
@@ -3995,7 +3995,7 @@ The assistant is fast, tireless, and sometimes confidently wrong. The skill is k
 ## How I work in a client's repository
 
 I work primarily with Codex and Claude Code, and also use Copilot. The repository, the written brief, and the checks carry the work between assistants, so the process does not depend on a single AI provider.
-1. **Read only first.** I start with read access, map the templates and routes, and compare the code to what crawlers actually see.
+1. **Read-only first.** I start with read access, map the templates and routes, and compare the code to what crawlers actually see.
 2. **Findings tied to files.** Every issue comes with the file and line that cause it, so your developer can act without guessing.
 3. **Small pull requests.** When you want me to make changes, each one is a separate branch with a clear description, reviewed by your developer before it merges.
 4. **Nothing reaches production without your approval,** and no passwords or API keys go into the code or into an AI tool.
@@ -4036,7 +4036,7 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 Source: https://christopherabraham.com/guides/near-duplicates-and-h1s/
 Updated: 2026-10-13
 
-# How to find near duplicate pages and multiple H1s across a whole site
+# How to find near-duplicate pages and multiple H1s across a whole site
 
 By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 13, 2026
 
@@ -4046,7 +4046,7 @@ Two findings turn up in almost every full crawl I run: clusters of pages that sa
 
 Set Screaming Frog to JavaScript rendering under Configuration > Spider > Rendering before you start. On sites built with React, Next.js, or a page builder, the H1 a browser shows can differ from the one in the raw HTML. A component may replace it after load, or a script may inject a second one. If you crawl only the source, you're auditing a page nobody sees.
 
-## Turn on near duplicate detection
+## Turn on near-duplicate detection
 
 Screaming Frog finds exact duplicates by default. Near duplicates need switching on, under Configuration > Content > Duplicates, which tells the crawler to store each page's text. The default similarity threshold is 90%, and you can lower it to cast a wider net. By default it compares only indexable pages, which is usually what you want.
 
@@ -4072,7 +4072,7 @@ Each of these is one template fix. That's the payoff of finding them by count ra
 
 ## Where near duplicates come from
 
-When I group near duplicate clusters by URL pattern, the same handful of causes come up again and again:
+When I group near-duplicate clusters by URL pattern, the same handful of causes come up again and again:
 - **City swap location pages,** where the only difference is the town name.
 - **Tag and category archives** that list the same posts under different labels.
 - **Parameter URLs** for sorting, filtering, or tracking that serve the same content.
@@ -4247,7 +4247,7 @@ A clean crawl proves what your site serves. Search Console shows what Google has
 
 A verification note after each release can be short: the two crawl dates, the counts in Removed and Added for each targeted issue, a list of any URLs that didn't change and why, and the Search Console validation status with its date. It turns "fixed" into a record anyone can check, and it catches the missed template before Google does.
 
-Verification is built into my [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) work and every [site migration](https://christopherabraham.com/services/migrations/). The extractors I use for before and after comparisons are in [Screaming Frog custom extraction recipes](https://christopherabraham.com/guides/custom-extraction/).
+Verification is built into my [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) work and every [site migration](https://christopherabraham.com/services/migrations/). The extractors I use for before-and-after comparisons are in [Screaming Frog custom extraction recipes](https://christopherabraham.com/guides/custom-extraction/).
 
 ## Let me help you with this
 
@@ -4529,7 +4529,7 @@ A line in a page's head nominating which address should represent a set of dupli
 A network of servers spread around the world that keeps copies of a site's files and hands them to each visitor from somewhere nearby.
 
 **Client-side rendering (CSR)**
-Building a page in the visitor's browser with JavaScript, so the HTML the server sends starts nearly empty. Crawlers that skip scripts see little or nothing. See [SEO for AI built websites](https://christopherabraham.com/guides/ai-built-websites/).
+Building a page in the visitor's browser with JavaScript, so the HTML the server sends starts nearly empty. Crawlers that skip scripts see little or nothing. See [SEO for AI-built websites](https://christopherabraham.com/guides/ai-built-websites/).
 
 **CLS (Cumulative Layout Shift)**
 The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.
@@ -4603,7 +4603,7 @@ The FTC's term for any tie between a brand and the person endorsing it, such as 
 **Meta description**
 The short summary written into a page's code that search engines often show beneath the title in results. It invites the click rather than setting the rank.
 
-**Near duplicate**
+**Near-duplicate**
 Two pages whose text is almost, but not exactly, the same, such as product variants or city pages built from one template. Crawlers can flag them by similarity score; see [near duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/).
 
 **Niche edit**
@@ -5311,7 +5311,7 @@ Where I could, I kept each URL exactly rather than redirecting it. Each chapter 
 
 ## Cleaner for search than before
 
-The archive pages repeat chapter text, so they are now noindex, follow and left out of the sitemap, and only the chapters and the main pages are indexable. Every chapter got a hand written title and description, checked by a script. Spelling and typography fixes went into a log, one row per change, so any of them can be undone.
+The archive pages repeat chapter text, so they are now noindex, follow and left out of the sitemap, and only the chapters and the main pages are indexable. Every chapter got a handwritten title and description, checked by a script. Spelling and typography fixes went into a log, one row per change, so any of them can be undone.
 
 ## Cutting over in the right order
 
@@ -5418,8 +5418,8 @@ Updated: 2026-10-15
 ## Crawling and auditing whole sites
 - Full site crawls in Screaming Frog with JavaScript rendering, run in raw and rendered modes and compared, so I can see which content exists only after scripts run.
 - Custom extraction with XPath and regex to audit every URL for heading counts, canonicals, robots tags, schema types, and tracking IDs. My [extraction recipes](https://christopherabraham.com/guides/custom-extraction/) are published.
-- Near duplicate detection and multiple H1 audits across entire sites, with a decision per cluster. See [how I find both](https://christopherabraham.com/guides/near-duplicates-and-h1s/).
-- Before and after crawl comparisons to prove a fix landed on every URL, described in [proving an SEO fix worked](https://christopherabraham.com/guides/prove-seo-fixes/).
+- Near-duplicate detection and multiple H1 audits across entire sites, with a decision per cluster. See [how I find both](https://christopherabraham.com/guides/near-duplicates-and-h1s/).
+- Before-and-after crawl comparisons to prove a fix landed on every URL, described in [proving an SEO fix worked](https://christopherabraham.com/guides/prove-seo-fixes/).
 - Crawl and index management for a programmatic site of more than 20,000 pages: segmented sitemaps, robots rules for parameter URLs, and baselines per segment. [Programmatic price index](https://christopherabraham.com/case-studies/card-price-index/).
 
 ## JavaScript rendering forensics
@@ -5434,7 +5434,7 @@ Updated: 2026-10-15
 - Read whole repositories with OpenAI Codex and Claude Code to trace a crawl finding to the component or import script that causes it, checking every answer against the live site.
 - Built SEO checks into the build of sites I run, so a page with a bad title, a duplicate description, a broken internal link, or borrowed phrasing fails before it publishes. That's how this site is built.
 - Automated IndexNow submissions with GitHub Actions, gated on the new sitemap actually being live.
-- Built a 12,000 line command line assistant in Python with 140 end to end tests, directing Claude Code the way a technical lead directs a team.
+- Built a 12,000 line command line assistant in Python with 140 end-to-end tests, directing Claude Code the way a technical lead directs a team.
 
 ## Migrations, redirects, and recovery
 - Audited a Squarespace to Shopify move that left 3,400 broken URLs and duplicate product paths, and did the theme schema work. [Shopify cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/).
@@ -5442,10 +5442,10 @@ Updated: 2026-10-15
 - Diagnosed a WooCommerce store's loss of indexing, traffic, and AI referrals after its SEO plugin was switched off, and checked the recovery. [Plugin outage](https://christopherabraham.com/case-studies/plugin-outage/).
 
 ## Schema, entities, and AI search
-- Separated a multi state brand from its first showroom in schema and on the page, so search engines stopped blurring the two. [Closet locations](https://christopherabraham.com/case-studies/closet-locations/).
+- Separated a multi-state brand from its first showroom in schema and on the page, so search engines stopped blurring the two. [Closet locations](https://christopherabraham.com/case-studies/closet-locations/).
 - Fixed a gym whose brand name Google read as an ordinary word, which lifted calls and visits. [Training gym](https://christopherabraham.com/case-studies/training-gym/).
 - Audited how ChatGPT and Perplexity described an AI company's jobs and pay, and planned the fix. [Recruiting answers](https://christopherabraham.com/case-studies/recruiting-answers/).
-- Built JSON-LD graphs, llms.txt files, Markdown twins of every page, and full text feeds for AI crawlers, on this site and others I run.
+- Built JSON-LD graphs, llms.txt files, Markdown twins of every page, and full-text feeds for AI crawlers, on this site and others I run.
 
 ## Servers, DNS, and email
 - Got my first root access on a Sun SPARCstation running Solaris, the pizza box kind, as the image lab administrator at PNI, Picture Network International.
@@ -5463,23 +5463,23 @@ Updated: 2026-10-15
 - Got a suspended profile reinstated with a documented appeal. [Profile reinstated](https://christopherabraham.com/case-studies/profile-reinstated/).
 
 ## Data
-- Wrote Python pipelines that built an 88,900 contact master list, merged two 28,800 record exports at 94% email coverage, and caught an AI built tracker inventing its data.
+- Wrote Python pipelines that built an 88,900 contact master list, merged two 28,800 record exports at 94% email coverage, and caught an AI-built tracker inventing its data.
 
 ## Strengths that don't fit on a skills list
 
 These are habits, not tools, and they shape every engagement.
 - **I keep two problems apart.** When a traffic loss and a spam spike land in the same month, I run them as separate investigations until the evidence connects them, so nobody spends a quarter fixing the wrong thing. It's built into every [technical SEO audit](https://christopherabraham.com/services/seo-audit/).
-- **I catch AI tools inventing things.** I use AI every day and trust none of it unchecked, which is how I caught an AI built outreach tracker logging messages to contacts who didn't exist. My guide to [correcting what AI says about you](https://christopherabraham.com/guides/correct-ai-answers/) comes from the same habit.
+- **I catch AI tools inventing things.** I use AI every day and trust none of it unchecked, which is how I caught an AI-built outreach tracker logging messages to contacts who didn't exist. My guide to [correcting what AI says about you](https://christopherabraham.com/guides/correct-ai-answers/) comes from the same habit.
 - **I build a case like a brief.** I captained my high school speech and debate team, and my Google appeals still read that way: the strongest document first, nothing that exposes private information, and no date claimed without paper behind it. That's how a [suspended profile came back](https://christopherabraham.com/case-studies/profile-reinstated/).
-- **I vet sources for a living.** At Edelman my job included checking online influencers for a genuine, multi year track record before clients went near them. I bring the same suspicion to every crawl export, vendor dashboard, and confident AI answer.
-- **I write for the developer and the owner at once.** The same finding becomes a ranked ticket with acceptance criteria for engineering and a plain summary for the person paying, as in the [13 page spec for a React app](https://christopherabraham.com/case-studies/event-app-links/).
+- **I vet sources for a living.** At Edelman my job included checking online influencers for a genuine, multi-year track record before clients went near them. I bring the same suspicion to every crawl export, vendor dashboard, and confident AI answer.
+- **I write for the developer and the owner at once.** The same finding becomes a ranked ticket with acceptance criteria for engineering and a plain summary for the person paying, as in the [13-page spec for a React app](https://christopherabraham.com/case-studies/event-app-links/).
 - **I ship at speed without dropping the checks.** This site went from first commit to 75 pages and more than 50,000 words in a week, built with Claude Code under my direction, and every page passes automated checks for title and description length, duplicate wording, broken links, and voice before it publishes.
 - **I've made myself machine readable.** Two decades of publishing under one name, tied together with structured data so search engines and AI tools know the profiles belong to one person. The method is in [two names, one entity](https://christopherabraham.com/guides/two-names-one-entity/).
 - **I know how online communities behave from the inside.** I moderate a Reddit community of more than 16,000 runners and have for nine years, and Reddit threads turn up constantly in AI answers. The story is [off the clock](https://christopherabraham.com/about/off-the-clock/).
 
 ## Platforms
 
-WordPress with Yoast, Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal; Squarespace; Wix; Webflow; Next.js, React, and Create React App; Sanity; Vercel, Netlify, Cloudflare, and GitHub Pages; Jekyll and hand built Python generators; and Plone on the Zope application server, which I've run since the early 2000s.
+WordPress with Yoast, Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal; Squarespace; Wix; Webflow; Next.js, React, and Create React App; Sanity; Vercel, Netlify, Cloudflare, and GitHub Pages; Jekyll and hand-built Python generators; and Plone on the Zope application server, which I've run since the early 2000s.
 
 ## Tools
 
@@ -6012,7 +6012,7 @@ For a shop, think about routes between categories, subcategories, and products a
 
 ## Verify additions before reporting results
 
-Keep a before and after record of the changed source pages. Check that the links appear in the agreed locations, open their destinations, and land at the expected sections. Crawl again with comparable settings to inspect incoming links and changes to discovery. If you changed a shared component, sample its different uses rather than assuming one good page represents them all.
+Keep a before-and-after record of the changed source pages. Check that the links appear in the agreed locations, open their destinations, and land at the expected sections. Crawl again with comparable settings to inspect incoming links and changes to discovery. If you changed a shared component, sample its different uses rather than assuming one good page represents them all.
 
 After the links are live, watch the destination pages over time and keep other changes in the record. Discovery and a successful fetch can be observed separately from indexing or traffic. This makes the result useful even when search takes time to respond, because the team can see exactly which connections were added.
 
@@ -6078,7 +6078,7 @@ Write down who controls the old hostname and how its redirects will be served af
 
 A technically valid social card can still crop a face, stretch a square cover, or replace distinctive original artwork with a generic image. Compare the new card with the original. Decide whether the image should fill its frame or sit inside it with space around it, then inspect the result at the size a person will see. The [social share card guide](https://christopherabraham.com/guides/social-share-cards/) covers the metadata and preview side.
 
-When a source file is small, record that fact instead of treating an enlarged copy as a new high resolution original. Keep the source and the transformed output separately. That makes a later correction possible without downloading an already compressed derivative and processing it again.
+When a source file is small, record that fact instead of treating an enlarged copy as a new high-resolution original. Keep the source and the transformed output separately. That makes a later correction possible without downloading an already compressed derivative and processing it again.
 
 ## Test the dependency you intend to remove
 
@@ -6123,7 +6123,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [SEO guides](https://christopherabraham.com/guides/): Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
 - [Case studies](https://christopherabraham.com/case-studies/): Anonymized SEO case studies: hidden product content, consent tools blocking Google, React apps, migrations, programmatic indexing, schema, and local listings.
 - [About Christopher Abraham](https://christopherabraham.com/about/): Christopher Abraham is an SEO consultant in Arlington, VA, working on AI search, rendering forensics, and modern stacks, with SEO experience dating to 1998.
-- [Hire me](https://christopherabraham.com/hire-me/): How an SEO engagement runs: a scoped, paid audit first, then hourly or fixed price work through Upwork or direct, with every finding and decision in writing.
+- [Hire me](https://christopherabraham.com/hire-me/): How an SEO engagement runs: a scoped, paid audit first, then hourly or fixed-price work through Upwork or direct, with every finding and decision in writing.
 - [Frequently asked questions](https://christopherabraham.com/faq/): Practical answers about an SEO engagement: what access is needed, how long audits take, time zones, Upwork contracts, invoicing, reports, and confidentiality.
 - [Contact Christopher Abraham](https://christopherabraham.com/contact/): Email Christopher Abraham at cja@well.com or call or text him with your site address and the problem. Hire him on Upwork or directly for a scoped audit.
 - [Privacy](https://christopherabraham.com/privacy/): How christopherabraham.com uses Google Analytics with consent mode, why visitors in Europe and the UK get no analytics cookies, and what happens to your email.
@@ -6136,7 +6136,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [JavaScript and headless SEO](https://christopherabraham.com/services/javascript-seo/): Make JavaScript and headless websites visible to search and AI crawlers: rendering comparisons, crawlable links, prerendering, and code level review.
 - [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/): Speed up a website for real visitors: Core Web Vitals diagnosis, image and script cleanup, page caching, and Cloudflare rules that still welcome crawlers.
 - [Search Console, Bing Webmaster Tools, and GA4](https://christopherabraham.com/services/search-console/): Set up and clean up Google Search Console, Bing Webmaster Tools, and GA4 so every report is verified, accurate, owned by you, and useful for decisions.
-- [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/): Plan and verify a website migration: full URL inventories, one to one 301 redirect maps, launch day checks, and recovery when a move has already lost traffic.
+- [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/): Plan and verify a website migration: full URL inventories, one-to-one 301 redirect maps, launch day checks, and recovery when a move has already lost traffic.
 - [Internal linking strategy: stitch your website together](https://christopherabraham.com/services/internal-linking/): Internal linking strategy for an established website: contextual text links, descriptive anchors, orphan page recovery, useful hubs, and a measured rollout.
 - [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/): Independent SEO checks before and after a website release: rendering, indexing signals, redirects, media, and evidence your developer can act on.
 
@@ -6152,7 +6152,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Podcast website SEO](https://christopherabraham.com/services/podcast-website/): I turn a podcast feed into a fast website on your own domain, with a page per episode, transcripts, schema, share cards, and new episodes added each morning.
 - [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Ecommerce SEO for Shopify, WooCommerce, and Magento: product and category templates, faceted navigation, duplicate URLs, product schema, and AI answers.
 - [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/): Align your website, location pages, and Google Business Profiles, with hard profile cases like suspensions handled as scoped, paid written diagnostics.
-- [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): A monthly SEO retainer with a senior consultant: monitoring, hands on fixes, developer QA, AI search checks, and a plain English report every month.
+- [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): A monthly SEO retainer with a senior consultant: monitoring, hands on fixes, developer QA, AI search checks, and a plain-English report every month.
 
 ## Guides
 - [When to keep your brand name in your page titles, and when to let it go](https://christopherabraham.com/guides/brand-name-in-titles/): Where a brand name belongs in a title tag, how to write it into the sentence instead of a pipe suffix, and how to test the change after a site migration.
@@ -6171,7 +6171,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Launch a site on a parked domain with Cloudflare and GitHub Pages](https://christopherabraham.com/guides/parked-domain-launch/): Step by step: take a domain off a parking page, move DNS to Cloudflare, point it at GitHub Pages, get HTTPS, and avoid the caching traps on launch day.
 - [How to lock down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/): Four DNS records stop spammers from forging mail from a domain you never send from: a null MX, an SPF that allows nothing, strict DMARC, and an empty DKIM key.
 - [What happens to your old domains when they lapse](https://christopherabraham.com/guides/lapsed-domains/): When an old company or project domain expires, drop catchers buy it for its links and reputation. What they do with it, the harm, and how to protect yourself.
-- [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/): What llms.txt is, who reads it, and how to write one: the format, the full text companion file, Markdown page copies, robots.txt rules, and common mistakes.
+- [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/): What llms.txt is, who reads it, and how to write one: the format, the full-text companion file, Markdown page copies, robots.txt rules, and common mistakes.
 - [Social share cards: Open Graph tags and images that fit](https://christopherabraham.com/guides/social-share-cards/): How Open Graph and X card tags control the preview when a link is shared, why square images get cropped, the 1200 by 630 standard, and refreshing old previews.
 - [Meta keywords in 2026: ignored, mostly harmless, used honestly](https://christopherabraham.com/guides/meta-keywords/): Google ignores the meta keywords tag and Bing has called stuffing it a spam signal. Why some sites still use it, and how to write one that does no harm at all.
 - [Website accessibility without overlays](https://christopherabraham.com/guides/accessible-websites/): Build accessibility into a small business website instead of bolting on an overlay: contrast, headings, links, images, keyboard use, forms, and testing it.
@@ -6188,25 +6188,25 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Where to get reliable SEO and AI search news in 2026](https://christopherabraham.com/guides/seo-news-sources/): The SEO and AI search news sources I read, from Google's own records to daily trade press, who owns them, and how to tell a real finding from a vendor pitch.
 - [WordPress SEO 101: the settings and habits that matter most](https://christopherabraham.com/guides/wordpress-seo-101/): A beginner's WordPress SEO primer: the settings to change on day one, the plugins I recommend, alt text, descriptive links, speed, and accessibility.
 - [Cloudflare for WordPress: setup, plans, and what to budget](https://christopherabraham.com/guides/cloudflare-wordpress/): How to put a WordPress site behind Cloudflare: moving DNS, what the free plan already does, APO and Polish on paid plans, HTTPS settings, and a monthly budget.
-- [Will Google penalize AI-written content? What Google actually says](https://christopherabraham.com/guides/ai-content-seo/): Does Google penalize AI written copy? What Google's guidance says in 2026, what the data shows, the new fact checking rule, fake authors, and safe AI use.
+- [Will Google penalize AI-written content? What Google actually says](https://christopherabraham.com/guides/ai-content-seo/): Does Google penalize AI-written copy? What Google's guidance says in 2026, what the data shows, the new fact checking rule, fake authors, and safe AI use.
 - [Is a Screaming Frog licence worth $279 a year? Mine was](https://christopherabraham.com/guides/screaming-frog-licence/): Why I finally paid for the Screaming Frog SEO Spider, what the free 500 URL version leaves out, and everything a $279 a year licence can do in 2026.
 - [Why your SEO should work in your Git repository, with AI at their side](https://christopherabraham.com/guides/seo-in-your-repository/): An SEO using OpenAI Codex, Claude Code, or GitHub Copilot can trace search problems to the files that cause them. What repository access and review should mean.
-- [How to find near duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Find near duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.
+- [How to find near-duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Find near-duplicate pages and heading problems across an entire site with Screaming Frog, then decide which pages to rewrite, merge, redirect, or canonicalize.
 - [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/): XPath and regex recipes for Screaming Frog custom extraction to audit a site: heading counts, canonicals, robots tags, schema types, alt text, and tag IDs.
-- [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/): Proof that an SEO fix shipped: compare before and after crawls in Screaming Frog, check change detection, then confirm in Search Console with validation.
+- [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/): Proof that an SEO fix shipped: compare before-and-after crawls in Screaming Frog, check change detection, then confirm in Search Console with validation.
 - [How to measure your share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/): Track how often ChatGPT, Claude, and Google's AI name you beside competitors, in what tone, and from which sources, with a fixed question set and a monthly run.
 - [Topic clusters for AI search, without your pages competing with each other](https://christopherabraham.com/guides/topic-clusters/): Plan a hub page and one page per buyer question so AI fan out searches find a match for every subtopic, and keep your pages from competing for one query.
 - [How to load Google Analytics 4 without hurting PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/): On a fast static site, gtag.js caused most of the blocking time. Loading it after the first scroll or tap took mobile Lighthouse to 100. How, and the cost.
-- [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
+- [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain-English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 - [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/): Build useful paths through your existing pages with contextual links, clear anchor text, working section targets, and an internal linking worksheet.
 - [Moving a website? Check its images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/): Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
 - [Film review site: a consent tool that emptied every article for Google](https://christopherabraham.com/case-studies/consent-banner/): A bilingual film review site was indexed by Bing but nearly invisible in Google. A consent platform blocked the script that displayed every article to bots.
-- [Event discovery app: 2,000 pages with no way in](https://christopherabraham.com/case-studies/event-app-links/): An event discovery app built with Create React App had 2,000 event pages Google never found. A 13 page spec, ranked P0 to P3, gave the developer exact fixes.
+- [Event discovery app: 2,000 pages with no way in](https://christopherabraham.com/case-studies/event-app-links/): An event discovery app built with Create React App had 2,000 event pages Google never found. A 13-page spec, ranked P0 to P3, gave the developer exact fixes.
 - [Junk removal company on a headless stack: SEO through the repository](https://christopherabraham.com/case-studies/headless-local/): A junk removal company on Sanity, Vercel, and GitHub had thin rendered HTML and duplicate metadata. Priorities set, a pull request merged, prerendering checked.
-- [Medical clinic: WordPress to Next.js without losing the trail](https://christopherabraham.com/case-studies/clinic-migration/): SEO oversight for a clinic moving from WordPress to Next.js on Netlify: a decision for every legacy URL, an AI assisted code review, and a careful disavow.
+- [Medical clinic: WordPress to Next.js without losing the trail](https://christopherabraham.com/case-studies/clinic-migration/): SEO oversight for a clinic moving from WordPress to Next.js on Netlify: a decision for every legacy URL, an AI-assisted code review, and a careful disavow.
 - [Fly fishing shop: cleaning up after Squarespace to Shopify](https://christopherabraham.com/case-studies/shopify-cleanup/): A family owned fly fishing shop moved from Squarespace to Shopify and left 3,400 broken URLs and duplicate product paths. An audit and safe theme schema work.
 - [Trading card price site: managing 20,000 pages in Google's index](https://christopherabraham.com/case-studies/card-price-index/): A trading card price site of more than 20,000 programmatic pages indexed well, then lost large sections of the index. How crawling is managed at that scale.
 - [Health-testing store: recovering after the SEO plugin went dark](https://christopherabraham.com/case-studies/plugin-outage/): A WooCommerce store selling health tests lost indexing, traffic, and AI referrals when its SEO plugin was turned off. Diagnosis, fixes, and proof of recovery.
@@ -6352,7 +6352,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 - AI catnip, [Guides](https://christopherabraham.com/guides/), **[AI catnip](https://christopherabraham.com/guides/ai-catnip/)**
 - AI coding assistants, [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), **[SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)**, [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Colophon](https://christopherabraham.com/about/colophon/)
-- AI crawlers, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Site Speed](https://christopherabraham.com/services/site-speed/), [AI Search](https://christopherabraham.com/services/ai-search/), [Static Websites](https://christopherabraham.com/services/static-sites/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/), [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/). *See also* [robots.txt](https://christopherabraham.com/site-index/#ix-robotstxt)
+- AI crawlers, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Site Speed](https://christopherabraham.com/services/site-speed/), [AI Search](https://christopherabraham.com/services/ai-search/), [Static Websites](https://christopherabraham.com/services/static-sites/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/). *See also* [robots.txt](https://christopherabraham.com/site-index/#ix-robotstxt)
 - AI detectors, [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/)
 - AI drafts, verifying, [Fact-Checked Articles](https://christopherabraham.com/services/fact-checked-articles/), [About Page for AI](https://christopherabraham.com/guides/about-page-ai/)
 - AI Overviews. *See* [Google AI Overviews](https://christopherabraham.com/site-index/#ix-google-ai-overviews)
@@ -6371,11 +6371,11 @@ People are listed surname first. Cross-references point to related headings. For
 - AI tools inventing data, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - AI visibility audits, [Recruiting Answers](https://christopherabraham.com/case-studies/recruiting-answers/), **[AI Visibility Baseline](https://christopherabraham.com/case-studies/ai-visibility-baseline/)**
 - AI writing, [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), **[Fact-Checked Articles](https://christopherabraham.com/services/fact-checked-articles/)**, [Editorial Policy](https://christopherabraham.com/about/editorial-policy/)
-- AI-built websites, **[SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/)**
-  - client-side rendering, [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
-  - owning the code, [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
-  - per-page titles, [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
-  - real links, [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
+- AI-built websites, **[SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)**
+  - client-side rendering, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
+  - owning the code, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
+  - per-page titles, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
+  - real links, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 
 - AIO and LLMO, [AI Search](https://christopherabraham.com/services/ai-search/)
 - AI-written content, Google on, [Fact-Checked Articles](https://christopherabraham.com/services/fact-checked-articles/), **[AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/)**
@@ -6440,7 +6440,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Bitbucket, [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
 - Biznology, [About](https://christopherabraham.com/about/)
 - blogger outreach, [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [About](https://christopherabraham.com/about/)
-- Bolt, [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
+- Bolt, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - BOTI award, [About](https://christopherabraham.com/about/)
 - Brainstorms, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - brand name in titles, **[Brand name in titles](https://christopherabraham.com/guides/brand-name-in-titles/)**. *See also* [titles and meta descriptions](https://christopherabraham.com/site-index/#ix-titles-and-meta-descriptions)
@@ -6463,7 +6463,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Caffeinated Magazine, The, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Calendly, [Contact](https://christopherabraham.com/contact/)
 - Camber-Roth, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- canonical tags, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Migrations](https://christopherabraham.com/services/migrations/), [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/), [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/), [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/)
+- canonical tags, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Migrations](https://christopherabraham.com/services/migrations/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/), [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/), [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/)
   - Google overruling, [Indexing](https://christopherabraham.com/services/indexing/)
   - pointing every section home, [Event App Links](https://christopherabraham.com/case-studies/event-app-links/)
 
@@ -6493,7 +6493,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Claude Code, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Colophon](https://christopherabraham.com/about/colophon/). *See also* [AI coding assistants](https://christopherabraham.com/site-index/#ix-ai-coding-assistants)
 - ClaudeBot, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/). *See also* [AI crawlers](https://christopherabraham.com/site-index/#ix-ai-crawlers)
 - Claude-SearchBot, [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
-- client-side rendering, [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
+- client-side rendering, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - clinic migration (anonymized client), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
 - Close Up, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Cloudflare, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Site Speed](https://christopherabraham.com/services/site-speed/)**, [Migrations](https://christopherabraham.com/services/migrations/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/), [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/), [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), **[Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/)**, [Colophon](https://christopherabraham.com/about/colophon/). *See also* [DNS](https://christopherabraham.com/site-index/#ix-dns)
@@ -6658,12 +6658,12 @@ People are listed surname first. Cross-references point to related headings. For
 - GEO (generative engine optimization), [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [AI Search](https://christopherabraham.com/services/ai-search/). *See also* [AI search](https://christopherabraham.com/site-index/#ix-ai-search)
 - George Washington University, The, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Georgetown University, [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- Git repositories, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/), **[SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)**
+- Git repositories, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/), **[SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)**
   - history of Git, [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
   - how Chris works in one, [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
   - questions for an SEO, [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
 
-- GitHub, [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/), [Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)
+- GitHub, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/), [Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)
   - README as an AI source, [AI Visibility Baseline](https://christopherabraham.com/case-studies/ai-visibility-baseline/)
 
 - GitHub Actions, [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/), [Skills and Proof](https://christopherabraham.com/about/skills/)
@@ -6718,7 +6718,7 @@ People are listed surname first. Cross-references point to related headings. For
   - recovery timelines, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
 
 - Google Workspace, [Skills and Proof](https://christopherabraham.com/about/skills/)
-- Googlebot, [Home](https://christopherabraham.com/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Site Speed](https://christopherabraham.com/services/site-speed/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/), [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/), [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/), [Consent Banner](https://christopherabraham.com/case-studies/consent-banner/)
+- Googlebot, [Home](https://christopherabraham.com/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Site Speed](https://christopherabraham.com/services/site-speed/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/), [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/), [Consent Banner](https://christopherabraham.com/case-studies/consent-banner/)
   - does not scroll, [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/)
   - never clicks Accept, [Consent Banner](https://christopherabraham.com/case-studies/consent-banner/)
 
@@ -6861,7 +6861,7 @@ People are listed surname first. Cross-references point to related headings. For
 - local pack grid tracking, [Local SEO](https://christopherabraham.com/services/local-seo/)
 - local SEO, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/). *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
 - location pages, [Services](https://christopherabraham.com/services/), [Local SEO](https://christopherabraham.com/services/local-seo/), [Closet Locations](https://christopherabraham.com/case-studies/closet-locations/)
-- Lovable, [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
+- Lovable, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - Lynx, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/), **[The Lynx Test](https://christopherabraham.com/guides/lynx-test/)**, [Colophon](https://christopherabraham.com/about/colophon/)
   - alternatives, [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
   - dump and listonly commands, [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
@@ -6936,7 +6936,7 @@ People are listed surname first. Cross-references point to related headings. For
 - NAP (name, address, phone), [Local SEO](https://christopherabraham.com/services/local-seo/)
 - Narrator, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/)
 - Naval Lodge No. 4, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- near duplicate pages, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Indexing](https://christopherabraham.com/services/indexing/), **[Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)**, [Skills and Proof](https://christopherabraham.com/about/skills/)
+- near-duplicate pages, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Indexing](https://christopherabraham.com/services/indexing/), **[Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)**, [Skills and Proof](https://christopherabraham.com/about/skills/)
   - differentiate, merge, or canonicalize, [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
   - sources of, [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
 
@@ -7053,7 +7053,7 @@ People are listed surname first. Cross-references point to related headings. For
 ## R
 - Rank Math, [Services](https://christopherabraham.com/services/), [Schema](https://christopherabraham.com/services/schema/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
 - Ray, Lily, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
-- React, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/), **[Event App Links](https://christopherabraham.com/case-studies/event-app-links/)**
+- React, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/), **[Event App Links](https://christopherabraham.com/case-studies/event-app-links/)**
 - Reddit, **[Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/)**
   - as customer research, [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/)
   - content policy, Rule 2, [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/)
@@ -7116,7 +7116,7 @@ People are listed surname first. Cross-references point to related headings. For
   - licence price, [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
   - link metrics integrations, [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
   - MCP server (version 24.0), [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
-  - near duplicate detection, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/), [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
+  - near-duplicate detection, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/), [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
   - paid features, [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
   - scheduling and command line, [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
 
@@ -7141,7 +7141,7 @@ People are listed surname first. Cross-references point to related headings. For
 - SEOFOMO, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - separate tracks for separate problems, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Migrations](https://christopherabraham.com/services/migrations/), [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/), [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/), [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), [Skills and Proof](https://christopherabraham.com/about/skills/)
 - serialized novel (Chris’), **[Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)**
-- server-side rendering, [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
+- server-side rendering, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - service-area pages, [Local SEO](https://christopherabraham.com/services/local-seo/)
 - Shadow Conventions, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - share cards (Open Graph images), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), **[Social Share Cards](https://christopherabraham.com/guides/social-share-cards/)**, [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/), [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
@@ -7161,7 +7161,7 @@ People are listed surname first. Cross-references point to related headings. For
   - collection paths, [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)
   - duplicate product markup, [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)
 
-- single page applications, [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/), [Glossary](https://christopherabraham.com/guides/glossary/). *See also* [JavaScript SEO](https://christopherabraham.com/site-index/#ix-javascript-seo)
+- single page applications, [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/), [Glossary](https://christopherabraham.com/guides/glossary/). *See also* [JavaScript SEO](https://christopherabraham.com/site-index/#ix-javascript-seo)
 - Site Kit by Google, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
 - site migrations, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), **[Migrations](https://christopherabraham.com/services/migrations/)**, [Static Websites](https://christopherabraham.com/services/static-sites/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/). *See also* [301 redirects](https://christopherabraham.com/site-index/#ix-301-redirects)
   - four outcomes per URL, [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/)
@@ -7178,7 +7178,7 @@ People are listed surname first. Cross-references point to related headings. For
 - snippet eligibility, [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
 - Socialmedia.biz, [About](https://christopherabraham.com/about/)
 - sock puppets, [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/)
-- soft 404s, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Indexing](https://christopherabraham.com/services/indexing/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)
+- soft 404s, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Indexing](https://christopherabraham.com/services/indexing/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)
 - Solis, Aleyda, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - source vetting, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - South by Southwest, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -7226,7 +7226,7 @@ People are listed surname first. Cross-references point to related headings. For
 ## T
 - TalkBack, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/)
 - Tanaka, Hiroaki, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- TanStack Start, [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
+- TanStack Start, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - Task Force Delta, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - technical SEO, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/)**, [SEO Audit](https://christopherabraham.com/services/seo-audit/)
 - technical SEO audits, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[SEO Audit](https://christopherabraham.com/services/seo-audit/)**, [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [Guides](https://christopherabraham.com/guides/), **[SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/)**. *See also* [verifying fixes](https://christopherabraham.com/site-index/#ix-verifying-fixes)
@@ -7294,7 +7294,7 @@ People are listed surname first. Cross-references point to related headings. For
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
 ## V
-- v0, [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
+- v0, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - variable isolation. *See* [separate tracks for separate problems](https://christopherabraham.com/site-index/#ix-separate-tracks-for-separate-problems)
 - Vercel, [Services](https://christopherabraham.com/services/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Migrations](https://christopherabraham.com/services/migrations/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)
 - Verdana, [Colophon](https://christopherabraham.com/about/colophon/)
@@ -7308,11 +7308,11 @@ People are listed surname first. Cross-references point to related headings. For
 
 - version control, [Brand name in titles](https://christopherabraham.com/guides/brand-name-in-titles/)
 - vibe coding, [Glossary](https://christopherabraham.com/guides/glossary/)
-- View Source test, [The Lynx Test](https://christopherabraham.com/guides/lynx-test/), [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
+- View Source test, [The Lynx Test](https://christopherabraham.com/guides/lynx-test/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - viewport tag, [Meta Keywords](https://christopherabraham.com/guides/meta-keywords/)
 - Virtual Community, The, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - virtual companies, [About](https://christopherabraham.com/about/)
-- Vite, [SEO for AI Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
+- Vite, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - voice rules, [Fact-Checked Articles](https://christopherabraham.com/services/fact-checked-articles/)
 - VoiceOver, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
 - Vue, [Services](https://christopherabraham.com/services/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/)

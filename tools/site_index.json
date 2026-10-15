@@ -4337,7 +4337,7 @@
    "see": [],
    "main": []
   },
-  "near duplicate pages": {
+  "near-duplicate pages": {
    "kind": "topic",
    "pages": [
     "services/sitewide-technical-seo",
@@ -5589,11 +5589,6 @@
      "guides/social-share-cards",
      "guides/custom-extraction"
     ],
-    "near duplicate detection": [
-     "services/sitewide-technical-seo",
-     "guides/screaming-frog-licence",
-     "guides/near-duplicates-and-h1s"
-    ],
     "JavaScript rendering mode": [
      "services/seo-audit",
      "services/javascript-seo",
@@ -5628,6 +5623,11 @@
     ],
     "database storage mode": [
      "guides/prove-seo-fixes"
+    ],
+    "near-duplicate detection": [
+     "services/sitewide-technical-seo",
+     "guides/screaming-frog-licence",
+     "guides/near-duplicates-and-h1s"
     ]
    },
    "see": [

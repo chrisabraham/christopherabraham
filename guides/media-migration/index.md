@@ -42,7 +42,7 @@ Write down who controls the old hostname and how its redirects will be served af
 
 A technically valid social card can still crop a face, stretch a square cover, or replace distinctive original artwork with a generic image. Compare the new card with the original. Decide whether the image should fill its frame or sit inside it with space around it, then inspect the result at the size a person will see. The [social share card guide](https://christopherabraham.com/guides/social-share-cards/) covers the metadata and preview side.
 
-When a source file is small, record that fact instead of treating an enlarged copy as a new high resolution original. Keep the source and the transformed output separately. That makes a later correction possible without downloading an already compressed derivative and processing it again.
+When a source file is small, record that fact instead of treating an enlarged copy as a new high-resolution original. Keep the source and the transformed output separately. That makes a later correction possible without downloading an already compressed derivative and processing it again.
 
 ## Test the dependency you intend to remove
 

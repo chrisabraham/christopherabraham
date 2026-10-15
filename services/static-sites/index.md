@@ -8,7 +8,7 @@ A static website is a folder of finished HTML files. Nothing runs when a visitor
 
 ## Proof you're reading
 
-This site is one. It's hand written HTML, a small Python generator, GitHub Pages, and Cloudflare, described on the [colophon](https://christopherabraham.com/about/colophon/). The build refuses to publish a page whose title or description is the wrong length, repeats another page, or borrows phrasing from elsewhere. Those rules live in code, so they hold on the hundredth page the same as the first.
+This site is one. It's handwritten HTML, a small Python generator, GitHub Pages, and Cloudflare, described on the [colophon](https://christopherabraham.com/about/colophon/). The build refuses to publish a page whose title or description is the wrong length, repeats another page, or borrows phrasing from elsewhere. Those rules live in code, so they hold on the hundredth page the same as the first.
 
 ## What every site gets
 - **Titles, descriptions, and headings** checked on every build, with one H1 per page and no duplicates.

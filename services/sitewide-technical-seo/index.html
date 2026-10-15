@@ -883,7 +883,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li><strong>Sitemaps compared with the crawl:</strong> URLs listed in the sitemap that the crawl can't reach, and reachable, indexable URLs the sitemap leaves out.</li>
   <li><strong>Titles and descriptions,</strong> including suffixes a theme appends without asking and wording that changed during a migration.</li>
   <li><strong>Headings:</strong> missing H1s, a logo wrapped in an H1 on every page, and H1s split across styled elements so the words run together.</li>
-  <li><strong>Duplicate and near duplicate content,</strong> with a decision for each cluster: rewrite to differentiate, merge and redirect, or canonicalize.</li>
+  <li><strong>Duplicate and near-duplicate content,</strong> with a decision for each cluster: rewrite to differentiate, merge and redirect, or canonicalize.</li>
   <li><strong>Redirects and links:</strong> chains, loops, internal links still aimed at old URLs, and orphaned pages.</li>
   <li><strong>Images and alt text:</strong> oversized files and missing or meaningless alternatives.</li>
   <li><strong>Structured data coverage:</strong> which templates emit JSON-LD, which don't, and whether it matches the visible page.</li>
@@ -896,7 +896,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
 <h2>How fixes reach the site</h2>
 <p>There are three routes, and I'll use whichever your setup allows:</p>
 <ul>
-  <li><strong>In the CMS.</strong> I export the affected fields before touching anything, make the changes, and export again, so there's a clean before and after record.</li>
+  <li><strong>In the CMS.</strong> I export the affected fields before touching anything, make the changes, and export again, so there's a clean before-and-after record.</li>
   <li><strong>In the repository.</strong> I work on a branch, open a pull request, and check the preview build before anyone merges it.</li>
   <li><strong>Through your developer.</strong> I write the ticket with the file, the cause, the fix, and a test that proves it's done, then confirm what ships.</li>
 </ul>
@@ -916,10 +916,10 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
 </ul>
 
 <h2>What the industry calls this work</h2>
-<p>If you're searching for someone to do this, the labels you'll see are technical SEO, technical SEO implementation, SEO engineering, and SEO QA. On sites built in React or Next.js it goes by JavaScript SEO, Next.js SEO, or headless SEO, and covers rendering (SSR, SSG, CSR, and hydration). The underlying checks are crawlability, indexability, canonicalization, duplicate and near duplicate content, heading hierarchy, template level SEO, internal linking, structured data and JSON-LD for entity SEO, Core Web Vitals (LCP, INP, and CLS), and site migrations with redirect mapping. Newer labels for the AI side are GEO and AEO, which includes making sure AI crawlers such as GPTBot, ClaudeBot, and PerplexityBot can read your pages. I do it in Git, through pull requests and deploy previews. I don't do paid search; this is all organic.</p>
+<p>If you're searching for someone to do this, the labels you'll see are technical SEO, technical SEO implementation, SEO engineering, and SEO QA. On sites built in React or Next.js it goes by JavaScript SEO, Next.js SEO, or headless SEO, and covers rendering (SSR, SSG, CSR, and hydration). The underlying checks are crawlability, indexability, canonicalization, duplicate and near-duplicate content, heading hierarchy, template level SEO, internal linking, structured data and JSON-LD for entity SEO, Core Web Vitals (LCP, INP, and CLS), and site migrations with redirect mapping. Newer labels for the AI side are GEO and AEO, which includes making sure AI crawlers such as GPTBot, ClaudeBot, and PerplexityBot can read your pages. I do it in Git, through pull requests and deploy previews. I don't do paid search; this is all organic.</p>
 
 <h2>Tools</h2>
-<p>Screaming Frog SEO Spider with JavaScript rendering, near duplicate detection, and custom extraction; Playwright for scripted headless Chrome; OpenAI Codex and Claude Code for reading and testing codebases; Google Search Console; and Bing Webmaster Tools.</p>
+<p>Screaming Frog SEO Spider with JavaScript rendering, near-duplicate detection, and custom extraction; Playwright for scripted headless Chrome; OpenAI Codex and Claude Code for reading and testing codebases; Google Search Console; and Bing Webmaster Tools.</p>
 
 <h2>Who it suits</h2>
 <p>Sites with hundreds or thousands of URLs built from a handful of templates: ecommerce catalogs, publishers, directories, and businesses on Next.js, React, or a headless CMS whose team will grant read access to the repository. It also suits WordPress and Shopify sites where a theme or plugin is quietly repeating the same mistake on every page.</p>

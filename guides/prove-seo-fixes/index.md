@@ -1,4 +1,4 @@
-> Proof that an SEO fix shipped: compare before and after crawls in Screaming Frog, check change detection, then confirm in Search Console with validation.
+> Proof that an SEO fix shipped: compare before-and-after crawls in Screaming Frog, check change detection, then confirm in Search Console with validation.
 >
 > Source: https://christopherabraham.com/guides/prove-seo-fixes/ · Updated 2026-10-13 · By Christopher Abraham
 
@@ -53,7 +53,7 @@ A clean crawl proves what your site serves. Search Console shows what Google has
 
 A verification note after each release can be short: the two crawl dates, the counts in Removed and Added for each targeted issue, a list of any URLs that didn't change and why, and the Search Console validation status with its date. It turns "fixed" into a record anyone can check, and it catches the missed template before Google does.
 
-Verification is built into my [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) work and every [site migration](https://christopherabraham.com/services/migrations/). The extractors I use for before and after comparisons are in [Screaming Frog custom extraction recipes](https://christopherabraham.com/guides/custom-extraction/).
+Verification is built into my [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) work and every [site migration](https://christopherabraham.com/services/migrations/). The extractors I use for before-and-after comparisons are in [Screaming Frog custom extraction recipes](https://christopherabraham.com/guides/custom-extraction/).
 
 ## Let me help you with this
 

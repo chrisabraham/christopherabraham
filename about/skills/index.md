@@ -9,8 +9,8 @@
 ## Crawling and auditing whole sites
 - Full site crawls in Screaming Frog with JavaScript rendering, run in raw and rendered modes and compared, so I can see which content exists only after scripts run.
 - Custom extraction with XPath and regex to audit every URL for heading counts, canonicals, robots tags, schema types, and tracking IDs. My [extraction recipes](https://christopherabraham.com/guides/custom-extraction/) are published.
-- Near duplicate detection and multiple H1 audits across entire sites, with a decision per cluster. See [how I find both](https://christopherabraham.com/guides/near-duplicates-and-h1s/).
-- Before and after crawl comparisons to prove a fix landed on every URL, described in [proving an SEO fix worked](https://christopherabraham.com/guides/prove-seo-fixes/).
+- Near-duplicate detection and multiple H1 audits across entire sites, with a decision per cluster. See [how I find both](https://christopherabraham.com/guides/near-duplicates-and-h1s/).
+- Before-and-after crawl comparisons to prove a fix landed on every URL, described in [proving an SEO fix worked](https://christopherabraham.com/guides/prove-seo-fixes/).
 - Crawl and index management for a programmatic site of more than 20,000 pages: segmented sitemaps, robots rules for parameter URLs, and baselines per segment. [Programmatic price index](https://christopherabraham.com/case-studies/card-price-index/).
 
 ## JavaScript rendering forensics
@@ -25,7 +25,7 @@
 - Read whole repositories with OpenAI Codex and Claude Code to trace a crawl finding to the component or import script that causes it, checking every answer against the live site.
 - Built SEO checks into the build of sites I run, so a page with a bad title, a duplicate description, a broken internal link, or borrowed phrasing fails before it publishes. That's how this site is built.
 - Automated IndexNow submissions with GitHub Actions, gated on the new sitemap actually being live.
-- Built a 12,000 line command line assistant in Python with 140 end to end tests, directing Claude Code the way a technical lead directs a team.
+- Built a 12,000 line command line assistant in Python with 140 end-to-end tests, directing Claude Code the way a technical lead directs a team.
 
 ## Migrations, redirects, and recovery
 - Audited a Squarespace to Shopify move that left 3,400 broken URLs and duplicate product paths, and did the theme schema work. [Shopify cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/).
@@ -33,10 +33,10 @@
 - Diagnosed a WooCommerce store's loss of indexing, traffic, and AI referrals after its SEO plugin was switched off, and checked the recovery. [Plugin outage](https://christopherabraham.com/case-studies/plugin-outage/).
 
 ## Schema, entities, and AI search
-- Separated a multi state brand from its first showroom in schema and on the page, so search engines stopped blurring the two. [Closet locations](https://christopherabraham.com/case-studies/closet-locations/).
+- Separated a multi-state brand from its first showroom in schema and on the page, so search engines stopped blurring the two. [Closet locations](https://christopherabraham.com/case-studies/closet-locations/).
 - Fixed a gym whose brand name Google read as an ordinary word, which lifted calls and visits. [Training gym](https://christopherabraham.com/case-studies/training-gym/).
 - Audited how ChatGPT and Perplexity described an AI company's jobs and pay, and planned the fix. [Recruiting answers](https://christopherabraham.com/case-studies/recruiting-answers/).
-- Built JSON-LD graphs, llms.txt files, Markdown twins of every page, and full text feeds for AI crawlers, on this site and others I run.
+- Built JSON-LD graphs, llms.txt files, Markdown twins of every page, and full-text feeds for AI crawlers, on this site and others I run.
 
 ## Servers, DNS, and email
 - Got my first root access on a Sun SPARCstation running Solaris, the pizza box kind, as the image lab administrator at PNI, Picture Network International.
@@ -54,23 +54,23 @@
 - Got a suspended profile reinstated with a documented appeal. [Profile reinstated](https://christopherabraham.com/case-studies/profile-reinstated/).
 
 ## Data
-- Wrote Python pipelines that built an 88,900 contact master list, merged two 28,800 record exports at 94% email coverage, and caught an AI built tracker inventing its data.
+- Wrote Python pipelines that built an 88,900 contact master list, merged two 28,800 record exports at 94% email coverage, and caught an AI-built tracker inventing its data.
 
 ## Strengths that don't fit on a skills list
 
 These are habits, not tools, and they shape every engagement.
 - **I keep two problems apart.** When a traffic loss and a spam spike land in the same month, I run them as separate investigations until the evidence connects them, so nobody spends a quarter fixing the wrong thing. It's built into every [technical SEO audit](https://christopherabraham.com/services/seo-audit/).
-- **I catch AI tools inventing things.** I use AI every day and trust none of it unchecked, which is how I caught an AI built outreach tracker logging messages to contacts who didn't exist. My guide to [correcting what AI says about you](https://christopherabraham.com/guides/correct-ai-answers/) comes from the same habit.
+- **I catch AI tools inventing things.** I use AI every day and trust none of it unchecked, which is how I caught an AI-built outreach tracker logging messages to contacts who didn't exist. My guide to [correcting what AI says about you](https://christopherabraham.com/guides/correct-ai-answers/) comes from the same habit.
 - **I build a case like a brief.** I captained my high school speech and debate team, and my Google appeals still read that way: the strongest document first, nothing that exposes private information, and no date claimed without paper behind it. That's how a [suspended profile came back](https://christopherabraham.com/case-studies/profile-reinstated/).
-- **I vet sources for a living.** At Edelman my job included checking online influencers for a genuine, multi year track record before clients went near them. I bring the same suspicion to every crawl export, vendor dashboard, and confident AI answer.
-- **I write for the developer and the owner at once.** The same finding becomes a ranked ticket with acceptance criteria for engineering and a plain summary for the person paying, as in the [13 page spec for a React app](https://christopherabraham.com/case-studies/event-app-links/).
+- **I vet sources for a living.** At Edelman my job included checking online influencers for a genuine, multi-year track record before clients went near them. I bring the same suspicion to every crawl export, vendor dashboard, and confident AI answer.
+- **I write for the developer and the owner at once.** The same finding becomes a ranked ticket with acceptance criteria for engineering and a plain summary for the person paying, as in the [13-page spec for a React app](https://christopherabraham.com/case-studies/event-app-links/).
 - **I ship at speed without dropping the checks.** This site went from first commit to 75 pages and more than 50,000 words in a week, built with Claude Code under my direction, and every page passes automated checks for title and description length, duplicate wording, broken links, and voice before it publishes.
 - **I've made myself machine readable.** Two decades of publishing under one name, tied together with structured data so search engines and AI tools know the profiles belong to one person. The method is in [two names, one entity](https://christopherabraham.com/guides/two-names-one-entity/).
 - **I know how online communities behave from the inside.** I moderate a Reddit community of more than 16,000 runners and have for nine years, and Reddit threads turn up constantly in AI answers. The story is [off the clock](https://christopherabraham.com/about/off-the-clock/).
 
 ## Platforms
 
-WordPress with Yoast, Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal; Squarespace; Wix; Webflow; Next.js, React, and Create React App; Sanity; Vercel, Netlify, Cloudflare, and GitHub Pages; Jekyll and hand built Python generators; and Plone on the Zope application server, which I've run since the early 2000s.
+WordPress with Yoast, Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal; Squarespace; Wix; Webflow; Next.js, React, and Create React App; Sanity; Vercel, Netlify, Cloudflare, and GitHub Pages; Jekyll and hand-built Python generators; and Plone on the Zope application server, which I've run since the early 2000s.
 
 ## Tools
 

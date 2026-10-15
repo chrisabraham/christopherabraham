@@ -1,4 +1,4 @@
-> How christopherabraham.com is made: hand written HTML, a small Python generator with strict checks, GitHub Pages, Cloudflare, accessible colors, Lynx testing.
+> How christopherabraham.com is made: handwritten HTML, a small Python generator with strict checks, GitHub Pages, Cloudflare, accessible colors, Lynx testing.
 >
 > Source: https://christopherabraham.com/about/colophon/ · Updated 2026-10-15 · By Christopher Abraham
 

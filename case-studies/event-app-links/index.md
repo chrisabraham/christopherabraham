@@ -1,4 +1,4 @@
-> An event discovery app built with Create React App had 2,000 event pages Google never found. A 13 page spec, ranked P0 to P3, gave the developer exact fixes.
+> An event discovery app built with Create React App had 2,000 event pages Google never found. A 13-page spec, ranked P0 to P3, gave the developer exact fixes.
 >
 > Source: https://christopherabraham.com/case-studies/event-app-links/ · Updated 2026-10-06 · By Christopher Abraham
 

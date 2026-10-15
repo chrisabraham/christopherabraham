@@ -1,4 +1,4 @@
-> How an SEO engagement runs: a scoped, paid audit first, then hourly or fixed price work through Upwork or direct, with every finding and decision in writing.
+> How an SEO engagement runs: a scoped, paid audit first, then hourly or fixed-price work through Upwork or direct, with every finding and decision in writing.
 >
 > Source: https://christopherabraham.com/hire-me/ · Updated 2026-10-06 · By Christopher Abraham
 
