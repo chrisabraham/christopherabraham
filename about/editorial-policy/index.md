@@ -31,7 +31,7 @@ Case studies describe clients by industry and problem, never by name, and leave 
 Quotes from clients and colleagues are reproduced as written, with attribution. Where I've shortened a quote, an ellipsis marks the cut. Upwork figures, such as my Job Success Score and job counts, are copied from my profile with the date they were taken, and the profile itself is linked so anyone can check the current numbers.
 
 ## Independence
-- No affiliate links, sponsored posts, or paid placements, anywhere on the site.
+- No sponsored posts or paid placements, anywhere on the site. The one kind of affiliate link here is my Amazon Associates tag on books and gear, and every page that carries one says so at the bottom.
 - Tools and platforms are named because I use them or because clients run on them, not because anyone pays me to mention them.
 - The firms I'm affiliated with are named on the About page, so you can weigh any recommendation with that in mind.
 

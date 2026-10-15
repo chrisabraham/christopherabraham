@@ -107,6 +107,7 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 - [Colophon](https://christopherabraham.com/about/colophon/index.md): How christopherabraham.com is made: hand written HTML, a small Python generator with strict checks, GitHub Pages, Cloudflare, accessible colors, Lynx testing.
 - [Contact Christopher Abraham](https://christopherabraham.com/contact/index.md): Email Christopher Abraham at cja@well.com or call or text him with your site address and the problem. Hire him on Upwork or directly for a scoped audit.
 - [Site map](https://christopherabraham.com/sitemap/index.md): Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.
+- [Index](https://christopherabraham.com/site-index/index.md): A back of the book index to christopherabraham.com: every person, tool, platform, and SEO problem the pages cover, listed A to Z with links to each page.
 
 ## Optional
 

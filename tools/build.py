@@ -159,6 +159,7 @@ def site_map_body():
            '<a href="{root}llms.txt">llms.txt</a>.</p>',
            '<h2>Main pages</h2>', '<ul>']
     out += [li(by_path[x]) for x in ["", "services/", "guides/", "case-studies/", "about/", "hire-me/", "faq/", "contact/", "privacy/"]]
+    out.append('  <li><a href="{root}site-index/">Index</a>: every person, tool, platform, and topic on the site, A to Z, with links to the pages that cover each one.</li>')
     out.append('</ul>')
     for title, paths in SERVICE_GROUPS:
         out += [f'<h2>{title}</h2>', '<ul>'] + [li(by_path[x]) for x in paths] + ['</ul>']
@@ -181,6 +182,73 @@ pages.append(finish({
     "title": "Site map of christopherabraham.com, with page summaries",
     "description": "Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.",
     "body": site_map_body()}))
+
+
+# The site index: a back-of-the-book index of every page, written by hand in tools/site_index.json.
+# Each heading maps to {kind, pages, main, subs, see}; pages are source paths ("home", "guides/llms-txt"),
+# and "main" marks the pages devoted to the subject, shown in bold. "reviewed" lists every page already
+# indexed, so a page added later shows up below as not indexed yet until someone reads it and adds its entries.
+SITE_INDEX = json.load(open("tools/site_index.json", encoding="utf-8"))
+_src_page = {("home" if q["src"] == "index" else q["src"][:-6] if q["src"].endswith("/index") else q["src"]): q for q in pages if q["src"] != "(generated)"}
+_order = {k: i for i, k in enumerate(_src_page)}
+unindexed = [k for k in _src_page if k not in SITE_INDEX["reviewed"]]
+
+
+def site_index_body():
+    e = html.escape
+    sort_key = lambda s: re.sub(r"[^a-z0-9 ]", "", s.lower().replace("ʻ", ""))
+    slug = lambda s: "ix-" + re.sub(r"[^a-z0-9]+", "-", sort_key(s)).strip("-")
+    def locs(keys, main=()):
+        keys = sorted((k for k in keys if k in _src_page), key=_order.get)
+        out = []
+        for k in keys:
+            q = _src_page[k]
+            a = f'<a href="{{root}}{q["path"]}" title="{e(q["h1"])}">{e(q["name"])}</a>'
+            out.append(f"<strong>{a}</strong>" if k in main else a)
+        return ", ".join(out)
+    def see(targets, also):
+        if not targets:
+            return ""
+        links = "; ".join(f'<a href="#{slug(t)}">{e(t)}</a>' for t in sorted(targets, key=sort_key))
+        return (f". <em>See also</em> {links}" if also else f". <em>See</em> {links}")
+    entries = sorted(SITE_INDEX["entries"].items(), key=lambda kv: sort_key(kv[0]))
+    groups = {}
+    for head, v in entries:
+        first = sort_key(head)[:1]
+        groups.setdefault("0–9" if first.isdigit() else first.upper(), []).append((head, v))
+    letters = list(groups)
+    out = ['<h1>Index</h1>',
+           '<p class="lead">This is an index in the old sense, the kind at the back of a good book. I read every page on this site and '
+           f'listed the people, tools, platforms, problems, and ideas each one covers: {len(entries):,} headings across {len(_src_page)} pages. '
+           'Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.</p>',
+           '<p>People are listed surname first. Cross-references point to related headings. For definitions, the '
+           '<a href="{root}guides/glossary/">glossary</a> is the place to start; for a plain list of pages, the '
+           '<a href="{root}sitemap/">site map</a>.</p>',
+           '<nav class="index-letters" aria-label="Index letters"><p>'
+           + " ".join(f'<a href="#ix-letter-{x[0].lower()}">{x}</a>' for x in letters) + '</p></nav>']
+    for letter in letters:
+        out.append(f'<h2 id="ix-letter-{letter[0].lower()}">{letter}</h2>\n<ul class="site-index">')
+        for head, v in groups[letter]:
+            line = f'  <li id="{slug(head)}">{e(head)}'
+            main_locs = locs(v["pages"], v.get("main", ()))
+            if main_locs:
+                line += ", " + main_locs
+            line += see(v["see"], bool(main_locs or v["subs"]))
+            if v["subs"]:
+                line += "\n    <ul>" + "".join(
+                    f'\n      <li>{e(s)}, {locs(ks)}</li>'
+                    for s, ks in sorted(v["subs"].items(), key=lambda kv: sort_key(kv[0])) if locs(ks)) + "\n    </ul>"
+            out.append(line + "</li>")
+        out.append("</ul>")
+    return "\n".join(out)
+
+
+pages.append(finish({
+    "name": "Index", "src": "(generated)", "path": "site-index/", "tab": "site-index/", "kind": "page",
+    "keywords": "site index, SEO topics, SEO tools, people",
+    "title": "Index of every person, tool, and topic on this site",
+    "description": "A back of the book index to christopherabraham.com: every person, tool, platform, and SEO problem the pages cover, listed A to Z with links to each page.",
+    "body": site_index_body()}))
 by_path = {p["path"]: p for p in pages}
 guides = [p for p in pages if p["kind"] == "guide"]
 
@@ -245,6 +313,11 @@ dd { margin: .2rem 0 0 0; }
 .guide-contents li { margin-bottom: .35rem; }
 h2[id] { scroll-margin-top: 1rem; }
 .contact li { margin-bottom: .6rem; }
+.index-letters p { font-size: 1.05rem; word-spacing: .35em; }
+ul.site-index { list-style: none; padding: 0; }
+ul.site-index > li { margin-bottom: .35rem; padding-left: 1.5rem; text-indent: -1.5rem; }
+ul.site-index ul { list-style: none; padding-left: 1.5rem; margin: .15rem 0 .3rem; }
+ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
 .site-footer p { margin: 0 0 .4rem; }
 @media (max-width: 34rem) {
@@ -551,7 +624,7 @@ def render(p):
 </main>
 <footer class="site-footer">
   <p><a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="tel:{TEL}">{PHONE}</a> · <a href="{CALENDLY}">Book a call</a> · <a href="{UPWORK}">Hire me on Upwork</a> · <a href="{LINKEDIN}">LinkedIn</a></p>
-  <p>© {TODAY[:4]} Christopher Abraham, Arlington, Virginia · <a href="{r}faq/">FAQ</a> · <a href="{r}about/editorial-policy/">How I write</a> · <a href="{r}privacy/">Privacy</a> · <a href="{r}sitemap/">Site map</a> · <a href="{r}guides/glossary/">Glossary</a> · <a href="{r}about/colophon/">Colophon</a> · <a href="{r}llms.txt">llms.txt</a> · <a href="{r}rss.xml">RSS</a></p>
+  <p>© {TODAY[:4]} Christopher Abraham, Arlington, Virginia · <a href="{r}faq/">FAQ</a> · <a href="{r}about/editorial-policy/">How I write</a> · <a href="{r}privacy/">Privacy</a> · <a href="{r}sitemap/">Site map</a> · <a href="{r}site-index/">Index</a> · <a href="{r}guides/glossary/">Glossary</a> · <a href="{r}about/colophon/">Colophon</a> · <a href="{r}llms.txt">llms.txt</a> · <a href="{r}rss.xml">RSS</a></p>
 </footer>
 </div>
 </body>
@@ -802,7 +875,7 @@ open(".well-known/security.txt", "w", encoding="utf-8").write(
 
 sections = [(title, [by_path[x] for x in paths]) for title, paths in SERVICE_GROUPS] + [
     ("Guides", [p for p in pages if p["tab"] == "guides/"]),
-    ("About and working together", [p for p in pages if p["tab"] in ("", "case-studies/", "about/", "work-with-me/", "contact/", "sitemap/")])]
+    ("About and working together", [p for p in pages if p["tab"] in ("", "case-studies/", "about/", "work-with-me/", "contact/", "sitemap/", "site-index/")])]
 llms = f"""# Christopher Abraham, SEO consultant
 
 > {ORG["description"]} Based in Arlington, Virginia. Building websites since 1994 and doing SEO since 1998.
@@ -853,8 +926,8 @@ def _words(p):
     return t, re.findall(r"[a-z0-9']+", t.lower())
 _sh, _sent = {}, {}
 for p in pages:
-    if p["path"] == "sitemap/":
-        continue  # the site map lists every page's description by design
+    if p["path"] in ("sitemap/", "site-index/"):
+        continue  # the site map lists every page's description by design, and the index every page's name
     t, w = _words(p)
     _sh[p["path"]] = {" ".join(w[i:i + 6]) for i in range(len(w) - 5)}
     for sentence in re.split(r"(?<=[.!?])\s+", t):
@@ -896,14 +969,14 @@ for f in [f"src/{x}.html" for x in FILES] + _generated + ["404.html", "llms.txt"
 if os.path.isdir(SIBLING):
     _sib_sh, _sib_sent = {}, set()
     for root_dir, _, names in os.walk(SIBLING):
-        if "index.md" in names and "/.git" not in root_dir:
+        if "index.md" in names and "/.git" not in root_dir and not root_dir.rstrip("/").endswith("site-index"):
             t = open(os.path.join(root_dir, "index.md"), encoding="utf-8").read()
             t = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", t)
             w = re.findall(r"[a-z0-9']+", t.lower())
             _sib_sh[os.path.relpath(root_dir, SIBLING)] = {" ".join(w[i:i + 6]) for i in range(len(w) - 5)}
             _sib_sent |= {x.strip(" #*>-") for x in re.split(r"(?<=[.!?])\s+|\n", t) if len(x.split()) >= 8}
     for p in pages:
-        if p["path"] == "sitemap/":
+        if p["path"] in ("sitemap/", "site-index/"):
             continue
         mine = _sh.get(p["path"]) or set()
         for other, theirs in _sib_sh.items():
@@ -925,5 +998,7 @@ print(f"built {len(pages)} pages ({total} words), 404, sitemap.xml and .xsl, rob
       f"llms.txt, llms-full.txt; " + ("LIVE" if LIVE else "preview (noindex, no CNAME)"))
 for p in pages:
     print(f"  {p['words']:5d}  {p['kind']:7s} /{p['path']}")
+if unindexed:
+    print(f"site index: {len(unindexed)} page(s) not indexed yet: {', '.join(unindexed)} (read each one and add its entries to tools/site_index.json)")
 for x in problems: print("PROBLEM:", x)
 sys.exit(1 if problems else 0)

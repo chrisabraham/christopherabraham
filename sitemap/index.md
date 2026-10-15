@@ -16,6 +16,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Frequently asked questions](https://christopherabraham.com/faq/): Practical answers about an SEO engagement: what access is needed, how long audits take, time zones, Upwork contracts, invoicing, reports, and confidentiality.
 - [Contact Christopher Abraham](https://christopherabraham.com/contact/): Email Christopher Abraham at cja@well.com or call or text him with your site address and the problem. Hire him on Upwork or directly for a scoped audit.
 - [Privacy](https://christopherabraham.com/privacy/): How christopherabraham.com uses Google Analytics with consent mode, why visitors in Europe and the UK get no analytics cookies, and what happens to your email.
+- [Index](https://christopherabraham.com/site-index/): every person, tool, platform, and topic on the site, A to Z, with links to the pages that cover each one.
 
 ## Technical SEO
 - [Sitewide technical SEO: crawl, trace, fix, recrawl](https://christopherabraham.com/services/sitewide-technical-seo/): I crawl every URL on your site, trace each problem to the template, component, or script behind it, fix the cause once, then crawl again to prove it held.

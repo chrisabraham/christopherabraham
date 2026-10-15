@@ -64,6 +64,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 
 ## Reference
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): short definitions of the vocabulary used across this site, from AEO to XML sitemap.
+- [Index of the whole site](https://christopherabraham.com/site-index/): every person, tool, platform, and problem these pages cover, A to Z, the way a reference book does it.
 
 ## Stay current
 

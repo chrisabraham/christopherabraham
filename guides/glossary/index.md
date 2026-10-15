@@ -6,7 +6,7 @@
 
 By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026 · Updated October 15, 2026
 
-The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need.
+The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need. To find every page that discusses a term, use the [index](https://christopherabraham.com/site-index/).
 
 **301 redirect**
 A permanent forwarding instruction from an old address to a new one, which passes nearly all of the old page's ranking signals along.
