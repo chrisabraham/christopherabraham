@@ -1,6 +1,6 @@
 > How christopherabraham.com uses Google Analytics with consent mode, why visitors in Europe and the UK get no analytics cookies, and what happens to your email.
 >
-> Source: https://christopherabraham.com/privacy/ · Updated 2026-10-06 · By Christopher Abraham
+> Source: https://christopherabraham.com/privacy/ · Updated 2026-10-16 · By Christopher Abraham
 
 # Privacy
 
@@ -11,6 +11,7 @@ This site runs one script: Google Analytics 4, which tells me roughly how many p
 - **Visitors in the European Economic Area, Switzerland, and the United Kingdom** get no analytics cookies at all. Google receives only cookieless, aggregate signals from those regions.
 - **Visitors elsewhere** get first-party Google Analytics cookies, named `_ga` and `_ga_` followed by an ID, that tell repeat visits apart from new ones. They hold a random identifier, not your name or email.
 - Google processes the data under its own privacy policy. I see aggregate reports: page views, rough location by country or city, device type, and referring sites, including AI assistants such as ChatGPT and Perplexity.
+- **Your browser's privacy signals count.** If it sends Global Privacy Control or Do Not Track, analytics cookies stay off for you wherever you are. Google signals, which ties visits to signed-in Google accounts, is switched off for everyone.
 
 To opt out on every site that uses Google Analytics, install Google's opt-out browser add-on, or block cookies for this site in your browser settings. Everything here works the same with analytics blocked.
 
@@ -34,4 +35,4 @@ Search engines and AI crawlers may read and cite the public pages, as described 
 
 Write to [cja@well.com](mailto:cja@well.com) with any privacy question, or to have me delete your past emails with me.
 
-Updated October 6, 2026
+Updated October 16, 2026
