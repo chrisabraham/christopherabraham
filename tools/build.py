@@ -38,6 +38,7 @@ from the sibling site at ../gerris (see SIBLING).
 import datetime, html, json, os, re, sys
 from html.parser import HTMLParser
 from guide_navigation import add_guide_contents
+import cards
 
 # Set to True at the DNS cutover: drops noindex and writes CNAME (see README).
 LIVE = True
@@ -427,7 +428,7 @@ def schema(p):
                  "guides/": "CollectionPage", "services/": "CollectionPage", "case-studies/": "CollectionPage"}.get(p["path"], "WebPage")
     page = {"@type": page_type, "@id": p["url"] + "#webpage", "url": p["url"], "name": p["title"],
             "description": p["description"], "isPartOf": {"@id": SITE + "#website"},
-            "about": {"@id": SITE + "#service-business"}, "primaryImageOfPage": SITE + "social-card.png",
+            "about": {"@id": SITE + "#service-business"}, "primaryImageOfPage": p.get("card", SITE + "social-card.png"),
             "inLanguage": "en-US", "dateModified": p["updated"], "author": {"@id": AUTHOR},
             "keywords": p["keywords"], "about": [{"@type": "Thing", "name": k} for k in p["kw"]],
             "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["h1", ".lead"]},
@@ -450,14 +451,14 @@ def schema(p):
                       "description": p["description"], "url": p["url"], "mainEntityOfPage": {"@id": p["url"] + "#webpage"},
                       "author": {"@id": AUTHOR}, "publisher": {"@id": SITE + "#service-business"},
                       "datePublished": p.get("published", p["updated"]), "dateModified": p["updated"],
-                      "image": SITE + "social-card.png", "inLanguage": "en-US", "wordCount": p["words"]})
+                      "image": p.get("card", SITE + "social-card.png"), "inLanguage": "en-US", "wordCount": p["words"]})
         page["mainEntity"] = {"@id": p["url"] + "#article"}
     if p["kind"] == "guide":
         graph.append({"@type": "TechArticle", "@id": p["url"] + "#article", "headline": p["h1"],
                       "description": p["description"], "url": p["url"], "mainEntityOfPage": {"@id": p["url"] + "#webpage"},
                       "author": {"@id": AUTHOR}, "publisher": {"@id": SITE + "#service-business"},
                       "datePublished": p.get("published", p["updated"]), "dateModified": p["updated"],
-                      "image": SITE + "social-card.png", "inLanguage": "en-US", "wordCount": p["words"],
+                      "image": p.get("card", SITE + "social-card.png"), "inLanguage": "en-US", "wordCount": p["words"],
                       "citation": [{"@type": "CreativeWork", "name": label, "url": u} for label, u in p["sources"]]})
     if p["kind"] == "guide":
         art = graph[-1]
@@ -553,7 +554,34 @@ SPECULATION = """
 <script type="speculationrules">{"prefetch": [{"where": {"and": [{"href_matches": "/*"}, {"not": {"href_matches": ["/*.md", "/*.txt", "/*.xml"]}}]}, "eagerness": "moderate"}]}</script>"""
 
 
+# Per-page share cards (tools/cards.py): the site card's slate bar, CA monogram, and headshot.
+def _card_chrome(im, d, W, H, M):
+    from PIL import Image
+    d.rectangle([0, 0, W, 22], fill="#2a4a57")
+    d.rectangle([0, H - 22, W, H], fill="#dee7ec")
+    d.rectangle([M, 56, M + 92, 148], fill="#2a4a57")
+    d.text((M + 46, 102), "CA", font=cards._font("DejaVuSans.ttf", 44), fill="#ffffff", anchor="mm")
+    d.text((M + 116, 74), "Christopher Abraham", font=cards._font("DejaVuSans-Bold.ttf", 44), fill="#c75000")
+    head = Image.open("christopher-abraham.jpg").convert("RGB")
+    s = min(head.size); head = head.crop(((head.width - s) // 2, 0, (head.width - s) // 2 + s, s)).resize((150, 150))
+    im.paste(head, (W - M - 150, 52)); d.rectangle([W - M - 151, 51, W - M, 202], outline="#2a4a57", width=2)
+    d.text((M, H - 92), "christopherabraham.com", font=cards._font("DejaVuSans.ttf", 30), fill="#2a4a57")
+    d.text((W - M, H - 92), "Senior SEO consultant", font=cards._font("DejaVuSans.ttf", 28), fill="#333333", anchor="ra")
+
+
+CARD_STYLE = {"version": "c1", "site": SITE, "chrome": _card_chrome, "kicker_y": 214, "kicker_color": "#237482", "title_y": 272}
+
+
+def card_for(p):
+    if p["path"] == "":
+        return SITE + "social-card.png"  # the home page keeps the hand-made site card
+    kinds = {"guide": "Guide", "case": "Case study", "service": "Service"}
+    kicker = kinds.get(p["kind"]) or ("SEO consultant: technical SEO, indexing, and AI search" if p["path"] == "" else "christopherabraham.com")
+    return cards.make(p["path"], p["h1"], kicker, CARD_STYLE) or SITE + "social-card.png"
+
+
 def render(p):
+    p["card"] = card_for(p)
     r = p["root"]
     home = r or "./"
     e = lambda s: html.escape(s, quote=True)
@@ -597,14 +625,15 @@ def render(p):
 <meta property="og:title" content="{e(p["title"])}">
 <meta property="og:description" content="{e(p["description"])}">
 <meta property="og:url" content="{p["url"]}">
-<meta property="og:image" content="{SITE}social-card.png">
+<meta property="og:image" content="{p["card"]}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Christopher Abraham, SEO consultant: technical SEO, indexing, schema, and AI search">{article}
+<meta property="og:image:alt" content="{e(p["h1"])}">{article}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{e(p["title"])}">
 <meta name="twitter:description" content="{e(p["description"])}">
-<meta name="twitter:image" content="{SITE}social-card.png">
+<meta name="twitter:image" content="{p["card"]}">
+<meta name="twitter:image:alt" content="{e(p["h1"])}">
 <style>
 {CSS}
 </style>
