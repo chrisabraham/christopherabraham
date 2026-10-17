@@ -593,7 +593,8 @@ def render(p):
         crumbs = ('\n<nav class="crumbs" aria-label="Breadcrumb"><ol>'
                   + "".join(f'<li><a href="{(r + q["path"]) or "./"}">{q["name"]}</a></li>' for q in trail(p)[:-1])
                   + f'<li aria-current="page">{p["name"]}</li></ol></nav>')
-    robots = "" if LIVE else '\n<meta name="robots" content="noindex">'
+    robots = ('\n<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">' if LIVE
+              else '\n<meta name="robots" content="noindex">')
     og_type = "article" if p["kind"] == "guide" else "website"
     article = ""
     if p["kind"] == "guide":
