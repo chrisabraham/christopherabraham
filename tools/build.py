@@ -326,7 +326,8 @@ ul.site-index > li { margin-bottom: .35rem; padding-left: 1.5rem; text-indent: -
 ul.site-index ul { list-style: none; padding-left: 1.5rem; margin: .15rem 0 .3rem; }
 ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1rem; }
 .site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
-.site-footer p { margin: 0 0 .4rem; }
+.site-footer p { margin: 0 0 .4rem; text-wrap: balance; }
+.site-footer a { white-space: nowrap; }
 @media (max-width: 34rem) {
   body { font-size: 17px; }
   .top img { width: 52px; height: 52px; }
@@ -662,9 +663,9 @@ def render(p):
 {body_html(p)}
 </main>
 <footer class="site-footer">
-  <p><a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="tel:{TEL}">{PHONE}</a> · <a href="{CALENDLY}">Book a call</a> · <a href="{UPWORK}">Hire me on Upwork</a> · <a href="{LINKEDIN}">LinkedIn</a></p>
-  <p>© {TODAY[:4]} Christopher Abraham, Arlington, Virginia · <a href="{r}faq/">FAQ</a> · <a href="{r}about/editorial-policy/">How I write</a> · <a href="{r}privacy/">Privacy</a> · <a href="{r}sitemap/">Site map</a> · <a href="{r}site-index/">Index</a> · <a href="{r}guides/glossary/">Glossary</a> · <a href="{r}about/colophon/">Colophon</a> · <a href="{r}llms.txt">llms.txt</a> · <a href="{r}rss.xml">RSS</a></p>
-  <p>Unless a page says otherwise, everything I wrote or made here is free to reuse under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Credit me and link back.</p>
+  <p><a href="mailto:{EMAIL}">{EMAIL}</a>&nbsp;· <a href="tel:{TEL}">{PHONE}</a>&nbsp;· <a href="{CALENDLY}">Book a call</a>&nbsp;· <a href="{UPWORK}">Hire me on Upwork</a>&nbsp;· <a href="{LINKEDIN}">LinkedIn</a></p>
+  <p>© {TODAY[:4]} Christopher Abraham, Arlington, Virginia&nbsp;· <a href="{r}faq/">FAQ</a>&nbsp;· <a href="{r}about/editorial-policy/">How I write</a>&nbsp;· <a href="{r}privacy/">Privacy</a>&nbsp;· <a href="{r}sitemap/">Site map</a>&nbsp;· <a href="{r}site-index/">Index</a>&nbsp;· <a href="{r}guides/glossary/">Glossary</a>&nbsp;· <a href="{r}about/colophon/">Colophon</a>&nbsp;· <a href="{r}llms.txt">llms.txt</a>&nbsp;· <a href="{r}rss.xml">RSS</a></p>
+  <p>Unless a page says otherwise, everything I wrote or made here is free to reuse under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Credit me and link&nbsp;back.</p>
 </footer>
 </div>
 </body>
