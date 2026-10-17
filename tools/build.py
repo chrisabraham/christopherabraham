@@ -518,7 +518,7 @@ def body_html(p, *, contents=True):
 
 # Google Analytics 4. Consent mode: ads storage denied everywhere; analytics storage
 # denied in the UK, EEA, and Switzerland (cookieless pings there), granted elsewhere. See /privacy/.
-GA_ID = "G-MR3P3612MM"
+GA_ID = "G-F0GTJ4N9X6"
 _EEA_UK = ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU",
            "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"]
 GA = f"""
