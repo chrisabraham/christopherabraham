@@ -79,6 +79,9 @@ ISLAND = [r"(?i)gerris", r"(?i)gerriscorp", r"(?i)hillmole", r"(?i)hill mole",
           r"(?i)substack"]  # "podcast" and his show allowed (owner, 2026-10-14: the show is the podcast-site case study)
 # The sibling site, built from the same kind of material. Pages here may not borrow its phrasing.
 SIBLING = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "gerris")
+FILES += ["services/inquiry-path-audit", "guides/test-website-inquiries"]
+SERVICE_GROUPS[0][1].append("services/inquiry-path-audit/")
+
 MIN_WORDS = {"guide": 700, "service": 450, "case": 250, "page": 250}
 TODAY = datetime.date.today().isoformat()
 os.chdir(os.path.join(os.path.dirname(__file__), ".."))

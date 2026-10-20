@@ -1,10 +1,10 @@
 > A back of the book index to christopherabraham.com: every person, tool, platform, and SEO problem the pages cover, listed A to Z with links to each page.
 >
-> Source: https://christopherabraham.com/site-index/ · Updated 2026-10-16 · By Christopher Abraham
+> Source: https://christopherabraham.com/site-index/ · Updated 2026-10-20 · By Christopher Abraham
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 550 headings across 92 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 551 headings across 94 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -1098,6 +1098,7 @@ People are listed surname first. Cross-references point to related headings. For
 - WebAIM Million, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
 - Webflow, [Services](https://christopherabraham.com/services/)
 - WebP and AVIF, [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
+- website inquiry testing, [Website inquiry audit](https://christopherabraham.com/services/inquiry-path-audit/), **[Test website inquiries](https://christopherabraham.com/guides/test-website-inquiries/)**
 - white label services, [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/), [Glossary](https://christopherabraham.com/guides/glossary/)
 - Wikidata, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
 - Wikipedia, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
@@ -1150,4 +1151,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated October 16, 2026
+Updated October 20, 2026

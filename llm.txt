@@ -15,6 +15,7 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 - [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/index.md): Plan and verify a website migration: full URL inventories, one-to-one 301 redirect maps, launch day checks, and recovery when a move has already lost traffic.
 - [Internal linking strategy: stitch your website together](https://christopherabraham.com/services/internal-linking/index.md): Internal linking strategy for an established website: contextual text links, descriptive anchors, orphan page recovery, useful hubs, and a measured rollout.
 - [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/index.md): Independent SEO checks before and after a website release: rendering, indexing signals, redirects, media, and evidence your developer can act on.
+- [Website inquiry audits: find where contacts go missing](https://christopherabraham.com/services/inquiry-path-audit/index.md): Find broken contact routes, missing form notifications, and misleading conversion events. Get documented tests, clear repair priorities, and verified retests.
 
 ## AI search, schema, and content
 
@@ -80,6 +81,7 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/index.md): Plain-English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 - [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/index.md): Build useful paths through your existing pages with contextual links, clear anchor text, working section targets, and an internal linking worksheet.
 - [Moving a website? Check its images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/index.md): Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.
+- [Your website form says success. Did anyone get the inquiry?](https://christopherabraham.com/guides/test-website-inquiries/index.md): Trace a test inquiry from landing page to form, confirmation, inbox, and reporting. Find delivery failures and false conversion counts before buying traffic.
 
 ## About and working together
 

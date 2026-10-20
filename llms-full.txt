@@ -1,7 +1,7 @@
 # Christopher Abraham: full text of christopherabraham.com
 
 > Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.
-> Built 2026-10-16. Quote freely with attribution and a link to the source page.
+> Built 2026-10-20. Quote freely with attribution and a link to the source page.
 
 
 ---
@@ -90,13 +90,14 @@ Updated October 15, 2026
 ---
 
 Source: https://christopherabraham.com/services/
-Updated: 2026-10-13
+Updated: 2026-10-20
 
 # SEO services
 
 Every service starts from the same place: find out what search engines and AI systems actually receive from your site, compare it with what you meant to publish, and close the gap. Pick the symptom closest to yours, or start with an [audit](https://christopherabraham.com/services/seo-audit/) if you aren't sure.
 
 ## Technical SEO
+- [Website inquiry audits](https://christopherabraham.com/services/inquiry-path-audit/): test contact buttons, form delivery, and the events counted as leads.
 - [Internal linking strategy](https://christopherabraham.com/services/internal-linking/): contextual text links, clear anchors, useful destinations, and a plan to stitch existing pages together.
 - [SEO release QA](https://christopherabraham.com/services/seo-release-qa/): independent checks of a named redesign, template update, or deployment, before and after it goes live.
 - [Sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/): every URL crawled, each problem traced to the template or code behind it, fixed once, and recrawled to prove it held.
@@ -129,7 +130,7 @@ Each one begins with a scoped, paid diagnostic. You get findings in writing, a p
 
 WordPress with Yoast or Rank Math, WooCommerce, Shopify and Liquid, Magento 2 and Hyvä, Drupal, Umbraco, Squarespace, Wix, Webflow, Framer, and custom builds on React, Next.js, and Vue. Around them: Cloudflare, Google Search Console, Bing Webmaster Tools, GA4, Screaming Frog, Semrush, PageSpeed Insights, and the Rich Results Test.
 
-Updated October 13, 2026
+Updated October 20, 2026
 
 
 ---
@@ -993,13 +994,14 @@ Updated October 6, 2026
 ---
 
 Source: https://christopherabraham.com/guides/
-Updated: 2026-10-13
+Updated: 2026-10-20
 
 # SEO guides
 
 These guides cover the questions clients ask me most, written so you can act on them yourself. Each one is self-contained, with links to related guides and to the glossary for terms.
 
 ## Indexing and audits
+- [Test your website inquiries from page to inbox](https://christopherabraham.com/guides/test-website-inquiries/): trace submission, receipt, and analytics before investing in more traffic.
 - [Internal linking: stitching your pages together](https://christopherabraham.com/guides/internal-linking/): choose useful destinations, write natural anchors, check section targets, and plan the additions in a downloadable worksheet.
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
 - [Why your SEO should work in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/): fixing causes in templates instead of symptoms page by page, what AI coding assistants add, and what to ask before you hire.
@@ -1067,7 +1069,7 @@ New and updated guides appear in the [full-text RSS feed](https://christopherabr
 
 If you've worked through a guide and the problem is still there, that's usually the point where a second set of eyes on the actual site helps. Every engagement begins with a scoped audit; see the [services](https://christopherabraham.com/services/) or [get in touch](https://christopherabraham.com/contact/).
 
-Updated October 13, 2026
+Updated October 20, 2026
 
 
 ---
@@ -6111,8 +6113,133 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 
 ---
 
+Source: https://christopherabraham.com/services/inquiry-path-audit/
+Updated: 2026-10-20
+
+# Website inquiry audits: find where contacts go missing
+
+If the website seems busy but the inbox is quiet, more traffic may be the wrong first purchase. I test how a prospective customer reaches you, what happens to the submission, and whether your reporting describes that journey accurately.
+
+## The problems this investigation addresses
+
+A service button that opens the wrong form. A scheduler that no longer accepts bookings. A success message without a delivered notification. An analytics event that fires on every attempt, including failed validation. These are concrete defects that can obscure the value of your search traffic.
+
+This service sits between a website review and a measurement audit. It is useful after a redesign, a form plugin change, a new booking provider, or a sudden disagreement between reported conversions and actual contacts. I begin with the affected routes rather than asking you to rebuild the whole website.
+
+## What I test
+- Priority landing pages and their contact, quote, or appointment buttons.
+- The chosen form or scheduling destination, including mobile usability and required fields.
+- Successful submissions, validation failures, and the confirmation experience.
+- The resulting message or record in the systems you authorize me to inspect.
+- The analytics event definition and whether overlapping triggers inflate the count.
+- Consent behavior and whether identifying form data is being passed into analytics.
+
+## What the delivery contains
+
+You receive a route inventory and a test log with dates, observed behavior, and evidence for each finding. Every issue states the expected result, the actual result, its likely owner, and the next repair or diagnostic step. I distinguish confirmed failures from parts of the journey that remain unverified because access is unavailable.
+
+The repair plan starts with contacts that cannot reach the business, followed by incorrect destinations and misleading measurement. Within agreed access, I can correct links, page copy, and supported website settings. Provider changes or custom integrations may need your developer or administrator. I write the acceptance criteria and retest the affected route when the repair is ready.
+
+## How the scope is agreed
+
+The starting engagement is a paid diagnostic for a named set of pages, forms, and destinations. I need the affected URLs, a receiving contact who can confirm labeled tests, and access to relevant reporting. Any live test is coordinated so it does not get mistaken for a customer request. Payment and booking commitments require a supported test route.
+
+This is a focused website investigation. A larger CRM implementation, sales process redesign, or mail infrastructure repair can be identified as follow-on work with its own scope. I do not promise a particular number of leads. The immediate outcome is evidence about whether the agreed routes work and what your reported conversions mean.
+
+## Before commissioning the audit
+
+### Will this explain every difference between analytics and the inbox?
+
+No single test can establish that. Consent choices, filtering, time windows, and multiple routes can create legitimate differences. I identify the causes supported by the available evidence and state which questions remain open.
+
+### Can you test an external booking tool?
+
+Yes, where the provider and your access allow it. I follow the handoff and confirm the resulting record, or document the point beyond which verification requires the provider's help.
+
+For a self-directed starting point, use my [guide to testing website inquiries](https://christopherabraham.com/guides/test-website-inquiries/). Broader reporting problems belong with [Search Console and GA4 work](https://christopherabraham.com/services/search-console/).
+
+[Ask about your contact routes](https://christopherabraham.com/contact/)
+
+Updated October 20, 2026
+
+
+---
+
+Source: https://christopherabraham.com/guides/test-website-inquiries/
+Updated: 2026-10-20
+
+# Your website form says success. Did anyone get the inquiry?
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 20, 2026
+
+A visitor can press Send, see a reassuring message, and still fail to reach your business. Conversely, a real inquiry can arrive without appearing in your analytics report. Before treating a shortage of leads as a search problem, test the entire contact route and write down where the evidence stops.
+
+## Choose one journey and agree on the test
+
+Begin with a landing page that matters commercially. Follow its contact button as an ordinary visitor would, using a phone as well as a desktop when possible. Include any intermediate service page, embedded scheduler, or external booking screen. A homepage contact link may work while the button on a course or product page points to an obsolete destination.
+
+Tell the person receiving inquiries that a test is coming. Use clearly labeled test content and an address you control. Agree whether the test may create a CRM record or trigger an automatic reply. If the route creates a paid reservation or another commitment, use the provider's supported test environment or stop before that action. Testing should produce identifiable evidence without confusing staff or customers.
+
+## Distinguish five different events
+
+A useful investigation separates the stages that dashboards often collapse into one conversion:
+1. **Contact intent:** the visitor follows a contact or booking link.
+2. **Submission attempt:** the visitor presses the form's submit button.
+3. **Accepted request:** the form system confirms that it has accepted the information.
+4. **Business delivery:** the intended inbox or CRM receives a usable record.
+5. **Qualified conversation:** staff confirms that the inquiry is relevant and can be followed up.
+
+These events need different evidence. A button click proves interest in a route, not that a message arrived. A confirmation screen alone does not prove inbox delivery. A delivered message is not automatically a sale. Name the stage in the report so nobody mistakes a convenient measurement for the business outcome.
+
+## Check the visitor experience before inspecting tags
+
+Look for the defects a customer encounters: the wrong form, a missing service option, a keyboard covering a required field, validation that clears the message, or a confirmation with no explanation of what happens next. Verify the destination of each priority call to action. Repeated buttons may share styling while leading to different places.
+
+Try a deliberate validation failure as well as a successful submission. Leaving a required field empty should not produce the same success event as a completed request. Refresh the confirmation page and revisit it directly. If either action adds another apparent inquiry, the report may be counting page visits rather than accepted submissions. Record the behavior before changing the setup.
+
+## Follow the message into the business
+
+Record the submission time and check the form provider's record where available. Ask the recipient to confirm arrival in the expected inbox, not just in a forwarding account or spam folder. Check that the reply address works and that the message includes the context needed to respond. A notification without a usable sender or service reference can leave staff unable to help.
+
+For a CRM connection, verify the actual record and assignment. An integration can accept a submission yet fail to assign it to the current owner. For an external scheduler, inspect the confirmed appointment in the scheduling system. Treat mail delivery, integration delivery, and notification delivery as separate checks whenever they are separate systems.
+
+If something fails, preserve the test reference and the available error evidence. The next fix might belong to the website, mail service, form provider, or CRM administrator. Repeatedly changing SEO metadata will not repair a broken delivery connection.
+
+## Check what analytics actually records
+
+Observe the test in your analytics debugging tools and compare it with the business record. Document what triggers the event: a click, a browser callback, an accepted response, or a confirmation view. Pick one primary success definition for the route and check that a single submission does not count several times through overlapping tags.
+
+Repeat under the consent choices your site offers. A customer may successfully contact you while analytics remains unavailable. Keep consent behavior intact and explain the resulting measurement limit. Do not force a match between inbox totals and recorded analytics events by ignoring visitors' choices.
+
+Keep names, email addresses, message text, and other identifying details out of analytics events and URLs sent to analytics. Google's [guidance on avoiding personally identifiable information](https://support.google.com/analytics/answer/6366371) describes this requirement. Use a nonpersonal form label or service category when appropriate, and inspect the payload rather than assuming a plugin is configured correctly.
+
+## Keep a small evidence sheet
+
+For each tested route, record the starting URL, destination, device, time, consent state, expected recipient, observed confirmation, actual receipt, and analytics behavior. Add a status such as passed, failed, or unverified. Use unverified when you lack access to a system; a missing permission is not proof that the system failed.
+
+Retest the failed route after its repair with another labeled submission. Include at least one unsuccessful attempt to confirm that validation no longer produces a false success. Save the outcome and tell the receiving team which test records can be removed. Repeat the essential checks after a redesign, form replacement, or change of destination.
+
+## Decide whether the next problem is visibility or follow-up
+
+Once delivery works, review a suitable period of actual inquiries with the business owner. Separate spam, duplicate contacts, unsupported requests, and suitable prospects. If suitable inquiries arrive but remain unanswered, the bottleneck is follow-up. If the route works but relevant visitors rarely reach it, investigate the landing pages and search visibility. The diagnosis should determine the work.
+
+I offer a [website inquiry audit](https://christopherabraham.com/services/inquiry-path-audit/) for this investigation, with a defined route list and written findings. If the evidence instead points toward discovery or indexing, a [technical SEO audit](https://christopherabraham.com/services/seo-audit/) is the next useful step.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
 Source: https://christopherabraham.com/sitemap/
-Updated: 2026-10-16
+Updated: 2026-10-20
 
 # Site map
 
@@ -6120,7 +6247,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 
 ## Main pages
 - [Senior SEO help, from the person who does the work](https://christopherabraham.com/): Christopher Abraham is a senior SEO consultant: technical audits, indexing repair, schema, site speed, migrations, and visibility in AI answer engines.
-- [SEO services](https://christopherabraham.com/services/): Fourteen SEO services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
+- [SEO services](https://christopherabraham.com/services/): SEO and website services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
 - [SEO guides](https://christopherabraham.com/guides/): Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
 - [Case studies](https://christopherabraham.com/case-studies/): Anonymized SEO case studies: hidden product content, consent tools blocking Google, React apps, migrations, programmatic indexing, schema, and local listings.
 - [About Christopher Abraham](https://christopherabraham.com/about/): Christopher Abraham is an SEO consultant in Arlington, VA, working on AI search, rendering forensics, and modern stacks, with SEO experience dating to 1998.
@@ -6140,6 +6267,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/): Plan and verify a website migration: full URL inventories, one-to-one 301 redirect maps, launch day checks, and recovery when a move has already lost traffic.
 - [Internal linking strategy: stitch your website together](https://christopherabraham.com/services/internal-linking/): Internal linking strategy for an established website: contextual text links, descriptive anchors, orphan page recovery, useful hubs, and a measured rollout.
 - [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/): Independent SEO checks before and after a website release: rendering, indexing signals, redirects, media, and evidence your developer can act on.
+- [Website inquiry audits: find where contacts go missing](https://christopherabraham.com/services/inquiry-path-audit/): Find broken contact routes, missing form notifications, and misleading conversion events. Get documented tests, clear repair priorities, and verified retests.
 
 ## AI search, schema, and content
 - [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/): Improve how ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google AI Overviews describe and cite your business, with prompt testing, entities, and content.
@@ -6201,6 +6329,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): Plain-English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 - [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/): Build useful paths through your existing pages with contextual links, clear anchor text, working section targets, and an internal linking worksheet.
 - [Moving a website? Check its images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/): Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.
+- [Your website form says success. Did anyone get the inquiry?](https://christopherabraham.com/guides/test-website-inquiries/): Trace a test inquiry from landing page to form, confirmation, inbox, and reporting. Find delivery failures and false conversion counts before buying traffic.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
@@ -6227,17 +6356,17 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 16, 2026
+Updated October 20, 2026
 
 
 ---
 
 Source: https://christopherabraham.com/site-index/
-Updated: 2026-10-16
+Updated: 2026-10-20
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 550 headings across 92 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 551 headings across 94 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -7331,6 +7460,7 @@ People are listed surname first. Cross-references point to related headings. For
 - WebAIM Million, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
 - Webflow, [Services](https://christopherabraham.com/services/)
 - WebP and AVIF, [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
+- website inquiry testing, [Website inquiry audit](https://christopherabraham.com/services/inquiry-path-audit/), **[Test website inquiries](https://christopherabraham.com/guides/test-website-inquiries/)**
 - white label services, [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/), [Glossary](https://christopherabraham.com/guides/glossary/)
 - Wikidata, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
 - Wikipedia, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
@@ -7383,4 +7513,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated October 16, 2026
+Updated October 20, 2026
