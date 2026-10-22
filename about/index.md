@@ -17,7 +17,7 @@ I'm an independent SEO consultant in Arlington, Virginia, across the Potomac fro
 | Full name | Christopher James Abraham |
 | Role | Independent SEO consultant |
 | Based in | Arlington, Virginia 22204, United States |
-| Specialties | Technical SEO audits, indexing, JavaScript SEO, Core Web Vitals, Cloudflare, migrations and 301 redirects, schema markup, AI search (GEO and AEO), WordPress, ecommerce, and local SEO |
+| Specialties | Technical SEO audits, indexing, JavaScript SEO, Core Web Vitals, Cloudflare, migrations and 301 redirects, schema markup, AI search (GEO and AEO), WordPress, ecommerce, local SEO, and Umbraco and Next.js development |
 | Timeline | Web development since 1994, SEO since 1998, blogging since 1999 |
 | Upwork | [Christopher A.](https://www.upwork.com/freelancers/chrisjabraham): Top Rated, 100% Job Success, $200K+ earned, 127 jobs, 4,089 hours (as of October 2026) |
 | Education | BA in American Literature, The George Washington University; a year at the University of East Anglia in Norwich, England |

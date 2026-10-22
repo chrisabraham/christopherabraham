@@ -26,6 +26,7 @@ Every service starts from the same place: find out what search engines and AI sy
 
 ## Platforms, local, and ongoing work
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): Yoast, Rank Math, themes, plugins, and the performance cleanup old installs need.
+- **Umbraco and Next.js development**: builds and rebuilds on Umbraco and Next.js, with the SEO, structured data, and speed work handled as part of the build.
 - [Static websites built for search](https://christopherabraham.com/services/static-sites/): fast sites on GitHub Pages and Cloudflare with SEO checks on every build, and WordPress brochure sites moved off WordPress.
 - [Podcast website SEO](https://christopherabraham.com/services/podcast-website/): your feed turned into a site with a page, transcript, and share card for every episode, updated each morning.
 - [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Shopify, WooCommerce, and Magento product, category, and faceted pages.
