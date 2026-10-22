@@ -37,8 +37,12 @@ Every service starts from the same place: find out what search engines and AI sy
 
 Each one begins with a scoped, paid diagnostic. You get findings in writing, a prioritized plan, and the choice of having me implement what I can reach while your developers build the rest from my specifications. I verify every fix on the live site before calling it done. The details are on [Hire Me](https://christopherabraham.com/hire-me/).
 
-## Platforms I work in
+## Platforms and toolbox
 
-WordPress with Yoast or Rank Math, WooCommerce, Shopify and Liquid, Magento 2 and Hyvä, Drupal, Umbraco, Squarespace, Wix, Webflow, Framer, and custom builds on React, Next.js, and Vue. Around them: Cloudflare, Google Search Console, Bing Webmaster Tools, GA4, Screaming Frog, Semrush, PageSpeed Insights, and the Rich Results Test.
+Current work: WordPress with Yoast or Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal and Joomla; Squarespace, Wix, Webflow, and Framer; HubSpot; Duda; and headless and custom builds on React, Next.js, Vue, Create React App, Alpine.js, Sanity, Vercel, and Netlify.
+
+Site rescue and migration: if your site is stranded on an old platform or a host you want to leave, I can spider it and replicate it on GitHub Pages or a modern stack, usually in hours, not weeks, with AI assistance on the heavy lifting. That is how I moved Hill Mole, my own novel's site, off legacy hosting and onto GitHub Pages. I work in Git and GitHub, on Linux servers I administer myself (root on DigitalOcean droplets; everything I own runs Linux), with OpenAI Codex and Claude Code as my main coding assistants.
+
+Around the platforms: Cloudflare, GitHub Pages, and DigitalOcean; Google Search Console, Bing Webmaster Tools, GA4, and Google Tag Manager; Screaming Frog, Semrush, PageSpeed Insights, and the Rich Results Test; and Basecamp and Todoist to run the work.
 
 Updated October 20, 2026

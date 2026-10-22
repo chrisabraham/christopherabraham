@@ -43,6 +43,12 @@ My independent practice runs mostly through Upwork and centers on the technical 
 - **Translating between marketers and engineers.** I write tickets developers trust and summaries executives read.
 - **Using AI with judgment.** I use AI tools for metadata drafts, topic gap analysis, FAQ coverage, and repository analysis. Every output gets checked by a human who knows what good looks like.
 
+## Toolbox
+
+My specialties list is the short version. The full bench is the platforms people run now: WordPress, Shopify, Magento, Umbraco, Drupal, Joomla, Squarespace, Wix, Webflow, and HubSpot, and headless builds on React and Next.js with Sanity, Vercel, and Netlify. I still read Perl, PHP, and Python when a template is hiding something from the crawler. And if a site is stranded on an old platform, I can pull it forward: spider it and replicate it on GitHub Pages, the way I moved Hill Mole.
+
+The tooling around the work: Git and GitHub, Linux servers over SSH, Cloudflare, Screaming Frog, Semrush, Search Console, GA4, and AI coding assistants—OpenAI Codex and Claude Code first, with GitHub Copilot, Gemini, and Grok behind them.
+
 ## Teaching and speaking
 
 I've been a guest lecturer at Georgetown University's School of Continuing Studies on organic search engine optimization, online reputation management, and influencer marketing. I taught blogging courses, SEO included, at The Writer's Center in Bethesda, lectured on blogging and viral strategy for Columbia University's executive public affairs program, and spoke on a South by Southwest panel. Forbes once listed me among its top 50 social media power influencers.
