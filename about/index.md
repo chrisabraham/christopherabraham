@@ -45,7 +45,7 @@ My independent practice runs mostly through Upwork and centers on the technical 
 
 ## Toolbox
 
-My specialties list is the short version. The full bench is the platforms people run now: WordPress, Shopify, Magento, Umbraco, Drupal, Joomla, Squarespace, Wix, Webflow, and HubSpot, and headless builds on React and Next.js with Sanity, Vercel, and Netlify. I still read Perl, PHP, and Python when a template is hiding something from the crawler. And if a site is stranded on an old platform, I can pull it forward: spider it and replicate it on GitHub Pages, the way I moved Hill Mole.
+My specialties list is the short version. The full bench is the platforms people run now: WordPress, Shopify, Magento, Umbraco, Drupal, Joomla, Squarespace, Duda, Wix, Webflow, and HubSpot, and headless builds on React and Next.js with Sanity, Vercel, and Netlify. I still read Perl, PHP, and Python when a template is hiding something from the crawler. And if a site is stranded on an old platform, I can pull it forward: spider it and replicate it on GitHub Pages, the way I moved Hill Mole.
 
 The tooling around the work: Git and GitHub, Linux servers over SSH, Cloudflare, Screaming Frog, Semrush, Search Console, GA4, and AI coding assistants—OpenAI Codex and Claude Code first, with GitHub Copilot, Gemini, and Grok behind them.
 
