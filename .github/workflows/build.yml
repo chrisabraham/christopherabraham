@@ -1,0 +1,65 @@
+# Build christopherabraham.com from src/ and commit the generated pages.
+#
+# The site is a static site: tools/build.py turns the page sources in src/
+# into the finished HTML (plus the sitemap, feeds, llms.txt, and the other
+# generated files), then checks the house rules. This workflow runs that
+# build on every push that touches the sources and commits the result, so a
+# new page goes live without a local Python run. Pushes made with the
+# default GITHUB_TOKEN do not trigger new workflow runs, so this cannot loop.
+name: Build and publish the site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'tools/**'
+      - '.github/workflows/build.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Register the October 23 pages in tools/build.py
+        run: |
+          python3 - <<'EOF'
+          import io
+          p = 'tools/build.py'
+          s = io.open(p, encoding='utf-8').read()
+          if 'services/ai-visibility' in s:
+              print('new pages already registered, skipping')
+          else:
+              anchor = 'SERVICE_GROUPS[0][1].append("services/inquiry-path-audit/")'
+              assert s.count(anchor) == 1, 'anchor for new FILES entries not found'
+              add = (anchor
+                     + '\n# Additional service and article, October 23, 2026.'
+                     + '\nFILES += ["services/ai-visibility", "the-machine-answers-first"]'
+                     + '\nSERVICE_GROUPS[1][1].append("services/ai-visibility/")')
+              io.open(p, 'w', encoding='utf-8').write(s.replace(anchor, add))
+              print('registered services/ai-visibility and the-machine-answers-first')
+          EOF
+
+      - name: Build the site
+        run: python3 tools/build.py
+
+      - name: Commit the built site
+        run: |
+          git config user.name 'chrisabraham'
+          git config user.email 'cja@well.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'Build produced no changes.'
+          else
+            git commit -m 'Rebuild the site with tools/build.py [skip ci]'
+            git push
+          fi
