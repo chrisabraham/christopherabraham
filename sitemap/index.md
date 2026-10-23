@@ -1,6 +1,6 @@
 > Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.
 >
-> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-20 · By Christopher Abraham
+> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-23 · By Christopher Abraham
 
 # Site map
 
@@ -35,6 +35,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Schema markup and entity SEO](https://christopherabraham.com/services/schema/): Structured data that validates, matches the visible page, and connects your organization, people, products, and locations as entities for Google and AI.
 - [On-page SEO](https://christopherabraham.com/services/on-page-seo/): On page SEO fixed at the template level: titles and meta descriptions, headings, internal links, thin and duplicate pages, and carefully edited AI drafts.
 - [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/): SEO articles drafted with AI from your own material, written to your voice rules, then checked claim by claim against sources before anything is published.
+- [The answer on top is the new front door.](https://christopherabraham.com/services/ai-visibility/): AI answers now top 88% of commercial searches. I audit what they say about your business, fix the claim layer underneath, and measure it monthly, in writing.
 
 ## Platforms, local, and ongoing work
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): WordPress SEO done carefully: Yoast and Rank Math settings, theme and plugin conflicts, page builder bloat, caching, and old installs that need a steady hand.
@@ -117,4 +118,4 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 20, 2026
+Updated October 23, 2026

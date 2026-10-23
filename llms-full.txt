@@ -1,7 +1,7 @@
 # Christopher Abraham: full text of christopherabraham.com
 
 > Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.
-> Built 2026-10-20. Quote freely with attribution and a link to the source page.
+> Built 2026-10-23. Quote freely with attribution and a link to the source page.
 
 
 ---
@@ -116,6 +116,7 @@ Every service starts from the same place: find out what search engines and AI sy
 
 ## Platforms, local, and ongoing work
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): Yoast, Rank Math, themes, plugins, and the performance cleanup old installs need.
+- **Umbraco and Next.js development**: builds and rebuilds on Umbraco and Next.js, with the SEO, structured data, and speed work handled as part of the build.
 - [Static websites built for search](https://christopherabraham.com/services/static-sites/): fast sites on GitHub Pages and Cloudflare with SEO checks on every build, and WordPress brochure sites moved off WordPress.
 - [Podcast website SEO](https://christopherabraham.com/services/podcast-website/): your feed turned into a site with a page, transcript, and share card for every episode, updated each morning.
 - [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Shopify, WooCommerce, and Magento product, category, and faceted pages.
@@ -126,9 +127,13 @@ Every service starts from the same place: find out what search engines and AI sy
 
 Each one begins with a scoped, paid diagnostic. You get findings in writing, a prioritized plan, and the choice of having me implement what I can reach while your developers build the rest from my specifications. I verify every fix on the live site before calling it done. The details are on [Hire Me](https://christopherabraham.com/hire-me/).
 
-## Platforms I work in
+## Platforms and toolbox
 
-WordPress with Yoast or Rank Math, WooCommerce, Shopify and Liquid, Magento 2 and Hyvä, Drupal, Umbraco, Squarespace, Wix, Webflow, Framer, and custom builds on React, Next.js, and Vue. Around them: Cloudflare, Google Search Console, Bing Webmaster Tools, GA4, Screaming Frog, Semrush, PageSpeed Insights, and the Rich Results Test.
+Current work: WordPress with Yoast or Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal and Joomla; Squarespace, Wix, Webflow, and Framer; HubSpot; Duda; and headless and custom builds on React, Next.js, Vue, Create React App, Alpine.js, Sanity, Vercel, and Netlify.
+
+Site rescue and migration: if your site is stranded on an old platform or a host you want to leave, I can spider it and replicate it on GitHub Pages or a modern stack, usually in hours, not weeks, with AI assistance on the heavy lifting. That is how I moved my own novel's site off legacy hosting and onto GitHub Pages. I work in Git and GitHub, on Linux servers I administer myself (root on DigitalOcean droplets; everything I own runs Linux), with OpenAI Codex and Claude Code as my main coding assistants.
+
+Around the platforms: Cloudflare, GitHub Pages, and DigitalOcean; Google Search Console, Bing Webmaster Tools, GA4, and Google Tag Manager; Screaming Frog, Semrush, PageSpeed Insights, and the Rich Results Test; and Basecamp and Todoist to run the work.
 
 Updated October 20, 2026
 
@@ -5348,7 +5353,7 @@ I'm an independent SEO consultant in Arlington, Virginia, across the Potomac fro
 | Full name | Christopher James Abraham |
 | Role | Independent SEO consultant |
 | Based in | Arlington, Virginia 22204, United States |
-| Specialties | Technical SEO audits, indexing, JavaScript SEO, Core Web Vitals, Cloudflare, migrations and 301 redirects, schema markup, AI search (GEO and AEO), WordPress, ecommerce, and local SEO |
+| Specialties | Technical SEO audits, indexing, JavaScript SEO, Core Web Vitals, Cloudflare, migrations and 301 redirects, schema markup, AI search (GEO and AEO), WordPress, ecommerce, local SEO, and Umbraco and Next.js development |
 | Timeline | Web development since 1994, SEO since 1998, blogging since 1999 |
 | Upwork | [Christopher A.](https://www.upwork.com/freelancers/chrisjabraham): Top Rated, 100% Job Success, $200K+ earned, 127 jobs, 4,089 hours (as of October 2026) |
 | Education | BA in American Literature, The George Washington University; a year at the University of East Anglia in Norwich, England |
@@ -5373,6 +5378,12 @@ My independent practice runs mostly through Upwork and centers on the technical 
 - **Working inside messy, inherited sites.** Twenty-year-old WordPress installs, half-finished migrations, themes three developers have patched. I'm comfortable there.
 - **Translating between marketers and engineers.** I write tickets developers trust and summaries executives read.
 - **Using AI with judgment.** I use AI tools for metadata drafts, topic gap analysis, FAQ coverage, and repository analysis. Every output gets checked by a human who knows what good looks like.
+
+## Toolbox
+
+My specialties list is the short version. The full bench is the platforms people run now: WordPress, Shopify, Magento, Umbraco, Drupal, Joomla, Squarespace, Duda, Wix, Webflow, and HubSpot, and headless builds on React and Next.js with Sanity, Vercel, and Netlify. I still read Perl, PHP, and Python when a template is hiding something from the crawler. And if a site is stranded on an old platform, I can pull it forward: spider it and replicate it on GitHub Pages, the way I moved my novel.
+
+The tooling around the work: Git and GitHub, Linux servers over SSH, Cloudflare, Screaming Frog, Semrush, Search Console, GA4, and AI coding assistants—OpenAI Codex and Claude Code first, with GitHub Copilot, Gemini, and Grok behind them.
 
 ## Teaching and speaking
 
@@ -6238,8 +6249,101 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 
 ---
 
+Source: https://christopherabraham.com/services/ai-visibility/
+Updated: 2026-10-23
+
+# The answer on top is the new front door.
+
+Google's AI Overviews now appear for 88% of commercial searches, nearly double what they covered a year ago. Your customers meet an AI's version of your business before they ever reach your website. I make sure that answer names you, describes you correctly, and cites you—and then I prove it, monthly, in writing.
+
+## The problem, plainly
+
+Search used to be a list of links. Now it's an answer, written by a machine, assembled from whatever the machine could find, verify, and trust about you. If your name, address, services, and facts are scattered or inconsistent, the answer names your competitor instead. Review searches—"best," "near me," "which one should I pick"—moved furthest of all. That is the exact moment a customer chooses.
+
+You don't get to opt out of being summarized. You only get to choose whether the summary is accurate.
+
+## What I do
+
+### 1. AI Visibility Audit—$750 flat
+
+I check where your business appears, and where it doesn't, across Google AI Overviews, ChatGPT, Perplexity, and Gemini, for the searches that actually bring you money. I record what the AI answers say about you: right, wrong, or your competitor's name. I check your entity and name-address-phone consistency across your website, your Google Business Profile, and the directories. You get a written report with the fix list in priority order.
+
+No retainer. No vague deliverable. A document you can hand to anyone.
+
+### 2. The Claim Sprint—$1,500 flat
+
+The audit tells you what's broken. The sprint fixes the layer that fixes it:
+- Technical foundation: full crawl, Search Console review, titles and metas, broken links and redirects
+- The claim layer: entity schema with sameAs links, an llms.txt file, a canonical "what is this business" page, and FAQ schema, so the machines can quote you instead of guessing at you
+
+One honest note: I am an SEO, not a web developer. Anything that belongs in a developer's hands comes back to you as a precise, written fix list your developer can execute without a meeting.
+
+### 3. AI Presence, Measured—$500/month
+
+AI answers drift. Competitors publish, directories change, and the answer that named you in March may name someone else in June. Every month I re-run your money-query set across Google AI Overviews, ChatGPT, and Perplexity, and you get a written receipt: what changed, what the answers say now, and what gets fixed next.
+
+## Proof this is already working
+- A multi-location fireworks retailer has AI-answer presence measurement built into its engagement: a baseline first, then measured monthly across Google Search, Maps, ChatGPT, and Perplexity.
+- A therapy practice received the full audit treatment: entity and name-address-phone consistency checked against everything the AI systems read.
+- A media company's engagement included the claim layer itself: entity schema, llms.txt, a canonical explainer page, and an AI-presence baseline.
+- The audit has already sold at this price as a pilot for a communications firm. The price is the price because it has been paid.
+
+## How it works
+1. **Book a call.** Thirty minutes: [book a 30 minute call](https://calendly.com/chrisabraham/30). Bring your website and the searches you wish you won.
+2. **Get the audit.** A written report, in priority order, that you own outright.
+3. **Decide.** Run the sprint with me, hand the fix list to your own people, or put the measurement on monthly. No lock-in either way. Money and commitments in writing, always.
+
+The answer on top of Google is being written about your business today, with or without you. Make it yours.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30)
+
+Updated October 23, 2026
+
+
+---
+
+Source: https://christopherabraham.com/the-machine-answers-first/
+Updated: 2026-10-23
+
+# The Machine Answers First Now
+
+*A field note from the SEO work*
+
+I have done search work long enough to remember when the whole job was ten blue links and an argument about their order. That world is gone, and I do not think it is coming back. When somebody searches for a business like yours now, the first thing they meet is not a list. It is a paragraph, written by a machine, in a confident tone, before a single link appears.
+
+The numbers caught up with what I was already seeing. Search Engine Land, reporting Semrush's tracking, puts it plainly: Google's AI Overviews appeared for 88% of the commercial keywords Semrush tracked in August 2026. That is nearly double the share those answers held in September 2025. In the space of a year, the machine's answer went from an experiment to the front of the line.
+
+## What I keep seeing in the work
+
+The answer on top is assembled, not written. The machine gathers what it can find about a business—its website, its Google Business Profile, its directory listings, reviews, stray mentions—and it trusts whatever agrees with itself. Then it summarizes. Here is what that looks like from where I sit:
+
+A multi-location retailer I work with needs to be the named answer in four different towns, for four different stores, and the facts for those stores have to be right town by town. A therapy practice I audited had its name, address, and phone number disagreeing with each other across the very sources the machines read first, so the machines hedged, and hedging means somebody else gets named. A media company found that its own name was being patiently explained to the world by everyone except the company itself.
+
+Notice what is missing from that list: bad websites. The websites were mostly fine. The problem is that a business no longer speaks with one voice in one place. It speaks in fragments, scattered across a decade of listings, profiles, and pages, and the machine is the first reader who ever tried to hear all of it at once. It believes the fragments that agree. It discards the ones that don't. Sometimes the fragment it discards is your phone number.
+
+## You do not get to opt out of being summarized
+
+Owners tell me they want nothing to do with AI. I understand the sentiment, and it changes nothing. The AI does them. The answer about their business exists today, in production, in front of their customers, whether or not anyone at the business has ever read it. Being summarized is no longer a strategy decision. It is a condition of being findable at all.
+
+The only choice on the table is whether the summary is accurate—whether it names you, describes what you actually do, and cites your pages as the source. That is a choice you make by tending the record, or one that gets made for you by whoever's record is tidier.
+
+## Claim it, then measure it
+
+The fix is unglamorous, which is how you know it is real. First, you claim your entity: one canonical account of what the business is, stated on your own site, tied together with entity schema and sameAs links, an llms.txt file for the machines that read those, and a page that answers "what is this business" so plainly that a summarizer can quote it instead of improvising. Second, you fix the disagreements: the listings, the profile, and the site telling one story. Third—and this is the part almost nobody does—you measure. AI answers drift. A competitor publishes, a directory changes, and the answer that named you in the spring names someone else by summer. So the money questions get re-asked every month, and the changes get written down.
+
+That is the work I sell, and I sell it in pieces so you can stop wherever it stops making sense: an AI Visibility Audit for $750 that tells you exactly what the answers say about you today, a Claim Sprint for $1,500 that fixes the layer underneath, and AI Presence, Measured at $500 a month for the receipt that keeps it true.
+
+## Let's have a chat about it
+
+If you have never actually read what the machine says about your business, you are flying on instruments somebody else set. Let's have a chat about it. I can help. Thirty minutes, bring your website and the searches you wish you won: [book a 30 minute call](https://calendly.com/chrisabraham/30).
+
+Updated October 23, 2026
+
+
+---
+
 Source: https://christopherabraham.com/sitemap/
-Updated: 2026-10-20
+Updated: 2026-10-23
 
 # Site map
 
@@ -6274,6 +6378,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Schema markup and entity SEO](https://christopherabraham.com/services/schema/): Structured data that validates, matches the visible page, and connects your organization, people, products, and locations as entities for Google and AI.
 - [On-page SEO](https://christopherabraham.com/services/on-page-seo/): On page SEO fixed at the template level: titles and meta descriptions, headings, internal links, thin and duplicate pages, and carefully edited AI drafts.
 - [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/): SEO articles drafted with AI from your own material, written to your voice rules, then checked claim by claim against sources before anything is published.
+- [The answer on top is the new front door.](https://christopherabraham.com/services/ai-visibility/): AI answers now top 88% of commercial searches. I audit what they say about your business, fix the claim layer underneath, and measure it monthly, in writing.
 
 ## Platforms, local, and ongoing work
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): WordPress SEO done carefully: Yoast and Rank Math settings, theme and plugin conflicts, page builder bloat, caching, and old installs that need a steady hand.
@@ -6356,17 +6461,17 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 20, 2026
+Updated October 23, 2026
 
 
 ---
 
 Source: https://christopherabraham.com/site-index/
-Updated: 2026-10-20
+Updated: 2026-10-23
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 551 headings across 94 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 551 headings across 96 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -7513,4 +7618,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated October 20, 2026
+Updated October 23, 2026

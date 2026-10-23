@@ -81,6 +81,9 @@ ISLAND = [r"(?i)gerris", r"(?i)gerriscorp", r"(?i)hillmole", r"(?i)hill mole",
 SIBLING = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "gerris")
 FILES += ["services/inquiry-path-audit", "guides/test-website-inquiries"]
 SERVICE_GROUPS[0][1].append("services/inquiry-path-audit/")
+# Additional service and article, October 23, 2026.
+FILES += ["services/ai-visibility", "the-machine-answers-first"]
+SERVICE_GROUPS[1][1].append("services/ai-visibility/")
 
 MIN_WORDS = {"guide": 700, "service": 450, "case": 250, "page": 250}
 TODAY = datetime.date.today().isoformat()
