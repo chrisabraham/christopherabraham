@@ -30,23 +30,63 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Register the October 23 pages in tools/build.py
+      - name: Prepare the October 23 publish
         run: |
           python3 - <<'EOF'
           import io
-          p = 'tools/build.py'
-          s = io.open(p, encoding='utf-8').read()
-          if 'services/ai-visibility' in s:
-              print('new pages already registered, skipping')
-          else:
+
+          def patch(path, old, new, why):
+              s = io.open(path, encoding="utf-8").read()
+              if old not in s:
+                  assert new in s, (path, "neither old nor new text found")
+                  print(path + ": already patched (" + why + ")")
+                  return
+              assert s.count(old) == 1, (path, "anchor is not unique")
+              io.open(path, "w", encoding="utf-8").write(s.replace(old, new))
+              print(path + ": patched (" + why + ")")
+
+          # 1. Register the new pages in tools/build.py, following the
+          # existing convention for added pages.
+          p = "tools/build.py"
+          s = io.open(p, encoding="utf-8").read()
+          if "services/ai-visibility" not in s:
               anchor = 'SERVICE_GROUPS[0][1].append("services/inquiry-path-audit/")'
-              assert s.count(anchor) == 1, 'anchor for new FILES entries not found'
+              assert s.count(anchor) == 1, "FILES anchor not found"
               add = (anchor
-                     + '\n# Additional service and article, October 23, 2026.'
+                     + "\n# Additional service and article, October 23, 2026."
                      + '\nFILES += ["services/ai-visibility", "the-machine-answers-first"]'
                      + '\nSERVICE_GROUPS[1][1].append("services/ai-visibility/")')
-              io.open(p, 'w', encoding='utf-8').write(s.replace(anchor, add))
-              print('registered services/ai-visibility and the-machine-answers-first')
+              io.open(p, "w", encoding="utf-8").write(s.replace(anchor, add))
+              print("tools/build.py: new pages registered")
+          else:
+              print("tools/build.py: pages already registered")
+
+          # 2. House rule: link text must say something on its own, so no
+          # bare URLs as link text. Use the site's {calendly} placeholder
+          # with descriptive text, as src/hire-me.html does.
+          patch("src/services/ai-visibility.html",
+                '<a href="https://calendly.com/chrisabraham/30">https://calendly.com/chrisabraham/30</a>',
+                '<a href="{calendly}">book a 30 minute call</a>',
+                "calendly link text")
+          patch("src/services/ai-visibility.html",
+                '<a class="button" href="https://calendly.com/chrisabraham/30">Book the call: https://calendly.com/chrisabraham/30</a>',
+                '<a class="button" href="{calendly}">Book a 30 minute call</a>',
+                "calendly button text")
+          patch("src/the-machine-answers-first.html",
+                ': <a href="https://calendly.com/chrisabraham/30">https://calendly.com/chrisabraham/30</a></p>',
+                ': <a href="{calendly}">book a 30 minute call</a>.</p>',
+                "calendly link text")
+
+          # 3. Island rule: the name "Hill Mole" may not appear anywhere.
+          # Reword the two existing mentions (services index, about) to comply.
+          patch("src/services/index.html",
+                "That is how I moved Hill Mole, my own novel's site, off legacy hosting and onto GitHub Pages.",
+                "That is how I moved my own novel's site off legacy hosting and onto GitHub Pages.",
+                "island rule")
+          patch("src/about.html",
+                "then replicate it on GitHub Pages, the way I moved Hill Mole.</p>",
+                "then replicate it on GitHub Pages, the way I moved my novel's site.</p>",
+                "island rule")
           EOF
 
       - name: Build the site
