@@ -87,6 +87,18 @@ jobs:
                 "Hill Mole",
                 "my novel",
                 "island rule")
+
+          # 4. List the new service visibly on the services index (the
+          # visible list is hand-maintained in the source) and refresh
+          # the page's updated date.
+          patch("src/services/index.html",
+                '<li><a href="{root}services/ai-search/">AI SEO, GEO, and AEO</a>: how ChatGPT, Perplexity, Gemini, Claude, Copilot, and AI Overviews describe you, and how to improve it.</li>',
+                '<li><a href="{root}services/ai-search/">AI SEO, GEO, and AEO</a>: how ChatGPT, Perplexity, Gemini, Claude, Copilot, and AI Overviews describe you, and how to improve it.</li>\n<li><a href="{root}services/ai-visibility/">AI visibility</a>: audits of what the AI answers say about your business, the claim layer that fixes it, and monthly measurement.</li>',
+                "list the new service")
+          patch("src/services/index.html",
+                "updated: 2026-10-20",
+                "updated: 2026-10-23",
+                "refresh updated date")
           EOF
 
       - name: Build the site
