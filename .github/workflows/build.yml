@@ -84,8 +84,8 @@ jobs:
                 "That is how I moved my own novel's site off legacy hosting and onto GitHub Pages.",
                 "island rule")
           patch("src/about.html",
-                "then replicate it on GitHub Pages, the way I moved Hill Mole.</p>",
-                "then replicate it on GitHub Pages, the way I moved my novel's site.</p>",
+                "Hill Mole",
+                "my novel",
                 "island rule")
           EOF
 
