@@ -1,6 +1,6 @@
 > SEO and website services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
 >
-> Source: https://christopherabraham.com/services/ · Updated 2026-10-20 · By Christopher Abraham
+> Source: https://christopherabraham.com/services/ · Updated 2026-10-23 · By Christopher Abraham
 
 # SEO services
 
@@ -20,6 +20,7 @@ Every service starts from the same place: find out what search engines and AI sy
 
 ## AI search, schema, and content
 - [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/): how ChatGPT, Perplexity, Gemini, Claude, Copilot, and AI Overviews describe you, and how to improve it.
+- [AI visibility](https://christopherabraham.com/services/ai-visibility/): audits of what the AI answers say about your business, the claim layer that fixes it, and monthly measurement.
 - [Schema markup and entity SEO](https://christopherabraham.com/services/schema/): JSON-LD that validates, matches the page, and tells machines who you are.
 - [On-page SEO](https://christopherabraham.com/services/on-page-seo/): titles, descriptions, headings, internal links, and thin or duplicate pages.
 - [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/): drafted from your own material in your voice, then checked claim by claim against sources.
@@ -45,4 +46,4 @@ Site rescue and migration: if your site is stranded on an old platform or a host
 
 Around the platforms: Cloudflare, GitHub Pages, and DigitalOcean; Google Search Console, Bing Webmaster Tools, GA4, and Google Tag Manager; Screaming Frog, Semrush, PageSpeed Insights, and the Rich Results Test; and Basecamp and Todoist to run the work.
 
-Updated October 20, 2026
+Updated October 23, 2026
