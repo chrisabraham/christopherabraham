@@ -83,6 +83,8 @@ FILES += ["services/inquiry-path-audit", "guides/test-website-inquiries"]
 SERVICE_GROUPS[0][1].append("services/inquiry-path-audit/")
 # Additional service and article, October 23, 2026.
 FILES += ["services/ai-visibility", "the-machine-answers-first"]
+# Additional guide, October 24, 2026.
+FILES += ["guides/gbp-performance-reports"]
 SERVICE_GROUPS[1][1].append("services/ai-visibility/")
 
 MIN_WORDS = {"guide": 700, "service": 450, "case": 250, "page": 250}

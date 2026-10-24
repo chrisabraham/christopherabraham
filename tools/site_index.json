@@ -2783,7 +2783,8 @@
     "guides/holiday-hours",
     "case-studies/profile-reinstated",
     "case-studies/training-gym",
-    "about/skills"
+    "about/skills",
+    "guides/gbp-performance-reports"
    ],
    "subs": {
     "suspensions and appeals": [
@@ -7353,6 +7354,41 @@
    "main": [
     "guides/show-notes-cascade"
    ]
+  },
+  "GBP performance reports": {
+   "kind": "topic",
+   "pages": [
+    "guides/gbp-performance-reports"
+   ],
+   "subs": {
+    "overview recommendations": [
+     "guides/gbp-performance-reports"
+    ],
+    "engagement": [
+     "guides/gbp-performance-reports"
+    ],
+    "reviews in detail": [
+     "guides/gbp-performance-reports"
+    ],
+    "audience": [
+     "guides/gbp-performance-reports"
+    ],
+    "search trends": [
+     "guides/gbp-performance-reports"
+    ],
+    "monthly reading routine": [
+     "guides/gbp-performance-reports"
+    ],
+    "reading mistakes": [
+     "guides/gbp-performance-reports"
+    ]
+   },
+   "see": [
+    "Google Business Profile"
+   ],
+   "main": [
+    "guides/gbp-performance-reports"
+   ]
   }
  },
  "reviewed": [
@@ -7450,6 +7486,7 @@
   "guides/media-migration",
   "services/inquiry-path-audit",
   "guides/test-website-inquiries",
-  "guides/show-notes-cascade"
+  "guides/show-notes-cascade",
+  "guides/gbp-performance-reports"
  ]
 }
