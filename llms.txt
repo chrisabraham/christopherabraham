@@ -84,6 +84,7 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 - [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/index.md): Build useful paths through your existing pages with contextual links, clear anchor text, working section targets, and an internal linking worksheet.
 - [Moving a website? Check its images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/index.md): Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.
 - [Your website form says success. Did anyone get the inquiry?](https://christopherabraham.com/guides/test-website-inquiries/index.md): Trace a test inquiry from landing page to form, confirmation, inbox, and reporting. Find delivery failures and false conversion counts before buying traffic.
+- [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/index.md): Google is testing a rebuilt Performance section for Business Profiles. How to read each new report, Overview first, and what the numbers mean.
 
 ## About and working together
 

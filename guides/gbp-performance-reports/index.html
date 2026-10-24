@@ -1,0 +1,930 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reading the new Google Business Profile performance reports</title>
+<meta name="description" content="Google is testing a rebuilt Performance section for Business Profiles. How to read each new report, Overview first, and what the numbers mean.">
+<meta name="keywords" content="Google Business Profile, GBP performance reports, performance dashboard, local SEO reporting, profile analytics">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://christopherabraham.com/guides/gbp-performance-reports/">
+<meta name="author" content="Christopher Abraham">
+<link rel="icon" href="../../logo.png" type="image/png">
+<link rel="apple-touch-icon" href="../../logo.png">
+<link rel="manifest" href="../../manifest.webmanifest">
+<link rel="alternate" type="text/markdown" title="This page as Markdown" href="index.md">
+<link rel="alternate" type="application/rss+xml" title="SEO guides (RSS)" href="../../rss.xml">
+<link rel="alternate" type="application/atom+xml" title="SEO guides by Christopher Abraham" href="../../feed.xml">
+<link rel="alternate" type="text/plain" title="llms.txt" href="../../llms.txt">
+<link rel="sitemap" type="application/xml" href="../../sitemap.xml">
+<meta name="theme-color" content="#ffffff">
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'granted'});
+  gtag('consent', 'default', {analytics_storage: 'denied', region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"]});
+  // Global Privacy Control or Do Not Track turns analytics cookies off anywhere.
+  if (navigator.globalPrivacyControl === true || navigator.doNotTrack === '1') gtag('consent', 'default', {analytics_storage: 'denied'});
+  gtag('js', new Date());
+  gtag('config', 'G-F0GTJ4N9X6', {allow_google_signals: false, allow_ad_personalization_signals: false});
+  (function () {
+    // gtag.js loads on the first scroll, tap, or key, or 4 seconds after the page loads,
+    // so it never competes with the page itself. The commands above wait in dataLayer.
+    var done = false;
+    function load() {
+      if (done) return;
+      done = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-F0GTJ4N9X6';
+      document.head.appendChild(s);
+    }
+    ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (e) { addEventListener(e, load, {once: true, passive: true}); });
+    addEventListener('load', function () { setTimeout(load, 4000); });
+  })();
+</script>
+<script type="speculationrules">{"prefetch": [{"where": {"and": [{"href_matches": "/*"}, {"not": {"href_matches": ["/*.md", "/*.txt", "/*.xml"]}}]}, "eagerness": "moderate"}]}</script>
+<link rel="me" href="https://mastodon.social/@chrisa">
+<link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+<meta property="og:site_name" content="Christopher Abraham">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Reading the new Google Business Profile performance reports">
+<meta property="og:description" content="Google is testing a rebuilt Performance section for Business Profiles. How to read each new report, Overview first, and what the numbers mean.">
+<meta property="og:url" content="https://christopherabraham.com/guides/gbp-performance-reports/">
+<meta property="og:image" content="https://christopherabraham.com/cards/guides-gbp-performance-reports.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Reading the new Google Business Profile performance reports">
+<meta property="article:published_time" content="2026-10-24">
+<meta property="article:modified_time" content="2026-10-24">
+<meta property="article:author" content="https://christopherabraham.com/about/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Reading the new Google Business Profile performance reports">
+<meta name="twitter:description" content="Google is testing a rebuilt Performance section for Business Profiles. How to read each new report, Overview first, and what the numbers mean.">
+<meta name="twitter:image" content="https://christopherabraham.com/cards/guides-gbp-performance-reports.png">
+<meta name="twitter:image:alt" content="Reading the new Google Business Profile performance reports">
+<style>
+:root { --orange: #c75000; --blue: #16729e; --teal: #237482; --text: #000; --muted: #333; --link: #284a57; --tab: #8cacbb; --bar: #dee7ec; --rule: #c8d3d8; --bg: #fff; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { margin: 0; color: var(--text); background: var(--bg); font: 18px/1.65 Verdana, "Lucida Grande", Lucida, "DejaVu Sans", Helvetica, Arial, sans-serif; }
+.wrap { max-width: 46rem; margin: 0 auto; padding: 0 1rem; }
+a { color: var(--link); text-decoration: underline; text-underline-offset: .15em; overflow-wrap: anywhere; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid #000; outline-offset: 2px; }
+img { max-width: 100%; height: auto; }
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 1rem; top: .5rem; background: #fff; padding: .5rem; z-index: 1; }
+.top { display: flex; align-items: center; gap: .9rem; padding: 1.25rem 0 .9rem; }
+.top > a { flex: none; line-height: 0; }
+.top img { width: 64px; height: 64px; max-width: none; }
+.brand { font-size: 1.6rem; font-weight: bold; color: var(--orange); text-decoration: none; }
+.brand:hover { text-decoration: underline; }
+.tag { margin: 0; color: var(--muted); font-size: .95rem; line-height: 1.4; }
+nav.tabs { border-bottom: 4px solid var(--bar); }
+nav.tabs ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .3rem; }
+nav.tabs li { margin: 0; }
+nav.tabs a { display: block; padding: .4rem .7rem; border: 1px solid var(--tab); border-bottom: none; text-decoration: none; font-size: .9rem; white-space: nowrap; }
+nav.tabs a:hover { background: var(--bar); text-decoration: underline; }
+nav.tabs a[aria-current] { background: var(--bar); color: #000; font-weight: bold; }
+.crumbs { font-size: .9rem; margin: 1rem 0 0; color: var(--muted); }
+.crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; }
+.crumbs li { margin: 0; }
+.crumbs li + li::before { content: "›"; padding: 0 .4em; }
+blockquote { margin: 0 0 1rem; padding: .25rem 0 .25rem 1rem; border-left: 4px solid var(--tab); }
+blockquote p:last-child { color: var(--muted); font-size: .9rem; }
+main { padding: 1.25rem 0 2rem; }
+h1 { color: var(--blue); font-size: 1.4rem; line-height: 1.25; margin: .25rem 0 1rem; }
+h2 { color: var(--teal); font-size: 1.3rem; line-height: 1.3; margin: 2rem 0 .5rem; }
+h3 { font-size: 1.08rem; line-height: 1.35; margin: 1.5rem 0 .4rem; }
+p, ul, ol, dl, table { margin: 0 0 1rem; }
+li { margin-bottom: .4rem; }
+.lead { font-size: 1.1rem; }
+.byline { color: var(--muted); font-size: .9rem; margin-top: -.5rem; }
+.updated { color: var(--muted); font-size: .9rem; margin-top: 2rem; }
+code { font-family: Consolas, Menlo, monospace; font-size: .92em; background: #f2f5f7; padding: 0 .2em; }
+pre { background: #f2f5f7; padding: .75rem; overflow-x: auto; font-size: .9rem; line-height: 1.45; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+th, td { border: 1px solid var(--rule); padding: .4rem .55rem; text-align: left; vertical-align: top; }
+th { background: var(--bar); }
+dt { font-weight: bold; margin-top: 1rem; }
+dd { margin: .2rem 0 0 0; }
+.portrait { float: right; width: 160px; height: 160px; margin: .25rem 0 1rem 1.25rem; border: 1px solid var(--rule); }
+.button { display: inline-block; margin: 0 .5rem .6rem 0; padding: .6rem 1.1rem; border: 2px solid var(--link); background: var(--bar); color: #000; font-weight: bold; text-decoration: none; }
+.button:hover { text-decoration: underline; }
+.author-box { display: flex; gap: 1rem; align-items: flex-start; border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: 1rem; font-size: .95rem; }
+.author-box img { width: 72px; height: 72px; flex: none; border: 1px solid var(--rule); }
+.author-box p { margin: 0; }
+.help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
+.help-box h2 { margin-top: .75rem; }
+.related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
+.contact li { margin-bottom: .6rem; }
+.index-letters { position: sticky; top: 0; z-index: 1; background: var(--bg); border-bottom: 1px solid var(--rule); margin: 0 0 1rem; }
+.index-letters p { margin: 0; padding: .35rem 0; font-size: 1.05rem; display: flex; flex-wrap: wrap; gap: .1rem .2rem; }
+.index-letters a, .index-letters span { display: inline-block; min-width: 1.9rem; min-height: 1.9rem; line-height: 1.9rem; text-align: center; }
+.index-letters .index-empty { color: #767676; }
+.index-top { font-size: .9rem; margin: -.4rem 0 1.25rem; }
+[id^="ix-"] { scroll-margin-top: 4.5rem; }
+ul.site-index { list-style: none; padding: 0; }
+ul.site-index > li { margin-bottom: .35rem; padding-left: 1.5rem; text-indent: -1.5rem; }
+ul.site-index ul { list-style: none; padding-left: 1.5rem; margin: .15rem 0 .3rem; }
+ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1rem; }
+.site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
+.site-footer p { margin: 0 0 .4rem; text-wrap: balance; }
+.site-footer a { white-space: nowrap; }
+@media (max-width: 34rem) {
+  body { font-size: 17px; }
+  .top img { width: 52px; height: 52px; }
+  nav.tabs a { padding: .45rem .55rem; }
+  h1 { font-size: 1.25rem; }
+  .portrait { width: 112px; height: 112px; margin-left: 1rem; }
+}
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://christopherabraham.com/#website",
+   "url": "https://christopherabraham.com/",
+   "name": "Christopher Abraham",
+   "inLanguage": "en-US",
+   "publisher": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "publishingPrinciples": "https://christopherabraham.com/about/editorial-policy/"
+  },
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://christopherabraham.com/#service-business",
+   "name": "Christopher Abraham, SEO consultant",
+   "url": "https://christopherabraham.com/",
+   "logo": "https://christopherabraham.com/logo.png",
+   "image": "https://christopherabraham.com/social-card.png",
+   "description": "Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.",
+   "founder": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "employee": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "slogan": "Senior SEO help, from the person who does the work",
+   "email": "cja@well.com",
+   "telephone": "+1-202-352-5051",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+   },
+   "location": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.86,
+    "longitude": -77.1
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Arlington, Virginia"
+    },
+    {
+     "@type": "City",
+     "name": "Alexandria, Virginia"
+    },
+    {
+     "@type": "City",
+     "name": "Washington, District of Columbia"
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Washington, DC metropolitan area"
+    },
+    {
+     "@type": "State",
+     "name": "Virginia",
+     "containedInPlace": {
+      "@type": "Country",
+      "name": "United States"
+     }
+    },
+    {
+     "@type": "Country",
+     "name": "United States",
+     "identifier": "US"
+    },
+    {
+     "@type": "Country",
+     "name": "Canada",
+     "identifier": "CA"
+    },
+    {
+     "@type": "Country",
+     "name": "United Kingdom",
+     "identifier": "GB"
+    },
+    {
+     "@type": "Country",
+     "name": "Ireland",
+     "identifier": "IE"
+    },
+    {
+     "@type": "Country",
+     "name": "Australia",
+     "identifier": "AU"
+    },
+    {
+     "@type": "Country",
+     "name": "New Zealand",
+     "identifier": "NZ"
+    },
+    "Worldwide"
+   ],
+   "knowsLanguage": "en",
+   "knowsAbout": [
+    "Search engine optimization",
+    "Technical SEO",
+    "SEO audits",
+    "Indexing",
+    "Google Search Console",
+    "Bing Webmaster Tools",
+    "JavaScript SEO",
+    "Core Web Vitals",
+    "Cloudflare",
+    "Schema markup",
+    "Structured data",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "AI search",
+    "llms.txt",
+    "OpenAI Codex",
+    "Claude Code",
+    "GitHub Copilot",
+    "Gemini",
+    "Grok",
+    "Perplexity",
+    "301 redirects",
+    "Website migrations",
+    "WordPress",
+    "Yoast SEO",
+    "Rank Math",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Local SEO",
+    "Google Business Profile",
+    "Internal linking",
+    "Metadata"
+   ],
+   "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "value": 1
+   },
+   "contactPoint": [
+    {
+     "@type": "ContactPoint",
+     "contactType": "sales",
+     "email": "cja@well.com",
+     "telephone": "+1-202-352-5051",
+     "areaServed": [
+      "US",
+      "CA",
+      "GB",
+      "IE",
+      "AU",
+      "NZ"
+     ],
+     "availableLanguage": "English"
+    }
+   ],
+   "sameAs": [
+    "https://www.upwork.com/freelancers/chrisjabraham",
+    "https://www.linkedin.com/in/chrisabraham",
+    "https://share.google/xZ98ksFq3nhO2OvuF"
+   ],
+   "publishingPrinciples": "https://christopherabraham.com/about/editorial-policy/",
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "SEO services by Christopher Abraham",
+    "itemListElement": [
+     {
+      "@type": "OfferCatalog",
+      "name": "Technical SEO",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/sitewide-technical-seo/#service",
+         "name": "Sitewide technical SEO: crawl, trace, fix, recrawl",
+         "url": "https://christopherabraham.com/services/sitewide-technical-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-audit/#service",
+         "name": "Technical SEO audit",
+         "url": "https://christopherabraham.com/services/seo-audit/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/indexing/#service",
+         "name": "Indexing repair",
+         "url": "https://christopherabraham.com/services/indexing/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/javascript-seo/#service",
+         "name": "JavaScript and headless SEO",
+         "url": "https://christopherabraham.com/services/javascript-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/site-speed/#service",
+         "name": "Core Web Vitals and Cloudflare",
+         "url": "https://christopherabraham.com/services/site-speed/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/search-console/#service",
+         "name": "Search Console, Bing Webmaster Tools, and GA4",
+         "url": "https://christopherabraham.com/services/search-console/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/migrations/#service",
+         "name": "Site migrations and 301 redirects",
+         "url": "https://christopherabraham.com/services/migrations/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/internal-linking/#service",
+         "name": "Internal linking strategy: stitch your website together",
+         "url": "https://christopherabraham.com/services/internal-linking/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-release-qa/#service",
+         "name": "SEO release QA: check the change before it reaches every page",
+         "url": "https://christopherabraham.com/services/seo-release-qa/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/inquiry-path-audit/#service",
+         "name": "Website inquiry audits: find where contacts go missing",
+         "url": "https://christopherabraham.com/services/inquiry-path-audit/"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "AI search, schema, and content",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ai-search/#service",
+         "name": "AEO and GEO consulting for companies and agencies",
+         "url": "https://christopherabraham.com/services/ai-search/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/schema/#service",
+         "name": "Schema markup and entity SEO",
+         "url": "https://christopherabraham.com/services/schema/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/on-page-seo/#service",
+         "name": "On-page SEO",
+         "url": "https://christopherabraham.com/services/on-page-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/fact-checked-articles/#service",
+         "name": "Fact-checked articles written with AI",
+         "url": "https://christopherabraham.com/services/fact-checked-articles/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ai-visibility/#service",
+         "name": "The answer on top is the new front door.",
+         "url": "https://christopherabraham.com/services/ai-visibility/"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "Platforms, local, and ongoing work",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/wordpress-seo/#service",
+         "name": "WordPress SEO",
+         "url": "https://christopherabraham.com/services/wordpress-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/static-sites/#service",
+         "name": "Static websites built for search",
+         "url": "https://christopherabraham.com/services/static-sites/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/podcast-website/#service",
+         "name": "Podcast website SEO",
+         "url": "https://christopherabraham.com/services/podcast-website/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ecommerce-seo/#service",
+         "name": "Ecommerce SEO",
+         "url": "https://christopherabraham.com/services/ecommerce-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/local-seo/#service",
+         "name": "Local SEO and Google Business Profile",
+         "url": "https://christopherabraham.com/services/local-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-retainer/#service",
+         "name": "Monthly SEO retainer",
+         "url": "https://christopherabraham.com/services/seo-retainer/"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://christopherabraham.com/#person",
+   "name": "Christopher Abraham",
+   "givenName": "Christopher",
+   "additionalName": "James",
+   "familyName": "Abraham",
+   "alternateName": [
+    "Christopher James Abraham",
+    "Chris Abraham"
+   ],
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://christopherabraham.com/christopher-abraham.jpg",
+    "width": 225,
+    "height": 225,
+    "caption": "Christopher Abraham, SEO consultant"
+   },
+   "url": "https://christopherabraham.com/",
+   "jobTitle": "SEO consultant",
+   "worksFor": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "description": "Christopher Abraham is an independent SEO consultant in Arlington, Virginia, building websites since 1994 and doing SEO since 1998.",
+   "alumniOf": [
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "The George Washington University",
+     "sameAs": "https://en.wikipedia.org/wiki/George_Washington_University"
+    },
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "University of East Anglia",
+     "sameAs": "https://en.wikipedia.org/wiki/University_of_East_Anglia"
+    },
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "University of Hawaiʻi at Mānoa"
+    },
+    {
+     "@type": "EducationalOrganization",
+     "name": "Goethe-Institut"
+    },
+    {
+     "@type": "HighSchool",
+     "name": "Saint Louis School, Honolulu"
+    },
+    {
+     "@type": "ElementarySchool",
+     "name": "Aliamanu Elementary School, Honolulu"
+    }
+   ],
+   "affiliation": [
+    {
+     "@type": "Organization",
+     "name": "Meritus Media",
+     "url": "https://meritusmedia.com/",
+     "description": "Digital PR and marketing agency"
+    },
+    {
+     "@type": "Organization",
+     "name": "Stainless Communications",
+     "url": "https://stainlesscommunications.com/",
+     "description": "Senior-led brand, PR, web, and growth firm"
+    }
+   ],
+   "memberOf": [
+    {
+     "@type": "Organization",
+     "name": "Naval Lodge No. 4, F.A.A.M.",
+     "description": "Masonic lodge on Capitol Hill, Washington, DC, chartered 1805"
+    },
+    {
+     "@type": "Organization",
+     "name": "Scottish Rite of Freemasonry, Southern Jurisdiction",
+     "description": "32nd degree"
+    },
+    {
+     "@type": "Organization",
+     "name": "Phi Kappa Psi, DC Alpha chapter",
+     "description": "Founding father"
+    },
+    {
+     "@type": "Organization",
+     "name": "The WELL",
+     "url": "https://www.well.com/"
+    }
+   ],
+   "award": [
+    "Top Rated on Upwork"
+   ],
+   "homeLocation": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "workLocation": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "nationality": {
+    "@type": "Country",
+    "name": "United States"
+   },
+   "knowsLanguage": "en",
+   "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SEO consultant",
+    "occupationLocation": {
+     "@type": "Country",
+     "name": "United States"
+    },
+    "skills": "Technical SEO, indexing, Google Search Console, schema, Core Web Vitals, migrations, AI search, OpenAI Codex, Claude Code, GitHub Copilot"
+   },
+   "knowsAbout": [
+    "Search engine optimization",
+    "Technical SEO",
+    "SEO audits",
+    "Indexing",
+    "Google Search Console",
+    "Bing Webmaster Tools",
+    "JavaScript SEO",
+    "Core Web Vitals",
+    "Cloudflare",
+    "Schema markup",
+    "Structured data",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "AI search",
+    "llms.txt",
+    "OpenAI Codex",
+    "Claude Code",
+    "GitHub Copilot",
+    "Gemini",
+    "Grok",
+    "Perplexity",
+    "301 redirects",
+    "Website migrations",
+    "WordPress",
+    "Yoast SEO",
+    "Rank Math",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Local SEO",
+    "Google Business Profile",
+    "Internal linking",
+    "Metadata"
+   ],
+   "email": "cja@well.com",
+   "telephone": "+1-202-352-5051",
+   "sameAs": [
+    "https://www.upwork.com/freelancers/chrisjabraham",
+    "https://www.linkedin.com/in/chrisabraham",
+    "https://chrisabraham.com/",
+    "https://biznology.com/author/chrisabraham/",
+    "https://www.huffpost.com/author/chris-abraham",
+    "https://muckrack.com/chrisabraham",
+    "https://rheingold.com/Associates/team_abraham.html",
+    "https://www.reddit.com/user/chrisabraham/",
+    "https://mastodon.social/@chrisa",
+    "https://adage.com/author/chris-abraham/1797"
+   ]
+  },
+  {
+   "@type": "Place",
+   "@id": "https://christopherabraham.com/#place",
+   "name": "Arlington, Virginia",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.86,
+    "longitude": -77.1
+   },
+   "containedInPlace": {
+    "@type": "AdministrativeArea",
+    "name": "Arlington County, Virginia",
+    "containedInPlace": {
+     "@type": "State",
+     "name": "Virginia"
+    }
+   }
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://christopherabraham.com/guides/gbp-performance-reports/#webpage",
+   "url": "https://christopherabraham.com/guides/gbp-performance-reports/",
+   "name": "Reading the new Google Business Profile performance reports",
+   "description": "Google is testing a rebuilt Performance section for Business Profiles. How to read each new report, Overview first, and what the numbers mean.",
+   "isPartOf": {
+    "@id": "https://christopherabraham.com/#website"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "Google Business Profile"
+    },
+    {
+     "@type": "Thing",
+     "name": "GBP performance reports"
+    },
+    {
+     "@type": "Thing",
+     "name": "performance dashboard"
+    },
+    {
+     "@type": "Thing",
+     "name": "local SEO reporting"
+    },
+    {
+     "@type": "Thing",
+     "name": "profile analytics"
+    }
+   ],
+   "primaryImageOfPage": "https://christopherabraham.com/cards/guides-gbp-performance-reports.png",
+   "inLanguage": "en-US",
+   "dateModified": "2026-10-24",
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "keywords": "Google Business Profile, GBP performance reports, performance dashboard, local SEO reporting, profile analytics",
+   "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+     "h1",
+     ".lead"
+    ]
+   },
+   "potentialAction": {
+    "@type": "ReadAction",
+    "target": "https://christopherabraham.com/guides/gbp-performance-reports/"
+   },
+   "breadcrumb": {
+    "@id": "https://christopherabraham.com/guides/gbp-performance-reports/#breadcrumb"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://christopherabraham.com/guides/gbp-performance-reports/#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://christopherabraham.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Guides",
+     "item": "https://christopherabraham.com/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "GBP Performance Reports",
+     "item": "https://christopherabraham.com/guides/gbp-performance-reports/"
+    }
+   ]
+  },
+  {
+   "@type": "TechArticle",
+   "@id": "https://christopherabraham.com/guides/gbp-performance-reports/#article",
+   "headline": "Reading the new Google Business Profile performance reports",
+   "description": "Google is testing a rebuilt Performance section for Business Profiles. How to read each new report, Overview first, and what the numbers mean.",
+   "url": "https://christopherabraham.com/guides/gbp-performance-reports/",
+   "mainEntityOfPage": {
+    "@id": "https://christopherabraham.com/guides/gbp-performance-reports/#webpage"
+   },
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "publisher": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "datePublished": "2026-10-24",
+   "dateModified": "2026-10-24",
+   "image": "https://christopherabraham.com/cards/guides-gbp-performance-reports.png",
+   "inLanguage": "en-US",
+   "wordCount": 1639,
+   "citation": [],
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "Google Business Profile",
+     "sameAs": "https://en.wikipedia.org/wiki/Google_Business_Profile"
+    },
+    {
+     "@type": "Thing",
+     "name": "Google Search",
+     "sameAs": "https://en.wikipedia.org/wiki/Google_Search"
+    }
+   ],
+   "keywords": "Google Business Profile, GBP performance reports, performance dashboard, local SEO reporting, profile analytics"
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+<header class="top">
+  <a href="../../"><img src="../../logo-128.png" width="64" height="64" alt="Christopher Abraham home" fetchpriority="high"></a>
+  <div>
+    <a class="brand" href="../../">Christopher Abraham</a>
+    <p class="tag">SEO consultant: technical SEO, indexing, schema, and AI search</p>
+  </div>
+</header>
+<nav class="tabs" aria-label="Main">
+  <ul>
+    <li><a href="../../">Home</a></li>
+    <li><a href="../../services/">Services</a></li>
+    <li><a href="../../guides/" aria-current="true">Guides</a></li>
+    <li><a href="../../case-studies/">Case Studies</a></li>
+    <li><a href="../../about/">About</a></li>
+    <li><a href="../../hire-me/">Hire Me</a></li>
+    <li><a href="../../contact/">Contact</a></li>
+  </ul>
+</nav>
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../../guides/">Guides</a></li><li aria-current="page">GBP Performance Reports</li></ol></nav>
+<main id="main">
+<h1>Reading the new Google Business Profile performance reports</h1>
+<p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-24">October 24, 2026</time></p>
+<p class="lead">Google is testing a rebuilt Performance section inside Google Business Profile, with an Overview that leads with recommendations and separate sections for Engagement, Reviews, Audience, and Search trends. The test arrived about a day after Google launched its new Business Home portal, and it changes what an owner should look at first. I covered the announcement in <a href="https://chrisabraham.net/2026/10/google-rebuilds-the-scoreboard.html">my weblog post on the rebuilt scoreboard</a> and promised a full guide to reading the new reports. This is that guide, section by section, in the order I read them myself.</p>
+
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-first-check-whether-you-have-it">First, check whether you have it</a></li>
+    <li><a href="#section-overview-start-with-the-recommendations">Overview: start with the recommendations</a></li>
+    <li><a href="#section-engagement-actions-counted-honestly">Engagement: actions, counted honestly</a></li>
+    <li><a href="#section-reviews-read-below-the-star-rating">Reviews: read below the star rating</a></li>
+    <li><a href="#section-audience-who-is-finding-you">Audience: who is finding you</a></li>
+    <li><a href="#section-search-trends-the-customer-s-own-words">Search trends: the customer&#x27;s own words</a></li>
+    <li><a href="#section-falling-interactions-are-not-falling-demand">Falling interactions are not falling demand</a></li>
+    <li><a href="#section-a-monthly-routine-that-takes-twenty-minutes">A monthly routine that takes twenty minutes</a></li>
+    <li><a href="#section-mistakes-owners-make-with-the-old-reports">Mistakes owners make with the old reports</a></li>
+    <li><a href="#section-where-i-fit">Where I fit</a></li>
+  </ol>
+</details>
+
+<h2 id="section-first-check-whether-you-have-it" tabindex="-1">First, check whether you have it</h2>
+<p>Open your Business Profile and choose Performance. If the page opens with recommendations and the five new section names, your account is in the test and everything below applies to the screens in front of you. If it still shows the familiar single page of totals and charts, you are on the old reports and nothing is wrong with your account.</p>
+<p>The rollout is gradual and account by account. Search Engine Roundtable reported the test on October 23, 2026, after Jaikishan Raturi of Wisevu and Syed Amir shared screenshots and video of their accounts, and noted that Barry Schwartz did not yet have it in his own account that day. There is no setting to request and no form to submit. While you wait, capture one screenshot of your old totals as a baseline. Old and new figures may not line up neatly, and a saved baseline settles arguments that memory always loses.</p>
+
+<h2 id="section-overview-start-with-the-recommendations" tabindex="-1">Overview: start with the recommendations</h2>
+<p>The Overview is the summary screen, and its most useful addition sits at the top: a short list of recommendations drawn from your profile's completeness and recent performance. Read that list before any chart on the page. It is Google's own prioritised worklist for this profile, and it tells you what the platform currently thinks is unfinished, stale, or worth confirming.</p>
+<p>A new recommendation usually means one of two things: Google changed what it wants from profiles, or your details drifted out of date as hours, services, and attributes changed in the real business. A recommendation that disappears means the gap it named has closed. Work the list from the top, but verify every item against the business itself before accepting it. A recommendation is a prompt, not an order, and the owner who knows the shop floor outranks the algorithm's guess. Where a suggestion is wrong for your business, decline it and move on with a clear conscience.</p>
+
+<h2 id="section-engagement-actions-counted-honestly" tabindex="-1">Engagement: actions, counted honestly</h2>
+<p>Engagement gathers the actions people took from your profile: the calls, messages, direction requests, website visits, and bookings your listing produced. Look first at the direction of the totals across a whole quarter rather than any single week. Local demand moves with weather, holidays, school terms, and road works, and a quarter smooths most of that noise into a line you can actually read.</p>
+<p>A rise means more searchers reached the point of acting, which is the only point that pays. A fall means less until you have run the interpretation check two sections below, because some of those actions now happen somewhere else. Before blaming the market, compare each action against the channel that receives it. If calls fall, ring the number on your own profile and confirm it connects to the right desk. Broken plumbing hides inside report totals far more often than lost demand does, and it is cheaper to fix.</p>
+
+<h2 id="section-reviews-read-below-the-star-rating" tabindex="-1">Reviews: read below the star rating</h2>
+<p>The Reviews section breaks the detail out instead of compressing everything into one average: how many reviews arrived, how the ratings spread, and the words themselves, close enough to read in place. Look first at the distribution and the pace. Ten reviews carrying two furious outliers tell a different story than a smooth average suggests, and a steady trickle of recent reviews outweighs a proud total gathered years ago.</p>
+<p>Then read the text as field research. A cluster of new reviews after a menu change, a hire, or a remodel is your customers writing the changelog. Phrases that repeat across reviews are the phrases the next searcher will meet, so note them exactly. Answer every review briefly and without argument, especially the unfair ones, because the reply is written for the reader who comes after. Then fix the operational thing the complaints repeat. Owners tend to read reviews as reputation. Read them as the cheapest customer research you will ever be handed.</p>
+
+<h2 id="section-audience-who-is-finding-you" tabindex="-1">Audience: who is finding you</h2>
+<p>Audience gathers the people behind the views into one place, so you can see who the profile reaches instead of guessing from the totals. Look first for a match or a mismatch: whether the audience arriving looks like the customers you actually want to serve. A profile can be busy and wrong at the same time, and busy wrongness still costs you the hours spent answering it.</p>
+<p>A widening audience after a new service, a move, or a name change usually means the profile started matching new searches, which is growth you can plan around. A narrowing one can mean a competitor opened closer to your best customers, which is a different problem entirely. Hold the audience picture next to your service list and your service area. If strangers keep arriving for something you do not sell, your categories or services are promising it on your behalf. Correct the listing before you correct the customers.</p>
+
+<h2 id="section-search-trends-the-customer-s-own-words" tabindex="-1">Search trends: the customer's own words</h2>
+<p>Search trends shows the searches that led people to your profile and how those searches are moving over time. Look first at rising terms you did not plan for, and at your core money terms if they start slipping down the list. Both ends of that movement are instructions, one about what to add and one about what to defend.</p>
+<p>Searchers rename things before businesses do. When a trade term gives way to a plain phrase, the market is rewriting your signage in its own vocabulary, and the profile that answers in that vocabulary wins the next visit. Mirror the winning words in your services, your business description, and the local pages of your website, spelled the way customers spell them. Retire the phrases nobody types anymore, however fond the founder remains of them. Sentiment is not a search strategy.</p>
+
+<h2 id="section-falling-interactions-are-not-falling-demand" tabindex="-1">Falling interactions are not falling demand</h2>
+<p>The old reports trained owners to treat every interaction as demand arriving at the door. That link is weakening. AI answers now resolve questions that used to end with a tap on your profile: the hours, the price range, whether you stock the thing, whether people rate you well. The customer still buys. The tap just happens inside the answer instead, or never happens at all.</p>
+<p>An October 2026 analysis of three American florists found profile interactions down 26 percent year over year, with website clicks down 30 percent, calls down 21 percent, and direction requests down 15 percent, while the shops traded on. Three shops make a small sample, so treat those figures as a direction rather than a measurement of your market. Still, the direction matches what I see across accounts: when interactions fall while revenue holds, demand did not vanish. The answer moved upstream. Your job shifts from winning the tap to being the business the answer names, which is why I track <a href="../../guides/ai-share-of-voice/">AI share of voice</a> alongside these reports every month. Never judge a month by interactions alone again.</p>
+
+<h2 id="section-a-monthly-routine-that-takes-twenty-minutes" tabindex="-1">A monthly routine that takes twenty minutes</h2>
+<p>Pick one morning a month and give the reports twenty honest minutes, in this order. First, the Overview, clearing or consciously declining each recommendation. Second, Engagement, comparing the month with the month before and with the same month last year. Third, Reviews: the count, the average, the pace, and the three phrases customers repeated most. Fourth, Audience, in a single line about whether the people arriving are the people you want. Fifth, Search trends, choosing one rising term to adopt and one fading term to retire.</p>
+<p>Write those five lines down in the same place every month. Reports reward memory, and a profile read monthly for a year teaches more than any single deep dive performed in a panic. End the routine by choosing exactly one action for the month ahead. A reading that produces nine worries produces none of the fixes, and the reports will be there next month to grade the one you picked.</p>
+
+<h2 id="section-mistakes-owners-make-with-the-old-reports" tabindex="-1">Mistakes owners make with the old reports</h2>
+<p>Most of these will survive the redesign, so retire them now. Judging by days, and reading one rainy Tuesday as a trend. Comparing December with January and calling the difference decline. Chasing views, and celebrating impressions while calls and bookings quietly thin out. Treating a drop in calls as lost customers before checking the AI answers, the phone number, and the calendar for an explanation. Never capturing a baseline, so every redesign leaves the owner arguing with a memory. And reading the reports only when something already feels wrong, which guarantees the numbers arrive attached to a bad mood and get believed for the wrong reasons.</p>
+
+<h2 id="section-where-i-fit" tabindex="-1">Where I fit</h2>
+<p>Reading these reports well is judgement work, and it sits inside the <a href="../../services/local-seo/">local search work</a> I do for clients: profile upkeep, a steady review rhythm, and a monthly read of what Google and the AI answers are telling the market about a business. If the new layout has reached your account and you want the first read done properly, <a href="https://calendly.com/chrisabraham/30">book a thirty minute call on my calendar</a> and bring your Performance screen with you. I will read it with you from the top, and you will leave knowing which numbers deserve action and which deserve a shrug. If you would rather start in writing, <a href="../../contact/">write to me through the contact page</a> and tell me what your reports have been doing.</p>
+<aside class="help-box" aria-label="Get help">
+  <h2>Let me help you with this</h2>
+  <p>If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.</p>
+  <p><a class="button" href="https://calendly.com/chrisabraham/30">Book a 30 minute call</a> <a class="button" href="tel:+12023525051">Call +1 202-352-5051</a> <a class="button" href="mailto:cja@well.com">Email cja@well.com</a></p>
+  <p>Prefer to hire through Upwork? I'm <a href="https://www.upwork.com/freelancers/chrisjabraham">Top Rated there too</a>.</p>
+</aside>
+<aside class="author-box" aria-label="About the author">
+  <img src="../../christopher-abraham.jpg" width="72" height="72" alt="">
+  <p><strong><a href="../../about/">Christopher Abraham</a></strong> is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. <a href="../../about/editorial-policy/">How these pages are written</a> · <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a> · <a href="https://www.upwork.com/freelancers/chrisjabraham">Upwork</a></p>
+</aside>
+</main>
+<footer class="site-footer">
+  <p><a href="mailto:cja@well.com">cja@well.com</a>&nbsp;· <a href="tel:+12023525051">+1 202-352-5051</a>&nbsp;· <a href="https://calendly.com/chrisabraham/30">Book a call</a>&nbsp;· <a href="https://www.upwork.com/freelancers/chrisjabraham">Hire me on Upwork</a>&nbsp;· <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a></p>
+  <p>© 2026 Christopher Abraham, Arlington,&nbsp;Virginia&nbsp;· <a href="../../faq/">FAQ</a>&nbsp;· <a href="../../about/editorial-policy/">How I write</a>&nbsp;· <a href="../../privacy/">Privacy</a>&nbsp;· <a href="../../sitemap/">Site map</a>&nbsp;· <a href="../../site-index/">Index</a>&nbsp;· <a href="../../guides/glossary/">Glossary</a>&nbsp;· <a href="../../about/colophon/">Colophon</a>&nbsp;· <a href="../../llms.txt">llms.txt</a>&nbsp;· <a href="../../rss.xml">RSS</a></p>
+  <p>Unless a page says otherwise, everything I wrote or made here is free to reuse under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Credit me and link&nbsp;back.</p>
+</footer>
+</div>
+</body>
+</html>
