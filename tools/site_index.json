@@ -3791,7 +3791,8 @@
     "services/podcast-website",
     "guides",
     "guides/ai-search-checklist",
-    "guides/llms-txt"
+    "guides/llms-txt",
+    "guides/show-notes-cascade"
    ],
    "subs": {
     "format": [
@@ -7304,6 +7305,54 @@
    "main": [
     "guides/test-website-inquiries"
    ]
+  },
+  "show notes": {
+   "kind": "topic",
+   "pages": [
+    "guides/show-notes-cascade"
+   ],
+   "subs": {
+    "written for citation": [
+     "guides/show-notes-cascade"
+    ],
+    "front loading": [
+     "guides/show-notes-cascade"
+    ],
+    "the owned mirror site": [
+     "guides/show-notes-cascade"
+    ],
+    "position queries": [
+     "guides/show-notes-cascade"
+    ]
+   },
+   "see": [],
+   "main": [
+    "guides/show-notes-cascade"
+   ]
+  },
+  "podcast directories": {
+   "kind": "topic",
+   "pages": [
+    "guides/show-notes-cascade"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "guides/show-notes-cascade"
+   ]
+  },
+  "show notes cascade": {
+   "kind": "topic",
+   "pages": [
+    "guides/show-notes-cascade"
+   ],
+   "subs": {},
+   "see": [
+    "show notes"
+   ],
+   "main": [
+    "guides/show-notes-cascade"
+   ]
   }
  },
  "reviewed": [
@@ -7400,6 +7449,7 @@
   "guides/internal-linking",
   "guides/media-migration",
   "services/inquiry-path-audit",
-  "guides/test-website-inquiries"
+  "guides/test-website-inquiries",
+  "guides/show-notes-cascade"
  ]
 }
