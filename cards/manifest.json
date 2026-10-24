@@ -60,6 +60,7 @@
  "guides-seo-audit-deliverables": "c1|Guide|What a technical SEO audit should give you",
  "guides-seo-in-your-repository": "c1|Guide|Why your SEO should work in your Git repository, with AI at their side",
  "guides-seo-news-sources": "c1|Guide|Where to get reliable SEO and AI search news in 2026",
+ "guides-show-notes-cascade": "c1|Guide|The show notes cascade: podcasting as an AI search strategy",
  "guides-small-business-schema": "c1|Guide|The schema markup a small business actually needs",
  "guides-small-original-research": "c1|Guide|How to publish useful original research without a big budget",
  "guides-social-share-cards": "c1|Guide|Social share cards: Open Graph tags and images that fit",
@@ -73,6 +74,7 @@
  "privacy": "c1|christopherabraham.com|Privacy",
  "services": "c1|christopherabraham.com|SEO services",
  "services-ai-search": "c1|Service|AEO and GEO consulting for companies and agencies",
+ "services-ai-visibility": "c1|Service|The answer on top is the new front door.",
  "services-ecommerce-seo": "c1|Service|Ecommerce SEO",
  "services-fact-checked-articles": "c1|Service|Fact-checked articles written with AI",
  "services-indexing": "c1|Service|Indexing repair",
@@ -93,5 +95,6 @@
  "services-static-sites": "c1|Service|Static websites built for search",
  "services-wordpress-seo": "c1|Service|WordPress SEO",
  "site-index": "c1|christopherabraham.com|Index",
- "sitemap": "c1|christopherabraham.com|Site map"
+ "sitemap": "c1|christopherabraham.com|Site map",
+ "the-machine-answers-first": "c1|christopherabraham.com|The Machine Answers First Now"
 }

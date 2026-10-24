@@ -1,10 +1,10 @@
 > A back of the book index to christopherabraham.com: every person, tool, platform, and SEO problem the pages cover, listed A to Z with links to each page.
 >
-> Source: https://christopherabraham.com/site-index/ · Updated 2026-10-23 · By Christopher Abraham
+> Source: https://christopherabraham.com/site-index/ · Updated 2026-10-24 · By Christopher Abraham
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 551 headings across 96 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 554 headings across 97 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -620,7 +620,7 @@ People are listed surname first. Cross-references point to related headings. For
 - LiteSpeed Cache, [Site Speed](https://christopherabraham.com/services/site-speed/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
 - Little, Ginny, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - llms-full.txt, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
-- llms.txt, [AI Search](https://christopherabraham.com/services/ai-search/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Guides](https://christopherabraham.com/guides/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), **[llms.txt](https://christopherabraham.com/guides/llms-txt/)**
+- llms.txt, [AI Search](https://christopherabraham.com/services/ai-search/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Guides](https://christopherabraham.com/guides/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), **[llms.txt](https://christopherabraham.com/guides/llms-txt/)**, [The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)
   - format, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
   - Markdown copies of pages, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
   - mistakes, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
@@ -794,6 +794,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Plone, [About](https://christopherabraham.com/about/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Colophon](https://christopherabraham.com/about/colophon/)
 - PM2, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - PNI (Picture Network International), [About](https://christopherabraham.com/about/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
+- podcast directories, **[The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)**
 - podcast websites, [Services](https://christopherabraham.com/services/), [Static Websites](https://christopherabraham.com/services/static-sites/), **[Podcast Website SEO](https://christopherabraham.com/services/podcast-website/)**, [Social Share Cards](https://christopherabraham.com/guides/social-share-cards/), **[Podcast Site](https://christopherabraham.com/case-studies/podcast-site/)**
   - daily feed check, [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/)
   - owning the feed and audio, [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/)
@@ -929,6 +930,13 @@ People are listed surname first. Cross-references point to related headings. For
   - collection paths, [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)
   - duplicate product markup, [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)
 
+- show notes, **[The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)**
+  - front loading, [The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)
+  - position queries, [The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)
+  - the owned mirror site, [The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)
+  - written for citation, [The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)
+
+- show notes cascade, **[The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)**. *See also* [show notes](https://christopherabraham.com/site-index/#ix-show-notes)
 - single page applications, [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/), [Glossary](https://christopherabraham.com/guides/glossary/). *See also* [JavaScript SEO](https://christopherabraham.com/site-index/#ix-javascript-seo)
 - Site Kit by Google, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
 - site migrations, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), **[Migrations](https://christopherabraham.com/services/migrations/)**, [Static Websites](https://christopherabraham.com/services/static-sites/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/). *See also* [301 redirects](https://christopherabraham.com/site-index/#ix-301-redirects)
@@ -1151,4 +1159,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated October 23, 2026
+Updated October 24, 2026

@@ -5,8 +5,61 @@
   <link href="https://christopherabraham.com/feed.xml" rel="self"/>
   <link href="https://christopherabraham.com/guides/"/>
   <id>https://christopherabraham.com/guides/</id>
-  <updated>2026-10-20T12:00:00Z</updated>
+  <updated>2026-10-24T12:00:00Z</updated>
   <author><name>Christopher Abraham</name><uri>https://christopherabraham.com/about/</uri></author>
+  <entry>
+    <title>The show notes cascade: podcasting as an AI search strategy</title>
+    <link href="https://christopherabraham.com/guides/show-notes-cascade/"/>
+    <id>https://christopherabraham.com/guides/show-notes-cascade/</id>
+    <published>2026-10-24T12:00:00Z</published>
+    <updated>2026-10-24T12:00:00Z</updated>
+    <summary>Every podcast episode publishes its show notes into hundreds of trusted directories, and AI answers cite those copies. How to write notes that get quoted.</summary>
+    <content type="html">&lt;h1&gt;The show notes cascade: podcasting as an AI search strategy&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-24"&gt;October 24, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;Most podcasters treat show notes as a courtesy, a few lines typed after the episode is edited and forgotten by morning. I treat them as the most widely republished writing I do. Every episode I release copies its notes, word for word, onto hundreds of podcast indexes and directories, each one a page on a domain that search engines and AI assistants already trust. When someone later asks a machine about my subject, the answer often comes back built from sentences I wrote once, in a notes field, months earlier.&lt;/p&gt;
+
+&lt;h2&gt;How the cascade works&lt;/h2&gt;
+&lt;p&gt;A podcast is distributed by a feed, and the feed is promiscuous. Apple Podcasts, Spotify, Podcast Index, Pocket Casts, Castbox, TuneIn, Podcast Addict, and a long tail of smaller directories and apps all read the same feed and republish what it carries: the episode title, the audio, and the full text of the show notes. Nothing about this requires outreach, pitching, or a link building campaign. Syndication is simply how the medium works, and it has quietly become an answer engine optimization channel hiding in plain sight.&lt;/p&gt;
+&lt;p&gt;The second half of the mechanism is newer. Google AI Overviews and AI Mode, ChatGPT, and Perplexity answer questions by gathering text from pages they can reach, and directory pages are easy for them to reach. A claim that appears in your notes therefore exists in hundreds of places at once, stated the same way everywhere, which is precisely the pattern these systems read as settled fact. Repetition used to be what links did for a page. Now the words themselves do it, and show notes repeat more faithfully than almost any other format on the web.&lt;/p&gt;
+
+&lt;h2&gt;The morning the machine quoted me to myself&lt;/h2&gt;
+&lt;p&gt;On October 24, 2026, I searched Google for what I think about a television show I have covered on my own podcast, The Chris Abraham Show. AI Mode answered with my position, quoting my show notes for season 11, episode 3 nearly word for word: what I came for, what I stayed for, the themes I keep returning to. My essay on the same subject sat at the top of the ordinary results below it. Nobody had written about my opinion except me. The answer engine found my own sentences, syndicated across the podcast directories and my episode pages, and handed them back as the authority on the question.&lt;/p&gt;
+&lt;p&gt;That is the proof of concept in miniature. The query was about me, but the machinery does not care whose name is in the question. Ask what a company thinks about its own industry, what a founder believes about her market, what a consultant recommends about his specialty, and the same sources get consulted. If your positions live in your show notes, they are positioned to be quoted. If they live only in the audio, the machines mostly cannot use them, because an answer engine quotes text.&lt;/p&gt;
+
+&lt;h2&gt;Write the notes for citation&lt;/h2&gt;
+&lt;p&gt;Once you see the cascade, the writing rules follow from it. Write every episode's notes as if a directory reader, and then a machine, will repeat them without you in the room.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Use full entity names.&lt;/strong&gt; Write the whole name of every person, company, show, and product, spelled the way it should be quoted. A first name alone cannot be connected to you, and a misspelling repeated in two hundred places is a misspelling with authority.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Phrase claims the way they should come back.&lt;/strong&gt; If you hold a position, state it in one clean, quotable sentence inside the notes. The engines lift sentences, not vibes. My guide to &lt;a href="https://christopherabraham.com/guides/correct-ai-answers/"&gt;correcting AI answers&lt;/a&gt; starts from the same principle: answers are built from sentences found somewhere, so make sure the findable sentences are yours and are right.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Include the canonical links.&lt;/strong&gt; Link each claim to the page on your own site that owns it. Directories carry links unevenly, but the ones that survive point the engines, and the occasional human reader, at your canonical version.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Say who is speaking.&lt;/strong&gt; Name the host and guests with their roles and affiliations. Attribution is what turns a floating opinion into a position a named expert can be cited for.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Front load what matters&lt;/h2&gt;
+&lt;p&gt;Platform notes do not all survive intact. Spotify trims episode descriptions at roughly 4,000 characters, and different directories cut or compress at their own limits. So put the citable material first: the episode's actual subject, the named people, the position sentences, and the key links, all before the credits, the chapter markers, and the housekeeping. Think of the first screen of notes as the press release and everything after it as the appendix. What travels is what appears early, so the sentences you most want quoted should be the sentences every copy is guaranteed to carry.&lt;/p&gt;
+
+&lt;h2&gt;Keep a mirror you own&lt;/h2&gt;
+&lt;p&gt;Directories are landlords. They can trim your text, surround it with their own recommendations, or disappear, and you hold no deed to any of it. So the cascade needs a home base: a site you control that republishes every episode with the full notes, a transcript, and one permanent page per episode. My own show's website is the worked example I point clients to. It carries the complete notes with no character cap, full transcripts that give the engines thousands more quotable words per episode, and an llms.txt file that hands AI crawlers the whole catalogue in plain text. My guide to &lt;a href="https://christopherabraham.com/guides/llms-txt/"&gt;what belongs in an llms.txt file&lt;/a&gt; covers that format. The directories supply the reach. The mirror supplies the canonical record the reach points back to.&lt;/p&gt;
+
+&lt;h2&gt;Every episode is a page that stays&lt;/h2&gt;
+&lt;p&gt;A blog post fights for attention in the week it ships and then sinks into the archive. An episode behaves differently. It is a dated, permanent landing surface in every directory at once, still indexed and still quotable years later, and each new episode adds another one without disturbing the rest. A season of weekly episodes is fifty new surfaces a year, each carrying your names, your links, and your stated positions. That compounding is why I call podcasting an investment rather than a content chore: the production cost is paid once, and the citation surface keeps appreciating as the catalogue grows.&lt;/p&gt;
+
+&lt;h2&gt;Measure the position queries&lt;/h2&gt;
+&lt;p&gt;None of this counts until you check what the machines actually say. Monthly, run a fixed set of position queries: what does this person think about that subject, who offers this service in this place, what is the difference between these two approaches. Record which sentences come back, which sources get cited, and whether your phrasing survives the round trip. My guide to &lt;a href="https://christopherabraham.com/guides/ai-share-of-voice/"&gt;measuring AI share of voice&lt;/a&gt; describes the method I use. When an answer quotes your notes verbatim, the cascade is working. When it quotes a competitor's framing instead, you have found the next episode to record and the next notes to write.&lt;/p&gt;
+
+&lt;h2&gt;Where I fit&lt;/h2&gt;
+&lt;p&gt;I run this play on my own show before I recommend it to anyone, and I build the same machinery for clients: notes written for citation, a mirror site with transcripts and permanent episode pages, and a monthly set of position queries that proves whether the answers are moving. If you want the baseline first, my AI visibility audit runs your money queries through the major answer engines and reports what they say about you today. &lt;a href="https://calendly.com/chrisabraham/30"&gt;Book a thirty minute call on my calendar&lt;/a&gt; to talk about your show or your site, or &lt;a href="https://christopherabraham.com/contact/"&gt;write to me through the contact page&lt;/a&gt; if you would rather start in writing.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content>
+  </entry>
   <entry>
     <title>Your website form says success. Did anyone get the inquiry?</title>
     <link href="https://christopherabraham.com/guides/test-website-inquiries/"/>
