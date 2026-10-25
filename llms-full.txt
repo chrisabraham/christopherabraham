@@ -1,7 +1,7 @@
 # Christopher Abraham: full text of christopherabraham.com
 
 > Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.
-> Built 2026-10-25. Quote freely with attribution and a link to the source page.
+> Built 2026-10-24. Quote freely with attribution and a link to the source page.
 
 
 ---
@@ -1094,6 +1094,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Why your SEO should work in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/): fixing causes in templates instead of symptoms page by page, what AI coding assistants add, and what to ask before you hire.
 - [How to find near-duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Screaming Frog settings that catch both, what heading problems really cost, and how to settle each duplicate cluster.
 - [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/): XPath and regex for heading counts, canonicals, robots tags, JSON-LD types, missing alt text, and tag IDs.
+- [Spam link spikes and the disavow file](https://christopherabraham.com/guides/disavow-links/): what Google does with junk links, the few cases that call for a disavow, the exact file format, and the mistakes that cost rankings.
 - [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/): before-and-after crawls, the four change columns, change detection, and Search Console validation.
 - [Is a Screaming Frog licence worth $279 a year?](https://christopherabraham.com/guides/screaming-frog-licence/): what the free 500 URL version leaves out and everything the paid crawler can do, from JavaScript rendering to the new MCP server.
 - [What a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/): how to tell a useful audit from a tool export, before and after you pay for one.
@@ -6402,6 +6403,87 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 
 ---
 
+Source: https://christopherabraham.com/guides/disavow-links/
+Updated: 2026-10-24
+
+# Spam link spikes and the disavow file: when to act at all
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 24, 2026
+
+Sooner or later a backlink tool shows a chart with a cliff in it: hundreds of new links in a month from domains nobody recognizes, scraped directories, foreign casino pages, and strings of nonsense. The instinct is to fight back with a disavow file. Usually the right response is to write the spike down, check one or two things, and leave it alone. Sometimes it isn't, and the difference matters.
+
+## What Google does with junk links
+
+Since the Penguin 4.0 update in 2016, Google has treated most manipulative links by discounting them rather than punishing the site they point to. Its people have repeated the point for years. In April 2024 John Mueller said Google ignores link spam and that links pointing at pages returning 404 count for nothing at all. In April 2025, speaking at a Search Central event, he went further: Google has no internal concept of "toxic backlinks," the disavow tool is not routine maintenance, and he would reach for it only with a manual action in hand.
+
+Google's own help page for the tool says the same thing in drier language. Most sites don't need it. It is meant for a site with a considerable number of spammy, artificial, or low quality links that have caused a manual action or are likely to cause one. And it is labeled an advanced feature, because a careless file can hurt a site's performance in search.
+
+## Why spikes look scarier than they are
+
+Third party backlink tools count everything they find, and they find a lot of garbage. Scraper sites copy pages wholesale with the links intact. Automated directories list every domain they can reach. Spam networks link to well known sites to look legitimate. None of that was your doing, and Google has had about two decades of practice ignoring it. A "toxicity" score in a commercial tool is that tool's opinion, built on its own crawl, and Google doesn't share it.
+
+Spikes also coincide with real traffic losses often enough to be framed for them. This year a client's tool showed close to nine times the usual monthly count of new referring links in the same weeks that branded searches fell. The links were real and ugly. They were also not the only thing that changed that month, so they went into the investigation as one hypothesis with a test, rather than as the answer.
+
+## When a spike deserves attention
+- **Search Console shows a manual action** for unnatural links to your site. This is the case the tool was built for.
+- **Someone bought links in your name.** A previous agency, an old owner, or an overeager employee paid for placements, link exchanges, or private blog network posts. Google's spam policies treat those as link schemes whoever arranged them.
+- **The pattern is targeted.** Hundreds of exact match commercial anchors pointing at one money page look like an attempt to trip a filter, which is different from random scraper noise.
+- **The links point at real pages and the timing fits a loss** that survives every other test. Even then, the disavow is a contained experiment, not a cure.
+
+If none of those apply, record the spike with its dates and sources in your SEO log, keep an eye on Search Console, and spend the hours on something that moves rankings.
+
+## Build the file from Google's data first
+
+Start with the Links report in Search Console, which shows the linking sites Google itself knows about, and use third party exports only to fill gaps. Review the list by domain, not by URL, and sort it into three piles: plainly manipulative, plainly fine, and unsure. Only the first pile goes in the file. The unsure pile stays out, because a wrongly disavowed link from a real publication throws away value you can't easily get back.
+
+Before disavowing a link you arranged, try to get it removed. Google asks for that first, and if you're filing a reconsideration request after a manual action, documented removal attempts are part of a credible case.
+
+## The file format, exactly
+- A plain text file with a `.txt` extension, encoded in UTF-8 or 7-bit ASCII.
+- One entry per line: a full URL, or a whole domain written as `domain:example.com`. Subfolders can't be disavowed on their own.
+- Lines starting with `#` are comments and are ignored. Use them to date each batch and note why it's there.
+- At most 100,000 lines, comments and blank lines included, and 2 MB. Each URL can be up to 2,048 characters.
+
+```
+# Reviewed 2026-10-24: paid placements from a former vendor, removal requests unanswered
+domain:cheap-article-network.example
+domain:spun-directory.example
+# A single page on an otherwise legitimate site
+https://news.example/sponsored/old-placement.html
+```
+
+## Uploading, replacing, and undoing
+
+Only a property owner can upload, and the tool works with URL prefix properties, not Domain properties, so verify the right one first. A list applies to that property and its child properties, and the http and https versions need their own lists. Each upload replaces the previous file entirely, so always edit the current file rather than uploading a fresh one with only new entries; errors are flagged immediately and leave the old list in place. A button cancels every disavowal for the property. Google says changes in either direction take a few weeks, and disavowed links keep appearing in the Links report afterward, which surprises everyone the first time.
+
+## Mistakes I clean up
+- **Disavowing the whole export.** Someone uploads a tool's full "toxic" list and quietly throws away links from local news, suppliers, and universities.
+- **Losing the old file.** A new upload replaces the old one, so years of careful entries vanish when someone starts over.
+- **Forgetting a migration.** The old domain's file doesn't follow the site to a new domain or protocol.
+- **Treating disavow as the fix for a traffic drop** while the real cause sits in templates, indexing, or redirects.
+
+## How I handle link reviews
+
+I don't sell link building, for reasons I explain in [why I turn down backlink work](https://christopherabraham.com/guides/buying-backlinks/), and I don't sell disavow files by the thousand lines. I review the profile against Search Console's data, keep the file conservative, and treat links as one hypothesis among several, as in [the clinic migration](https://christopherabraham.com/case-studies/clinic-migration/), where I rebuilt an inherited file to keep legitimate domains. If a spike landed in the same month as a traffic loss, start with a [technical SEO audit](https://christopherabraham.com/services/seo-audit/) that finds the cause before anyone uploads anything.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [Search Console Help: Disavow links to your site](https://support.google.com/webmasters/answer/2648487)
+- [Search Engine Journal: Google says the disavow tool is not part of normal site maintenance (April 2025)](https://www.searchenginejournal.com/google-says-disavow-tool-not-part-of-normal-site-maintenance/543861)
+- [Search Engine Roundtable: Google ignores link spam, including links to 404 pages (April 2024)](https://www.seroundtable.com/google-ignore-link-spam-404-pages-37217.html)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
 Source: https://christopherabraham.com/services/ai-visibility/
 Updated: 2026-10-23
 
@@ -6647,7 +6729,7 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 ---
 
 Source: https://christopherabraham.com/sitemap/
-Updated: 2026-10-25
+Updated: 2026-10-24
 
 # Site map
 
@@ -6741,6 +6823,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/): Build useful paths through your existing pages with contextual links, clear anchor text, working section targets, and an internal linking worksheet.
 - [Moving a website? Check its images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/): Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.
 - [Your website form says success. Did anyone get the inquiry?](https://christopherabraham.com/guides/test-website-inquiries/): Trace a test inquiry from landing page to form, confirmation, inbox, and reporting. Find delivery failures and false conversion counts before buying traffic.
+- [Spam link spikes and the disavow file: when to act at all](https://christopherabraham.com/guides/disavow-links/): A burst of junk backlinks rarely needs a response. When Google says the disavow tool fits, how to build a careful file, and the mistakes that cost rankings.
 - [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/): Google is testing a rebuilt Performance section for Business Profiles. How to read each new report, Overview first, and what the numbers mean.
 - [Google Business Profile video verification: plan the take before you press record](https://christopherabraham.com/guides/gbp-video-verification/): Passing Google Business Profile video verification the first time: what Google wants on camera for storefronts and service areas, and what to do if it fails.
 
@@ -6769,17 +6852,17 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 25, 2026
+Updated October 24, 2026
 
 
 ---
 
 Source: https://christopherabraham.com/site-index/
-Updated: 2026-10-25
+Updated: 2026-10-24
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 562 headings across 100 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 564 headings across 101 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -6798,7 +6881,7 @@ People are listed surname first. Cross-references point to related headings. For
   - query strings and casing, [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
   - where they live (servers and platforms), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
 
-- 404 errors, [Migrations](https://christopherabraham.com/services/migrations/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/). *See also* [soft 404s](https://christopherabraham.com/site-index/#ix-soft-404s)
+- 404 errors, [Migrations](https://christopherabraham.com/services/migrations/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/). *See also* [soft 404s](https://christopherabraham.com/site-index/#ix-soft-404s)
 - 410 status, [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Migrations](https://christopherabraham.com/services/migrations/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
@@ -6962,7 +7045,7 @@ People are listed surname first. Cross-references point to related headings. For
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
 ## B
-- backlinks, buying, **[Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/)**
+- backlinks, buying, **[Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/)**, [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
   - five questions for any vendor, [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/)
   - why Chris refuses the work, [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/)
 
@@ -7119,7 +7202,12 @@ People are listed surname first. Cross-references point to related headings. For
   - what writers need, [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/)
 
 - DigitalOcean, [Skills and Proof](https://christopherabraham.com/about/skills/), [Colophon](https://christopherabraham.com/about/colophon/)
-- disavow files, [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/)
+- disavow files, [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), **[Disavowing Links](https://christopherabraham.com/guides/disavow-links/)**
+  - common mistakes, [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
+  - file format, [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
+  - uploading and replacing, [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
+  - when to use one, [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
+
 - Discovered, currently not indexed, [Services](https://christopherabraham.com/services/), [Indexing](https://christopherabraham.com/services/indexing/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/)
 - DKIM, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/), [Skills and Proof](https://christopherabraham.com/about/skills/). *See also* [email authentication](https://christopherabraham.com/site-index/#ix-email-authentication)
 - DMARC, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/), [Lapsed Domains](https://christopherabraham.com/guides/lapsed-domains/), [Skills and Proof](https://christopherabraham.com/about/skills/). *See also* [email authentication](https://christopherabraham.com/site-index/#ix-email-authentication)
@@ -7248,7 +7336,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Google documentation, [Brand name in titles](https://christopherabraham.com/guides/brand-name-in-titles/), [Small original research](https://christopherabraham.com/guides/small-original-research/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
 - Google documentation changelog, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Google Search Central Blog, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
-- Google Search Console, [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), **[Search Console](https://christopherabraham.com/services/search-console/)**, [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
+- Google Search Console, [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), **[Search Console](https://christopherabraham.com/services/search-console/)**, [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
   - Change of Address, [Search Console](https://christopherabraham.com/services/search-console/), [Migrations](https://christopherabraham.com/services/migrations/)
   - Domain properties, [Search Console](https://christopherabraham.com/services/search-console/), [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/)
   - enhancement reports, [Schema](https://christopherabraham.com/services/schema/)
@@ -7258,7 +7346,7 @@ People are listed surname first. Cross-references point to related headings. For
   - URL Inspection, [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/), [Event App Links](https://christopherabraham.com/case-studies/event-app-links/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/), [Plugin Outage](https://christopherabraham.com/case-studies/plugin-outage/)
 
 - Google SEO Starter Guide, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
-- Google spam policies, [Hiring an SEO](https://christopherabraham.com/guides/hiring-an-seo/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/), [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/)
+- Google spam policies, [Hiring an SEO](https://christopherabraham.com/guides/hiring-an-seo/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/), [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
   - expired domain abuse, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
   - manipulating AI answers, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
   - scaled content abuse, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
@@ -7366,6 +7454,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 - Jekyll, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - Jira, [Hire Me](https://christopherabraham.com/hire-me/)
+- John Mueller, [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
 - jQuery UI tabs, [Consent Banner](https://christopherabraham.com/case-studies/consent-banner/)
 - JSON-LD, [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Schema](https://christopherabraham.com/services/schema/). *See also* [structured data](https://christopherabraham.com/site-index/#ix-structured-data)
 
@@ -7399,7 +7488,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Lighthouse, [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/), [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/), [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/), [GA4 and PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/)
   - Agentic Browsing category, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
 
-- link building, [Hiring an SEO](https://christopherabraham.com/guides/hiring-an-seo/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/). *See also* [backlinks, buying](https://christopherabraham.com/site-index/#ix-backlinks-buying)
+- link building, [Hiring an SEO](https://christopherabraham.com/guides/hiring-an-seo/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/). *See also* [backlinks, buying](https://christopherabraham.com/site-index/#ix-backlinks-buying)
 - LinkedIn, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [About](https://christopherabraham.com/about/), [Editorial Policy](https://christopherabraham.com/about/editorial-policy/)
 - LinkedIn Post Inspector, [Social Share Cards](https://christopherabraham.com/guides/social-share-cards/)
 - Liquid, [Skills and Proof](https://christopherabraham.com/about/skills/)
@@ -7433,7 +7522,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Majestic, [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
 - Malloy, Judy, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - manipulating AI answers, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
-- manual actions, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
+- manual actions, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
 - Markdown copies of pages, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
 - Marketing Conversation, [About](https://christopherabraham.com/about/)
 - material connection, [Glossary](https://christopherabraham.com/guides/glossary/)
@@ -7567,6 +7656,7 @@ People are listed surname first. Cross-references point to related headings. For
 - parked domains, **[Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/)**, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/)
 - PDFs, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
 - pen names and nicknames, [Guides](https://christopherabraham.com/guides/), **[Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/)**
+- Penguin update (Google), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
 - Perl, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - permalinks, [Glossary](https://christopherabraham.com/guides/glossary/)
 - Perplexity, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/)
@@ -7749,7 +7839,9 @@ People are listed surname first. Cross-references point to related headings. For
 - Solis, Aleyda, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - source vetting, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - South by Southwest, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- spam backlinks, [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/)
+- spam backlinks, [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
+  - spikes, [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
+
 - spam updates, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Glossary](https://christopherabraham.com/guides/glossary/). *See also* [Google updates](https://christopherabraham.com/site-index/#ix-google-updates)
 - SPF, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/), [Lapsed Domains](https://christopherabraham.com/guides/lapsed-domains/), [Skills and Proof](https://christopherabraham.com/about/skills/). *See also* [email authentication](https://christopherabraham.com/site-index/#ix-email-authentication)
 - spoofing, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/)
@@ -7959,4 +8051,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated October 25, 2026
+Updated October 24, 2026

@@ -73,7 +73,8 @@
     "case-studies/shopify-cleanup",
     "services/migrations",
     "guides/page-indexing-report",
-    "guides/redirect-rules"
+    "guides/redirect-rules",
+    "guides/disavow-links"
    ],
    "subs": {},
    "see": [
@@ -1016,7 +1017,8 @@
   "backlinks, buying": {
    "kind": "topic",
    "pages": [
-    "guides/buying-backlinks"
+    "guides/buying-backlinks",
+    "guides/disavow-links"
    ],
    "subs": {
     "five questions for any vendor": [
@@ -2112,11 +2114,27 @@
    "kind": "topic",
    "pages": [
     "guides/redirect-rules",
-    "case-studies/clinic-migration"
+    "case-studies/clinic-migration",
+    "guides/disavow-links"
    ],
-   "subs": {},
+   "subs": {
+    "when to use one": [
+     "guides/disavow-links"
+    ],
+    "file format": [
+     "guides/disavow-links"
+    ],
+    "uploading and replacing": [
+     "guides/disavow-links"
+    ],
+    "common mistakes": [
+     "guides/disavow-links"
+    ]
+   },
    "see": [],
-   "main": []
+   "main": [
+    "guides/disavow-links"
+   ]
   },
   "Discovered, currently not indexed": {
    "kind": "topic",
@@ -2911,7 +2929,8 @@
     "guides/page-indexing-report",
     "guides/core-web-vitals",
     "guides/small-business-schema",
-    "guides/redirect-rules"
+    "guides/redirect-rules",
+    "guides/disavow-links"
    ],
    "subs": {
     "lost access, recovering": [
@@ -2968,7 +2987,8 @@
     "guides/hiring-an-seo",
     "guides/buying-backlinks",
     "guides/update-recovery-2026",
-    "guides/ai-content-seo"
+    "guides/ai-content-seo",
+    "guides/disavow-links"
    ],
    "subs": {
     "scaled content abuse": [
@@ -3750,7 +3770,8 @@
    "pages": [
     "guides/hiring-an-seo",
     "guides/earned-mentions",
-    "guides/buying-backlinks"
+    "guides/buying-backlinks",
+    "guides/disavow-links"
    ],
    "subs": {},
    "see": [
@@ -3997,7 +4018,8 @@
   "manual actions": {
    "kind": "topic",
    "pages": [
-    "guides/update-recovery-2026"
+    "guides/update-recovery-2026",
+    "guides/disavow-links"
    ],
    "subs": {},
    "see": [],
@@ -6239,9 +6261,14 @@
   "spam backlinks": {
    "kind": "topic",
    "pages": [
-    "case-studies/scroll-gated-products"
+    "case-studies/scroll-gated-products",
+    "guides/disavow-links"
    ],
-   "subs": {},
+   "subs": {
+    "spikes": [
+     "guides/disavow-links"
+    ]
+   },
    "see": [],
    "main": []
   },
@@ -7485,6 +7512,24 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "Penguin update (Google)": {
+   "kind": "topic",
+   "pages": [
+    "guides/disavow-links"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "John Mueller": {
+   "kind": "person",
+   "pages": [
+    "guides/disavow-links"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
   }
  },
  "reviewed": [
@@ -7585,6 +7630,7 @@
   "guides/show-notes-cascade",
   "guides/gbp-performance-reports",
   "guides/seasonal-local-seo",
-  "guides/gbp-video-verification"
+  "guides/gbp-video-verification",
+  "guides/disavow-links"
  ]
 }

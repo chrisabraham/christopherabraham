@@ -238,6 +238,81 @@
 &lt;/aside&gt;</content>
   </entry>
   <entry>
+    <title>Spam link spikes and the disavow file: when to act at all</title>
+    <link href="https://christopherabraham.com/guides/disavow-links/"/>
+    <id>https://christopherabraham.com/guides/disavow-links/</id>
+    <published>2026-10-24T12:00:00Z</published>
+    <updated>2026-10-24T12:00:00Z</updated>
+    <summary>A burst of junk backlinks rarely needs a response. When Google says the disavow tool fits, how to build a careful file, and the mistakes that cost rankings.</summary>
+    <content type="html">&lt;h1&gt;Spam link spikes and the disavow file: when to act at all&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-24"&gt;October 24, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;Sooner or later a backlink tool shows a chart with a cliff in it: hundreds of new links in a month from domains nobody recognizes, scraped directories, foreign casino pages, and strings of nonsense. The instinct is to fight back with a disavow file. Usually the right response is to write the spike down, check one or two things, and leave it alone. Sometimes it isn't, and the difference matters.&lt;/p&gt;
+
+&lt;h2&gt;What Google does with junk links&lt;/h2&gt;
+&lt;p&gt;Since the Penguin 4.0 update in 2016, Google has treated most manipulative links by discounting them rather than punishing the site they point to. Its people have repeated the point for years. In April 2024 John Mueller said Google ignores link spam and that links pointing at pages returning 404 count for nothing at all. In April 2025, speaking at a Search Central event, he went further: Google has no internal concept of "toxic backlinks," the disavow tool is not routine maintenance, and he would reach for it only with a manual action in hand.&lt;/p&gt;
+&lt;p&gt;Google's own help page for the tool says the same thing in drier language. Most sites don't need it. It is meant for a site with a considerable number of spammy, artificial, or low quality links that have caused a manual action or are likely to cause one. And it is labeled an advanced feature, because a careless file can hurt a site's performance in search.&lt;/p&gt;
+
+&lt;h2&gt;Why spikes look scarier than they are&lt;/h2&gt;
+&lt;p&gt;Third party backlink tools count everything they find, and they find a lot of garbage. Scraper sites copy pages wholesale with the links intact. Automated directories list every domain they can reach. Spam networks link to well known sites to look legitimate. None of that was your doing, and Google has had about two decades of practice ignoring it. A "toxicity" score in a commercial tool is that tool's opinion, built on its own crawl, and Google doesn't share it.&lt;/p&gt;
+&lt;p&gt;Spikes also coincide with real traffic losses often enough to be framed for them. This year a client's tool showed close to nine times the usual monthly count of new referring links in the same weeks that branded searches fell. The links were real and ugly. They were also not the only thing that changed that month, so they went into the investigation as one hypothesis with a test, rather than as the answer.&lt;/p&gt;
+
+&lt;h2&gt;When a spike deserves attention&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Search Console shows a manual action&lt;/strong&gt; for unnatural links to your site. This is the case the tool was built for.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Someone bought links in your name.&lt;/strong&gt; A previous agency, an old owner, or an overeager employee paid for placements, link exchanges, or private blog network posts. Google's spam policies treat those as link schemes whoever arranged them.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The pattern is targeted.&lt;/strong&gt; Hundreds of exact match commercial anchors pointing at one money page look like an attempt to trip a filter, which is different from random scraper noise.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The links point at real pages and the timing fits a loss&lt;/strong&gt; that survives every other test. Even then, the disavow is a contained experiment, not a cure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If none of those apply, record the spike with its dates and sources in your SEO log, keep an eye on Search Console, and spend the hours on something that moves rankings.&lt;/p&gt;
+
+&lt;h2&gt;Build the file from Google's data first&lt;/h2&gt;
+&lt;p&gt;Start with the Links report in Search Console, which shows the linking sites Google itself knows about, and use third party exports only to fill gaps. Review the list by domain, not by URL, and sort it into three piles: plainly manipulative, plainly fine, and unsure. Only the first pile goes in the file. The unsure pile stays out, because a wrongly disavowed link from a real publication throws away value you can't easily get back.&lt;/p&gt;
+&lt;p&gt;Before disavowing a link you arranged, try to get it removed. Google asks for that first, and if you're filing a reconsideration request after a manual action, documented removal attempts are part of a credible case.&lt;/p&gt;
+
+&lt;h2&gt;The file format, exactly&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;A plain text file with a &lt;code&gt;.txt&lt;/code&gt; extension, encoded in UTF-8 or 7-bit ASCII.&lt;/li&gt;
+  &lt;li&gt;One entry per line: a full URL, or a whole domain written as &lt;code&gt;domain:example.com&lt;/code&gt;. Subfolders can't be disavowed on their own.&lt;/li&gt;
+  &lt;li&gt;Lines starting with &lt;code&gt;#&lt;/code&gt; are comments and are ignored. Use them to date each batch and note why it's there.&lt;/li&gt;
+  &lt;li&gt;At most 100,000 lines, comments and blank lines included, and 2 MB. Each URL can be up to 2,048 characters.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;# Reviewed 2026-10-24: paid placements from a former vendor, removal requests unanswered
+domain:cheap-article-network.example
+domain:spun-directory.example
+# A single page on an otherwise legitimate site
+https://news.example/sponsored/old-placement.html&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Uploading, replacing, and undoing&lt;/h2&gt;
+&lt;p&gt;Only a property owner can upload, and the tool works with URL prefix properties, not Domain properties, so verify the right one first. A list applies to that property and its child properties, and the http and https versions need their own lists. Each upload replaces the previous file entirely, so always edit the current file rather than uploading a fresh one with only new entries; errors are flagged immediately and leave the old list in place. A button cancels every disavowal for the property. Google says changes in either direction take a few weeks, and disavowed links keep appearing in the Links report afterward, which surprises everyone the first time.&lt;/p&gt;
+
+&lt;h2&gt;Mistakes I clean up&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Disavowing the whole export.&lt;/strong&gt; Someone uploads a tool's full "toxic" list and quietly throws away links from local news, suppliers, and universities.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Losing the old file.&lt;/strong&gt; A new upload replaces the old one, so years of careful entries vanish when someone starts over.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Forgetting a migration.&lt;/strong&gt; The old domain's file doesn't follow the site to a new domain or protocol.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Treating disavow as the fix for a traffic drop&lt;/strong&gt; while the real cause sits in templates, indexing, or redirects.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;How I handle link reviews&lt;/h2&gt;
+&lt;p&gt;I don't sell link building, for reasons I explain in &lt;a href="https://christopherabraham.com/guides/buying-backlinks/"&gt;why I turn down backlink work&lt;/a&gt;, and I don't sell disavow files by the thousand lines. I review the profile against Search Console's data, keep the file conservative, and treat links as one hypothesis among several, as in &lt;a href="https://christopherabraham.com/case-studies/clinic-migration/"&gt;the clinic migration&lt;/a&gt;, where I rebuilt an inherited file to keep legitimate domains. If a spike landed in the same month as a traffic loss, start with a &lt;a href="https://christopherabraham.com/services/seo-audit/"&gt;technical SEO audit&lt;/a&gt; that finds the cause before anyone uploads anything.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://support.google.com/webmasters/answer/2648487"&gt;Search Console Help: Disavow links to your site&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.searchenginejournal.com/google-says-disavow-tool-not-part-of-normal-site-maintenance/543861"&gt;Search Engine Journal: Google says the disavow tool is not part of normal site maintenance (April 2025)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.seroundtable.com/google-ignore-link-spam-404-pages-37217.html"&gt;Search Engine Roundtable: Google ignores link spam, including links to 404 pages (April 2024)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content>
+  </entry>
+  <entry>
     <title>Glossary of SEO and AI search terms</title>
     <link href="https://christopherabraham.com/guides/glossary/"/>
     <id>https://christopherabraham.com/guides/glossary/</id>

@@ -80,6 +80,8 @@ ISLAND = [r"(?i)gerris", r"(?i)gerriscorp", r"(?i)hillmole", r"(?i)hill mole",
 # The sibling site, built from the same kind of material. Pages here may not borrow its phrasing.
 SIBLING = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "gerris")
 FILES += ["services/inquiry-path-audit", "guides/test-website-inquiries"]
+# Added by Claude in the Claude app, October 24, 2026.
+FILES += ["guides/disavow-links"]
 SERVICE_GROUPS[0][1].append("services/inquiry-path-audit/")
 # Additional service and article, October 23, 2026.
 FILES += ["services/ai-visibility", "the-machine-answers-first"]

@@ -1,0 +1,61 @@
+name: Disavowing Links
+title: Spam link spikes and the disavow file: when to act at all
+description: A burst of junk backlinks rarely needs a response. When Google says the disavow tool fits, how to build a careful file, and the mistakes that cost rankings.
+keywords: disavow file, spam link spike, Google disavow tool, unnatural links manual action
+type: guide
+published: 2026-10-24
+updated: 2026-10-24
+sources: Search Console Help: Disavow links to your site | https://support.google.com/webmasters/answer/2648487 ;; Search Engine Journal: Google says the disavow tool is not part of normal site maintenance (April 2025) | https://www.searchenginejournal.com/google-says-disavow-tool-not-part-of-normal-site-maintenance/543861 ;; Search Engine Roundtable: Google ignores link spam, including links to 404 pages (April 2024) | https://www.seroundtable.com/google-ignore-link-spam-404-pages-37217.html
+about: Backlink | https://en.wikipedia.org/wiki/Backlink ;; Spamdexing | https://en.wikipedia.org/wiki/Spamdexing
+mentions: Google Search Console | https://en.wikipedia.org/wiki/Google_Search_Console ;; Google Penguin | https://en.wikipedia.org/wiki/Google_Penguin ;; John Mueller | https://en.wikipedia.org/wiki/John_Mueller_(Google)
+---
+<h1>Spam link spikes and the disavow file: when to act at all</h1>
+<p class="lead">Sooner or later a backlink tool shows a chart with a cliff in it: hundreds of new links in a month from domains nobody recognizes, scraped directories, foreign casino pages, and strings of nonsense. The instinct is to fight back with a disavow file. Usually the right response is to write the spike down, check one or two things, and leave it alone. Sometimes it isn't, and the difference matters.</p>
+
+<h2>What Google does with junk links</h2>
+<p>Since the Penguin 4.0 update in 2016, Google has treated most manipulative links by discounting them rather than punishing the site they point to. Its people have repeated the point for years. In April 2024 John Mueller said Google ignores link spam and that links pointing at pages returning 404 count for nothing at all. In April 2025, speaking at a Search Central event, he went further: Google has no internal concept of "toxic backlinks," the disavow tool is not routine maintenance, and he would reach for it only with a manual action in hand.</p>
+<p>Google's own help page for the tool says the same thing in drier language. Most sites don't need it. It is meant for a site with a considerable number of spammy, artificial, or low quality links that have caused a manual action or are likely to cause one. And it is labeled an advanced feature, because a careless file can hurt a site's performance in search.</p>
+
+<h2>Why spikes look scarier than they are</h2>
+<p>Third party backlink tools count everything they find, and they find a lot of garbage. Scraper sites copy pages wholesale with the links intact. Automated directories list every domain they can reach. Spam networks link to well known sites to look legitimate. None of that was your doing, and Google has had about two decades of practice ignoring it. A "toxicity" score in a commercial tool is that tool's opinion, built on its own crawl, and Google doesn't share it.</p>
+<p>Spikes also coincide with real traffic losses often enough to be framed for them. This year a client's tool showed close to nine times the usual monthly count of new referring links in the same weeks that branded searches fell. The links were real and ugly. They were also not the only thing that changed that month, so they went into the investigation as one hypothesis with a test, rather than as the answer.</p>
+
+<h2>When a spike deserves attention</h2>
+<ul>
+  <li><strong>Search Console shows a manual action</strong> for unnatural links to your site. This is the case the tool was built for.</li>
+  <li><strong>Someone bought links in your name.</strong> A previous agency, an old owner, or an overeager employee paid for placements, link exchanges, or private blog network posts. Google's spam policies treat those as link schemes whoever arranged them.</li>
+  <li><strong>The pattern is targeted.</strong> Hundreds of exact match commercial anchors pointing at one money page look like an attempt to trip a filter, which is different from random scraper noise.</li>
+  <li><strong>The links point at real pages and the timing fits a loss</strong> that survives every other test. Even then, the disavow is a contained experiment, not a cure.</li>
+</ul>
+<p>If none of those apply, record the spike with its dates and sources in your SEO log, keep an eye on Search Console, and spend the hours on something that moves rankings.</p>
+
+<h2>Build the file from Google's data first</h2>
+<p>Start with the Links report in Search Console, which shows the linking sites Google itself knows about, and use third party exports only to fill gaps. Review the list by domain, not by URL, and sort it into three piles: plainly manipulative, plainly fine, and unsure. Only the first pile goes in the file. The unsure pile stays out, because a wrongly disavowed link from a real publication throws away value you can't easily get back.</p>
+<p>Before disavowing a link you arranged, try to get it removed. Google asks for that first, and if you're filing a reconsideration request after a manual action, documented removal attempts are part of a credible case.</p>
+
+<h2>The file format, exactly</h2>
+<ul>
+  <li>A plain text file with a <code>.txt</code> extension, encoded in UTF-8 or 7-bit ASCII.</li>
+  <li>One entry per line: a full URL, or a whole domain written as <code>domain:example.com</code>. Subfolders can't be disavowed on their own.</li>
+  <li>Lines starting with <code>#</code> are comments and are ignored. Use them to date each batch and note why it's there.</li>
+  <li>At most 100,000 lines, comments and blank lines included, and 2 MB. Each URL can be up to 2,048 characters.</li>
+</ul>
+<pre><code># Reviewed 2026-10-24: paid placements from a former vendor, removal requests unanswered
+domain:cheap-article-network.example
+domain:spun-directory.example
+# A single page on an otherwise legitimate site
+https://news.example/sponsored/old-placement.html</code></pre>
+
+<h2>Uploading, replacing, and undoing</h2>
+<p>Only a property owner can upload, and the tool works with URL prefix properties, not Domain properties, so verify the right one first. A list applies to that property and its child properties, and the http and https versions need their own lists. Each upload replaces the previous file entirely, so always edit the current file rather than uploading a fresh one with only new entries; errors are flagged immediately and leave the old list in place. A button cancels every disavowal for the property. Google says changes in either direction take a few weeks, and disavowed links keep appearing in the Links report afterward, which surprises everyone the first time.</p>
+
+<h2>Mistakes I clean up</h2>
+<ul>
+  <li><strong>Disavowing the whole export.</strong> Someone uploads a tool's full "toxic" list and quietly throws away links from local news, suppliers, and universities.</li>
+  <li><strong>Losing the old file.</strong> A new upload replaces the old one, so years of careful entries vanish when someone starts over.</li>
+  <li><strong>Forgetting a migration.</strong> The old domain's file doesn't follow the site to a new domain or protocol.</li>
+  <li><strong>Treating disavow as the fix for a traffic drop</strong> while the real cause sits in templates, indexing, or redirects.</li>
+</ul>
+
+<h2>How I handle link reviews</h2>
+<p>I don't sell link building, for reasons I explain in <a href="{root}guides/buying-backlinks/">why I turn down backlink work</a>, and I don't sell disavow files by the thousand lines. I review the profile against Search Console's data, keep the file conservative, and treat links as one hypothesis among several, as in <a href="{root}case-studies/clinic-migration/">the clinic migration</a>, where I rebuilt an inherited file to keep legitimate domains. If a spike landed in the same month as a traffic loss, start with a <a href="{root}services/seo-audit/">technical SEO audit</a> that finds the cause before anyone uploads anything.</p>
