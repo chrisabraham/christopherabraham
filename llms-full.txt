@@ -1,7 +1,7 @@
 # Christopher Abraham: full text of christopherabraham.com
 
 > Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.
-> Built 2026-10-24. Quote freely with attribution and a link to the source page.
+> Built 2026-10-25. Quote freely with attribution and a link to the source page.
 
 
 ---
@@ -6647,7 +6647,7 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 ---
 
 Source: https://christopherabraham.com/sitemap/
-Updated: 2026-10-24
+Updated: 2026-10-25
 
 # Site map
 
@@ -6769,13 +6769,13 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 24, 2026
+Updated October 25, 2026
 
 
 ---
 
 Source: https://christopherabraham.com/site-index/
-Updated: 2026-10-24
+Updated: 2026-10-25
 
 # Index
 
@@ -7959,4 +7959,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated October 24, 2026
+Updated October 25, 2026
