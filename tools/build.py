@@ -47,7 +47,7 @@ SITE = "https://christopherabraham.com/"
 PREVIEW_BASE = "/christopherabraham/"
 TABS = [("", "Home"), ("services/", "Services"), ("guides/", "Guides"), ("case-studies/", "Case Studies"),
         ("about/", "About"), ("hire-me/", "Hire Me"), ("contact/", "Contact")]
-FILES = ["index",
+FILES = ["index", "guides/seasonal-local-seo",
          "services/index",
          "services/sitewide-technical-seo", "services/seo-audit", "services/indexing", "services/javascript-seo", "services/site-speed",
          "services/search-console", "services/migrations",

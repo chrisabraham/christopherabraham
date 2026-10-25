@@ -1,6 +1,6 @@
 > Align your website, location pages, and Google Business Profiles, with hard profile cases like suspensions handled as scoped, paid written diagnostics.
 >
-> Source: https://christopherabraham.com/services/local-seo/ · Updated 2026-10-06 · By Christopher Abraham
+> Source: https://christopherabraham.com/services/local-seo/ · Updated 2026-10-24 · By Christopher Abraham
 
 # Local SEO and Google Business Profile
 
@@ -37,4 +37,8 @@ Profile performance data, calls and direction requests, local pack positions mea
 
 See [a therapy practice's suspended profile reinstated](https://christopherabraham.com/case-studies/profile-reinstated/) and [a multi-state brand untangled from its first showroom](https://christopherabraham.com/case-studies/closet-locations/).
 
-Updated October 6, 2026
+## Seasonal measurement and release planning
+
+For businesses with a short selling season, I establish comparable reporting windows and a consistent map sampling setup before demand rises. I distinguish profile actions from qualified inquiries and help schedule website changes around peak trading. The [seasonal local measurement guide](https://christopherabraham.com/guides/seasonal-local-seo/) explains the baseline and the questions it can answer.
+
+Updated October 24, 2026

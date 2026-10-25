@@ -4,7 +4,7 @@
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 555 headings across 98 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 556 headings across 99 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -903,6 +903,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Search Engine Land, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Search Engine Roundtable, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Search Status Dashboard, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
+- Seasonal local SEO, **[Seasonal Local SEO](https://christopherabraham.com/guides/seasonal-local-seo/)**
 - seasonality, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
 - self-serving reviews, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)
 - Semrush, [Services](https://christopherabraham.com/services/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)

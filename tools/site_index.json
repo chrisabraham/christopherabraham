@@ -7389,6 +7389,18 @@
    "main": [
     "guides/gbp-performance-reports"
    ]
+  },
+  "Seasonal local SEO": {
+   "kind": "topic",
+   "pages": [
+    "guides/seasonal-local-seo"
+   ],
+   "see": [],
+   "subs": {},
+   "seealso": [],
+   "main": [
+    "guides/seasonal-local-seo"
+   ]
   }
  },
  "reviewed": [
@@ -7487,6 +7499,7 @@
   "services/inquiry-path-audit",
   "guides/test-website-inquiries",
   "guides/show-notes-cascade",
-  "guides/gbp-performance-reports"
+  "guides/gbp-performance-reports",
+  "guides/seasonal-local-seo"
  ]
 }

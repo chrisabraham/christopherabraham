@@ -46,6 +46,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): A monthly SEO retainer with a senior consultant: monitoring, hands on fixes, developer QA, AI search checks, and a plain-English report every month.
 
 ## Guides
+- [Measure seasonal local SEO before the busy weeks arrive](https://christopherabraham.com/guides/seasonal-local-seo/): Build a seasonal local SEO baseline using comparable dates, fixed map grids, website inquiries, and store records before demand changes the numbers.
 - [When to keep your brand name in your page titles, and when to let it go](https://christopherabraham.com/guides/brand-name-in-titles/): Where a brand name belongs in a title tag, how to write it into the sentence instead of a pipe suffix, and how to test the change after a site migration.
 - [How to publish useful original research without a big budget](https://christopherabraham.com/guides/small-original-research/): Turn a small, repeatable investigation into useful original research with a clear question, honest sample, documented method, and evidence readers can check.
 - [AI catnip for fall 2026: become the source worth citing](https://christopherabraham.com/guides/ai-catnip/): Make your expertise easier to discover and cite in AI search this fall with original evidence, clear answers, accessible pages, and honest measurement.

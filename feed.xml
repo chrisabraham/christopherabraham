@@ -61,6 +61,56 @@
 &lt;/aside&gt;</content>
   </entry>
   <entry>
+    <title>Measure seasonal local SEO before the busy weeks arrive</title>
+    <link href="https://christopherabraham.com/guides/seasonal-local-seo/"/>
+    <id>https://christopherabraham.com/guides/seasonal-local-seo/</id>
+    <published>2026-10-24T12:00:00Z</published>
+    <updated>2026-10-24T12:00:00Z</updated>
+    <summary>Build a seasonal local SEO baseline using comparable dates, fixed map grids, website inquiries, and store records before demand changes the numbers.</summary>
+    <content type="html">&lt;h1&gt;Measure seasonal local SEO before the busy weeks arrive&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-24"&gt;October 24, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;A seasonal business can double its search traffic while its local visibility gets worse. Demand rises, customers search more often, and the totals look encouraging. I build the comparison before the rush so the owner can distinguish seasonal demand, changes in search visibility, and the inquiries that actually reach the business.&lt;/p&gt;
+&lt;h2&gt;Choose the selling window first&lt;/h2&gt;
+&lt;p&gt;Start with the dates that matter commercially. A holiday retailer might earn a large share of its revenue in a short period; a landscape contractor may have several weather dependent peaks. Ask the owner when customers research, when they buy, and when the business has capacity to serve them. Those can be three different windows.&lt;/p&gt;
+&lt;p&gt;Record the comparison rule before seeing the results. Calendar dates help with fixed holidays. Matching weekdays helps when weekend shopping dominates. For a movable holiday, days before the event may be more useful. Keep more than one view when necessary and explain the reason. Choosing whichever comparison looks best after the season makes an impressive chart and a poor decision tool.&lt;/p&gt;
+&lt;h2&gt;Preserve a baseline for each location&lt;/h2&gt;
+&lt;p&gt;Save the current profile details, the location landing page, the main search queries, and the available performance exports. Record the period covered and the export date. A business with several stores needs separate rows for each actual location, because a strong branch can hide deterioration at another.&lt;/p&gt;
+&lt;p&gt;Include store opening dates, changes in hours, promotions, major website releases, and advertising activity. These notes explain discontinuities that a search chart cannot. Keep source exports intact and do calculations in a separate working sheet. If a metric changes definition or disappears, retain the old record and explain the break instead of quietly splicing unlike series together.&lt;/p&gt;
+&lt;h2&gt;Keep demand and visibility in separate columns&lt;/h2&gt;
+&lt;p&gt;Search Console shows how the website performed in Google Search. Compare relevant queries and landing pages, then examine clicks, impressions, click through rate, and position together. A larger total can reflect more searches, broader query coverage, or better visibility. The shape of the change matters.&lt;/p&gt;
+&lt;p&gt;Google's traffic diagnosis guidance includes examining seasonality and using Google Trends. Treat that as context for the market rather than a count of your customers. Compare brand searches with broader product or service searches. A successful radio campaign may increase people searching for the store by name without demonstrating stronger discovery for unfamiliar customers.&lt;/p&gt;
+&lt;h2&gt;Freeze the map measurement setup&lt;/h2&gt;
+&lt;p&gt;A local ranking grid samples results from defined points around a location. To compare runs, preserve the coordinates, spacing, query wording, tool settings, and reporting method. Save the raw observations when the tool allows it. A different grid covers a different market and can change the apparent result without any business improvement.&lt;/p&gt;
+&lt;p&gt;Decide how to handle missing results and the tool's ranking limit. A business absent from the measured depth is unobserved beyond that limit; assigning it an arbitrary position can distort an average. Report the share of sampled points where the store appears in the chosen visible range, alongside the map itself. This is a repeatable sample, not a promise of what every shopper sees.&lt;/p&gt;
+&lt;h2&gt;Define customer actions accurately&lt;/h2&gt;
+&lt;p&gt;Business Profile reports include several kinds of interactions, and the available metrics vary. Google's documentation defines calls as clicks on the profile's call button. That count does not establish that somebody answered or that a sale followed. Direction requests likewise do not establish a visit.&lt;/p&gt;
+&lt;p&gt;Keep those actions separate from answered calls, qualified website inquiries, bookings, and recorded sales. Profile performance can also include activity associated with Google Ads. Note advertising changes when interpreting the series. A simple report with honest labels is more useful than a blended “leads” total assembled from actions with very different meanings.&lt;/p&gt;
+&lt;h2&gt;Use an example that exposes the uncertainty&lt;/h2&gt;
+&lt;p&gt;Imagine an illustrative store with website search clicks rising from 1,000 to 1,500 across comparable selling windows. Its share of sampled map points in the top three falls from 60 percent to 45 percent. Meanwhile, qualified inquiries rise from 40 to 44. Traffic grew by 50 percent, but inquiries grew by 10 percent and the measured local footprint weakened.&lt;/p&gt;
+&lt;p&gt;Those figures do not identify the cause. They suggest questions: did demand expand faster than the store's reach, did traffic shift toward informational pages, did opening hours constrain conversions, or did inquiry tracking change? The next investigation should follow the discrepancy. Declaring a blanket victory would hide the commercially useful part of the report.&lt;/p&gt;
+&lt;h2&gt;Schedule repairs around operational capacity&lt;/h2&gt;
+&lt;p&gt;Use quieter weeks for substantial location page work, tracking repairs, and changes that require careful review. Agree a release cutoff with the owner before peak trading. Keep a path for urgent corrections, especially inaccurate customer information or a broken purchase route. The cutoff is an operating decision tied to the business, not a universal SEO rule.&lt;/p&gt;
+&lt;p&gt;During the rush, use a small dashboard: important search trends, the fixed local sample, profile actions, qualified inquiries, and trading notes. Assign someone to check that phones, forms, directions, and hours still work. A ranking improvement has little value when a customer cannot get through to the store.&lt;/p&gt;
+&lt;h2&gt;Finish with a decision for the next season&lt;/h2&gt;
+&lt;p&gt;After the peak, compare the agreed windows and identify what deserves investigation or investment. Separate confirmed technical improvements from commercial outcomes and unresolved explanations. Preserve the same measurement setup for the following season, adding annotations when the business changes.&lt;/p&gt;
+&lt;p&gt;I help owners establish this baseline and connect it to practical website and listing work through &lt;a href="https://christopherabraham.com/services/local-seo/"&gt;local SEO consulting&lt;/a&gt;. For the individual report definitions, see &lt;a href="https://christopherabraham.com/guides/gbp-performance-reports/"&gt;Business Profile performance reports&lt;/a&gt;; for customer information ahead of holidays, use the &lt;a href="https://christopherabraham.com/guides/holiday-hours/"&gt;special hours checklist&lt;/a&gt;. A useful first engagement starts with the locations, the selling calendar, and the data already available.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops"&gt;Google Search Central: Debugging traffic drops&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://support.google.com/business/answer/9918094"&gt;Google Business Profile Help: Understand performance&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content>
+  </entry>
+  <entry>
     <title>Reading the new Google Business Profile performance reports</title>
     <link href="https://christopherabraham.com/guides/gbp-performance-reports/"/>
     <id>https://christopherabraham.com/guides/gbp-performance-reports/</id>

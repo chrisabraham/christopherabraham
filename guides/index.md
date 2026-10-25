@@ -6,6 +6,9 @@
 
 These guides cover the questions clients ask me most, written so you can act on them yourself. Each one is self-contained, with links to related guides and to the glossary for terms.
 
+## Seasonal businesses
+- [Measure seasonal local SEO before the busy weeks arrive](https://christopherabraham.com/guides/seasonal-local-seo/): a practical workflow with explicit decisions and verifiable evidence.
+
 ## Indexing and audits
 - [Test your website inquiries from page to inbox](https://christopherabraham.com/guides/test-website-inquiries/): trace submission, receipt, and analytics before investing in more traffic.
 - [Internal linking: stitching your pages together](https://christopherabraham.com/guides/internal-linking/): choose useful destinations, write natural anchors, check section targets, and plan the additions in a downloadable worksheet.

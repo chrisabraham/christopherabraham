@@ -36,6 +36,7 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 
 ## Guides
 
+- [Measure seasonal local SEO before the busy weeks arrive](https://christopherabraham.com/guides/seasonal-local-seo/index.md): Build a seasonal local SEO baseline using comparable dates, fixed map grids, website inquiries, and store records before demand changes the numbers.
 - [SEO guides](https://christopherabraham.com/guides/index.md): Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
 - [When to keep your brand name in your page titles, and when to let it go](https://christopherabraham.com/guides/brand-name-in-titles/index.md): Where a brand name belongs in a title tag, how to write it into the sentence instead of a pipe suffix, and how to test the change after a site migration.
 - [How to publish useful original research without a big budget](https://christopherabraham.com/guides/small-original-research/index.md): Turn a small, repeatable investigation into useful original research with a clear question, honest sample, documented method, and evidence readers can check.
