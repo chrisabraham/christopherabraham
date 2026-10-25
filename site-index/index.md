@@ -4,7 +4,7 @@
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 565 headings across 103 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 569 headings across 104 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -289,6 +289,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Columbia University, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Combs, Robert (GW English professor), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - command line assistant (12,000 lines), [Skills and Proof](https://christopherabraham.com/about/skills/)
+- Comparison cohort, [Search Console Comparisons](https://christopherabraham.com/guides/search-console-comparisons/)
 - comparison pages, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
 - compensation facts, [Recruiting Answers](https://christopherabraham.com/case-studies/recruiting-answers/)
 - confidence, stating, [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/)
@@ -910,12 +911,15 @@ People are listed surname first. Cross-references point to related headings. For
   - scheduling and command line, [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
 
 - screen readers, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/), [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
+- Search Console comparisons, [Search Console Comparisons](https://christopherabraham.com/guides/search-console-comparisons/)
 - Search Engine Journal, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Search Engine Land, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Search Engine Roundtable, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
+- Search performance reporting, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - Search Status Dashboard, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Seasonal local SEO, **[Seasonal Local SEO](https://christopherabraham.com/guides/seasonal-local-seo/)**
 - seasonality, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
+- Seasonality, [Search Console Comparisons](https://christopherabraham.com/guides/search-console-comparisons/)
 - self-serving reviews, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)
 - Semrush, [Services](https://christopherabraham.com/services/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Sendmail, [Skills and Proof](https://christopherabraham.com/about/skills/)

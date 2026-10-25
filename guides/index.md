@@ -7,6 +7,7 @@
 These guides cover the questions clients ask me most, written so you can act on them yourself. Each one is self-contained, with links to related guides and to the glossary for terms.
 
 ## Seasonal businesses
+- [Search Console comparisons that support better decisions](https://christopherabraham.com/guides/search-console-comparisons/): consistent periods, page groups, and honest reporting.
 - [Prioritize SEO work with limited developer time](https://christopherabraham.com/guides/prioritize-seo-work/): a practical method with an illustrative example and verification steps.
 - [Measure seasonal local SEO before the busy weeks arrive](https://christopherabraham.com/guides/seasonal-local-seo/): a practical workflow with explicit decisions and verifiable evidence.
 
