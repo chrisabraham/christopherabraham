@@ -7550,6 +7550,42 @@
    ],
    "subs": {},
    "see": []
+  },
+  "Comparison cohort": {
+   "kind": "topic",
+   "pages": [
+    "guides/search-console-comparisons"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "Search Console comparisons": {
+   "kind": "topic",
+   "pages": [
+    "guides/search-console-comparisons"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "Seasonality": {
+   "kind": "topic",
+   "pages": [
+    "guides/search-console-comparisons"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "Search performance reporting": {
+   "kind": "topic",
+   "pages": [
+    "about/skills"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
   }
  },
  "reviewed": [
@@ -7653,6 +7689,7 @@
   "guides/gbp-video-verification",
   "guides/disavow-links",
   "guides/xml-sitemaps",
-  "guides/prioritize-seo-work"
+  "guides/prioritize-seo-work",
+  "guides/search-console-comparisons"
  ]
 }

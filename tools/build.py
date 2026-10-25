@@ -151,6 +151,8 @@ def finish(p):
 
 
 pages = []
+FILES += ["guides/search-console-comparisons"]
+
 for f in FILES:
     head, body = open(f"src/{f}.html", encoding="utf-8").read().split("\n---\n", 1)
     p = dict(line.split(": ", 1) for line in head.strip().splitlines())
