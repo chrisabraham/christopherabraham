@@ -7530,6 +7530,48 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "Comparison cohort": {
+   "kind": "topic",
+   "pages": [
+    "guides/search-console-comparisons"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "guides/search-console-comparisons"
+   ]
+  },
+  "Search Console comparisons": {
+   "kind": "topic",
+   "pages": [
+    "guides/search-console-comparisons"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "guides/search-console-comparisons"
+   ]
+  },
+  "Seasonality": {
+   "kind": "topic",
+   "pages": [
+    "guides/search-console-comparisons"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "guides/search-console-comparisons"
+   ]
+  },
+  "Search performance reporting": {
+   "kind": "topic",
+   "pages": [
+    "about/skills"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
   }
  },
  "reviewed": [
@@ -7631,6 +7673,7 @@
   "guides/gbp-performance-reports",
   "guides/seasonal-local-seo",
   "guides/gbp-video-verification",
-  "guides/disavow-links"
+  "guides/disavow-links",
+  "guides/search-console-comparisons"
  ]
 }

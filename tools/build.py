@@ -146,6 +146,8 @@ def finish(p):
 
 
 pages = []
+FILES += ["guides/search-console-comparisons"]
+
 for f in FILES:
     head, body = open(f"src/{f}.html", encoding="utf-8").read().split("\n---\n", 1)
     p = dict(line.split(": ", 1) for line in head.strip().splitlines())
@@ -1055,3 +1057,4 @@ if unindexed:
     print(f"site index: {len(unindexed)} page(s) not indexed yet: {', '.join(unindexed)} (read each one and add its entries to tools/site_index.json)")
 for x in problems: print("PROBLEM:", x)
 sys.exit(1 if problems else 0)
+

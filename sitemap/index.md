@@ -1,6 +1,6 @@
 > Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.
 >
-> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-25 · By Christopher Abraham
+> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-24 · By Christopher Abraham
 
 # Site map
 
@@ -97,6 +97,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Spam link spikes and the disavow file: when to act at all](https://christopherabraham.com/guides/disavow-links/): A burst of junk backlinks rarely needs a response. When Google says the disavow tool fits, how to build a careful file, and the mistakes that cost rankings.
 - [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/): Google is testing a rebuilt Performance section for Business Profiles. How to read each new report, Overview first, and what the numbers mean.
 - [Google Business Profile video verification: plan the take before you press record](https://christopherabraham.com/guides/gbp-video-verification/): Passing Google Business Profile video verification the first time: what Google wants on camera for storefronts and service areas, and what to do if it fails.
+- [Search Console comparisons that support better decisions](https://christopherabraham.com/guides/search-console-comparisons/): Compare Search Console periods with consistent filters, matched weekdays, and page groups so seasonal demand and changing query mixes do not distort the result.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
@@ -123,4 +124,4 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 25, 2026
+Updated October 24, 2026

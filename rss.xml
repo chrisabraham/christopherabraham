@@ -109,6 +109,62 @@
 &lt;/aside&gt;</content:encoded>
   </item>
   <item>
+    <title>Search Console comparisons that support better decisions</title>
+    <link>https://christopherabraham.com/guides/search-console-comparisons/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/search-console-comparisons/</guid>
+    <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
+    <description>Compare Search Console periods with consistent filters, matched weekdays, and page groups so seasonal demand and changing query mixes do not distort the result.</description>
+    <content:encoded>&lt;h1&gt;Search Console comparisons that support better decisions&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-24"&gt;October 24, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;An upward line can conceal a weak month. A downward line can follow a useful expansion into new searches. I want a comparison that identifies which pages changed, which searches changed, and what decision the evidence supports. A percentage on its own leaves too much room for a confident explanation that the data never established.&lt;/p&gt;
+
+&lt;h2&gt;Write the question before choosing the dates&lt;/h2&gt;
+&lt;p&gt;Decide whether you are checking a release, reviewing a month, or investigating a loss. Each calls for a different comparison. A monthly review needs a view of the whole property. A product-template change needs the affected product pages, with an unchanged group beside them where the site has a suitable comparison. Keep the release date in the notes so later readers can distinguish the work from the measurement window.&lt;/p&gt;
+&lt;p&gt;Record the property, search type, country, device, page filter, query filter, dates, and export date. Save the original exports. Another person should be able to reopen the report and understand what you selected.&lt;/p&gt;
+
+&lt;h2&gt;Match the calendar to the business&lt;/h2&gt;
+&lt;p&gt;I start a routine comparison with two complete 28-day periods. Each contains four of every weekday. That is a reporting choice, and it removes one source of noise for businesses whose weekday and weekend traffic differ. It does not remove holidays, promotions, school schedules, or changes in demand.&lt;/p&gt;
+&lt;p&gt;For seasonal work, add the comparable period a year earlier and explain any holiday shift. Google's traffic-drop guidance recommends looking across 16 months and checking search demand in Google Trends. Trends supplies context about interest; it does not tell you how many visits your website should have received. Avoid using an unfinished day or preliminary data as the endpoint of a performance claim.&lt;/p&gt;
+
+&lt;h2&gt;Keep a stable group of pages&lt;/h2&gt;
+&lt;p&gt;Compare pages that existed in both periods separately from newly published pages. Otherwise a larger site can appear to have improved its existing material when the extra clicks came from additions. For a migration, preserve the mapping from old addresses to new ones before grouping results. Explain which addresses you treated as the same content.&lt;/p&gt;
+&lt;p&gt;Separate brand searches from the service or product searches relevant to acquiring customers. Define the brand spellings you included. A query filter creates a particular view of the data; describe that view rather than presenting it as the whole market.&lt;/p&gt;
+
+&lt;h2&gt;Read the metrics together&lt;/h2&gt;
+&lt;p&gt;Google defines click-through rate as clicks divided by impressions. Average position summarizes the highest result from your site across the observations in the selected view. Neither number is a permanent rank for a keyword. Device, country, page, and query groups help explain changes that the property total hides.&lt;/p&gt;
+&lt;p&gt;Consider an invented example. An established page receives 100 impressions at position 2. It then starts appearing for another 100 searches at position 20 while retaining its original visibility. The combined average becomes 11. Reporting that change as a nine-place collapse would misdescribe what happened. The page gained exposure to a second set of searches.&lt;/p&gt;
+&lt;p&gt;Calculate the click change in absolute numbers as well as percentages. A move from two clicks to four is a 100 percent increase and two additional clicks. Both statements belong in the report. Calculate a combined CTR from total clicks divided by total impressions, rather than averaging the percentages of rows with different impression counts.&lt;/p&gt;
+
+&lt;h2&gt;Give the reader a compact evidence record&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Scope:&lt;/strong&gt; the property, filters, and page group.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Window:&lt;/strong&gt; two complete periods, with calendar differences explained.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Result:&lt;/strong&gt; clicks and impressions in each period, absolute changes, and percentage changes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Explanation:&lt;/strong&gt; the pages and query groups responsible for most of the movement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Limit:&lt;/strong&gt; what remains unresolved, and the next check that will resolve it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A useful conclusion sounds like this: in this hypothetical comparison, existing service pages lost 30 clicks, new guides added 45, and the property gained 15 overall. The service-page loss still needs investigation. That gives the owner a task the headline total concealed.&lt;/p&gt;
+
+&lt;h2&gt;Separate a release check from a growth claim&lt;/h2&gt;
+&lt;p&gt;My guide to &lt;a href="https://christopherabraham.com/guides/prove-seo-fixes/"&gt;verifying an SEO fix&lt;/a&gt; covers whether the intended change reached the pages. This comparison answers a later question about search performance. A successful deployment and a rise in clicks are separate observations. Concurrent campaigns, seasonality, competitors, and other releases can affect the second.&lt;/p&gt;
+&lt;p&gt;I bring this reporting discipline to &lt;a href="https://christopherabraham.com/services/seo-audit/"&gt;SEO audits&lt;/a&gt;: preserve the baseline, identify the affected group, and explain what the next decision rests on. An owner should be able to challenge the conclusion using the evidence delivered with it.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://support.google.com/webmasters/answer/7576553?hl=en"&gt;Google Search Console Help: Performance report overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops"&gt;Google Search Central: Debugging drops in Google Search traffic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content:encoded>
+  </item>
+  <item>
     <title>Google Business Profile video verification: plan the take before you press record</title>
     <link>https://christopherabraham.com/guides/gbp-video-verification/</link>
     <guid isPermaLink="true">https://christopherabraham.com/guides/gbp-video-verification/</guid>
@@ -344,6 +400,8 @@ https://news.example/sponsored/old-placement.html&lt;/code&gt;&lt;/pre&gt;
   &lt;dd&gt;Building a page in the visitor's browser with JavaScript, so the HTML the server sends starts nearly empty. Crawlers that skip scripts see little or nothing. See &lt;a href="https://christopherabraham.com/guides/ai-built-websites/"&gt;SEO for AI-built websites&lt;/a&gt;.&lt;/dd&gt;
   &lt;dt id="cls"&gt;CLS (Cumulative Layout Shift)&lt;/dt&gt;
   &lt;dd&gt;The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.&lt;/dd&gt;
+  &lt;dt id="comparison-cohort"&gt;Comparison cohort&lt;/dt&gt;
+  &lt;dd&gt;A fixed group of pages evaluated across reporting periods so changes in the page inventory can be distinguished from changes in performance. See &lt;a href="https://christopherabraham.com/guides/search-console-comparisons/"&gt;Search Console comparisons&lt;/a&gt;.&lt;/dd&gt;
   &lt;dt id="core-update"&gt;Core update&lt;/dt&gt;
   &lt;dd&gt;A broad change Google makes to how it ranks everything, several times a year. Pages can rise or fall without anything being wrong with them; Google lists each one on its Search Status Dashboard.&lt;/dd&gt;
   &lt;dt id="core-web-vitals"&gt;Core Web Vitals&lt;/dt&gt;

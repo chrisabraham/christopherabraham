@@ -47,6 +47,9 @@ Building a page in the visitor's browser with JavaScript, so the HTML the server
 **CLS (Cumulative Layout Shift)**
 The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.
 
+**Comparison cohort**
+A fixed group of pages evaluated across reporting periods so changes in the page inventory can be distinguished from changes in performance. See [Search Console comparisons](https://christopherabraham.com/guides/search-console-comparisons/).
+
 **Core update**
 A broad change Google makes to how it ranks everything, several times a year. Pages can rise or fall without anything being wrong with them; Google lists each one on its Search Status Dashboard.
 

@@ -86,4 +86,8 @@ Paid search and paid social. Everything here is organic.
 
 Want this on your site? [Send me the URL and the problem](https://christopherabraham.com/contact/), or see how I work on [Hire Me](https://christopherabraham.com/hire-me/). The longer story is on the [About page](https://christopherabraham.com/about/), and the full bio is at [chrisabraham.com/bio](https://chrisabraham.com/bio).
 
+## Reporting that survives a second reading
+
+I separate the pages already on a site from newly published pages when interpreting growth, record the filters behind a comparison, and distinguish a deployed fix from a later change in search performance. My guide to [Search Console comparisons](https://christopherabraham.com/guides/search-console-comparisons/) sets out that method so a client can question the conclusion and inspect the evidence.
+
 Updated October 24, 2026
