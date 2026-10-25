@@ -37,10 +37,10 @@ jobs:
 
           def patch(path, old, new, why):
               s = io.open(path, encoding="utf-8").read()
-              if old not in s:
-                  assert new in s, (path, "neither old nor new text found")
+              if new in s:
                   print(path + ": already patched (" + why + ")")
                   return
+              assert old in s, (path, "neither old nor new text found")
               assert s.count(old) == 1, (path, "anchor is not unique")
               io.open(path, "w", encoding="utf-8").write(s.replace(old, new))
               print(path + ": patched (" + why + ")")
