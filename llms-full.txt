@@ -1078,7 +1078,7 @@ Updated October 6, 2026
 ---
 
 Source: https://christopherabraham.com/guides/
-Updated: 2026-10-20
+Updated: 2026-10-24
 
 # SEO guides
 
@@ -1124,6 +1124,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/): the day one settings, the plugins I recommend, archive pages, alt text, descriptive links, speed, and accessibility.
 - [Where to get reliable SEO and AI search news](https://christopherabraham.com/guides/seo-news-sources/): primary sources first, the daily trade press and who owns it, and three habits that keep you from repeating mistakes.
 - [Hit by a 2026 Google update?](https://christopherabraham.com/guides/update-recovery-2026/): line the drop up with the calendar, rule out reporting quirks, find the pages that lost, and fix them in order.
+- [Google Business Profile video verification](https://christopherabraham.com/guides/gbp-video-verification/): the single take Google wants, what storefronts and service-area businesses must show, and what to do after a rejection.
 - [Holiday hours on Google Business Profile](https://christopherabraham.com/guides/holiday-hours/): special hours versus temporarily closed, a calendar for the season, and multiple locations.
 
 ## Your name, your entity, and AI answers
@@ -1156,7 +1157,7 @@ New and updated guides appear in the [full-text RSS feed](https://christopherabr
 
 If you've worked through a guide and the problem is still there, that's usually the point where a second set of eyes on the actual site helps. Every engagement begins with a scoped audit; see the [services](https://christopherabraham.com/services/) or [get in touch](https://christopherabraham.com/contact/).
 
-Updated October 20, 2026
+Updated October 24, 2026
 
 
 ---
@@ -4576,11 +4577,11 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 ---
 
 Source: https://christopherabraham.com/guides/glossary/
-Updated: 2026-10-15
+Updated: 2026-10-24
 
 # Glossary of SEO and AI search terms
 
-By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026 · Updated October 15, 2026
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026 · Updated October 24, 2026
 
 The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need. To find every page that discusses a term, use the [index](https://christopherabraham.com/site-index/).
 
@@ -4752,6 +4753,9 @@ Google's free owner dashboard: clicks and impressions, index status, Core Web Vi
 **Server-side rendering (SSR)**
 Assembling the complete HTML on the server so a crawler gets every word in the first response, no scripts required.
 
+**Service-area business**
+A business on Google that travels to its customers, such as a plumber or mobile groomer, and hides its street address from the public profile. It verifies by showing its tools, vehicle, and nearby street markers. See [video verification](https://christopherabraham.com/guides/gbp-video-verification/).
+
 **Single page application (SPA)**
 A website that loads one HTML shell and swaps content in with JavaScript as people click, instead of loading a new page for each address. Many AI app builders produce them.
 
@@ -4772,6 +4776,9 @@ One hub page that defines a subject, plus a set of pages that each answer a sing
 
 **Vibe coding**
 Building software by describing what you want to an AI tool and accepting what it writes, with little reading of the code itself. Andrej Karpathy coined the phrase in February 2025.
+
+**Video verification**
+Google's way of confirming a Business Profile from a single unedited phone recording of at least 30 seconds that shows the location, the business, and proof the owner runs it. Explained in [my video verification guide](https://christopherabraham.com/guides/gbp-video-verification/).
 
 **White label**
 A service delivered under someone else's brand: an agency resells the work, and its client never sees the vendor's name.
@@ -5566,7 +5573,7 @@ Updated October 14, 2026
 ---
 
 Source: https://christopherabraham.com/about/skills/
-Updated: 2026-10-15
+Updated: 2026-10-24
 
 # Technical SEO skills, and the proof for each one
 
@@ -5618,6 +5625,8 @@ Updated: 2026-10-15
 
 ## Local search and Google Business Profile
 - Got a suspended profile reinstated with a documented appeal. [Profile reinstated](https://christopherabraham.com/case-studies/profile-reinstated/).
+- Rescue profiles stuck in failed verification: reconcile the listing with the real business and its paperwork, then script the owner's one-take video so it shows every proof Google asks for. My [video verification checklist](https://christopherabraham.com/guides/gbp-video-verification/) is published.
+- Build appeals like a legal brief: the most authoritative document first, nothing that exposes private data, and no date claimed that the paperwork doesn't support.
 
 ## Data
 - Wrote Python pipelines that built an 88,900 contact master list, merged two 28,800 record exports at 94% email coverage, and caught an AI-built tracker inventing its data.
@@ -5650,7 +5659,7 @@ Paid search and paid social. Everything here is organic.
 
 Want this on your site? [Send me the URL and the problem](https://christopherabraham.com/contact/), or see how I work on [Hire Me](https://christopherabraham.com/hire-me/). The longer story is on the [About page](https://christopherabraham.com/about/), and the full bio is at [chrisabraham.com/bio](https://chrisabraham.com/bio).
 
-Updated October 15, 2026
+Updated October 24, 2026
 
 
 ---
@@ -6564,6 +6573,79 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 
 ---
 
+Source: https://christopherabraham.com/guides/gbp-video-verification/
+Updated: 2026-10-24
+
+# Google Business Profile video verification: plan the take before you press record
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 24, 2026
+
+For a lot of businesses, the only verification option Google offers now is a video recorded on a phone. It looks easy, and it fails for reasons that are easy to avoid: the street wasn't clear, the sign didn't match the profile, or nothing on screen proved the person filming runs the place. Google judges one continuous take, so every one of those mistakes means starting over. This is the checklist I work from, built on what Google's help pages say as of October 2026.
+
+## You don't pick the method
+
+Google decides which verification methods a profile gets, and its help page says plainly that they "can't be changed." Depending on the business type and region, the menu can include phone or text, email, a postcard, a live video call with a Google representative, or a recorded video. If the recorded video is the only choice on your screen, that's the one to prepare for.
+
+## The rules for the recording itself
+- **One continuous take of at least 30 seconds.** Google wants it unedited, unique, and complete, with no breaks.
+- **Recorded live on a phone, through the Business Profile.** Footage shot earlier and uploaded later doesn't count, and neither does anything from a desktop.
+- **Nothing sensitive.** Keep bank, tax, and ID numbers, other private details, and other people's faces out of the frame. Film before opening or when the shop is empty.
+
+In the app, the path is Get verified, then Business video. Google reviews the upload in up to five business days.
+
+## What a storefront or hybrid business has to show
+
+Google treats a storefront as a business that serves customers in person at an address with permanent signage. A hybrid business does that and also travels or delivers. The video needs three things, in this order.
+1. **Where you are.** Start outside with a street sign, the building number, a neighboring business, or a landmark, so a reviewer can match the spot on Google Maps.
+2. **That the business exists there.** Pan to the storefront and the sign. Google requires the business name printed on a permanent fixture, a signboard, wall, or window, and it must match the name on the profile. A banner zip-tied to a fence doesn't qualify, and neither does a sign still carrying an old trade name.
+3. **That you manage it.** Unlock the door, walk in, and show something only staff can reach: the register or point-of-sale screen, the kitchen, the stockroom.
+
+Google's own advice is that a business without permanent signage should be set up as a service-area business instead.
+
+## What a service-area business has to show
+
+Plumbers, cleaners, mobile groomers, and every other business that goes to its customers verify differently, and Google says a service-area business shouldn't show its address on the profile at all.
+1. **Where you operate from.** Street signs or landmarks at the business address. If you work from home, Google says the signs and landmarks in your immediate neighborhood are acceptable. It specifically warns against filming empty land or places with no clear markers.
+2. **That the business exists.** Professional tools, equipment, stock, a branded vehicle, business cards, or branded uniforms.
+3. **That you run it.** Perform a piece of the service, or unlock the branded van and show what's inside. Google also accepts a business permit, invoice, or utility bill in the business name, held to the camera with the account numbers covered.
+
+## Rehearse it, then record it once
+
+Walk the route before you record, with the phone in hand and the app closed. Decide where you'll start, which sign you'll hold on for a few seconds, which door you'll unlock, and which document you'll show. Do it in daylight. Hold each proof steady long enough to read; a quick swipe past the sign is as good as no sign. Narrating as you go ("this is the corner of Main and Fifth, here is the sign, here is the register") costs nothing and leaves the reviewer less to guess.
+
+Before you start, open the profile and compare it against what the camera will see. The business name, the address, and the category on the profile should match the sign, the building, and the work. A profile name stuffed with keywords that appear on no sign is a mismatch the video will expose.
+
+## If the video fails
+
+Google tells you why it rejected the video and offers a Review issues button. The replacement has to include everything from the first recording plus whatever was missing, so record the whole sequence again, start to finish, with the gap fixed. Read the reason closely before trying again; a second video with the same flaw will fail the same way. Google's help page also suggests trying another verification method, if one is offered, before contacting support.
+
+When the reason makes no sense, or the profile fails again and again, the trouble usually sits in the profile itself: a name that doesn't match any document, an address Google associates with another business, a category that doesn't fit what's on camera, or a history of edits that made the listing look unstable. Those need fixing before the next video, or every recording will hit the same wall.
+
+## Don't edit the profile mid-verification
+
+Google's help page warns that changing the business name, address, or category while a postcard is on its way makes the code stop working. The same logic applies to every method: an edit hands Google a new set of facts to check. Settle the details first, verify, and make any planned changes afterward, one at a time.
+
+## How I help with stuck verifications
+
+I take on profiles that keep failing verification, along with suspensions, duplicates, and listings stranded with a former agency. I start by reconciling the profile against the real business and its paperwork, then script the video with the owner so the single take shows everything Google asks for. Google makes the decision, and no one can promise its outcome, but a prepared take removes the avoidable reasons to fail. See [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/), the [reinstated profile case](https://christopherabraham.com/case-studies/profile-reinstated/), or [send me the listing](https://christopherabraham.com/contact/).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [Google Business Profile Help: Verify your business with a video recording](https://support.google.com/business/answer/14271705)
+- [Google Business Profile Help: Verify your business on Google](https://support.google.com/business/answer/7107242)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
 Source: https://christopherabraham.com/sitemap/
 Updated: 2026-10-25
 
@@ -6660,6 +6742,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Moving a website? Check its images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/): Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.
 - [Your website form says success. Did anyone get the inquiry?](https://christopherabraham.com/guides/test-website-inquiries/): Trace a test inquiry from landing page to form, confirmation, inbox, and reporting. Find delivery failures and false conversion counts before buying traffic.
 - [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/): Google is testing a rebuilt Performance section for Business Profiles. How to read each new report, Overview first, and what the numbers mean.
+- [Google Business Profile video verification: plan the take before you press record](https://christopherabraham.com/guides/gbp-video-verification/): Passing Google Business Profile video verification the first time: what Google wants on camera for storefronts and service areas, and what to do if it fails.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
@@ -6696,7 +6779,7 @@ Updated: 2026-10-25
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 556 headings across 99 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 562 headings across 100 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -7159,6 +7242,8 @@ People are listed surname first. Cross-references point to related headings. For
   - special hours, [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)
   - suspensions and appeals, [Local SEO](https://christopherabraham.com/services/local-seo/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Skills and Proof](https://christopherabraham.com/about/skills/)
   - temporarily closed, [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)
+  - verification methods, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
+  - video verification, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
 
 - Google documentation, [Brand name in titles](https://christopherabraham.com/guides/brand-name-in-titles/), [Small original research](https://christopherabraham.com/guides/small-original-research/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
 - Google documentation changelog, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
@@ -7320,6 +7405,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Liquid, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - LiteSpeed Cache, [Site Speed](https://christopherabraham.com/services/site-speed/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
 - Little, Ginny, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
+- live video call verification, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
 - llms-full.txt, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
 - llms.txt, [AI Search](https://christopherabraham.com/services/ai-search/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Guides](https://christopherabraham.com/guides/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), **[llms.txt](https://christopherabraham.com/guides/llms-txt/)**, [The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)
   - format, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
@@ -7502,6 +7588,7 @@ People are listed surname first. Cross-references point to related headings. For
   - share cards, [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/)
   - transcripts, [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/)
 
+- postcard verification, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
 - Potomac Boat Club, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - prerendering, [Glossary](https://christopherabraham.com/guides/glossary/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)
 - privacy, **[Privacy](https://christopherabraham.com/privacy/)**
@@ -7613,6 +7700,7 @@ People are listed surname first. Cross-references point to related headings. For
 - separate tracks for separate problems, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Migrations](https://christopherabraham.com/services/migrations/), [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/), [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/), [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), [Skills and Proof](https://christopherabraham.com/about/skills/)
 - serialized novel (Chris’), **[Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)**
 - server-side rendering, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
+- service-area businesses, [Glossary](https://christopherabraham.com/guides/glossary/), **[GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)**
 - service-area pages, [Local SEO](https://christopherabraham.com/services/local-seo/)
 - Shadow Conventions, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - share cards (Open Graph images), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), **[Social Share Cards](https://christopherabraham.com/guides/social-share-cards/)**, [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/), [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
@@ -7639,6 +7727,7 @@ People are listed surname first. Cross-references point to related headings. For
   - written for citation, [The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)
 
 - show notes cascade, **[The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)**. *See also* [show notes](https://christopherabraham.com/site-index/#ix-show-notes)
+- signage, permanent, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
 - single page applications, [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/), [Glossary](https://christopherabraham.com/guides/glossary/). *See also* [JavaScript SEO](https://christopherabraham.com/site-index/#ix-javascript-seo)
 - Site Kit by Google, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
 - site migrations, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), **[Migrations](https://christopherabraham.com/services/migrations/)**, [Static Websites](https://christopherabraham.com/services/static-sites/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/). *See also* [301 redirects](https://christopherabraham.com/site-index/#ix-301-redirects)
@@ -7776,6 +7865,7 @@ People are listed surname first. Cross-references point to related headings. For
 - variable isolation. *See* [separate tracks for separate problems](https://christopherabraham.com/site-index/#ix-separate-tracks-for-separate-problems)
 - Vercel, [Services](https://christopherabraham.com/services/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Migrations](https://christopherabraham.com/services/migrations/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)
 - Verdana, [Colophon](https://christopherabraham.com/about/colophon/)
+- verification, Google Business Profile. *See* [video verification](https://christopherabraham.com/site-index/#ix-video-verification)
 - verifying fixes, **[Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/)**, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
   - Added, Removed, New, and Missing, [Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/)
   - baseline crawl, [Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/)
@@ -7786,6 +7876,14 @@ People are listed surname first. Cross-references point to related headings. For
 
 - version control, [Brand name in titles](https://christopherabraham.com/guides/brand-name-in-titles/)
 - vibe coding, [Glossary](https://christopherabraham.com/guides/glossary/)
+- video verification, **[GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)**
+  - after a rejection, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
+  - editing during verification, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
+  - recording rules, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
+  - rehearsing the take, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
+  - service-area businesses, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
+  - storefront and hybrid businesses, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
+
 - View Source test, [The Lynx Test](https://christopherabraham.com/guides/lynx-test/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - viewport tag, [Meta Keywords](https://christopherabraham.com/guides/meta-keywords/)
 - Virtual Community, The, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)

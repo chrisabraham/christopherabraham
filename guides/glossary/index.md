@@ -1,10 +1,10 @@
 > Plain-English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 >
-> Source: https://christopherabraham.com/guides/glossary/ · Updated 2026-10-15 · By Christopher Abraham
+> Source: https://christopherabraham.com/guides/glossary/ · Updated 2026-10-24 · By Christopher Abraham
 
 # Glossary of SEO and AI search terms
 
-By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026 · Updated October 15, 2026
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026 · Updated October 24, 2026
 
 The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need. To find every page that discusses a term, use the [index](https://christopherabraham.com/site-index/).
 
@@ -176,6 +176,9 @@ Google's free owner dashboard: clicks and impressions, index status, Core Web Vi
 **Server-side rendering (SSR)**
 Assembling the complete HTML on the server so a crawler gets every word in the first response, no scripts required.
 
+**Service-area business**
+A business on Google that travels to its customers, such as a plumber or mobile groomer, and hides its street address from the public profile. It verifies by showing its tools, vehicle, and nearby street markers. See [video verification](https://christopherabraham.com/guides/gbp-video-verification/).
+
 **Single page application (SPA)**
 A website that loads one HTML shell and swaps content in with JavaScript as people click, instead of loading a new page for each address. Many AI app builders produce them.
 
@@ -196,6 +199,9 @@ One hub page that defines a subject, plus a set of pages that each answer a sing
 
 **Vibe coding**
 Building software by describing what you want to an AI tool and accepting what it writes, with little reading of the code itself. Andrej Karpathy coined the phrase in February 2025.
+
+**Video verification**
+Google's way of confirming a Business Profile from a single unedited phone recording of at least 30 seconds that shows the location, the business, and proof the owner runs it. Explained in [my video verification guide](https://christopherabraham.com/guides/gbp-video-verification/).
 
 **White label**
 A service delivered under someone else's brand: an agency resells the work, and its client never sees the vendor's name.

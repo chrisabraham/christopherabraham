@@ -1,6 +1,6 @@
 > Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
 >
-> Source: https://christopherabraham.com/guides/ · Updated 2026-10-20 · By Christopher Abraham
+> Source: https://christopherabraham.com/guides/ · Updated 2026-10-24 · By Christopher Abraham
 
 # SEO guides
 
@@ -46,6 +46,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/): the day one settings, the plugins I recommend, archive pages, alt text, descriptive links, speed, and accessibility.
 - [Where to get reliable SEO and AI search news](https://christopherabraham.com/guides/seo-news-sources/): primary sources first, the daily trade press and who owns it, and three habits that keep you from repeating mistakes.
 - [Hit by a 2026 Google update?](https://christopherabraham.com/guides/update-recovery-2026/): line the drop up with the calendar, rule out reporting quirks, find the pages that lost, and fix them in order.
+- [Google Business Profile video verification](https://christopherabraham.com/guides/gbp-video-verification/): the single take Google wants, what storefronts and service-area businesses must show, and what to do after a rejection.
 - [Holiday hours on Google Business Profile](https://christopherabraham.com/guides/holiday-hours/): special hours versus temporarily closed, a calendar for the season, and multiple locations.
 
 ## Your name, your entity, and AI answers
@@ -78,4 +79,4 @@ New and updated guides appear in the [full-text RSS feed](https://christopherabr
 
 If you've worked through a guide and the problem is still there, that's usually the point where a second set of eyes on the actual site helps. Every engagement begins with a scoped audit; see the [services](https://christopherabraham.com/services/) or [get in touch](https://christopherabraham.com/contact/).
 
-Updated October 20, 2026
+Updated October 24, 2026

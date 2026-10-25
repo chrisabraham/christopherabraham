@@ -2567,6 +2567,41 @@
     "guides/ga4-pagespeed"
    ]
   },
+  "GBP performance reports": {
+   "kind": "topic",
+   "pages": [
+    "guides/gbp-performance-reports"
+   ],
+   "subs": {
+    "overview recommendations": [
+     "guides/gbp-performance-reports"
+    ],
+    "engagement": [
+     "guides/gbp-performance-reports"
+    ],
+    "reviews in detail": [
+     "guides/gbp-performance-reports"
+    ],
+    "audience": [
+     "guides/gbp-performance-reports"
+    ],
+    "search trends": [
+     "guides/gbp-performance-reports"
+    ],
+    "monthly reading routine": [
+     "guides/gbp-performance-reports"
+    ],
+    "reading mistakes": [
+     "guides/gbp-performance-reports"
+    ]
+   },
+   "see": [
+    "Google Business Profile"
+   ],
+   "main": [
+    "guides/gbp-performance-reports"
+   ]
+  },
   "Gemini": {
    "kind": "topic",
    "pages": [
@@ -2816,6 +2851,12 @@
     ],
     "interactions, calls, and direction requests": [
      "case-studies/training-gym"
+    ],
+    "video verification": [
+     "guides/gbp-video-verification"
+    ],
+    "verification methods": [
+     "guides/gbp-video-verification"
     ]
    },
    "see": [
@@ -3761,6 +3802,15 @@
    "kind": "person",
    "pages": [
     "about/off-the-clock"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "live video call verification": {
+   "kind": "topic",
+   "pages": [
+    "guides/gbp-video-verification"
    ],
    "subs": {},
    "see": [],
@@ -4970,6 +5020,17 @@
    "see": [],
    "main": []
   },
+  "podcast directories": {
+   "kind": "topic",
+   "pages": [
+    "guides/show-notes-cascade"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "guides/show-notes-cascade"
+   ]
+  },
   "podcast websites": {
    "kind": "topic",
    "pages": [
@@ -4998,6 +5059,15 @@
     "services/podcast-website",
     "case-studies/podcast-site"
    ]
+  },
+  "postcard verification": {
+   "kind": "topic",
+   "pages": [
+    "guides/gbp-video-verification"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
   },
   "Potomac Boat Club": {
    "kind": "topic",
@@ -5687,6 +5757,18 @@
    "see": [],
    "main": []
   },
+  "Seasonal local SEO": {
+   "kind": "topic",
+   "pages": [
+    "guides/seasonal-local-seo"
+   ],
+   "see": [],
+   "subs": {},
+   "seealso": [],
+   "main": [
+    "guides/seasonal-local-seo"
+   ]
+  },
   "seasonality": {
    "kind": "topic",
    "pages": [
@@ -5824,6 +5906,18 @@
    "see": [],
    "main": []
   },
+  "service-area businesses": {
+   "kind": "topic",
+   "pages": [
+    "guides/gbp-video-verification",
+    "guides/glossary"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "guides/gbp-video-verification"
+   ]
+  },
   "service-area pages": {
    "kind": "topic",
    "pages": [
@@ -5929,6 +6023,52 @@
    "main": [
     "case-studies/shopify-cleanup"
    ]
+  },
+  "show notes": {
+   "kind": "topic",
+   "pages": [
+    "guides/show-notes-cascade"
+   ],
+   "subs": {
+    "written for citation": [
+     "guides/show-notes-cascade"
+    ],
+    "front loading": [
+     "guides/show-notes-cascade"
+    ],
+    "the owned mirror site": [
+     "guides/show-notes-cascade"
+    ],
+    "position queries": [
+     "guides/show-notes-cascade"
+    ]
+   },
+   "see": [],
+   "main": [
+    "guides/show-notes-cascade"
+   ]
+  },
+  "show notes cascade": {
+   "kind": "topic",
+   "pages": [
+    "guides/show-notes-cascade"
+   ],
+   "subs": {},
+   "see": [
+    "show notes"
+   ],
+   "main": [
+    "guides/show-notes-cascade"
+   ]
+  },
+  "signage, permanent": {
+   "kind": "topic",
+   "pages": [
+    "guides/gbp-video-verification"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
   },
   "single page applications": {
    "kind": "topic",
@@ -6828,6 +6968,15 @@
    "see": [],
    "main": []
   },
+  "verification, Google Business Profile": {
+   "kind": "topic",
+   "pages": [],
+   "subs": {},
+   "see": [
+    "video verification"
+   ],
+   "main": []
+  },
   "verifying fixes": {
    "kind": "topic",
    "pages": [
@@ -6876,6 +7025,36 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "video verification": {
+   "kind": "topic",
+   "pages": [
+    "guides/gbp-video-verification"
+   ],
+   "subs": {
+    "recording rules": [
+     "guides/gbp-video-verification"
+    ],
+    "storefront and hybrid businesses": [
+     "guides/gbp-video-verification"
+    ],
+    "service-area businesses": [
+     "guides/gbp-video-verification"
+    ],
+    "rehearsing the take": [
+     "guides/gbp-video-verification"
+    ],
+    "after a rejection": [
+     "guides/gbp-video-verification"
+    ],
+    "editing during verification": [
+     "guides/gbp-video-verification"
+    ]
+   },
+   "see": [],
+   "main": [
+    "guides/gbp-video-verification"
+   ]
   },
   "View Source test": {
    "kind": "topic",
@@ -7045,6 +7224,18 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "website inquiry testing": {
+   "kind": "topic",
+   "pages": [
+    "services/inquiry-path-audit",
+    "guides/test-website-inquiries"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "guides/test-website-inquiries"
+   ]
   },
   "white label services": {
    "kind": "topic",
@@ -7294,113 +7485,6 @@
    "subs": {},
    "see": [],
    "main": []
-  },
-  "website inquiry testing": {
-   "kind": "topic",
-   "pages": [
-    "services/inquiry-path-audit",
-    "guides/test-website-inquiries"
-   ],
-   "subs": {},
-   "see": [],
-   "main": [
-    "guides/test-website-inquiries"
-   ]
-  },
-  "show notes": {
-   "kind": "topic",
-   "pages": [
-    "guides/show-notes-cascade"
-   ],
-   "subs": {
-    "written for citation": [
-     "guides/show-notes-cascade"
-    ],
-    "front loading": [
-     "guides/show-notes-cascade"
-    ],
-    "the owned mirror site": [
-     "guides/show-notes-cascade"
-    ],
-    "position queries": [
-     "guides/show-notes-cascade"
-    ]
-   },
-   "see": [],
-   "main": [
-    "guides/show-notes-cascade"
-   ]
-  },
-  "podcast directories": {
-   "kind": "topic",
-   "pages": [
-    "guides/show-notes-cascade"
-   ],
-   "subs": {},
-   "see": [],
-   "main": [
-    "guides/show-notes-cascade"
-   ]
-  },
-  "show notes cascade": {
-   "kind": "topic",
-   "pages": [
-    "guides/show-notes-cascade"
-   ],
-   "subs": {},
-   "see": [
-    "show notes"
-   ],
-   "main": [
-    "guides/show-notes-cascade"
-   ]
-  },
-  "GBP performance reports": {
-   "kind": "topic",
-   "pages": [
-    "guides/gbp-performance-reports"
-   ],
-   "subs": {
-    "overview recommendations": [
-     "guides/gbp-performance-reports"
-    ],
-    "engagement": [
-     "guides/gbp-performance-reports"
-    ],
-    "reviews in detail": [
-     "guides/gbp-performance-reports"
-    ],
-    "audience": [
-     "guides/gbp-performance-reports"
-    ],
-    "search trends": [
-     "guides/gbp-performance-reports"
-    ],
-    "monthly reading routine": [
-     "guides/gbp-performance-reports"
-    ],
-    "reading mistakes": [
-     "guides/gbp-performance-reports"
-    ]
-   },
-   "see": [
-    "Google Business Profile"
-   ],
-   "main": [
-    "guides/gbp-performance-reports"
-   ]
-  },
-  "Seasonal local SEO": {
-   "kind": "topic",
-   "pages": [
-    "guides/seasonal-local-seo"
-   ],
-   "see": [],
-   "subs": {},
-   "seealso": [],
-   "main": [
-    "guides/seasonal-local-seo"
-   ]
   }
  },
  "reviewed": [
@@ -7500,6 +7584,7 @@
   "guides/test-website-inquiries",
   "guides/show-notes-cascade",
   "guides/gbp-performance-reports",
-  "guides/seasonal-local-seo"
+  "guides/seasonal-local-seo",
+  "guides/gbp-video-verification"
  ]
 }

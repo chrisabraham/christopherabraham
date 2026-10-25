@@ -1,6 +1,6 @@
 > A technical SEO skills list where each line links to evidence: rendering forensics, pull requests, crawl automation, redirects, schema, AI search, and servers.
 >
-> Source: https://christopherabraham.com/about/skills/ · Updated 2026-10-15 · By Christopher Abraham
+> Source: https://christopherabraham.com/about/skills/ · Updated 2026-10-24 · By Christopher Abraham
 
 # Technical SEO skills, and the proof for each one
 
@@ -52,6 +52,8 @@
 
 ## Local search and Google Business Profile
 - Got a suspended profile reinstated with a documented appeal. [Profile reinstated](https://christopherabraham.com/case-studies/profile-reinstated/).
+- Rescue profiles stuck in failed verification: reconcile the listing with the real business and its paperwork, then script the owner's one-take video so it shows every proof Google asks for. My [video verification checklist](https://christopherabraham.com/guides/gbp-video-verification/) is published.
+- Build appeals like a legal brief: the most authoritative document first, nothing that exposes private data, and no date claimed that the paperwork doesn't support.
 
 ## Data
 - Wrote Python pipelines that built an 88,900 contact master list, merged two 28,800 record exports at 94% email coverage, and caught an AI-built tracker inventing its data.
@@ -84,4 +86,4 @@ Paid search and paid social. Everything here is organic.
 
 Want this on your site? [Send me the URL and the problem](https://christopherabraham.com/contact/), or see how I work on [Hire Me](https://christopherabraham.com/hire-me/). The longer story is on the [About page](https://christopherabraham.com/about/), and the full bio is at [chrisabraham.com/bio](https://chrisabraham.com/bio).
 
-Updated October 15, 2026
+Updated October 24, 2026

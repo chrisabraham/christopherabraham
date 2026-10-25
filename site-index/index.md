@@ -4,7 +4,7 @@
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 556 headings across 99 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 562 headings across 100 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -467,6 +467,8 @@ People are listed surname first. Cross-references point to related headings. For
   - special hours, [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)
   - suspensions and appeals, [Local SEO](https://christopherabraham.com/services/local-seo/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Skills and Proof](https://christopherabraham.com/about/skills/)
   - temporarily closed, [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)
+  - verification methods, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
+  - video verification, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
 
 - Google documentation, [Brand name in titles](https://christopherabraham.com/guides/brand-name-in-titles/), [Small original research](https://christopherabraham.com/guides/small-original-research/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
 - Google documentation changelog, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
@@ -628,6 +630,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Liquid, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - LiteSpeed Cache, [Site Speed](https://christopherabraham.com/services/site-speed/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
 - Little, Ginny, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
+- live video call verification, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
 - llms-full.txt, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
 - llms.txt, [AI Search](https://christopherabraham.com/services/ai-search/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Guides](https://christopherabraham.com/guides/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), **[llms.txt](https://christopherabraham.com/guides/llms-txt/)**, [The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)
   - format, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
@@ -810,6 +813,7 @@ People are listed surname first. Cross-references point to related headings. For
   - share cards, [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/)
   - transcripts, [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/)
 
+- postcard verification, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
 - Potomac Boat Club, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - prerendering, [Glossary](https://christopherabraham.com/guides/glossary/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)
 - privacy, **[Privacy](https://christopherabraham.com/privacy/)**
@@ -921,6 +925,7 @@ People are listed surname first. Cross-references point to related headings. For
 - separate tracks for separate problems, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Migrations](https://christopherabraham.com/services/migrations/), [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/), [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/), [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), [Skills and Proof](https://christopherabraham.com/about/skills/)
 - serialized novel (Chris’), **[Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)**
 - server-side rendering, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
+- service-area businesses, [Glossary](https://christopherabraham.com/guides/glossary/), **[GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)**
 - service-area pages, [Local SEO](https://christopherabraham.com/services/local-seo/)
 - Shadow Conventions, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - share cards (Open Graph images), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), **[Social Share Cards](https://christopherabraham.com/guides/social-share-cards/)**, [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/), [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
@@ -947,6 +952,7 @@ People are listed surname first. Cross-references point to related headings. For
   - written for citation, [The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)
 
 - show notes cascade, **[The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)**. *See also* [show notes](https://christopherabraham.com/site-index/#ix-show-notes)
+- signage, permanent, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
 - single page applications, [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/), [Glossary](https://christopherabraham.com/guides/glossary/). *See also* [JavaScript SEO](https://christopherabraham.com/site-index/#ix-javascript-seo)
 - Site Kit by Google, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
 - site migrations, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), **[Migrations](https://christopherabraham.com/services/migrations/)**, [Static Websites](https://christopherabraham.com/services/static-sites/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/). *See also* [301 redirects](https://christopherabraham.com/site-index/#ix-301-redirects)
@@ -1084,6 +1090,7 @@ People are listed surname first. Cross-references point to related headings. For
 - variable isolation. *See* [separate tracks for separate problems](https://christopherabraham.com/site-index/#ix-separate-tracks-for-separate-problems)
 - Vercel, [Services](https://christopherabraham.com/services/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Migrations](https://christopherabraham.com/services/migrations/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)
 - Verdana, [Colophon](https://christopherabraham.com/about/colophon/)
+- verification, Google Business Profile. *See* [video verification](https://christopherabraham.com/site-index/#ix-video-verification)
 - verifying fixes, **[Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/)**, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
   - Added, Removed, New, and Missing, [Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/)
   - baseline crawl, [Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/)
@@ -1094,6 +1101,14 @@ People are listed surname first. Cross-references point to related headings. For
 
 - version control, [Brand name in titles](https://christopherabraham.com/guides/brand-name-in-titles/)
 - vibe coding, [Glossary](https://christopherabraham.com/guides/glossary/)
+- video verification, **[GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)**
+  - after a rejection, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
+  - editing during verification, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
+  - recording rules, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
+  - rehearsing the take, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
+  - service-area businesses, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
+  - storefront and hybrid businesses, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
+
 - View Source test, [The Lynx Test](https://christopherabraham.com/guides/lynx-test/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - viewport tag, [Meta Keywords](https://christopherabraham.com/guides/meta-keywords/)
 - Virtual Community, The, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
