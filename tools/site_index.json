@@ -1116,7 +1116,8 @@
     "services/ai-search",
     "services/podcast-website",
     "services/seo-retainer",
-    "services/seo-audit"
+    "services/seo-audit",
+    "guides/xml-sitemaps"
    ],
    "subs": {
     "AI Performance report": [
@@ -2930,7 +2931,8 @@
     "guides/core-web-vitals",
     "guides/small-business-schema",
     "guides/redirect-rules",
-    "guides/disavow-links"
+    "guides/disavow-links",
+    "guides/xml-sitemaps"
    ],
    "subs": {
     "lost access, recovering": [
@@ -3469,7 +3471,8 @@
     "guides/ai-search-checklist",
     "guides/wordpress-seo-101",
     "guides/cloudflare-wordpress",
-    "about/skills"
+    "about/skills",
+    "guides/xml-sitemaps"
    ],
    "subs": {
     "Google not a participant": [
@@ -4764,7 +4767,8 @@
     "services/indexing",
     "services/search-console",
     "guides",
-    "guides/page-indexing-report"
+    "guides/page-indexing-report",
+    "guides/xml-sitemaps"
    ],
    "subs": {
     "Page with redirect": [
@@ -5514,7 +5518,8 @@
     "services/indexing",
     "services/seo-audit",
     "services/ecommerce-seo",
-    "guides/llms-txt"
+    "guides/llms-txt",
+    "guides/xml-sitemaps"
    ],
    "subs": {},
    "see": [],
@@ -5675,7 +5680,8 @@
     "guides/screaming-frog-licence",
     "guides/near-duplicates-and-h1s",
     "guides/custom-extraction",
-    "about/skills"
+    "about/skills",
+    "guides/xml-sitemaps"
    ],
    "subs": {
     "custom extraction": [
@@ -7446,7 +7452,8 @@
     "services/static-sites",
     "guides/page-indexing-report",
     "guides/ai-search-checklist",
-    "guides/redirect-rules"
+    "guides/redirect-rules",
+    "guides/xml-sitemaps"
    ],
    "subs": {
     "split by page type": [
@@ -7456,7 +7463,9 @@
     ]
    },
    "see": [],
-   "main": []
+   "main": [
+    "guides/xml-sitemaps"
+   ]
   },
   "XPath": {
    "kind": "topic",
@@ -7631,6 +7640,7 @@
   "guides/gbp-performance-reports",
   "guides/seasonal-local-seo",
   "guides/gbp-video-verification",
-  "guides/disavow-links"
+  "guides/disavow-links",
+  "guides/xml-sitemaps"
  ]
 }

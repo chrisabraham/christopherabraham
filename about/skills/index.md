@@ -10,6 +10,7 @@
 - Full site crawls in Screaming Frog with JavaScript rendering, run in raw and rendered modes and compared, so I can see which content exists only after scripts run.
 - Custom extraction with XPath and regex to audit every URL for heading counts, canonicals, robots tags, schema types, and tracking IDs. My [extraction recipes](https://christopherabraham.com/guides/custom-extraction/) are published.
 - Near-duplicate detection and multiple H1 audits across entire sites, with a decision per cluster. See [how I find both](https://christopherabraham.com/guides/near-duplicates-and-h1s/).
+- XML sitemap audits that compare the file, a crawl, and Search Console, so every listed URL is canonical, indexable, and dated honestly. My checklist is in [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/).
 - Before-and-after crawl comparisons to prove a fix landed on every URL, described in [proving an SEO fix worked](https://christopherabraham.com/guides/prove-seo-fixes/).
 - Crawl and index management for a programmatic site of more than 20,000 pages: segmented sitemaps, robots rules for parameter URLs, and baselines per segment. [Programmatic price index](https://christopherabraham.com/case-studies/card-price-index/).
 
@@ -24,12 +25,14 @@
 - Made metadata changes in a client's Sanity and Vercel codebase through a GitHub pull request the developer reviewed and merged, then verified prerendering. [Headless local business](https://christopherabraham.com/case-studies/headless-local/).
 - Read whole repositories with OpenAI Codex and Claude Code to trace a crawl finding to the component or import script that causes it, checking every answer against the live site.
 - Built SEO checks into the build of sites I run, so a page with a bad title, a duplicate description, a broken internal link, or borrowed phrasing fails before it publishes. That's how this site is built.
+- Turned a podcast RSS feed into a static site that rebuilds itself every day, with a page, share card, and alt text for each of 458 episodes. [Podcast site](https://christopherabraham.com/case-studies/podcast-site/).
 - Automated IndexNow submissions with GitHub Actions, gated on the new sitemap actually being live.
 - Built a 12,000 line command line assistant in Python with 140 end-to-end tests, directing Claude Code the way a technical lead directs a team.
 
 ## Migrations, redirects, and recovery
 - Audited a Squarespace to Shopify move that left 3,400 broken URLs and duplicate product paths, and did the theme schema work. [Shopify cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/).
 - Rebuilt the redirect map for a site that had lived on three platforms over fourteen years, by pulling every URL the Wayback Machine ever captured, testing all 848 against the live site, and redirecting every one that had ever served a page.
+- Moved my own 17 year Movable Type blog to static hosting with all 953 of its old addresses still answering, three feed formats and the TrackBack files included. [Movable Type novel](https://christopherabraham.com/case-studies/movable-type-novel/).
 - Diagnosed a WooCommerce store's loss of indexing, traffic, and AI referrals after its SEO plugin was switched off, and checked the recovery. [Plugin outage](https://christopherabraham.com/case-studies/plugin-outage/).
 
 ## Schema, entities, and AI search

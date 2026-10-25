@@ -1,7 +1,7 @@
 # Christopher Abraham: full text of christopherabraham.com
 
 > Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.
-> Built 2026-10-25. Quote freely with attribution and a link to the source page.
+> Built 2026-10-24. Quote freely with attribution and a link to the source page.
 
 
 ---
@@ -1091,6 +1091,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Test your website inquiries from page to inbox](https://christopherabraham.com/guides/test-website-inquiries/): trace submission, receipt, and analytics before investing in more traffic.
 - [Internal linking: stitching your pages together](https://christopherabraham.com/guides/internal-linking/): choose useful destinations, write natural anchors, check section targets, and plan the additions in a downloadable worksheet.
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
+- [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/): the four tests every listed URL must pass, honest lastmod dates, the tags to drop, and how to audit a sitemap against a crawl.
 - [Why your SEO should work in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/): fixing causes in templates instead of symptoms page by page, what AI coding assistants add, and what to ask before you hire.
 - [How to find near-duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Screaming Frog settings that catch both, what heading problems really cost, and how to settle each duplicate cluster.
 - [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/): XPath and regex for heading counts, canonicals, robots tags, JSON-LD types, missing alt text, and tag IDs.
@@ -5584,6 +5585,7 @@ Updated: 2026-10-24
 - Full site crawls in Screaming Frog with JavaScript rendering, run in raw and rendered modes and compared, so I can see which content exists only after scripts run.
 - Custom extraction with XPath and regex to audit every URL for heading counts, canonicals, robots tags, schema types, and tracking IDs. My [extraction recipes](https://christopherabraham.com/guides/custom-extraction/) are published.
 - Near-duplicate detection and multiple H1 audits across entire sites, with a decision per cluster. See [how I find both](https://christopherabraham.com/guides/near-duplicates-and-h1s/).
+- XML sitemap audits that compare the file, a crawl, and Search Console, so every listed URL is canonical, indexable, and dated honestly. My checklist is in [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/).
 - Before-and-after crawl comparisons to prove a fix landed on every URL, described in [proving an SEO fix worked](https://christopherabraham.com/guides/prove-seo-fixes/).
 - Crawl and index management for a programmatic site of more than 20,000 pages: segmented sitemaps, robots rules for parameter URLs, and baselines per segment. [Programmatic price index](https://christopherabraham.com/case-studies/card-price-index/).
 
@@ -5598,12 +5600,14 @@ Updated: 2026-10-24
 - Made metadata changes in a client's Sanity and Vercel codebase through a GitHub pull request the developer reviewed and merged, then verified prerendering. [Headless local business](https://christopherabraham.com/case-studies/headless-local/).
 - Read whole repositories with OpenAI Codex and Claude Code to trace a crawl finding to the component or import script that causes it, checking every answer against the live site.
 - Built SEO checks into the build of sites I run, so a page with a bad title, a duplicate description, a broken internal link, or borrowed phrasing fails before it publishes. That's how this site is built.
+- Turned a podcast RSS feed into a static site that rebuilds itself every day, with a page, share card, and alt text for each of 458 episodes. [Podcast site](https://christopherabraham.com/case-studies/podcast-site/).
 - Automated IndexNow submissions with GitHub Actions, gated on the new sitemap actually being live.
 - Built a 12,000 line command line assistant in Python with 140 end-to-end tests, directing Claude Code the way a technical lead directs a team.
 
 ## Migrations, redirects, and recovery
 - Audited a Squarespace to Shopify move that left 3,400 broken URLs and duplicate product paths, and did the theme schema work. [Shopify cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/).
 - Rebuilt the redirect map for a site that had lived on three platforms over fourteen years, by pulling every URL the Wayback Machine ever captured, testing all 848 against the live site, and redirecting every one that had ever served a page.
+- Moved my own 17 year Movable Type blog to static hosting with all 953 of its old addresses still answering, three feed formats and the TrackBack files included. [Movable Type novel](https://christopherabraham.com/case-studies/movable-type-novel/).
 - Diagnosed a WooCommerce store's loss of indexing, traffic, and AI referrals after its SEO plugin was switched off, and checked the recovery. [Plugin outage](https://christopherabraham.com/case-studies/plugin-outage/).
 
 ## Schema, entities, and AI search
@@ -6728,8 +6732,118 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 
 ---
 
+Source: https://christopherabraham.com/guides/xml-sitemaps/
+Updated: 2026-10-24
+
+# XML sitemaps that tell the truth
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 24, 2026
+
+An XML sitemap is a list you hand to search engines that says, in effect, "these are the pages I want found, and this is when each one last changed." Search engines treat it as a hint, never an order, and they decide how much to trust it by checking it against what they actually find. A sitemap that lists redirects, duplicates, and dates that change every night teaches them to ignore it. A sitemap that matches the site exactly earns the opposite. Most of the sitemaps I audit fall somewhere in between, and the fixes are almost always about honesty rather than tags.
+
+## What a sitemap is for, and what it can't do
+
+A sitemap helps discovery. It's most useful on large sites, new sites with few links pointing in, sites with pages that sit deep in the navigation, and sites that publish or change often. On a twenty page site where every page is linked from the menu, Google will find everything without one, though a sitemap still costs nothing and gives you a tidy report in Search Console.
+
+What a sitemap can't do is make a page indexable. If a page is thin, duplicated, blocked, or canonicalized somewhere else, listing it in the sitemap doesn't overrule any of that. It just adds a line to the Page indexing report explaining why the URL you submitted wasn't indexed. If your real problem is pages that are discovered and then left out, that's a quality and duplication question, and my guide to [reading the Page indexing report](https://christopherabraham.com/guides/page-indexing-report/) is the better starting point.
+
+## The one rule: list only the URLs you want in search
+
+Every URL in the file should pass four tests at once:
+1. **It answers 200.** Not a 301, not a 404, not a soft 404 that says "no results" with a 200 status.
+2. **It's the canonical.** The page's own canonical tag points to itself, exactly as written in the sitemap: same protocol, same host, same trailing slash.
+3. **It's indexable.** No noindex in the robots meta tag or the X-Robots-Tag header.
+4. **It's crawlable.** robots.txt doesn't block it.
+
+That rules out a lot of what plugins and platforms put in by default: tag archives you've set to noindex, paginated listings, internal search results, attachment pages, staging hostnames, and the http or non-www versions of URLs. The sitemap and the canonical tags have to agree. When they contradict each other, you've sent two signals and asked Google to pick one.
+
+## Honest lastmod dates
+
+Of the optional tags, `lastmod` is the only one that still matters. Google has said it uses lastmod when the dates are consistently and verifiably accurate, and Bing has written publicly that it leans on lastmod to decide what to recrawl. The key word is accurate. A lastmod should change when the main content of the page changes: a rewritten section, a corrected fact, new prices. It shouldn't change because the footer copyright year rolled over, a sidebar widget updated, or the site was rebuilt.
+
+The common failure is a generator that stamps every URL with the build time. Every page claims it changed today, every day, and the search engine learns that this site's dates mean nothing. On this site, each page's source carries an `updated` date that I change by hand when the content changes, and the build writes that date into the sitemap, the visible "Updated" line, and the structured data. One date, set on purpose, appearing in three places that agree.
+
+## The tags to leave out
+
+`priority` and `changefreq` are in the original protocol, and Google ignores both. You can leave them in without harm, but I take them out, because every field in a file should mean something, and these give people the false comfort of having "prioritized" pages that no crawler is listening to.
+
+The same goes for most of the image sitemap extension. Google retired the image caption, title, geographic location, and license tags in 2022. Only the image location is still read. Image entries are worth including for images that matter in search, such as products, diagrams, and original photography, and not worth bloating the file with every icon and spacer.
+
+## Size limits and sitemap index files
+
+One sitemap file can hold up to 50,000 URLs and be up to 50 MB uncompressed. Past either limit, split it into several files and list them in a sitemap index file, then submit the index. You can gzip the files to save bandwidth; the size limit applies to the uncompressed version.
+
+Splitting is useful well below the limit. On a programmatic site of more than 20,000 pages, I gave each content type its own sitemap, so Search Console reported indexing for each group separately, and a problem in one template stood out instead of hiding in a site-wide average. The [price index case study](https://christopherabraham.com/case-studies/card-price-index/) shows how that played out. Split by template or section, not alphabetically or at random, because the point is to make the reports readable.
+
+## Telling search engines where it lives
+- **robots.txt.** Add a line such as `Sitemap: https://example.com/sitemap.xml`. It must be an absolute URL, and it can sit anywhere in the file. Every crawler that reads robots.txt finds it there, including ones you'll never submit to by hand.
+- **Search Console and Bing Webmaster Tools.** Submit it once in each. You don't need to resubmit after every change; they fetch it again on their own.
+- **No more pings.** Google retired its old sitemap ping address in 2023, so scripts that still call it are doing nothing. For Bing and the other engines that support it, IndexNow is the way to announce changed URLs quickly.
+
+One ordering detail I care about: if you announce new URLs with IndexNow, do it after the new sitemap is actually live, not the moment you push. On this site, the IndexNow job waits until the public sitemap matches what the release meant to publish, because an announcement about a page that's still deploying wastes the crawl.
+
+## How I audit a sitemap
+
+I compare three lists: what the sitemap says, what a crawl finds, and what Search Console reports. In Screaming Frog, I run a normal crawl with the option to crawl linked XML sitemaps switched on, then look at the Sitemaps tab. Three filters do most of the work:
+- **Non-indexable URLs in sitemap.** Redirects, errors, noindexed pages, and canonicalized pages that shouldn't be listed. Each one is a broken promise.
+- **URLs not in sitemap.** Indexable pages the crawl found that the sitemap forgot. Often a whole post type or a newer section the generator wasn't told about.
+- **Orphan URLs.** Pages in the sitemap that nothing on the site links to. Search engines can find them, but an orphan with no internal links rarely ranks. Usually the fix is [a few good internal links](https://christopherabraham.com/guides/internal-linking/), sometimes it's deleting a page nobody meant to keep.
+
+Then I open Search Console's Sitemaps report to confirm the file was read without errors, and filter the Page indexing report to submitted URLs only. The gap between "submitted" and "indexed" for each sitemap is the clearest single measure of how much of your intended site Google has accepted.
+
+I also open the file in a browser and read it. A sitemap with a stylesheet attached shows as a readable table instead of raw XML, which makes it easy to spot a staging hostname, a duplicated section, or a run of identical dates at a glance. The [sitemap for this site](https://christopherabraham.com/sitemap.xml) works that way.
+
+## Common mistakes I find
+- Two sitemaps from two plugins, both submitted, listing different versions of the same URLs.
+- An old sitemap still submitted in Search Console from a previous platform, full of URLs that now redirect.
+- Development or staging hostnames inside the production file.
+- The sitemap itself blocked in robots.txt, or served with a noindex header that some crawlers read as a reason to drop it.
+- Trailing slash or capitalization mismatches between the sitemap and the canonical tags.
+- A cache layer serving a sitemap that's weeks old, so new pages never appear in it.
+
+None of these is dramatic on its own. Together they make a sitemap that search engines treat as noise.
+
+## Questions people ask about sitemaps
+
+### Does a sitemap help me rank?
+
+Not directly. It helps search engines find and recrawl pages. Ranking comes from what's on the pages and who links to them.
+
+### Do AI search tools read XML sitemaps?
+
+Many of the crawlers that feed AI answers read robots.txt and follow its sitemap line, and Bing's index, which several AI tools draw on, uses sitemaps and IndexNow. An accurate sitemap is part of being easy to read for every kind of machine, alongside an [llms.txt file](https://christopherabraham.com/guides/llms-txt/).
+
+### Should I list PDFs in my sitemap?
+
+Yes, if they're useful documents you want found in search and they answer 200 at a stable address. Leave out drafts and duplicates of HTML pages.
+
+### How often should the sitemap update?
+
+Whenever a page is added, removed, or meaningfully changed. Generate it from the same source as the site, so it can't fall behind.
+
+If your sitemap and Search Console disagree and you can't tell why, that's the kind of thing I sort out in a [crawling and indexing engagement](https://christopherabraham.com/services/indexing/). The bigger picture of crawl health is in my [site-wide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) work.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [Sitemaps.org: Sitemaps XML format](https://www.sitemaps.org/protocol.html)
+- [Google Search Central: Build and submit a sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)
+- [Google Search Central: Image sitemaps](https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps)
+- [Bing Webmaster Blog: The importance of setting the lastmod tag in your sitemap](https://blogs.bing.com/webmaster/february-2023/The-Importance-of-Setting-the-lastmod-Tag-in-Your-Sitemap)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
 Source: https://christopherabraham.com/sitemap/
-Updated: 2026-10-25
+Updated: 2026-10-24
 
 # Site map
 
@@ -6826,6 +6940,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Spam link spikes and the disavow file: when to act at all](https://christopherabraham.com/guides/disavow-links/): A burst of junk backlinks rarely needs a response. When Google says the disavow tool fits, how to build a careful file, and the mistakes that cost rankings.
 - [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/): Google is testing a rebuilt Performance section for Business Profiles. How to read each new report, Overview first, and what the numbers mean.
 - [Google Business Profile video verification: plan the take before you press record](https://christopherabraham.com/guides/gbp-video-verification/): Passing Google Business Profile video verification the first time: what Google wants on camera for storefronts and service areas, and what to do if it fails.
+- [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/): What an XML sitemap should hold in 2026: canonical URLs that answer 200, honest lastmod dates, no priority games, and how I audit one against a crawl.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
@@ -6852,17 +6967,17 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 25, 2026
+Updated October 24, 2026
 
 
 ---
 
 Source: https://christopherabraham.com/site-index/
-Updated: 2026-10-25
+Updated: 2026-10-24
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 564 headings across 101 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 564 headings across 102 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -7059,7 +7174,7 @@ People are listed surname first. Cross-references point to related headings. For
   - indexing what Google skipped, [Consent Banner](https://christopherabraham.com/case-studies/consent-banner/)
 
 - Bing Places, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/)
-- Bing Webmaster Tools, [Services](https://christopherabraham.com/services/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), **[Search Console](https://christopherabraham.com/services/search-console/)**, [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/)
+- Bing Webmaster Tools, [Services](https://christopherabraham.com/services/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), **[Search Console](https://christopherabraham.com/services/search-console/)**, [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/)
   - AI Performance report, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [AI Share of Voice](https://christopherabraham.com/guides/ai-share-of-voice/)
 
 - Bingbot, [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Site Speed](https://christopherabraham.com/services/site-speed/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
@@ -7336,7 +7451,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Google documentation, [Brand name in titles](https://christopherabraham.com/guides/brand-name-in-titles/), [Small original research](https://christopherabraham.com/guides/small-original-research/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
 - Google documentation changelog, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Google Search Central Blog, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
-- Google Search Console, [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), **[Search Console](https://christopherabraham.com/services/search-console/)**, [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
+- Google Search Console, [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), **[Search Console](https://christopherabraham.com/services/search-console/)**, [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/)
   - Change of Address, [Search Console](https://christopherabraham.com/services/search-console/), [Migrations](https://christopherabraham.com/services/migrations/)
   - Domain properties, [Search Console](https://christopherabraham.com/services/search-console/), [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/)
   - enhancement reports, [Schema](https://christopherabraham.com/services/schema/)
@@ -7428,7 +7543,7 @@ People are listed surname first. Cross-references point to related headings. For
 - "I was a teenage Russian troll", [About](https://christopherabraham.com/about/)
 - image CDNs, [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/)
 - indexing, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Indexing](https://christopherabraham.com/services/indexing/)**
-- IndexNow, [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/), [Skills and Proof](https://christopherabraham.com/about/skills/)
+- IndexNow, [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/), [Skills and Proof](https://christopherabraham.com/about/skills/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/)
   - Google not a participant, [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
 
 - internal links, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), **[Internal Linking Strategy](https://christopherabraham.com/services/internal-linking/)**, **[Internal Linking](https://christopherabraham.com/guides/internal-linking/)**
@@ -7633,7 +7748,7 @@ People are listed surname first. Cross-references point to related headings. For
   - Elementor, [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
   - WPBakery, [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
 
-- Page indexing report, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/), [Guides](https://christopherabraham.com/guides/), **[Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/)**. *See also* [Google Search Console](https://christopherabraham.com/site-index/#ix-google-search-console)
+- Page indexing report, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/), [Guides](https://christopherabraham.com/guides/), **[Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/)**, [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/). *See also* [Google Search Console](https://christopherabraham.com/site-index/#ix-google-search-console)
   - Alternate page with proper canonical tag, [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/)
   - Blocked by robots.txt, [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/)
   - Crawled, currently not indexed, [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/)
@@ -7733,7 +7848,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Rhino Rank, [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/)
 - rich results, [Glossary](https://christopherabraham.com/guides/glossary/)
 - Rich Results Test, [Services](https://christopherabraham.com/services/), [Schema](https://christopherabraham.com/services/schema/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)
-- robots.txt, [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [llms.txt](https://christopherabraham.com/guides/llms-txt/)
+- robots.txt, [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [llms.txt](https://christopherabraham.com/guides/llms-txt/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/)
 - Ronson, Jon, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Roth, Charles, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - r/slowjogging, [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/), [Skills and Proof](https://christopherabraham.com/about/skills/), **[Off the Clock](https://christopherabraham.com/about/off-the-clock/)**
@@ -7753,7 +7868,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Schema.org validator, [Schema](https://christopherabraham.com/services/schema/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)
 - Schwartz, Barry, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Scottish Rite, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- Screaming Frog SEO Spider, [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [AI Search](https://christopherabraham.com/services/ai-search/), **[Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)**, [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/), [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/), [Skills and Proof](https://christopherabraham.com/about/skills/). *See also* [custom extraction](https://christopherabraham.com/site-index/#ix-custom-extraction)
+- Screaming Frog SEO Spider, [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [AI Search](https://christopherabraham.com/services/ai-search/), **[Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)**, [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/), [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/), [Skills and Proof](https://christopherabraham.com/about/skills/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/). *See also* [custom extraction](https://christopherabraham.com/site-index/#ix-custom-extraction)
   - AI integrations, [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
   - crawl comparison mode, [Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/)
   - custom extraction, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Social Share Cards](https://christopherabraham.com/guides/social-share-cards/), [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/)
@@ -8031,7 +8146,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 ## X
 - X (Twitter) cards, [Social Share Cards](https://christopherabraham.com/guides/social-share-cards/), [Meta Keywords](https://christopherabraham.com/guides/meta-keywords/)
-- XML sitemaps, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Search Console](https://christopherabraham.com/services/search-console/), [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
+- XML sitemaps, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Search Console](https://christopherabraham.com/services/search-console/), [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), **[XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/)**
   - split by page type, [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/), [Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)
 
 - XPath. *See* [custom extraction](https://christopherabraham.com/site-index/#ix-custom-extraction)
@@ -8051,4 +8166,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated October 25, 2026
+Updated October 24, 2026

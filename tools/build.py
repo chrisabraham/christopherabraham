@@ -90,6 +90,9 @@ FILES += ["guides/gbp-performance-reports"]
 FILES += ["guides/gbp-video-verification"]
 SERVICE_GROUPS[1][1].append("services/ai-visibility/")
 
+# Additional guide, October 24, 2026, written by Claude Code.
+FILES += ["guides/xml-sitemaps"]
+
 MIN_WORDS = {"guide": 700, "service": 450, "case": 250, "page": 250}
 TODAY = datetime.date.today().isoformat()
 os.chdir(os.path.join(os.path.dirname(__file__), ".."))

@@ -1,0 +1,80 @@
+name: XML Sitemaps
+title: XML sitemaps that tell the truth: what belongs in one
+description: What an XML sitemap should hold in 2026: canonical URLs that answer 200, honest lastmod dates, no priority games, and how I audit one against a crawl.
+keywords: XML sitemap, sitemap lastmod, sitemap audit, sitemap index file
+type: guide
+published: 2026-10-24
+sources: Sitemaps.org: Sitemaps XML format | https://www.sitemaps.org/protocol.html ;; Google Search Central: Build and submit a sitemap | https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap ;; Google Search Central: Image sitemaps | https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps ;; Bing Webmaster Blog: The importance of setting the lastmod tag in your sitemap | https://blogs.bing.com/webmaster/february-2023/The-Importance-of-Setting-the-lastmod-Tag-in-Your-Sitemap
+updated: 2026-10-24
+---
+<h1>XML sitemaps that tell the truth</h1>
+<p class="lead">An XML sitemap is a list you hand to search engines that says, in effect, "these are the pages I want found, and this is when each one last changed." Search engines treat it as a hint, never an order, and they decide how much to trust it by checking it against what they actually find. A sitemap that lists redirects, duplicates, and dates that change every night teaches them to ignore it. A sitemap that matches the site exactly earns the opposite. Most of the sitemaps I audit fall somewhere in between, and the fixes are almost always about honesty rather than tags.</p>
+
+<h2>What a sitemap is for, and what it can't do</h2>
+<p>A sitemap helps discovery. It's most useful on large sites, new sites with few links pointing in, sites with pages that sit deep in the navigation, and sites that publish or change often. On a twenty page site where every page is linked from the menu, Google will find everything without one, though a sitemap still costs nothing and gives you a tidy report in Search Console.</p>
+<p>What a sitemap can't do is make a page indexable. If a page is thin, duplicated, blocked, or canonicalized somewhere else, listing it in the sitemap doesn't overrule any of that. It just adds a line to the Page indexing report explaining why the URL you submitted wasn't indexed. If your real problem is pages that are discovered and then left out, that's a quality and duplication question, and my guide to <a href="{root}guides/page-indexing-report/">reading the Page indexing report</a> is the better starting point.</p>
+
+<h2>The one rule: list only the URLs you want in search</h2>
+<p>Every URL in the file should pass four tests at once:</p>
+<ol>
+  <li><strong>It answers 200.</strong> Not a 301, not a 404, not a soft 404 that says "no results" with a 200 status.</li>
+  <li><strong>It's the canonical.</strong> The page's own canonical tag points to itself, exactly as written in the sitemap: same protocol, same host, same trailing slash.</li>
+  <li><strong>It's indexable.</strong> No noindex in the robots meta tag or the X-Robots-Tag header.</li>
+  <li><strong>It's crawlable.</strong> robots.txt doesn't block it.</li>
+</ol>
+<p>That rules out a lot of what plugins and platforms put in by default: tag archives you've set to noindex, paginated listings, internal search results, attachment pages, staging hostnames, and the http or non-www versions of URLs. The sitemap and the canonical tags have to agree. When they contradict each other, you've sent two signals and asked Google to pick one.</p>
+
+<h2>Honest lastmod dates</h2>
+<p>Of the optional tags, <code>lastmod</code> is the only one that still matters. Google has said it uses lastmod when the dates are consistently and verifiably accurate, and Bing has written publicly that it leans on lastmod to decide what to recrawl. The key word is accurate. A lastmod should change when the main content of the page changes: a rewritten section, a corrected fact, new prices. It shouldn't change because the footer copyright year rolled over, a sidebar widget updated, or the site was rebuilt.</p>
+<p>The common failure is a generator that stamps every URL with the build time. Every page claims it changed today, every day, and the search engine learns that this site's dates mean nothing. On this site, each page's source carries an <code>updated</code> date that I change by hand when the content changes, and the build writes that date into the sitemap, the visible "Updated" line, and the structured data. One date, set on purpose, appearing in three places that agree.</p>
+
+<h2>The tags to leave out</h2>
+<p><code>priority</code> and <code>changefreq</code> are in the original protocol, and Google ignores both. You can leave them in without harm, but I take them out, because every field in a file should mean something, and these give people the false comfort of having "prioritized" pages that no crawler is listening to.</p>
+<p>The same goes for most of the image sitemap extension. Google retired the image caption, title, geographic location, and license tags in 2022. Only the image location is still read. Image entries are worth including for images that matter in search, such as products, diagrams, and original photography, and not worth bloating the file with every icon and spacer.</p>
+
+<h2>Size limits and sitemap index files</h2>
+<p>One sitemap file can hold up to 50,000 URLs and be up to 50 MB uncompressed. Past either limit, split it into several files and list them in a sitemap index file, then submit the index. You can gzip the files to save bandwidth; the size limit applies to the uncompressed version.</p>
+<p>Splitting is useful well below the limit. On a programmatic site of more than 20,000 pages, I gave each content type its own sitemap, so Search Console reported indexing for each group separately, and a problem in one template stood out instead of hiding in a site-wide average. The <a href="{root}case-studies/card-price-index/">price index case study</a> shows how that played out. Split by template or section, not alphabetically or at random, because the point is to make the reports readable.</p>
+
+<h2>Telling search engines where it lives</h2>
+<ul>
+  <li><strong>robots.txt.</strong> Add a line such as <code>Sitemap: https://example.com/sitemap.xml</code>. It must be an absolute URL, and it can sit anywhere in the file. Every crawler that reads robots.txt finds it there, including ones you'll never submit to by hand.</li>
+  <li><strong>Search Console and Bing Webmaster Tools.</strong> Submit it once in each. You don't need to resubmit after every change; they fetch it again on their own.</li>
+  <li><strong>No more pings.</strong> Google retired its old sitemap ping address in 2023, so scripts that still call it are doing nothing. For Bing and the other engines that support it, IndexNow is the way to announce changed URLs quickly.</li>
+</ul>
+<p>One ordering detail I care about: if you announce new URLs with IndexNow, do it after the new sitemap is actually live, not the moment you push. On this site, the IndexNow job waits until the public sitemap matches what the release meant to publish, because an announcement about a page that's still deploying wastes the crawl.</p>
+
+<h2>How I audit a sitemap</h2>
+<p>I compare three lists: what the sitemap says, what a crawl finds, and what Search Console reports. In Screaming Frog, I run a normal crawl with the option to crawl linked XML sitemaps switched on, then look at the Sitemaps tab. Three filters do most of the work:</p>
+<ul>
+  <li><strong>Non-indexable URLs in sitemap.</strong> Redirects, errors, noindexed pages, and canonicalized pages that shouldn't be listed. Each one is a broken promise.</li>
+  <li><strong>URLs not in sitemap.</strong> Indexable pages the crawl found that the sitemap forgot. Often a whole post type or a newer section the generator wasn't told about.</li>
+  <li><strong>Orphan URLs.</strong> Pages in the sitemap that nothing on the site links to. Search engines can find them, but an orphan with no internal links rarely ranks. Usually the fix is <a href="{root}guides/internal-linking/">a few good internal links</a>, sometimes it's deleting a page nobody meant to keep.</li>
+</ul>
+<p>Then I open Search Console's Sitemaps report to confirm the file was read without errors, and filter the Page indexing report to submitted URLs only. The gap between "submitted" and "indexed" for each sitemap is the clearest single measure of how much of your intended site Google has accepted.</p>
+<p>I also open the file in a browser and read it. A sitemap with a stylesheet attached shows as a readable table instead of raw XML, which makes it easy to spot a staging hostname, a duplicated section, or a run of identical dates at a glance. The <a href="{root}sitemap.xml">sitemap for this site</a> works that way.</p>
+
+<h2>Common mistakes I find</h2>
+<ul>
+  <li>Two sitemaps from two plugins, both submitted, listing different versions of the same URLs.</li>
+  <li>An old sitemap still submitted in Search Console from a previous platform, full of URLs that now redirect.</li>
+  <li>Development or staging hostnames inside the production file.</li>
+  <li>The sitemap itself blocked in robots.txt, or served with a noindex header that some crawlers read as a reason to drop it.</li>
+  <li>Trailing slash or capitalization mismatches between the sitemap and the canonical tags.</li>
+  <li>A cache layer serving a sitemap that's weeks old, so new pages never appear in it.</li>
+</ul>
+<p>None of these is dramatic on its own. Together they make a sitemap that search engines treat as noise.</p>
+
+<section class="faq">
+<h2>Questions people ask about sitemaps</h2>
+<h3>Does a sitemap help me rank?</h3>
+<p>Not directly. It helps search engines find and recrawl pages. Ranking comes from what's on the pages and who links to them.</p>
+<h3>Do AI search tools read XML sitemaps?</h3>
+<p>Many of the crawlers that feed AI answers read robots.txt and follow its sitemap line, and Bing's index, which several AI tools draw on, uses sitemaps and IndexNow. An accurate sitemap is part of being easy to read for every kind of machine, alongside an <a href="{root}guides/llms-txt/">llms.txt file</a>.</p>
+<h3>Should I list PDFs in my sitemap?</h3>
+<p>Yes, if they're useful documents you want found in search and they answer 200 at a stable address. Leave out drafts and duplicates of HTML pages.</p>
+<h3>How often should the sitemap update?</h3>
+<p>Whenever a page is added, removed, or meaningfully changed. Generate it from the same source as the site, so it can't fall behind.</p>
+</section>
+
+<p>If your sitemap and Search Console disagree and you can't tell why, that's the kind of thing I sort out in a <a href="{root}services/indexing/">crawling and indexing engagement</a>. The bigger picture of crawl health is in my <a href="{root}services/sitewide-technical-seo/">site-wide technical SEO</a> work.</p>
