@@ -164,7 +164,7 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 ---
 
 Source: https://christopherabraham.com/services/
-Updated: 2026-10-24
+Updated: 2026-10-23
 
 # SEO services
 
@@ -204,15 +204,13 @@ Each one begins with a scoped, paid diagnostic. You get findings in writing, a p
 
 ## Platforms and toolbox
 
-The platforms on my desk right now: WordPress (with Yoast or Rank Math, Elementor, and WooCommerce), Shopify and its Liquid templates, Magento 2 with Hyvä, Umbraco, Drupal, Joomla, Squarespace, Wix, Webflow, Framer, HubSpot, and Duda, plus headless and hand-built sites using React, Next.js, Vue, Create React App, Alpine.js, Sanity, Vercel, or Netlify.
+The content systems I audit and fix today include WordPress (Yoast, Rank Math, Elementor, WooCommerce), Shopify themes in Liquid, Magento 2 with Hyvä, Umbraco, Drupal, Joomla, HubSpot, Duda, and the hosted builders: Squarespace, Wix, Webflow, and Framer. On the code side I read React, Next.js, Vue, Alpine.js, and older Create React App projects, along with headless setups that pair Sanity with Vercel or Netlify.
 
-Stuck on old software, or with a host you'd rather leave? I can crawl the whole site and rebuild it on GitHub Pages or a current platform, in hours rather than weeks, with AI doing the repetitive parts. I did exactly that for my own serialized novel and kept every one of its 953 old addresses working; the [Movable Type case study](https://christopherabraham.com/case-studies/movable-type-novel/) shows how.
+Some sites need a way out before they need SEO. When a site is trapped on a dead platform or a host you'd rather leave, I crawl it and rebuild it as a static site on GitHub Pages or a current stack, every old URL intact, with AI coding assistants doing the repetitive part. A job like that is usually measured in hours. I did it for my own serialized novel, which used to live on legacy hosting. My working setup is Git and GitHub, my own Linux servers on DigitalOcean with root access, and Claude Code and OpenAI Codex for code.
 
-On the code side, I work in Git and GitHub, with OpenAI Codex and Claude Code as my main coding assistants, on Linux machines I run myself, including DigitalOcean droplets where I hold root.
+For measurement and checking I use Google Search Console, Bing Webmaster Tools, GA4, Google Tag Manager, PageSpeed Insights, the Rich Results Test, Screaming Frog, and Semrush, with Cloudflare in front of the sites I host. Projects run in Basecamp, and tasks in Todoist.
 
-The tools around all of it: Cloudflare and DigitalOcean for hosting and delivery; Search Console, Bing Webmaster Tools, GA4, and Tag Manager for measurement; Screaming Frog, Semrush, PageSpeed Insights, and Google's Rich Results Test for audits; and Basecamp and Todoist for running projects.
-
-Updated October 24, 2026
+Updated October 23, 2026
 
 
 ---
@@ -6506,48 +6504,44 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 Source: https://christopherabraham.com/services/ai-visibility/
 Updated: 2026-10-24
 
-# The answer on top is the new front door.
+# AI visibility: what the answer engines say about your business, and how to change it
 
-On 88% of commercial searches, Google now puts an AI Overview above the results, close to twice the share of a year ago. Your customers meet an AI's version of your business before they ever reach your website. I make sure that answer names you, describes you correctly, and cites you—and then I prove it, monthly, in writing.
+For buying searches, the first thing a customer reads is increasingly a paragraph written by a machine. In August 2026, Google showed an AI Overview for 88% of the 400 US commercial keywords Semrush tracks, close to double its share a year earlier, according to [Search Engine Land](https://searchengineland.com/google-ai-overviews-nearly-double-commercial-keywords-498078). I find out what those paragraphs say about you, fix the sources they draw on, and report on them every month.
 
-## The problem, plainly
+## Why the answer gets it wrong
 
-Search used to be a list of links. Now it's an answer, written by a machine, assembled from whatever the machine could find, verify, and trust about you. If your name, address, services, and facts are scattered or inconsistent, the answer names your competitor instead. Review searches—"best," "near me," "which one should I pick"—moved furthest of all. That is the exact moment a customer chooses.
+An AI answer is assembled from whatever the system can find and cross-check: your website, your Google Business Profile, directory listings, reviews, and what other sites say about you. When those sources disagree on your name, address, services, or hours, the system picks whichever version it can corroborate, and that is often a competitor's. "Best," "near me," and "which should I choose" searches have shifted the most, and those are the searches where a customer makes up their mind.
 
-You don't get to opt out of being summarized. You only get to choose whether the summary is accurate.
+## Three ways to work with me
 
-## What I do
+### 1. AI Visibility Audit: $750, fixed price
 
-### 1. AI Visibility Audit—$750 flat
+I run the searches that bring you business through Google AI Overviews, ChatGPT, Perplexity, and Gemini and record every answer: correct, wrong, missing, or naming a rival. Then I compare your name, address, phone, and services across your site, your Business Profile, and the main directories. You receive a written report with each fix ranked by impact. You own it, and any developer or agency can act on it.
 
-I run the searches that actually earn you money through Google AI Overviews, ChatGPT, Perplexity, and Gemini, and note where you show up and where you're missing. For each answer I log what it claims about you: correct, incorrect, or a competitor in your place. Then I compare your business name, address, phone, and entity details on your own site, on Google Business Profile, and in the directories, looking for mismatches. You get a written report with the fix list in priority order.
+### 2. The Claim Sprint: $1,500, fixed price
 
-No retainer. No vague deliverable. A document you can hand to anyone.
+The sprint repairs what the audit finds, in two layers.
+- The technical base: a full crawl, a Search Console review, titles and meta descriptions, and broken links and redirects.
+- The claim layer: entity schema with sameAs links, an llms.txt file, one canonical page that explains what the business is, and FAQ markup, so an assistant has something precise to quote.
 
-### 2. The Claim Sprint—$1,500 flat
+Changes I can make directly, I make. Anything inside your developer's codebase reaches them as a ticket with the exact change and a way to check it, the same way I work on [release QA](https://christopherabraham.com/services/seo-release-qa/).
 
-The audit tells you what's broken. The sprint fixes the layer that fixes it:
-- The groundwork: a crawl of the whole site, a pass through Search Console, title and meta description fixes, and repairs to broken links and redirect chains
-- The claims themselves: Organization or LocalBusiness markup tied to your profiles through sameAs, an llms.txt file, one authoritative page explaining who you are and what you do, and FAQ markup, so AI systems have something exact to quote rather than something to guess
+### 3. AI Presence, Measured: $500 a month
 
-One honest note: I am an SEO, not a web developer. Anything that belongs in a developer's hands comes back to you written up so exactly that your developer can do it without needing a meeting.
+Answers move. A competitor publishes, a directory updates, and the assistant that recommended you in March names somebody else by June. Each month I rerun your search set across Google AI Overviews, ChatGPT, and Perplexity and send a short written report: what moved, what the answers say now, and the next fix.
 
-### 3. AI Presence, Measured—$500/month
+## Where it's already running
+- A fireworks retailer with several locations: a baseline, then monthly measurement across Google Search, Maps, ChatGPT, and Perplexity.
+- A therapy practice: the complete audit, with every listing checked against what the assistants read.
+- A media company: the claim layer itself, with entity schema, llms.txt, an explainer page, and a baseline.
+- A communications firm bought the audit at $750 as a pilot.
 
-AI answers drift. Competitors publish, directories change, and the answer that named you in March may name someone else in June. Once a month I put the same set of revenue searches to Google AI Overviews, ChatGPT, and Perplexity again, and send you a short written record of what moved, what each answer currently says, and what I'll fix next.
+For the method behind it, see [measuring AI share of voice](https://christopherabraham.com/guides/ai-share-of-voice/) and my own [AI visibility baseline](https://christopherabraham.com/case-studies/ai-visibility-baseline/), published with the unflattering numbers.
 
-## Proof this is already working
-- A multi-location fireworks retailer has AI-answer presence measurement built into its engagement: a starting baseline, then a monthly check of Google Search, Google Maps, ChatGPT, and Perplexity.
-- A therapy practice got the complete audit, with its name, address, phone, and entity details compared against every source the AI systems draw on.
-- A media company's engagement included the claim layer itself: entity schema, llms.txt, a canonical explainer page, and an AI-presence baseline.
-- The audit has already sold at this price as a pilot for a communications firm. The price is the price because it has been paid.
-
-## How it works
-1. **Book a call.** Thirty minutes: [book a 30 minute call](https://calendly.com/chrisabraham/30). Bring your website and the searches you wish you won.
-2. **Get the audit.** A written report, in priority order, that you own outright.
-3. **Decide.** Run the sprint with me, hand the fix list to your own people, or put the measurement on monthly. No lock-in either way. Money and commitments in writing, always.
-
-The answer on top of Google is being written about your business today, with or without you. Make it yours.
+## How to start
+1. **A thirty-minute call.** [Pick a time](https://calendly.com/chrisabraham/30) and bring your site and the searches you most want to win.
+2. **The audit.** A written, ranked report that belongs to you.
+3. **Your choice.** Run the sprint with me, hand the list to your own team, or add monthly measurement. Scope and price are agreed in writing before any work starts.
 
 [Book a 30 minute call](https://calendly.com/chrisabraham/30)
 
@@ -6557,33 +6551,33 @@ Updated October 24, 2026
 ---
 
 Source: https://christopherabraham.com/the-machine-answers-first/
-Updated: 2026-10-23
+Updated: 2026-10-24
 
 # The Machine Answers First Now
 
 *A field note from the SEO work*
 
-I have done search work long enough to remember when the whole job was ten blue links and an argument about their order. That world is gone, and I do not think it is coming back. When somebody searches for a business like yours now, the first thing they meet is not a list. It is a paragraph, written by a machine, in a confident tone, before a single link appears.
+I have done search work long enough to remember when the whole job was ten blue links and an argument about their order. That world is gone, and I do not think it is coming back. When somebody searches for a business like yours now, the first thing they meet is a paragraph, written by a machine, in a confident tone, before a single link appears.
 
-The numbers caught up with what I was already seeing. Search Engine Land, reporting Semrush's tracking, puts it plainly: Google's AI Overviews appeared for 88% of the commercial keywords Semrush tracked in August 2026. That is nearly double the share those answers held in September 2025. In the space of a year, the machine's answer went from an experiment to the front of the line.
+The numbers caught up with what I was already seeing. [Search Engine Land](https://searchengineland.com/google-ai-overviews-nearly-double-commercial-keywords-498078), reporting Semrush's tracking of 400 US desktop commercial keywords, found Google's AI Overviews on 88% of them in August 2026. That is nearly double the share those answers held in September 2025. In the space of a year, the machine's answer went from an experiment to the front of the line.
 
 ## What I keep seeing in the work
 
-The answer on top is assembled, not written. The machine gathers what it can find about a business—its website, its Google Business Profile, its directory listings, reviews, stray mentions—and it trusts whatever agrees with itself. Then it summarizes. Here is what that looks like from where I sit:
+The answer on top is assembled from parts. The machine gathers what it can find about a business—its website, its Google Business Profile, its directory listings, reviews, stray mentions—and it trusts whatever agrees with itself. Then it summarizes. Here is what that looks like from where I sit:
 
 A multi-location retailer I work with needs to be the named answer in four different towns, for four different stores, and the facts for those stores have to be right town by town. A therapy practice I audited had its name, address, and phone number disagreeing with each other across the very sources the machines read first, so the machines hedged, and hedging means somebody else gets named. A media company found that its own name was being patiently explained to the world by everyone except the company itself.
 
-Notice what is missing from that list: bad websites. The websites were mostly fine. The problem is that a business no longer speaks with one voice in one place. It speaks in fragments, scattered across a decade of listings, profiles, and pages, and the machine is the first reader who ever tried to hear all of it at once. It believes the fragments that agree. It discards the ones that don't. Sometimes the fragment it discards is your phone number.
+Bad websites were missing from that list; the websites were mostly fine. The problem is that a business no longer speaks with one voice in one place. It speaks in fragments, scattered across a decade of listings, profiles, and pages, and the machine is the first reader who ever tried to hear all of it at once. It believes the fragments that agree. It discards the ones that don't. Sometimes the fragment it discards is your phone number.
 
 ## You do not get to opt out of being summarized
 
-Owners tell me they want nothing to do with AI. I understand the sentiment, and it changes nothing. The AI does them. The answer about their business exists today, in production, in front of their customers, whether or not anyone at the business has ever read it. Being summarized is no longer a strategy decision. It is a condition of being findable at all.
+Owners tell me they want nothing to do with AI. I understand the sentiment. The AI writes about them anyway. The answer about their business exists today, in production, in front of their customers, whether or not anyone at the business has ever read it. Being summarized has become a condition of being findable at all.
 
 The only choice on the table is whether the summary is accurate—whether it names you, describes what you actually do, and cites your pages as the source. That is a choice you make by tending the record, or one that gets made for you by whoever's record is tidier.
 
 ## Claim it, then measure it
 
-The fix is unglamorous, which is how you know it is real. First, you claim your entity: one canonical account of what the business is, stated on your own site, tied together with entity schema and sameAs links, an llms.txt file for the machines that read those, and a page that answers "what is this business" so plainly that a summarizer can quote it instead of improvising. Second, you fix the disagreements: the listings, the profile, and the site telling one story. Third—and this is the part almost nobody does—you measure. AI answers drift. A competitor publishes, a directory changes, and the answer that named you in the spring names someone else by summer. So the money questions get re-asked every month, and the changes get written down.
+The fix is unglamorous. First, you claim your entity: one canonical account of what the business is, stated on your own site, tied together with entity schema and sameAs links, an llms.txt file for the machines that read those, and a page that answers "what is this business" so plainly that a summarizer can quote it instead of improvising. Second, you fix the disagreements: the listings, the profile, and the site telling one story. Third—and this is the part almost nobody does—you measure. AI answers drift. A competitor publishes, a directory changes, and the answer that named you in the spring names someone else by summer. So the money questions get re-asked every month, and the changes get written down.
 
 That is the work I sell, and I sell it in pieces so you can stop wherever it stops making sense: an AI Visibility Audit for $750 that tells you exactly what the answers say about you today, a Claim Sprint for $1,500 that fixes the layer underneath, and AI Presence, Measured at $500 a month for the receipt that keeps it true.
 
@@ -6591,7 +6585,7 @@ That is the work I sell, and I sell it in pieces so you can stop wherever it sto
 
 If you have never actually read what the machine says about your business, you are flying on instruments somebody else set. Let's have a chat about it. I can help. Thirty minutes, bring your website and the searches you wish you won: [book a 30 minute call](https://calendly.com/chrisabraham/30).
 
-Updated October 23, 2026
+Updated October 24, 2026
 
 
 ---
@@ -7044,7 +7038,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Schema markup and entity SEO](https://christopherabraham.com/services/schema/): Structured data that validates, matches the visible page, and connects your organization, people, products, and locations as entities for Google and AI.
 - [On-page SEO](https://christopherabraham.com/services/on-page-seo/): On page SEO fixed at the template level: titles and meta descriptions, headings, internal links, thin and duplicate pages, and carefully edited AI drafts.
 - [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/): SEO articles drafted with AI from your own material, written to your voice rules, then checked claim by claim against sources before anything is published.
-- [The answer on top is the new front door.](https://christopherabraham.com/services/ai-visibility/): AI answers now top 88% of commercial searches. I audit what they say about your business, fix the claim layer underneath, and measure it monthly, in writing.
+- [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/): A fixed-price audit of what Google AI Overviews, ChatGPT, Perplexity, and Gemini say about your business, a sprint to fix the sources, and monthly checks.
 
 ## Platforms, local, and ongoing work
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): WordPress SEO done carefully: Yoast and Rank Math settings, theme and plugin conflicts, page builder bloat, caching, and old installs that need a steady hand.
@@ -7127,6 +7121,13 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [My own podcast: 458 episodes, each with a page of its own](https://christopherabraham.com/case-studies/podcast-site/): How I turned my own podcast feed into a static site with a page, share card, and alt text for each of 458 episodes, plus transcripts, updated daily.
 - [A serialized novel: 17 years of Movable Type URLs, all kept](https://christopherabraham.com/case-studies/movable-type-novel/): How I moved a serialized novel off Movable Type 3.33 to static hosting, keeping all 953 old URLs: entries, archive pages, feeds, TrackBack files, and images.
 
+## About, notes, and more
+- [Technical SEO skills, and the proof for each one](https://christopherabraham.com/about/skills/): A technical SEO skills list where each line links to evidence: rendering forensics, pull requests, crawl automation, redirects, schema, AI search, and servers.
+- [Off the clock](https://christopherabraham.com/about/off-the-clock/): The life behind the SEO work: a Honolulu boyhood, crew at GW and East Anglia, a trek in Kathmandu, a Masonic lodge chartered in 1805, and r/slowjogging.
+- [How these pages are written and checked](https://christopherabraham.com/about/editorial-policy/): The standards behind this site: firsthand experience, primary sources, how AI tools are used and checked, anonymized clients, corrections, no paid placements.
+- [Colophon](https://christopherabraham.com/about/colophon/): How christopherabraham.com is made: handwritten HTML, a small Python generator with strict checks, GitHub Pages, Cloudflare, accessible colors, Lynx testing.
+- [The Machine Answers First Now](https://christopherabraham.com/the-machine-answers-first/): Google's AI answers now sit atop most commercial searches Semrush tracks. A field note on what the machine says about a business and making it name you.
+
 ## Files for machines
 - [sitemap.xml](https://christopherabraham.com/sitemap.xml): the XML sitemap for search engines.
 - [llms.txt](https://christopherabraham.com/llms.txt): a plain summary of the site for language models, linking to Markdown versions of every page.
@@ -7145,7 +7146,7 @@ Updated: 2026-10-24
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 569 headings across 104 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 573 headings across 104 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -7247,7 +7248,7 @@ People are listed surname first. Cross-references point to related headings. For
 - accessibility overlays, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/)
 - ADA (Americans with Disabilities Act), [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
 - Advertising Age, [About](https://christopherabraham.com/about/)
-- AEO (answer engine optimization), [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI visibility](https://christopherabraham.com/services/ai-visibility/). *See also* [AI search](https://christopherabraham.com/site-index/#ix-ai-search)
+- AEO (answer engine optimization), [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI visibility](https://christopherabraham.com/services/ai-visibility/). *See also* [AI search](https://christopherabraham.com/site-index/#ix-ai-search); [AI visibility](https://christopherabraham.com/site-index/#ix-ai-visibility)
 - ageism and dates, [About Page for AI](https://christopherabraham.com/guides/about-page-ai/)
 - agencies, working with, [AI Search](https://christopherabraham.com/services/ai-search/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/)
 - Ahrefs, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
@@ -7259,12 +7260,15 @@ People are listed surname first. Cross-references point to related headings. For
   - name collisions, [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)
   - stale sources, [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)
 
+- AI answers drifting, [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
 - AI catnip, [Guides](https://christopherabraham.com/guides/), **[AI catnip](https://christopherabraham.com/guides/ai-catnip/)**
 - AI coding assistants, [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), **[SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)**, [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Colophon](https://christopherabraham.com/about/colophon/)
 - AI crawlers, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Site Speed](https://christopherabraham.com/services/site-speed/), [AI Search](https://christopherabraham.com/services/ai-search/), [Static Websites](https://christopherabraham.com/services/static-sites/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/). *See also* [robots.txt](https://christopherabraham.com/site-index/#ix-robotstxt)
 - AI detectors, [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/)
 - AI drafts, verifying, [Fact-Checked Articles](https://christopherabraham.com/services/fact-checked-articles/), [About Page for AI](https://christopherabraham.com/guides/about-page-ai/)
 - AI Overviews, [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/). *See also* [Google AI Overviews](https://christopherabraham.com/site-index/#ix-google-ai-overviews)
+  - share of commercial searches, [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
+
 - AI search, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[AI Search](https://christopherabraham.com/services/ai-search/)**, [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Recruiting Answers](https://christopherabraham.com/case-studies/recruiting-answers/), [AI Visibility Baseline](https://christopherabraham.com/case-studies/ai-visibility-baseline/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/). *See also* [AI answers, correcting](https://christopherabraham.com/site-index/#ix-ai-answers-correcting); [share of voice, AI](https://christopherabraham.com/site-index/#ix-share-of-voice-ai)
   - blocking AI crawlers, [Site Speed](https://christopherabraham.com/services/site-speed/), [AI Search](https://christopherabraham.com/services/ai-search/)
   - careers and recruiting questions, [Recruiting Answers](https://christopherabraham.com/case-studies/recruiting-answers/)
@@ -7278,6 +7282,12 @@ People are listed surname first. Cross-references point to related headings. For
 - AI search readiness checklist, [Guides](https://christopherabraham.com/guides/), **[AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)**
 - AI SEO, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [AI Search](https://christopherabraham.com/services/ai-search/). *See also* [AI search](https://christopherabraham.com/site-index/#ix-ai-search)
 - AI tools inventing data, [Skills and Proof](https://christopherabraham.com/about/skills/)
+- AI visibility, **[AI visibility](https://christopherabraham.com/services/ai-visibility/)**, [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
+  - audit, fixed price, [AI visibility](https://christopherabraham.com/services/ai-visibility/)
+  - Claim Sprint, [AI visibility](https://christopherabraham.com/services/ai-visibility/)
+  - field note, [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
+  - monthly measurement, [AI visibility](https://christopherabraham.com/services/ai-visibility/)
+
 - AI visibility audits, [Recruiting Answers](https://christopherabraham.com/case-studies/recruiting-answers/), **[AI Visibility Baseline](https://christopherabraham.com/case-studies/ai-visibility-baseline/)**, [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
 - AI writing, [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), **[Fact-Checked Articles](https://christopherabraham.com/services/fact-checked-articles/)**, [Editorial Policy](https://christopherabraham.com/about/editorial-policy/)
 - AI-built websites, **[SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)**
@@ -7398,6 +7408,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Chrome DevTools, [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
 - Chrome UX Report, [Site Speed](https://christopherabraham.com/services/site-speed/), [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
 - citation gaps, [AI Search](https://christopherabraham.com/services/ai-search/)
+- claim layer, **[AI visibility](https://christopherabraham.com/services/ai-visibility/)**, [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
 - Claude (Anthropic assistant), [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [AI Share of Voice](https://christopherabraham.com/guides/ai-share-of-voice/)
 - Claude Code, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Colophon](https://christopherabraham.com/about/colophon/). *See also* [AI coding assistants](https://christopherabraham.com/site-index/#ix-ai-coding-assistants)
 - ClaudeBot, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/). *See also* [AI crawlers](https://christopherabraham.com/site-index/#ix-ai-crawlers)
@@ -7532,6 +7543,7 @@ People are listed surname first. Cross-references point to related headings. For
 - entities, [AI Search](https://christopherabraham.com/services/ai-search/), **[Schema](https://christopherabraham.com/services/schema/)**, [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), **[Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/)**, [AI visibility](https://christopherabraham.com/services/ai-visibility/). *See also* [structured data](https://christopherabraham.com/site-index/#ix-structured-data)
   - parent organization and branches, [Closet Locations](https://christopherabraham.com/case-studies/closet-locations/)
 
+- entity consistency, [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
 - evidence packages, [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
 - expired domain abuse, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
 - expired domains, [Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)
@@ -7605,6 +7617,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 - Google Apps case study (Abraham Harrison), [About](https://christopherabraham.com/about/)
 - Google Business Profile, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/), [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/), [Skills and Proof](https://christopherabraham.com/about/skills/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/), [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/). *See also* [local SEO](https://christopherabraham.com/site-index/#ix-local-seo)
+  - as a source for AI answers, [AI visibility](https://christopherabraham.com/services/ai-visibility/)
   - Chris’ own rating, [Home](https://christopherabraham.com/)
   - inaccurate photos, [Training Gym](https://christopherabraham.com/case-studies/training-gym/)
   - interactions, calls, and direction requests, [Training Gym](https://christopherabraham.com/case-studies/training-gym/)
@@ -8054,7 +8067,7 @@ People are listed surname first. Cross-references point to related headings. For
 - screen readers, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/), [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
 - Search Console comparisons, [Search Console Comparisons](https://christopherabraham.com/guides/search-console-comparisons/)
 - Search Engine Journal, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
-- Search Engine Land, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
+- Search Engine Land, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
 - Search Engine Roundtable, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Search performance reporting, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - Search Status Dashboard, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
@@ -8062,7 +8075,7 @@ People are listed surname first. Cross-references point to related headings. For
 - seasonality, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
 - Seasonality, [Search Console Comparisons](https://christopherabraham.com/guides/search-console-comparisons/)
 - self-serving reviews, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)
-- Semrush, [Services](https://christopherabraham.com/services/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
+- Semrush, [Services](https://christopherabraham.com/services/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
 - Sendmail, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - SEO Browser, [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
 - SEO news sources, **[SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)**

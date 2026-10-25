@@ -419,7 +419,8 @@
    ],
    "subs": {},
    "see": [
-    "AI search"
+    "AI search",
+    "AI visibility"
    ],
    "main": []
   },
@@ -457,6 +458,16 @@
    "kind": "topic",
    "pages": [
     "guides/accessibility-seo-dividends"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "AI answers drifting": {
+   "kind": "topic",
+   "pages": [
+    "services/ai-visibility",
+    "the-machine-answers-first"
    ],
    "subs": {},
    "see": [],
@@ -563,7 +574,12 @@
     "services/ai-visibility",
     "the-machine-answers-first"
    ],
-   "subs": {},
+   "subs": {
+    "share of commercial searches": [
+     "services/ai-visibility",
+     "the-machine-answers-first"
+    ]
+   },
    "see": [
     "Google AI Overviews"
    ],
@@ -653,6 +669,31 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "AI visibility": {
+   "kind": "topic",
+   "pages": [
+    "services/ai-visibility",
+    "the-machine-answers-first"
+   ],
+   "subs": {
+    "audit, fixed price": [
+     "services/ai-visibility"
+    ],
+    "Claim Sprint": [
+     "services/ai-visibility"
+    ],
+    "monthly measurement": [
+     "services/ai-visibility"
+    ],
+    "field note": [
+     "the-machine-answers-first"
+    ]
+   },
+   "see": [],
+   "main": [
+    "services/ai-visibility"
+   ]
   },
   "AI visibility audits": {
    "kind": "topic",
@@ -1522,6 +1563,18 @@
    "see": [],
    "main": []
   },
+  "claim layer": {
+   "kind": "topic",
+   "pages": [
+    "services/ai-visibility",
+    "the-machine-answers-first"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/ai-visibility"
+   ]
+  },
   "Claude (Anthropic assistant)": {
    "kind": "topic",
    "pages": [
@@ -1755,6 +1808,15 @@
    "kind": "topic",
    "pages": [
     "about/skills"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "Comparison cohort": {
+   "kind": "topic",
+   "pages": [
+    "guides/search-console-comparisons"
    ],
    "subs": {},
    "see": [],
@@ -2382,6 +2444,16 @@
     "guides/two-names-one-entity"
    ]
   },
+  "entity consistency": {
+   "kind": "topic",
+   "pages": [
+    "services/ai-visibility",
+    "the-machine-answers-first"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "evidence packages": {
    "kind": "topic",
    "pages": [
@@ -2889,6 +2961,9 @@
     ],
     "verification methods": [
      "guides/gbp-video-verification"
+    ],
+    "as a source for AI answers": [
+     "services/ai-visibility"
     ]
    },
    "see": [
@@ -3600,6 +3675,15 @@
    "kind": "topic",
    "pages": [
     "hire-me"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "John Mueller": {
+   "kind": "person",
+   "pages": [
+    "guides/disavow-links"
    ],
    "subs": {},
    "see": [],
@@ -4921,6 +5005,15 @@
     "guides/two-names-one-entity"
    ]
   },
+  "Penguin update (Google)": {
+   "kind": "topic",
+   "pages": [
+    "guides/disavow-links"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "Perl": {
    "kind": "topic",
    "pages": [
@@ -5769,6 +5862,15 @@
    "see": [],
    "main": []
   },
+  "Search Console comparisons": {
+   "kind": "topic",
+   "pages": [
+    "guides/search-console-comparisons"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "Search Engine Journal": {
    "kind": "topic",
    "pages": [
@@ -5782,7 +5884,8 @@
    "kind": "topic",
    "pages": [
     "guides/seo-news-sources",
-    "the-machine-answers-first"
+    "the-machine-answers-first",
+    "services/ai-visibility"
    ],
    "subs": {},
    "see": [],
@@ -5792,6 +5895,15 @@
    "kind": "topic",
    "pages": [
     "guides/seo-news-sources"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "Search performance reporting": {
+   "kind": "topic",
+   "pages": [
+    "about/skills"
    ],
    "subs": {},
    "see": [],
@@ -5828,6 +5940,15 @@
    "see": [],
    "main": []
   },
+  "Seasonality": {
+   "kind": "topic",
+   "pages": [
+    "guides/search-console-comparisons"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "self-serving reviews": {
    "kind": "topic",
    "pages": [
@@ -5843,7 +5964,8 @@
     "services",
     "services/on-page-seo",
     "guides/seo-news-sources",
-    "the-machine-answers-first"
+    "the-machine-answers-first",
+    "services/ai-visibility"
    ],
    "subs": {},
    "see": [],
@@ -5888,6 +6010,17 @@
    "main": [
     "case-studies/plugin-outage"
    ]
+  },
+  "SEO prioritization": {
+   "kind": "topic",
+   "pages": [
+    "guides/prioritize-seo-work"
+   ],
+   "main": [
+    "guides/prioritize-seo-work"
+   ],
+   "subs": {},
+   "see": []
   },
   "SEO release QA": {
    "kind": "topic",
@@ -7537,71 +7670,6 @@
    "main": []
   },
   "Zope": {
-   "kind": "topic",
-   "pages": [
-    "about/skills"
-   ],
-   "subs": {},
-   "see": [],
-   "main": []
-  },
-  "Penguin update (Google)": {
-   "kind": "topic",
-   "pages": [
-    "guides/disavow-links"
-   ],
-   "subs": {},
-   "see": [],
-   "main": []
-  },
-  "John Mueller": {
-   "kind": "person",
-   "pages": [
-    "guides/disavow-links"
-   ],
-   "subs": {},
-   "see": [],
-   "main": []
-  },
-  "SEO prioritization": {
-   "kind": "topic",
-   "pages": [
-    "guides/prioritize-seo-work"
-   ],
-   "main": [
-    "guides/prioritize-seo-work"
-   ],
-   "subs": {},
-   "see": []
-  },
-  "Comparison cohort": {
-   "kind": "topic",
-   "pages": [
-    "guides/search-console-comparisons"
-   ],
-   "subs": {},
-   "see": [],
-   "main": []
-  },
-  "Search Console comparisons": {
-   "kind": "topic",
-   "pages": [
-    "guides/search-console-comparisons"
-   ],
-   "subs": {},
-   "see": [],
-   "main": []
-  },
-  "Seasonality": {
-   "kind": "topic",
-   "pages": [
-    "guides/search-console-comparisons"
-   ],
-   "subs": {},
-   "see": [],
-   "main": []
-  },
-  "Search performance reporting": {
    "kind": "topic",
    "pages": [
     "about/skills"

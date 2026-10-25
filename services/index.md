@@ -1,6 +1,6 @@
 > SEO and website services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
 >
-> Source: https://christopherabraham.com/services/ · Updated 2026-10-24 · By Christopher Abraham
+> Source: https://christopherabraham.com/services/ · Updated 2026-10-23 · By Christopher Abraham
 
 # SEO services
 
@@ -40,12 +40,10 @@ Each one begins with a scoped, paid diagnostic. You get findings in writing, a p
 
 ## Platforms and toolbox
 
-The platforms on my desk right now: WordPress (with Yoast or Rank Math, Elementor, and WooCommerce), Shopify and its Liquid templates, Magento 2 with Hyvä, Umbraco, Drupal, Joomla, Squarespace, Wix, Webflow, Framer, HubSpot, and Duda, plus headless and hand-built sites using React, Next.js, Vue, Create React App, Alpine.js, Sanity, Vercel, or Netlify.
+The content systems I audit and fix today include WordPress (Yoast, Rank Math, Elementor, WooCommerce), Shopify themes in Liquid, Magento 2 with Hyvä, Umbraco, Drupal, Joomla, HubSpot, Duda, and the hosted builders: Squarespace, Wix, Webflow, and Framer. On the code side I read React, Next.js, Vue, Alpine.js, and older Create React App projects, along with headless setups that pair Sanity with Vercel or Netlify.
 
-Stuck on old software, or with a host you'd rather leave? I can crawl the whole site and rebuild it on GitHub Pages or a current platform, in hours rather than weeks, with AI doing the repetitive parts. I did exactly that for my own serialized novel and kept every one of its 953 old addresses working; the [Movable Type case study](https://christopherabraham.com/case-studies/movable-type-novel/) shows how.
+Some sites need a way out before they need SEO. When a site is trapped on a dead platform or a host you'd rather leave, I crawl it and rebuild it as a static site on GitHub Pages or a current stack, every old URL intact, with AI coding assistants doing the repetitive part. A job like that is usually measured in hours. I did it for my own serialized novel, which used to live on legacy hosting. My working setup is Git and GitHub, my own Linux servers on DigitalOcean with root access, and Claude Code and OpenAI Codex for code.
 
-On the code side, I work in Git and GitHub, with OpenAI Codex and Claude Code as my main coding assistants, on Linux machines I run myself, including DigitalOcean droplets where I hold root.
+For measurement and checking I use Google Search Console, Bing Webmaster Tools, GA4, Google Tag Manager, PageSpeed Insights, the Rich Results Test, Screaming Frog, and Semrush, with Cloudflare in front of the sites I host. Projects run in Basecamp, and tasks in Todoist.
 
-The tools around all of it: Cloudflare and DigitalOcean for hosting and delivery; Search Console, Bing Webmaster Tools, GA4, and Tag Manager for measurement; Screaming Frog, Semrush, PageSpeed Insights, and Google's Rich Results Test for audits; and Basecamp and Todoist for running projects.
-
-Updated October 24, 2026
+Updated October 23, 2026

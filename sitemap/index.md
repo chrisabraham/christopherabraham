@@ -35,7 +35,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Schema markup and entity SEO](https://christopherabraham.com/services/schema/): Structured data that validates, matches the visible page, and connects your organization, people, products, and locations as entities for Google and AI.
 - [On-page SEO](https://christopherabraham.com/services/on-page-seo/): On page SEO fixed at the template level: titles and meta descriptions, headings, internal links, thin and duplicate pages, and carefully edited AI drafts.
 - [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/): SEO articles drafted with AI from your own material, written to your voice rules, then checked claim by claim against sources before anything is published.
-- [The answer on top is the new front door.](https://christopherabraham.com/services/ai-visibility/): AI answers now top 88% of commercial searches. I audit what they say about your business, fix the claim layer underneath, and measure it monthly, in writing.
+- [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/): A fixed-price audit of what Google AI Overviews, ChatGPT, Perplexity, and Gemini say about your business, a sprint to fix the sources, and monthly checks.
 
 ## Platforms, local, and ongoing work
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): WordPress SEO done carefully: Yoast and Rank Math settings, theme and plugin conflicts, page builder bloat, caching, and old installs that need a steady hand.
@@ -117,6 +117,13 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [My own consultancy: an AI visibility baseline, with nothing redacted](https://christopherabraham.com/case-studies/ai-visibility-baseline/): I ran sixteen buyer questions about my own services through Claude with web search, then traced every wrong fact and every missing mention to a fixable cause.
 - [My own podcast: 458 episodes, each with a page of its own](https://christopherabraham.com/case-studies/podcast-site/): How I turned my own podcast feed into a static site with a page, share card, and alt text for each of 458 episodes, plus transcripts, updated daily.
 - [A serialized novel: 17 years of Movable Type URLs, all kept](https://christopherabraham.com/case-studies/movable-type-novel/): How I moved a serialized novel off Movable Type 3.33 to static hosting, keeping all 953 old URLs: entries, archive pages, feeds, TrackBack files, and images.
+
+## About, notes, and more
+- [Technical SEO skills, and the proof for each one](https://christopherabraham.com/about/skills/): A technical SEO skills list where each line links to evidence: rendering forensics, pull requests, crawl automation, redirects, schema, AI search, and servers.
+- [Off the clock](https://christopherabraham.com/about/off-the-clock/): The life behind the SEO work: a Honolulu boyhood, crew at GW and East Anglia, a trek in Kathmandu, a Masonic lodge chartered in 1805, and r/slowjogging.
+- [How these pages are written and checked](https://christopherabraham.com/about/editorial-policy/): The standards behind this site: firsthand experience, primary sources, how AI tools are used and checked, anonymized clients, corrections, no paid placements.
+- [Colophon](https://christopherabraham.com/about/colophon/): How christopherabraham.com is made: handwritten HTML, a small Python generator with strict checks, GitHub Pages, Cloudflare, accessible colors, Lynx testing.
+- [The Machine Answers First Now](https://christopherabraham.com/the-machine-answers-first/): Google's AI answers now sit atop most commercial searches Semrush tracks. A field note on what the machine says about a business and making it name you.
 
 ## Files for machines
 - [sitemap.xml](https://christopherabraham.com/sitemap.xml): the XML sitemap for search engines.

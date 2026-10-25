@@ -17,7 +17,7 @@ This site stands on its own: it links to Upwork and Calendly, and "Chris" is fin
    - no link text that says nothing on its own ("read more", "click here");
    - no links to missing pages;
    - no two pages sharing more than 15% of their phrasing, and no repeated sentence of ten or more words;
-   - no page sharing more than 10% of its phrasing with any page of the sibling site checked out next to this repo (`SIBLING` in `tools/build.py`), and no shared sentence of eight or more words (skipped if that folder is absent);
+   - no page sharing more than 10% of its phrasing with any page of the sibling site checked out next to this repo (`SIBLING` in `tools/build.py`, or `SIBLING_DIR`), and no shared sentence of eight or more words. The build fails if that checkout is missing; the build workflow checks it out itself;
    - the island rule.
 3. Commit the sources and the generated files together, and push.
 

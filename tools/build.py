@@ -78,7 +78,11 @@ SERVICE_GROUPS[0][1].extend(['services/internal-linking/', 'services/seo-release
 ISLAND = [r"(?i)gerris", r"(?i)gerriscorp", r"(?i)hillmole", r"(?i)hill mole",
           r"(?i)substack"]  # "podcast" and his show allowed (owner, 2026-10-14: the show is the podcast-site case study)
 # The sibling site, built from the same kind of material. Pages here may not borrow its phrasing.
-SIBLING = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "gerris")
+_HERE = os.path.dirname(os.path.abspath(__file__))
+# SIBLING_DIR (set in CI) wins; locally the checkout may be named gerris or gerriscorp.
+SIBLING = os.environ.get("SIBLING_DIR") or next(
+    (d for d in (os.path.join(_HERE, "..", "..", n) for n in ("gerris", "gerriscorp")) if os.path.isdir(d)),
+    os.path.join(_HERE, "..", "..", "gerris"))
 FILES += ["services/inquiry-path-audit", "guides/test-website-inquiries"]
 # Added by Claude in the Claude app, October 24, 2026.
 FILES += ["guides/disavow-links"]
@@ -184,6 +188,13 @@ def site_map_body():
         out += [f'<h2>{title}</h2>', '<ul>'] + [li(by_path[x]) for x in paths] + ['</ul>']
     for title, tab in (("Guides", "guides/"), ("Case studies", "case-studies/")):
         out += [f'<h2>{title}</h2>', '<ul>'] + [li(q) for q in pages if q["tab"] == tab and q["path"] != tab] + ['</ul>']
+    # Anything not listed above (About subpages, field notes, pages added later) still gets a line.
+    listed = {"", "services/", "guides/", "case-studies/", "about/", "hire-me/", "faq/", "contact/", "privacy/"}
+    listed |= {x for _, paths in SERVICE_GROUPS for x in paths}
+    listed |= {q["path"] for q in pages if q["tab"] in ("guides/", "case-studies/")}
+    rest = [q for q in pages if q["path"] not in listed and q["src"] != "(generated)"]
+    if rest:
+        out += ['<h2>About, notes, and more</h2>', '<ul>'] + [li(q) for q in rest] + ['</ul>']
     out += ['<h2>Files for machines</h2>', '<ul>',
             '  <li><a href="{root}sitemap.xml">sitemap.xml</a>: the XML sitemap for search engines.</li>',
             '  <li><a href="{root}llms.txt">llms.txt</a>: a plain summary of the site for language models, linking to Markdown versions of every page.</li>',
@@ -935,6 +946,8 @@ open(".well-known/security.txt", "w", encoding="utf-8").write(
 sections = [(title, [by_path[x] for x in paths]) for title, paths in SERVICE_GROUPS] + [
     ("Guides", [p for p in pages if p["tab"] == "guides/"]),
     ("About and working together", [p for p in pages if p["tab"] in ("", "case-studies/", "about/", "work-with-me/", "contact/", "sitemap/", "site-index/")])]
+_in_llms = {id(p) for _, group in sections for p in group}
+sections.append(("Hiring, FAQ, notes, and policies", [p for p in pages if id(p) not in _in_llms]))
 llms = f"""# Christopher Abraham, SEO consultant
 
 > {ORG["description"]} Based in Arlington, Virginia. Building websites since 1994 and doing SEO since 1998.
@@ -1047,7 +1060,7 @@ if os.path.isdir(SIBLING):
             if len(sentence.split()) >= 8 and sentence.strip() in _sib_sent and "Amazon Associate" not in sentence:  # the required Associates disclosure is identical by design
                 problems.append(f"/{p['path']} repeats a sibling sentence: {sentence[:80]}")
 else:
-    print("note: sibling site not found, skipping the borrowed-phrasing check")
+    problems.append(f"sibling site not found at {SIBLING}: clone chrisabraham/gerriscorp beside this repo or set SIBLING_DIR")
 for key in ("title", "description", "h1"):
     seen = [p[key] for p in pages]
     for s in set(seen):

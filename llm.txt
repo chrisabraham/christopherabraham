@@ -23,7 +23,7 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 - [Schema markup and entity SEO](https://christopherabraham.com/services/schema/index.md): Structured data that validates, matches the visible page, and connects your organization, people, products, and locations as entities for Google and AI.
 - [On-page SEO](https://christopherabraham.com/services/on-page-seo/index.md): On page SEO fixed at the template level: titles and meta descriptions, headings, internal links, thin and duplicate pages, and carefully edited AI drafts.
 - [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/index.md): SEO articles drafted with AI from your own material, written to your voice rules, then checked claim by claim against sources before anything is published.
-- [The answer on top is the new front door.](https://christopherabraham.com/services/ai-visibility/index.md): AI answers now top 88% of commercial searches. I audit what they say about your business, fix the claim layer underneath, and measure it monthly, in writing.
+- [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/index.md): A fixed-price audit of what Google AI Overviews, ChatGPT, Perplexity, and Gemini say about your business, a sprint to fix the sources, and monthly checks.
 
 ## Platforms, local, and ongoing work
 
@@ -119,6 +119,14 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 - [Contact Christopher Abraham](https://christopherabraham.com/contact/index.md): Email Christopher Abraham at cja@well.com or call or text him with your site address and the problem. Hire him on Upwork or directly for a scoped audit.
 - [Site map](https://christopherabraham.com/sitemap/index.md): Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.
 - [Index](https://christopherabraham.com/site-index/index.md): A back of the book index to christopherabraham.com: every person, tool, platform, and SEO problem the pages cover, listed A to Z with links to each page.
+
+## Hiring, FAQ, notes, and policies
+
+- [SEO services](https://christopherabraham.com/services/index.md): SEO and website services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
+- [Hire me](https://christopherabraham.com/hire-me/index.md): How an SEO engagement runs: a scoped, paid audit first, then hourly or fixed-price work through Upwork or direct, with every finding and decision in writing.
+- [Frequently asked questions](https://christopherabraham.com/faq/index.md): Practical answers about an SEO engagement: what access is needed, how long audits take, time zones, Upwork contracts, invoicing, reports, and confidentiality.
+- [Privacy](https://christopherabraham.com/privacy/index.md): How christopherabraham.com uses Google Analytics with consent mode, why visitors in Europe and the UK get no analytics cookies, and what happens to your email.
+- [The Machine Answers First Now](https://christopherabraham.com/the-machine-answers-first/index.md): Google's AI answers now sit atop most commercial searches Semrush tracks. A field note on what the machine says about a business and making it name you.
 
 ## Optional
 

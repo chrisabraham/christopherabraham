@@ -1,49 +1,45 @@
-> AI answers now top 88% of commercial searches. I audit what they say about your business, fix the claim layer underneath, and measure it monthly, in writing.
+> A fixed-price audit of what Google AI Overviews, ChatGPT, Perplexity, and Gemini say about your business, a sprint to fix the sources, and monthly checks.
 >
 > Source: https://christopherabraham.com/services/ai-visibility/ · Updated 2026-10-24 · By Christopher Abraham
 
-# The answer on top is the new front door.
+# AI visibility: what the answer engines say about your business, and how to change it
 
-On 88% of commercial searches, Google now puts an AI Overview above the results, close to twice the share of a year ago. Your customers meet an AI's version of your business before they ever reach your website. I make sure that answer names you, describes you correctly, and cites you—and then I prove it, monthly, in writing.
+For buying searches, the first thing a customer reads is increasingly a paragraph written by a machine. In August 2026, Google showed an AI Overview for 88% of the 400 US commercial keywords Semrush tracks, close to double its share a year earlier, according to [Search Engine Land](https://searchengineland.com/google-ai-overviews-nearly-double-commercial-keywords-498078). I find out what those paragraphs say about you, fix the sources they draw on, and report on them every month.
 
-## The problem, plainly
+## Why the answer gets it wrong
 
-Search used to be a list of links. Now it's an answer, written by a machine, assembled from whatever the machine could find, verify, and trust about you. If your name, address, services, and facts are scattered or inconsistent, the answer names your competitor instead. Review searches—"best," "near me," "which one should I pick"—moved furthest of all. That is the exact moment a customer chooses.
+An AI answer is assembled from whatever the system can find and cross-check: your website, your Google Business Profile, directory listings, reviews, and what other sites say about you. When those sources disagree on your name, address, services, or hours, the system picks whichever version it can corroborate, and that is often a competitor's. "Best," "near me," and "which should I choose" searches have shifted the most, and those are the searches where a customer makes up their mind.
 
-You don't get to opt out of being summarized. You only get to choose whether the summary is accurate.
+## Three ways to work with me
 
-## What I do
+### 1. AI Visibility Audit: $750, fixed price
 
-### 1. AI Visibility Audit—$750 flat
+I run the searches that bring you business through Google AI Overviews, ChatGPT, Perplexity, and Gemini and record every answer: correct, wrong, missing, or naming a rival. Then I compare your name, address, phone, and services across your site, your Business Profile, and the main directories. You receive a written report with each fix ranked by impact. You own it, and any developer or agency can act on it.
 
-I run the searches that actually earn you money through Google AI Overviews, ChatGPT, Perplexity, and Gemini, and note where you show up and where you're missing. For each answer I log what it claims about you: correct, incorrect, or a competitor in your place. Then I compare your business name, address, phone, and entity details on your own site, on Google Business Profile, and in the directories, looking for mismatches. You get a written report with the fix list in priority order.
+### 2. The Claim Sprint: $1,500, fixed price
 
-No retainer. No vague deliverable. A document you can hand to anyone.
+The sprint repairs what the audit finds, in two layers.
+- The technical base: a full crawl, a Search Console review, titles and meta descriptions, and broken links and redirects.
+- The claim layer: entity schema with sameAs links, an llms.txt file, one canonical page that explains what the business is, and FAQ markup, so an assistant has something precise to quote.
 
-### 2. The Claim Sprint—$1,500 flat
+Changes I can make directly, I make. Anything inside your developer's codebase reaches them as a ticket with the exact change and a way to check it, the same way I work on [release QA](https://christopherabraham.com/services/seo-release-qa/).
 
-The audit tells you what's broken. The sprint fixes the layer that fixes it:
-- The groundwork: a crawl of the whole site, a pass through Search Console, title and meta description fixes, and repairs to broken links and redirect chains
-- The claims themselves: Organization or LocalBusiness markup tied to your profiles through sameAs, an llms.txt file, one authoritative page explaining who you are and what you do, and FAQ markup, so AI systems have something exact to quote rather than something to guess
+### 3. AI Presence, Measured: $500 a month
 
-One honest note: I am an SEO, not a web developer. Anything that belongs in a developer's hands comes back to you written up so exactly that your developer can do it without needing a meeting.
+Answers move. A competitor publishes, a directory updates, and the assistant that recommended you in March names somebody else by June. Each month I rerun your search set across Google AI Overviews, ChatGPT, and Perplexity and send a short written report: what moved, what the answers say now, and the next fix.
 
-### 3. AI Presence, Measured—$500/month
+## Where it's already running
+- A fireworks retailer with several locations: a baseline, then monthly measurement across Google Search, Maps, ChatGPT, and Perplexity.
+- A therapy practice: the complete audit, with every listing checked against what the assistants read.
+- A media company: the claim layer itself, with entity schema, llms.txt, an explainer page, and a baseline.
+- A communications firm bought the audit at $750 as a pilot.
 
-AI answers drift. Competitors publish, directories change, and the answer that named you in March may name someone else in June. Once a month I put the same set of revenue searches to Google AI Overviews, ChatGPT, and Perplexity again, and send you a short written record of what moved, what each answer currently says, and what I'll fix next.
+For the method behind it, see [measuring AI share of voice](https://christopherabraham.com/guides/ai-share-of-voice/) and my own [AI visibility baseline](https://christopherabraham.com/case-studies/ai-visibility-baseline/), published with the unflattering numbers.
 
-## Proof this is already working
-- A multi-location fireworks retailer has AI-answer presence measurement built into its engagement: a starting baseline, then a monthly check of Google Search, Google Maps, ChatGPT, and Perplexity.
-- A therapy practice got the complete audit, with its name, address, phone, and entity details compared against every source the AI systems draw on.
-- A media company's engagement included the claim layer itself: entity schema, llms.txt, a canonical explainer page, and an AI-presence baseline.
-- The audit has already sold at this price as a pilot for a communications firm. The price is the price because it has been paid.
-
-## How it works
-1. **Book a call.** Thirty minutes: [book a 30 minute call](https://calendly.com/chrisabraham/30). Bring your website and the searches you wish you won.
-2. **Get the audit.** A written report, in priority order, that you own outright.
-3. **Decide.** Run the sprint with me, hand the fix list to your own people, or put the measurement on monthly. No lock-in either way. Money and commitments in writing, always.
-
-The answer on top of Google is being written about your business today, with or without you. Make it yours.
+## How to start
+1. **A thirty-minute call.** [Pick a time](https://calendly.com/chrisabraham/30) and bring your site and the searches you most want to win.
+2. **The audit.** A written, ranked report that belongs to you.
+3. **Your choice.** Run the sprint with me, hand the list to your own team, or add monthly measurement. Scope and price are agreed in writing before any work starts.
 
 [Book a 30 minute call](https://calendly.com/chrisabraham/30)
 
