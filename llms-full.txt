@@ -1,7 +1,7 @@
 # Christopher Abraham: full text of christopherabraham.com
 
 > Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.
-> Built 2026-10-25. Quote freely with attribution and a link to the source page.
+> Built 2026-10-24. Quote freely with attribution and a link to the source page.
 
 
 ---
@@ -286,7 +286,7 @@ Updated October 15, 2026
 ---
 
 Source: https://christopherabraham.com/services/seo-audit/
-Updated: 2026-10-06
+Updated: 2026-10-24
 
 # Technical SEO audit
 
@@ -339,7 +339,11 @@ Traffic losses rarely have a single cause, and the most dangerous move is to tel
 
 Many clients have me implement the fixes I can reach, such as metadata, redirects, schema, and plugin or Cloudflare settings, and then verify the developer's work against the acceptance criteria. Others take the report to their own team. Either way the report stands on its own. Scope, timeline, and price are agreed before the audit starts. See [Hire Me](https://christopherabraham.com/hire-me/), or read [what a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/).
 
-Updated October 6, 2026
+## Choose work your team can finish
+
+An audit needs an order of work that respects the people available to implement it. My [guide to setting SEO priorities](https://christopherabraham.com/guides/prioritize-seo-work/) explains how to weigh business relevance, diagnostic confidence, dependencies, and delivery effort without pretending to forecast a ranking gain.
+
+Updated October 24, 2026
 
 
 ---
@@ -1085,6 +1089,7 @@ Updated: 2026-10-24
 These guides cover the questions clients ask me most, written so you can act on them yourself. Each one is self-contained, with links to related guides and to the glossary for terms.
 
 ## Seasonal businesses
+- [Prioritize SEO work with limited developer time](https://christopherabraham.com/guides/prioritize-seo-work/): a practical method with an illustrative example and verification steps.
 - [Measure seasonal local SEO before the busy weeks arrive](https://christopherabraham.com/guides/seasonal-local-seo/): a practical workflow with explicit decisions and verifiable evidence.
 
 ## Indexing and audits
@@ -6842,8 +6847,92 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 
 ---
 
+Source: https://christopherabraham.com/guides/prioritize-seo-work/
+Updated: 2026-10-24
+
+# How to choose the next SEO fix when developer time is scarce
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 24, 2026
+
+An audit can produce a hundred findings while the development team has room for two changes. The useful question is which two deserve the available time. Counting warnings will not answer it.
+
+I organize that decision around the pages the business depends on, the strength of the diagnosis, and the work required to deliver a change. A priority list is a set of choices under constraints. It should explain why something moves first and what evidence would change that choice.
+
+## Identify the pages that matter to the business
+
+Begin with a short inventory of useful destinations: the services people inquire about, products currently available to buy, location pages for operating branches, and articles that support a real customer decision. Ask the owner which actions make those pages valuable.
+
+Traffic alone can mislead. An old article may bring many visits without producing relevant inquiries, while a specialist service page attracts a small audience with a strong reason to call. Avoid inventing a monetary value for either. If conversion evidence is absent, record the owner's explanation and label it as a business judgment.
+
+Use Search Console to examine search visibility alongside that inventory. Google's [introduction to Search Console](https://developers.google.com/search/docs/monitor-debug/search-console-start) describes its crawl, indexing, and performance reports. Those reports supply observations about search; they do not establish the value of a lead or identify every cause of a change.
+
+## Separate active failures from improvement opportunities
+
+A broken inquiry form on an important service page needs a different conversation from a title that could be clearer. Likewise, an accidental exclusion affecting a whole product category deserves investigation before a cosmetic improvement to an infrequently used archive.
+
+Use three practical queues:
+- **Restore:** an important customer action or access path has failed.
+- **Investigate:** evidence suggests a material problem, but the cause or scope remains uncertain.
+- **Improve:** the current experience works, and a bounded change could make it more useful.
+
+These queues prevent an attractive improvement from displacing an unresolved failure. They also avoid treating every suspicion as an emergency. A sudden graph change may justify checking the data before changing the website.
+
+## Compare candidates without false precision
+
+For each candidate, record five fields: business relevance, affected population, confidence in the diagnosis, implementation effort, and dependencies. Use plain descriptions. “Shared template serving the current product catalog” is more informative than an unexplained impact score of nine.
+
+Confidence concerns the explanation, not the confidence of the person presenting it. A reproducible failure with a known template cause is different from a correlation between a release and falling visits. Give the second case an investigation task that could confirm or reject the theory.
+
+Effort includes review, release coordination, content preparation, and verification. A ten minute code edit that needs a vendor's approval and an overnight maintenance window is not a ten minute delivery. Ask the developer for an estimate before ranking the task as an easy win.
+
+A simple high, medium, or low label can help sort a discussion, provided its meaning is written down. Avoid multiplying arbitrary scores into a precise looking return forecast. The ordering is a decision aid, not a prediction of future rankings.
+
+## Work through a small hypothetical backlog
+
+Imagine a supplier with one developer afternoon available. Three findings arrive: the quote form fails on mobile, twenty product pages have similar descriptions, and an old archive has short meta descriptions. These are invented examples, not reported client results.
+
+The quote form belongs in Restore if testing reproduces the failure. Fixing it protects the customer action that existing visits are supposed to support. The product descriptions need more context: do the products serve different needs, and is important specification information absent? That may become an editorial assignment before any code work is required.
+
+The archive descriptions can wait unless someone establishes a stronger business reason. A crawler highlighting them in red does not change that. The outcome of the afternoon should be a repaired and verified quote path, plus a clearly assigned investigation of the product pages.
+
+If the form failure turns out to be a test configuration problem, revise the queue immediately. Good prioritization leaves room for new evidence rather than defending yesterday's order.
+
+## Make each selected task small enough to finish
+
+Turn “improve product SEO” into a bounded assignment: inspect one product family, identify missing information, decide which template fields are needed, and verify the revised output on named examples. The next task depends on that result.
+
+Assign one owner and specify the closing evidence. A title change needs the expected title on the relevant production URLs. A redirect repair needs the intended destination and response behavior for the agreed source set. A form repair needs a successful submission and confirmed receipt, following the [page to inbox inquiry test](https://christopherabraham.com/guides/test-website-inquiries/).
+
+Do not require a ranking increase to close a development ticket. That would leave a technically complete change permanently open while search performance moves for many reasons. Track implementation and business measurement in separate fields.
+
+## Review the queue after each release
+
+Keep a compact change log: what changed, where, when, who checked it, and what remains unknown. If the evidence reveals a wider issue, expand the next task with that evidence. If a hypothesis fails, remove it from the implementation queue.
+
+Review outcomes over a period appropriate to the question, acknowledging seasonality and other releases. A clean before and after crawl establishes changed technical behavior. It does not isolate the cause of every later traffic movement. The guide to [verifying SEO repairs](https://christopherabraham.com/guides/prove-seo-fixes/) covers that distinction.
+
+The deliverable is a short list somebody can act on: an owner, a reason, a prerequisite, and a test for each item. That is what I expect from [a technical SEO audit](https://christopherabraham.com/services/seo-audit/) and from [ongoing SEO support](https://christopherabraham.com/services/seo-retainer/). Progress becomes easier to assess when the queue records decisions instead of accumulating warnings.
+
+Drafted with OpenAI Codex at the publisher's request. The backlog example is hypothetical; no traffic or revenue outcome is claimed.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [Google Search Console introduction](https://developers.google.com/search/docs/monitor-debug/search-console-start)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
 Source: https://christopherabraham.com/sitemap/
-Updated: 2026-10-25
+Updated: 2026-10-24
 
 # Site map
 
@@ -6941,6 +7030,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/): Google is testing a rebuilt Performance section for Business Profiles. How to read each new report, Overview first, and what the numbers mean.
 - [Google Business Profile video verification: plan the take before you press record](https://christopherabraham.com/guides/gbp-video-verification/): Passing Google Business Profile video verification the first time: what Google wants on camera for storefronts and service areas, and what to do if it fails.
 - [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/): What an XML sitemap should hold in 2026: canonical URLs that answer 200, honest lastmod dates, no priority games, and how I audit one against a crawl.
+- [How to choose the next SEO fix when developer time is scarce](https://christopherabraham.com/guides/prioritize-seo-work/): Choose the next SEO task using business value, affected pages, evidence, dependencies, and effort, then keep a clear record of what shipped and what changed.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
@@ -6967,17 +7057,17 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 25, 2026
+Updated October 24, 2026
 
 
 ---
 
 Source: https://christopherabraham.com/site-index/
-Updated: 2026-10-25
+Updated: 2026-10-24
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 564 headings across 102 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 565 headings across 103 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -7895,6 +7985,7 @@ People are listed surname first. Cross-references point to related headings. For
 - SEO Browser, [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
 - SEO news sources, **[SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)**
 - SEO plugins, switched off, **[Plugin Outage](https://christopherabraham.com/case-studies/plugin-outage/)**
+- SEO prioritization, **[SEO Priorities](https://christopherabraham.com/guides/prioritize-seo-work/)**
 - SEO release QA, **[SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)**
   - after deployment, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
   - agreeing the test, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
@@ -8166,4 +8257,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated October 25, 2026
+Updated October 24, 2026

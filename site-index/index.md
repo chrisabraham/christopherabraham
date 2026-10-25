@@ -1,10 +1,10 @@
 > A back of the book index to christopherabraham.com: every person, tool, platform, and SEO problem the pages cover, listed A to Z with links to each page.
 >
-> Source: https://christopherabraham.com/site-index/ · Updated 2026-10-25 · By Christopher Abraham
+> Source: https://christopherabraham.com/site-index/ · Updated 2026-10-24 · By Christopher Abraham
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 564 headings across 102 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 565 headings across 103 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -922,6 +922,7 @@ People are listed surname first. Cross-references point to related headings. For
 - SEO Browser, [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
 - SEO news sources, **[SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)**
 - SEO plugins, switched off, **[Plugin Outage](https://christopherabraham.com/case-studies/plugin-outage/)**
+- SEO prioritization, **[SEO Priorities](https://christopherabraham.com/guides/prioritize-seo-work/)**
 - SEO release QA, **[SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)**
   - after deployment, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
   - agreeing the test, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
@@ -1193,4 +1194,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated October 25, 2026
+Updated October 24, 2026

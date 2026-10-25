@@ -89,6 +89,7 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 - [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/index.md): Google is testing a rebuilt Performance section for Business Profiles. How to read each new report, Overview first, and what the numbers mean.
 - [Google Business Profile video verification: plan the take before you press record](https://christopherabraham.com/guides/gbp-video-verification/index.md): Passing Google Business Profile video verification the first time: what Google wants on camera for storefronts and service areas, and what to do if it fails.
 - [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/index.md): What an XML sitemap should hold in 2026: canonical URLs that answer 200, honest lastmod dates, no priority games, and how I audit one against a crawl.
+- [How to choose the next SEO fix when developer time is scarce](https://christopherabraham.com/guides/prioritize-seo-work/index.md): Choose the next SEO task using business value, affected pages, evidence, dependencies, and effort, then keep a clear record of what shipped and what changed.
 
 ## About and working together
 

@@ -7539,6 +7539,17 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "SEO prioritization": {
+   "kind": "topic",
+   "pages": [
+    "guides/prioritize-seo-work"
+   ],
+   "main": [
+    "guides/prioritize-seo-work"
+   ],
+   "subs": {},
+   "see": []
   }
  },
  "reviewed": [
@@ -7641,6 +7652,7 @@
   "guides/seasonal-local-seo",
   "guides/gbp-video-verification",
   "guides/disavow-links",
-  "guides/xml-sitemaps"
+  "guides/xml-sitemaps",
+  "guides/prioritize-seo-work"
  ]
 }

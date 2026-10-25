@@ -1,6 +1,6 @@
 > A technical SEO audit that answers one question with evidence: why traffic fell or stalled, the mechanism behind it, and which fixes should come first.
 >
-> Source: https://christopherabraham.com/services/seo-audit/ · Updated 2026-10-06 · By Christopher Abraham
+> Source: https://christopherabraham.com/services/seo-audit/ · Updated 2026-10-24 · By Christopher Abraham
 
 # Technical SEO audit
 
@@ -53,4 +53,8 @@ Traffic losses rarely have a single cause, and the most dangerous move is to tel
 
 Many clients have me implement the fixes I can reach, such as metadata, redirects, schema, and plugin or Cloudflare settings, and then verify the developer's work against the acceptance criteria. Others take the report to their own team. Either way the report stands on its own. Scope, timeline, and price are agreed before the audit starts. See [Hire Me](https://christopherabraham.com/hire-me/), or read [what a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/).
 
-Updated October 6, 2026
+## Choose work your team can finish
+
+An audit needs an order of work that respects the people available to implement it. My [guide to setting SEO priorities](https://christopherabraham.com/guides/prioritize-seo-work/) explains how to weigh business relevance, diagnostic confidence, dependencies, and delivery effort without pretending to forecast a ranking gain.
+
+Updated October 24, 2026
