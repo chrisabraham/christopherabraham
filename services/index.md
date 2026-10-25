@@ -1,6 +1,6 @@
 > SEO and website services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
 >
-> Source: https://christopherabraham.com/services/ · Updated 2026-10-23 · By Christopher Abraham
+> Source: https://christopherabraham.com/services/ · Updated 2026-10-24 · By Christopher Abraham
 
 # SEO services
 
@@ -40,10 +40,12 @@ Each one begins with a scoped, paid diagnostic. You get findings in writing, a p
 
 ## Platforms and toolbox
 
-Current work: WordPress with Yoast or Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal and Joomla; Squarespace, Wix, Webflow, and Framer; HubSpot; Duda; and headless and custom builds on React, Next.js, Vue, Create React App, Alpine.js, Sanity, Vercel, and Netlify.
+The platforms on my desk right now: WordPress (with Yoast or Rank Math, Elementor, and WooCommerce), Shopify and its Liquid templates, Magento 2 with Hyvä, Umbraco, Drupal, Joomla, Squarespace, Wix, Webflow, Framer, HubSpot, and Duda, plus headless and hand-built sites using React, Next.js, Vue, Create React App, Alpine.js, Sanity, Vercel, or Netlify.
 
-Site rescue and migration: if your site is stranded on an old platform or a host you want to leave, I can spider it and replicate it on GitHub Pages or a modern stack, usually in hours, not weeks, with AI assistance on the heavy lifting. That is how I moved my own novel's site off legacy hosting and onto GitHub Pages. I work in Git and GitHub, on Linux servers I administer myself (root on DigitalOcean droplets; everything I own runs Linux), with OpenAI Codex and Claude Code as my main coding assistants.
+Stuck on old software, or with a host you'd rather leave? I can crawl the whole site and rebuild it on GitHub Pages or a current platform, in hours rather than weeks, with AI doing the repetitive parts. I did exactly that for my own serialized novel and kept every one of its 953 old addresses working; the [Movable Type case study](https://christopherabraham.com/case-studies/movable-type-novel/) shows how.
 
-Around the platforms: Cloudflare, GitHub Pages, and DigitalOcean; Google Search Console, Bing Webmaster Tools, GA4, and Google Tag Manager; Screaming Frog, Semrush, PageSpeed Insights, and the Rich Results Test; and Basecamp and Todoist to run the work.
+On the code side, I work in Git and GitHub, with OpenAI Codex and Claude Code as my main coding assistants, on Linux machines I run myself, including DigitalOcean droplets where I hold root.
 
-Updated October 23, 2026
+The tools around all of it: Cloudflare and DigitalOcean for hosting and delivery; Search Console, Bing Webmaster Tools, GA4, and Tag Manager for measurement; Screaming Frog, Semrush, PageSpeed Insights, and Google's Rich Results Test for audits; and Basecamp and Todoist for running projects.
+
+Updated October 24, 2026

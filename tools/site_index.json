@@ -414,7 +414,8 @@
    "pages": [
     "home",
     "services/sitewide-technical-seo",
-    "services/ai-search"
+    "services/ai-search",
+    "services/ai-visibility"
    ],
    "subs": {},
    "see": [
@@ -558,7 +559,10 @@
   },
   "AI Overviews": {
    "kind": "topic",
-   "pages": [],
+   "pages": [
+    "services/ai-visibility",
+    "the-machine-answers-first"
+   ],
    "subs": {},
    "see": [
     "Google AI Overviews"
@@ -576,7 +580,9 @@
     "guides/ai-catnip",
     "guides/correct-ai-answers",
     "case-studies/recruiting-answers",
-    "case-studies/ai-visibility-baseline"
+    "case-studies/ai-visibility-baseline",
+    "services/ai-visibility",
+    "the-machine-answers-first"
    ],
    "subs": {
     "crawler access": [
@@ -652,12 +658,14 @@
    "kind": "topic",
    "pages": [
     "case-studies/recruiting-answers",
-    "case-studies/ai-visibility-baseline"
+    "case-studies/ai-visibility-baseline",
+    "the-machine-answers-first"
    ],
    "subs": {},
    "see": [],
    "main": [
-    "case-studies/ai-visibility-baseline"
+    "case-studies/ai-visibility-baseline",
+    "services/ai-visibility"
    ]
   },
   "AI writing": {
@@ -1428,7 +1436,8 @@
     "guides/ai-search-checklist",
     "guides/correct-ai-answers",
     "guides/reddit-ai-answers",
-    "guides/earned-mentions"
+    "guides/earned-mentions",
+    "services/ai-visibility"
    ],
    "subs": {},
    "see": [],
@@ -2357,7 +2366,8 @@
     "services/ai-search",
     "services/schema",
     "guides/two-names-one-entity",
-    "guides/correct-ai-answers"
+    "guides/correct-ai-answers",
+    "services/ai-visibility"
    ],
    "subs": {
     "parent organization and branches": [
@@ -2630,7 +2640,8 @@
     "guides/ai-search-checklist",
     "guides/correct-ai-answers",
     "guides/reddit-ai-answers",
-    "guides/earned-mentions"
+    "guides/earned-mentions",
+    "services/ai-visibility"
    ],
    "subs": {},
    "see": [],
@@ -2838,7 +2849,9 @@
     "case-studies/profile-reinstated",
     "case-studies/training-gym",
     "about/skills",
-    "guides/gbp-performance-reports"
+    "guides/gbp-performance-reports",
+    "services/ai-visibility",
+    "the-machine-answers-first"
    ],
    "subs": {
     "suspensions and appeals": [
@@ -3867,7 +3880,9 @@
     "guides",
     "guides/ai-search-checklist",
     "guides/llms-txt",
-    "guides/show-notes-cascade"
+    "guides/show-notes-cascade",
+    "services/ai-visibility",
+    "the-machine-answers-first"
    ],
    "subs": {
     "format": [
@@ -4390,7 +4405,8 @@
   "NAP (name, address, phone)": {
    "kind": "topic",
    "pages": [
-    "services/local-seo"
+    "services/local-seo",
+    "services/ai-visibility"
    ],
    "subs": {},
    "see": [],
@@ -4932,7 +4948,8 @@
     "guides/ai-search-checklist",
     "guides/correct-ai-answers",
     "guides/reddit-ai-answers",
-    "guides/earned-mentions"
+    "guides/earned-mentions",
+    "services/ai-visibility"
    ],
    "subs": {},
    "see": [],
@@ -5445,7 +5462,8 @@
     "services/ecommerce-seo",
     "services/schema",
     "guides/small-business-schema",
-    "case-studies/shopify-cleanup"
+    "case-studies/shopify-cleanup",
+    "the-machine-answers-first"
    ],
    "subs": {},
    "see": [
@@ -5590,7 +5608,8 @@
     "guides/correct-ai-answers",
     "guides/two-names-one-entity",
     "guides/lapsed-domains",
-    "guides/third-party-proof"
+    "guides/third-party-proof",
+    "the-machine-answers-first"
    ],
    "subs": {},
    "see": [],
@@ -5625,7 +5644,9 @@
   },
   "schema markup": {
    "kind": "topic",
-   "pages": [],
+   "pages": [
+    "services/ai-visibility"
+   ],
    "subs": {},
    "see": [
     "structured data"
@@ -5760,7 +5781,8 @@
   "Search Engine Land": {
    "kind": "topic",
    "pages": [
-    "guides/seo-news-sources"
+    "guides/seo-news-sources",
+    "the-machine-answers-first"
    ],
    "subs": {},
    "see": [],
@@ -5820,7 +5842,8 @@
    "pages": [
     "services",
     "services/on-page-seo",
-    "guides/seo-news-sources"
+    "guides/seo-news-sources",
+    "the-machine-answers-first"
    ],
    "subs": {},
    "see": [],
@@ -7690,6 +7713,8 @@
   "guides/disavow-links",
   "guides/xml-sitemaps",
   "guides/prioritize-seo-work",
-  "guides/search-console-comparisons"
+  "guides/search-console-comparisons",
+  "services/ai-visibility",
+  "the-machine-answers-first"
  ]
 }
