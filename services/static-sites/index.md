@@ -36,4 +36,10 @@ A podcast feed is a natural source for a static site, with a page per episode ad
 
 A fixed-scope build quoted after a short call, or a migration scoped from an inventory of your current site. Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 15, 2026

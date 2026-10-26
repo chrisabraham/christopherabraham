@@ -37,4 +37,10 @@ Fake reviews, invented testimonials, articles under a made-up author, and pages 
 
 Single articles or a monthly number, quoted once the voice rules and the sources are agreed. The first article takes longest, because it sets the rules every later one follows. Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 14, 2026

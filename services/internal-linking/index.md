@@ -45,4 +45,10 @@ Yes. A review can cover a particular service, a group of related guides, an ecom
 
 My [practical internal linking guide](https://christopherabraham.com/guides/internal-linking/) includes a planning worksheet. For help with your own pages, [send me the site and the destinations you want people to find](https://christopherabraham.com/contact/). This can also sit inside [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) or an [ongoing SEO retainer](https://christopherabraham.com/services/seo-retainer/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 15, 2026

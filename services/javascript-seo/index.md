@@ -37,4 +37,10 @@ React and Create React App, Next.js on Vercel and Netlify, Vue, Alpine.js on Mag
 
 See [product content hidden behind scroll triggers](https://christopherabraham.com/case-studies/scroll-gated-products/), [a React app with 2,000 unreachable pages](https://christopherabraham.com/case-studies/event-app-links/), and [SEO fixes merged through GitHub on Sanity and Vercel](https://christopherabraham.com/case-studies/headless-local/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

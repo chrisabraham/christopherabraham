@@ -49,4 +49,10 @@ I prioritize by revenue, not page count: the categories and products that earn t
 
 Two stores I've worked on: [a Magento retailer whose product content never rendered for Googlebot](https://christopherabraham.com/case-studies/scroll-gated-products/) and [a specialty shop cleaning up after a move to Shopify](https://christopherabraham.com/case-studies/shopify-cleanup/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

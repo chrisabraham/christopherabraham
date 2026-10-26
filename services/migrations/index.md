@@ -41,4 +41,10 @@ My rules for redirects are in [ten rules for 301 redirects](https://christophera
 
 A move also needs a decision about every image and downloadable document. My [media migration inventory guide](https://christopherabraham.com/guides/media-migration/) covers those dependencies, and [SEO release QA](https://christopherabraham.com/services/seo-release-qa/) provides a focused acceptance review for a named launch.
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

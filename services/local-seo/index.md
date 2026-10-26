@@ -41,4 +41,10 @@ See [a therapy practice's suspended profile reinstated](https://christopherabrah
 
 For businesses with a short selling season, I establish comparable reporting windows and a consistent map sampling setup before demand rises. I distinguish profile actions from qualified inquiries and help schedule website changes around peak trading. The [seasonal local measurement guide](https://christopherabraham.com/guides/seasonal-local-seo/) explains the baseline and the questions it can answer.
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 24, 2026

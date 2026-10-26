@@ -55,4 +55,10 @@ My own baseline from October 2026: named in every answer that asked about me by 
 
 Technical access problems can be fixed in days. Changes in how assistants describe you follow their crawl and retrieval cycles, which take weeks to months. Start with my [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/), or see [a company that wanted accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/). For the parts of the work you can do yourself, read how to [correct what AI says about you](https://christopherabraham.com/guides/correct-ai-answers/), how to [earn the mentions answers repeat](https://christopherabraham.com/guides/earned-mentions/), and what [llms.txt](https://christopherabraham.com/guides/llms-txt/) does and doesn't do.
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 14, 2026

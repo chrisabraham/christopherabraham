@@ -199,6 +199,8 @@ Every service starts from the same place: find out what search engines and AI sy
 - [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Shopify, WooCommerce, and Magento product, category, and faceted pages.
 - [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/): location pages, profiles, categories, and hard cases such as suspensions.
 - [Business Profile verification help](https://christopherabraham.com/services/gbp-verification/): failed video checks, locked listings, and missing owners.
+- [Local competitor recon](https://christopherabraham.com/services/local-competitor-recon/): a dated evidence table of the rival listings Google shows, with your profile beside them.
+- [Peak season readiness](https://christopherabraham.com/services/peak-season-readiness/): listings, location pages, AI answers, and measurement finished before a short selling window opens.
 - [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): steady monitoring, fixes, and reporting from a senior consultant.
 
 ## How each service is delivered
@@ -283,6 +285,12 @@ This sweep draws on several narrower services: the [technical SEO audit](https:/
 
 To start, [send me your site and what's bothering you about it](https://christopherabraham.com/contact/), or see how engagements run on [Hire Me](https://christopherabraham.com/hire-me/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 15, 2026
 
 
@@ -346,6 +354,12 @@ Many clients have me implement the fixes I can reach, such as metadata, redirect
 
 An audit needs an order of work that respects the people available to implement it. My [guide to setting SEO priorities](https://christopherabraham.com/guides/prioritize-seo-work/) explains how to weigh business relevance, diagnostic confidence, dependencies, and delivery effort without pretending to forecast a ranking gain.
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 24, 2026
 
 
@@ -398,6 +412,12 @@ Bing's index feeds Copilot and several other AI assistants, and Bing Webmaster T
 
 Indexing problems on React, Next.js, and other script-heavy sites are covered under [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/). For a walkthrough of the report itself, read [how to read the Page indexing report](https://christopherabraham.com/guides/page-indexing-report/). A real example: [indexing a 20,000-page programmatic site](https://christopherabraham.com/case-studies/card-price-index/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026
 
 
@@ -440,6 +460,12 @@ React and Create React App, Next.js on Vercel and Netlify, Vue, Alpine.js on Mag
 ## Examples
 
 See [product content hidden behind scroll triggers](https://christopherabraham.com/case-studies/scroll-gated-products/), [a React app with 2,000 unreachable pages](https://christopherabraham.com/case-studies/event-app-links/), and [SEO fixes merged through GitHub on Sanity and Vercel](https://christopherabraham.com/case-studies/headless-local/).
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 6, 2026
 
@@ -491,6 +517,12 @@ A short report naming each failing template, the resource responsible, and the e
 
 WordPress with WP Rocket, LiteSpeed Cache, or W3 Total Cache; WooCommerce; Shopify themes; Magento; static sites; and Next.js. For WordPress specifics, see [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026
 
 
@@ -538,6 +570,12 @@ A surprising number of businesses can't log into their own Search Console. The p
 
 Ongoing monitoring is part of every [retainer](https://christopherabraham.com/services/seo-retainer/). For the indexing report in detail, see the [Page indexing guide](https://christopherabraham.com/guides/page-indexing-report/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026
 
 
@@ -584,6 +622,12 @@ If traffic fell after a migration, the old site is usually the best evidence. I 
 My rules for redirects are in [ten rules for 301 redirects](https://christopherabraham.com/guides/redirect-rules/). Examples: [a clinic's move from WordPress to Next.js](https://christopherabraham.com/case-studies/clinic-migration/) and [cleaning up after a Squarespace to Shopify move](https://christopherabraham.com/case-studies/shopify-cleanup/).
 
 A move also needs a decision about every image and downloadable document. My [media migration inventory guide](https://christopherabraham.com/guides/media-migration/) covers those dependencies, and [SEO release QA](https://christopherabraham.com/services/seo-release-qa/) provides a focused acceptance review for a named launch.
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 6, 2026
 
@@ -646,6 +690,12 @@ My own baseline from October 2026: named in every answer that asked about me by 
 
 Technical access problems can be fixed in days. Changes in how assistants describe you follow their crawl and retrieval cycles, which take weeks to months. Start with my [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/), or see [a company that wanted accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/). For the parts of the work you can do yourself, read how to [correct what AI says about you](https://christopherabraham.com/guides/correct-ai-answers/), how to [earn the mentions answers repeat](https://christopherabraham.com/guides/earned-mentions/), and what [llms.txt](https://christopherabraham.com/guides/llms-txt/) does and doesn't do.
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 14, 2026
 
 
@@ -688,6 +738,12 @@ Depending on your platform, I install the JSON-LD myself through the theme, a pl
 Structured data makes your facts unambiguous; it doesn't make a weak page strong. Google decides when to show rich results. The work pays off most when it matches strong, visible content, which is why I review the page and the markup together.
 
 Not sure which types you need? Read [the schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/), or see [entity markup for a brand with locations in several states](https://christopherabraham.com/case-studies/closet-locations/).
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 6, 2026
 
@@ -743,6 +799,12 @@ On WordPress, much of this runs through Yoast or Rank Math; see [WordPress SEO](
 
 For a project centered on the connections between pages, see [internal linking strategy](https://christopherabraham.com/services/internal-linking/). The [link planning guide and worksheet](https://christopherabraham.com/guides/internal-linking/) show how I choose placements, anchor wording, and destinations.
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026
 
 
@@ -785,6 +847,12 @@ Fake reviews, invented testimonials, articles under a made-up author, and pages 
 ## How it's delivered
 
 Single articles or a monthly number, quoted once the voice rules and the sources are agreed. The first article takes longest, because it sets the rules every later one follows. Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 14, 2026
 
@@ -842,6 +910,12 @@ I'm comfortable inside a fifteen-year-old WordPress site with a custom theme nob
 
 An example of what goes wrong when the SEO plugin is switched off: [recovering a WooCommerce store's indexing](https://christopherabraham.com/case-studies/plugin-outage/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026
 
 
@@ -883,6 +957,12 @@ A podcast feed is a natural source for a static site, with a page per episode ad
 ## How it's delivered
 
 A fixed-scope build quoted after a short call, or a migration scoped from an inventory of your current site. Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 15, 2026
 
@@ -929,6 +1009,12 @@ Your RSS feed address, your domain or the name you want, the cover art at full s
 ## How it's delivered
 
 A standard build from an existing feed takes about an afternoon of my time, and it's quoted as a fixed-scope project after a short call. Ongoing additions, such as articles or new page types, can be billed by the hour. Terms are on [Hire Me](https://christopherabraham.com/hire-me/). For the static approach in general, see [static websites built for search](https://christopherabraham.com/services/static-sites/).
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 14, 2026
 
@@ -985,6 +1071,12 @@ I prioritize by revenue, not page count: the categories and products that earn t
 
 Two stores I've worked on: [a Magento retailer whose product content never rendered for Googlebot](https://christopherabraham.com/case-studies/scroll-gated-products/) and [a specialty shop cleaning up after a move to Shopify](https://christopherabraham.com/case-studies/shopify-cleanup/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026
 
 
@@ -1032,6 +1124,12 @@ See [a therapy practice's suspended profile reinstated](https://christopherabrah
 
 For businesses with a short selling season, I establish comparable reporting windows and a consistent map sampling setup before demand rises. I distinguish profile actions from qualified inquiries and help schedule website changes around peak trading. The [seasonal local measurement guide](https://christopherabraham.com/guides/seasonal-local-seo/) explains the baseline and the questions it can answer.
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 24, 2026
 
 
@@ -1078,6 +1176,12 @@ Requests and updates happen in writing, in Upwork, email, or your project tool, 
 ## Ending a retainer
 
 Either side can end a retainer at the end of any month. When it ends, you get a handover note listing what's in progress, what to watch, and where every login and setting stands, and I remove my access.
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 6, 2026
 
@@ -6114,6 +6218,12 @@ Yes. A review can cover a particular service, a group of related guides, an ecom
 
 My [practical internal linking guide](https://christopherabraham.com/guides/internal-linking/) includes a planning worksheet. For help with your own pages, [send me the site and the destinations you want people to find](https://christopherabraham.com/contact/). This can also sit inside [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) or an [ongoing SEO retainer](https://christopherabraham.com/services/seo-retainer/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 15, 2026
 
 
@@ -6161,6 +6271,12 @@ Yes. I can work from a staging address and the release brief. Repository access 
 The review answers whether the named release meets its agreed search requirements. A broader investigation of an unexplained traffic loss belongs in a separately scoped audit.
 
 For a release involving old images or downloads, start with my [image and PDF migration checklist](https://christopherabraham.com/guides/media-migration/). To arrange a review, [send me the release brief and staging address](https://christopherabraham.com/contact/); scope and terms follow the process on [Hire Me](https://christopherabraham.com/hire-me/).
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 15, 2026
 
@@ -6365,6 +6481,12 @@ For a self-directed starting point, use my [guide to testing website inquiries](
 
 [Ask about your contact routes](https://christopherabraham.com/contact/)
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 20, 2026
 
 
@@ -6557,7 +6679,6 @@ Answers move. A competitor publishes, a directory updates, and the assistant tha
 - A fireworks retailer with several locations: a baseline, then monthly measurement across Google Search, Maps, ChatGPT, and Perplexity.
 - A therapy practice: the complete audit, with every listing checked against what the assistants read.
 - A media company: the claim layer itself, with entity schema, llms.txt, an explainer page, and a baseline.
-- A communications firm bought the audit at $750 as a pilot.
 
 For the method behind it, see [measuring AI share of voice](https://christopherabraham.com/guides/ai-share-of-voice/) and my own [AI visibility baseline](https://christopherabraham.com/case-studies/ai-visibility-baseline/), published with the unflattering numbers.
 
@@ -6567,6 +6688,12 @@ For the method behind it, see [measuring AI share of voice](https://christophera
 3. **Your choice.** Run the sprint with me, hand the list to your own team, or add monthly measurement. Scope and price are agreed in writing before any work starts.
 
 [Book a 30 minute call](https://calendly.com/chrisabraham/30)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 24, 2026
 
@@ -6989,7 +7116,7 @@ Service areas describe where you work, and they carry little weight in where the
 
 The guidelines ask for a number that connects to the individual business location, a local number in place of a central call-center line whenever possible, and a number under the business's direct control. Premium-rate numbers aren't allowed at all.
 
-This is where I find the quietest damage. On a recent competitor review for a home-services company in the Southeast, the client's profile showed a toll-free number while its website showed a local one with a different area code. Each number on its own was legitimate. Together they gave Google, directories, and AI tools two answers to the simplest question about the business. Pick one primary number, put it on the profile, the website header, and the contact page, and keep tracking numbers out of the primary slot.
+This is where I find the quietest damage. A business with one number on its profile and another on its website may have two perfectly legitimate lines, and it still gives Google, directories, and AI tools two answers to the simplest question about the business. Pick one primary number, put it on the profile, the website header, and the contact page, and keep tracking numbers out of the primary slot.
 
 ## Keep the name clean
 
@@ -6997,11 +7124,11 @@ Service-area businesses are tempted to add the city or the service to their name
 
 ## Verification is the gate
 
-Until a profile is verified, nobody can change it, owner or manager. I recently worked on a service-area profile that showed in public with mismatched details, and because it had never been verified, nobody could correct them. If your profile is in that state, verification comes before every other fix. For service-area businesses that usually means a video showing the vehicle, tools, and proof of management; my [video verification guide](https://christopherabraham.com/guides/gbp-video-verification/) covers what to film.
+Until a profile is verified, nobody can change it, owner or manager. A profile that has never been verified can show in public with outdated details that nobody is able to correct. If your profile is in that state, verification comes before every other fix. For service-area businesses that usually means a video showing the vehicle, tools, and proof of management; my [video verification guide](https://christopherabraham.com/guides/gbp-video-verification/) covers what to film.
 
 ## What competitors' listings tell you
 
-Look up the businesses that outrank you and note what they show. In that same review, all nine competing listings in the client's market displayed a street address while the client's showed only a service area. The client shouldn't add one to match. Those competitors had set themselves up as storefronts or hybrids, and a business without premises for customers has no address to show. A true service-area business competes on what it can prove: reviews that mention the towns and jobs, photos from real sites, prompt answers to questions, and location pages that read like the work of someone who has been there.
+Look up the businesses that outrank you and note what they show. Competitors set up as storefronts or hybrids display a street address, and a true service-area business shouldn't add one to match, because it has no premises for customers to visit. A true service-area business competes on what it can prove: reviews that mention the towns and jobs, photos from real sites, prompt answers to questions, and location pages that read like the work of someone who has been there.
 
 ## A short checklist
 - Business type matches how customers meet you: storefront, service area, or hybrid.
@@ -7417,6 +7544,12 @@ The domain, or the name you'd like; the cover or key art at full resolution; the
 
 A fixed-scope build, quoted after a short call, on a site you own from the first commit. The broader approach is on the [static websites](https://christopherabraham.com/services/static-sites/) page, and terms are on [Hire Me](https://christopherabraham.com/hire-me/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 26, 2026
 
 
@@ -7459,6 +7592,12 @@ The review stands on its own. You get the findings whether you keep your agency,
 
 A fixed-scope review, paid in advance and quoted from the size of the report and the site. Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 26, 2026
 
 
@@ -7499,6 +7638,101 @@ Manager or owner access if anyone has it, the business registration and a recent
 ## How it's delivered
 
 A prepaid written diagnostic first, then time spent on the remedy billed by the hour. Suspensions and broader local work sit under [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/). Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+Updated October 26, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/local-competitor-recon/
+Updated: 2026-10-26
+
+# Local competitor recon
+
+Owners usually know their competitors by name and by reputation. What they rarely have is a side-by-side record of what Google actually shows for each one: the primary category, the rating and review count, whether an address appears, the hours, the phone number, and the website. I build that record from Google's own data, put your profile in the same table, and point out where the differences are worth acting on.
+
+## Who it's for
+- Local businesses that slipped in the map results and want to see who moved past them.
+- Service-area businesses deciding how to present a hidden address, a set of service areas, and their reviews.
+- Multi-location businesses comparing each branch with the competitors around it.
+- Agencies that need a clean evidence table before they advise a local client.
+
+## How it works
+
+First you and I settle on the searches that matter, such as "roof repair" plus the towns you serve, and the businesses you consider rivals. I query Google's Places data for those searches and record what comes back for every listing: name, primary and secondary types, rating, number of reviews, whether a street address is shown, opening hours, phone, website, and the business status Google reports. The raw responses are kept with the date they were pulled, so anyone can check the table against its source.
+
+Your own profile goes through the same pull. That is often where the most useful findings are: a phone number on the listing that differs from the website, a category that undersells what you do, hours that stopped matching reality, or a profile that shows in public but has never been verified.
+
+## What you get
+- An evidence table of every listing in the comparison, with the date of the pull.
+- A short written read of what the table shows: where you lead, where you trail, and which gaps you can close.
+- A checklist of changes to your profile and website, in order, with the ones Google's guidelines require marked separately from the ones that are only good practice.
+- The method written down, so the same pull can be repeated later and compared like for like.
+
+## Ground rules
+
+Recon reads public listing data. It doesn't create profiles, contact competitors, or post reviews, and it never adds anything to a listing that isn't true of the business. Any changes to your own profile come after the read, with your approval. If the profile turns out to be unverified, verification comes first; see [Business Profile verification help](https://christopherabraham.com/services/gbp-verification/).
+
+## Related reading
+
+The setup questions behind most findings are covered in my guides to [service-area businesses](https://christopherabraham.com/guides/service-area-business/), [Apple Maps and Bing Places](https://christopherabraham.com/guides/apple-and-bing-listings/), and [Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/). Broader local work sits under [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/).
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+Updated October 26, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/peak-season-readiness/
+Updated: 2026-10-26
+
+# Peak season readiness
+
+Some businesses earn most of their year in a few weeks: fireworks before the Fourth, costumes before Halloween, garden centers in spring, ski shops at the first snow. For them, a search problem found during the rush is a problem found too late. I prepare the listings, pages, and measurement months ahead, so the busy weeks run on work that was finished and checked in the quiet ones.
+
+## Who it's for
+- Seasonal retailers with one or several locations and a selling window measured in weeks.
+- Pop-up and temporary locations that open and close on a calendar.
+- Year-round businesses with one dominant season, such as tax preparers or HVAC companies at the first heat wave.
+
+## What gets prepared
+- **Listings for every location** on Google, Apple Maps, and Bing, with seasonal hours set as special hours so the profiles never read as closed for good.
+- **Location pages** that answer what shoppers ask before they drive: what's in stock, the season's dates and hours, directions, parking, and local rules where they apply.
+- **Permanent seasonal pages** that come back at the same address every year, so their history and links carry forward instead of starting over.
+- **AI answers** checked for each location: what ChatGPT, Perplexity, and Google's AI features say about hours, products, and directions, with errors traced to their sources.
+- **The online store**, where there is one: product data, feeds, and structured data consistent with what the stores sell.
+- **Measurement** set up before the season, with comparable date windows, so the results can be read honestly afterward.
+
+## How it works
+
+I start from the selling calendar: when customers start researching, when they buy, and when each location opens and closes. Work is scheduled backward from those dates, with substantial changes finished during the quiet months and a cutoff agreed before the rush. During the season the job narrows to watching for errors that cost sales, such as wrong hours, a broken store locator, or a listing marked closed, and fixing them as they appear.
+
+After the season I set what happened beside the baseline and write down what to keep, what to change, and what to start earlier next year.
+
+## What I'll need from you
+
+The selling calendar for each location, including opening and closing dates; access to your Business Profiles, Search Console, and analytics; the list of products or services that sell in the season; and last season's numbers if you kept them. A list of what went wrong last year is just as useful, because the worst surprises tend to repeat.
+
+## Related reading
+
+The measurement side is laid out in [measuring seasonal local SEO](https://christopherabraham.com/guides/seasonal-local-seo/), store hours in the [holiday hours checklist](https://christopherabraham.com/guides/holiday-hours/), and recurring sale pages in [Black Friday pages that keep their rankings](https://christopherabraham.com/guides/black-friday-pages/). For year-round local work, see [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/).
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 26, 2026
 
@@ -7619,6 +7853,8 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Ecommerce SEO for Shopify, WooCommerce, and Magento: product and category templates, faceted navigation, duplicate URLs, product schema, and AI answers.
 - [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/): Align your website, location pages, and Google Business Profiles, with hard profile cases like suspensions handled as scoped, paid written diagnostics.
 - [Google Business Profile verification help](https://christopherabraham.com/services/gbp-verification/): Help for Business Profiles that won't verify: failed video checks, listings nobody can edit, missing owners, and service-area setups Google keeps questioning.
+- [Local competitor recon](https://christopherabraham.com/services/local-competitor-recon/): A structured pull of the Google listings you compete with: categories, ratings, reviews, addresses, hours, and websites, set beside your own profile.
+- [Peak season readiness](https://christopherabraham.com/services/peak-season-readiness/): For businesses that earn most of the year in a few weeks: listings, location pages, AI answers, and tracking made ready well before the rush starts.
 - [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): A monthly SEO retainer with a senior consultant: monitoring, hands on fixes, developer QA, AI search checks, and a plain-English report every month.
 
 ## Guides
@@ -7724,7 +7960,7 @@ Updated: 2026-10-26
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 592 headings across 112 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 598 headings across 114 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -7832,7 +8068,7 @@ People are listed surname first. Cross-references point to related headings. For
 - agency reports. *See* [SEO report review](https://christopherabraham.com/site-index/#ix-seo-report-review)
 - Ahrefs, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
 - AI agents, browsing, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
-- AI answers, correcting, [Guides](https://christopherabraham.com/guides/), **[Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)**
+- AI answers, correcting, [Guides](https://christopherabraham.com/guides/), **[Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)**, [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
   - feedback buttons, [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)
   - gap filling, [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)
   - monthly reruns, [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)
@@ -8031,6 +8267,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Comparison cohort, [Search Console Comparisons](https://christopherabraham.com/guides/search-console-comparisons/)
 - comparison pages, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
 - compensation facts, [Recruiting Answers](https://christopherabraham.com/case-studies/recruiting-answers/)
+- competitors, local listings, **[Local Competitor Recon](https://christopherabraham.com/services/local-competitor-recon/)**
 - confidence, stating, [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/)
 - consent mode, [GA4 and PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/), [Privacy](https://christopherabraham.com/privacy/)
 - consent tools, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), **[Consent Banner](https://christopherabraham.com/case-studies/consent-banner/)**, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
@@ -8209,6 +8446,7 @@ People are listed surname first. Cross-references point to related headings. For
   - as a source for AI answers, [AI visibility](https://christopherabraham.com/services/ai-visibility/)
   - business name rules, [Service-Area Businesses](https://christopherabraham.com/guides/service-area-business/)
   - Chris’ own rating, [Home](https://christopherabraham.com/)
+  - competitor comparison, [Local Competitor Recon](https://christopherabraham.com/services/local-competitor-recon/)
   - inaccurate photos, [Training Gym](https://christopherabraham.com/case-studies/training-gym/)
   - interactions, calls, and direction requests, [Training Gym](https://christopherabraham.com/case-studies/training-gym/)
   - linking each profile to its location page, [Closet Locations](https://christopherabraham.com/case-studies/closet-locations/)
@@ -8394,8 +8632,9 @@ People are listed surname first. Cross-references point to related headings. For
   - mistakes, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
 
 - llm.txt, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
+- local competitor recon, **[Local Competitor Recon](https://christopherabraham.com/services/local-competitor-recon/)**
 - local pack grid tracking, [Local SEO](https://christopherabraham.com/services/local-seo/)
-- local SEO, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/). *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
+- local SEO, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/), [Local Competitor Recon](https://christopherabraham.com/services/local-competitor-recon/), [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/). *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
 - location pages, [Services](https://christopherabraham.com/services/), [Local SEO](https://christopherabraham.com/services/local-seo/), [Closet Locations](https://christopherabraham.com/case-studies/closet-locations/)
 - Lovable, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - Lynx, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/), **[The Lynx Test](https://christopherabraham.com/guides/lynx-test/)**, [Colophon](https://christopherabraham.com/about/colophon/)
@@ -8436,7 +8675,7 @@ People are listed surname first. Cross-references point to related headings. For
 - MemeSpace, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - memetic lexicon, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Men Who Stare at Goats, The, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- Merchant Center, [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/), **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**
+- Merchant Center, [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/), **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**, [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
   - free listings, [Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)
   - Needs attention tab, [Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)
 
@@ -8552,6 +8791,7 @@ People are listed surname first. Cross-references point to related headings. For
 - parameter URLs, [Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)
 - parked domains, **[Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/)**, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/)
 - PDFs, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
+- peak season readiness, **[Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)**
 - pen names and nicknames, [Guides](https://christopherabraham.com/guides/), **[Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/)**
 - Penguin update (Google), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
 - Perl, [Skills and Proof](https://christopherabraham.com/about/skills/)
@@ -8566,6 +8806,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Pillow (Python imaging), [Colophon](https://christopherabraham.com/about/colophon/)
 - place cards (Apple Maps), **[Apple and Bing Listings](https://christopherabraham.com/guides/apple-and-bing-listings/)**
 - placed articles, [Glossary](https://christopherabraham.com/guides/glossary/)
+- Places API (Google), **[Local Competitor Recon](https://christopherabraham.com/services/local-competitor-recon/)**
 - Playwright, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/)
 - Plone, [About](https://christopherabraham.com/about/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Colophon](https://christopherabraham.com/about/colophon/)
 - PM2, [Skills and Proof](https://christopherabraham.com/about/skills/)
@@ -8680,7 +8921,8 @@ People are listed surname first. Cross-references point to related headings. For
 - Search performance reporting, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - Search Status Dashboard, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Seasonal local SEO, **[Seasonal Local SEO](https://christopherabraham.com/guides/seasonal-local-seo/)**
-- seasonality, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/)
+- seasonal retail, **[Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)**
+- seasonality, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/), [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
 - Seasonality, [Search Console Comparisons](https://christopherabraham.com/guides/search-console-comparisons/)
 - self-serving reviews, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [FTC Review Rule](https://christopherabraham.com/guides/ftc-review-rule/)
 - Semrush, [Services](https://christopherabraham.com/services/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
@@ -8758,6 +9000,7 @@ People are listed surname first. Cross-references point to related headings. For
   - spikes, [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
 
 - spam updates, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Glossary](https://christopherabraham.com/guides/glossary/). *See also* [Google updates](https://christopherabraham.com/site-index/#ix-google-updates)
+- special hours, [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
 - SPF, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/), [Lapsed Domains](https://christopherabraham.com/guides/lapsed-domains/), [Skills and Proof](https://christopherabraham.com/about/skills/). *See also* [email authentication](https://christopherabraham.com/site-index/#ix-email-authentication)
 - spoofing, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/)
 - Squarespace, [Services](https://christopherabraham.com/services/), [Migrations](https://christopherabraham.com/services/migrations/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)

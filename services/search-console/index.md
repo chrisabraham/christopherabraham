@@ -41,4 +41,10 @@ A surprising number of businesses can't log into their own Search Console. The p
 
 Ongoing monitoring is part of every [retainer](https://christopherabraham.com/services/seo-retainer/). For the indexing report in detail, see the [Page indexing guide](https://christopherabraham.com/guides/page-indexing-report/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

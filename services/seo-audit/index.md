@@ -57,4 +57,10 @@ Many clients have me implement the fixes I can reach, such as metadata, redirect
 
 An audit needs an order of work that respects the people available to implement it. My [guide to setting SEO priorities](https://christopherabraham.com/guides/prioritize-seo-work/) explains how to weigh business relevance, diagnostic confidence, dependencies, and delivery effort without pretending to forecast a ranking gain.
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 24, 2026

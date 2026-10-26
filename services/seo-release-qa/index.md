@@ -42,4 +42,10 @@ The review answers whether the named release meets its agreed search requirement
 
 For a release involving old images or downloads, start with my [image and PDF migration checklist](https://christopherabraham.com/guides/media-migration/). To arrange a review, [send me the release brief and staging address](https://christopherabraham.com/contact/); scope and terms follow the process on [Hire Me](https://christopherabraham.com/hire-me/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 15, 2026

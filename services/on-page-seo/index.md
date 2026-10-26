@@ -48,4 +48,10 @@ On WordPress, much of this runs through Yoast or Rank Math; see [WordPress SEO](
 
 For a project centered on the connections between pages, see [internal linking strategy](https://christopherabraham.com/services/internal-linking/). The [link planning guide and worksheet](https://christopherabraham.com/guides/internal-linking/) show how I choose placements, anchor wording, and destinations.
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

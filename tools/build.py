@@ -107,6 +107,11 @@ SERVICE_GROUPS[0][1].append("services/seo-report-review/")
 SERVICE_GROUPS[2][1].insert(SERVICE_GROUPS[2][1].index("services/podcast-website/") + 1, "services/launch-site/")
 SERVICE_GROUPS[2][1].insert(SERVICE_GROUPS[2][1].index("services/local-seo/") + 1, "services/gbp-verification/")
 
+# Two services harvested from documented work, October 26, 2026, written by Claude Code.
+FILES += ["services/local-competitor-recon", "services/peak-season-readiness"]
+SERVICE_GROUPS[2][1].insert(SERVICE_GROUPS[2][1].index("services/gbp-verification/") + 1, "services/local-competitor-recon/")
+SERVICE_GROUPS[2][1].insert(SERVICE_GROUPS[2][1].index("services/local-competitor-recon/") + 1, "services/peak-season-readiness/")
+
 MIN_WORDS = {"guide": 700, "service": 450, "case": 250, "page": 250}
 TODAY = datetime.date.today().isoformat()
 os.chdir(os.path.join(os.path.dirname(__file__), ".."))
@@ -536,6 +541,14 @@ def body_html(p, *, contents=True):
   <p>If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.</p>
   <p><a class="button" href="{CALENDLY}">Book a 30 minute call</a> <a class="button" href="tel:{TEL}">Call {PHONE}</a> <a class="button" href="mailto:{EMAIL}">Email {EMAIL}</a></p>
   <p>Prefer to hire through Upwork? I'm <a href="{UPWORK}">Top Rated there too</a>.</p>
+</aside>"""
+    if p["kind"] == "service":
+        # Every service page closes on two routes only: a call or Upwork (owner, 2026-10-26).
+        body += f"""
+<aside class="help-box" aria-label="Talk it over">
+  <h2>Talk it over</h2>
+  <p>Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.</p>
+  <p><a class="button" href="{CALENDLY}">Book a 30 minute call</a> <a class="button" href="{UPWORK}">Hire me on Upwork</a></p>
 </aside>"""
     if p["sources"]:
         body += ('\n<h2>Sources</h2>\n<ul class="sources">\n'

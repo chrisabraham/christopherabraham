@@ -4,7 +4,7 @@
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 592 headings across 112 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 598 headings across 114 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -112,7 +112,7 @@ People are listed surname first. Cross-references point to related headings. For
 - agency reports. *See* [SEO report review](https://christopherabraham.com/site-index/#ix-seo-report-review)
 - Ahrefs, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
 - AI agents, browsing, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
-- AI answers, correcting, [Guides](https://christopherabraham.com/guides/), **[Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)**
+- AI answers, correcting, [Guides](https://christopherabraham.com/guides/), **[Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)**, [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
   - feedback buttons, [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)
   - gap filling, [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)
   - monthly reruns, [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)
@@ -311,6 +311,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Comparison cohort, [Search Console Comparisons](https://christopherabraham.com/guides/search-console-comparisons/)
 - comparison pages, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
 - compensation facts, [Recruiting Answers](https://christopherabraham.com/case-studies/recruiting-answers/)
+- competitors, local listings, **[Local Competitor Recon](https://christopherabraham.com/services/local-competitor-recon/)**
 - confidence, stating, [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/)
 - consent mode, [GA4 and PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/), [Privacy](https://christopherabraham.com/privacy/)
 - consent tools, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), **[Consent Banner](https://christopherabraham.com/case-studies/consent-banner/)**, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
@@ -489,6 +490,7 @@ People are listed surname first. Cross-references point to related headings. For
   - as a source for AI answers, [AI visibility](https://christopherabraham.com/services/ai-visibility/)
   - business name rules, [Service-Area Businesses](https://christopherabraham.com/guides/service-area-business/)
   - Chris’ own rating, [Home](https://christopherabraham.com/)
+  - competitor comparison, [Local Competitor Recon](https://christopherabraham.com/services/local-competitor-recon/)
   - inaccurate photos, [Training Gym](https://christopherabraham.com/case-studies/training-gym/)
   - interactions, calls, and direction requests, [Training Gym](https://christopherabraham.com/case-studies/training-gym/)
   - linking each profile to its location page, [Closet Locations](https://christopherabraham.com/case-studies/closet-locations/)
@@ -674,8 +676,9 @@ People are listed surname first. Cross-references point to related headings. For
   - mistakes, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
 
 - llm.txt, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
+- local competitor recon, **[Local Competitor Recon](https://christopherabraham.com/services/local-competitor-recon/)**
 - local pack grid tracking, [Local SEO](https://christopherabraham.com/services/local-seo/)
-- local SEO, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/). *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
+- local SEO, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/), [Local Competitor Recon](https://christopherabraham.com/services/local-competitor-recon/), [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/). *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
 - location pages, [Services](https://christopherabraham.com/services/), [Local SEO](https://christopherabraham.com/services/local-seo/), [Closet Locations](https://christopherabraham.com/case-studies/closet-locations/)
 - Lovable, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - Lynx, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/), **[The Lynx Test](https://christopherabraham.com/guides/lynx-test/)**, [Colophon](https://christopherabraham.com/about/colophon/)
@@ -716,7 +719,7 @@ People are listed surname first. Cross-references point to related headings. For
 - MemeSpace, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - memetic lexicon, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Men Who Stare at Goats, The, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- Merchant Center, [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/), **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**
+- Merchant Center, [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/), **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**, [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
   - free listings, [Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)
   - Needs attention tab, [Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)
 
@@ -832,6 +835,7 @@ People are listed surname first. Cross-references point to related headings. For
 - parameter URLs, [Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)
 - parked domains, **[Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/)**, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/)
 - PDFs, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
+- peak season readiness, **[Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)**
 - pen names and nicknames, [Guides](https://christopherabraham.com/guides/), **[Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/)**
 - Penguin update (Google), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
 - Perl, [Skills and Proof](https://christopherabraham.com/about/skills/)
@@ -846,6 +850,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Pillow (Python imaging), [Colophon](https://christopherabraham.com/about/colophon/)
 - place cards (Apple Maps), **[Apple and Bing Listings](https://christopherabraham.com/guides/apple-and-bing-listings/)**
 - placed articles, [Glossary](https://christopherabraham.com/guides/glossary/)
+- Places API (Google), **[Local Competitor Recon](https://christopherabraham.com/services/local-competitor-recon/)**
 - Playwright, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/)
 - Plone, [About](https://christopherabraham.com/about/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Colophon](https://christopherabraham.com/about/colophon/)
 - PM2, [Skills and Proof](https://christopherabraham.com/about/skills/)
@@ -960,7 +965,8 @@ People are listed surname first. Cross-references point to related headings. For
 - Search performance reporting, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - Search Status Dashboard, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Seasonal local SEO, **[Seasonal Local SEO](https://christopherabraham.com/guides/seasonal-local-seo/)**
-- seasonality, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/)
+- seasonal retail, **[Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)**
+- seasonality, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/), [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
 - Seasonality, [Search Console Comparisons](https://christopherabraham.com/guides/search-console-comparisons/)
 - self-serving reviews, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [FTC Review Rule](https://christopherabraham.com/guides/ftc-review-rule/)
 - Semrush, [Services](https://christopherabraham.com/services/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
@@ -1038,6 +1044,7 @@ People are listed surname first. Cross-references point to related headings. For
   - spikes, [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
 
 - spam updates, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Glossary](https://christopherabraham.com/guides/glossary/). *See also* [Google updates](https://christopherabraham.com/site-index/#ix-google-updates)
+- special hours, [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
 - SPF, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/), [Lapsed Domains](https://christopherabraham.com/guides/lapsed-domains/), [Skills and Proof](https://christopherabraham.com/about/skills/). *See also* [email authentication](https://christopherabraham.com/site-index/#ix-email-authentication)
 - spoofing, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/)
 - Squarespace, [Services](https://christopherabraham.com/services/), [Migrations](https://christopherabraham.com/services/migrations/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)

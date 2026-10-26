@@ -37,4 +37,10 @@ Structured data makes your facts unambiguous; it doesn't make a weak page strong
 
 Not sure which types you need? Read [the schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/), or see [entity markup for a brand with locations in several states](https://christopherabraham.com/case-studies/closet-locations/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

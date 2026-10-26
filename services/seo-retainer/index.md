@@ -41,4 +41,10 @@ Requests and updates happen in writing, in Upwork, email, or your project tool, 
 
 Either side can end a retainer at the end of any month. When it ends, you get a handover note listing what's in progress, what to watch, and where every login and setting stands, and I remove my access.
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

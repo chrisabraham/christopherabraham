@@ -36,4 +36,10 @@ The review stands on its own. You get the findings whether you keep your agency,
 
 A fixed-scope review, paid in advance and quoted from the size of the report and the site. Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 26, 2026

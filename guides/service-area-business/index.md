@@ -30,7 +30,7 @@ Service areas describe where you work, and they carry little weight in where the
 
 The guidelines ask for a number that connects to the individual business location, a local number in place of a central call-center line whenever possible, and a number under the business's direct control. Premium-rate numbers aren't allowed at all.
 
-This is where I find the quietest damage. On a recent competitor review for a home-services company in the Southeast, the client's profile showed a toll-free number while its website showed a local one with a different area code. Each number on its own was legitimate. Together they gave Google, directories, and AI tools two answers to the simplest question about the business. Pick one primary number, put it on the profile, the website header, and the contact page, and keep tracking numbers out of the primary slot.
+This is where I find the quietest damage. A business with one number on its profile and another on its website may have two perfectly legitimate lines, and it still gives Google, directories, and AI tools two answers to the simplest question about the business. Pick one primary number, put it on the profile, the website header, and the contact page, and keep tracking numbers out of the primary slot.
 
 ## Keep the name clean
 
@@ -38,11 +38,11 @@ Service-area businesses are tempted to add the city or the service to their name
 
 ## Verification is the gate
 
-Until a profile is verified, nobody can change it, owner or manager. I recently worked on a service-area profile that showed in public with mismatched details, and because it had never been verified, nobody could correct them. If your profile is in that state, verification comes before every other fix. For service-area businesses that usually means a video showing the vehicle, tools, and proof of management; my [video verification guide](https://christopherabraham.com/guides/gbp-video-verification/) covers what to film.
+Until a profile is verified, nobody can change it, owner or manager. A profile that has never been verified can show in public with outdated details that nobody is able to correct. If your profile is in that state, verification comes before every other fix. For service-area businesses that usually means a video showing the vehicle, tools, and proof of management; my [video verification guide](https://christopherabraham.com/guides/gbp-video-verification/) covers what to film.
 
 ## What competitors' listings tell you
 
-Look up the businesses that outrank you and note what they show. In that same review, all nine competing listings in the client's market displayed a street address while the client's showed only a service area. The client shouldn't add one to match. Those competitors had set themselves up as storefronts or hybrids, and a business without premises for customers has no address to show. A true service-area business competes on what it can prove: reviews that mention the towns and jobs, photos from real sites, prompt answers to questions, and location pages that read like the work of someone who has been there.
+Look up the businesses that outrank you and note what they show. Competitors set up as storefronts or hybrids display a street address, and a true service-area business shouldn't add one to match, because it has no premises for customers to visit. A true service-area business competes on what it can prove: reviews that mention the towns and jobs, photos from real sites, prompt answers to questions, and location pages that read like the work of someone who has been there.
 
 ## A short checklist
 - Business type matches how customers meet you: storefront, service area, or hybrid.

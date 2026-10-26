@@ -32,7 +32,6 @@ Answers move. A competitor publishes, a directory updates, and the assistant tha
 - A fireworks retailer with several locations: a baseline, then monthly measurement across Google Search, Maps, ChatGPT, and Perplexity.
 - A therapy practice: the complete audit, with every listing checked against what the assistants read.
 - A media company: the claim layer itself, with entity schema, llms.txt, an explainer page, and a baseline.
-- A communications firm bought the audit at $750 as a pilot.
 
 For the method behind it, see [measuring AI share of voice](https://christopherabraham.com/guides/ai-share-of-voice/) and my own [AI visibility baseline](https://christopherabraham.com/case-studies/ai-visibility-baseline/), published with the unflattering numbers.
 
@@ -42,5 +41,11 @@ For the method behind it, see [measuring AI share of voice](https://christophera
 3. **Your choice.** Run the sprint with me, hand the list to your own team, or add monthly measurement. Scope and price are agreed in writing before any work starts.
 
 [Book a 30 minute call](https://calendly.com/chrisabraham/30)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated October 24, 2026

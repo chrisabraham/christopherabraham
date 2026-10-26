@@ -46,4 +46,10 @@ Bing's index feeds Copilot and several other AI assistants, and Bing Webmaster T
 
 Indexing problems on React, Next.js, and other script-heavy sites are covered under [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/). For a walkthrough of the report itself, read [how to read the Page indexing report](https://christopherabraham.com/guides/page-indexing-report/). A real example: [indexing a 20,000-page programmatic site](https://christopherabraham.com/case-studies/card-price-index/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

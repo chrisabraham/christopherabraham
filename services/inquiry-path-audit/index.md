@@ -46,4 +46,10 @@ For a self-directed starting point, use my [guide to testing website inquiries](
 
 [Ask about your contact routes](https://christopherabraham.com/contact/)
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 20, 2026

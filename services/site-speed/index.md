@@ -44,4 +44,10 @@ A short report naming each failing template, the resource responsible, and the e
 
 WordPress with WP Rocket, LiteSpeed Cache, or W3 Total Cache; WooCommerce; Shopify themes; Magento; static sites; and Next.js. For WordPress specifics, see [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/).
 
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

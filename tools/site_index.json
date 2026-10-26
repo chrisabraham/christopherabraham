@@ -486,7 +486,8 @@
    "kind": "topic",
    "pages": [
     "guides",
-    "guides/correct-ai-answers"
+    "guides/correct-ai-answers",
+    "services/peak-season-readiness"
    ],
    "subs": {
     "name collisions": [
@@ -1903,6 +1904,17 @@
    "see": [],
    "main": []
   },
+  "competitors, local listings": {
+   "kind": "topic",
+   "pages": [
+    "services/local-competitor-recon"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/local-competitor-recon"
+   ]
+  },
   "confidence, stating": {
    "kind": "topic",
    "pages": [
@@ -3063,6 +3075,9 @@
     ],
     "verification help (service)": [
      "services/gbp-verification"
+    ],
+    "competitor comparison": [
+     "services/local-competitor-recon"
     ]
    },
    "see": [
@@ -4125,6 +4140,17 @@
     "guides/llms-txt"
    ]
   },
+  "local competitor recon": {
+   "kind": "topic",
+   "pages": [
+    "services/local-competitor-recon"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/local-competitor-recon"
+   ]
+  },
   "local pack grid tracking": {
    "kind": "topic",
    "pages": [
@@ -4141,7 +4167,9 @@
     "services",
     "services/local-seo",
     "case-studies/profile-reinstated",
-    "case-studies/training-gym"
+    "case-studies/training-gym",
+    "services/local-competitor-recon",
+    "services/peak-season-readiness"
    ],
    "subs": {},
    "see": [
@@ -4412,7 +4440,8 @@
     "services/ecommerce-seo",
     "guides/ai-content-seo",
     "guides/merchant-center-free-listings",
-    "guides/black-friday-pages"
+    "guides/black-friday-pages",
+    "services/peak-season-readiness"
    ],
    "subs": {
     "free listings": [
@@ -5168,6 +5197,17 @@
    "see": [],
    "main": []
   },
+  "peak season readiness": {
+   "kind": "topic",
+   "pages": [
+    "services/peak-season-readiness"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/peak-season-readiness"
+   ]
+  },
   "pen names and nicknames": {
    "kind": "topic",
    "pages": [
@@ -5313,6 +5353,17 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "Places API (Google)": {
+   "kind": "topic",
+   "pages": [
+    "services/local-competitor-recon"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/local-competitor-recon"
+   ]
   },
   "Playwright": {
    "kind": "topic",
@@ -6163,11 +6214,23 @@
     "guides/seasonal-local-seo"
    ]
   },
+  "seasonal retail": {
+   "kind": "topic",
+   "pages": [
+    "services/peak-season-readiness"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/peak-season-readiness"
+   ]
+  },
   "seasonality": {
    "kind": "topic",
    "pages": [
     "guides/update-recovery-2026",
-    "guides/black-friday-pages"
+    "guides/black-friday-pages",
+    "services/peak-season-readiness"
    ],
    "subs": {},
    "see": [],
@@ -6714,6 +6777,15 @@
    "see": [
     "Google updates"
    ],
+   "main": []
+  },
+  "special hours": {
+   "kind": "topic",
+   "pages": [
+    "services/peak-season-readiness"
+   ],
+   "subs": {},
+   "see": [],
    "main": []
   },
   "SPF": {
@@ -8090,6 +8162,8 @@
   "guides/ftc-review-rule",
   "services/launch-site",
   "services/seo-report-review",
-  "services/gbp-verification"
+  "services/gbp-verification",
+  "services/local-competitor-recon",
+  "services/peak-season-readiness"
  ]
 }
