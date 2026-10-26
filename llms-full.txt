@@ -971,7 +971,7 @@ Updated October 15, 2026
 ---
 
 Source: https://christopherabraham.com/services/podcast-website/
-Updated: 2026-10-14
+Updated: 2026-10-26
 
 # Podcast website SEO
 
@@ -1009,7 +1009,7 @@ Your RSS feed address, your domain or the name you want, the cover art at full s
 
 ## How it's delivered
 
-A standard build from an existing feed takes about an afternoon of my time, and it's quoted as a fixed-scope project after a short call. Ongoing additions, such as articles or new page types, are quoted as a fixed fee before the work starts. Terms are on [Hire Me](https://christopherabraham.com/hire-me/). For the static approach in general, see [static websites built for search](https://christopherabraham.com/services/static-sites/).
+A build from an existing feed is quoted as a fixed-scope project after a short call. Ongoing additions, such as articles or new page types, are quoted as a fixed fee before the work starts. Terms are on [Hire Me](https://christopherabraham.com/hire-me/). For the static approach in general, see [static websites built for search](https://christopherabraham.com/services/static-sites/).
 
 ## Talk it over
 
@@ -1017,7 +1017,7 @@ Every engagement starts with a conversation about your site and what you need. P
 
 [Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
-Updated October 14, 2026
+Updated October 26, 2026
 
 
 ---
@@ -5987,7 +5987,7 @@ Updated October 15, 2026
 ---
 
 Source: https://christopherabraham.com/hire-me/
-Updated: 2026-10-06
+Updated: 2026-10-26
 
 # Hire me
 
@@ -5995,7 +5995,7 @@ Every engagement follows the same arc: a defined question, a paid audit that ans
 
 ## Two ways to hire me
 - **On Upwork.** Most of my clients hire me through [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham). Engagements there run as fixed price contracts with milestones, and Upwork handles the contract, invoicing, and payment protection for both sides.
-- **Directly.** Email [cja@well.com](mailto:cja@well.com) and I'll send a written scope and an invoice. Direct engagements are paid in advance: the audit up front, retainers at the start of each month.
+- **Directly.** Email [cja@well.com](mailto:cja@well.com) and I'll send a written scope.
 
 ## The process
 1. **A short conversation.** You tell me the symptom; I ask what changed, when, and who has access to what. A few emails or a [30 minute call](https://calendly.com/chrisabraham/30) is usually enough.
@@ -6025,7 +6025,7 @@ I sell expertise, diagnosis, and hands-on work. Rankings, indexing decisions, AI
 
 Questions about time zones, access, and invoicing are answered in the [FAQ](https://christopherabraham.com/faq/). Ready to start? Head to [contact](https://christopherabraham.com/contact/).
 
-Updated October 6, 2026
+Updated October 26, 2026
 
 
 ---
