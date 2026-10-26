@@ -182,6 +182,7 @@ Every service starts from the same place: find out what search engines and AI sy
 - [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/): faster pages measured by real visitors, with caching and CDN rules that don't break crawling.
 - [Search Console, Bing Webmaster Tools, and GA4](https://christopherabraham.com/services/search-console/): setup, cleanup, and reports you can trust.
 - [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/): platform moves, domain changes, and redesigns that keep their rankings.
+- [Website archive recovery](https://christopherabraham.com/services/website-archive-recovery/): a lost or broken site rebuilt from the Wayback Machine and old backups, back at its original addresses.
 
 ## AI search, schema, and content
 - [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/): how ChatGPT, Perplexity, Gemini, Claude, Copilot, and AI Overviews describe you, and how to improve it.
@@ -7739,6 +7740,56 @@ Updated October 26, 2026
 
 ---
 
+Source: https://christopherabraham.com/services/website-archive-recovery/
+Updated: 2026-10-26
+
+# Website archive recovery
+
+Websites disappear. A host shuts down, a hosting bill lapses, an old content system stops running on a new server, or a database gets corrupted and the last backup is years old. The writing, the photos, and the links other sites made to it seem gone. Often they aren't. Between the Internet Archive's Wayback Machine, scattered backups, and old exports, most of a lost site can be found again. I find it, rebuild it as a fast static site, and put it back at the addresses the world still links to.
+
+## Who it's for
+- Writers and artists whose blog, serial, or portfolio went dark with an old host.
+- Organizations that lost a historic site, an event archive, or a past campaign.
+- Businesses whose old site still draws links and searches to pages that now return errors.
+- Anyone holding a site on a dead platform, such as an old Movable Type, PHP-Nuke, or abandoned CMS install, who wants it preserved before it fails completely.
+
+## How the recovery works
+
+First I count what existed. The Wayback Machine keeps an index of every address it captured for a domain, often thousands, including archive pages, feeds, images, and files. Combined with any backups, database dumps, or exports you still have, that list becomes the inventory: every URL the site ever published, and the best surviving copy of each.
+
+Then I rebuild. Content is pulled from the best source for each page, stripped of the archive's toolbar and rewritten links, and placed into clean, readable templates. Images and downloads come back where copies survive. Where a page is truly gone, I mark it plainly instead of inventing it.
+
+Then I put it back where people expect it. The rebuilt site keeps the original addresses wherever possible, with permanent redirects for the rest, so old links from other sites, bookmarks, and search results land on the right page again. It goes live as static HTML on modern hosting, with HTTPS, a sitemap, and Search Console and Bing Webmaster Tools set up for the domain.
+
+## What you get
+- The restored site, live on a domain you control, in a repository you own.
+- An inventory of every URL found, with what happened to each: restored, redirected, or marked as lost.
+- A log of the sources used for each page, so the recovery can be checked.
+- A site that needs no database, no plugins, and no security patches to stay online.
+
+## My own archive
+
+I learned this on my own work. A serialized novel I published as a blog for seventeen years outlived the software it ran on, and I moved it to static hosting with every one of its old addresses intact; the method is in the [Movable Type novel case study](https://christopherabraham.com/case-studies/movable-type-novel/). I've also rebuilt a redirect map by pulling every address the Wayback Machine captured for a site that had lived on three platforms, then testing each one against the live site.
+
+## What I'll need from you
+
+The domain name, or the domains the site lived on over the years; any backups, exports, or old files you can find, however incomplete; and access to the domain's registrar and DNS, or the help of whoever holds them. If you own the content but not the domain, tell me early, because getting the domain back is its own project; my guide to [lapsed domains](https://christopherabraham.com/guides/lapsed-domains/) covers that side.
+
+## Related work
+
+For sites that are alive but stuck on an old platform, see [static websites built for search](https://christopherabraham.com/services/static-sites/) and [site migrations and 301 redirects](https://christopherabraham.com/services/migrations/).
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+Updated October 26, 2026
+
+
+---
+
 Source: https://christopherabraham.com/guides/search-console-comparisons/
 Updated: 2026-10-24
 
@@ -7833,6 +7884,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/): Speed up a website for real visitors: Core Web Vitals diagnosis, image and script cleanup, page caching, and Cloudflare rules that still welcome crawlers.
 - [Search Console, Bing Webmaster Tools, and GA4](https://christopherabraham.com/services/search-console/): Set up and clean up Google Search Console, Bing Webmaster Tools, and GA4 so every report is verified, accurate, owned by you, and useful for decisions.
 - [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/): Plan and verify a website migration: full URL inventories, one-to-one 301 redirect maps, launch day checks, and recovery when a move has already lost traffic.
+- [Website archive recovery](https://christopherabraham.com/services/website-archive-recovery/): I rebuild a lost or broken website from the Wayback Machine and old backups, then republish it on a modern static stack at its original addresses.
 - [Internal linking strategy: stitch your website together](https://christopherabraham.com/services/internal-linking/): Internal linking strategy for an established website: contextual text links, descriptive anchors, orphan page recovery, useful hubs, and a measured rollout.
 - [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/): Independent SEO checks before and after a website release: rendering, indexing signals, redirects, media, and evidence your developer can act on.
 - [Website inquiry audits: find where contacts go missing](https://christopherabraham.com/services/inquiry-path-audit/): Find broken contact routes, missing form notifications, and misleading conversion events. Get documented tests, clear repair priorities, and verified retests.
@@ -7960,14 +8012,14 @@ Updated: 2026-10-26
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 598 headings across 114 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 600 headings across 115 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
 [0–9](https://christopherabraham.com/site-index/#ix-letter-0) [A](https://christopherabraham.com/site-index/#ix-letter-a) [B](https://christopherabraham.com/site-index/#ix-letter-b) [C](https://christopherabraham.com/site-index/#ix-letter-c) [D](https://christopherabraham.com/site-index/#ix-letter-d) [E](https://christopherabraham.com/site-index/#ix-letter-e) [F](https://christopherabraham.com/site-index/#ix-letter-f) [G](https://christopherabraham.com/site-index/#ix-letter-g) [H](https://christopherabraham.com/site-index/#ix-letter-h) [I](https://christopherabraham.com/site-index/#ix-letter-i) [J](https://christopherabraham.com/site-index/#ix-letter-j) [K](https://christopherabraham.com/site-index/#ix-letter-k) [L](https://christopherabraham.com/site-index/#ix-letter-l) [M](https://christopherabraham.com/site-index/#ix-letter-m) [N](https://christopherabraham.com/site-index/#ix-letter-n) [O](https://christopherabraham.com/site-index/#ix-letter-o) [P](https://christopherabraham.com/site-index/#ix-letter-p) [Q](https://christopherabraham.com/site-index/#ix-letter-q) [R](https://christopherabraham.com/site-index/#ix-letter-r) [S](https://christopherabraham.com/site-index/#ix-letter-s) [T](https://christopherabraham.com/site-index/#ix-letter-t) [U](https://christopherabraham.com/site-index/#ix-letter-u) [V](https://christopherabraham.com/site-index/#ix-letter-v) [W](https://christopherabraham.com/site-index/#ix-letter-w) [X](https://christopherabraham.com/site-index/#ix-letter-x) [Y](https://christopherabraham.com/site-index/#ix-letter-y) [Z](https://christopherabraham.com/site-index/#ix-letter-z)
 
 ## 0–9
-- 301 redirects, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Migrations](https://christopherabraham.com/services/migrations/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Guides](https://christopherabraham.com/guides/), **[Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)**. *See also* [site migrations](https://christopherabraham.com/site-index/#ix-site-migrations)
+- 301 redirects, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Migrations](https://christopherabraham.com/services/migrations/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Guides](https://christopherabraham.com/guides/), **[Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)**, [Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/). *See also* [site migrations](https://christopherabraham.com/site-index/#ix-site-migrations)
   - 301 versus 302, 307, and 308, [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
   - 410 for retired pages, [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
   - bulk testing, [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
@@ -8636,6 +8688,7 @@ People are listed surname first. Cross-references point to related headings. For
 - local pack grid tracking, [Local SEO](https://christopherabraham.com/services/local-seo/)
 - local SEO, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/), [Local Competitor Recon](https://christopherabraham.com/services/local-competitor-recon/), [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/). *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
 - location pages, [Services](https://christopherabraham.com/services/), [Local SEO](https://christopherabraham.com/services/local-seo/), [Closet Locations](https://christopherabraham.com/case-studies/closet-locations/)
+- lost websites, recovering, **[Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/)**
 - Lovable, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - Lynx, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/), **[The Lynx Test](https://christopherabraham.com/guides/lynx-test/)**, [Colophon](https://christopherabraham.com/about/colophon/)
   - alternatives, [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
@@ -8697,7 +8750,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Microsoft Teams, [Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)
 - migration, title templates overwritten in, [Brand name in titles](https://christopherabraham.com/guides/brand-name-in-titles/)
 - Miriam’s Kitchen, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- Movable Type, **[Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)**, [About](https://christopherabraham.com/about/), [Skills and Proof](https://christopherabraham.com/about/skills/)
+- Movable Type, **[Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)**, [About](https://christopherabraham.com/about/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/)
   - 953 URLs kept, [Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)
   - archive stubs and noindex, [Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)
   - DNS moved before the site, [Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)
@@ -8852,7 +8905,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 - Reddit Answers, [Glossary](https://christopherabraham.com/guides/glossary/)
 - redirect chains and loops, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Migrations](https://christopherabraham.com/services/migrations/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
-- redirect maps rebuilt from the Wayback Machine, [Skills and Proof](https://christopherabraham.com/about/skills/)
+- redirect maps rebuilt from the Wayback Machine, [Skills and Proof](https://christopherabraham.com/about/skills/), [Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/)
 - Redirection (WordPress plugin), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
 - registrars, [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/), [Lapsed Domains](https://christopherabraham.com/guides/lapsed-domains/)
 - Reid, Elizabeth (Google head of Search), [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/)
@@ -9008,7 +9061,7 @@ People are listed surname first. Cross-references point to related headings. For
 - St. Monica and St. James, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - staging sites, [Indexing](https://christopherabraham.com/services/indexing/), [Migrations](https://christopherabraham.com/services/migrations/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/), [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
 - Stainless Communications, [About](https://christopherabraham.com/about/)
-- static websites, [Services](https://christopherabraham.com/services/), **[Static Websites](https://christopherabraham.com/services/static-sites/)**, [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/), [Colophon](https://christopherabraham.com/about/colophon/), [Launch Site](https://christopherabraham.com/services/launch-site/)
+- static websites, [Services](https://christopherabraham.com/services/), **[Static Websites](https://christopherabraham.com/services/static-sites/)**, [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/), [Colophon](https://christopherabraham.com/about/colophon/), [Launch Site](https://christopherabraham.com/services/launch-site/), [Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/)
 - stock photography, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - structured data, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Migrations](https://christopherabraham.com/services/migrations/), **[Schema](https://christopherabraham.com/services/schema/)**, [Fact-Checked Articles](https://christopherabraham.com/services/fact-checked-articles/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [Local SEO](https://christopherabraham.com/services/local-seo/), **[Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)**, [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/), [Closet Locations](https://christopherabraham.com/case-studies/closet-locations/). *See also* [entities](https://christopherabraham.com/site-index/#ix-entities)
   - alternateName and additionalName, [Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/)
@@ -9153,13 +9206,14 @@ People are listed surname first. Cross-references point to related headings. For
 - W3 Total Cache, [Site Speed](https://christopherabraham.com/services/site-speed/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
 - W3C, [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
 - WAVE, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
-- Wayback Machine, [Third-Party Proof](https://christopherabraham.com/guides/third-party-proof/), [Skills and Proof](https://christopherabraham.com/about/skills/)
+- Wayback Machine, [Third-Party Proof](https://christopherabraham.com/guides/third-party-proof/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/)
 - Wayne State University, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - WCAG, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/), [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
 - web fonts, [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
 - WebAIM Million, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
 - Webflow, [Services](https://christopherabraham.com/services/)
 - WebP and AVIF, [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
+- website archive recovery, **[Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/)**
 - website inquiry testing, [Website inquiry audit](https://christopherabraham.com/services/inquiry-path-audit/), **[Test website inquiries](https://christopherabraham.com/guides/test-website-inquiries/)**
 - white label services, [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/), [Glossary](https://christopherabraham.com/guides/glossary/)
 - Wikidata, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)

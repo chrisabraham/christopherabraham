@@ -111,6 +111,9 @@ SERVICE_GROUPS[2][1].insert(SERVICE_GROUPS[2][1].index("services/local-seo/") + 
 FILES += ["services/local-competitor-recon", "services/peak-season-readiness"]
 SERVICE_GROUPS[2][1].insert(SERVICE_GROUPS[2][1].index("services/gbp-verification/") + 1, "services/local-competitor-recon/")
 SERVICE_GROUPS[2][1].insert(SERVICE_GROUPS[2][1].index("services/local-competitor-recon/") + 1, "services/peak-season-readiness/")
+# Website archive recovery, October 26, 2026, written by Claude Code (Chris' instruction via Eunice).
+FILES += ["services/website-archive-recovery"]
+SERVICE_GROUPS[0][1].insert(SERVICE_GROUPS[0][1].index("services/migrations/") + 1, "services/website-archive-recovery/")
 
 MIN_WORDS = {"guide": 700, "service": 450, "case": 250, "page": 250}
 TODAY = datetime.date.today().isoformat()

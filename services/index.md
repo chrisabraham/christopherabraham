@@ -18,6 +18,7 @@ Every service starts from the same place: find out what search engines and AI sy
 - [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/): faster pages measured by real visitors, with caching and CDN rules that don't break crawling.
 - [Search Console, Bing Webmaster Tools, and GA4](https://christopherabraham.com/services/search-console/): setup, cleanup, and reports you can trust.
 - [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/): platform moves, domain changes, and redesigns that keep their rankings.
+- [Website archive recovery](https://christopherabraham.com/services/website-archive-recovery/): a lost or broken site rebuilt from the Wayback Machine and old backups, back at its original addresses.
 
 ## AI search, schema, and content
 - [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/): how ChatGPT, Perplexity, Gemini, Claude, Copilot, and AI Overviews describe you, and how to improve it.

@@ -4,14 +4,14 @@
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 598 headings across 114 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 600 headings across 115 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
 [0–9](https://christopherabraham.com/site-index/#ix-letter-0) [A](https://christopherabraham.com/site-index/#ix-letter-a) [B](https://christopherabraham.com/site-index/#ix-letter-b) [C](https://christopherabraham.com/site-index/#ix-letter-c) [D](https://christopherabraham.com/site-index/#ix-letter-d) [E](https://christopherabraham.com/site-index/#ix-letter-e) [F](https://christopherabraham.com/site-index/#ix-letter-f) [G](https://christopherabraham.com/site-index/#ix-letter-g) [H](https://christopherabraham.com/site-index/#ix-letter-h) [I](https://christopherabraham.com/site-index/#ix-letter-i) [J](https://christopherabraham.com/site-index/#ix-letter-j) [K](https://christopherabraham.com/site-index/#ix-letter-k) [L](https://christopherabraham.com/site-index/#ix-letter-l) [M](https://christopherabraham.com/site-index/#ix-letter-m) [N](https://christopherabraham.com/site-index/#ix-letter-n) [O](https://christopherabraham.com/site-index/#ix-letter-o) [P](https://christopherabraham.com/site-index/#ix-letter-p) [Q](https://christopherabraham.com/site-index/#ix-letter-q) [R](https://christopherabraham.com/site-index/#ix-letter-r) [S](https://christopherabraham.com/site-index/#ix-letter-s) [T](https://christopherabraham.com/site-index/#ix-letter-t) [U](https://christopherabraham.com/site-index/#ix-letter-u) [V](https://christopherabraham.com/site-index/#ix-letter-v) [W](https://christopherabraham.com/site-index/#ix-letter-w) [X](https://christopherabraham.com/site-index/#ix-letter-x) [Y](https://christopherabraham.com/site-index/#ix-letter-y) [Z](https://christopherabraham.com/site-index/#ix-letter-z)
 
 ## 0–9
-- 301 redirects, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Migrations](https://christopherabraham.com/services/migrations/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Guides](https://christopherabraham.com/guides/), **[Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)**. *See also* [site migrations](https://christopherabraham.com/site-index/#ix-site-migrations)
+- 301 redirects, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Migrations](https://christopherabraham.com/services/migrations/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Guides](https://christopherabraham.com/guides/), **[Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)**, [Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/). *See also* [site migrations](https://christopherabraham.com/site-index/#ix-site-migrations)
   - 301 versus 302, 307, and 308, [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
   - 410 for retired pages, [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
   - bulk testing, [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
@@ -680,6 +680,7 @@ People are listed surname first. Cross-references point to related headings. For
 - local pack grid tracking, [Local SEO](https://christopherabraham.com/services/local-seo/)
 - local SEO, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/), [Local Competitor Recon](https://christopherabraham.com/services/local-competitor-recon/), [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/). *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
 - location pages, [Services](https://christopherabraham.com/services/), [Local SEO](https://christopherabraham.com/services/local-seo/), [Closet Locations](https://christopherabraham.com/case-studies/closet-locations/)
+- lost websites, recovering, **[Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/)**
 - Lovable, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - Lynx, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/), **[The Lynx Test](https://christopherabraham.com/guides/lynx-test/)**, [Colophon](https://christopherabraham.com/about/colophon/)
   - alternatives, [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
@@ -741,7 +742,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Microsoft Teams, [Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)
 - migration, title templates overwritten in, [Brand name in titles](https://christopherabraham.com/guides/brand-name-in-titles/)
 - Miriam’s Kitchen, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- Movable Type, **[Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)**, [About](https://christopherabraham.com/about/), [Skills and Proof](https://christopherabraham.com/about/skills/)
+- Movable Type, **[Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)**, [About](https://christopherabraham.com/about/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/)
   - 953 URLs kept, [Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)
   - archive stubs and noindex, [Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)
   - DNS moved before the site, [Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)
@@ -896,7 +897,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 - Reddit Answers, [Glossary](https://christopherabraham.com/guides/glossary/)
 - redirect chains and loops, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Migrations](https://christopherabraham.com/services/migrations/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
-- redirect maps rebuilt from the Wayback Machine, [Skills and Proof](https://christopherabraham.com/about/skills/)
+- redirect maps rebuilt from the Wayback Machine, [Skills and Proof](https://christopherabraham.com/about/skills/), [Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/)
 - Redirection (WordPress plugin), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
 - registrars, [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/), [Lapsed Domains](https://christopherabraham.com/guides/lapsed-domains/)
 - Reid, Elizabeth (Google head of Search), [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/)
@@ -1052,7 +1053,7 @@ People are listed surname first. Cross-references point to related headings. For
 - St. Monica and St. James, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - staging sites, [Indexing](https://christopherabraham.com/services/indexing/), [Migrations](https://christopherabraham.com/services/migrations/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/), [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
 - Stainless Communications, [About](https://christopherabraham.com/about/)
-- static websites, [Services](https://christopherabraham.com/services/), **[Static Websites](https://christopherabraham.com/services/static-sites/)**, [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/), [Colophon](https://christopherabraham.com/about/colophon/), [Launch Site](https://christopherabraham.com/services/launch-site/)
+- static websites, [Services](https://christopherabraham.com/services/), **[Static Websites](https://christopherabraham.com/services/static-sites/)**, [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/), [Colophon](https://christopherabraham.com/about/colophon/), [Launch Site](https://christopherabraham.com/services/launch-site/), [Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/)
 - stock photography, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - structured data, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Migrations](https://christopherabraham.com/services/migrations/), **[Schema](https://christopherabraham.com/services/schema/)**, [Fact-Checked Articles](https://christopherabraham.com/services/fact-checked-articles/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [Local SEO](https://christopherabraham.com/services/local-seo/), **[Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)**, [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/), [Closet Locations](https://christopherabraham.com/case-studies/closet-locations/). *See also* [entities](https://christopherabraham.com/site-index/#ix-entities)
   - alternateName and additionalName, [Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/)
@@ -1197,13 +1198,14 @@ People are listed surname first. Cross-references point to related headings. For
 - W3 Total Cache, [Site Speed](https://christopherabraham.com/services/site-speed/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
 - W3C, [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
 - WAVE, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
-- Wayback Machine, [Third-Party Proof](https://christopherabraham.com/guides/third-party-proof/), [Skills and Proof](https://christopherabraham.com/about/skills/)
+- Wayback Machine, [Third-Party Proof](https://christopherabraham.com/guides/third-party-proof/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/)
 - Wayne State University, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - WCAG, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/), [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
 - web fonts, [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
 - WebAIM Million, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
 - Webflow, [Services](https://christopherabraham.com/services/)
 - WebP and AVIF, [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
+- website archive recovery, **[Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/)**
 - website inquiry testing, [Website inquiry audit](https://christopherabraham.com/services/inquiry-path-audit/), **[Test website inquiries](https://christopherabraham.com/guides/test-website-inquiries/)**
 - white label services, [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/), [Glossary](https://christopherabraham.com/guides/glossary/)
 - Wikidata, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)

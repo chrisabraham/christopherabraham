@@ -26,7 +26,8 @@
     "services/migrations",
     "services/static-sites",
     "guides",
-    "guides/redirect-rules"
+    "guides/redirect-rules",
+    "services/website-archive-recovery"
    ],
    "subs": {
     "inventory first": [
@@ -4190,6 +4191,17 @@
    "see": [],
    "main": []
   },
+  "lost websites, recovering": {
+   "kind": "topic",
+   "pages": [
+    "services/website-archive-recovery"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/website-archive-recovery"
+   ]
+  },
   "Lovable": {
    "kind": "topic",
    "pages": [
@@ -4608,7 +4620,8 @@
    "pages": [
     "case-studies/movable-type-novel",
     "about",
-    "about/skills"
+    "about/skills",
+    "services/website-archive-recovery"
    ],
    "subs": {
     "953 URLs kept": [
@@ -5686,7 +5699,8 @@
   "redirect maps rebuilt from the Wayback Machine": {
    "kind": "topic",
    "pages": [
-    "about/skills"
+    "about/skills",
+    "services/website-archive-recovery"
    ],
    "subs": {},
    "see": [],
@@ -6870,7 +6884,8 @@
     "services/podcast-website",
     "case-studies/movable-type-novel",
     "about/colophon",
-    "services/launch-site"
+    "services/launch-site",
+    "services/website-archive-recovery"
    ],
    "subs": {},
    "see": [],
@@ -7724,7 +7739,8 @@
    "kind": "topic",
    "pages": [
     "guides/third-party-proof",
-    "about/skills"
+    "about/skills",
+    "services/website-archive-recovery"
    ],
    "subs": {},
    "see": [],
@@ -7784,6 +7800,17 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "website archive recovery": {
+   "kind": "topic",
+   "pages": [
+    "services/website-archive-recovery"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/website-archive-recovery"
+   ]
   },
   "website inquiry testing": {
    "kind": "topic",
@@ -8164,6 +8191,7 @@
   "services/seo-report-review",
   "services/gbp-verification",
   "services/local-competitor-recon",
-  "services/peak-season-readiness"
+  "services/peak-season-readiness",
+  "services/website-archive-recovery"
  ]
 }

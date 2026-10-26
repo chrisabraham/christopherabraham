@@ -1,0 +1,38 @@
+name: Website Archive Recovery
+title: Website archive recovery: bring a lost site back online
+description: I rebuild a lost or broken website from the Wayback Machine and old backups, then republish it on a modern static stack at its original addresses.
+keywords: website recovery, Wayback Machine restore, rebuild lost website, restore old website
+updated: 2026-10-26
+---
+<h1>Website archive recovery</h1>
+<p class="lead">Websites disappear. A host shuts down, a hosting bill lapses, an old content system stops running on a new server, or a database gets corrupted and the last backup is years old. The writing, the photos, and the links other sites made to it seem gone. Often they aren't. Between the Internet Archive's Wayback Machine, scattered backups, and old exports, most of a lost site can be found again. I find it, rebuild it as a fast static site, and put it back at the addresses the world still links to.</p>
+
+<h2>Who it's for</h2>
+<ul>
+  <li>Writers and artists whose blog, serial, or portfolio went dark with an old host.</li>
+  <li>Organizations that lost a historic site, an event archive, or a past campaign.</li>
+  <li>Businesses whose old site still draws links and searches to pages that now return errors.</li>
+  <li>Anyone holding a site on a dead platform, such as an old Movable Type, PHP-Nuke, or abandoned CMS install, who wants it preserved before it fails completely.</li>
+</ul>
+
+<h2>How the recovery works</h2>
+<p>First I count what existed. The Wayback Machine keeps an index of every address it captured for a domain, often thousands, including archive pages, feeds, images, and files. Combined with any backups, database dumps, or exports you still have, that list becomes the inventory: every URL the site ever published, and the best surviving copy of each.</p>
+<p>Then I rebuild. Content is pulled from the best source for each page, stripped of the archive's toolbar and rewritten links, and placed into clean, readable templates. Images and downloads come back where copies survive. Where a page is truly gone, I mark it plainly instead of inventing it.</p>
+<p>Then I put it back where people expect it. The rebuilt site keeps the original addresses wherever possible, with permanent redirects for the rest, so old links from other sites, bookmarks, and search results land on the right page again. It goes live as static HTML on modern hosting, with HTTPS, a sitemap, and Search Console and Bing Webmaster Tools set up for the domain.</p>
+
+<h2>What you get</h2>
+<ul>
+  <li>The restored site, live on a domain you control, in a repository you own.</li>
+  <li>An inventory of every URL found, with what happened to each: restored, redirected, or marked as lost.</li>
+  <li>A log of the sources used for each page, so the recovery can be checked.</li>
+  <li>A site that needs no database, no plugins, and no security patches to stay online.</li>
+</ul>
+
+<h2>My own archive</h2>
+<p>I learned this on my own work. A serialized novel I published as a blog for seventeen years outlived the software it ran on, and I moved it to static hosting with every one of its old addresses intact; the method is in the <a href="{root}case-studies/movable-type-novel/">Movable Type novel case study</a>. I've also rebuilt a redirect map by pulling every address the Wayback Machine captured for a site that had lived on three platforms, then testing each one against the live site.</p>
+
+<h2>What I'll need from you</h2>
+<p>The domain name, or the domains the site lived on over the years; any backups, exports, or old files you can find, however incomplete; and access to the domain's registrar and DNS, or the help of whoever holds them. If you own the content but not the domain, tell me early, because getting the domain back is its own project; my guide to <a href="{root}guides/lapsed-domains/">lapsed domains</a> covers that side.</p>
+
+<h2>Related work</h2>
+<p>For sites that are alive but stuck on an old platform, see <a href="{root}services/static-sites/">static websites built for search</a> and <a href="{root}services/migrations/">site migrations and 301 redirects</a>.</p>
