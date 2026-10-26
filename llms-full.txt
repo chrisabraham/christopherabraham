@@ -1008,7 +1008,7 @@ Your RSS feed address, your domain or the name you want, the cover art at full s
 
 ## How it's delivered
 
-A standard build from an existing feed takes about an afternoon of my time, and it's quoted as a fixed-scope project after a short call. Ongoing additions, such as articles or new page types, can be billed by the hour. Terms are on [Hire Me](https://christopherabraham.com/hire-me/). For the static approach in general, see [static websites built for search](https://christopherabraham.com/services/static-sites/).
+A standard build from an existing feed takes about an afternoon of my time, and it's quoted as a fixed-scope project after a short call. Ongoing additions, such as articles or new page types, are quoted as a fixed fee before the work starts. Terms are on [Hire Me](https://christopherabraham.com/hire-me/). For the static approach in general, see [static websites built for search](https://christopherabraham.com/services/static-sites/).
 
 ## Talk it over
 
@@ -1145,7 +1145,7 @@ After the audit and the big fixes, sites drift. Plugins update, developers ship 
 ## What a month includes
 - **Monitoring.** Search Console and Bing Webmaster Tools for indexing changes, crawl errors, manual actions, and Core Web Vitals; analytics for unusual drops; uptime and redirect checks on key pages.
 - **A monthly crawl.** Compared with last month's, so new 404s, redirect chains, duplicate titles, and noindex tags are caught within weeks of appearing.
-- **Hands-on fixes.** Metadata, redirects, schema, internal links, and plugin or Cloudflare settings, within the hours on the retainer.
+- **Hands-on fixes.** Metadata, redirects, schema, internal links, and plugin or Cloudflare settings, within the scope the retainer covers.
 - **Developer QA.** I review releases that touch templates, routing, or head tags, before they ship when possible and right after when not.
 - **Content support.** Briefs for new pages, edits for SEO, and refreshes of pages that are slipping.
 - **AI search checks.** A stable set of prompts run across the major assistants, tracked over time.
@@ -1159,7 +1159,7 @@ After the audit and the big fixes, sites drift. Plugins update, developers ship 
 
 ## How it's structured
 
-A retainer covers a set number of hours each month, agreed in advance and billed at the start of the month, or run as a weekly hourly contract on Upwork. Priorities are set together at the start of each month and adjusted when something urgent comes up. Unused hours don't roll over indefinitely; if months run consistently light, I'll suggest a smaller plan.
+A retainer is a fixed monthly fee for an agreed scope of work, set in writing before the month starts and billed at its start, direct or as a fixed price contract on Upwork. Priorities are set together at the start of each month and adjusted when something urgent comes up. If months run consistently light, I'll suggest a smaller plan.
 
 ## Starting a retainer
 
@@ -5993,7 +5993,7 @@ Updated: 2026-10-06
 Every engagement follows the same arc: a defined question, a paid audit that answers it, a ranked plan, the fixes, and a verification pass once the fixes are live. Here's how each step works and what I need from you.
 
 ## Two ways to hire me
-- **On Upwork.** Most of my clients hire me through [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham). Upwork handles contracts, time tracking, invoicing, and payment protection for both sides. Hourly and fixed-price contracts both work there.
+- **On Upwork.** Most of my clients hire me through [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham). Engagements there run as fixed price contracts with milestones, and Upwork handles the contract, invoicing, and payment protection for both sides.
 - **Directly.** Email [cja@well.com](mailto:cja@well.com) and I'll send a written scope and an invoice. Direct engagements are paid in advance: the audit up front, retainers at the start of each month.
 
 ## The process
@@ -6016,7 +6016,7 @@ I keep every engagement in writing: Upwork messages, email, or your project tool
 
 ## Pricing
 
-I quote hourly or a fixed price per milestone, whichever fits the job. Audits are scoped and priced before they start, so you know the cost of an answer before you commit to it. Retainers cover a set number of hours each month with a monthly report. My current hourly rate is on [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham).
+I quote every engagement as a fixed fee. Audits are scoped and priced before they start, so you know the cost of an answer before you commit to it. Follow-on work is quoted per milestone on the same basis, and retainers are a fixed monthly fee for an agreed scope, with a report every month. The price is settled in conversation before the work begins, never by a clock.
 
 ## What I sell, and what nobody can
 
@@ -7534,7 +7534,7 @@ This site is static, hand-checked, and built by the same method; the [colophon](
 
 ## After launch
 
-A launch site should keep earning. Reviews, interviews, and awards get added as they arrive, and the about page gets updated as the work grows. You can edit the plain files yourself, ask an AI coding assistant to make a change and review it, or have me do it by the hour. Every change is recorded, so any mistake can be undone.
+A launch site should keep earning. Reviews, interviews, and awards get added as they arrive, and the about page gets updated as the work grows. You can edit the plain files yourself, ask an AI coding assistant to make a change and review it, or have me do it, with each round of changes quoted as a fixed fee first. Every change is recorded, so any mistake can be undone.
 
 ## What I'll need from you
 
@@ -7590,7 +7590,7 @@ The review stands on its own. You get the findings whether you keep your agency,
 
 ## How it's delivered
 
-A fixed-scope review, paid in advance and quoted from the size of the report and the site. Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
+A fixed-scope review, quoted as one fixed fee from the size of the report and the site. Payment terms are settled in conversation before the review starts. Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
 
 ## Talk it over
 
@@ -7637,7 +7637,7 @@ Manager or owner access if anyone has it, the business registration and a recent
 
 ## How it's delivered
 
-A prepaid written diagnostic first, then time spent on the remedy billed by the hour. Suspensions and broader local work sit under [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/). Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
+A written diagnostic first, quoted as a fixed fee. The remedy is then scoped and quoted the same way before work begins, so the price of the whole case is known up front. Suspensions and broader local work sit under [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/). Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
 
 ## Talk it over
 
@@ -7819,7 +7819,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [SEO guides](https://christopherabraham.com/guides/): Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
 - [Case studies](https://christopherabraham.com/case-studies/): Anonymized SEO case studies: hidden product content, consent tools blocking Google, React apps, migrations, programmatic indexing, schema, and local listings.
 - [About Christopher Abraham](https://christopherabraham.com/about/): Christopher Abraham is an SEO consultant in Arlington, VA, working on AI search, rendering forensics, and modern stacks, with SEO experience dating to 1998.
-- [Hire me](https://christopherabraham.com/hire-me/): How an SEO engagement runs: a scoped, paid audit first, then hourly or fixed-price work through Upwork or direct, with every finding and decision in writing.
+- [Hire me](https://christopherabraham.com/hire-me/): How an SEO engagement runs: a scoped audit first, then fixed fee work through Upwork or direct, with every finding and decision kept in writing.
 - [Frequently asked questions](https://christopherabraham.com/faq/): Practical answers about an SEO engagement: what access is needed, how long audits take, time zones, Upwork contracts, invoicing, reports, and confidentiality.
 - [Contact Christopher Abraham](https://christopherabraham.com/contact/): Email Christopher Abraham at cja@well.com or call or text him with your site address and the problem. Hire him on Upwork or directly for a scoped audit.
 - [Privacy](https://christopherabraham.com/privacy/): How christopherabraham.com uses Google Analytics with consent mode, why visitors in Europe and the UK get no analytics cookies, and what happens to your email.

@@ -38,7 +38,7 @@ Your RSS feed address, your domain or the name you want, the cover art at full s
 
 ## How it's delivered
 
-A standard build from an existing feed takes about an afternoon of my time, and it's quoted as a fixed-scope project after a short call. Ongoing additions, such as articles or new page types, can be billed by the hour. Terms are on [Hire Me](https://christopherabraham.com/hire-me/). For the static approach in general, see [static websites built for search](https://christopherabraham.com/services/static-sites/).
+A standard build from an existing feed takes about an afternoon of my time, and it's quoted as a fixed-scope project after a short call. Ongoing additions, such as articles or new page types, are quoted as a fixed fee before the work starts. Terms are on [Hire Me](https://christopherabraham.com/hire-me/). For the static approach in general, see [static websites built for search](https://christopherabraham.com/services/static-sites/).
 
 ## Talk it over
 

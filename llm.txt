@@ -133,7 +133,7 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 ## Hiring, FAQ, notes, and policies
 
 - [SEO services](https://christopherabraham.com/services/index.md): SEO and website services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
-- [Hire me](https://christopherabraham.com/hire-me/index.md): How an SEO engagement runs: a scoped, paid audit first, then hourly or fixed-price work through Upwork or direct, with every finding and decision in writing.
+- [Hire me](https://christopherabraham.com/hire-me/index.md): How an SEO engagement runs: a scoped audit first, then fixed fee work through Upwork or direct, with every finding and decision kept in writing.
 - [Frequently asked questions](https://christopherabraham.com/faq/index.md): Practical answers about an SEO engagement: what access is needed, how long audits take, time zones, Upwork contracts, invoicing, reports, and confidentiality.
 - [Privacy](https://christopherabraham.com/privacy/index.md): How christopherabraham.com uses Google Analytics with consent mode, why visitors in Europe and the UK get no analytics cookies, and what happens to your email.
 - [The Machine Answers First Now](https://christopherabraham.com/the-machine-answers-first/index.md): Google's AI answers now sit atop most commercial searches Semrush tracks. A field note on what the machine says about a business and making it name you.

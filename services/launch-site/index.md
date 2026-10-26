@@ -30,7 +30,7 @@ This site is static, hand-checked, and built by the same method; the [colophon](
 
 ## After launch
 
-A launch site should keep earning. Reviews, interviews, and awards get added as they arrive, and the about page gets updated as the work grows. You can edit the plain files yourself, ask an AI coding assistant to make a change and review it, or have me do it by the hour. Every change is recorded, so any mistake can be undone.
+A launch site should keep earning. Reviews, interviews, and awards get added as they arrive, and the about page gets updated as the work grows. You can edit the plain files yourself, ask an AI coding assistant to make a change and review it, or have me do it, with each round of changes quoted as a fixed fee first. Every change is recorded, so any mistake can be undone.
 
 ## What I'll need from you
 

@@ -34,7 +34,7 @@ The review stands on its own. You get the findings whether you keep your agency,
 
 ## How it's delivered
 
-A fixed-scope review, paid in advance and quoted from the size of the report and the site. Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
+A fixed-scope review, quoted as one fixed fee from the size of the report and the site. Payment terms are settled in conversation before the review starts. Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
 
 ## Talk it over
 

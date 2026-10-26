@@ -9,7 +9,7 @@ After the audit and the big fixes, sites drift. Plugins update, developers ship 
 ## What a month includes
 - **Monitoring.** Search Console and Bing Webmaster Tools for indexing changes, crawl errors, manual actions, and Core Web Vitals; analytics for unusual drops; uptime and redirect checks on key pages.
 - **A monthly crawl.** Compared with last month's, so new 404s, redirect chains, duplicate titles, and noindex tags are caught within weeks of appearing.
-- **Hands-on fixes.** Metadata, redirects, schema, internal links, and plugin or Cloudflare settings, within the hours on the retainer.
+- **Hands-on fixes.** Metadata, redirects, schema, internal links, and plugin or Cloudflare settings, within the scope the retainer covers.
 - **Developer QA.** I review releases that touch templates, routing, or head tags, before they ship when possible and right after when not.
 - **Content support.** Briefs for new pages, edits for SEO, and refreshes of pages that are slipping.
 - **AI search checks.** A stable set of prompts run across the major assistants, tracked over time.
@@ -23,7 +23,7 @@ After the audit and the big fixes, sites drift. Plugins update, developers ship 
 
 ## How it's structured
 
-A retainer covers a set number of hours each month, agreed in advance and billed at the start of the month, or run as a weekly hourly contract on Upwork. Priorities are set together at the start of each month and adjusted when something urgent comes up. Unused hours don't roll over indefinitely; if months run consistently light, I'll suggest a smaller plan.
+A retainer is a fixed monthly fee for an agreed scope of work, set in writing before the month starts and billed at its start, direct or as a fixed price contract on Upwork. Priorities are set together at the start of each month and adjusted when something urgent comes up. If months run consistently light, I'll suggest a smaller plan.
 
 ## Starting a retainer
 

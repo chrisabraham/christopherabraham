@@ -33,7 +33,7 @@ Manager or owner access if anyone has it, the business registration and a recent
 
 ## How it's delivered
 
-A prepaid written diagnostic first, then time spent on the remedy billed by the hour. Suspensions and broader local work sit under [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/). Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
+A written diagnostic first, quoted as a fixed fee. The remedy is then scoped and quoted the same way before work begins, so the price of the whole case is known up front. Suspensions and broader local work sit under [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/). Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
 
 ## Talk it over
 
