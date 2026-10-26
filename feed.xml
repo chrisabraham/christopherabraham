@@ -5,8 +5,540 @@
   <link href="https://christopherabraham.com/feed.xml" rel="self"/>
   <link href="https://christopherabraham.com/guides/"/>
   <id>https://christopherabraham.com/guides/</id>
-  <updated>2026-10-24T12:00:00Z</updated>
+  <updated>2026-10-26T12:00:00Z</updated>
   <author><name>Christopher Abraham</name><uri>https://christopherabraham.com/about/</uri></author>
+  <entry>
+    <title>Service-area businesses on Google Business Profile</title>
+    <link href="https://christopherabraham.com/guides/service-area-business/"/>
+    <id>https://christopherabraham.com/guides/service-area-business/</id>
+    <published>2026-10-26T12:00:00Z</published>
+    <updated>2026-10-26T12:00:00Z</updated>
+    <summary>How a business that travels to customers should set up its Google Business Profile: removing the address, choosing service areas, and the phone number.</summary>
+    <content type="html">&lt;h1&gt;Service-area businesses on Google Business Profile&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-26"&gt;October 26, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;A plumber, a roofer, a mobile dog groomer, or a pest control company does its work at the customer's door. Google calls these service-area businesses, and it treats them differently from shops: no public street address, a list of areas served instead, and a stricter eye on the details that remain. Most of the trouble I see with these profiles comes from three fields, the address, the areas, and the phone number, so this guide works through each one.&lt;/p&gt;
+
+&lt;h2&gt;Which kind of business you are&lt;/h2&gt;
+&lt;p&gt;Google recognizes three setups. A storefront serves customers at its address. A service-area business goes to its customers and has no premises where customers are received. A hybrid does both: a showroom or office that customers visit during posted hours, plus crews that travel. A tile company with a showroom is a hybrid; an electrician working from a home office is a service-area business.&lt;/p&gt;
+&lt;p&gt;Pick the one that matches how customers meet you, because the rest of the profile follows from it. A home-based business that lists its house as a storefront invites strangers to the door and tells Google something it can check and will eventually doubt.&lt;/p&gt;
+
+&lt;h2&gt;Remove the address when customers don't come to you&lt;/h2&gt;
+&lt;p&gt;Google's service-area help page is direct about it: if you don't serve customers at your business address, remove the address from the profile and enter only your service area. The address still exists in Google's records for verification and for placing you on its internal map. It just stops showing to the public.&lt;/p&gt;
+&lt;p&gt;Two addresses never qualify. Google's guidelines rule out a rented mailing address where the business doesn't operate, and they rule out P.O. boxes and remote mailboxes. A service-area business can list a so-called virtual office only if staff are actually there during business hours. A coworking desk you visit once a month fails that test.&lt;/p&gt;
+
+&lt;h2&gt;Choose service areas you can serve&lt;/h2&gt;
+&lt;p&gt;A profile can hold up to 20 service areas, set as cities, postal codes, or other named areas. Google's own tip is that the whole area shouldn't stretch beyond about two hours of driving time from where the business is based. Treat that as an outer limit.&lt;/p&gt;
+&lt;p&gt;Service areas describe where you work, and they carry little weight in where the profile ranks. Map results still weigh the distance between the searcher and the business location Google holds on file, so a company based in one suburb won't start ranking across a whole metro by listing twenty towns. What wins the farther towns is the website: a useful page for each area where you have real jobs, real photos, and real reviews to show.&lt;/p&gt;
+
+&lt;h2&gt;Use a phone number that belongs to this business&lt;/h2&gt;
+&lt;p&gt;The guidelines ask for a number that connects to the individual business location, a local number in place of a central call-center line whenever possible, and a number under the business's direct control. Premium-rate numbers aren't allowed at all.&lt;/p&gt;
+&lt;p&gt;This is where I find the quietest damage. On a recent competitor review for a home-services company in the Southeast, the client's profile showed a toll-free number while its website showed a local one with a different area code. Each number on its own was legitimate. Together they gave Google, directories, and AI tools two answers to the simplest question about the business. Pick one primary number, put it on the profile, the website header, and the contact page, and keep tracking numbers out of the primary slot.&lt;/p&gt;
+
+&lt;h2&gt;Keep the name clean&lt;/h2&gt;
+&lt;p&gt;Service-area businesses are tempted to add the city or the service to their name: "Smith Plumbing Denver Emergency Drain Cleaning." Google's guidelines say plainly that unnecessary information in the business name isn't permitted and can lead to suspension. The name on the profile should match the name on the truck, the invoice, and the state registration.&lt;/p&gt;
+
+&lt;h2&gt;Verification is the gate&lt;/h2&gt;
+&lt;p&gt;Until a profile is verified, nobody can change it, owner or manager. I recently worked on a service-area profile that showed in public with mismatched details, and because it had never been verified, nobody could correct them. If your profile is in that state, verification comes before every other fix. For service-area businesses that usually means a video showing the vehicle, tools, and proof of management; my &lt;a href="https://christopherabraham.com/guides/gbp-video-verification/"&gt;video verification guide&lt;/a&gt; covers what to film.&lt;/p&gt;
+
+&lt;h2&gt;What competitors' listings tell you&lt;/h2&gt;
+&lt;p&gt;Look up the businesses that outrank you and note what they show. In that same review, all nine competing listings in the client's market displayed a street address while the client's showed only a service area. The client shouldn't add one to match. Those competitors had set themselves up as storefronts or hybrids, and a business without premises for customers has no address to show. A true service-area business competes on what it can prove: reviews that mention the towns and jobs, photos from real sites, prompt answers to questions, and location pages that read like the work of someone who has been there.&lt;/p&gt;
+
+&lt;h2&gt;A short checklist&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Business type matches how customers meet you: storefront, service area, or hybrid.&lt;/li&gt;
+  &lt;li&gt;Address removed from public view if customers never come to it; no mailboxes or unstaffed offices.&lt;/li&gt;
+  &lt;li&gt;Service areas limited to places you serve, within about two hours of your base.&lt;/li&gt;
+  &lt;li&gt;One primary local number, the same on the profile and the website.&lt;/li&gt;
+  &lt;li&gt;Business name exactly as it appears on signage and paperwork.&lt;/li&gt;
+  &lt;li&gt;Profile verified, with at least two people holding access.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;section class="faq"&gt;
+&lt;h2&gt;Questions service businesses ask&lt;/h2&gt;
+&lt;h3&gt;Will removing my address hurt my rankings?&lt;/h3&gt;
+&lt;p&gt;Google still knows where the business is based and uses that location. Removing the address from public view follows Google's guidance for businesses that don't receive customers, and it protects the privacy of a home address.&lt;/p&gt;
+&lt;h3&gt;Can I have a profile in every town I serve?&lt;/h3&gt;
+&lt;p&gt;No. One business gets one profile per real location where it operates. Extra profiles at virtual addresses are a common cause of suspensions.&lt;/p&gt;
+&lt;h3&gt;Should my website list my address?&lt;/h3&gt;
+&lt;p&gt;If you work from home, list the areas you serve and your phone number instead. Your legal notices and invoices can carry the mailing address.&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;p&gt;If your profile is stuck, mismatched, or unverified, that's work I take on through &lt;a href="https://christopherabraham.com/services/local-seo/"&gt;local SEO consulting&lt;/a&gt; and, for profiles nobody can edit, &lt;a href="https://christopherabraham.com/services/gbp-verification/"&gt;Business Profile verification help&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://support.google.com/business/answer/9157481"&gt;Google Business Profile Help: Manage your service areas for service-area and hybrid businesses&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://support.google.com/business/answer/3038177"&gt;Google Business Profile Help: Guidelines for representing your business on Google&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content>
+  </entry>
+  <entry>
+    <title>Google Merchant Center free listings for small shops</title>
+    <link href="https://christopherabraham.com/guides/merchant-center-free-listings/"/>
+    <id>https://christopherabraham.com/guides/merchant-center-free-listings/</id>
+    <published>2026-10-26T12:00:00Z</published>
+    <updated>2026-10-26T12:00:00Z</updated>
+    <summary>How a small shop gets its products into Google's free listings: the Merchant Center feed, required attributes, shipping, returns, and the errors to fix first.</summary>
+    <content type="html">&lt;h1&gt;Google Merchant Center free listings for small shops&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-26"&gt;October 26, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;Plenty of small store owners assume Google Shopping is only an ad product. Free listings, the unpaid half, shows products from any eligible store at no cost, and many of the shops I audit have never switched it on or have a feed full of errors nobody has read. For a shop with a few dozen to a few thousand products, it's some of the cheapest visibility left in search.&lt;/p&gt;
+
+&lt;h2&gt;Where free listings appear&lt;/h2&gt;
+&lt;p&gt;Google's Merchant Center help page lists the places: the Shopping tab, product rich results in Search with price, availability, and reviews, Google Images and Lens (including Lens results for similar products), YouTube in some countries, Maps, the products section of a Business Profile, and Gemini. The page is careful to say eligibility doesn't guarantee your products will show. Free listings compete on relevance and data quality, and incomplete data loses.&lt;/p&gt;
+
+&lt;h2&gt;Setting it up&lt;/h2&gt;
+&lt;p&gt;You need a Merchant Center account, a verified and claimed website, and a product source. On Shopify, WooCommerce, BigCommerce, and most hosted platforms, the Google sales channel or an official app builds the feed from your catalog and keeps it current. New Merchant Center accounts are opted in to free listings by default; on an older account, look for the free listings card under Marketing methods and confirm it's on.&lt;/p&gt;
+&lt;p&gt;A store without a platform integration can upload a spreadsheet feed, but a manual spreadsheet goes stale the first time a price changes. I prefer an automated feed, or, for a small static catalog, letting Merchant Center read the structured data already on the product pages.&lt;/p&gt;
+
+&lt;h2&gt;The attributes that decide eligibility&lt;/h2&gt;
+&lt;p&gt;Google requires an ID, title, link, image link, price, description, and availability for every product. Depending on the product, it also wants the condition, the brand, a GTIN or manufacturer part number, and whether the item is a multipack or bundle. Clothing needs color, size, age group, and gender.&lt;/p&gt;
+&lt;p&gt;The GTIN, the barcode number, causes the most confusion. If you resell branded goods, the manufacturer's GTIN belongs in the feed and helps Google match your offer to the product. If you make the products yourself, there's no GTIN to supply, and you mark that the identifier doesn't exist instead of inventing one.&lt;/p&gt;
+
+&lt;h2&gt;Shipping and returns&lt;/h2&gt;
+&lt;p&gt;In the United States, the United Kingdom, Canada, Australia, Germany, and several other countries, shipping settings are required. Google also asks for a return policy, ideally set in Merchant Center. These details appear on the listings, and a shopper comparing two stores at the same price will pick the one with free returns shown. Set them once at the account level and they apply to every product.&lt;/p&gt;
+
+&lt;h2&gt;Fix the Needs attention tab first&lt;/h2&gt;
+&lt;p&gt;The Products page in Merchant Center has a Needs attention tab. That tab is the whole job for the first week. The usual problems I find:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Price mismatch.&lt;/strong&gt; The feed says one price and the page shows another, often because a sale ran on the site and the feed didn't update.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Availability mismatch.&lt;/strong&gt; Products listed in stock that the site says are sold out.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Image problems.&lt;/strong&gt; Promotional overlays, watermarks, or placeholder images.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Missing identifiers.&lt;/strong&gt; Branded products with no GTIN.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Policy issues.&lt;/strong&gt; Restricted products, or a website missing contact details and a return policy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each of these has a cause in the store setup. Fixing the cause once beats fixing products one at a time every week.&lt;/p&gt;
+
+&lt;h2&gt;Write titles for shoppers&lt;/h2&gt;
+&lt;p&gt;The product title in the feed is the line a shopper reads in the results. Lead with what the product is, then the attributes people search by: brand, material, size, color, model. "Walnut cutting board, 18 x 12 inch, end grain" will match more searches than "The Hearthside." Your on-site title can keep the brand flourish while the feed title does the describing.&lt;/p&gt;
+
+&lt;h2&gt;Connect the pieces&lt;/h2&gt;
+&lt;p&gt;Google's help page recommends linking your Business Profile and any third-party platforms you sell through, and keeping Merchant Center data consistent with your store. Consistency runs in both directions: the product page's structured data, the feed, and the visible page should all carry the same price and availability. When they agree, Google has one answer. When they don't, it has to choose.&lt;/p&gt;
+
+&lt;h2&gt;How to tell it's working&lt;/h2&gt;
+&lt;p&gt;Merchant Center's performance reports show clicks and impressions from free listings separately from ads. In Search Console, the Performance report's search appearance filter separates merchant listings and product snippets. Give it a few weeks after the errors clear, then compare clicks by product category to see which parts of the catalog Google is showing and which it isn't.&lt;/p&gt;
+
+&lt;section class="faq"&gt;
+&lt;h2&gt;Questions about free listings&lt;/h2&gt;
+&lt;h3&gt;Do I need to run Shopping ads?&lt;/h3&gt;
+&lt;p&gt;No. Free listings work on their own. Ads are a separate, paid choice in the same account.&lt;/p&gt;
+&lt;h3&gt;How long until products show?&lt;/h3&gt;
+&lt;p&gt;Google reviews products after the feed is submitted, which can take a few business days. Errors you fix are rechecked on the next feed update.&lt;/p&gt;
+&lt;h3&gt;Do free listings help in AI answers?&lt;/h3&gt;
+&lt;p&gt;Google's help page lists Gemini among the surfaces, and accurate product data is what any shopping assistant needs. Clean feed data is the price of entry.&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;p&gt;Feeds and product page structured data are part of my &lt;a href="https://christopherabraham.com/services/ecommerce-seo/"&gt;ecommerce SEO&lt;/a&gt; work. For the markup itself, see the &lt;a href="https://christopherabraham.com/guides/small-business-schema/"&gt;small business schema guide&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://support.google.com/merchants/answer/9199328"&gt;Google Merchant Center Help: Free listings for products&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/appearance/structured-data/merchant-listing"&gt;Google Search Central: Merchant listing (Product, Offer) structured data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content>
+  </entry>
+  <entry>
+    <title>The FTC fake review rule for small businesses</title>
+    <link href="https://christopherabraham.com/guides/ftc-review-rule/"/>
+    <id>https://christopherabraham.com/guides/ftc-review-rule/</id>
+    <published>2026-10-26T12:00:00Z</published>
+    <updated>2026-10-26T12:00:00Z</updated>
+    <summary>The FTC's rule on consumer reviews took effect October 21, 2024. What it bans, what it allows, and how to ask customers for reviews without risk to you.</summary>
+    <content type="html">&lt;h1&gt;The FTC fake review rule for small businesses&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-26"&gt;October 26, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;Reviews drive local search, and for years the rules around them were scattered across platform policies and general consumer protection law. Since October 21, 2024, the United States has had a specific federal rule: the Federal Trade Commission's Rule on the Use of Consumer Reviews and Testimonials, 16 CFR Part 465. It lets courts impose civil penalties for knowing violations. Most honest businesses already comply, but a few common habits sit close to the lines, and those are what this guide covers.&lt;/p&gt;
+&lt;p&gt;This is a practitioner's summary, not legal advice. If you've received a letter from the FTC or a state attorney general, talk to a lawyer.&lt;/p&gt;
+
+&lt;h2&gt;What the rule prohibits&lt;/h2&gt;
+&lt;p&gt;The FTC's own question-and-answer page groups the rule into a handful of sections:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Fake or false reviews and testimonials&lt;/strong&gt; (section 465.2), including reviews from people who never used the product and reviews that misrepresent the reviewer's experience.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Paying for reviews of a particular sentiment&lt;/strong&gt; (465.4). Incentives become a problem when there's an express or implied requirement that the review be positive, or negative about a competitor.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Undisclosed insider reviews&lt;/strong&gt; (465.5). Reviews by officers, managers, employees, or agents, and in some cases their relatives, need a clear disclosure of the relationship.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Company-controlled review sites&lt;/strong&gt; (465.6) presented as independent.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Review suppression&lt;/strong&gt; (465.7), such as legal threats, intimidation, or false accusations used to get reviews removed.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fake social media indicators&lt;/strong&gt; (465.8), like bought followers or views, when the business knew or should have known they were fake.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;What you can still do&lt;/h2&gt;
+&lt;p&gt;You can ask every customer for a review. The FTC says the rule exempts generalized requests to purchasers to post reviews about their experiences, and offering an incentive to everyone who responds doesn't change that, as long as the incentive doesn't depend on what the review says.&lt;/p&gt;
+&lt;p&gt;The incentive question has a second layer. Google's own guidelines for Business Profiles go further than the FTC and prohibit offering incentives for reviews on Google at all. A gift card for every reviewer may be legal under the rule and still get reviews removed or a profile penalized on Google. When the platform's rule is stricter, the platform's rule is the one that governs your listing.&lt;/p&gt;
+
+&lt;h2&gt;Review gating&lt;/h2&gt;
+&lt;p&gt;Review gating means asking customers how their experience was and sending only the happy ones to Google or Yelp, while routing unhappy ones to a private feedback form. The FTC's guidance says the rule doesn't contain a specific prohibition against asking only customers you expect to be satisfied, and in the same answer it warns that the practice can still violate the FTC Act if it misleads people about how the business is rated. Google's review policy forbids selectively soliciting positive reviews.&lt;/p&gt;
+&lt;p&gt;My advice is simpler than either text: send the same request to every customer, with one link, and handle complaints in your reply to the review. Many reputation tools still ship with gating switched on by default, so check yours.&lt;/p&gt;
+
+&lt;h2&gt;Employees and family&lt;/h2&gt;
+&lt;p&gt;Staff and relatives are the easiest source of early reviews and the most common source of trouble. Under the rule, a review by an officer or manager that doesn't disclose the relationship is a problem, and a business that asks employees to write reviews has duties to keep those reviews disclosed. Google, for its part, removes reviews that come from conflicts of interest. The cleanest policy is that employees don't review the business they work for.&lt;/p&gt;
+
+&lt;h2&gt;Responding to bad reviews&lt;/h2&gt;
+&lt;p&gt;The suppression section targets threats and false accusations meant to get a review taken down. Replying publicly, offering to make things right, and reporting a review to the platform when it breaks the platform's rules are all ordinary practice. Threatening a customer with a lawsuit over an honest negative review, or claiming a review is fake when you know it's real, is where the rule bites.&lt;/p&gt;
+
+&lt;h2&gt;Testimonials on your own website&lt;/h2&gt;
+&lt;p&gt;The rule covers testimonials too. Quotes on your site should come from real customers, reflect what they said, and not be edited to change the meaning. If you show only your best reviews, don't present the page as a complete or independent rating. When you pay or comp someone for a testimonial, disclose it next to the quote. And never add review star markup for reviews of your own business that you collected and display yourself; Google treats those as self-serving and won't show them.&lt;/p&gt;
+
+&lt;h2&gt;A compliance checklist&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;One review request, sent to every customer, with no screening question in front of the link.&lt;/li&gt;
+  &lt;li&gt;No incentives for Google reviews; any incentive elsewhere offered to everyone and not tied to sentiment.&lt;/li&gt;
+  &lt;li&gt;No reviews from owners, staff, or relatives, or a clear disclosure where the platform allows them.&lt;/li&gt;
+  &lt;li&gt;No bought followers, likes, or views.&lt;/li&gt;
+  &lt;li&gt;Bad reviews answered in public, reported only for real policy violations.&lt;/li&gt;
+  &lt;li&gt;Website testimonials sourced, unedited in meaning, and disclosed when compensated.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;section class="faq"&gt;
+&lt;h2&gt;Questions about reviews and the rule&lt;/h2&gt;
+&lt;h3&gt;Does the rule apply to a small local business?&lt;/h3&gt;
+&lt;p&gt;Yes. It applies to businesses of any size that sell to consumers in the United States.&lt;/p&gt;
+&lt;h3&gt;Can I ask a happy customer in person to leave a review?&lt;/h3&gt;
+&lt;p&gt;Yes. Asking is fine. The risk comes from a system that asks only the happy ones and steers everyone else away.&lt;/p&gt;
+&lt;h3&gt;Can I buy reviews from a service that promises they're real?&lt;/h3&gt;
+&lt;p&gt;No. A review written to order by someone who wasn't your customer is a fake review under the rule, whatever the seller calls it.&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;p&gt;For honest ways to earn mentions that AI tools and search engines trust, see my guide to &lt;a href="https://christopherabraham.com/guides/earned-mentions/"&gt;earned mentions&lt;/a&gt;. Review strategy for local businesses is part of my &lt;a href="https://christopherabraham.com/services/local-seo/"&gt;local SEO work&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers"&gt;Federal Trade Commission: Consumer Reviews and Testimonials Rule, questions and answers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465"&gt;eCFR: 16 CFR Part 465, Use of Consumer Reviews and Testimonials&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://support.google.com/contributionpolicy/answer/7400114"&gt;Google Maps User Contributed Content Policy: Fake engagement and rating manipulation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content>
+  </entry>
+  <entry>
+    <title>Black Friday sale pages that keep their rankings</title>
+    <link href="https://christopherabraham.com/guides/black-friday-pages/"/>
+    <id>https://christopherabraham.com/guides/black-friday-pages/</id>
+    <published>2026-10-26T12:00:00Z</published>
+    <updated>2026-10-26T12:00:00Z</updated>
+    <summary>Build one Black Friday URL and reuse it every year: what Google advises for sale pages, when to publish, what to do in January, and how to track the results.</summary>
+    <content type="html">&lt;h1&gt;Black Friday sale pages that keep their rankings&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-26"&gt;October 26, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;Every November I find shops publishing a brand-new Black Friday page at an address like /black-friday-2026, while last year's page sits forgotten at /black-friday-2025 with all the links people gave it. The new page starts with nothing, and Google has to find it, crawl it, and decide what it's worth in the few weeks that matter. One permanent address fixes that, and it's the advice Google itself has given.&lt;/p&gt;
+
+&lt;h2&gt;What Google has said&lt;/h2&gt;
+&lt;p&gt;In July 2021, Alan Kent of Google's Search Relations team published a post on deal pages that restated the earlier Black Friday advice in a short list: create dedicated pages for Black Friday and Cyber Monday, reuse the same URL each year, create the pages early so Google can index them, link to the sale page from the home page, and include a high-quality image. The same post added that the page title should carry the event description, the page should have text that describes the event, and if the deals are revealed on the day, the page should go up early with general information and be recrawled after the update.&lt;/p&gt;
+&lt;p&gt;That post is five years old, and it's still the most specific official statement on sale pages I can find. The reasoning hasn't aged: a page that has existed for years has links, history, and a place in the index that a new page has to earn from scratch.&lt;/p&gt;
+
+&lt;h2&gt;One URL, updated every year&lt;/h2&gt;
+&lt;p&gt;Choose an address with no year in it, such as /black-friday/ or /sale/black-friday/. Put the year in the title and the heading, where shoppers want to see it, and change it each autumn. The address stays put. If you have old yearly pages, redirect each one to the permanent address with a 301 so the links pointing at them still count.&lt;/p&gt;
+&lt;p&gt;Cyber Monday is a separate search with its own audience, so it can earn its own permanent page. A single combined page works too when the offers are identical. What fails is a new page per year per event, which turns one strong page into eight weak ones over four years.&lt;/p&gt;
+
+&lt;h2&gt;When to publish&lt;/h2&gt;
+&lt;p&gt;Google Trends shows searches for Black Friday building for weeks before the day, every year. Publish the page, or refresh last year's, by early November. If you can't reveal the deals yet, say what's coming: which departments, when the sale opens, how to get notified. That gives Google something real to index. On the day the deals go live, update the page and request recrawling of that URL in Search Console's URL Inspection tool.&lt;/p&gt;
+&lt;p&gt;Link to the page from the home page and the main navigation while the sale runs. That link is the strongest signal you can send about which page matters this month.&lt;/p&gt;
+
+&lt;h2&gt;What goes on the page&lt;/h2&gt;
+&lt;p&gt;Write a few paragraphs a shopper would read: what's on sale, the dates, shipping cutoffs for delivery before the holidays, the return window for gifts, and how the discount is applied. Then link to the actual sale products and categories. A page that's only a banner and a countdown clock has nothing for a search engine or an AI assistant to quote.&lt;/p&gt;
+&lt;p&gt;Prices belong on the product pages. If those pages carry merchant listing structured data, the sale price can appear in Google's shopping results. Check that the price in the markup matches the visible price on the day the sale starts; when they disagree, Google has two prices and no reason to trust either.&lt;/p&gt;
+
+&lt;h2&gt;After the sale&lt;/h2&gt;
+&lt;p&gt;Don't delete the page in December, and don't redirect it to the home page. Keep it live with a short note that the sale has ended, a sentence about when it returns, an email signup if you have one, and links to current offers. Take it out of the main navigation, but leave it linked from somewhere on the site, such as a sales or offers hub, so it stays crawlable.&lt;/p&gt;
+&lt;p&gt;The page will rank for little in March. What matters is that in November it wakes up with years of history behind it instead of none.&lt;/p&gt;
+
+&lt;h2&gt;Measure it the same way each year&lt;/h2&gt;
+&lt;p&gt;In Search Console, filter the Performance report to the page's URL and compare the same date window around Black Friday each year. Because the address never changes, the comparison is simple. That's another quiet benefit of one permanent URL: yearly pages make the history impossible to read. Keep a note of the dates the page was refreshed and the deals went live, so a jump or a dip can be traced to something that happened.&lt;/p&gt;
+
+&lt;section class="faq"&gt;
+&lt;h2&gt;Questions about holiday sale pages&lt;/h2&gt;
+&lt;h3&gt;Should the year be in the title?&lt;/h3&gt;
+&lt;p&gt;Yes. Shoppers search for "Black Friday 2026" and expect current deals. Put the year in the title and heading, and keep it out of the URL.&lt;/p&gt;
+&lt;h3&gt;What about other seasonal sales?&lt;/h3&gt;
+&lt;p&gt;The same rule fits any sale that returns: a back-to-school page, a spring sale, an anniversary event. One permanent address per recurring event.&lt;/p&gt;
+&lt;h3&gt;My platform made a new page every year. What now?&lt;/h3&gt;
+&lt;p&gt;Pick the strongest one, usually the oldest or the one with the most links, move it to a year-free address, and redirect the rest to it.&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;p&gt;For a store with more than a handful of seasonal pages, I map them, merge them, and set the redirects as part of &lt;a href="https://christopherabraham.com/services/ecommerce-seo/"&gt;ecommerce SEO&lt;/a&gt; work. For the store-hours side of the holidays, see the &lt;a href="https://christopherabraham.com/guides/holiday-hours/"&gt;holiday hours checklist&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://developers.google.com/search/blog/2021/07/deals-best-practices"&gt;Google Search Central Blog: Engage shoppers with deal pages in Google Search (Alan Kent, July 21, 2021)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/appearance/structured-data/merchant-listing"&gt;Google Search Central: Merchant listing (Product, Offer) structured data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content>
+  </entry>
+  <entry>
+    <title>Apple Maps and Bing Places: local listings past Google</title>
+    <link href="https://christopherabraham.com/guides/apple-and-bing-listings/"/>
+    <id>https://christopherabraham.com/guides/apple-and-bing-listings/</id>
+    <published>2026-10-26T12:00:00Z</published>
+    <updated>2026-10-26T12:00:00Z</updated>
+    <summary>Why a local business should claim its Apple Maps place card and its Bing Places listing, what each one feeds, how to set them up, and keeping them consistent.</summary>
+    <content type="html">&lt;h1&gt;Apple Maps and Bing Places: local listings past Google&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-26"&gt;October 26, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;Local SEO conversations start and end with the Google Business Profile, and for good reason. But every iPhone owner who asks Siri for a nearby locksmith, taps a business in Apple Maps, or opens directions from a text message is reading Apple's data. Every search in Bing, and the local results that Microsoft's products draw from it, reads Bing's. Both listings are free, both take an afternoon, and most of the small businesses I check have claimed neither.&lt;/p&gt;
+
+&lt;h2&gt;Apple: the place card&lt;/h2&gt;
+&lt;p&gt;Apple's listing for a business is called a place card. It shows the name, hours, phone, website, photos, and actions such as booking or ordering. Apple describes Business Connect as a free platform for controlling how a business shows up across Apple Maps, Wallet, and other Apple apps. The old businessconnect.apple.com address now forwards to business.apple.com, where Apple has folded the tool into a wider product called Apple Business that also covers devices and email for small companies. The Maps part works the same way: claim the location, prove you run it, and edit the card.&lt;/p&gt;
+&lt;p&gt;What you can manage on the card:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Logo, header image, and photos.&lt;/li&gt;
+  &lt;li&gt;Hours, including special hours for holidays.&lt;/li&gt;
+  &lt;li&gt;Actions that let people order, reserve, or book from the card.&lt;/li&gt;
+  &lt;li&gt;Showcases, Apple's term for short promotions and seasonal offers.&lt;/li&gt;
+  &lt;li&gt;Insights on how people found and used the card.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Claiming on Apple&lt;/h2&gt;
+&lt;p&gt;Sign in at business.apple.com with an Apple Account, ideally one tied to the business email instead of someone's personal ID. Add the company, search for the location, and claim it. Apple verifies the business before you can edit. For a business with many locations, Apple offers bulk tools and works with listing-management services that push data to it.&lt;/p&gt;
+&lt;p&gt;Apple Maps has long shown ratings and reviews from partner services such as Yelp alongside its own, so a business with a poor profile on a partner site may see that reflected in Maps. Check what your card shows before assuming it matches Google.&lt;/p&gt;
+
+&lt;h2&gt;Bing: Places for Business&lt;/h2&gt;
+&lt;p&gt;Microsoft relaunched Bing Places for Business in October 2025. Management moved to bing.com/forbusiness, existing accounts were moved over automatically, and a recommendation tool now flags missing fields such as photos, hours, and category details. Listings are free and appear in Bing Search and Bing Maps. Search Engine Journal's report on the launch noted that Microsoft plans deeper links to Copilot; I treat that as a plan until Microsoft documents it.&lt;/p&gt;
+&lt;p&gt;The fastest route is the import from Google. Bing can read an existing Google Business Profile and copy the name, address, hours, and phone. That's a good start only when the Google profile is already correct, because the import copies mistakes as faithfully as facts. Check the category afterward, since Google and Bing don't use the same category lists.&lt;/p&gt;
+
+&lt;h2&gt;Why these two matter for AI answers&lt;/h2&gt;
+&lt;p&gt;AI assistants answer local questions from whatever business data their systems can reach. Bing's index feeds a number of them, and Apple's data feeds Siri and Apple Maps on every iPhone. If Google says you close at 6 and Apple says 5, an assistant has two answers to pick between, and a customer may drive across town to a locked door. Consistent data across the three big map providers removes the conflict before any AI system has to resolve it.&lt;/p&gt;
+
+&lt;h2&gt;Keep one master record&lt;/h2&gt;
+&lt;p&gt;Keep a single document with the business name exactly as registered, the address or service area, the primary phone number, the website, the hours, and the categories. Every listing gets copied from that record, never from another listing. When something changes, update the record first and then each listing on the same day: Google, Apple, Bing, and then the directories and review sites that matter in your trade.&lt;/p&gt;
+&lt;p&gt;That same record pays off when a business changes its name or moves, which is when listings drift most. My guide to &lt;a href="https://christopherabraham.com/guides/business-name-change/"&gt;changing a business name without losing search&lt;/a&gt; covers that case in detail.&lt;/p&gt;
+
+&lt;h2&gt;A quick audit you can do today&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Search for your business in Apple Maps on a phone. Note the hours, phone, website, and category.&lt;/li&gt;
+  &lt;li&gt;Search for it on bing.com and in Bing Maps. Note the same details.&lt;/li&gt;
+  &lt;li&gt;Compare both with your Google profile and your website's contact page.&lt;/li&gt;
+  &lt;li&gt;Claim whichever listing you haven't, and correct every difference.&lt;/li&gt;
+  &lt;li&gt;Put a reminder in your calendar to recheck all three before each holiday season.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;section class="faq"&gt;
+&lt;h2&gt;Questions about Apple and Bing listings&lt;/h2&gt;
+&lt;h3&gt;Does claiming these help my Google rankings?&lt;/h3&gt;
+&lt;p&gt;Not directly. They get you found by people who don't use Google, and they make your business data agree everywhere, which helps every system that compares sources.&lt;/p&gt;
+&lt;h3&gt;Do I need a paid listing service?&lt;/h3&gt;
+&lt;p&gt;Not for one or a few locations. Both platforms are free to use directly. Services earn their fee when you manage dozens of locations.&lt;/p&gt;
+&lt;h3&gt;What if someone else already claimed my listing?&lt;/h3&gt;
+&lt;p&gt;Both platforms have a dispute or ownership-request process. Start it from the listing itself and keep proof of the business, such as a utility bill or registration, ready.&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;p&gt;Listing cleanup across Google, Apple, and Bing is part of my &lt;a href="https://christopherabraham.com/services/local-seo/"&gt;local SEO work&lt;/a&gt;, and the &lt;a href="https://christopherabraham.com/guides/ai-search-checklist/"&gt;AI search checklist&lt;/a&gt; shows where these listings fit in a broader visibility plan.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://www.apple.com/business/connect/"&gt;Apple: Apple Business Connect&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://business.apple.com/"&gt;Apple: Apple Business&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.searchenginejournal.com/microsoft-launches-new-bing-places-for-business/557520/"&gt;Search Engine Journal: Microsoft launches new Bing Places for Business (Oct 3, 2025)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.bing.com/forbusiness/"&gt;Microsoft: Bing for business&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content>
+  </entry>
+  <entry>
+    <title>Glossary of SEO and AI search terms</title>
+    <link href="https://christopherabraham.com/guides/glossary/"/>
+    <id>https://christopherabraham.com/guides/glossary/</id>
+    <published>2026-10-06T12:00:00Z</published>
+    <updated>2026-10-26T12:00:00Z</updated>
+    <summary>Plain-English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.</summary>
+    <content type="html">&lt;h1&gt;Glossary of SEO and AI search terms&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt; · Updated &lt;time datetime="2026-10-26"&gt;October 26, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need. To find every page that discusses a term, use the &lt;a href="https://christopherabraham.com/site-index/"&gt;index&lt;/a&gt;.&lt;/p&gt;
+
+&lt;dl class="glossary"&gt;
+  &lt;dt id="three-oh-one"&gt;301 redirect&lt;/dt&gt;
+  &lt;dd&gt;A permanent forwarding instruction from an old address to a new one, which passes nearly all of the old page's ranking signals along.&lt;/dd&gt;
+  &lt;dt id="aeo"&gt;AEO (answer engine optimization)&lt;/dt&gt;
+  &lt;dd&gt;Shaping pages so that systems which reply with an answer rather than a list of links, from featured snippets to voice assistants to chatbots, can lift a passage and credit it.&lt;/dd&gt;
+  &lt;dt id="ai-overviews"&gt;AI Overviews&lt;/dt&gt;
+  &lt;dd&gt;The generated summaries Google places on many results pages, citing the sites they borrowed from. AI Mode extends the idea into a back-and-forth conversation.&lt;/dd&gt;
+  &lt;dt id="ai-share-of-voice"&gt;AI share of voice&lt;/dt&gt;
+  &lt;dd&gt;The share of relevant buyer questions where an AI assistant names your brand, measured against the competitors it names instead, tracked with the same question set every month. Method in &lt;a href="https://christopherabraham.com/guides/ai-share-of-voice/"&gt;measuring share of voice in AI answers&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="alt-text"&gt;Alt text&lt;/dt&gt;
+  &lt;dd&gt;Words attached to an image in the markup that describe it for people using screen readers and give crawlers a clue about the picture's subject.&lt;/dd&gt;
+  &lt;dt id="anchor-text"&gt;Anchor text&lt;/dt&gt;
+  &lt;dd&gt;The visible, clickable wording of a hyperlink. When it names the destination's topic, both readers and crawlers know what they'll find.&lt;/dd&gt;
+  &lt;dt id="apo"&gt;APO (Automatic Platform Optimization)&lt;/dt&gt;
+  &lt;dd&gt;Cloudflare's WordPress feature that stores complete pages at the edge so even the first byte arrives quickly. Included with Cloudflare's Pro plan and above, or $5 a month on the free plan, per Cloudflare's pricing.&lt;/dd&gt;
+  &lt;dt id="astroturfing"&gt;Astroturfing&lt;/dt&gt;
+  &lt;dd&gt;Posting praise for a product while pretending to be an ordinary customer, often from new or borrowed accounts. Reddit moderators remove it on sight; see &lt;a href="https://christopherabraham.com/guides/reddit-ai-answers/"&gt;Reddit and AI answers&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="bing-webmaster-tools"&gt;Bing Webmaster Tools&lt;/dt&gt;
+  &lt;dd&gt;Microsoft's no-cost dashboard for owners, covering crawl, index, and keyword data from Bing, whose index also supplies Copilot and several other assistants.&lt;/dd&gt;
+  &lt;dt id="canonical"&gt;Canonical tag&lt;/dt&gt;
+  &lt;dd&gt;A line in a page's head nominating which address should represent a set of duplicate or close copies. Google weighs it heavily but may overrule it.&lt;/dd&gt;
+  &lt;dt id="cdn"&gt;CDN (content delivery network)&lt;/dt&gt;
+  &lt;dd&gt;A network of servers spread around the world that keeps copies of a site's files and hands them to each visitor from somewhere nearby.&lt;/dd&gt;
+  &lt;dt id="client-side-rendering"&gt;Client-side rendering (CSR)&lt;/dt&gt;
+  &lt;dd&gt;Building a page in the visitor's browser with JavaScript, so the HTML the server sends starts nearly empty. Crawlers that skip scripts see little or nothing. See &lt;a href="https://christopherabraham.com/guides/ai-built-websites/"&gt;SEO for AI-built websites&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="cls"&gt;CLS (Cumulative Layout Shift)&lt;/dt&gt;
+  &lt;dd&gt;The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.&lt;/dd&gt;
+  &lt;dt id="comparison-cohort"&gt;Comparison cohort&lt;/dt&gt;
+  &lt;dd&gt;A fixed group of pages evaluated across reporting periods so changes in the page inventory can be distinguished from changes in performance. See &lt;a href="https://christopherabraham.com/guides/search-console-comparisons/"&gt;Search Console comparisons&lt;/a&gt;.&lt;/dd&gt;
+
+  &lt;dt id="core-update"&gt;Core update&lt;/dt&gt;
+  &lt;dd&gt;A broad change Google makes to how it ranks everything, several times a year. Pages can rise or fall without anything being wrong with them; Google lists each one on its Search Status Dashboard.&lt;/dd&gt;
+  &lt;dt id="core-web-vitals"&gt;Core Web Vitals&lt;/dt&gt;
+  &lt;dd&gt;Three experience scores Google tracks, LCP, INP, and CLS, taken from Chrome users over a rolling four weeks.&lt;/dd&gt;
+  &lt;dt id="crawl-budget"&gt;Crawl budget&lt;/dt&gt;
+  &lt;dd&gt;The practical ceiling on how much of a site a search engine will fetch in a given stretch of time. A concern for very large sites and those spawning endless URL variants.&lt;/dd&gt;
+  &lt;dt id="crawler"&gt;Crawler&lt;/dt&gt;
+  &lt;dd&gt;Software that requests pages on its own to read them, such as Googlebot, Bingbot, GPTBot, or ClaudeBot. People also say bot or spider.&lt;/dd&gt;
+  &lt;dt id="custom-extraction"&gt;Custom extraction&lt;/dt&gt;
+  &lt;dd&gt;A crawler feature that pulls a chosen piece of every page, by XPath, CSS selector, or regex, into a column, so one crawl can audit headings, schema types, or tracking codes sitewide. Recipes are in &lt;a href="https://christopherabraham.com/guides/custom-extraction/"&gt;custom extraction&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="digital-pr"&gt;Digital PR&lt;/dt&gt;
+  &lt;dd&gt;Earning coverage and mentions on other people's sites, newsletters, and shows by giving writers something worth using. The sentences those mentions contain now feed AI answers; see &lt;a href="https://christopherabraham.com/guides/earned-mentions/"&gt;digital PR for AI search&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="e-e-a-t"&gt;E-E-A-T&lt;/dt&gt;
+  &lt;dd&gt;Experience, expertise, authoritativeness, and trustworthiness: the qualities Google's quality raters look for in a page and its author, with trust counted as the most important.&lt;/dd&gt;
+  &lt;dt id="earned-media"&gt;Earned media&lt;/dt&gt;
+  &lt;dd&gt;Coverage a business didn't pay for and doesn't control: a reporter's article, a reviewer's post, a mention in someone else's newsletter.&lt;/dd&gt;
+  &lt;dt id="entity"&gt;Entity&lt;/dt&gt;
+  &lt;dd&gt;A single real-world thing, whether a company, person, place, or product, that search engines and AI models recognize as one concept however a page happens to phrase its name.&lt;/dd&gt;
+  &lt;dt id="faceted-navigation"&gt;Faceted navigation&lt;/dt&gt;
+  &lt;dd&gt;Category filters for attributes like color, size, or price. Left open to crawlers, the combinations can balloon into millions of addresses.&lt;/dd&gt;
+  &lt;dt id="field-data"&gt;Field data&lt;/dt&gt;
+  &lt;dd&gt;Speed and responsiveness figures gathered from actual visits, as opposed to one synthetic test run on a single machine.&lt;/dd&gt;
+  &lt;dt id="free-listings"&gt;Free listings&lt;/dt&gt;
+  &lt;dd&gt;Unpaid product results Google shows across Shopping, Search, Images, Lens, and Maps, fed by a store's Merchant Center data. See &lt;a href="https://christopherabraham.com/guides/merchant-center-free-listings/"&gt;Merchant Center free listings&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="geo"&gt;GEO (generative engine optimization)&lt;/dt&gt;
+  &lt;dd&gt;Work aimed at how generative AI tools portray and cite a company or a page. In practice it overlaps almost entirely with AEO and AI SEO.&lt;/dd&gt;
+  &lt;dt id="google-business-profile"&gt;Google Business Profile&lt;/dt&gt;
+  &lt;dd&gt;The free Google listing that puts a business on Maps and in local results, carrying its hours, categories, photos, and reviews.&lt;/dd&gt;
+  &lt;dt id="gtin"&gt;GTIN (Global Trade Item Number)&lt;/dt&gt;
+  &lt;dd&gt;The barcode number a manufacturer assigns to a product, such as a UPC or EAN. Resellers put it in their product feed; makers of their own goods mark it as not applicable.&lt;/dd&gt;
+  &lt;dt id="hreflang"&gt;hreflang&lt;/dt&gt;
+  &lt;dd&gt;Markup that pairs each language or country edition of a page with the audience that should see it.&lt;/dd&gt;
+  &lt;dt id="hsts"&gt;HSTS&lt;/dt&gt;
+  &lt;dd&gt;A security header telling browsers to reach a site only over HTTPS for a set period, so no visit ever falls back to an unencrypted connection.&lt;/dd&gt;
+  &lt;dt id="hybrid-business"&gt;Hybrid business&lt;/dt&gt;
+  &lt;dd&gt;A business that both receives customers at a posted address and travels to them, such as a tile showroom with installation crews. Its profile shows the address and a service area. See &lt;a href="https://christopherabraham.com/guides/service-area-business/"&gt;service-area businesses&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="index"&gt;Index&lt;/dt&gt;
+  &lt;dd&gt;The store of pages a search engine considers eligible for results. Nothing ranks until it's in there.&lt;/dd&gt;
+  &lt;dt id="indexnow"&gt;IndexNow&lt;/dt&gt;
+  &lt;dd&gt;A shared ping system: when a page appears, changes, or disappears, the site tells Bing, Yandex, and other members right away instead of waiting for a recrawl.&lt;/dd&gt;
+  &lt;dt id="inp"&gt;INP (Interaction to Next Paint)&lt;/dt&gt;
+  &lt;dd&gt;The Core Web Vital that times the gap between a tap, click, or keystroke and the screen's visible response. Aim for 200 ms or lower.&lt;/dd&gt;
+  &lt;dt id="json-ld"&gt;JSON-LD&lt;/dt&gt;
+  &lt;dd&gt;Google's preferred way to write structured data: a JSON object inside its own script element, kept apart from what visitors see.&lt;/dd&gt;
+  &lt;dt id="lcp"&gt;LCP (Largest Contentful Paint)&lt;/dt&gt;
+  &lt;dd&gt;The Core Web Vital that times how long the biggest image or text block in the opening view takes to finish drawing. Aim for 2.5 s or lower.&lt;/dd&gt;
+  &lt;dt id="llms-txt"&gt;llms.txt&lt;/dt&gt;
+  &lt;dd&gt;A suggested standard: a Markdown summary kept at the top level of a domain, pointing language models to the pages most worth reading.&lt;/dd&gt;
+  &lt;dt id="material-connection"&gt;Material connection&lt;/dt&gt;
+  &lt;dd&gt;The FTC's term for any tie between a brand and the person endorsing it, such as payment, free product, or employment. In the United States it has to be disclosed clearly wherever the endorsement appears.&lt;/dd&gt;
+  &lt;dt id="meta-description"&gt;Meta description&lt;/dt&gt;
+  &lt;dd&gt;The short summary written into a page's code that search engines often show beneath the title in results. It invites the click rather than setting the rank.&lt;/dd&gt;
+  &lt;dt id="near-duplicate"&gt;Near-duplicate&lt;/dt&gt;
+  &lt;dd&gt;Two pages whose text is almost, but not exactly, the same, such as product variants or city pages built from one template. Crawlers can flag them by similarity score; see &lt;a href="https://christopherabraham.com/guides/near-duplicates-and-h1s/"&gt;near duplicates and H1s&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="niche-edit"&gt;Niche edit&lt;/dt&gt;
+  &lt;dd&gt;A paid link inserted into an article that's already published and indexed, rather than a new article written for the purpose.&lt;/dd&gt;
+  &lt;dt id="noindex"&gt;noindex&lt;/dt&gt;
+  &lt;dd&gt;A directive, set in a meta tag or a response header, asking search engines to keep a page out of results.&lt;/dd&gt;
+  &lt;dt id="open-graph"&gt;Open Graph tags&lt;/dt&gt;
+  &lt;dd&gt;The og: meta tags in a page's head that set the headline, summary, and image Facebook, LinkedIn, Slack, and most messaging apps show when someone shares the link. See &lt;a href="https://christopherabraham.com/guides/social-share-cards/"&gt;social share cards&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="orange-cloud"&gt;Orange cloud&lt;/dt&gt;
+  &lt;dd&gt;Cloudflare's icon for a proxied DNS record, meaning visitors pass through Cloudflare's network, with its caching and protection, on the way to the site. A gray cloud means DNS only.&lt;/dd&gt;
+  &lt;dt id="orphan-page"&gt;Orphan page&lt;/dt&gt;
+  &lt;dd&gt;A page nothing else on the site links to. Only a sitemap entry or an outside link can lead anyone to it.&lt;/dd&gt;
+  &lt;dt id="permalink"&gt;Permalink&lt;/dt&gt;
+  &lt;dd&gt;The permanent address of a single post or page. In WordPress, the Permalinks settings screen decides its pattern; the post name pattern produces readable addresses.&lt;/dd&gt;
+  &lt;dt id="place-card"&gt;Place card&lt;/dt&gt;
+  &lt;dd&gt;Apple Maps' listing for a business: name, hours, phone, photos, and actions such as booking, managed through Apple's business tools. See &lt;a href="https://christopherabraham.com/guides/apple-and-bing-listings/"&gt;Apple and Bing listings&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="placed-article"&gt;Placed article&lt;/dt&gt;
+  &lt;dd&gt;An article published on another site through a paid arrangement, usually carrying a link back. Google expects the link to be marked rel="sponsored"; see &lt;a href="https://christopherabraham.com/guides/buying-backlinks/"&gt;why I turn down backlink work&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="prerendering"&gt;Prerendering&lt;/dt&gt;
+  &lt;dd&gt;Generating a finished HTML copy of a JavaScript page ahead of time and serving it to crawlers or visitors, so the content is readable without running scripts.&lt;/dd&gt;
+  &lt;dt id="pull-request"&gt;Pull request&lt;/dt&gt;
+  &lt;dd&gt;A proposed change to a code repository, shown line by line for review before it's merged. SEO fixes made this way are recorded, reviewable, and easy to undo; see &lt;a href="https://christopherabraham.com/guides/seo-in-your-repository/"&gt;SEO in your Git repository&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="reddit-answers"&gt;Reddit Answers&lt;/dt&gt;
+  &lt;dd&gt;Reddit's own AI search, launched in December 2024, which summarizes discussions from across the site in reply to a question.&lt;/dd&gt;
+  &lt;dt id="redirect-chain"&gt;Redirect chain&lt;/dt&gt;
+  &lt;dd&gt;Several redirects strung together before the visitor arrives. Every extra step costs time and can weaken the signals passed along.&lt;/dd&gt;
+  &lt;dt id="rel-sponsored"&gt;rel="sponsored"&lt;/dt&gt;
+  &lt;dd&gt;A link attribute that tells Google a link was paid for, so it passes no ranking credit. Google's spam policies ask for it on every paid or sponsored link.&lt;/dd&gt;
+  &lt;dt id="rendering"&gt;Rendering&lt;/dt&gt;
+  &lt;dd&gt;Running a page's scripts to produce what a browser finally shows. Anything that exists only after this step can escape crawlers that skip it.&lt;/dd&gt;
+  &lt;dt id="review-gating"&gt;Review gating&lt;/dt&gt;
+  &lt;dd&gt;Screening customers before asking for a public review, so only satisfied ones reach the review site. Google's policies forbid it, and the FTC warns it can mislead. See &lt;a href="https://christopherabraham.com/guides/ftc-review-rule/"&gt;the FTC review rule&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="rich-results"&gt;Rich results&lt;/dt&gt;
+  &lt;dd&gt;Search listings dressed up with extra details drawn from structured data, like star ratings, prices, or breadcrumb trails.&lt;/dd&gt;
+  &lt;dt id="robots-txt"&gt;robots.txt&lt;/dt&gt;
+  &lt;dd&gt;A plain text file at the top of a domain that tells bots which folders to stay out of. It governs fetching; keeping a page out of results takes noindex.&lt;/dd&gt;
+  &lt;dt id="scaled-content-abuse"&gt;Scaled content abuse&lt;/dt&gt;
+  &lt;dd&gt;Google's spam policy against publishing many pages mainly to manipulate rankings, whether people, AI, or both produce them. The main target of Google's 2026 spam updates.&lt;/dd&gt;
+  &lt;dt id="schema"&gt;Schema markup&lt;/dt&gt;
+  &lt;dd&gt;Structured data written in the Schema.org vocabulary to spell out the people, organizations, places, and products on a page.&lt;/dd&gt;
+  &lt;dt id="search-console"&gt;Search Console&lt;/dt&gt;
+  &lt;dd&gt;Google's free owner dashboard: clicks and impressions, index status, Core Web Vitals, and alerts about problems it detects.&lt;/dd&gt;
+  &lt;dt id="ssr"&gt;Server-side rendering (SSR)&lt;/dt&gt;
+  &lt;dd&gt;Assembling the complete HTML on the server so a crawler gets every word in the first response, no scripts required.&lt;/dd&gt;
+  &lt;dt id="service-area-business"&gt;Service-area business&lt;/dt&gt;
+  &lt;dd&gt;A business on Google that travels to its customers, such as a plumber or mobile groomer, and hides its street address from the public profile. It verifies by showing its tools, vehicle, and nearby street markers. See &lt;a href="https://christopherabraham.com/guides/gbp-video-verification/"&gt;video verification&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="spa"&gt;Single page application (SPA)&lt;/dt&gt;
+  &lt;dd&gt;A website that loads one HTML shell and swaps content in with JavaScript as people click, instead of loading a new page for each address. Many AI app builders produce them.&lt;/dd&gt;
+  &lt;dt id="site-reputation-abuse"&gt;Site reputation abuse&lt;/dt&gt;
+  &lt;dd&gt;Placing a third party's low-value pages on a trusted site to borrow its standing in search, such as coupon or gambling sections rented out under a respected domain. Against Google's spam policies.&lt;/dd&gt;
+  &lt;dt id="soft-404"&gt;Soft 404&lt;/dt&gt;
+  &lt;dd&gt;A URL that answers with a success code yet shows an empty or not-found page. Google files it with the real 404s.&lt;/dd&gt;
+  &lt;dt id="spam-update"&gt;Spam update&lt;/dt&gt;
+  &lt;dd&gt;An improvement to the automated systems Google uses to detect pages that break its spam policies. Sites caught by one usually drop sharply and quickly.&lt;/dd&gt;
+  &lt;dt id="title-tag"&gt;Title tag&lt;/dt&gt;
+  &lt;dd&gt;The headline written into a page's code that search engines usually show as the clickable link in results and browsers show on the tab.&lt;/dd&gt;
+  &lt;dt id="topic-cluster"&gt;Topic cluster&lt;/dt&gt;
+  &lt;dd&gt;One hub page that defines a subject, plus a set of pages that each answer a single buyer question in full, all linked together. See &lt;a href="https://christopherabraham.com/guides/topic-clusters/"&gt;topic clusters for AI search&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="vibe-coding"&gt;Vibe coding&lt;/dt&gt;
+  &lt;dd&gt;Building software by describing what you want to an AI tool and accepting what it writes, with little reading of the code itself. Andrej Karpathy coined the phrase in February 2025.&lt;/dd&gt;
+  &lt;dt id="video-verification"&gt;Video verification&lt;/dt&gt;
+  &lt;dd&gt;Google's way of confirming a Business Profile from a single unedited phone recording of at least 30 seconds that shows the location, the business, and proof the owner runs it. Explained in &lt;a href="https://christopherabraham.com/guides/gbp-video-verification/"&gt;my video verification guide&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="white-label"&gt;White label&lt;/dt&gt;
+  &lt;dd&gt;A service delivered under someone else's brand: an agency resells the work, and its client never sees the vendor's name.&lt;/dd&gt;
+  &lt;dt id="xml-sitemap"&gt;XML sitemap&lt;/dt&gt;
+  &lt;dd&gt;A machine-readable list of the addresses a site wants crawled, often with the date each last changed.&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;These terms are used throughout the &lt;a href="https://christopherabraham.com/guides/"&gt;guides&lt;/a&gt; and &lt;a href="https://christopherabraham.com/services/"&gt;services&lt;/a&gt; pages.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content>
+  </entry>
   <entry>
     <title>XML sitemaps that tell the truth</title>
     <link href="https://christopherabraham.com/guides/xml-sitemaps/"/>
@@ -525,169 +1057,6 @@ https://news.example/sponsored/old-placement.html&lt;/code&gt;&lt;/pre&gt;
   &lt;li&gt;&lt;a href="https://www.searchenginejournal.com/google-says-disavow-tool-not-part-of-normal-site-maintenance/543861"&gt;Search Engine Journal: Google says the disavow tool is not part of normal site maintenance (April 2025)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://www.seroundtable.com/google-ignore-link-spam-404-pages-37217.html"&gt;Search Engine Roundtable: Google ignores link spam, including links to 404 pages (April 2024)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;aside class="author-box" aria-label="About the author"&gt;
-  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
-  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
-&lt;/aside&gt;</content>
-  </entry>
-  <entry>
-    <title>Glossary of SEO and AI search terms</title>
-    <link href="https://christopherabraham.com/guides/glossary/"/>
-    <id>https://christopherabraham.com/guides/glossary/</id>
-    <published>2026-10-06T12:00:00Z</published>
-    <updated>2026-10-24T12:00:00Z</updated>
-    <summary>Plain-English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.</summary>
-    <content type="html">&lt;h1&gt;Glossary of SEO and AI search terms&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-06"&gt;October 6, 2026&lt;/time&gt; · Updated &lt;time datetime="2026-10-24"&gt;October 24, 2026&lt;/time&gt;&lt;/p&gt;
-&lt;p class="lead"&gt;The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need. To find every page that discusses a term, use the &lt;a href="https://christopherabraham.com/site-index/"&gt;index&lt;/a&gt;.&lt;/p&gt;
-
-&lt;dl class="glossary"&gt;
-  &lt;dt id="three-oh-one"&gt;301 redirect&lt;/dt&gt;
-  &lt;dd&gt;A permanent forwarding instruction from an old address to a new one, which passes nearly all of the old page's ranking signals along.&lt;/dd&gt;
-  &lt;dt id="aeo"&gt;AEO (answer engine optimization)&lt;/dt&gt;
-  &lt;dd&gt;Shaping pages so that systems which reply with an answer rather than a list of links, from featured snippets to voice assistants to chatbots, can lift a passage and credit it.&lt;/dd&gt;
-  &lt;dt id="ai-overviews"&gt;AI Overviews&lt;/dt&gt;
-  &lt;dd&gt;The generated summaries Google places on many results pages, citing the sites they borrowed from. AI Mode extends the idea into a back-and-forth conversation.&lt;/dd&gt;
-  &lt;dt id="ai-share-of-voice"&gt;AI share of voice&lt;/dt&gt;
-  &lt;dd&gt;The share of relevant buyer questions where an AI assistant names your brand, measured against the competitors it names instead, tracked with the same question set every month. Method in &lt;a href="https://christopherabraham.com/guides/ai-share-of-voice/"&gt;measuring share of voice in AI answers&lt;/a&gt;.&lt;/dd&gt;
-  &lt;dt id="alt-text"&gt;Alt text&lt;/dt&gt;
-  &lt;dd&gt;Words attached to an image in the markup that describe it for people using screen readers and give crawlers a clue about the picture's subject.&lt;/dd&gt;
-  &lt;dt id="anchor-text"&gt;Anchor text&lt;/dt&gt;
-  &lt;dd&gt;The visible, clickable wording of a hyperlink. When it names the destination's topic, both readers and crawlers know what they'll find.&lt;/dd&gt;
-  &lt;dt id="apo"&gt;APO (Automatic Platform Optimization)&lt;/dt&gt;
-  &lt;dd&gt;Cloudflare's WordPress feature that stores complete pages at the edge so even the first byte arrives quickly. Included with Cloudflare's Pro plan and above, or $5 a month on the free plan, per Cloudflare's pricing.&lt;/dd&gt;
-  &lt;dt id="astroturfing"&gt;Astroturfing&lt;/dt&gt;
-  &lt;dd&gt;Posting praise for a product while pretending to be an ordinary customer, often from new or borrowed accounts. Reddit moderators remove it on sight; see &lt;a href="https://christopherabraham.com/guides/reddit-ai-answers/"&gt;Reddit and AI answers&lt;/a&gt;.&lt;/dd&gt;
-  &lt;dt id="bing-webmaster-tools"&gt;Bing Webmaster Tools&lt;/dt&gt;
-  &lt;dd&gt;Microsoft's no-cost dashboard for owners, covering crawl, index, and keyword data from Bing, whose index also supplies Copilot and several other assistants.&lt;/dd&gt;
-  &lt;dt id="canonical"&gt;Canonical tag&lt;/dt&gt;
-  &lt;dd&gt;A line in a page's head nominating which address should represent a set of duplicate or close copies. Google weighs it heavily but may overrule it.&lt;/dd&gt;
-  &lt;dt id="cdn"&gt;CDN (content delivery network)&lt;/dt&gt;
-  &lt;dd&gt;A network of servers spread around the world that keeps copies of a site's files and hands them to each visitor from somewhere nearby.&lt;/dd&gt;
-  &lt;dt id="client-side-rendering"&gt;Client-side rendering (CSR)&lt;/dt&gt;
-  &lt;dd&gt;Building a page in the visitor's browser with JavaScript, so the HTML the server sends starts nearly empty. Crawlers that skip scripts see little or nothing. See &lt;a href="https://christopherabraham.com/guides/ai-built-websites/"&gt;SEO for AI-built websites&lt;/a&gt;.&lt;/dd&gt;
-  &lt;dt id="cls"&gt;CLS (Cumulative Layout Shift)&lt;/dt&gt;
-  &lt;dd&gt;The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.&lt;/dd&gt;
-  &lt;dt id="comparison-cohort"&gt;Comparison cohort&lt;/dt&gt;
-  &lt;dd&gt;A fixed group of pages evaluated across reporting periods so changes in the page inventory can be distinguished from changes in performance. See &lt;a href="https://christopherabraham.com/guides/search-console-comparisons/"&gt;Search Console comparisons&lt;/a&gt;.&lt;/dd&gt;
-
-  &lt;dt id="core-update"&gt;Core update&lt;/dt&gt;
-  &lt;dd&gt;A broad change Google makes to how it ranks everything, several times a year. Pages can rise or fall without anything being wrong with them; Google lists each one on its Search Status Dashboard.&lt;/dd&gt;
-  &lt;dt id="core-web-vitals"&gt;Core Web Vitals&lt;/dt&gt;
-  &lt;dd&gt;Three experience scores Google tracks, LCP, INP, and CLS, taken from Chrome users over a rolling four weeks.&lt;/dd&gt;
-  &lt;dt id="crawl-budget"&gt;Crawl budget&lt;/dt&gt;
-  &lt;dd&gt;The practical ceiling on how much of a site a search engine will fetch in a given stretch of time. A concern for very large sites and those spawning endless URL variants.&lt;/dd&gt;
-  &lt;dt id="crawler"&gt;Crawler&lt;/dt&gt;
-  &lt;dd&gt;Software that requests pages on its own to read them, such as Googlebot, Bingbot, GPTBot, or ClaudeBot. People also say bot or spider.&lt;/dd&gt;
-  &lt;dt id="custom-extraction"&gt;Custom extraction&lt;/dt&gt;
-  &lt;dd&gt;A crawler feature that pulls a chosen piece of every page, by XPath, CSS selector, or regex, into a column, so one crawl can audit headings, schema types, or tracking codes sitewide. Recipes are in &lt;a href="https://christopherabraham.com/guides/custom-extraction/"&gt;custom extraction&lt;/a&gt;.&lt;/dd&gt;
-  &lt;dt id="digital-pr"&gt;Digital PR&lt;/dt&gt;
-  &lt;dd&gt;Earning coverage and mentions on other people's sites, newsletters, and shows by giving writers something worth using. The sentences those mentions contain now feed AI answers; see &lt;a href="https://christopherabraham.com/guides/earned-mentions/"&gt;digital PR for AI search&lt;/a&gt;.&lt;/dd&gt;
-  &lt;dt id="e-e-a-t"&gt;E-E-A-T&lt;/dt&gt;
-  &lt;dd&gt;Experience, expertise, authoritativeness, and trustworthiness: the qualities Google's quality raters look for in a page and its author, with trust counted as the most important.&lt;/dd&gt;
-  &lt;dt id="earned-media"&gt;Earned media&lt;/dt&gt;
-  &lt;dd&gt;Coverage a business didn't pay for and doesn't control: a reporter's article, a reviewer's post, a mention in someone else's newsletter.&lt;/dd&gt;
-  &lt;dt id="entity"&gt;Entity&lt;/dt&gt;
-  &lt;dd&gt;A single real-world thing, whether a company, person, place, or product, that search engines and AI models recognize as one concept however a page happens to phrase its name.&lt;/dd&gt;
-  &lt;dt id="faceted-navigation"&gt;Faceted navigation&lt;/dt&gt;
-  &lt;dd&gt;Category filters for attributes like color, size, or price. Left open to crawlers, the combinations can balloon into millions of addresses.&lt;/dd&gt;
-  &lt;dt id="field-data"&gt;Field data&lt;/dt&gt;
-  &lt;dd&gt;Speed and responsiveness figures gathered from actual visits, as opposed to one synthetic test run on a single machine.&lt;/dd&gt;
-  &lt;dt id="geo"&gt;GEO (generative engine optimization)&lt;/dt&gt;
-  &lt;dd&gt;Work aimed at how generative AI tools portray and cite a company or a page. In practice it overlaps almost entirely with AEO and AI SEO.&lt;/dd&gt;
-  &lt;dt id="google-business-profile"&gt;Google Business Profile&lt;/dt&gt;
-  &lt;dd&gt;The free Google listing that puts a business on Maps and in local results, carrying its hours, categories, photos, and reviews.&lt;/dd&gt;
-  &lt;dt id="hreflang"&gt;hreflang&lt;/dt&gt;
-  &lt;dd&gt;Markup that pairs each language or country edition of a page with the audience that should see it.&lt;/dd&gt;
-  &lt;dt id="hsts"&gt;HSTS&lt;/dt&gt;
-  &lt;dd&gt;A security header telling browsers to reach a site only over HTTPS for a set period, so no visit ever falls back to an unencrypted connection.&lt;/dd&gt;
-  &lt;dt id="index"&gt;Index&lt;/dt&gt;
-  &lt;dd&gt;The store of pages a search engine considers eligible for results. Nothing ranks until it's in there.&lt;/dd&gt;
-  &lt;dt id="indexnow"&gt;IndexNow&lt;/dt&gt;
-  &lt;dd&gt;A shared ping system: when a page appears, changes, or disappears, the site tells Bing, Yandex, and other members right away instead of waiting for a recrawl.&lt;/dd&gt;
-  &lt;dt id="inp"&gt;INP (Interaction to Next Paint)&lt;/dt&gt;
-  &lt;dd&gt;The Core Web Vital that times the gap between a tap, click, or keystroke and the screen's visible response. Aim for 200 ms or lower.&lt;/dd&gt;
-  &lt;dt id="json-ld"&gt;JSON-LD&lt;/dt&gt;
-  &lt;dd&gt;Google's preferred way to write structured data: a JSON object inside its own script element, kept apart from what visitors see.&lt;/dd&gt;
-  &lt;dt id="lcp"&gt;LCP (Largest Contentful Paint)&lt;/dt&gt;
-  &lt;dd&gt;The Core Web Vital that times how long the biggest image or text block in the opening view takes to finish drawing. Aim for 2.5 s or lower.&lt;/dd&gt;
-  &lt;dt id="llms-txt"&gt;llms.txt&lt;/dt&gt;
-  &lt;dd&gt;A suggested standard: a Markdown summary kept at the top level of a domain, pointing language models to the pages most worth reading.&lt;/dd&gt;
-  &lt;dt id="material-connection"&gt;Material connection&lt;/dt&gt;
-  &lt;dd&gt;The FTC's term for any tie between a brand and the person endorsing it, such as payment, free product, or employment. In the United States it has to be disclosed clearly wherever the endorsement appears.&lt;/dd&gt;
-  &lt;dt id="meta-description"&gt;Meta description&lt;/dt&gt;
-  &lt;dd&gt;The short summary written into a page's code that search engines often show beneath the title in results. It invites the click rather than setting the rank.&lt;/dd&gt;
-  &lt;dt id="near-duplicate"&gt;Near-duplicate&lt;/dt&gt;
-  &lt;dd&gt;Two pages whose text is almost, but not exactly, the same, such as product variants or city pages built from one template. Crawlers can flag them by similarity score; see &lt;a href="https://christopherabraham.com/guides/near-duplicates-and-h1s/"&gt;near duplicates and H1s&lt;/a&gt;.&lt;/dd&gt;
-  &lt;dt id="niche-edit"&gt;Niche edit&lt;/dt&gt;
-  &lt;dd&gt;A paid link inserted into an article that's already published and indexed, rather than a new article written for the purpose.&lt;/dd&gt;
-  &lt;dt id="noindex"&gt;noindex&lt;/dt&gt;
-  &lt;dd&gt;A directive, set in a meta tag or a response header, asking search engines to keep a page out of results.&lt;/dd&gt;
-  &lt;dt id="open-graph"&gt;Open Graph tags&lt;/dt&gt;
-  &lt;dd&gt;The og: meta tags in a page's head that set the headline, summary, and image Facebook, LinkedIn, Slack, and most messaging apps show when someone shares the link. See &lt;a href="https://christopherabraham.com/guides/social-share-cards/"&gt;social share cards&lt;/a&gt;.&lt;/dd&gt;
-  &lt;dt id="orange-cloud"&gt;Orange cloud&lt;/dt&gt;
-  &lt;dd&gt;Cloudflare's icon for a proxied DNS record, meaning visitors pass through Cloudflare's network, with its caching and protection, on the way to the site. A gray cloud means DNS only.&lt;/dd&gt;
-  &lt;dt id="orphan-page"&gt;Orphan page&lt;/dt&gt;
-  &lt;dd&gt;A page nothing else on the site links to. Only a sitemap entry or an outside link can lead anyone to it.&lt;/dd&gt;
-  &lt;dt id="permalink"&gt;Permalink&lt;/dt&gt;
-  &lt;dd&gt;The permanent address of a single post or page. In WordPress, the Permalinks settings screen decides its pattern; the post name pattern produces readable addresses.&lt;/dd&gt;
-  &lt;dt id="placed-article"&gt;Placed article&lt;/dt&gt;
-  &lt;dd&gt;An article published on another site through a paid arrangement, usually carrying a link back. Google expects the link to be marked rel="sponsored"; see &lt;a href="https://christopherabraham.com/guides/buying-backlinks/"&gt;why I turn down backlink work&lt;/a&gt;.&lt;/dd&gt;
-  &lt;dt id="prerendering"&gt;Prerendering&lt;/dt&gt;
-  &lt;dd&gt;Generating a finished HTML copy of a JavaScript page ahead of time and serving it to crawlers or visitors, so the content is readable without running scripts.&lt;/dd&gt;
-  &lt;dt id="pull-request"&gt;Pull request&lt;/dt&gt;
-  &lt;dd&gt;A proposed change to a code repository, shown line by line for review before it's merged. SEO fixes made this way are recorded, reviewable, and easy to undo; see &lt;a href="https://christopherabraham.com/guides/seo-in-your-repository/"&gt;SEO in your Git repository&lt;/a&gt;.&lt;/dd&gt;
-  &lt;dt id="reddit-answers"&gt;Reddit Answers&lt;/dt&gt;
-  &lt;dd&gt;Reddit's own AI search, launched in December 2024, which summarizes discussions from across the site in reply to a question.&lt;/dd&gt;
-  &lt;dt id="redirect-chain"&gt;Redirect chain&lt;/dt&gt;
-  &lt;dd&gt;Several redirects strung together before the visitor arrives. Every extra step costs time and can weaken the signals passed along.&lt;/dd&gt;
-  &lt;dt id="rel-sponsored"&gt;rel="sponsored"&lt;/dt&gt;
-  &lt;dd&gt;A link attribute that tells Google a link was paid for, so it passes no ranking credit. Google's spam policies ask for it on every paid or sponsored link.&lt;/dd&gt;
-  &lt;dt id="rendering"&gt;Rendering&lt;/dt&gt;
-  &lt;dd&gt;Running a page's scripts to produce what a browser finally shows. Anything that exists only after this step can escape crawlers that skip it.&lt;/dd&gt;
-  &lt;dt id="rich-results"&gt;Rich results&lt;/dt&gt;
-  &lt;dd&gt;Search listings dressed up with extra details drawn from structured data, like star ratings, prices, or breadcrumb trails.&lt;/dd&gt;
-  &lt;dt id="robots-txt"&gt;robots.txt&lt;/dt&gt;
-  &lt;dd&gt;A plain text file at the top of a domain that tells bots which folders to stay out of. It governs fetching; keeping a page out of results takes noindex.&lt;/dd&gt;
-  &lt;dt id="scaled-content-abuse"&gt;Scaled content abuse&lt;/dt&gt;
-  &lt;dd&gt;Google's spam policy against publishing many pages mainly to manipulate rankings, whether people, AI, or both produce them. The main target of Google's 2026 spam updates.&lt;/dd&gt;
-  &lt;dt id="schema"&gt;Schema markup&lt;/dt&gt;
-  &lt;dd&gt;Structured data written in the Schema.org vocabulary to spell out the people, organizations, places, and products on a page.&lt;/dd&gt;
-  &lt;dt id="search-console"&gt;Search Console&lt;/dt&gt;
-  &lt;dd&gt;Google's free owner dashboard: clicks and impressions, index status, Core Web Vitals, and alerts about problems it detects.&lt;/dd&gt;
-  &lt;dt id="ssr"&gt;Server-side rendering (SSR)&lt;/dt&gt;
-  &lt;dd&gt;Assembling the complete HTML on the server so a crawler gets every word in the first response, no scripts required.&lt;/dd&gt;
-  &lt;dt id="service-area-business"&gt;Service-area business&lt;/dt&gt;
-  &lt;dd&gt;A business on Google that travels to its customers, such as a plumber or mobile groomer, and hides its street address from the public profile. It verifies by showing its tools, vehicle, and nearby street markers. See &lt;a href="https://christopherabraham.com/guides/gbp-video-verification/"&gt;video verification&lt;/a&gt;.&lt;/dd&gt;
-  &lt;dt id="spa"&gt;Single page application (SPA)&lt;/dt&gt;
-  &lt;dd&gt;A website that loads one HTML shell and swaps content in with JavaScript as people click, instead of loading a new page for each address. Many AI app builders produce them.&lt;/dd&gt;
-  &lt;dt id="site-reputation-abuse"&gt;Site reputation abuse&lt;/dt&gt;
-  &lt;dd&gt;Placing a third party's low-value pages on a trusted site to borrow its standing in search, such as coupon or gambling sections rented out under a respected domain. Against Google's spam policies.&lt;/dd&gt;
-  &lt;dt id="soft-404"&gt;Soft 404&lt;/dt&gt;
-  &lt;dd&gt;A URL that answers with a success code yet shows an empty or not-found page. Google files it with the real 404s.&lt;/dd&gt;
-  &lt;dt id="spam-update"&gt;Spam update&lt;/dt&gt;
-  &lt;dd&gt;An improvement to the automated systems Google uses to detect pages that break its spam policies. Sites caught by one usually drop sharply and quickly.&lt;/dd&gt;
-  &lt;dt id="title-tag"&gt;Title tag&lt;/dt&gt;
-  &lt;dd&gt;The headline written into a page's code that search engines usually show as the clickable link in results and browsers show on the tab.&lt;/dd&gt;
-  &lt;dt id="topic-cluster"&gt;Topic cluster&lt;/dt&gt;
-  &lt;dd&gt;One hub page that defines a subject, plus a set of pages that each answer a single buyer question in full, all linked together. See &lt;a href="https://christopherabraham.com/guides/topic-clusters/"&gt;topic clusters for AI search&lt;/a&gt;.&lt;/dd&gt;
-  &lt;dt id="vibe-coding"&gt;Vibe coding&lt;/dt&gt;
-  &lt;dd&gt;Building software by describing what you want to an AI tool and accepting what it writes, with little reading of the code itself. Andrej Karpathy coined the phrase in February 2025.&lt;/dd&gt;
-  &lt;dt id="video-verification"&gt;Video verification&lt;/dt&gt;
-  &lt;dd&gt;Google's way of confirming a Business Profile from a single unedited phone recording of at least 30 seconds that shows the location, the business, and proof the owner runs it. Explained in &lt;a href="https://christopherabraham.com/guides/gbp-video-verification/"&gt;my video verification guide&lt;/a&gt;.&lt;/dd&gt;
-  &lt;dt id="white-label"&gt;White label&lt;/dt&gt;
-  &lt;dd&gt;A service delivered under someone else's brand: an agency resells the work, and its client never sees the vendor's name.&lt;/dd&gt;
-  &lt;dt id="xml-sitemap"&gt;XML sitemap&lt;/dt&gt;
-  &lt;dd&gt;A machine-readable list of the addresses a site wants crawled, often with the date each last changed.&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;These terms are used throughout the &lt;a href="https://christopherabraham.com/guides/"&gt;guides&lt;/a&gt; and &lt;a href="https://christopherabraham.com/services/"&gt;services&lt;/a&gt; pages.&lt;/p&gt;
-&lt;aside class="help-box" aria-label="Get help"&gt;
-  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
-  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
-  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
-  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
-&lt;/aside&gt;
 &lt;aside class="author-box" aria-label="About the author"&gt;
   &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
   &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;

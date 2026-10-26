@@ -1,6 +1,6 @@
 > Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.
 >
-> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-25 · By Christopher Abraham
+> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-26 · By Christopher Abraham
 
 # Site map
 
@@ -29,6 +29,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Internal linking strategy: stitch your website together](https://christopherabraham.com/services/internal-linking/): Internal linking strategy for an established website: contextual text links, descriptive anchors, orphan page recovery, useful hubs, and a measured rollout.
 - [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/): Independent SEO checks before and after a website release: rendering, indexing signals, redirects, media, and evidence your developer can act on.
 - [Website inquiry audits: find where contacts go missing](https://christopherabraham.com/services/inquiry-path-audit/): Find broken contact routes, missing form notifications, and misleading conversion events. Get documented tests, clear repair priorities, and verified retests.
+- [SEO report review](https://christopherabraham.com/services/seo-report-review/): Send me your agency's SEO audit or monthly report. I check its claims against your own Search Console and site data and tell you in writing what holds up.
 
 ## AI search, schema, and content
 - [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/): Improve how ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google AI Overviews describe and cite your business, with prompt testing, entities, and content.
@@ -41,8 +42,10 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): WordPress SEO done carefully: Yoast and Rank Math settings, theme and plugin conflicts, page builder bloat, caching, and old installs that need a steady hand.
 - [Static websites built for search](https://christopherabraham.com/services/static-sites/): Static websites on GitHub Pages and Cloudflare, built with OpenAI Codex and Claude Code. Every build checks SEO, links, and copy before the site publishes.
 - [Podcast website SEO](https://christopherabraham.com/services/podcast-website/): I turn a podcast feed into a fast website on your own domain, with a page per episode, transcripts, schema, share cards, and new episodes added each morning.
+- [Launch websites for a book, an album, or a new service](https://christopherabraham.com/services/launch-site/): A fast, findable website for a book, album, film, or new service, on a domain you own, with search basics, share cards, and AI-readable pages from day one.
 - [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Ecommerce SEO for Shopify, WooCommerce, and Magento: product and category templates, faceted navigation, duplicate URLs, product schema, and AI answers.
 - [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/): Align your website, location pages, and Google Business Profiles, with hard profile cases like suspensions handled as scoped, paid written diagnostics.
+- [Google Business Profile verification help](https://christopherabraham.com/services/gbp-verification/): Help for Business Profiles that won't verify: failed video checks, listings nobody can edit, missing owners, and service-area setups Google keeps questioning.
 - [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): A monthly SEO retainer with a senior consultant: monitoring, hands on fixes, developer QA, AI search checks, and a plain-English report every month.
 
 ## Guides
@@ -99,6 +102,11 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Google Business Profile video verification: plan the take before you press record](https://christopherabraham.com/guides/gbp-video-verification/): Passing Google Business Profile video verification the first time: what Google wants on camera for storefronts and service areas, and what to do if it fails.
 - [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/): What an XML sitemap should hold in 2026: canonical URLs that answer 200, honest lastmod dates, no priority games, and how I audit one against a crawl.
 - [How to choose the next SEO fix when developer time is scarce](https://christopherabraham.com/guides/prioritize-seo-work/): Choose the next SEO task using business value, affected pages, evidence, dependencies, and effort, then keep a clear record of what shipped and what changed.
+- [Service-area businesses on Google Business Profile](https://christopherabraham.com/guides/service-area-business/): How a business that travels to customers should set up its Google Business Profile: removing the address, choosing service areas, and the phone number.
+- [Black Friday sale pages that keep their rankings](https://christopherabraham.com/guides/black-friday-pages/): Build one Black Friday URL and reuse it every year: what Google advises for sale pages, when to publish, what to do in January, and how to track the results.
+- [Google Merchant Center free listings for small shops](https://christopherabraham.com/guides/merchant-center-free-listings/): How a small shop gets its products into Google's free listings: the Merchant Center feed, required attributes, shipping, returns, and the errors to fix first.
+- [Apple Maps and Bing Places: local listings past Google](https://christopherabraham.com/guides/apple-and-bing-listings/): Why a local business should claim its Apple Maps place card and its Bing Places listing, what each one feeds, how to set them up, and keeping them consistent.
+- [The FTC fake review rule for small businesses](https://christopherabraham.com/guides/ftc-review-rule/): The FTC's rule on consumer reviews took effect October 21, 2024. What it bans, what it allows, and how to ask customers for reviews without risk to you.
 - [Search Console comparisons that support better decisions](https://christopherabraham.com/guides/search-console-comparisons/): Compare Search Console periods with consistent filters, matched weekdays, and page groups so seasonal demand and changing query mixes do not distort the result.
 
 ## Case studies
@@ -133,4 +141,4 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 25, 2026
+Updated October 26, 2026

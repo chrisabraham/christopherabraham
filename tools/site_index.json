@@ -443,6 +443,15 @@
    "see": [],
    "main": []
   },
+  "agency reports": {
+   "kind": "topic",
+   "pages": [],
+   "subs": {},
+   "see": [
+    "SEO report review"
+   ],
+   "main": []
+  },
   "Ahrefs": {
    "kind": "topic",
    "pages": [
@@ -786,6 +795,17 @@
    "see": [],
    "main": []
   },
+  "album and film websites": {
+   "kind": "topic",
+   "pages": [
+    "services/launch-site"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/launch-site"
+   ]
+  },
   "Aliamanu Elementary School": {
    "kind": "topic",
    "pages": [
@@ -974,20 +994,26 @@
   "Apple Business Connect": {
    "kind": "topic",
    "pages": [
-    "guides/ai-search-checklist"
+    "guides/ai-search-checklist",
+    "guides/apple-and-bing-listings"
    ],
    "subs": {},
    "see": [],
-   "main": []
+   "main": [
+    "guides/apple-and-bing-listings"
+   ]
   },
   "Apple Maps": {
    "kind": "topic",
    "pages": [
-    "guides/business-name-change"
+    "guides/business-name-change",
+    "guides/apple-and-bing-listings"
    ],
    "subs": {},
    "see": [],
-   "main": []
+   "main": [
+    "guides/apple-and-bing-listings"
+   ]
   },
   "Applebot-Extended": {
    "kind": "topic",
@@ -1133,7 +1159,8 @@
    "pages": [
     "services/indexing",
     "services/search-console",
-    "services/seo-audit"
+    "services/seo-audit",
+    "guides/apple-and-bing-listings"
    ],
    "subs": {
     "indexing what Google skipped": [
@@ -1149,11 +1176,18 @@
    "kind": "topic",
    "pages": [
     "guides/ai-search-checklist",
-    "guides/business-name-change"
+    "guides/business-name-change",
+    "guides/apple-and-bing-listings"
    ],
-   "subs": {},
+   "subs": {
+    "import from Google": [
+     "guides/apple-and-bing-listings"
+    ]
+   },
    "see": [],
-   "main": []
+   "main": [
+    "guides/apple-and-bing-listings"
+   ]
   },
   "Bing Webmaster Tools": {
    "kind": "topic",
@@ -1209,6 +1243,24 @@
    "see": [],
    "main": []
   },
+  "Black Friday pages": {
+   "kind": "topic",
+   "pages": [
+    "guides/black-friday-pages"
+   ],
+   "subs": {
+    "one permanent URL": [
+     "guides/black-friday-pages"
+    ],
+    "after the sale": [
+     "guides/black-friday-pages"
+    ]
+   },
+   "see": [],
+   "main": [
+    "guides/black-friday-pages"
+   ]
+  },
   "blogger outreach": {
    "kind": "topic",
    "pages": [
@@ -1227,6 +1279,17 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "book launch websites": {
+   "kind": "topic",
+   "pages": [
+    "services/launch-site"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/launch-site"
+   ]
   },
   "BOTI award": {
    "kind": "topic",
@@ -2091,6 +2154,15 @@
    "see": [],
    "main": []
   },
+  "Cyber Monday": {
+   "kind": "topic",
+   "pages": [
+    "guides/black-friday-pages"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "Debian": {
    "kind": "topic",
    "pages": [
@@ -2335,7 +2407,9 @@
     "services",
     "services/ecommerce-seo",
     "case-studies/scroll-gated-products",
-    "case-studies/shopify-cleanup"
+    "case-studies/shopify-cleanup",
+    "guides/black-friday-pages",
+    "guides/merchant-center-free-listings"
    ],
    "subs": {
     "category pages": [
@@ -2513,7 +2587,8 @@
    "kind": "topic",
    "pages": [
     "services/fact-checked-articles",
-    "guides/earned-mentions"
+    "guides/earned-mentions",
+    "guides/ftc-review-rule"
    ],
    "subs": {},
    "see": [
@@ -2604,6 +2679,17 @@
    "see": [],
    "main": []
   },
+  "free listings (Google)": {
+   "kind": "topic",
+   "pages": [
+    "guides/merchant-center-free-listings"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "guides/merchant-center-free-listings"
+   ]
+  },
   "Freemasonry": {
    "kind": "topic",
    "pages": [],
@@ -2627,11 +2713,14 @@
   "FTC rule on fake reviews (2024)": {
    "kind": "topic",
    "pages": [
-    "guides/earned-mentions"
+    "guides/earned-mentions",
+    "guides/ftc-review-rule"
    ],
    "subs": {},
    "see": [],
-   "main": []
+   "main": [
+    "guides/ftc-review-rule"
+   ]
   },
   "GA4 (Google Analytics 4)": {
    "kind": "topic",
@@ -2923,7 +3012,11 @@
     "about/skills",
     "guides/gbp-performance-reports",
     "services/ai-visibility",
-    "the-machine-answers-first"
+    "the-machine-answers-first",
+    "guides/service-area-business",
+    "services/gbp-verification",
+    "guides/apple-and-bing-listings",
+    "guides/ftc-review-rule"
    ],
    "subs": {
     "suspensions and appeals": [
@@ -2964,6 +3057,12 @@
     ],
     "as a source for AI answers": [
      "services/ai-visibility"
+    ],
+    "business name rules": [
+     "guides/service-area-business"
+    ],
+    "verification help (service)": [
+     "services/gbp-verification"
     ]
    },
    "see": [
@@ -3215,6 +3314,17 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "GTIN": {
+   "kind": "topic",
+   "pages": [
+    "guides/merchant-center-free-listings"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "guides/merchant-center-free-listings"
+   ]
   },
   "guarantees, ranking": {
    "kind": "topic",
@@ -3494,6 +3604,17 @@
    "see": [],
    "main": []
   },
+  "hybrid businesses": {
+   "kind": "topic",
+   "pages": [
+    "guides/service-area-business"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "guides/service-area-business"
+   ]
+  },
   "hydration errors": {
    "kind": "topic",
    "pages": [
@@ -3756,6 +3877,15 @@
    "see": [],
    "main": []
   },
+  "Kent, Alan (Google Search Relations)": {
+   "kind": "person",
+   "pages": [
+    "guides/black-friday-pages"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "keyword cannibalization": {
    "kind": "topic",
    "pages": [
@@ -3838,6 +3968,17 @@
    "see": [],
    "main": [
     "guides/lapsed-domains"
+   ]
+  },
+  "launch websites": {
+   "kind": "topic",
+   "pages": [
+    "services/launch-site"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/launch-site"
    ]
   },
   "lazy loading": {
@@ -4145,6 +4286,17 @@
    "see": [],
    "main": []
   },
+  "master record for listings": {
+   "kind": "topic",
+   "pages": [
+    "guides/apple-and-bing-listings"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "guides/apple-and-bing-listings"
+   ]
+  },
   "material connection": {
    "kind": "topic",
    "pages": [
@@ -4258,7 +4410,28 @@
    "kind": "topic",
    "pages": [
     "services/ecommerce-seo",
-    "guides/ai-content-seo"
+    "guides/ai-content-seo",
+    "guides/merchant-center-free-listings",
+    "guides/black-friday-pages"
+   ],
+   "subs": {
+    "free listings": [
+     "guides/merchant-center-free-listings"
+    ],
+    "Needs attention tab": [
+     "guides/merchant-center-free-listings"
+    ]
+   },
+   "see": [],
+   "main": [
+    "guides/merchant-center-free-listings"
+   ]
+  },
+  "merchant listing structured data": {
+   "kind": "topic",
+   "pages": [
+    "guides/merchant-center-free-listings",
+    "guides/black-friday-pages"
    ],
    "subs": {},
    "see": [],
@@ -4490,7 +4663,9 @@
    "kind": "topic",
    "pages": [
     "services/local-seo",
-    "services/ai-visibility"
+    "services/ai-visibility",
+    "guides/service-area-business",
+    "guides/apple-and-bing-listings"
    ],
    "subs": {},
    "see": [],
@@ -5079,6 +5254,18 @@
    "see": [],
    "main": []
   },
+  "phone numbers on listings": {
+   "kind": "topic",
+   "pages": [
+    "guides/service-area-business",
+    "guides/apple-and-bing-listings"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "guides/service-area-business"
+   ]
+  },
   "PHP": {
    "kind": "topic",
    "pages": [
@@ -5106,6 +5293,17 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "place cards (Apple Maps)": {
+   "kind": "topic",
+   "pages": [
+    "guides/apple-and-bing-listings"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "guides/apple-and-bing-listings"
+   ]
   },
   "placed articles": {
    "kind": "topic",
@@ -5234,6 +5432,17 @@
    "see": [],
    "main": [
     "privacy"
+   ]
+  },
+  "product feeds": {
+   "kind": "topic",
+   "pages": [
+    "guides/merchant-center-free-listings"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "guides/merchant-center-free-listings"
    ]
   },
   "programmatic SEO": {
@@ -5547,6 +5756,17 @@
     "services/seo-retainer"
    ]
   },
+  "review gating": {
+   "kind": "topic",
+   "pages": [
+    "guides/ftc-review-rule"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "guides/ftc-review-rule"
+   ]
+  },
   "reviews": {
    "kind": "topic",
    "pages": [
@@ -5556,9 +5776,21 @@
     "services/schema",
     "guides/small-business-schema",
     "case-studies/shopify-cleanup",
-    "the-machine-answers-first"
+    "the-machine-answers-first",
+    "guides/ftc-review-rule",
+    "guides/service-area-business"
    ],
-   "subs": {},
+   "subs": {
+    "incentives": [
+     "guides/ftc-review-rule"
+    ],
+    "employee and family reviews": [
+     "guides/ftc-review-rule"
+    ],
+    "suppression": [
+     "guides/ftc-review-rule"
+    ]
+   },
    "see": [
     "fake reviews",
     "self-serving reviews"
@@ -5934,7 +6166,8 @@
   "seasonality": {
    "kind": "topic",
    "pages": [
-    "guides/update-recovery-2026"
+    "guides/update-recovery-2026",
+    "guides/black-friday-pages"
    ],
    "subs": {},
    "see": [],
@@ -5952,7 +6185,8 @@
   "self-serving reviews": {
    "kind": "topic",
    "pages": [
-    "guides/small-business-schema"
+    "guides/small-business-schema",
+    "guides/ftc-review-rule"
    ],
    "subs": {},
    "see": [],
@@ -5979,6 +6213,17 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "SEO agencies, checking their reports": {
+   "kind": "topic",
+   "pages": [
+    "services/seo-report-review"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/seo-report-review"
+   ]
   },
   "SEO Browser": {
    "kind": "topic",
@@ -6046,6 +6291,17 @@
     "services/seo-release-qa"
    ]
   },
+  "SEO report review": {
+   "kind": "topic",
+   "pages": [
+    "services/seo-report-review"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/seo-report-review"
+   ]
+  },
   "SEOFOMO": {
    "kind": "topic",
    "pages": [
@@ -6094,12 +6350,25 @@
    "kind": "topic",
    "pages": [
     "guides/gbp-video-verification",
-    "guides/glossary"
+    "guides/glossary",
+    "guides/service-area-business",
+    "services/gbp-verification"
    ],
-   "subs": {},
+   "subs": {
+    "removing the address": [
+     "guides/service-area-business"
+    ],
+    "20 service areas, two hours of driving": [
+     "guides/service-area-business"
+    ],
+    "virtual offices and P.O. boxes": [
+     "guides/service-area-business"
+    ]
+   },
    "see": [],
    "main": [
-    "guides/gbp-video-verification"
+    "guides/gbp-video-verification",
+    "guides/service-area-business"
    ]
   },
   "service-area pages": {
@@ -6528,7 +6797,8 @@
     "services/static-sites",
     "services/podcast-website",
     "case-studies/movable-type-novel",
-    "about/colophon"
+    "about/colophon",
+    "services/launch-site"
    ],
    "subs": {},
    "see": [],
@@ -6740,7 +7010,8 @@
     "services/seo-audit",
     "services/seo-retainer",
     "guides",
-    "guides/seo-audit-deliverables"
+    "guides/seo-audit-deliverables",
+    "services/seo-report-review"
    ],
    "subs": {
     "deliverables": [
@@ -6783,11 +7054,14 @@
    "kind": "topic",
    "pages": [
     "home",
-    "guides/third-party-proof"
+    "guides/third-party-proof",
+    "guides/ftc-review-rule"
    ],
    "subs": {},
    "see": [],
-   "main": []
+   "main": [
+    "guides/ftc-review-rule"
+   ]
   },
   "text browsers": {
    "kind": "topic",
@@ -7125,6 +7399,17 @@
    "see": [],
    "main": []
   },
+  "vanity metrics": {
+   "kind": "topic",
+   "pages": [
+    "services/seo-report-review"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/seo-report-review"
+   ]
+  },
   "variable isolation": {
    "kind": "topic",
    "pages": [],
@@ -7159,12 +7444,24 @@
   },
   "verification, Google Business Profile": {
    "kind": "topic",
-   "pages": [],
-   "subs": {},
+   "pages": [
+    "services/gbp-verification",
+    "guides/service-area-business"
+   ],
+   "subs": {
+    "unverified profiles locked for editing": [
+     "services/gbp-verification"
+    ],
+    "ownership requests": [
+     "services/gbp-verification"
+    ]
+   },
    "see": [
     "video verification"
    ],
-   "main": []
+   "main": [
+    "services/gbp-verification"
+   ]
   },
   "verifying fixes": {
    "kind": "topic",
@@ -7218,7 +7515,9 @@
   "video verification": {
    "kind": "topic",
    "pages": [
-    "guides/gbp-video-verification"
+    "guides/gbp-video-verification",
+    "services/gbp-verification",
+    "guides/service-area-business"
    ],
    "subs": {
     "recording rules": [
@@ -7783,6 +8082,14 @@
   "guides/prioritize-seo-work",
   "guides/search-console-comparisons",
   "services/ai-visibility",
-  "the-machine-answers-first"
+  "the-machine-answers-first",
+  "guides/service-area-business",
+  "guides/black-friday-pages",
+  "guides/merchant-center-free-listings",
+  "guides/apple-and-bing-listings",
+  "guides/ftc-review-rule",
+  "services/launch-site",
+  "services/seo-report-review",
+  "services/gbp-verification"
  ]
 }

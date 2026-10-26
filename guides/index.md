@@ -1,12 +1,13 @@
 > Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
 >
-> Source: https://christopherabraham.com/guides/ · Updated 2026-10-24 · By Christopher Abraham
+> Source: https://christopherabraham.com/guides/ · Updated 2026-10-26 · By Christopher Abraham
 
 # SEO guides
 
 These guides cover the questions clients ask me most, written so you can act on them yourself. Each one is self-contained, with links to related guides and to the glossary for terms.
 
 ## Seasonal businesses
+- [Black Friday sale pages that keep their rankings](https://christopherabraham.com/guides/black-friday-pages/): one permanent address reused every year, when to publish, and what to do with the page in January.
 - [Search Console comparisons that support better decisions](https://christopherabraham.com/guides/search-console-comparisons/): consistent periods, page groups, and honest reporting.
 - [Prioritize SEO work with limited developer time](https://christopherabraham.com/guides/prioritize-seo-work/): a practical method with an illustrative example and verification steps.
 - [Measure seasonal local SEO before the busy weeks arrive](https://christopherabraham.com/guides/seasonal-local-seo/): a practical workflow with explicit decisions and verifiable evidence.
@@ -34,6 +35,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Reddit and AI answers](https://christopherabraham.com/guides/reddit-ai-answers/): why threads shape what Google and ChatGPT say about you, what moderators remove, and honest participation.
 - [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/): five types, example JSON-LD, and the rules that keep it accurate.
 - [Topic clusters for AI search](https://christopherabraham.com/guides/topic-clusters/): one hub, one page per buyer question, and no two pages competing for the same query.
+- [Google Merchant Center free listings for small shops](https://christopherabraham.com/guides/merchant-center-free-listings/): the feed, required attributes, shipping and returns, and the errors to fix first.
 
 ## Migrations and performance
 - [Check images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/): inventory media, inspect the new files, find old references, and record the handover.
@@ -52,6 +54,9 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Hit by a 2026 Google update?](https://christopherabraham.com/guides/update-recovery-2026/): line the drop up with the calendar, rule out reporting quirks, find the pages that lost, and fix them in order.
 - [Google Business Profile video verification](https://christopherabraham.com/guides/gbp-video-verification/): the single take Google wants, what storefronts and service-area businesses must show, and what to do after a rejection.
 - [Holiday hours on Google Business Profile](https://christopherabraham.com/guides/holiday-hours/): special hours versus temporarily closed, a calendar for the season, and multiple locations.
+- [Service-area businesses on Google Business Profile](https://christopherabraham.com/guides/service-area-business/): removing the address, choosing service areas, and the phone number that matches everywhere.
+- [Apple Maps and Bing Places: local listings past Google](https://christopherabraham.com/guides/apple-and-bing-listings/): claiming the place card and the Bing listing, and keeping one master record.
+- [The FTC fake review rule for small businesses](https://christopherabraham.com/guides/ftc-review-rule/): what the 2024 rule bans, what it allows, review gating, and staff reviews.
 
 ## Your name, your entity, and AI answers
 - [How to measure your share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/): a fixed question set, who gets named, the tone, and the sources cited, run monthly.
@@ -83,4 +88,4 @@ New and updated guides appear in the [full-text RSS feed](https://christopherabr
 
 If you've worked through a guide and the problem is still there, that's usually the point where a second set of eyes on the actual site helps. Every engagement begins with a scoped audit; see the [services](https://christopherabraham.com/services/) or [get in touch](https://christopherabraham.com/contact/).
 
-Updated October 24, 2026
+Updated October 26, 2026

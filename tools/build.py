@@ -99,6 +99,14 @@ FILES += ["guides/xml-sitemaps"]
 
 FILES += ["guides/prioritize-seo-work"]
 
+# Five guides and three services, October 26, 2026, written by Claude Code.
+FILES += ["guides/service-area-business", "guides/black-friday-pages", "guides/merchant-center-free-listings",
+          "guides/apple-and-bing-listings", "guides/ftc-review-rule",
+          "services/launch-site", "services/seo-report-review", "services/gbp-verification"]
+SERVICE_GROUPS[0][1].append("services/seo-report-review/")
+SERVICE_GROUPS[2][1].insert(SERVICE_GROUPS[2][1].index("services/podcast-website/") + 1, "services/launch-site/")
+SERVICE_GROUPS[2][1].insert(SERVICE_GROUPS[2][1].index("services/local-seo/") + 1, "services/gbp-verification/")
+
 MIN_WORDS = {"guide": 700, "service": 450, "case": 250, "page": 250}
 TODAY = datetime.date.today().isoformat()
 os.chdir(os.path.join(os.path.dirname(__file__), ".."))

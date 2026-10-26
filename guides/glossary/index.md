@@ -1,10 +1,10 @@
 > Plain-English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 >
-> Source: https://christopherabraham.com/guides/glossary/ · Updated 2026-10-24 · By Christopher Abraham
+> Source: https://christopherabraham.com/guides/glossary/ · Updated 2026-10-26 · By Christopher Abraham
 
 # Glossary of SEO and AI search terms
 
-By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026 · Updated October 24, 2026
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026 · Updated October 26, 2026
 
 The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need. To find every page that discusses a term, use the [index](https://christopherabraham.com/site-index/).
 
@@ -83,17 +83,26 @@ Category filters for attributes like color, size, or price. Left open to crawler
 **Field data**
 Speed and responsiveness figures gathered from actual visits, as opposed to one synthetic test run on a single machine.
 
+**Free listings**
+Unpaid product results Google shows across Shopping, Search, Images, Lens, and Maps, fed by a store's Merchant Center data. See [Merchant Center free listings](https://christopherabraham.com/guides/merchant-center-free-listings/).
+
 **GEO (generative engine optimization)**
 Work aimed at how generative AI tools portray and cite a company or a page. In practice it overlaps almost entirely with AEO and AI SEO.
 
 **Google Business Profile**
 The free Google listing that puts a business on Maps and in local results, carrying its hours, categories, photos, and reviews.
 
+**GTIN (Global Trade Item Number)**
+The barcode number a manufacturer assigns to a product, such as a UPC or EAN. Resellers put it in their product feed; makers of their own goods mark it as not applicable.
+
 **hreflang**
 Markup that pairs each language or country edition of a page with the audience that should see it.
 
 **HSTS**
 A security header telling browsers to reach a site only over HTTPS for a set period, so no visit ever falls back to an unencrypted connection.
+
+**Hybrid business**
+A business that both receives customers at a posted address and travels to them, such as a tile showroom with installation crews. Its profile shows the address and a service area. See [service-area businesses](https://christopherabraham.com/guides/service-area-business/).
 
 **Index**
 The store of pages a search engine considers eligible for results. Nothing ranks until it's in there.
@@ -140,6 +149,9 @@ A page nothing else on the site links to. Only a sitemap entry or an outside lin
 **Permalink**
 The permanent address of a single post or page. In WordPress, the Permalinks settings screen decides its pattern; the post name pattern produces readable addresses.
 
+**Place card**
+Apple Maps' listing for a business: name, hours, phone, photos, and actions such as booking, managed through Apple's business tools. See [Apple and Bing listings](https://christopherabraham.com/guides/apple-and-bing-listings/).
+
 **Placed article**
 An article published on another site through a paid arrangement, usually carrying a link back. Google expects the link to be marked rel="sponsored"; see [why I turn down backlink work](https://christopherabraham.com/guides/buying-backlinks/).
 
@@ -160,6 +172,9 @@ A link attribute that tells Google a link was paid for, so it passes no ranking 
 
 **Rendering**
 Running a page's scripts to produce what a browser finally shows. Anything that exists only after this step can escape crawlers that skip it.
+
+**Review gating**
+Screening customers before asking for a public review, so only satisfied ones reach the review site. Google's policies forbid it, and the FTC warns it can mislead. See [the FTC review rule](https://christopherabraham.com/guides/ftc-review-rule/).
 
 **Rich results**
 Search listings dressed up with extra details drawn from structured data, like star ratings, prices, or breadcrumb trails.
