@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360" role="img" aria-label="A shopkeeper writing his own review cards while a customer reads the handwriting">
+  <rect x="0" y="0" width="480" height="360" fill="#ffffff"/>
+  <!-- shop front, blue -->
+  <g fill="none" stroke="#2255cc" stroke-width="4" stroke-linecap="round">
+    <path d="M28 322 L28 96 L238 96 L238 322"/>
+    <path d="M14 322 L300 322"/>
+  </g>
+  <!-- awning stripes, red and green -->
+  <g stroke-width="5" stroke-linecap="round">
+    <path d="M28 96 L48 66" stroke="#cc2222"/>
+    <path d="M62 96 L76 66" stroke="#228833"/>
+    <path d="M96 96 L104 66" stroke="#cc2222"/>
+    <path d="M130 96 L132 66" stroke="#228833"/>
+    <path d="M164 96 L160 66" stroke="#cc2222"/>
+    <path d="M198 96 L188 66" stroke="#228833"/>
+    <path d="M232 96 L216 66" stroke="#cc2222"/>
+    <path d="M48 66 L216 66" stroke="#2255cc" stroke-width="4"/>
+  </g>
+  <!-- review cards pinned on the shop wall -->
+  <g fill="#ffffff" stroke-width="3">
+    <rect x="44" y="118" width="52" height="66" stroke="#cc2222"/>
+    <rect x="108" y="114" width="52" height="66" stroke="#228833"/>
+    <rect x="172" y="118" width="52" height="66" stroke="#2255cc"/>
+  </g>
+  <g fill="none" stroke-width="2.5" stroke-linecap="round">
+    <path d="M52 152 q6 -6 12 0 q6 6 12 0 q5 -5 10 -1" stroke="#cc2222"/>
+    <path d="M52 166 q8 -5 16 0 q8 5 16 0" stroke="#cc2222"/>
+    <path d="M116 148 q6 -6 12 0 q6 6 12 0 q5 -5 10 -1" stroke="#228833"/>
+    <path d="M116 162 q8 -5 16 0 q8 5 16 0" stroke="#228833"/>
+    <path d="M180 152 q6 -6 12 0 q6 6 12 0 q5 -5 10 -1" stroke="#2255cc"/>
+    <path d="M180 166 q8 -5 16 0 q8 5 16 0" stroke="#2255cc"/>
+  </g>
+  <!-- stars on the wall cards -->
+  <g font-family="sans-serif" font-size="17">
+    <text x="60" y="140" fill="#cc2222">★</text>
+    <text x="124" y="136" fill="#228833">★</text>
+    <text x="188" y="140" fill="#2255cc">★</text>
+  </g>
+  <!-- counter -->
+  <path d="M40 262 L226 262" stroke="#2255cc" stroke-width="4" stroke-linecap="round"/>
+  <!-- shopkeeper: head, body, writing arm -->
+  <g fill="none" stroke="#cc2222" stroke-width="4" stroke-linecap="round">
+    <circle cx="92" cy="208" r="15"/>
+    <path d="M92 223 L92 262"/>
+    <path d="M92 234 L128 252"/>
+  </g>
+  <!-- pen in shopkeeper hand -->
+  <path d="M128 252 L146 242" stroke="#228833" stroke-width="4" stroke-linecap="round"/>
+  <!-- the card he is writing on the counter -->
+  <g>
+    <rect x="132" y="238" width="58" height="42" fill="#ffffff" stroke="#228833" stroke-width="3"/>
+    <path d="M140 256 q6 -6 12 0 q6 6 12 0 q5 -5 10 -1" fill="none" stroke="#228833" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M140 268 q8 -5 16 0 q8 5 16 0" fill="none" stroke="#228833" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="140" y="252" font-family="sans-serif" font-size="14" fill="#cc2222">★</text>
+  </g>
+  <!-- customer reading a card -->
+  <g fill="none" stroke="#2255cc" stroke-width="4" stroke-linecap="round">
+    <circle cx="336" cy="150" r="16"/>
+    <path d="M336 166 L336 236"/>
+    <path d="M336 236 L318 322"/>
+    <path d="M336 236 L356 322"/>
+    <path d="M336 184 L382 200"/>
+  </g>
+  <!-- the card in the customer hand, handwriting large -->
+  <g>
+    <rect x="376" y="182" width="80" height="104" fill="#ffffff" stroke="#cc2222" stroke-width="3.5"/>
+    <path d="M386 222 q8 -8 16 0 q8 8 16 0 q7 -6 14 -1" fill="none" stroke="#cc2222" stroke-width="3" stroke-linecap="round"/>
+    <path d="M386 244 q10 -6 20 0 q10 6 20 0" fill="none" stroke="#cc2222" stroke-width="3" stroke-linecap="round"/>
+    <path d="M386 264 q8 -6 16 0 q8 6 16 0 q7 -5 12 -1" fill="none" stroke="#cc2222" stroke-width="3" stroke-linecap="round"/>
+    <text x="386" y="212" font-family="sans-serif" font-size="19" fill="#228833">★ ★ ★</text>
+  </g>
+  <!-- customer eye line toward the handwriting -->
+  <path d="M348 148 L380 196" stroke="#228833" stroke-width="2.5" stroke-dasharray="5 6" stroke-linecap="round"/>
+</svg>

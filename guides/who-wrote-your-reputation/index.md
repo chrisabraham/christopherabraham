@@ -1,0 +1,39 @@
+> I wrote most of my own reputation across thirty years online, and AI search believes it and shows the receipts. An owner audit of praise and provenance.
+>
+> Source: https://christopherabraham.com/guides/who-wrote-your-reputation/ · Updated 2026-10-27 · By Christopher Abraham
+
+# Who Wrote Your Reputation and What AI Search Believes
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 27, 2026
+
+Search my name and the record glows. Three decades of work surface in the answers, stated with confidence and sourced to pages that describe a seasoned expert. Then click the citations. Ninety five percent of the stellar material traces back to my own hand: sites I own, articles I wrote, interviews I gave, words I published about myself. I stand as the worked example of a reputation the owner wrote personally, and AI search has made that example impossible to hide and worth studying line by line.
+
+## The vacuum law
+
+An online record abhors a vacuum, and AI search fills empty space with whatever strangers left behind. An owner who stays silent gets described by a stale directory stub, a furious review from 2016, a namesake in another state with a court record, an ex employee settling a score in a forum thread. Populating the record personally is necessary and legitimate work. I came online in 1993 and spent thirty years answering, in public and under my own name, every question a client could ask: the services, the methods, the credentials, the failures and the corrections. That abundance gives the engines material, and material becomes the answer. The owner who declines to write a record still gets a biography. Strangers hold the pen.
+
+## The provenance ceiling
+
+Self corroboration convinces the engine completely. The engine counts sources, weighs consistency, and repeats the record back as fact. The discerning human doing due diligence runs a different audit: click each citation and check the byline. Every road in my record runs back to a property I own or a venue that printed my words. Provenance sets a ceiling on that record because publisher and subject share a name, and experienced buyers read bylines before they read claims. Deals die at that ceiling silently. The prospect praises the materials, says the timing feels off, and hires the competitor a stranger vouched for. The engines believed me at full volume. The human believed me at a discount the size of my authorship share, and my authorship share is 95 percent.
+
+## Three kinds of receipts
+
+Receipts come in three kinds, ranked by how hard they are to forge. The first kind is what I say about myself: my pages, my profiles, my stated record. This kind is the foundation and the cheapest evidence in the pile, discounted on sight by anyone who has bought professional services before. The second kind is what venues under my control repeat: my other sites, my newsletter, my columns placed under my own byline, my show. Repetition across my own properties reads as breadth to an engine. To a human it reads as one voice holding several microphones. The third kind is what independent parties stake their own names on. A named client in a named testimonial risks personal standing. A referral spends the referrer's credibility with a friend. A marketplace history backed by paid transactions and verified reviews carries a platform audit behind every star. Coverage an editor chose to run answers to judgment I do not control. The third kind compounds because strangers signed it, and strangers can stop signing the moment the work slips.
+
+## The audit I run on myself
+
+Once a quarter I ask the engines who I am, then I click every citation and count the hands. One hand is mine. Several hands belong to outlets that printed my submissions. The hands that matter belong to people with no obligation to me who attached their names to my work anyway. Then I run the subtraction test: strip away every page I wrote or control and see what remains standing. What remains is the reputation strangers will defend in a room I never enter. Any owner can run this audit in an afternoon. The arithmetic is brutal and clarifying, and it converts a vague anxiety about credibility into a number with a direction.
+
+## The working instruction
+
+Keep writing the record. The vacuum law grants no retirement, and a silent year hands the pen back to strangers. Spend equal effort earning the third kind. Deliver work that gives a client a result worth signing, then ask for the named testimonial while the result is fresh and the gratitude is specific. Treat marketplace history as an asset with a balance: every completed transaction and verified review raises the share of the record a platform has audited. Give reporters and podcasters material with evidence attached, because an independent voice repeats what it can check. And refuse the counterfeit of the third kind. Bought roundups, generated reviews, and planted praise imitate independent receipts and devalue genuine ones on contact; my guide to [SEO advice to refuse](https://christopherabraham.com/guides/seo-advice-to-refuse/) names those schemes and the penalties they carry. Thirty years of my own handwriting taught the machines to believe me. The signatures of strangers decide whether humans follow, so I spend my effort collecting signatures I cannot write.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)

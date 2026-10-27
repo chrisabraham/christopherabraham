@@ -4,7 +4,7 @@
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 603 headings across 117 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 604 headings across 118 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -908,6 +908,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Renaissance Weekend, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - rendering, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/)
 - reports, disagreeing, [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/)
+- reputation provenance, **[Who Wrote Your Reputation](https://christopherabraham.com/guides/who-wrote-your-reputation/)**. *See also* [mentions, off-site](https://christopherabraham.com/site-index/#ix-mentions-offsite); [online reputation management](https://christopherabraham.com/site-index/#ix-online-reputation-management)
 - Reputation.com, [About](https://christopherabraham.com/about/)
 - responsive images, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
 - retainers, [Services](https://christopherabraham.com/services/), **[SEO Retainer](https://christopherabraham.com/services/seo-retainer/)**

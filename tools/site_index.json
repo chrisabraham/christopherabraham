@@ -8107,6 +8107,20 @@
    "main": [
     "guides/nobody-mentions-you"
    ]
+  },
+  "reputation provenance": {
+   "kind": "topic",
+   "pages": [
+    "guides/who-wrote-your-reputation"
+   ],
+   "subs": {},
+   "see": [
+    "online reputation management",
+    "mentions, off-site"
+   ],
+   "main": [
+    "guides/who-wrote-your-reputation"
+   ]
   }
  },
  "reviewed": [
@@ -8226,6 +8240,7 @@
   "services/peak-season-readiness",
   "services/website-archive-recovery",
   "guides/seo-advice-to-refuse",
-  "guides/nobody-mentions-you"
+  "guides/nobody-mentions-you",
+  "guides/who-wrote-your-reputation"
  ]
 }

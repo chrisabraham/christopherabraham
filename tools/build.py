@@ -174,6 +174,7 @@ pages = []
 FILES += ["guides/search-console-comparisons"]
 FILES += ["guides/seo-advice-to-refuse"]
 FILES += ["guides/nobody-mentions-you"]
+FILES += ["guides/who-wrote-your-reputation"]
 
 for f in FILES:
     head, body = open(f"src/{f}.html", encoding="utf-8").read().split("\n---\n", 1)
