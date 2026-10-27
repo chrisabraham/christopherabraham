@@ -2233,7 +2233,8 @@
    "kind": "topic",
    "pages": [
     "guides/earned-mentions",
-    "guides/glossary"
+    "guides/glossary",
+    "guides/nobody-mentions-you"
    ],
    "subs": {
     "long tail outreach": [
@@ -8093,6 +8094,19 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "mentions, off-site": {
+   "kind": "topic",
+   "pages": [
+    "guides/nobody-mentions-you"
+   ],
+   "subs": {},
+   "see": [
+    "digital PR"
+   ],
+   "main": [
+    "guides/nobody-mentions-you"
+   ]
   }
  },
  "reviewed": [
@@ -8211,6 +8225,7 @@
   "services/local-competitor-recon",
   "services/peak-season-readiness",
   "services/website-archive-recovery",
-  "guides/seo-advice-to-refuse"
+  "guides/seo-advice-to-refuse",
+  "guides/nobody-mentions-you"
  ]
 }
