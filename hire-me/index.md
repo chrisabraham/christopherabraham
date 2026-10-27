@@ -4,6 +4,10 @@
 
 # Hire me
 
+## Cut to the chase (TL;DR)
+
+You clicked Hire me, so the hiring part comes first. **Book a call:** [30 minutes on my calendar](https://calendly.com/chrisabraham/30). **Call or text:** [+1 202-352-5051](tel:+12023525051); texting is welcome and often faster. **Upwork:** hire me through [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham), where the contract and payment protection live. The process below is the detail, for after the first conversation.
+
 Every engagement follows the same arc: a defined question, a paid audit that answers it, a ranked plan, the fixes, and a verification pass once the fixes are live. Here's how each step works and what I need from you.
 
 ## Two ways to hire me

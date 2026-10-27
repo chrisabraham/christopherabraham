@@ -4,6 +4,10 @@
 
 # Contact Christopher Abraham
 
+## Cut to the chase (TL;DR)
+
+Three fast ways in. **Book a call:** [my Calendly](https://calendly.com/chrisabraham/30) holds 30-minute slots. **Call or text:** [+1 202-352-5051](tel:+12023525051). Texts are welcome, and often fastest. **Upwork:** [hire me there](https://www.upwork.com/freelancers/chrisjabraham) if you want the contract and payment protection handled for you.
+
 Send me your site's address and a few lines about what's happening. I'll reply with my first read and the questions I'd want answered.
 - Email: [cja@well.com](mailto:cja@well.com)
 - Call or text: [+1 202-352-5051](tel:+12023525051)
