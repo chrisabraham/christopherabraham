@@ -1,10 +1,10 @@
 > A back of the book index to christopherabraham.com: every person, tool, platform, and SEO problem the pages cover, listed A to Z with links to each page.
 >
-> Source: https://christopherabraham.com/site-index/ · Updated 2026-10-26 · By Christopher Abraham
+> Source: https://christopherabraham.com/site-index/ · Updated 2026-10-27 · By Christopher Abraham
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 600 headings across 115 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 602 headings across 116 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -224,6 +224,7 @@ People are listed surname first. Cross-references point to related headings. For
   - after the sale, [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/)
   - one permanent URL, [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/)
 
+- black hat SEO, [SEO Advice to Refuse](https://christopherabraham.com/guides/seo-advice-to-refuse/)
 - blogger outreach, [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [About](https://christopherabraham.com/about/)
 - Bolt, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - book launch websites, **[Launch Site](https://christopherabraham.com/services/launch-site/)**
@@ -965,6 +966,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Search Engine Roundtable, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Search performance reporting, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - Search Status Dashboard, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
+- search tactics to refuse, [SEO Advice to Refuse](https://christopherabraham.com/guides/seo-advice-to-refuse/)
 - Seasonal local SEO, **[Seasonal Local SEO](https://christopherabraham.com/guides/seasonal-local-seo/)**
 - seasonal retail, **[Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)**
 - seasonality, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/), [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
@@ -1259,4 +1261,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated October 26, 2026
+Updated October 27, 2026

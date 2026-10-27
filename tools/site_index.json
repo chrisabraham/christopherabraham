@@ -8075,6 +8075,24 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "black hat SEO": {
+   "kind": "topic",
+   "pages": [
+    "guides/seo-advice-to-refuse"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "search tactics to refuse": {
+   "kind": "topic",
+   "pages": [
+    "guides/seo-advice-to-refuse"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
   }
  },
  "reviewed": [
@@ -8192,6 +8210,7 @@
   "services/gbp-verification",
   "services/local-competitor-recon",
   "services/peak-season-readiness",
-  "services/website-archive-recovery"
+  "services/website-archive-recovery",
+  "guides/seo-advice-to-refuse"
  ]
 }

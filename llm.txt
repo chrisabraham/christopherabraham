@@ -102,6 +102,7 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 - [Apple Maps and Bing Places: local listings past Google](https://christopherabraham.com/guides/apple-and-bing-listings/index.md): Why a local business should claim its Apple Maps place card and its Bing Places listing, what each one feeds, how to set them up, and keeping them consistent.
 - [The FTC fake review rule for small businesses](https://christopherabraham.com/guides/ftc-review-rule/index.md): The FTC's rule on consumer reviews took effect October 21, 2024. What it bans, what it allows, and how to ask customers for reviews without risk to you.
 - [Search Console comparisons that support better decisions](https://christopherabraham.com/guides/search-console-comparisons/index.md): Compare Search Console periods with consistent filters, matched weekdays, and page groups so seasonal demand and changing query mixes do not distort the result.
+- [SEO and AI search advice your business should refuse now](https://christopherabraham.com/guides/seo-advice-to-refuse/index.md): A field guide for owners: the search tactics to decline, the plausible ones that waste money, and the schemes that end with a site removed from Google.
 
 ## About and working together
 

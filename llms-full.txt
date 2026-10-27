@@ -1,7 +1,7 @@
 # Christopher Abraham: full text of christopherabraham.com
 
 > Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.
-> Built 2026-10-26. Quote freely with attribution and a link to the source page.
+> Built 2026-10-27. Quote freely with attribution and a link to the source page.
 
 
 ---
@@ -7857,8 +7857,50 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 
 ---
 
+Source: https://christopherabraham.com/guides/seo-advice-to-refuse/
+Updated: 2026-10-27
+
+# SEO and AI search advice your business should refuse now
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 27, 2026
+
+Every week a business owner forwards me a pitch that promises search visibility in the age of AI answers. Some of those pitches waste money. A few waste something harder to replace: the trust Google and the answer engines place in a domain. I sort the pitches into three tiers, and I advise my clients to refuse all three, at three different speeds.
+
+## Tier one: decline politely
+
+These offers burn budget and return reports. Content sold by volume, priced per post and aimed at a word count, produces pages no customer would quote and no engine will cite. Keyword ranking reports sold as the deliverable measure positions on results pages your customers no longer read. Directory submission blasts and citation packages from 2011 still circulate with new labels. Trophy keyword campaigns chase phrases with national competition while your buyers search with a city in the query. None of this damages a site outright. All of it converts a marketing budget into paperwork.
+
+## Tier two: decline firmly
+
+These offers sound modern, and that is the danger. A vendor proposes an llms.txt installation as an AI visibility strategy, as if a courtesy file were a ranking factor. Another sells placements in listicles assembled to be cited, roundups where every entry paid for its chair. A third offers review generation, phrased carefully, at scale. A fourth promises schema sorcery: markup layered onto ordinary pages until the code describes a business far more impressive than the one your customers meet. Each tactic has the shape of a mechanism and the record of a fad. Answer engines cite sources with a history of being right in public. Purchased applause leaves a paper trail, and the trail is the tell.
+
+## Tier three: end the relationship
+
+These offers end businesses' presence in search entirely. A proposal to show AI crawlers different text than human visitors is cloaking with a new audience, and Google removes sites for it. An expired domain offered as your new home brings someone else's history, and sometimes someone else's penalties, into your name. Fake locations, fake practitioners, and a network of friendly sites exchanging links all belong to the same family: fabricated evidence of a reputation. The engines audit evidence for a living now. When the audit lands, the penalty lands on the domain, and a new domain starts from zero in an era when zero is a long way down. Any consultant who proposes tier three has told you exactly how the engagement ends.
+
+## The sixty second test
+
+Run every pitch through three questions before money moves. First: show me a client you kept through a Google update, and let me call them. A record survives updates; a scheme rents the calm between them, and the calm always ends. Second: what happens to my domain if Google disagrees with this tactic? The honest answer names a risk and a recovery. The dishonest answer changes the subject to rankings. Third: put in writing what you refuse to do. Every consultant I respect keeps a refusal list, and the list is longer than the menu. A vendor who will do anything you can pay for has told you who absorbs the penalty when the audit arrives. It will not be the vendor. Domains are expensive to rebuild and impossible to rush: a new one earns trust at the speed trust is earned everywhere else, one kept promise at a time, in public, on the record.
+
+## What to buy instead
+
+Buy the record. Publish under real names, with real experience, on a site that answers customer questions in the words your best people use across the counter. Keep the information current: Google's AI reads today's pages today, while the standalone chatbots answer from a memory months old, so a business that updates its facts competes where freshness counts. When an AI answer gets your business wrong, correct the record at the source; my guide to [correcting AI answers](https://christopherabraham.com/guides/correct-ai-answers/) walks through that work. Refuse the three tiers, fund the record, and let your competitors rent the shortcuts. One more refusal belongs on the list, and it is the easiest to keep: refuse to panic. Every update produces a week of frightened buying, and the frightened buy the tiers. The record compounds quietly through all of it.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
 Source: https://christopherabraham.com/sitemap/
-Updated: 2026-10-26
+Updated: 2026-10-27
 
 # Site map
 
@@ -7969,6 +8011,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Apple Maps and Bing Places: local listings past Google](https://christopherabraham.com/guides/apple-and-bing-listings/): Why a local business should claim its Apple Maps place card and its Bing Places listing, what each one feeds, how to set them up, and keeping them consistent.
 - [The FTC fake review rule for small businesses](https://christopherabraham.com/guides/ftc-review-rule/): The FTC's rule on consumer reviews took effect October 21, 2024. What it bans, what it allows, and how to ask customers for reviews without risk to you.
 - [Search Console comparisons that support better decisions](https://christopherabraham.com/guides/search-console-comparisons/): Compare Search Console periods with consistent filters, matched weekdays, and page groups so seasonal demand and changing query mixes do not distort the result.
+- [SEO and AI search advice your business should refuse now](https://christopherabraham.com/guides/seo-advice-to-refuse/): A field guide for owners: the search tactics to decline, the plausible ones that waste money, and the schemes that end with a site removed from Google.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
@@ -8002,17 +8045,17 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 26, 2026
+Updated October 27, 2026
 
 
 ---
 
 Source: https://christopherabraham.com/site-index/
-Updated: 2026-10-26
+Updated: 2026-10-27
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 600 headings across 115 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 602 headings across 116 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -8232,6 +8275,7 @@ People are listed surname first. Cross-references point to related headings. For
   - after the sale, [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/)
   - one permanent URL, [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/)
 
+- black hat SEO, [SEO Advice to Refuse](https://christopherabraham.com/guides/seo-advice-to-refuse/)
 - blogger outreach, [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [About](https://christopherabraham.com/about/)
 - Bolt, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - book launch websites, **[Launch Site](https://christopherabraham.com/services/launch-site/)**
@@ -8973,6 +9017,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Search Engine Roundtable, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Search performance reporting, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - Search Status Dashboard, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
+- search tactics to refuse, [SEO Advice to Refuse](https://christopherabraham.com/guides/seo-advice-to-refuse/)
 - Seasonal local SEO, **[Seasonal Local SEO](https://christopherabraham.com/guides/seasonal-local-seo/)**
 - seasonal retail, **[Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)**
 - seasonality, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/), [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
@@ -9267,4 +9312,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated October 26, 2026
+Updated October 27, 2026

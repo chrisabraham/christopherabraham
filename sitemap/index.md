@@ -1,6 +1,6 @@
 > Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.
 >
-> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-26 · By Christopher Abraham
+> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-27 · By Christopher Abraham
 
 # Site map
 
@@ -111,6 +111,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Apple Maps and Bing Places: local listings past Google](https://christopherabraham.com/guides/apple-and-bing-listings/): Why a local business should claim its Apple Maps place card and its Bing Places listing, what each one feeds, how to set them up, and keeping them consistent.
 - [The FTC fake review rule for small businesses](https://christopherabraham.com/guides/ftc-review-rule/): The FTC's rule on consumer reviews took effect October 21, 2024. What it bans, what it allows, and how to ask customers for reviews without risk to you.
 - [Search Console comparisons that support better decisions](https://christopherabraham.com/guides/search-console-comparisons/): Compare Search Console periods with consistent filters, matched weekdays, and page groups so seasonal demand and changing query mixes do not distort the result.
+- [SEO and AI search advice your business should refuse now](https://christopherabraham.com/guides/seo-advice-to-refuse/): A field guide for owners: the search tactics to decline, the plausible ones that waste money, and the schemes that end with a site removed from Google.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
@@ -144,4 +145,4 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 26, 2026
+Updated October 27, 2026
