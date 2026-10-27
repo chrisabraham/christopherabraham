@@ -4,7 +4,7 @@
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 602 headings across 116 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 603 headings across 117 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -359,7 +359,7 @@ People are listed surname first. Cross-references point to related headings. For
 - developer tickets, [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Site Speed](https://christopherabraham.com/services/site-speed/), [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/)
   - 13-page specification, [Event App Links](https://christopherabraham.com/case-studies/event-app-links/)
 
-- digital PR, **[Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/)**, [Glossary](https://christopherabraham.com/guides/glossary/)
+- digital PR, **[Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/)**, [Glossary](https://christopherabraham.com/guides/glossary/), [Nobody Mentions You](https://christopherabraham.com/guides/nobody-mentions-you/)
   - consistent naming, [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/)
   - long tail outreach, [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/)
   - measuring mentions, [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/)
@@ -721,6 +721,7 @@ People are listed surname first. Cross-references point to related headings. For
 - MemeSpace, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - memetic lexicon, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Men Who Stare at Goats, The, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
+- mentions, off-site, **[Nobody Mentions You](https://christopherabraham.com/guides/nobody-mentions-you/)**. *See also* [digital PR](https://christopherabraham.com/site-index/#ix-digital-pr)
 - Merchant Center, [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/), **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**, [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
   - free listings, [Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)
   - Needs attention tab, [Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)
