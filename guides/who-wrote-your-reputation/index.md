@@ -28,6 +28,8 @@ Once a quarter I ask the engines who I am, then I click every citation and count
 
 Keep writing the record. The vacuum law grants no retirement, and a silent year hands the pen back to strangers. Spend equal effort earning the third kind. Deliver work that gives a client a result worth signing, then ask for the named testimonial while the result is fresh and the gratitude is specific. Treat marketplace history as an asset with a balance: every completed transaction and verified review raises the share of the record a platform has audited. Give reporters and podcasters material with evidence attached, because an independent voice repeats what it can check. And refuse the counterfeit of the third kind. Bought roundups, generated reviews, and planted praise imitate independent receipts and devalue genuine ones on contact; my guide to [SEO advice to refuse](https://christopherabraham.com/guides/seo-advice-to-refuse/) names those schemes and the penalties they carry. Thirty years of my own handwriting taught the machines to believe me. The signatures of strangers decide whether humans follow, so I spend my effort collecting signatures I cannot write.
 
+[Search my name before you hire me](https://www.google.com/search?q=chris+abraham+seo)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

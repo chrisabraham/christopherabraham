@@ -1,12 +1,14 @@
 > Email Christopher Abraham at cja@well.com or call or text him with your site address and the problem. Hire him on Upwork or directly for a scoped audit.
 >
-> Source: https://christopherabraham.com/contact/ · Updated 2026-10-06 · By Christopher Abraham
+> Source: https://christopherabraham.com/contact/ · Updated 2026-10-27 · By Christopher Abraham
 
 # Contact Christopher Abraham
 
 ## Cut to the chase (TL;DR)
 
 Three fast ways in. **Book a call:** [my Calendly](https://calendly.com/chrisabraham/30) holds 30-minute slots. **Call or text:** [+1 202-352-5051](tel:+12023525051). Texts are welcome, and often fastest. **Upwork:** [hire me there](https://www.upwork.com/freelancers/chrisjabraham) if you want the contract and payment protection handled for you.
+
+[Search my name before you hire me](https://www.google.com/search?q=chris+abraham+seo)
 
 Send me your site's address and a few lines about what's happening. I'll reply with my first read and the questions I'd want answered.
 - Email: [cja@well.com](mailto:cja@well.com)
@@ -38,4 +40,4 @@ If you found me there, send an invitation or a message to Christopher A. directl
 
 I work from Arlington, Virginia 22204, on US Eastern time, with clients across the United States, Canada, the United Kingdom, Ireland, Australia, and New Zealand. My process is on [Hire Me](https://christopherabraham.com/hire-me/), and practical questions are answered in the [FAQ](https://christopherabraham.com/faq/).
 
-Updated October 6, 2026
+Updated October 27, 2026

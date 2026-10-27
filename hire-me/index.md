@@ -1,12 +1,14 @@
 > How an SEO engagement runs: a scoped audit first, then fixed fee work through Upwork or direct, with every finding and decision kept in writing.
 >
-> Source: https://christopherabraham.com/hire-me/ · Updated 2026-10-26 · By Christopher Abraham
+> Source: https://christopherabraham.com/hire-me/ · Updated 2026-10-27 · By Christopher Abraham
 
 # Hire me
 
 ## Cut to the chase (TL;DR)
 
 You clicked Hire me, so the hiring part comes first. **Book a call:** [30 minutes on my calendar](https://calendly.com/chrisabraham/30). **Call or text:** [+1 202-352-5051](tel:+12023525051); texting is welcome and often faster. **Upwork:** hire me through [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham), where the contract and payment protection live. The process below is the detail, for after the first conversation.
+
+[Search my name before you hire me](https://www.google.com/search?q=chris+abraham+seo)
 
 Every engagement follows the same arc: a defined question, a paid audit that answers it, a ranked plan, the fixes, and a verification pass once the fixes are live. Here's how each step works and what I need from you.
 
@@ -42,4 +44,4 @@ I sell expertise, diagnosis, and hands-on work. Rankings, indexing decisions, AI
 
 Questions about time zones, access, and invoicing are answered in the [FAQ](https://christopherabraham.com/faq/). Ready to start? Head to [contact](https://christopherabraham.com/contact/).
 
-Updated October 26, 2026
+Updated October 27, 2026
