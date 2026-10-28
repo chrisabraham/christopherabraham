@@ -1543,7 +1543,9 @@
     "guides/correct-ai-answers",
     "guides/reddit-ai-answers",
     "guides/earned-mentions",
-    "services/ai-visibility"
+    "services/ai-visibility",
+    "guides/agentic-checkout",
+    "services/ai-shopping-readiness"
    ],
    "subs": {},
    "see": [],
@@ -2977,7 +2979,10 @@
    "pages": [
     "services/ai-search",
     "guides/correct-ai-answers",
-    "guides/topic-clusters"
+    "guides/topic-clusters",
+    "guides/agentic-checkout",
+    "guides/ai-mode-bookings",
+    "services/ai-shopping-readiness"
    ],
    "subs": {},
    "see": [],
@@ -3030,7 +3035,8 @@
     "guides/service-area-business",
     "services/gbp-verification",
     "guides/apple-and-bing-listings",
-    "guides/ftc-review-rule"
+    "guides/ftc-review-rule",
+    "guides/ai-mode-bookings"
    ],
    "subs": {
     "suspensions and appeals": [
@@ -3527,7 +3533,8 @@
   "holiday hours": {
    "kind": "topic",
    "pages": [
-    "guides/holiday-hours"
+    "guides/holiday-hours",
+    "guides/ai-mode-bookings"
    ],
    "subs": {
     "special hours versus temporarily closed": [
@@ -4454,7 +4461,9 @@
     "guides/ai-content-seo",
     "guides/merchant-center-free-listings",
     "guides/black-friday-pages",
-    "services/peak-season-readiness"
+    "services/peak-season-readiness",
+    "guides/agentic-checkout",
+    "services/ai-shopping-readiness"
    ],
    "subs": {
     "free listings": [
@@ -5502,7 +5511,9 @@
   "product feeds": {
    "kind": "topic",
    "pages": [
-    "guides/merchant-center-free-listings"
+    "guides/merchant-center-free-listings",
+    "guides/agentic-checkout",
+    "services/ai-shopping-readiness"
    ],
    "subs": {},
    "see": [],
@@ -6036,7 +6047,8 @@
   "schema markup": {
    "kind": "topic",
    "pages": [
-    "services/ai-visibility"
+    "services/ai-visibility",
+    "guides/agentic-checkout"
    ],
    "subs": {},
    "see": [
@@ -8121,6 +8133,92 @@
    "main": [
     "guides/who-wrote-your-reputation"
    ]
+  },
+  "agentic checkout": {
+   "kind": "topic",
+   "pages": [
+    "guides/agentic-checkout",
+    "services/ai-shopping-readiness"
+   ],
+   "subs": {
+    "OpenAI Instant Checkout": [
+     "guides/agentic-checkout"
+    ],
+    "Universal Commerce Protocol": [
+     "guides/agentic-checkout"
+    ],
+    "what to do now": [
+     "guides/agentic-checkout"
+    ]
+   },
+   "see": [],
+   "main": [
+    "guides/agentic-checkout"
+   ]
+  },
+  "Agentic Commerce Protocol": {
+   "kind": "topic",
+   "pages": [
+    "guides/agentic-checkout"
+   ],
+   "subs": {},
+   "see": [
+    "agentic checkout"
+   ],
+   "main": [
+    "guides/agentic-checkout"
+   ]
+  },
+  "Universal Commerce Protocol": {
+   "kind": "topic",
+   "pages": [
+    "guides/agentic-checkout",
+    "services/ai-shopping-readiness"
+   ],
+   "subs": {},
+   "see": [
+    "agentic checkout"
+   ],
+   "main": [
+    "guides/agentic-checkout"
+   ]
+  },
+  "AI Mode bookings": {
+   "kind": "topic",
+   "pages": [
+    "guides/ai-mode-bookings"
+   ],
+   "subs": {
+    "restaurants": [
+     "guides/ai-mode-bookings"
+    ],
+    "local appointments": [
+     "guides/ai-mode-bookings"
+    ],
+    "event tickets": [
+     "guides/ai-mode-bookings"
+    ],
+    "testing": [
+     "guides/ai-mode-bookings"
+    ]
+   },
+   "see": [],
+   "main": [
+    "guides/ai-mode-bookings"
+   ]
+  },
+  "reservation platforms": {
+   "kind": "topic",
+   "pages": [
+    "guides/ai-mode-bookings"
+   ],
+   "subs": {},
+   "see": [
+    "AI Mode bookings"
+   ],
+   "main": [
+    "guides/ai-mode-bookings"
+   ]
   }
  },
  "reviewed": [
@@ -8241,6 +8339,9 @@
   "services/website-archive-recovery",
   "guides/seo-advice-to-refuse",
   "guides/nobody-mentions-you",
-  "guides/who-wrote-your-reputation"
+  "guides/who-wrote-your-reputation",
+  "guides/agentic-checkout",
+  "guides/ai-mode-bookings",
+  "services/ai-shopping-readiness"
  ]
 }

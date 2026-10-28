@@ -5,8 +5,131 @@
   <link>https://christopherabraham.com/guides/</link>
   <description>Guides to indexing, audits, schema, redirects, site speed, and AI search</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 27 Oct 2026 12:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 12:00:00 +0000</lastBuildDate>
   <atom:link href="https://christopherabraham.com/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>When Google's AI does the booking, be bookable</title>
+    <link>https://christopherabraham.com/guides/ai-mode-bookings/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/ai-mode-bookings/</guid>
+    <pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
+    <description>Google's AI Mode now books restaurant tables in nine countries and is testing tickets and local appointments. How a local business becomes one it can book.</description>
+    <content:encoded>&lt;h1&gt;When Google's AI does the booking, be bookable&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-28"&gt;October 28, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;A diner types "find me a table for four near Clarendon at seven on Friday, somewhere quiet with good pasta" into Google's AI Mode. Google searches several reservation services at once, checks which places actually have a table, and hands back a short list with buttons that complete the booking. A restaurant that only takes reservations by phone is not on that list, however good its reviews are.&lt;/p&gt;
+
+&lt;h2&gt;How the feature grew&lt;/h2&gt;
+&lt;p&gt;Google introduced agentic restaurant reservations in AI Mode in August 2025, first for people enrolled in its Labs experiments in the United States. The companies Google named as partners at the time included OpenTable, Resy, and Tock for dining, Ticketmaster, StubHub, and SeatGeek for events, and Booksy for local appointments such as hair and beauty.&lt;/p&gt;
+&lt;p&gt;In November 2025 restaurant booking opened to everyone in the United States without the Labs sign up, while event tickets and local service appointments stayed in Labs. In April 2026 Google took restaurant booking to eight more markets: Australia, Canada, Hong Kong, India, New Zealand, Singapore, South Africa, and the United Kingdom. Each time the mechanics were the same. Google queries the reservation platforms it works with, compares live availability, and links the guest to complete the booking on the partner's system.&lt;/p&gt;
+
+&lt;h2&gt;The plain requirement: live availability on a platform Google reads&lt;/h2&gt;
+&lt;p&gt;The AI can only offer a slot it can see. For a restaurant, that means taking online reservations through a platform Google works with and keeping its availability current there. For a salon, barber, spa, or similar appointment business, it means an online booking system with real calendar slots, which is where a partner like Booksy fits. Event venues need their inventory on a ticketing partner.&lt;/p&gt;
+&lt;p&gt;If you already use one of these platforms, check that your listing there is complete: the correct business name, address, cuisine or service type, price range, photos, and a calendar that reflects reality. A platform profile that shows no availability because nobody maintains it reads the same as no profile at all.&lt;/p&gt;
+
+&lt;h2&gt;Your Google Business Profile still decides who gets considered&lt;/h2&gt;
+&lt;p&gt;Booking sits on top of ordinary local search. The AI first decides which businesses match the request, using the same signals that drive the local map results: category, location, hours, reviews, photos, and what the web says about you. Then it checks who can be booked. The groundwork is the same as always:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pick the most specific primary category and keep hours, including &lt;a href="https://christopherabraham.com/guides/holiday-hours/"&gt;holiday hours&lt;/a&gt;, correct.&lt;/li&gt;
+&lt;li&gt;Add your reservation or booking link to the profile, so it points at the platform holding your availability.&lt;/li&gt;
+&lt;li&gt;Describe the experience in words a request might use: quiet, private room, gluten free, walk ins welcome, parking.&lt;/li&gt;
+&lt;li&gt;Answer reviews that mention the things people ask for, because those descriptions feed the matching.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The new &lt;a href="https://christopherabraham.com/guides/gbp-performance-reports/"&gt;Business Profile performance reports&lt;/a&gt; show whether booking clicks are rising after you make these changes.&lt;/p&gt;
+
+&lt;h2&gt;Test it the way a customer would&lt;/h2&gt;
+&lt;p&gt;Open AI Mode and ask for your kind of business the way a real customer would, with a day, a time, a party size, and a reason. Try three or four variations. Note whether you appear, whether you appear as bookable, and who appears instead. Repeat the same questions monthly. If a competitor across the street keeps getting the booking, compare their platform profile and their Business Profile with yours line by line; the difference is usually visible.&lt;/p&gt;
+
+&lt;h2&gt;What this does not cover yet&lt;/h2&gt;
+&lt;p&gt;Appointment and ticket booking were still Labs features in the United States at the last public update I can confirm, and Google has not opened flight or hotel booking in AI Mode. Contractors, clinics, and law offices are not in this booking flow at all. For them, the work remains being the business the AI names and links to, which my guide to &lt;a href="https://christopherabraham.com/guides/service-area-business/"&gt;service area businesses on Google&lt;/a&gt; covers.&lt;/p&gt;
+
+&lt;section class="faq"&gt;
+&lt;h2&gt;Questions owners ask about AI bookings&lt;/h2&gt;
+&lt;h3&gt;Do I have to switch reservation systems?&lt;/h3&gt;
+&lt;p&gt;Only if yours is not one Google reads. Ask your provider directly whether it supplies availability to Google's booking features before you change anything.&lt;/p&gt;
+&lt;h3&gt;Does Google charge me for an AI Mode booking?&lt;/h3&gt;
+&lt;p&gt;The booking completes on the partner's system, so any fee is whatever your reservation platform already charges under your agreement with it.&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;p&gt;If you want me to run the customer test for your business and compare you with the competitors who keep winning it, &lt;a href="https://calendly.com/chrisabraham/30"&gt;book a 30 minute call&lt;/a&gt; or reach me on &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://siliconangle.com/2025/08/21/google-opens-ai-mode-globally-personalized-agentic-capabilities/"&gt;SiliconANGLE: Google opens AI Mode globally with personalized, agentic capabilities&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.searchenginejournal.com/google-extends-ai-travel-planning-and-agentic-booking-in-search/561251/"&gt;Search Engine Journal: Google extends AI travel planning and agentic booking in Search&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://9to5google.com/2026/04/10/google-ai-mode-redesign/"&gt;9to5Google: Google AI Mode redesign, agentic booking expands globally&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content:encoded>
+  </item>
+  <item>
+    <title>Selling inside AI assistants: the real state of play</title>
+    <link>https://christopherabraham.com/guides/agentic-checkout/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/agentic-checkout/</guid>
+    <pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
+    <description>Where buying inside ChatGPT and Google AI Mode actually stands for a small online shop in late 2026, which programs need a waitlist, and what to fix first.</description>
+    <content:encoded>&lt;h1&gt;Selling inside AI assistants: the real state of play&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-28"&gt;October 28, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;Every week a shop owner asks me how to get a buy button inside ChatGPT. The honest answer changed twice in the last year, and most of the advice still circulating describes a program that has since been reorganized. Here is where buying inside AI assistants actually stands, and the work that pays off no matter which program wins.&lt;/p&gt;
+
+&lt;h2&gt;What OpenAI launched, and what it changed&lt;/h2&gt;
+&lt;p&gt;In September 2025 OpenAI announced Instant Checkout, which let a person buy from a merchant without leaving the ChatGPT conversation. It ran on the Agentic Commerce Protocol, an open standard OpenAI built with Stripe, and Etsy sellers were first in line. For a few months the pitch was simple: list your products, and shoppers can pay right there in the chat.&lt;/p&gt;
+&lt;p&gt;In March 2026 OpenAI changed course. A company spokesperson told reporters that "Instant Checkout is moving to Apps, where purchases can happen more seamlessly," meaning checkout now happens inside a merchant's own ChatGPT app or on the merchant's site. The protocol survived, but its job moved toward product discovery: feeding live product data into ChatGPT so it can recommend and link to you. Large retailers with their own ChatGPT apps get the in-chat purchase. A small shop gets found, then sends the buyer to its own checkout.&lt;/p&gt;
+
+&lt;h2&gt;How a small shop gets into ChatGPT shopping&lt;/h2&gt;
+&lt;p&gt;OpenAI's merchant documentation describes a structured product feed with titles, descriptions, images, prices, and availability. Every purchasable variant needs its own row with a stable parent ID and its own variant ID, and the feed has to carry your real seller name and working links to your shipping and return policies. Onboarding is by application through OpenAI, rather than self serve. Shopify and similar platforms handle much of this for their merchants, so check your platform's sales channel settings before you hire anyone to build a feed by hand.&lt;/p&gt;
+&lt;p&gt;Product pages still matter when no feed exists. ChatGPT's shopping answers draw on what it can read about you on the open web, so the same clean product pages that work in Google work here.&lt;/p&gt;
+
+&lt;h2&gt;Google's version runs through Merchant Center&lt;/h2&gt;
+&lt;p&gt;Google took a different road. Its Universal Commerce Protocol is an open standard for agentic commerce, and its first job is direct buying inside AI Mode in Google Search and on Gemini on the web. The shopper pays with Google Pay using details saved in Google Wallet, while the merchant stays the seller of record.&lt;/p&gt;
+&lt;p&gt;The details matter for a small shop. According to Google's Merchant Center help, the feature covers eligible products in the United States, Canada, and Australia, and it is open to select merchants through an early access interest form. A product shows the Buy button only when its listing carries the &lt;code&gt;native_commerce&lt;/code&gt; attribute with checkout eligibility set. The merchant also needs a Google Pay and Wallet Console account, and a payment provider can handle that onboarding. Google lists multi item carts, loyalty account linking, and order tracking and returns as roadmap items, which tells you how early this is.&lt;/p&gt;
+&lt;p&gt;Your Merchant Center feed is the foundation for all of it. If your feed is messy today, the buy button is not your next step. My guide to &lt;a href="https://christopherabraham.com/guides/merchant-center-free-listings/"&gt;Merchant Center free listings&lt;/a&gt; covers the feed errors to fix first.&lt;/p&gt;
+
+&lt;h2&gt;What to do this quarter&lt;/h2&gt;
+&lt;p&gt;None of this requires you to bet on a winner. The same five pieces of work help in ChatGPT, in AI Mode, and in plain Google Shopping:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Clean your product data: one variant per row, real stock levels, prices that match the page, and images of the actual item.&lt;/li&gt;
+&lt;li&gt;Publish shipping, returns, and contact pages at stable addresses, written plainly enough that a machine can quote them.&lt;/li&gt;
+&lt;li&gt;Mark up product pages with structured data that matches the visible page. My &lt;a href="https://christopherabraham.com/guides/small-business-schema/"&gt;schema guide for small businesses&lt;/a&gt; has the code.&lt;/li&gt;
+&lt;li&gt;Join the waitlists that fit your market, and read the requirements before you apply rather than after.&lt;/li&gt;
+&lt;li&gt;Tag the traffic. OpenAI suggests a &lt;code&gt;utm_medium=feed&lt;/code&gt; parameter on feed links, so you can tell ChatGPT shoppers apart in analytics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Advice to refuse&lt;/h2&gt;
+&lt;p&gt;Be wary of anyone selling guaranteed placement inside ChatGPT or a buy button in AI Mode. Neither OpenAI nor Google sells placement, Google's checkout is invitation only, and OpenAI moved in chat purchases to merchant apps that most small shops do not have. A vendor who promises either is selling something that does not exist on the terms described. My list of &lt;a href="https://christopherabraham.com/guides/seo-advice-to-refuse/"&gt;SEO and AI search advice to refuse&lt;/a&gt; has more of these.&lt;/p&gt;
+
+&lt;section class="faq"&gt;
+&lt;h2&gt;Questions shop owners ask&lt;/h2&gt;
+&lt;h3&gt;Do I need my own ChatGPT app to sell there?&lt;/h3&gt;
+&lt;p&gt;Only for purchases that complete inside the chat. Discovery and links to your own checkout come from a product feed and from pages ChatGPT can read.&lt;/p&gt;
+&lt;h3&gt;Will Google charge a fee for AI Mode checkout?&lt;/h3&gt;
+&lt;p&gt;Google's help pages describe the program and its requirements but do not set out a fee schedule for small merchants. Read the current terms in your Merchant Center account before you apply.&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;p&gt;If you want a second pair of eyes on your feed and product pages before you apply, my &lt;a href="https://christopherabraham.com/services/ai-shopping-readiness/"&gt;AI shopping readiness review&lt;/a&gt; covers both, or &lt;a href="https://calendly.com/chrisabraham/30"&gt;book a 30 minute call&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://openai.com/index/buy-it-in-chatgpt/"&gt;OpenAI: Buy it in ChatGPT, Instant Checkout and the Agentic Commerce Protocol&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.digitalcommerce360.com/2026/03/06/openai-shifts-checkout-plans-agentic-commerce-strategy/"&gt;Digital Commerce 360: OpenAI shifts checkout plans in its agentic commerce strategy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developers.google.com/merchant/ucp"&gt;Google for Developers: Universal Commerce Protocol on Google&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://support.google.com/merchants/answer/16837055"&gt;Google Merchant Center Help: About UCP powered checkout on Google&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content:encoded>
+  </item>
   <item>
     <title>Who Wrote Your Reputation and What AI Search Believes</title>
     <link>https://christopherabraham.com/guides/who-wrote-your-reputation/</link>

@@ -1,0 +1,47 @@
+name: Selling Inside AI Assistants
+title: Selling inside ChatGPT and Google AI Mode: what works today
+description: Where buying inside ChatGPT and Google AI Mode actually stands for a small online shop in late 2026, which programs need a waitlist, and what to fix first.
+keywords: agentic checkout, ChatGPT shopping, Universal Commerce Protocol, AI Mode shopping, Agentic Commerce Protocol
+type: guide
+published: 2026-10-28
+sources: OpenAI: Buy it in ChatGPT, Instant Checkout and the Agentic Commerce Protocol | https://openai.com/index/buy-it-in-chatgpt/ ;; Digital Commerce 360: OpenAI shifts checkout plans in its agentic commerce strategy | https://www.digitalcommerce360.com/2026/03/06/openai-shifts-checkout-plans-agentic-commerce-strategy/ ;; Google for Developers: Universal Commerce Protocol on Google | https://developers.google.com/merchant/ucp ;; Google Merchant Center Help: About UCP powered checkout on Google | https://support.google.com/merchants/answer/16837055
+updated: 2026-10-28
+---
+<h1>Selling inside AI assistants: the real state of play</h1>
+<p class="lead">Every week a shop owner asks me how to get a buy button inside ChatGPT. The honest answer changed twice in the last year, and most of the advice still circulating describes a program that has since been reorganized. Here is where buying inside AI assistants actually stands, and the work that pays off no matter which program wins.</p>
+
+<h2>What OpenAI launched, and what it changed</h2>
+<p>In September 2025 OpenAI announced Instant Checkout, which let a person buy from a merchant without leaving the ChatGPT conversation. It ran on the Agentic Commerce Protocol, an open standard OpenAI built with Stripe, and Etsy sellers were first in line. For a few months the pitch was simple: list your products, and shoppers can pay right there in the chat.</p>
+<p>In March 2026 OpenAI changed course. A company spokesperson told reporters that "Instant Checkout is moving to Apps, where purchases can happen more seamlessly," meaning checkout now happens inside a merchant's own ChatGPT app or on the merchant's site. The protocol survived, but its job moved toward product discovery: feeding live product data into ChatGPT so it can recommend and link to you. Large retailers with their own ChatGPT apps get the in-chat purchase. A small shop gets found, then sends the buyer to its own checkout.</p>
+
+<h2>How a small shop gets into ChatGPT shopping</h2>
+<p>OpenAI's merchant documentation describes a structured product feed with titles, descriptions, images, prices, and availability. Every purchasable variant needs its own row with a stable parent ID and its own variant ID, and the feed has to carry your real seller name and working links to your shipping and return policies. Onboarding is by application through OpenAI, rather than self serve. Shopify and similar platforms handle much of this for their merchants, so check your platform's sales channel settings before you hire anyone to build a feed by hand.</p>
+<p>Product pages still matter when no feed exists. ChatGPT's shopping answers draw on what it can read about you on the open web, so the same clean product pages that work in Google work here.</p>
+
+<h2>Google's version runs through Merchant Center</h2>
+<p>Google took a different road. Its Universal Commerce Protocol is an open standard for agentic commerce, and its first job is direct buying inside AI Mode in Google Search and on Gemini on the web. The shopper pays with Google Pay using details saved in Google Wallet, while the merchant stays the seller of record.</p>
+<p>The details matter for a small shop. According to Google's Merchant Center help, the feature covers eligible products in the United States, Canada, and Australia, and it is open to select merchants through an early access interest form. A product shows the Buy button only when its listing carries the <code>native_commerce</code> attribute with checkout eligibility set. The merchant also needs a Google Pay and Wallet Console account, and a payment provider can handle that onboarding. Google lists multi item carts, loyalty account linking, and order tracking and returns as roadmap items, which tells you how early this is.</p>
+<p>Your Merchant Center feed is the foundation for all of it. If your feed is messy today, the buy button is not your next step. My guide to <a href="{root}guides/merchant-center-free-listings/">Merchant Center free listings</a> covers the feed errors to fix first.</p>
+
+<h2>What to do this quarter</h2>
+<p>None of this requires you to bet on a winner. The same five pieces of work help in ChatGPT, in AI Mode, and in plain Google Shopping:</p>
+<ul>
+<li>Clean your product data: one variant per row, real stock levels, prices that match the page, and images of the actual item.</li>
+<li>Publish shipping, returns, and contact pages at stable addresses, written plainly enough that a machine can quote them.</li>
+<li>Mark up product pages with structured data that matches the visible page. My <a href="{root}guides/small-business-schema/">schema guide for small businesses</a> has the code.</li>
+<li>Join the waitlists that fit your market, and read the requirements before you apply rather than after.</li>
+<li>Tag the traffic. OpenAI suggests a <code>utm_medium=feed</code> parameter on feed links, so you can tell ChatGPT shoppers apart in analytics.</li>
+</ul>
+
+<h2>Advice to refuse</h2>
+<p>Be wary of anyone selling guaranteed placement inside ChatGPT or a buy button in AI Mode. Neither OpenAI nor Google sells placement, Google's checkout is invitation only, and OpenAI moved in chat purchases to merchant apps that most small shops do not have. A vendor who promises either is selling something that does not exist on the terms described. My list of <a href="{root}guides/seo-advice-to-refuse/">SEO and AI search advice to refuse</a> has more of these.</p>
+
+<section class="faq">
+<h2>Questions shop owners ask</h2>
+<h3>Do I need my own ChatGPT app to sell there?</h3>
+<p>Only for purchases that complete inside the chat. Discovery and links to your own checkout come from a product feed and from pages ChatGPT can read.</p>
+<h3>Will Google charge a fee for AI Mode checkout?</h3>
+<p>Google's help pages describe the program and its requirements but do not set out a fee schedule for small merchants. Read the current terms in your Merchant Center account before you apply.</p>
+</section>
+
+<p>If you want a second pair of eyes on your feed and product pages before you apply, my <a href="{root}services/ai-shopping-readiness/">AI shopping readiness review</a> covers both, or <a href="{calendly}">book a 30 minute call</a>.</p>

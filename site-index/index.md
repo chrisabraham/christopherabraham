@@ -1,10 +1,10 @@
 > A back of the book index to christopherabraham.com: every person, tool, platform, and SEO problem the pages cover, listed A to Z with links to each page.
 >
-> Source: https://christopherabraham.com/site-index/ · Updated 2026-10-27 · By Christopher Abraham
+> Source: https://christopherabraham.com/site-index/ · Updated 2026-10-28 · By Christopher Abraham
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 604 headings across 118 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 609 headings across 121 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -110,6 +110,12 @@ People are listed surname first. Cross-references point to related headings. For
 - ageism and dates, [About Page for AI](https://christopherabraham.com/guides/about-page-ai/)
 - agencies, working with, [AI Search](https://christopherabraham.com/services/ai-search/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/)
 - agency reports. *See* [SEO report review](https://christopherabraham.com/site-index/#ix-seo-report-review)
+- agentic checkout, **[Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/)**, [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
+  - OpenAI Instant Checkout, [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/)
+  - Universal Commerce Protocol, [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/)
+  - what to do now, [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/)
+
+- Agentic Commerce Protocol, **[Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/)**. *See also* [agentic checkout](https://christopherabraham.com/site-index/#ix-agentic-checkout)
 - Ahrefs, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
 - AI agents, browsing, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
 - AI answers, correcting, [Guides](https://christopherabraham.com/guides/), **[Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)**, [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
@@ -125,6 +131,12 @@ People are listed surname first. Cross-references point to related headings. For
 - AI crawlers, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Site Speed](https://christopherabraham.com/services/site-speed/), [AI Search](https://christopherabraham.com/services/ai-search/), [Static Websites](https://christopherabraham.com/services/static-sites/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/). *See also* [robots.txt](https://christopherabraham.com/site-index/#ix-robotstxt)
 - AI detectors, [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/)
 - AI drafts, verifying, [Fact-Checked Articles](https://christopherabraham.com/services/fact-checked-articles/), [About Page for AI](https://christopherabraham.com/guides/about-page-ai/)
+- AI Mode bookings, **[AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/)**
+  - event tickets, [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/)
+  - local appointments, [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/)
+  - restaurants, [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/)
+  - testing, [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/)
+
 - AI Overviews, [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/). *See also* [Google AI Overviews](https://christopherabraham.com/site-index/#ix-google-ai-overviews)
   - share of commercial searches, [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
 
@@ -262,7 +274,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Cerf, Vint, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Chaminade University, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - change logs, [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
-- ChatGPT, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [AI visibility](https://christopherabraham.com/services/ai-visibility/)
+- ChatGPT, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/), [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
 - Chris Abraham (byline). *See* [Abraham, Christopher](https://christopherabraham.com/site-index/#ix-abraham-christopher)
 - Chris Abraham Show, The, **[Podcast Site](https://christopherabraham.com/case-studies/podcast-site/)**
   - 458 episode pages, [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/)
@@ -482,12 +494,12 @@ People are listed surname first. Cross-references point to related headings. For
 - Global Idea Network, [About](https://christopherabraham.com/about/)
 - glossary, **[Glossary](https://christopherabraham.com/guides/glossary/)**
 - Goethe-Institut, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- Google AI Mode, [AI Search](https://christopherabraham.com/services/ai-search/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/)
+- Google AI Mode, [AI Search](https://christopherabraham.com/services/ai-search/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/), [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/), [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/), [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
 - Google AI Overviews, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Indexing](https://christopherabraham.com/services/indexing/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/)
   - brand search studies, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 
 - Google Apps case study (Abraham Harrison), [About](https://christopherabraham.com/about/)
-- Google Business Profile, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/), [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/), [Skills and Proof](https://christopherabraham.com/about/skills/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/), [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/), [Service-Area Businesses](https://christopherabraham.com/guides/service-area-business/), [Apple and Bing Listings](https://christopherabraham.com/guides/apple-and-bing-listings/), [FTC Review Rule](https://christopherabraham.com/guides/ftc-review-rule/), [Business Profile Verification](https://christopherabraham.com/services/gbp-verification/). *See also* [local SEO](https://christopherabraham.com/site-index/#ix-local-seo)
+- Google Business Profile, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/), [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/), [Skills and Proof](https://christopherabraham.com/about/skills/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/), [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/), [Service-Area Businesses](https://christopherabraham.com/guides/service-area-business/), [Apple and Bing Listings](https://christopherabraham.com/guides/apple-and-bing-listings/), [FTC Review Rule](https://christopherabraham.com/guides/ftc-review-rule/), [Business Profile Verification](https://christopherabraham.com/services/gbp-verification/), [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/). *See also* [local SEO](https://christopherabraham.com/site-index/#ix-local-seo)
   - as a source for AI answers, [AI visibility](https://christopherabraham.com/services/ai-visibility/)
   - business name rules, [Service-Area Businesses](https://christopherabraham.com/guides/service-area-business/)
   - Chris’ own rating, [Home](https://christopherabraham.com/)
@@ -575,7 +587,7 @@ People are listed surname first. Cross-references point to related headings. For
   - what happens next, [Contact](https://christopherabraham.com/contact/)
   - where the work lives, [Hire Me](https://christopherabraham.com/hire-me/)
 
-- holiday hours, **[Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)**
+- holiday hours, **[Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)**, [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/)
   - additional hour types, [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)
   - expiry, [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)
   - multiple locations, [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)
@@ -722,7 +734,7 @@ People are listed surname first. Cross-references point to related headings. For
 - memetic lexicon, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Men Who Stare at Goats, The, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - mentions, off-site, **[Nobody Mentions You](https://christopherabraham.com/guides/nobody-mentions-you/)**. *See also* [digital PR](https://christopherabraham.com/site-index/#ix-digital-pr)
-- Merchant Center, [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/), **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**, [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
+- Merchant Center, [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/), **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**, [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/), [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/), [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
   - free listings, [Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)
   - Needs attention tab, [Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)
 
@@ -869,7 +881,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Potomac Boat Club, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - prerendering, [Glossary](https://christopherabraham.com/guides/glossary/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)
 - privacy, **[Privacy](https://christopherabraham.com/privacy/)**
-- product feeds, **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**
+- product feeds, **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**, [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/), [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
 - programmatic SEO, **[Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)**
 - prompt sets, [AI Search](https://christopherabraham.com/services/ai-search/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/)
 - Proxima (later Proxicom), [About](https://christopherabraham.com/about/)
@@ -910,6 +922,7 @@ People are listed surname first. Cross-references point to related headings. For
 - reports, disagreeing, [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/)
 - reputation provenance, **[Who Wrote Your Reputation](https://christopherabraham.com/guides/who-wrote-your-reputation/)**. *See also* [mentions, off-site](https://christopherabraham.com/site-index/#ix-mentions-offsite); [online reputation management](https://christopherabraham.com/site-index/#ix-online-reputation-management)
 - Reputation.com, [About](https://christopherabraham.com/about/)
+- reservation platforms, **[AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/)**. *See also* [AI Mode bookings](https://christopherabraham.com/site-index/#ix-ai-mode-bookings)
 - responsive images, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
 - retainers, [Services](https://christopherabraham.com/services/), **[SEO Retainer](https://christopherabraham.com/services/seo-retainer/)**
   - ending, [SEO Retainer](https://christopherabraham.com/services/seo-retainer/)
@@ -942,7 +955,7 @@ People are listed surname first. Cross-references point to related headings. For
 - sameAs links, [AI Search](https://christopherabraham.com/services/ai-search/), [Schema](https://christopherabraham.com/services/schema/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), **[Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/)**, [Third-Party Proof](https://christopherabraham.com/guides/third-party-proof/), [Lapsed Domains](https://christopherabraham.com/guides/lapsed-domains/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
 - Sanity, [Services](https://christopherabraham.com/services/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), **[Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)**
 - scaled content abuse, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Glossary](https://christopherabraham.com/guides/glossary/)
-- schema markup, [AI visibility](https://christopherabraham.com/services/ai-visibility/). *See also* [structured data](https://christopherabraham.com/site-index/#ix-structured-data)
+- schema markup, [AI visibility](https://christopherabraham.com/services/ai-visibility/), [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/). *See also* [structured data](https://christopherabraham.com/site-index/#ix-structured-data)
 - Schema.org, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)
 - Schema.org validator, [Schema](https://christopherabraham.com/services/schema/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)
 - Schwartz, Barry, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
@@ -1144,6 +1157,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 ## U
 - Umbraco, [Services](https://christopherabraham.com/services/)
+- Universal Commerce Protocol, **[Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/)**, [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/). *See also* [agentic checkout](https://christopherabraham.com/site-index/#ix-agentic-checkout)
 - University of East Anglia, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - University of Hawaiʻi, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - University of Maryland, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -1263,4 +1277,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated October 27, 2026
+Updated October 28, 2026

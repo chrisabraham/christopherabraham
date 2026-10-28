@@ -175,6 +175,10 @@ FILES += ["guides/search-console-comparisons"]
 FILES += ["guides/seo-advice-to-refuse"]
 FILES += ["guides/nobody-mentions-you"]
 FILES += ["guides/who-wrote-your-reputation"]
+# Two guides and a service on AI shopping and booking, October 28, 2026, written by Claude in the Claude app.
+FILES += ["guides/agentic-checkout", "guides/ai-mode-bookings", "services/ai-shopping-readiness"]
+_g = next(g for g in SERVICE_GROUPS if "services/ecommerce-seo/" in g[1])[1]
+_g.insert(_g.index("services/ecommerce-seo/") + 1, "services/ai-shopping-readiness/")
 
 for f in FILES:
     head, body = open(f"src/{f}.html", encoding="utf-8").read().split("\n---\n", 1)

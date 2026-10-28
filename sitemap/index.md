@@ -1,6 +1,6 @@
 > Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.
 >
-> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-27 · By Christopher Abraham
+> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-28 · By Christopher Abraham
 
 # Site map
 
@@ -45,6 +45,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Podcast website SEO](https://christopherabraham.com/services/podcast-website/): I turn a podcast feed into a fast website on your own domain, with a page per episode, transcripts, schema, share cards, and new episodes added each morning.
 - [Launch websites for a book, an album, or a new service](https://christopherabraham.com/services/launch-site/): A fast, findable website for a book, album, film, or new service, on a domain you own, with search basics, share cards, and AI-readable pages from day one.
 - [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Ecommerce SEO for Shopify, WooCommerce, and Magento: product and category templates, faceted navigation, duplicate URLs, product schema, and AI answers.
+- [AI shopping readiness for small online shops](https://christopherabraham.com/services/ai-shopping-readiness/): I check your product feed, product pages, and store policies so ChatGPT shopping and Google AI Mode can find, describe, and recommend what you sell.
 - [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/): Align your website, location pages, and Google Business Profiles, with hard profile cases like suspensions handled as scoped, paid written diagnostics.
 - [Google Business Profile verification help](https://christopherabraham.com/services/gbp-verification/): Help for Business Profiles that won't verify: failed video checks, listings nobody can edit, missing owners, and service-area setups Google keeps questioning.
 - [Local competitor recon](https://christopherabraham.com/services/local-competitor-recon/): A structured pull of the Google listings you compete with: categories, ratings, reviews, addresses, hours, and websites, set beside your own profile.
@@ -114,6 +115,8 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [SEO and AI search advice your business should refuse now](https://christopherabraham.com/guides/seo-advice-to-refuse/): A field guide for owners: the search tactics to decline, the plausible ones that waste money, and the schemes that end with a site removed from Google.
 - [Nobody Mentions You: The AI Search Problem Owners Miss](https://christopherabraham.com/guides/nobody-mentions-you/): A flawless website stays invisible in AI answers when nobody else on the web mentions the company. Earned mentions, purchased applause, and agency questions.
 - [Who Wrote Your Reputation and What AI Search Believes](https://christopherabraham.com/guides/who-wrote-your-reputation/): I wrote most of my own reputation across thirty years online, and AI search believes it and shows the receipts. An owner audit of praise and provenance.
+- [Selling inside AI assistants: the real state of play](https://christopherabraham.com/guides/agentic-checkout/): Where buying inside ChatGPT and Google AI Mode actually stands for a small online shop in late 2026, which programs need a waitlist, and what to fix first.
+- [When Google's AI does the booking, be bookable](https://christopherabraham.com/guides/ai-mode-bookings/): Google's AI Mode now books restaurant tables in nine countries and is testing tickets and local appointments. How a local business becomes one it can book.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
@@ -147,4 +150,4 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 27, 2026
+Updated October 28, 2026

@@ -1,7 +1,7 @@
 # Christopher Abraham: full text of christopherabraham.com
 
 > Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.
-> Built 2026-10-27. Quote freely with attribution and a link to the source page.
+> Built 2026-10-28. Quote freely with attribution and a link to the source page.
 
 
 ---
@@ -7999,8 +7999,202 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 
 ---
 
+Source: https://christopherabraham.com/guides/agentic-checkout/
+Updated: 2026-10-28
+
+# Selling inside AI assistants: the real state of play
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 28, 2026
+
+Every week a shop owner asks me how to get a buy button inside ChatGPT. The honest answer changed twice in the last year, and most of the advice still circulating describes a program that has since been reorganized. Here is where buying inside AI assistants actually stands, and the work that pays off no matter which program wins.
+
+## What OpenAI launched, and what it changed
+
+In September 2025 OpenAI announced Instant Checkout, which let a person buy from a merchant without leaving the ChatGPT conversation. It ran on the Agentic Commerce Protocol, an open standard OpenAI built with Stripe, and Etsy sellers were first in line. For a few months the pitch was simple: list your products, and shoppers can pay right there in the chat.
+
+In March 2026 OpenAI changed course. A company spokesperson told reporters that "Instant Checkout is moving to Apps, where purchases can happen more seamlessly," meaning checkout now happens inside a merchant's own ChatGPT app or on the merchant's site. The protocol survived, but its job moved toward product discovery: feeding live product data into ChatGPT so it can recommend and link to you. Large retailers with their own ChatGPT apps get the in-chat purchase. A small shop gets found, then sends the buyer to its own checkout.
+
+## How a small shop gets into ChatGPT shopping
+
+OpenAI's merchant documentation describes a structured product feed with titles, descriptions, images, prices, and availability. Every purchasable variant needs its own row with a stable parent ID and its own variant ID, and the feed has to carry your real seller name and working links to your shipping and return policies. Onboarding is by application through OpenAI, rather than self serve. Shopify and similar platforms handle much of this for their merchants, so check your platform's sales channel settings before you hire anyone to build a feed by hand.
+
+Product pages still matter when no feed exists. ChatGPT's shopping answers draw on what it can read about you on the open web, so the same clean product pages that work in Google work here.
+
+## Google's version runs through Merchant Center
+
+Google took a different road. Its Universal Commerce Protocol is an open standard for agentic commerce, and its first job is direct buying inside AI Mode in Google Search and on Gemini on the web. The shopper pays with Google Pay using details saved in Google Wallet, while the merchant stays the seller of record.
+
+The details matter for a small shop. According to Google's Merchant Center help, the feature covers eligible products in the United States, Canada, and Australia, and it is open to select merchants through an early access interest form. A product shows the Buy button only when its listing carries the `native_commerce` attribute with checkout eligibility set. The merchant also needs a Google Pay and Wallet Console account, and a payment provider can handle that onboarding. Google lists multi item carts, loyalty account linking, and order tracking and returns as roadmap items, which tells you how early this is.
+
+Your Merchant Center feed is the foundation for all of it. If your feed is messy today, the buy button is not your next step. My guide to [Merchant Center free listings](https://christopherabraham.com/guides/merchant-center-free-listings/) covers the feed errors to fix first.
+
+## What to do this quarter
+
+None of this requires you to bet on a winner. The same five pieces of work help in ChatGPT, in AI Mode, and in plain Google Shopping:
+- Clean your product data: one variant per row, real stock levels, prices that match the page, and images of the actual item.
+- Publish shipping, returns, and contact pages at stable addresses, written plainly enough that a machine can quote them.
+- Mark up product pages with structured data that matches the visible page. My [schema guide for small businesses](https://christopherabraham.com/guides/small-business-schema/) has the code.
+- Join the waitlists that fit your market, and read the requirements before you apply rather than after.
+- Tag the traffic. OpenAI suggests a `utm_medium=feed` parameter on feed links, so you can tell ChatGPT shoppers apart in analytics.
+
+## Advice to refuse
+
+Be wary of anyone selling guaranteed placement inside ChatGPT or a buy button in AI Mode. Neither OpenAI nor Google sells placement, Google's checkout is invitation only, and OpenAI moved in chat purchases to merchant apps that most small shops do not have. A vendor who promises either is selling something that does not exist on the terms described. My list of [SEO and AI search advice to refuse](https://christopherabraham.com/guides/seo-advice-to-refuse/) has more of these.
+
+## Questions shop owners ask
+
+### Do I need my own ChatGPT app to sell there?
+
+Only for purchases that complete inside the chat. Discovery and links to your own checkout come from a product feed and from pages ChatGPT can read.
+
+### Will Google charge a fee for AI Mode checkout?
+
+Google's help pages describe the program and its requirements but do not set out a fee schedule for small merchants. Read the current terms in your Merchant Center account before you apply.
+
+If you want a second pair of eyes on your feed and product pages before you apply, my [AI shopping readiness review](https://christopherabraham.com/services/ai-shopping-readiness/) covers both, or [book a 30 minute call](https://calendly.com/chrisabraham/30).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [OpenAI: Buy it in ChatGPT, Instant Checkout and the Agentic Commerce Protocol](https://openai.com/index/buy-it-in-chatgpt/)
+- [Digital Commerce 360: OpenAI shifts checkout plans in its agentic commerce strategy](https://www.digitalcommerce360.com/2026/03/06/openai-shifts-checkout-plans-agentic-commerce-strategy/)
+- [Google for Developers: Universal Commerce Protocol on Google](https://developers.google.com/merchant/ucp)
+- [Google Merchant Center Help: About UCP powered checkout on Google](https://support.google.com/merchants/answer/16837055)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
+Source: https://christopherabraham.com/guides/ai-mode-bookings/
+Updated: 2026-10-28
+
+# When Google's AI does the booking, be bookable
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 28, 2026
+
+A diner types "find me a table for four near Clarendon at seven on Friday, somewhere quiet with good pasta" into Google's AI Mode. Google searches several reservation services at once, checks which places actually have a table, and hands back a short list with buttons that complete the booking. A restaurant that only takes reservations by phone is not on that list, however good its reviews are.
+
+## How the feature grew
+
+Google introduced agentic restaurant reservations in AI Mode in August 2025, first for people enrolled in its Labs experiments in the United States. The companies Google named as partners at the time included OpenTable, Resy, and Tock for dining, Ticketmaster, StubHub, and SeatGeek for events, and Booksy for local appointments such as hair and beauty.
+
+In November 2025 restaurant booking opened to everyone in the United States without the Labs sign up, while event tickets and local service appointments stayed in Labs. In April 2026 Google took restaurant booking to eight more markets: Australia, Canada, Hong Kong, India, New Zealand, Singapore, South Africa, and the United Kingdom. Each time the mechanics were the same. Google queries the reservation platforms it works with, compares live availability, and links the guest to complete the booking on the partner's system.
+
+## The plain requirement: live availability on a platform Google reads
+
+The AI can only offer a slot it can see. For a restaurant, that means taking online reservations through a platform Google works with and keeping its availability current there. For a salon, barber, spa, or similar appointment business, it means an online booking system with real calendar slots, which is where a partner like Booksy fits. Event venues need their inventory on a ticketing partner.
+
+If you already use one of these platforms, check that your listing there is complete: the correct business name, address, cuisine or service type, price range, photos, and a calendar that reflects reality. A platform profile that shows no availability because nobody maintains it reads the same as no profile at all.
+
+## Your Google Business Profile still decides who gets considered
+
+Booking sits on top of ordinary local search. The AI first decides which businesses match the request, using the same signals that drive the local map results: category, location, hours, reviews, photos, and what the web says about you. Then it checks who can be booked. The groundwork is the same as always:
+- Pick the most specific primary category and keep hours, including [holiday hours](https://christopherabraham.com/guides/holiday-hours/), correct.
+- Add your reservation or booking link to the profile, so it points at the platform holding your availability.
+- Describe the experience in words a request might use: quiet, private room, gluten free, walk ins welcome, parking.
+- Answer reviews that mention the things people ask for, because those descriptions feed the matching.
+
+The new [Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/) show whether booking clicks are rising after you make these changes.
+
+## Test it the way a customer would
+
+Open AI Mode and ask for your kind of business the way a real customer would, with a day, a time, a party size, and a reason. Try three or four variations. Note whether you appear, whether you appear as bookable, and who appears instead. Repeat the same questions monthly. If a competitor across the street keeps getting the booking, compare their platform profile and their Business Profile with yours line by line; the difference is usually visible.
+
+## What this does not cover yet
+
+Appointment and ticket booking were still Labs features in the United States at the last public update I can confirm, and Google has not opened flight or hotel booking in AI Mode. Contractors, clinics, and law offices are not in this booking flow at all. For them, the work remains being the business the AI names and links to, which my guide to [service area businesses on Google](https://christopherabraham.com/guides/service-area-business/) covers.
+
+## Questions owners ask about AI bookings
+
+### Do I have to switch reservation systems?
+
+Only if yours is not one Google reads. Ask your provider directly whether it supplies availability to Google's booking features before you change anything.
+
+### Does Google charge me for an AI Mode booking?
+
+The booking completes on the partner's system, so any fee is whatever your reservation platform already charges under your agreement with it.
+
+If you want me to run the customer test for your business and compare you with the competitors who keep winning it, [book a 30 minute call](https://calendly.com/chrisabraham/30) or reach me on [Upwork](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [SiliconANGLE: Google opens AI Mode globally with personalized, agentic capabilities](https://siliconangle.com/2025/08/21/google-opens-ai-mode-globally-personalized-agentic-capabilities/)
+- [Search Engine Journal: Google extends AI travel planning and agentic booking in Search](https://www.searchenginejournal.com/google-extends-ai-travel-planning-and-agentic-booking-in-search/561251/)
+- [9to5Google: Google AI Mode redesign, agentic booking expands globally](https://9to5google.com/2026/04/10/google-ai-mode-redesign/)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
+Source: https://christopherabraham.com/services/ai-shopping-readiness/
+Updated: 2026-10-28
+
+# AI shopping readiness for small online shops
+
+Shoppers now ask ChatGPT and Google's AI Mode to find the right product and compare a few options. Whether yours makes that short list depends on data most small shops never look at: the feed, the product pages, and the policies a machine reads to decide whether you are a safe recommendation. I check all three and fix what keeps you off the list.
+
+## Who this is for
+
+This review fits independent shops on Shopify, WooCommerce, BigCommerce, and similar platforms, usually with a few dozen to a few thousand products, run by an owner or a small team. It is also useful just before you apply to Google's early access checkout program or to OpenAI's merchant program, when a clean application matters.
+
+## What I review
+
+First the feed. I read your Merchant Center diagnostics and your product data the way the assistants receive it: one row per variant, real stock, prices that match the page, accurate shipping and tax, images of the actual item, and identifiers that hold steady between updates. Then the product pages, checking that titles, descriptions, and structured data agree with the feed and with each other, and that the facts a shopper asks about, such as size, material, compatibility, and care, are written out in text rather than buried in an image.
+
+Next come the trust pages. Shipping, returns, warranty, and contact pages need stable addresses and plain wording, because both OpenAI's feed rules and Google's merchant requirements point to them. Finally I run real shopping questions through ChatGPT and AI Mode, the kind your customers ask, and record whether you appear, how you are described, and which shops appear instead.
+
+## What I fix
+
+On your platform I correct feed attributes, variant structure, and product markup, and I rewrite the product facts and policy pages that are thin or contradictory. Where a fix needs a developer or an app change, I write it up as a specific task with the field, the current value, and the correct value. I also add campaign tagging to feed links so shopping traffic from AI assistants shows up separately in your analytics.
+
+## Programs and waitlists
+
+I explain which programs fit your store today and which do not. Google's in AI Mode checkout runs through early access in the United States, Canada, and Australia, and OpenAI accepts merchants into its feed program by application. I help you prepare the materials each one asks for. I do not sell placement, and nobody honest can, because neither company offers it for sale. My guide on [selling inside ChatGPT and AI Mode](https://christopherabraham.com/guides/agentic-checkout/) explains the current terms in more detail.
+
+## What you receive
+
+A written report with the feed issues by severity, the page and policy fixes made or specified, the before and after results of the shopping questions, and a short list of what to watch each month. If you sell seasonally, I can time the work ahead of your busy weeks, the way I describe in my [peak season readiness](https://christopherabraham.com/services/peak-season-readiness/) service.
+
+## Before an AI shopping review
+
+### What access do you need?
+
+Read access to Merchant Center and your store admin to start. Edit access only if you want me to make the fixes myself rather than hand them to your team.
+
+### Is this different from ecommerce SEO?
+
+It shares the foundation. My [ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/) work covers rankings across the whole store; this review focuses on the product data and pages that AI shopping answers read.
+
+To get started, [book a 30 minute call](https://calendly.com/chrisabraham/30) and send me your store address, or hire me through [Upwork](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+Updated October 28, 2026
+
+
+---
+
 Source: https://christopherabraham.com/sitemap/
-Updated: 2026-10-27
+Updated: 2026-10-28
 
 # Site map
 
@@ -8045,6 +8239,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Podcast website SEO](https://christopherabraham.com/services/podcast-website/): I turn a podcast feed into a fast website on your own domain, with a page per episode, transcripts, schema, share cards, and new episodes added each morning.
 - [Launch websites for a book, an album, or a new service](https://christopherabraham.com/services/launch-site/): A fast, findable website for a book, album, film, or new service, on a domain you own, with search basics, share cards, and AI-readable pages from day one.
 - [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Ecommerce SEO for Shopify, WooCommerce, and Magento: product and category templates, faceted navigation, duplicate URLs, product schema, and AI answers.
+- [AI shopping readiness for small online shops](https://christopherabraham.com/services/ai-shopping-readiness/): I check your product feed, product pages, and store policies so ChatGPT shopping and Google AI Mode can find, describe, and recommend what you sell.
 - [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/): Align your website, location pages, and Google Business Profiles, with hard profile cases like suspensions handled as scoped, paid written diagnostics.
 - [Google Business Profile verification help](https://christopherabraham.com/services/gbp-verification/): Help for Business Profiles that won't verify: failed video checks, listings nobody can edit, missing owners, and service-area setups Google keeps questioning.
 - [Local competitor recon](https://christopherabraham.com/services/local-competitor-recon/): A structured pull of the Google listings you compete with: categories, ratings, reviews, addresses, hours, and websites, set beside your own profile.
@@ -8114,6 +8309,8 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [SEO and AI search advice your business should refuse now](https://christopherabraham.com/guides/seo-advice-to-refuse/): A field guide for owners: the search tactics to decline, the plausible ones that waste money, and the schemes that end with a site removed from Google.
 - [Nobody Mentions You: The AI Search Problem Owners Miss](https://christopherabraham.com/guides/nobody-mentions-you/): A flawless website stays invisible in AI answers when nobody else on the web mentions the company. Earned mentions, purchased applause, and agency questions.
 - [Who Wrote Your Reputation and What AI Search Believes](https://christopherabraham.com/guides/who-wrote-your-reputation/): I wrote most of my own reputation across thirty years online, and AI search believes it and shows the receipts. An owner audit of praise and provenance.
+- [Selling inside AI assistants: the real state of play](https://christopherabraham.com/guides/agentic-checkout/): Where buying inside ChatGPT and Google AI Mode actually stands for a small online shop in late 2026, which programs need a waitlist, and what to fix first.
+- [When Google's AI does the booking, be bookable](https://christopherabraham.com/guides/ai-mode-bookings/): Google's AI Mode now books restaurant tables in nine countries and is testing tickets and local appointments. How a local business becomes one it can book.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
@@ -8147,17 +8344,17 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 27, 2026
+Updated October 28, 2026
 
 
 ---
 
 Source: https://christopherabraham.com/site-index/
-Updated: 2026-10-27
+Updated: 2026-10-28
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 604 headings across 118 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 609 headings across 121 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -8263,6 +8460,12 @@ People are listed surname first. Cross-references point to related headings. For
 - ageism and dates, [About Page for AI](https://christopherabraham.com/guides/about-page-ai/)
 - agencies, working with, [AI Search](https://christopherabraham.com/services/ai-search/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/)
 - agency reports. *See* [SEO report review](https://christopherabraham.com/site-index/#ix-seo-report-review)
+- agentic checkout, **[Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/)**, [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
+  - OpenAI Instant Checkout, [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/)
+  - Universal Commerce Protocol, [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/)
+  - what to do now, [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/)
+
+- Agentic Commerce Protocol, **[Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/)**. *See also* [agentic checkout](https://christopherabraham.com/site-index/#ix-agentic-checkout)
 - Ahrefs, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
 - AI agents, browsing, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
 - AI answers, correcting, [Guides](https://christopherabraham.com/guides/), **[Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)**, [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
@@ -8278,6 +8481,12 @@ People are listed surname first. Cross-references point to related headings. For
 - AI crawlers, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Site Speed](https://christopherabraham.com/services/site-speed/), [AI Search](https://christopherabraham.com/services/ai-search/), [Static Websites](https://christopherabraham.com/services/static-sites/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/). *See also* [robots.txt](https://christopherabraham.com/site-index/#ix-robotstxt)
 - AI detectors, [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/)
 - AI drafts, verifying, [Fact-Checked Articles](https://christopherabraham.com/services/fact-checked-articles/), [About Page for AI](https://christopherabraham.com/guides/about-page-ai/)
+- AI Mode bookings, **[AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/)**
+  - event tickets, [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/)
+  - local appointments, [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/)
+  - restaurants, [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/)
+  - testing, [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/)
+
 - AI Overviews, [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/). *See also* [Google AI Overviews](https://christopherabraham.com/site-index/#ix-google-ai-overviews)
   - share of commercial searches, [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
 
@@ -8415,7 +8624,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Cerf, Vint, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Chaminade University, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - change logs, [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
-- ChatGPT, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [AI visibility](https://christopherabraham.com/services/ai-visibility/)
+- ChatGPT, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/), [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
 - Chris Abraham (byline). *See* [Abraham, Christopher](https://christopherabraham.com/site-index/#ix-abraham-christopher)
 - Chris Abraham Show, The, **[Podcast Site](https://christopherabraham.com/case-studies/podcast-site/)**
   - 458 episode pages, [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/)
@@ -8635,12 +8844,12 @@ People are listed surname first. Cross-references point to related headings. For
 - Global Idea Network, [About](https://christopherabraham.com/about/)
 - glossary, **[Glossary](https://christopherabraham.com/guides/glossary/)**
 - Goethe-Institut, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- Google AI Mode, [AI Search](https://christopherabraham.com/services/ai-search/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/)
+- Google AI Mode, [AI Search](https://christopherabraham.com/services/ai-search/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/), [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/), [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/), [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
 - Google AI Overviews, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Indexing](https://christopherabraham.com/services/indexing/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/)
   - brand search studies, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 
 - Google Apps case study (Abraham Harrison), [About](https://christopherabraham.com/about/)
-- Google Business Profile, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/), [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/), [Skills and Proof](https://christopherabraham.com/about/skills/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/), [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/), [Service-Area Businesses](https://christopherabraham.com/guides/service-area-business/), [Apple and Bing Listings](https://christopherabraham.com/guides/apple-and-bing-listings/), [FTC Review Rule](https://christopherabraham.com/guides/ftc-review-rule/), [Business Profile Verification](https://christopherabraham.com/services/gbp-verification/). *See also* [local SEO](https://christopherabraham.com/site-index/#ix-local-seo)
+- Google Business Profile, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/), [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/), [Skills and Proof](https://christopherabraham.com/about/skills/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/), [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/), [Service-Area Businesses](https://christopherabraham.com/guides/service-area-business/), [Apple and Bing Listings](https://christopherabraham.com/guides/apple-and-bing-listings/), [FTC Review Rule](https://christopherabraham.com/guides/ftc-review-rule/), [Business Profile Verification](https://christopherabraham.com/services/gbp-verification/), [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/). *See also* [local SEO](https://christopherabraham.com/site-index/#ix-local-seo)
   - as a source for AI answers, [AI visibility](https://christopherabraham.com/services/ai-visibility/)
   - business name rules, [Service-Area Businesses](https://christopherabraham.com/guides/service-area-business/)
   - Chris’ own rating, [Home](https://christopherabraham.com/)
@@ -8728,7 +8937,7 @@ People are listed surname first. Cross-references point to related headings. For
   - what happens next, [Contact](https://christopherabraham.com/contact/)
   - where the work lives, [Hire Me](https://christopherabraham.com/hire-me/)
 
-- holiday hours, **[Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)**
+- holiday hours, **[Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)**, [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/)
   - additional hour types, [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)
   - expiry, [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)
   - multiple locations, [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)
@@ -8875,7 +9084,7 @@ People are listed surname first. Cross-references point to related headings. For
 - memetic lexicon, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Men Who Stare at Goats, The, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - mentions, off-site, **[Nobody Mentions You](https://christopherabraham.com/guides/nobody-mentions-you/)**. *See also* [digital PR](https://christopherabraham.com/site-index/#ix-digital-pr)
-- Merchant Center, [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/), **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**, [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
+- Merchant Center, [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/), **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**, [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/), [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/), [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
   - free listings, [Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)
   - Needs attention tab, [Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)
 
@@ -9022,7 +9231,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Potomac Boat Club, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - prerendering, [Glossary](https://christopherabraham.com/guides/glossary/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)
 - privacy, **[Privacy](https://christopherabraham.com/privacy/)**
-- product feeds, **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**
+- product feeds, **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**, [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/), [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
 - programmatic SEO, **[Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)**
 - prompt sets, [AI Search](https://christopherabraham.com/services/ai-search/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/)
 - Proxima (later Proxicom), [About](https://christopherabraham.com/about/)
@@ -9063,6 +9272,7 @@ People are listed surname first. Cross-references point to related headings. For
 - reports, disagreeing, [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/)
 - reputation provenance, **[Who Wrote Your Reputation](https://christopherabraham.com/guides/who-wrote-your-reputation/)**. *See also* [mentions, off-site](https://christopherabraham.com/site-index/#ix-mentions-offsite); [online reputation management](https://christopherabraham.com/site-index/#ix-online-reputation-management)
 - Reputation.com, [About](https://christopherabraham.com/about/)
+- reservation platforms, **[AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/)**. *See also* [AI Mode bookings](https://christopherabraham.com/site-index/#ix-ai-mode-bookings)
 - responsive images, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
 - retainers, [Services](https://christopherabraham.com/services/), **[SEO Retainer](https://christopherabraham.com/services/seo-retainer/)**
   - ending, [SEO Retainer](https://christopherabraham.com/services/seo-retainer/)
@@ -9095,7 +9305,7 @@ People are listed surname first. Cross-references point to related headings. For
 - sameAs links, [AI Search](https://christopherabraham.com/services/ai-search/), [Schema](https://christopherabraham.com/services/schema/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), **[Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/)**, [Third-Party Proof](https://christopherabraham.com/guides/third-party-proof/), [Lapsed Domains](https://christopherabraham.com/guides/lapsed-domains/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
 - Sanity, [Services](https://christopherabraham.com/services/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), **[Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)**
 - scaled content abuse, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Glossary](https://christopherabraham.com/guides/glossary/)
-- schema markup, [AI visibility](https://christopherabraham.com/services/ai-visibility/). *See also* [structured data](https://christopherabraham.com/site-index/#ix-structured-data)
+- schema markup, [AI visibility](https://christopherabraham.com/services/ai-visibility/), [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/). *See also* [structured data](https://christopherabraham.com/site-index/#ix-structured-data)
 - Schema.org, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)
 - Schema.org validator, [Schema](https://christopherabraham.com/services/schema/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)
 - Schwartz, Barry, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
@@ -9297,6 +9507,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 ## U
 - Umbraco, [Services](https://christopherabraham.com/services/)
+- Universal Commerce Protocol, **[Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/)**, [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/). *See also* [agentic checkout](https://christopherabraham.com/site-index/#ix-agentic-checkout)
 - University of East Anglia, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - University of Hawaiʻi, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - University of Maryland, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -9416,4 +9627,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated October 27, 2026
+Updated October 28, 2026
