@@ -4,7 +4,7 @@
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 609 headings across 121 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 613 headings across 122 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -85,6 +85,10 @@ People are listed surname first. Cross-references point to related headings. For
 
 - Abraham Harrison, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - acceptance criteria, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/), [Event App Links](https://christopherabraham.com/case-studies/event-app-links/)
+- access for an outside SEO, **[Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)**
+  - offboarding, [Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)
+  - shared passwords, risks of, [Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)
+
 - accessibility, [Static Websites](https://christopherabraham.com/services/static-sites/), **[Accessible Websites](https://christopherabraham.com/guides/accessible-websites/)**, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
   - AI agents, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
   - captions and transcripts, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/)
@@ -317,6 +321,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Codex, [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Editorial Policy](https://christopherabraham.com/about/editorial-policy/), [Colophon](https://christopherabraham.com/about/colophon/)
 - Coelaboration, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Collabor8 (8: A Collaborative Hypernarrative Fiction), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
+- collaborator account (Shopify), **[Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)**. *See also* [Shopify](https://christopherabraham.com/site-index/#ix-shopify)
 - colophon, **[Colophon](https://christopherabraham.com/about/colophon/)**
 - Columbia University, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Combs, Robert (GW English professor), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -365,6 +370,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 ## D
 - Debian, [Skills and Proof](https://christopherabraham.com/about/skills/)
+- delegated owner (Search Console), **[Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)**. *See also* [Google Search Console](https://christopherabraham.com/site-index/#ix-google-search-console)
 - DemandSphere, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - denominators, reporting, [Small original research](https://christopherabraham.com/guides/small-original-research/)
 - Department of Justice, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
@@ -463,6 +469,7 @@ People are listed surname first. Cross-references point to related headings. For
   - deferring gtag.js, [GA4 and PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/)
   - finding measurement IDs, [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/)
   - ghost traffic, [Plugin Outage](https://christopherabraham.com/case-studies/plugin-outage/)
+  - roles and data restrictions, [Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)
 
 - GBP performance reports, **[GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)**. *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
   - audience, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
@@ -508,6 +515,7 @@ People are listed surname first. Cross-references point to related headings. For
   - interactions, calls, and direction requests, [Training Gym](https://christopherabraham.com/case-studies/training-gym/)
   - linking each profile to its location page, [Closet Locations](https://christopherabraham.com/case-studies/closet-locations/)
   - name changes and reverification, [Local SEO](https://christopherabraham.com/services/local-seo/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/)
+  - owners, managers, and primary owner, [Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)
   - reviews, [Local SEO](https://christopherabraham.com/services/local-seo/)
   - special hours, [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)
   - suspensions and appeals, [Local SEO](https://christopherabraham.com/services/local-seo/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Skills and Proof](https://christopherabraham.com/about/skills/)
@@ -527,6 +535,7 @@ People are listed surname first. Cross-references point to related headings. For
   - manual actions, [Search Console](https://christopherabraham.com/services/search-console/)
   - Page indexing report, [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/)
   - URL Inspection, [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/), [Event App Links](https://christopherabraham.com/case-studies/event-app-links/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/), [Plugin Outage](https://christopherabraham.com/case-studies/plugin-outage/)
+  - users, owners, and verification tokens, [Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)
 
 - Google SEO Starter Guide, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
 - Google spam policies, [Hiring an SEO](https://christopherabraham.com/guides/hiring-an-seo/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/), [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
@@ -880,6 +889,7 @@ People are listed surname first. Cross-references point to related headings. For
 - postcard verification, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
 - Potomac Boat Club, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - prerendering, [Glossary](https://christopherabraham.com/guides/glossary/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)
+- primary owner (Business Profile), **[Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)**. *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
 - privacy, **[Privacy](https://christopherabraham.com/privacy/)**
 - product feeds, **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**, [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/), [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
 - programmatic SEO, **[Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)**
@@ -1026,6 +1036,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 - Shaughnessy, Haydn, [About](https://christopherabraham.com/about/)
 - Shopify, [Services](https://christopherabraham.com/services/), [Site Speed](https://christopherabraham.com/services/site-speed/), [Migrations](https://christopherabraham.com/services/migrations/), [Schema](https://christopherabraham.com/services/schema/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), **[Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)**
+  - collaborator accounts, [Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)
   - collection paths, [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)
   - duplicate product markup, [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)
 
@@ -1247,6 +1258,7 @@ People are listed surname first. Cross-references point to related headings. For
   - security hardening, [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
   - speed, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
   - updates and spam, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
+  - user roles for an outside SEO, [Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)
 
 - worksheets (CSV), [Internal Linking](https://christopherabraham.com/guides/internal-linking/), [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
 - WP Rocket, [Site Speed](https://christopherabraham.com/services/site-speed/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)

@@ -8,6 +8,82 @@
   <lastBuildDate>Wed, 28 Oct 2026 12:00:00 +0000</lastBuildDate>
   <atom:link href="https://christopherabraham.com/rss.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Give your SEO access without handing over your passwords</title>
+    <link>https://christopherabraham.com/guides/give-seo-access/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/give-seo-access/</guid>
+    <pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
+    <description>Search Console, GA4, Business Profile, WordPress, and Shopify all let you invite an SEO by name. Which role to pick for each, and how to take access back.</description>
+    <content:encoded>&lt;h1&gt;Give your SEO access without handing over your passwords&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-28"&gt;October 28, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;The first week of an SEO engagement is mostly logins. The fastest way through it is the one that causes trouble later: emailing your own username and password. Every tool an SEO needs lets you invite a person by email, give them a role, and remove them in one click when the work ends. Here is the role to pick in each one.&lt;/p&gt;
+
+&lt;h2&gt;Why a shared password costs more than it saves&lt;/h2&gt;
+&lt;p&gt;A shared login is your identity. Anything done under it looks like you did it, two-step verification codes go to your phone at awkward hours, and when the engagement ends the only way to close the door is to change a password that your own staff also use. An invitation ties every action to a named person and ends with a single click. It also keeps the account yours if the relationship sours, which is the case nobody plans for.&lt;/p&gt;
+&lt;p&gt;Ask your SEO for the Google account or email address they want invited, then use the roles below.&lt;/p&gt;
+
+&lt;h2&gt;Google Search Console: a full user is usually enough&lt;/h2&gt;
+&lt;p&gt;Search Console has owners and users. In Settings, then Users and permissions, an owner can add a &lt;strong&gt;full user&lt;/strong&gt;, who sees all the data and can take some actions, or a &lt;strong&gt;restricted user&lt;/strong&gt;, who sees most data and can change nothing. A full user covers nearly all audit and indexing work.&lt;/p&gt;
+&lt;p&gt;Grant &lt;strong&gt;owner&lt;/strong&gt; only when the SEO has to manage other users or settings. Google treats a delegated owner the same as a verified owner except for one thing: a verified owner proved ownership with a token on your site, such as an HTML file or a DNS record. That token outlives the person. Google's help page warns that removing an owner from the property leaves their tokens in place, and while a token remains, that person can verify again and walk back in. When an SEO who verified the property leaves, remove the file or DNS record they added, and only theirs, since one token can also verify Merchant Center or Google Workspace.&lt;/p&gt;
+&lt;p&gt;A property must always keep at least one verified owner. Make sure that owner is you or someone on your staff.&lt;/p&gt;
+
+&lt;h2&gt;Google Analytics: Analyst for reading, Editor only for setup&lt;/h2&gt;
+&lt;p&gt;GA4 has five predefined roles, each including the permissions of the one below it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Viewer&lt;/strong&gt; sees settings and data and can build personal explorations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analyst&lt;/strong&gt; can also share explorations with other users of the property.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Marketer&lt;/strong&gt; can also create and change audiences, events, key events, and attribution settings.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Editor&lt;/strong&gt; has full control of settings at the property level, without managing users.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Administrator&lt;/strong&gt; has full control, including who else gets access.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Analyst covers reporting. Marketer fits an SEO who needs to mark a form submission as a key event. Editor is for someone fixing a broken tracking setup, and Administrator rarely belongs to anyone outside the business. Grant access at the property level unless the SEO works on every property in your account, because account-level access flows down to all of them.&lt;/p&gt;
+&lt;p&gt;GA4 also offers two data restrictions you can add to any role: &lt;strong&gt;No Cost Metrics&lt;/strong&gt; and &lt;strong&gt;No Revenue Metrics&lt;/strong&gt;. If your SEO has no need to see what you spend on ads or what you earn per order, switch those on.&lt;/p&gt;
+
+&lt;h2&gt;Google Business Profile: Manager, never primary owner&lt;/h2&gt;
+&lt;p&gt;From Business Profile settings, then People and access, an owner can invite someone as an &lt;strong&gt;Owner&lt;/strong&gt; or a &lt;strong&gt;Manager&lt;/strong&gt;. Google says managers have mostly the same access as owners: they edit business information, reply to reviews, post updates, add photos and products, and download performance data. They cannot add or remove people or delete the profile. That is the right fit for nearly all local SEO work.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;primary owner&lt;/strong&gt; is the one account that can hand the profile to someone else. Keep it in the business. A primary owner cannot remove themselves until they transfer the role, so a profile whose primary owner is a departed agency is a profile you will spend weeks recovering. Google also applies a seven-day waiting period to every new owner or manager, during which they cannot delete the profile, remove other people, or transfer primary ownership. Plan around that week rather than discovering it on deadline.&lt;/p&gt;
+&lt;p&gt;The person you invite needs their own Google Account, and Google Groups cannot be added.&lt;/p&gt;
+
+&lt;h2&gt;WordPress: a named account, removed afterward&lt;/h2&gt;
+&lt;p&gt;WordPress ships with five roles. An &lt;strong&gt;Editor&lt;/strong&gt; manages every post and page, including other people's, but cannot touch plugins, themes, or site settings. An &lt;strong&gt;Administrator&lt;/strong&gt; can do everything, including installing code.&lt;/p&gt;
+&lt;p&gt;Content work fits Editor. Most SEO plugin settings, redirects, and sitemap options sit behind Administrator, so technical SEO usually needs it. Create a separate administrator account in the SEO's own name and email, never your own login. That keeps their changes traceable in any activity log and lets you delete the account, and reassign its content to you, on the last day.&lt;/p&gt;
+
+&lt;h2&gt;Shopify: a collaborator account with a request code&lt;/h2&gt;
+&lt;p&gt;Shopify gives outside help its own door. A collaborator account reaches only the sections of the admin you approve, and it does not use up one of your staff seats. Under Settings, then Users and permissions, then Collaborators, you can require a &lt;strong&gt;collaborator request code&lt;/strong&gt;, so only people you have given the code can even ask for access. Shopify's help center says the code requirement is on by default. Generating a new code invalidates the old one, which is a tidy way to stop stray requests after a project.&lt;/p&gt;
+&lt;p&gt;When the request arrives, approve only what the work needs. Product editing and online store themes cover most SEO tasks. Orders, customers, payments, and finances usually do not belong in the request.&lt;/p&gt;
+
+&lt;h2&gt;The day the work ends&lt;/h2&gt;
+&lt;p&gt;Access granted this way comes back in a few clicks per tool:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Remove the person from Search Console, and delete any verification file or DNS record they added.&lt;/li&gt;
+&lt;li&gt;Remove them in GA4 at both the account and property level, wherever they appear.&lt;/li&gt;
+&lt;li&gt;Remove them from People and access on every Business Profile, and confirm the primary owner is still yours.&lt;/li&gt;
+&lt;li&gt;Delete their WordPress account and assign its content to a staff user.&lt;/li&gt;
+&lt;li&gt;Remove the Shopify collaborator and generate a new request code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Keep a short list of every invitation you send during the engagement. Offboarding then becomes reading that list back.&lt;/p&gt;
+
+&lt;h2&gt;How I can help&lt;/h2&gt;
+&lt;p&gt;I can send you the exact invitations a piece of work needs and the role for each, so the first week goes to the work instead of to logins. If you are staring at a profile or property that a former vendor still controls, &lt;a href="https://calendly.com/chrisabraham/30"&gt;book a call&lt;/a&gt; or reach me through &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://support.google.com/webmasters/answer/7687615"&gt;Search Console Help: Managing owners, users, and permissions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://support.google.com/analytics/answer/9305587"&gt;Analytics Help: Access and data restrictions management&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://support.google.com/business/answer/3403100"&gt;Business Profile Help: Manage owners and managers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://help.shopify.com/manual/your-account/staff-accounts/collaborator-accounts"&gt;Shopify Help Center: Collaborator permissions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://wordpress.org/documentation/article/roles-and-capabilities/"&gt;WordPress Documentation: Roles and Capabilities&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content:encoded>
+  </item>
+  <item>
     <title>When Google's AI does the booking, be bookable</title>
     <link>https://christopherabraham.com/guides/ai-mode-bookings/</link>
     <guid isPermaLink="true">https://christopherabraham.com/guides/ai-mode-bookings/</guid>
@@ -631,6 +707,8 @@
   &lt;dd&gt;Building a page in the visitor's browser with JavaScript, so the HTML the server sends starts nearly empty. Crawlers that skip scripts see little or nothing. See &lt;a href="https://christopherabraham.com/guides/ai-built-websites/"&gt;SEO for AI-built websites&lt;/a&gt;.&lt;/dd&gt;
   &lt;dt id="cls"&gt;CLS (Cumulative Layout Shift)&lt;/dt&gt;
   &lt;dd&gt;The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.&lt;/dd&gt;
+  &lt;dt id="collaborator-account"&gt;Collaborator account&lt;/dt&gt;
+  &lt;dd&gt;Shopify's door for outside help: a partner reaches only the admin sections the merchant approves, without taking a staff seat. A request code keeps strangers from asking. See &lt;a href="https://christopherabraham.com/guides/give-seo-access/"&gt;Give your SEO access&lt;/a&gt;.&lt;/dd&gt;
   &lt;dt id="comparison-cohort"&gt;Comparison cohort&lt;/dt&gt;
   &lt;dd&gt;A fixed group of pages evaluated across reporting periods so changes in the page inventory can be distinguished from changes in performance. See &lt;a href="https://christopherabraham.com/guides/search-console-comparisons/"&gt;Search Console comparisons&lt;/a&gt;.&lt;/dd&gt;
 
@@ -644,6 +722,8 @@
   &lt;dd&gt;Software that requests pages on its own to read them, such as Googlebot, Bingbot, GPTBot, or ClaudeBot. People also say bot or spider.&lt;/dd&gt;
   &lt;dt id="custom-extraction"&gt;Custom extraction&lt;/dt&gt;
   &lt;dd&gt;A crawler feature that pulls a chosen piece of every page, by XPath, CSS selector, or regex, into a column, so one crawl can audit headings, schema types, or tracking codes sitewide. Recipes are in &lt;a href="https://christopherabraham.com/guides/custom-extraction/"&gt;custom extraction&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt id="delegated-owner"&gt;Delegated owner&lt;/dt&gt;
+  &lt;dd&gt;A Search Console owner added by another owner rather than by placing a verification token on the site. Same powers as a verified owner, and the access ends the moment an owner removes it. See &lt;a href="https://christopherabraham.com/guides/give-seo-access/"&gt;Give your SEO access&lt;/a&gt;.&lt;/dd&gt;
   &lt;dt id="digital-pr"&gt;Digital PR&lt;/dt&gt;
   &lt;dd&gt;Earning coverage and mentions on other people's sites, newsletters, and shows by giving writers something worth using. The sentences those mentions contain now feed AI answers; see &lt;a href="https://christopherabraham.com/guides/earned-mentions/"&gt;digital PR for AI search&lt;/a&gt;.&lt;/dd&gt;
   &lt;dt id="e-e-a-t"&gt;E-E-A-T&lt;/dt&gt;
@@ -706,6 +786,8 @@
   &lt;dd&gt;An article published on another site through a paid arrangement, usually carrying a link back. Google expects the link to be marked rel="sponsored"; see &lt;a href="https://christopherabraham.com/guides/buying-backlinks/"&gt;why I turn down backlink work&lt;/a&gt;.&lt;/dd&gt;
   &lt;dt id="prerendering"&gt;Prerendering&lt;/dt&gt;
   &lt;dd&gt;Generating a finished HTML copy of a JavaScript page ahead of time and serving it to crawlers or visitors, so the content is readable without running scripts.&lt;/dd&gt;
+  &lt;dt id="primary-owner"&gt;Primary owner&lt;/dt&gt;
+  &lt;dd&gt;The single account on a Google Business Profile that can transfer the profile to someone else. It should belong to the business, never to a vendor. See &lt;a href="https://christopherabraham.com/guides/give-seo-access/"&gt;Give your SEO access&lt;/a&gt;.&lt;/dd&gt;
   &lt;dt id="pull-request"&gt;Pull request&lt;/dt&gt;
   &lt;dd&gt;A proposed change to a code repository, shown line by line for review before it's merged. SEO fixes made this way are recorded, reviewable, and easy to undo; see &lt;a href="https://christopherabraham.com/guides/seo-in-your-repository/"&gt;SEO in your Git repository&lt;/a&gt;.&lt;/dd&gt;
   &lt;dt id="reddit-answers"&gt;Reddit Answers&lt;/dt&gt;

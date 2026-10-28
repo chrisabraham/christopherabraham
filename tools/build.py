@@ -177,6 +177,9 @@ FILES += ["guides/nobody-mentions-you"]
 FILES += ["guides/who-wrote-your-reputation"]
 # Two guides and a service on AI shopping and booking, October 28, 2026, written by Claude in the Claude app.
 FILES += ["guides/agentic-checkout", "guides/ai-mode-bookings", "services/ai-shopping-readiness"]
+
+# A guide on inviting an SEO by role instead of sharing passwords, October 28, 2026, written by Claude Code.
+FILES += ["guides/give-seo-access"]
 _g = next(g for g in SERVICE_GROUPS if "services/ecommerce-seo/" in g[1])[1]
 _g.insert(_g.index("services/ecommerce-seo/") + 1, "services/ai-shopping-readiness/")
 
@@ -1104,5 +1107,12 @@ for p in pages:
     print(f"  {p['words']:5d}  {p['kind']:7s} /{p['path']}")
 if unindexed:
     print(f"site index: {len(unindexed)} page(s) not indexed yet: {', '.join(unindexed)} (read each one and add its entries to tools/site_index.json)")
+# The guides index is hand-curated, so a new guide can silently miss it (twelve did, 2026-10-23 to 10-28).
+import pathlib
+_guides_index = pathlib.Path("src/guides/index.html").read_text(encoding="utf-8")
+_orphans = sorted(f.stem for f in pathlib.Path("src/guides").glob("*.html")
+                  if f.stem not in ("index", "glossary") and f"guides/{f.stem}/" not in _guides_index)
+if _orphans:
+    print(f"guides index: {len(_orphans)} guide(s) not listed on /guides/: {', '.join(_orphans)} (add a line to src/guides/index.html)")
 for x in problems: print("PROBLEM:", x)
 sys.exit(1 if problems else 0)

@@ -1,6 +1,6 @@
 > Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
 >
-> Source: https://christopherabraham.com/guides/ · Updated 2026-10-26 · By Christopher Abraham
+> Source: https://christopherabraham.com/guides/ · Updated 2026-10-28 · By Christopher Abraham
 
 # SEO guides
 
@@ -13,6 +13,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Measure seasonal local SEO before the busy weeks arrive](https://christopherabraham.com/guides/seasonal-local-seo/): a practical workflow with explicit decisions and verifiable evidence.
 
 ## Indexing and audits
+- [Give your SEO access without handing over your passwords](https://christopherabraham.com/guides/give-seo-access/): the role to pick in Search Console, GA4, Business Profile, WordPress, and Shopify, and the offboarding list.
 - [Test your website inquiries from page to inbox](https://christopherabraham.com/guides/test-website-inquiries/): trace submission, receipt, and analytics before investing in more traffic.
 - [Internal linking: stitching your pages together](https://christopherabraham.com/guides/internal-linking/): choose useful destinations, write natural anchors, check section targets, and plan the additions in a downloadable worksheet.
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
@@ -27,6 +28,9 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [How to hire an SEO on Upwork](https://christopherabraham.com/guides/hiring-an-seo/): five screening questions that expose real skill, the red flags, and a safer paid first step.
 
 ## AI search and structured data
+- [Selling inside AI assistants](https://christopherabraham.com/guides/agentic-checkout/): where buy buttons in ChatGPT and AI Mode stand for a small shop, and the product data work that pays off either way.
+- [Bookings from Google AI Mode](https://christopherabraham.com/guides/ai-mode-bookings/): which reservations and appointments AI Mode can make today, and how a local business becomes bookable.
+- [The show notes cascade](https://christopherabraham.com/guides/show-notes-cascade/): how podcast directories copy your episode notes across the web, and how to write notes that AI answers quote.
 - [Publish original research without a big budget](https://christopherabraham.com/guides/small-original-research/): a manageable question, repeatable method, honest sample, and evidence readers can inspect.
 - [AI catnip for fall 2026](https://christopherabraham.com/guides/ai-catnip/): original evidence, useful answers, crawler access, and realistic expectations for citations.
 - [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/): crawler access, server-rendered content, entities, answer-shaped pages, llms.txt, and measurement.
@@ -46,6 +50,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Load Google Analytics 4 without hurting PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/): load gtag.js after the first scroll or tap, keep every pageview command, and know the cost.
 
 ## Local listings
+- [Reading the rebuilt Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/): each new section in plain terms, starting with Overview.
 - [How to change a business name without losing your reviews](https://christopherabraham.com/guides/business-name-change/): edit the listing you have, let the sign go first, and connect the old name on the web.
 - [Will Google penalize AI-written content?](https://christopherabraham.com/guides/ai-content-seo/): what Google said in 2023 and in October 2026, fake authors, scaled content abuse, the data, and a safe way to use AI.
 - [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/): gray cloud or orange, what the free plan already does, APO and Polish, the setup steps, and what to budget.
@@ -59,6 +64,8 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [The FTC fake review rule for small businesses](https://christopherabraham.com/guides/ftc-review-rule/): what the 2024 rule bans, what it allows, review gating, and staff reviews.
 
 ## Your name, your entity, and AI answers
+- [Nobody mentions you](https://christopherabraham.com/guides/nobody-mentions-you/): why a flawless site stays out of AI answers without outside mentions, and the questions to put to an agency.
+- [Who wrote your reputation](https://christopherabraham.com/guides/who-wrote-your-reputation/): an owner's audit of praise and provenance, from someone who wrote much of his own.
 - [How to measure your share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/): a fixed question set, who gets named, the tone, and the sources cited, run monthly.
 - [How to correct what AI search says about you](https://christopherabraham.com/guides/correct-ai-answers/): trace each wrong fact to its source and publish corrections that stick.
 - [One person, two names](https://christopherabraham.com/guides/two-names-one-entity/): connecting a nickname, pen name, or formal name into a single entity with schema and sameAs.
@@ -77,6 +84,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [The Lynx test](https://christopherabraham.com/guides/lynx-test/): see your site the way search engines and AI crawlers read it, in a text-only browser.
 
 ## Reference
+- [SEO and AI search advice to refuse](https://christopherabraham.com/guides/seo-advice-to-refuse/): the tactics to decline, the plausible ones that waste money, and the schemes that get a site removed.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): short definitions of the vocabulary used across this site, from AEO to XML sitemap.
 - [Index of the whole site](https://christopherabraham.com/site-index/): every person, tool, platform, and problem these pages cover, A to Z, the way a reference book does it.
 
@@ -88,4 +96,4 @@ New and updated guides appear in the [full-text RSS feed](https://christopherabr
 
 If you've worked through a guide and the problem is still there, that's usually the point where a second set of eyes on the actual site helps. Every engagement begins with a scoped audit; see the [services](https://christopherabraham.com/services/) or [get in touch](https://christopherabraham.com/contact/).
 
-Updated October 26, 2026
+Updated October 28, 2026

@@ -1190,7 +1190,7 @@ Updated October 6, 2026
 ---
 
 Source: https://christopherabraham.com/guides/
-Updated: 2026-10-26
+Updated: 2026-10-28
 
 # SEO guides
 
@@ -1203,6 +1203,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Measure seasonal local SEO before the busy weeks arrive](https://christopherabraham.com/guides/seasonal-local-seo/): a practical workflow with explicit decisions and verifiable evidence.
 
 ## Indexing and audits
+- [Give your SEO access without handing over your passwords](https://christopherabraham.com/guides/give-seo-access/): the role to pick in Search Console, GA4, Business Profile, WordPress, and Shopify, and the offboarding list.
 - [Test your website inquiries from page to inbox](https://christopherabraham.com/guides/test-website-inquiries/): trace submission, receipt, and analytics before investing in more traffic.
 - [Internal linking: stitching your pages together](https://christopherabraham.com/guides/internal-linking/): choose useful destinations, write natural anchors, check section targets, and plan the additions in a downloadable worksheet.
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
@@ -1217,6 +1218,9 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [How to hire an SEO on Upwork](https://christopherabraham.com/guides/hiring-an-seo/): five screening questions that expose real skill, the red flags, and a safer paid first step.
 
 ## AI search and structured data
+- [Selling inside AI assistants](https://christopherabraham.com/guides/agentic-checkout/): where buy buttons in ChatGPT and AI Mode stand for a small shop, and the product data work that pays off either way.
+- [Bookings from Google AI Mode](https://christopherabraham.com/guides/ai-mode-bookings/): which reservations and appointments AI Mode can make today, and how a local business becomes bookable.
+- [The show notes cascade](https://christopherabraham.com/guides/show-notes-cascade/): how podcast directories copy your episode notes across the web, and how to write notes that AI answers quote.
 - [Publish original research without a big budget](https://christopherabraham.com/guides/small-original-research/): a manageable question, repeatable method, honest sample, and evidence readers can inspect.
 - [AI catnip for fall 2026](https://christopherabraham.com/guides/ai-catnip/): original evidence, useful answers, crawler access, and realistic expectations for citations.
 - [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/): crawler access, server-rendered content, entities, answer-shaped pages, llms.txt, and measurement.
@@ -1236,6 +1240,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Load Google Analytics 4 without hurting PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/): load gtag.js after the first scroll or tap, keep every pageview command, and know the cost.
 
 ## Local listings
+- [Reading the rebuilt Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/): each new section in plain terms, starting with Overview.
 - [How to change a business name without losing your reviews](https://christopherabraham.com/guides/business-name-change/): edit the listing you have, let the sign go first, and connect the old name on the web.
 - [Will Google penalize AI-written content?](https://christopherabraham.com/guides/ai-content-seo/): what Google said in 2023 and in October 2026, fake authors, scaled content abuse, the data, and a safe way to use AI.
 - [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/): gray cloud or orange, what the free plan already does, APO and Polish, the setup steps, and what to budget.
@@ -1249,6 +1254,8 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [The FTC fake review rule for small businesses](https://christopherabraham.com/guides/ftc-review-rule/): what the 2024 rule bans, what it allows, review gating, and staff reviews.
 
 ## Your name, your entity, and AI answers
+- [Nobody mentions you](https://christopherabraham.com/guides/nobody-mentions-you/): why a flawless site stays out of AI answers without outside mentions, and the questions to put to an agency.
+- [Who wrote your reputation](https://christopherabraham.com/guides/who-wrote-your-reputation/): an owner's audit of praise and provenance, from someone who wrote much of his own.
 - [How to measure your share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/): a fixed question set, who gets named, the tone, and the sources cited, run monthly.
 - [How to correct what AI search says about you](https://christopherabraham.com/guides/correct-ai-answers/): trace each wrong fact to its source and publish corrections that stick.
 - [One person, two names](https://christopherabraham.com/guides/two-names-one-entity/): connecting a nickname, pen name, or formal name into a single entity with schema and sameAs.
@@ -1267,6 +1274,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [The Lynx test](https://christopherabraham.com/guides/lynx-test/): see your site the way search engines and AI crawlers read it, in a text-only browser.
 
 ## Reference
+- [SEO and AI search advice to refuse](https://christopherabraham.com/guides/seo-advice-to-refuse/): the tactics to decline, the plausible ones that waste money, and the schemes that get a site removed.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): short definitions of the vocabulary used across this site, from AEO to XML sitemap.
 - [Index of the whole site](https://christopherabraham.com/site-index/): every person, tool, platform, and problem these pages cover, A to Z, the way a reference book does it.
 
@@ -1278,7 +1286,7 @@ New and updated guides appear in the [full-text RSS feed](https://christopherabr
 
 If you've worked through a guide and the problem is still there, that's usually the point where a second set of eyes on the actual site helps. Every engagement begins with a scoped audit; see the [services](https://christopherabraham.com/services/) or [get in touch](https://christopherabraham.com/contact/).
 
-Updated October 26, 2026
+Updated October 28, 2026
 
 
 ---
@@ -4745,6 +4753,9 @@ Building a page in the visitor's browser with JavaScript, so the HTML the server
 **CLS (Cumulative Layout Shift)**
 The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.
 
+**Collaborator account**
+Shopify's door for outside help: a partner reaches only the admin sections the merchant approves, without taking a staff seat. A request code keeps strangers from asking. See [Give your SEO access](https://christopherabraham.com/guides/give-seo-access/).
+
 **Comparison cohort**
 A fixed group of pages evaluated across reporting periods so changes in the page inventory can be distinguished from changes in performance. See [Search Console comparisons](https://christopherabraham.com/guides/search-console-comparisons/).
 
@@ -4762,6 +4773,9 @@ Software that requests pages on its own to read them, such as Googlebot, Bingbot
 
 **Custom extraction**
 A crawler feature that pulls a chosen piece of every page, by XPath, CSS selector, or regex, into a column, so one crawl can audit headings, schema types, or tracking codes sitewide. Recipes are in [custom extraction](https://christopherabraham.com/guides/custom-extraction/).
+
+**Delegated owner**
+A Search Console owner added by another owner rather than by placing a verification token on the site. Same powers as a verified owner, and the access ends the moment an owner removes it. See [Give your SEO access](https://christopherabraham.com/guides/give-seo-access/).
 
 **Digital PR**
 Earning coverage and mentions on other people's sites, newsletters, and shows by giving writers something worth using. The sentences those mentions contain now feed AI answers; see [digital PR for AI search](https://christopherabraham.com/guides/earned-mentions/).
@@ -4855,6 +4869,9 @@ An article published on another site through a paid arrangement, usually carryin
 
 **Prerendering**
 Generating a finished HTML copy of a JavaScript page ahead of time and serving it to crawlers or visitors, so the content is readable without running scripts.
+
+**Primary owner**
+The single account on a Google Business Profile that can transfer the profile to someone else. It should belong to the business, never to a vendor. See [Give your SEO access](https://christopherabraham.com/guides/give-seo-access/).
 
 **Pull request**
 A proposed change to a code repository, shown line by line for review before it's merged. SEO fixes made this way are recorded, reviewable, and easy to undo; see [SEO in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/).
@@ -8193,6 +8210,97 @@ Updated October 28, 2026
 
 ---
 
+Source: https://christopherabraham.com/guides/give-seo-access/
+Updated: 2026-10-28
+
+# Give your SEO access without handing over your passwords
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 28, 2026
+
+The first week of an SEO engagement is mostly logins. The fastest way through it is the one that causes trouble later: emailing your own username and password. Every tool an SEO needs lets you invite a person by email, give them a role, and remove them in one click when the work ends. Here is the role to pick in each one.
+
+## Why a shared password costs more than it saves
+
+A shared login is your identity. Anything done under it looks like you did it, two-step verification codes go to your phone at awkward hours, and when the engagement ends the only way to close the door is to change a password that your own staff also use. An invitation ties every action to a named person and ends with a single click. It also keeps the account yours if the relationship sours, which is the case nobody plans for.
+
+Ask your SEO for the Google account or email address they want invited, then use the roles below.
+
+## Google Search Console: a full user is usually enough
+
+Search Console has owners and users. In Settings, then Users and permissions, an owner can add a **full user**, who sees all the data and can take some actions, or a **restricted user**, who sees most data and can change nothing. A full user covers nearly all audit and indexing work.
+
+Grant **owner** only when the SEO has to manage other users or settings. Google treats a delegated owner the same as a verified owner except for one thing: a verified owner proved ownership with a token on your site, such as an HTML file or a DNS record. That token outlives the person. Google's help page warns that removing an owner from the property leaves their tokens in place, and while a token remains, that person can verify again and walk back in. When an SEO who verified the property leaves, remove the file or DNS record they added, and only theirs, since one token can also verify Merchant Center or Google Workspace.
+
+A property must always keep at least one verified owner. Make sure that owner is you or someone on your staff.
+
+## Google Analytics: Analyst for reading, Editor only for setup
+
+GA4 has five predefined roles, each including the permissions of the one below it:
+- **Viewer** sees settings and data and can build personal explorations.
+- **Analyst** can also share explorations with other users of the property.
+- **Marketer** can also create and change audiences, events, key events, and attribution settings.
+- **Editor** has full control of settings at the property level, without managing users.
+- **Administrator** has full control, including who else gets access.
+
+Analyst covers reporting. Marketer fits an SEO who needs to mark a form submission as a key event. Editor is for someone fixing a broken tracking setup, and Administrator rarely belongs to anyone outside the business. Grant access at the property level unless the SEO works on every property in your account, because account-level access flows down to all of them.
+
+GA4 also offers two data restrictions you can add to any role: **No Cost Metrics** and **No Revenue Metrics**. If your SEO has no need to see what you spend on ads or what you earn per order, switch those on.
+
+## Google Business Profile: Manager, never primary owner
+
+From Business Profile settings, then People and access, an owner can invite someone as an **Owner** or a **Manager**. Google says managers have mostly the same access as owners: they edit business information, reply to reviews, post updates, add photos and products, and download performance data. They cannot add or remove people or delete the profile. That is the right fit for nearly all local SEO work.
+
+The **primary owner** is the one account that can hand the profile to someone else. Keep it in the business. A primary owner cannot remove themselves until they transfer the role, so a profile whose primary owner is a departed agency is a profile you will spend weeks recovering. Google also applies a seven-day waiting period to every new owner or manager, during which they cannot delete the profile, remove other people, or transfer primary ownership. Plan around that week rather than discovering it on deadline.
+
+The person you invite needs their own Google Account, and Google Groups cannot be added.
+
+## WordPress: a named account, removed afterward
+
+WordPress ships with five roles. An **Editor** manages every post and page, including other people's, but cannot touch plugins, themes, or site settings. An **Administrator** can do everything, including installing code.
+
+Content work fits Editor. Most SEO plugin settings, redirects, and sitemap options sit behind Administrator, so technical SEO usually needs it. Create a separate administrator account in the SEO's own name and email, never your own login. That keeps their changes traceable in any activity log and lets you delete the account, and reassign its content to you, on the last day.
+
+## Shopify: a collaborator account with a request code
+
+Shopify gives outside help its own door. A collaborator account reaches only the sections of the admin you approve, and it does not use up one of your staff seats. Under Settings, then Users and permissions, then Collaborators, you can require a **collaborator request code**, so only people you have given the code can even ask for access. Shopify's help center says the code requirement is on by default. Generating a new code invalidates the old one, which is a tidy way to stop stray requests after a project.
+
+When the request arrives, approve only what the work needs. Product editing and online store themes cover most SEO tasks. Orders, customers, payments, and finances usually do not belong in the request.
+
+## The day the work ends
+
+Access granted this way comes back in a few clicks per tool:
+- Remove the person from Search Console, and delete any verification file or DNS record they added.
+- Remove them in GA4 at both the account and property level, wherever they appear.
+- Remove them from People and access on every Business Profile, and confirm the primary owner is still yours.
+- Delete their WordPress account and assign its content to a staff user.
+- Remove the Shopify collaborator and generate a new request code.
+
+Keep a short list of every invitation you send during the engagement. Offboarding then becomes reading that list back.
+
+## How I can help
+
+I can send you the exact invitations a piece of work needs and the role for each, so the first week goes to the work instead of to logins. If you are staring at a profile or property that a former vendor still controls, [book a call](https://calendly.com/chrisabraham/30) or reach me through [Upwork](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [Search Console Help: Managing owners, users, and permissions](https://support.google.com/webmasters/answer/7687615)
+- [Analytics Help: Access and data restrictions management](https://support.google.com/analytics/answer/9305587)
+- [Business Profile Help: Manage owners and managers](https://support.google.com/business/answer/3403100)
+- [Shopify Help Center: Collaborator permissions](https://help.shopify.com/manual/your-account/staff-accounts/collaborator-accounts)
+- [WordPress Documentation: Roles and Capabilities](https://wordpress.org/documentation/article/roles-and-capabilities/)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
 Source: https://christopherabraham.com/sitemap/
 Updated: 2026-10-28
 
@@ -8311,6 +8419,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Who Wrote Your Reputation and What AI Search Believes](https://christopherabraham.com/guides/who-wrote-your-reputation/): I wrote most of my own reputation across thirty years online, and AI search believes it and shows the receipts. An owner audit of praise and provenance.
 - [Selling inside AI assistants: the real state of play](https://christopherabraham.com/guides/agentic-checkout/): Where buying inside ChatGPT and Google AI Mode actually stands for a small online shop in late 2026, which programs need a waitlist, and what to fix first.
 - [When Google's AI does the booking, be bookable](https://christopherabraham.com/guides/ai-mode-bookings/): Google's AI Mode now books restaurant tables in nine countries and is testing tickets and local appointments. How a local business becomes one it can book.
+- [Give your SEO access without handing over your passwords](https://christopherabraham.com/guides/give-seo-access/): Search Console, GA4, Business Profile, WordPress, and Shopify all let you invite an SEO by name. Which role to pick for each, and how to take access back.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
@@ -8354,7 +8463,7 @@ Updated: 2026-10-28
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 609 headings across 121 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 613 headings across 122 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -8435,6 +8544,10 @@ People are listed surname first. Cross-references point to related headings. For
 
 - Abraham Harrison, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - acceptance criteria, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/), [Event App Links](https://christopherabraham.com/case-studies/event-app-links/)
+- access for an outside SEO, **[Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)**
+  - offboarding, [Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)
+  - shared passwords, risks of, [Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)
+
 - accessibility, [Static Websites](https://christopherabraham.com/services/static-sites/), **[Accessible Websites](https://christopherabraham.com/guides/accessible-websites/)**, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
   - AI agents, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
   - captions and transcripts, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/)
@@ -8667,6 +8780,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Codex, [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Editorial Policy](https://christopherabraham.com/about/editorial-policy/), [Colophon](https://christopherabraham.com/about/colophon/)
 - Coelaboration, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Collabor8 (8: A Collaborative Hypernarrative Fiction), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
+- collaborator account (Shopify), **[Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)**. *See also* [Shopify](https://christopherabraham.com/site-index/#ix-shopify)
 - colophon, **[Colophon](https://christopherabraham.com/about/colophon/)**
 - Columbia University, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Combs, Robert (GW English professor), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -8715,6 +8829,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 ## D
 - Debian, [Skills and Proof](https://christopherabraham.com/about/skills/)
+- delegated owner (Search Console), **[Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)**. *See also* [Google Search Console](https://christopherabraham.com/site-index/#ix-google-search-console)
 - DemandSphere, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - denominators, reporting, [Small original research](https://christopherabraham.com/guides/small-original-research/)
 - Department of Justice, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
@@ -8813,6 +8928,7 @@ People are listed surname first. Cross-references point to related headings. For
   - deferring gtag.js, [GA4 and PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/)
   - finding measurement IDs, [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/)
   - ghost traffic, [Plugin Outage](https://christopherabraham.com/case-studies/plugin-outage/)
+  - roles and data restrictions, [Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)
 
 - GBP performance reports, **[GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)**. *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
   - audience, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
@@ -8858,6 +8974,7 @@ People are listed surname first. Cross-references point to related headings. For
   - interactions, calls, and direction requests, [Training Gym](https://christopherabraham.com/case-studies/training-gym/)
   - linking each profile to its location page, [Closet Locations](https://christopherabraham.com/case-studies/closet-locations/)
   - name changes and reverification, [Local SEO](https://christopherabraham.com/services/local-seo/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/)
+  - owners, managers, and primary owner, [Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)
   - reviews, [Local SEO](https://christopherabraham.com/services/local-seo/)
   - special hours, [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)
   - suspensions and appeals, [Local SEO](https://christopherabraham.com/services/local-seo/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Skills and Proof](https://christopherabraham.com/about/skills/)
@@ -8877,6 +8994,7 @@ People are listed surname first. Cross-references point to related headings. For
   - manual actions, [Search Console](https://christopherabraham.com/services/search-console/)
   - Page indexing report, [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/)
   - URL Inspection, [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/), [Event App Links](https://christopherabraham.com/case-studies/event-app-links/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/), [Plugin Outage](https://christopherabraham.com/case-studies/plugin-outage/)
+  - users, owners, and verification tokens, [Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)
 
 - Google SEO Starter Guide, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
 - Google spam policies, [Hiring an SEO](https://christopherabraham.com/guides/hiring-an-seo/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/), [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
@@ -9230,6 +9348,7 @@ People are listed surname first. Cross-references point to related headings. For
 - postcard verification, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
 - Potomac Boat Club, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - prerendering, [Glossary](https://christopherabraham.com/guides/glossary/), [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)
+- primary owner (Business Profile), **[Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)**. *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
 - privacy, **[Privacy](https://christopherabraham.com/privacy/)**
 - product feeds, **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**, [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/), [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
 - programmatic SEO, **[Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)**
@@ -9376,6 +9495,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 - Shaughnessy, Haydn, [About](https://christopherabraham.com/about/)
 - Shopify, [Services](https://christopherabraham.com/services/), [Site Speed](https://christopherabraham.com/services/site-speed/), [Migrations](https://christopherabraham.com/services/migrations/), [Schema](https://christopherabraham.com/services/schema/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), **[Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)**
+  - collaborator accounts, [Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)
   - collection paths, [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)
   - duplicate product markup, [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)
 
@@ -9597,6 +9717,7 @@ People are listed surname first. Cross-references point to related headings. For
   - security hardening, [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
   - speed, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
   - updates and spam, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
+  - user roles for an outside SEO, [Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)
 
 - worksheets (CSV), [Internal Linking](https://christopherabraham.com/guides/internal-linking/), [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
 - WP Rocket, [Site Speed](https://christopherabraham.com/services/site-speed/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)

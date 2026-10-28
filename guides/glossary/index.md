@@ -47,6 +47,9 @@ Building a page in the visitor's browser with JavaScript, so the HTML the server
 **CLS (Cumulative Layout Shift)**
 The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.
 
+**Collaborator account**
+Shopify's door for outside help: a partner reaches only the admin sections the merchant approves, without taking a staff seat. A request code keeps strangers from asking. See [Give your SEO access](https://christopherabraham.com/guides/give-seo-access/).
+
 **Comparison cohort**
 A fixed group of pages evaluated across reporting periods so changes in the page inventory can be distinguished from changes in performance. See [Search Console comparisons](https://christopherabraham.com/guides/search-console-comparisons/).
 
@@ -64,6 +67,9 @@ Software that requests pages on its own to read them, such as Googlebot, Bingbot
 
 **Custom extraction**
 A crawler feature that pulls a chosen piece of every page, by XPath, CSS selector, or regex, into a column, so one crawl can audit headings, schema types, or tracking codes sitewide. Recipes are in [custom extraction](https://christopherabraham.com/guides/custom-extraction/).
+
+**Delegated owner**
+A Search Console owner added by another owner rather than by placing a verification token on the site. Same powers as a verified owner, and the access ends the moment an owner removes it. See [Give your SEO access](https://christopherabraham.com/guides/give-seo-access/).
 
 **Digital PR**
 Earning coverage and mentions on other people's sites, newsletters, and shows by giving writers something worth using. The sentences those mentions contain now feed AI answers; see [digital PR for AI search](https://christopherabraham.com/guides/earned-mentions/).
@@ -157,6 +163,9 @@ An article published on another site through a paid arrangement, usually carryin
 
 **Prerendering**
 Generating a finished HTML copy of a JavaScript page ahead of time and serving it to crawlers or visitors, so the content is readable without running scripts.
+
+**Primary owner**
+The single account on a Google Business Profile that can transfer the profile to someone else. It should belong to the business, never to a vendor. See [Give your SEO access](https://christopherabraham.com/guides/give-seo-access/).
 
 **Pull request**
 A proposed change to a code repository, shown line by line for review before it's merged. SEO fixes made this way are recorded, reviewable, and easy to undo; see [SEO in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/).

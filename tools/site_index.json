@@ -2765,6 +2765,9 @@
     ],
     "consent and cookies": [
      "privacy"
+    ],
+    "roles and data restrictions": [
+     "guides/give-seo-access"
     ]
    },
    "see": [],
@@ -3086,6 +3089,9 @@
     ],
     "competitor comparison": [
      "services/local-competitor-recon"
+    ],
+    "owners, managers, and primary owner": [
+     "guides/give-seo-access"
     ]
    },
    "see": [
@@ -3175,6 +3181,9 @@
     ],
     "enhancement reports": [
      "services/schema"
+    ],
+    "users, owners, and verification tokens": [
+     "guides/give-seo-access"
     ]
    },
    "see": [],
@@ -6560,6 +6569,9 @@
     ],
     "collection paths": [
      "case-studies/shopify-cleanup"
+    ],
+    "collaborator accounts": [
+     "guides/give-seo-access"
     ]
    },
    "see": [],
@@ -7949,6 +7961,9 @@
     ],
     "migrating to Next.js": [
      "case-studies/clinic-migration"
+    ],
+    "user roles for an outside SEO": [
+     "guides/give-seo-access"
     ]
    },
    "see": [
@@ -8219,6 +8234,63 @@
    "main": [
     "guides/ai-mode-bookings"
    ]
+  },
+  "access for an outside SEO": {
+   "kind": "topic",
+   "pages": [
+    "guides/give-seo-access"
+   ],
+   "subs": {
+    "offboarding": [
+     "guides/give-seo-access"
+    ],
+    "shared passwords, risks of": [
+     "guides/give-seo-access"
+    ]
+   },
+   "see": [],
+   "main": [
+    "guides/give-seo-access"
+   ]
+  },
+  "collaborator account (Shopify)": {
+   "kind": "topic",
+   "pages": [
+    "guides/give-seo-access"
+   ],
+   "subs": {},
+   "see": [
+    "Shopify"
+   ],
+   "main": [
+    "guides/give-seo-access"
+   ]
+  },
+  "primary owner (Business Profile)": {
+   "kind": "topic",
+   "pages": [
+    "guides/give-seo-access"
+   ],
+   "subs": {},
+   "see": [
+    "Google Business Profile"
+   ],
+   "main": [
+    "guides/give-seo-access"
+   ]
+  },
+  "delegated owner (Search Console)": {
+   "kind": "topic",
+   "pages": [
+    "guides/give-seo-access"
+   ],
+   "subs": {},
+   "see": [
+    "Google Search Console"
+   ],
+   "main": [
+    "guides/give-seo-access"
+   ]
   }
  },
  "reviewed": [
@@ -8342,6 +8414,7 @@
   "guides/who-wrote-your-reputation",
   "guides/agentic-checkout",
   "guides/ai-mode-bookings",
-  "services/ai-shopping-readiness"
+  "services/ai-shopping-readiness",
+  "guides/give-seo-access"
  ]
 }

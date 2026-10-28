@@ -117,6 +117,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Who Wrote Your Reputation and What AI Search Believes](https://christopherabraham.com/guides/who-wrote-your-reputation/): I wrote most of my own reputation across thirty years online, and AI search believes it and shows the receipts. An owner audit of praise and provenance.
 - [Selling inside AI assistants: the real state of play](https://christopherabraham.com/guides/agentic-checkout/): Where buying inside ChatGPT and Google AI Mode actually stands for a small online shop in late 2026, which programs need a waitlist, and what to fix first.
 - [When Google's AI does the booking, be bookable](https://christopherabraham.com/guides/ai-mode-bookings/): Google's AI Mode now books restaurant tables in nine countries and is testing tickets and local appointments. How a local business becomes one it can book.
+- [Give your SEO access without handing over your passwords](https://christopherabraham.com/guides/give-seo-access/): Search Console, GA4, Business Profile, WordPress, and Shopify all let you invite an SEO by name. Which role to pick for each, and how to take access back.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
