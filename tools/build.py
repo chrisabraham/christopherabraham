@@ -126,9 +126,10 @@ TEL = "+12023525051"
 UPWORK = "https://www.upwork.com/freelancers/chrisjabraham"
 CALENDLY = "https://calendly.com/chrisabraham/30"
 LINKEDIN = "https://www.linkedin.com/in/chrisabraham"
+YOUTUBE = "https://www.youtube.com/@ChrisAbrahamShow"  # The Chris Abraham Show on YouTube
 GBP = "https://share.google/xZ98ksFq3nhO2OvuF"  # Google Business Profile "Chris Abraham" (verified)
 # Profiles and bylines published as Chris Abraham: the same person, for search engines and AI.
-PROFILES = [UPWORK, LINKEDIN, "https://chrisabraham.com/", "https://biznology.com/author/chrisabraham/",
+PROFILES = [UPWORK, LINKEDIN, YOUTUBE, "https://chrisabraham.com/", "https://biznology.com/author/chrisabraham/",
             "https://www.huffpost.com/author/chris-abraham", "https://muckrack.com/chrisabraham",
             "https://rheingold.com/Associates/team_abraham.html", "https://www.reddit.com/user/chrisabraham/", "https://mastodon.social/@chrisa",
             "https://adage.com/author/chris-abraham/1797"]
@@ -726,7 +727,7 @@ def render(p):
 {body_html(p)}
 </main>
 <footer class="site-footer">
-  <p><a href="mailto:{EMAIL}">{EMAIL}</a>&nbsp;· <a href="tel:{TEL}">{PHONE}</a>&nbsp;· <a href="{CALENDLY}">Book a call</a>&nbsp;· <a href="{UPWORK}">Hire me on Upwork</a>&nbsp;· <a href="{LINKEDIN}">LinkedIn</a></p>
+  <p><a href="mailto:{EMAIL}">{EMAIL}</a>&nbsp;· <a href="tel:{TEL}">{PHONE}</a>&nbsp;· <a href="{CALENDLY}">Book a call</a>&nbsp;· <a href="{UPWORK}">Hire me on Upwork</a>&nbsp;· <a href="{LINKEDIN}">LinkedIn</a>&nbsp;· <a href="{YOUTUBE}">YouTube</a></p>
   <p>© {TODAY[:4]} Christopher Abraham, Arlington,&nbsp;Virginia&nbsp;· <a href="{r}faq/">FAQ</a>&nbsp;· <a href="{r}about/editorial-policy/">How I write</a>&nbsp;· <a href="{r}privacy/">Privacy</a>&nbsp;· <a href="{r}sitemap/">Site map</a>&nbsp;· <a href="{r}site-index/">Index</a>&nbsp;· <a href="{r}guides/glossary/">Glossary</a>&nbsp;· <a href="{r}about/colophon/">Colophon</a>&nbsp;· <a href="{r}llms.txt">llms.txt</a>&nbsp;· <a href="{r}rss.xml">RSS</a></p>
   <p>Unless a page says otherwise, everything I wrote or made here is free to reuse under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Credit me and link&nbsp;back.</p>
 </footer>
