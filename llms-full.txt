@@ -6677,7 +6677,7 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 ---
 
 Source: https://christopherabraham.com/services/ai-visibility/
-Updated: 2026-10-24
+Updated: 2026-10-29
 
 # AI visibility: what the answer engines say about your business, and how to change it
 
@@ -6693,17 +6693,17 @@ An AI answer is assembled from whatever the system can find and cross-check: you
 
 I run the searches that bring you business through Google AI Overviews, ChatGPT, Perplexity, and Gemini and record every answer: correct, wrong, missing, or naming a rival. Then I compare your name, address, phone, and services across your site, your Business Profile, and the main directories. You receive a written report with each fix ranked by impact. You own it, and any developer or agency can act on it.
 
-### 2. The Claim Sprint: $1,500, fixed price
+### 2. The Claim Sprint
 
 The sprint repairs what the audit finds, in two layers.
 - The technical base: a full crawl, a Search Console review, titles and meta descriptions, and broken links and redirects.
 - The claim layer: entity schema with sameAs links, an llms.txt file, one canonical page that explains what the business is, and FAQ markup, so an assistant has something precise to quote.
 
-Changes I can make directly, I make. Anything inside your developer's codebase reaches them as a ticket with the exact change and a way to check it, the same way I work on [release QA](https://christopherabraham.com/services/seo-release-qa/).
+Changes I can make directly, I make. Anything inside your developer's codebase reaches them as a ticket with the exact change and a way to check it, the same way I work on [release QA](https://christopherabraham.com/services/seo-release-qa/). The sprint is scoped and priced in conversation, once the audit shows what needs doing: [book a thirty minute call](https://calendly.com/chrisabraham/30) to talk it through.
 
-### 3. AI Presence, Measured: $500 a month
+### 3. AI Presence, Measured
 
-Answers move. A competitor publishes, a directory updates, and the assistant that recommended you in March names somebody else by June. Each month I rerun your search set across Google AI Overviews, ChatGPT, and Perplexity and send a short written report: what moved, what the answers say now, and the next fix.
+Answers move. A competitor publishes, a directory updates, and the assistant that recommended you in March names somebody else by June. Each month I rerun your search set across Google AI Overviews, ChatGPT, and Perplexity and send a short written report: what moved, what the answers say now, and the next fix. Measurement is arranged in conversation, once I know your search set: [book a thirty minute call](https://calendly.com/chrisabraham/30) to set it up.
 
 ## Where it's already running
 - A fireworks retailer with several locations: a baseline, then monthly measurement across Google Search, Maps, ChatGPT, and Perplexity.
@@ -6725,13 +6725,13 @@ Every engagement starts with a conversation about your site and what you need. P
 
 [Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
-Updated October 24, 2026
+Updated October 29, 2026
 
 
 ---
 
 Source: https://christopherabraham.com/the-machine-answers-first/
-Updated: 2026-10-24
+Updated: 2026-10-29
 
 # The Machine Answers First Now
 
@@ -6759,13 +6759,13 @@ The only choice on the table is whether the summary is accurate—whether it nam
 
 The fix is unglamorous. First, you claim your entity: one canonical account of what the business is, stated on your own site, tied together with entity schema and sameAs links, an llms.txt file for the machines that read those, and a page that answers "what is this business" so plainly that a summarizer can quote it instead of improvising. Second, you fix the disagreements: the listings, the profile, and the site telling one story. Third—and this is the part almost nobody does—you measure. AI answers drift. A competitor publishes, a directory changes, and the answer that named you in the spring names someone else by summer. So the money questions get re-asked every month, and the changes get written down.
 
-That is the work I sell, and I sell it in pieces so you can stop wherever it stops making sense: an AI Visibility Audit for $750 that tells you exactly what the answers say about you today, a Claim Sprint for $1,500 that fixes the layer underneath, and AI Presence, Measured at $500 a month for the receipt that keeps it true.
+That is the work I sell, and I sell it in pieces so you can stop wherever it stops making sense: an AI Visibility Audit for $750 that tells you exactly what the answers say about you today, a Claim Sprint that fixes the layer underneath, and AI Presence, Measured, the monthly receipt that keeps it true. The sprint and the measurement are scoped in conversation, once the audit shows what your record needs.
 
 ## Let's have a chat about it
 
 If you have never actually read what the machine says about your business, you are flying on instruments somebody else set. Let's have a chat about it. I can help. Thirty minutes, bring your website and the searches you wish you won: [book a 30 minute call](https://calendly.com/chrisabraham/30).
 
-Updated October 24, 2026
+Updated October 29, 2026
 
 
 ---

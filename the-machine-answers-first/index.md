@@ -1,6 +1,6 @@
 > Google's AI answers now sit atop most commercial searches Semrush tracks. A field note on what the machine says about a business and making it name you.
 >
-> Source: https://christopherabraham.com/the-machine-answers-first/ · Updated 2026-10-24 · By Christopher Abraham
+> Source: https://christopherabraham.com/the-machine-answers-first/ · Updated 2026-10-29 · By Christopher Abraham
 
 # The Machine Answers First Now
 
@@ -28,10 +28,10 @@ The only choice on the table is whether the summary is accurate—whether it nam
 
 The fix is unglamorous. First, you claim your entity: one canonical account of what the business is, stated on your own site, tied together with entity schema and sameAs links, an llms.txt file for the machines that read those, and a page that answers "what is this business" so plainly that a summarizer can quote it instead of improvising. Second, you fix the disagreements: the listings, the profile, and the site telling one story. Third—and this is the part almost nobody does—you measure. AI answers drift. A competitor publishes, a directory changes, and the answer that named you in the spring names someone else by summer. So the money questions get re-asked every month, and the changes get written down.
 
-That is the work I sell, and I sell it in pieces so you can stop wherever it stops making sense: an AI Visibility Audit for $750 that tells you exactly what the answers say about you today, a Claim Sprint for $1,500 that fixes the layer underneath, and AI Presence, Measured at $500 a month for the receipt that keeps it true.
+That is the work I sell, and I sell it in pieces so you can stop wherever it stops making sense: an AI Visibility Audit for $750 that tells you exactly what the answers say about you today, a Claim Sprint that fixes the layer underneath, and AI Presence, Measured, the monthly receipt that keeps it true. The sprint and the measurement are scoped in conversation, once the audit shows what your record needs.
 
 ## Let's have a chat about it
 
 If you have never actually read what the machine says about your business, you are flying on instruments somebody else set. Let's have a chat about it. I can help. Thirty minutes, bring your website and the searches you wish you won: [book a 30 minute call](https://calendly.com/chrisabraham/30).
 
-Updated October 24, 2026
+Updated October 29, 2026
