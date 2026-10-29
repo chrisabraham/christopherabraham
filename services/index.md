@@ -1,6 +1,6 @@
 > SEO and website services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
 >
-> Source: https://christopherabraham.com/services/ · Updated 2026-10-26 · By Christopher Abraham
+> Source: https://christopherabraham.com/services/ · Updated 2026-10-29 · By Christopher Abraham
 
 # SEO services
 
@@ -23,6 +23,7 @@ Every service starts from the same place: find out what search engines and AI sy
 ## AI search, schema, and content
 - [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/): how ChatGPT, Perplexity, Gemini, Claude, Copilot, and AI Overviews describe you, and how to improve it.
 - [AI visibility](https://christopherabraham.com/services/ai-visibility/): audits of what the AI answers say about your business, the claim layer that fixes it, and monthly measurement.
+- [Products with published prices](https://christopherabraham.com/products/): fixed scope reports and case work, from the AI Answer Baseline to profile reinstatement, each with its price printed and no proposal stage.
 - [Schema markup and entity SEO](https://christopherabraham.com/services/schema/): JSON-LD that validates, matches the page, and tells machines who you are.
 - [On-page SEO](https://christopherabraham.com/services/on-page-seo/): titles, descriptions, headings, internal links, and thin or duplicate pages.
 - [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/): drafted from your own material in your voice, then checked claim by claim against sources.
@@ -52,4 +53,4 @@ Some sites need a way out before they need SEO. When a site is trapped on a dead
 
 For measurement and checking I use Google Search Console, Bing Webmaster Tools, GA4, Google Tag Manager, PageSpeed Insights, the Rich Results Test, Screaming Frog, and Semrush, with Cloudflare in front of the sites I host. Projects run in Basecamp, and tasks in Todoist.
 
-Updated October 26, 2026
+Updated October 29, 2026

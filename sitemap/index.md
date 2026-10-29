@@ -142,6 +142,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [How these pages are written and checked](https://christopherabraham.com/about/editorial-policy/): The standards behind this site: firsthand experience, primary sources, how AI tools are used and checked, anonymized clients, corrections, no paid placements.
 - [Colophon](https://christopherabraham.com/about/colophon/): How christopherabraham.com is made: handwritten HTML, a small Python generator with strict checks, GitHub Pages, Cloudflare, accessible colors, Lynx testing.
 - [The Machine Answers First Now](https://christopherabraham.com/the-machine-answers-first/): Google's AI answers now sit atop most commercial searches Semrush tracks. A field note on what the machine says about a business and making it name you.
+- [Products: fixed scope, fixed price, no proposal required](https://christopherabraham.com/products/): Eight fixed scope products with the price printed: AI answer reports, search and traffic readouts, a technical snapshot, local visibility, and reinstatement.
 
 ## Files for machines
 - [sitemap.xml](https://christopherabraham.com/sitemap.xml): the XML sitemap for search engines.

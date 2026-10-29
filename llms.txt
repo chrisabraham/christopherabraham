@@ -145,6 +145,7 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 - [Frequently asked questions](https://christopherabraham.com/faq/index.md): Practical answers about an SEO engagement: what access is needed, how long audits take, time zones, Upwork contracts, invoicing, reports, and confidentiality.
 - [Privacy](https://christopherabraham.com/privacy/index.md): How christopherabraham.com uses Google Analytics with consent mode, why visitors in Europe and the UK get no analytics cookies, and what happens to your email.
 - [The Machine Answers First Now](https://christopherabraham.com/the-machine-answers-first/index.md): Google's AI answers now sit atop most commercial searches Semrush tracks. A field note on what the machine says about a business and making it name you.
+- [Products: fixed scope, fixed price, no proposal required](https://christopherabraham.com/products/index.md): Eight fixed scope products with the price printed: AI answer reports, search and traffic readouts, a technical snapshot, local visibility, and reinstatement.
 
 ## Optional
 

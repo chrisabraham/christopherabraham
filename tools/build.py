@@ -181,6 +181,8 @@ FILES += ["guides/agentic-checkout", "guides/ai-mode-bookings", "services/ai-sho
 
 # A guide on inviting an SEO by role instead of sharing passwords, October 28, 2026, written by Claude Code.
 FILES += ["guides/give-seo-access"]
+# The products page: fixed scope reports with published prices, October 29, 2026, on Chris' ruling via Eunice.
+FILES += ["products"]
 _g = next(g for g in SERVICE_GROUPS if "services/ecommerce-seo/" in g[1])[1]
 _g.insert(_g.index("services/ecommerce-seo/") + 1, "services/ai-shopping-readiness/")
 

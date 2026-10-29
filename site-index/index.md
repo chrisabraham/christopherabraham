@@ -4,7 +4,7 @@
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 613 headings across 122 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 614 headings across 123 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -892,6 +892,7 @@ People are listed surname first. Cross-references point to related headings. For
 - primary owner (Business Profile), **[Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)**. *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
 - privacy, **[Privacy](https://christopherabraham.com/privacy/)**
 - product feeds, **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**, [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/), [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
+- Products, [Products](https://christopherabraham.com/products/)
 - programmatic SEO, **[Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)**
 - prompt sets, [AI Search](https://christopherabraham.com/services/ai-search/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/)
 - Proxima (later Proxicom), [About](https://christopherabraham.com/about/)
