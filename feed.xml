@@ -23,8 +23,19 @@
 &lt;p&gt;Whisper, the open speech model inside most of today's transcription products, resamples every file it receives to one channel at 16,000 samples per second before it does anything else. Stereo, 48 kHz audio, and generous bitrates are bytes the model discards on arrival. That gives the target: mono, 16 kHz, encoded with a codec designed around the human voice. Anything more is upload time and storage you pay for and the model never uses.&lt;/p&gt;
 &lt;p&gt;It also means the original video stays the master. I keep it until the transcript checks out, then decide whether the picture is worth archiving at all.&lt;/p&gt;
 
+&lt;h2&gt;Open a terminal&lt;/h2&gt;
+&lt;p&gt;Everything in this guide is typed into a terminal, the text window where you give your computer commands. Open one this way:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Linux Mint and Ubuntu:&lt;/strong&gt; press &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;T&lt;/kbd&gt;, or open the menu and type Terminal.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;macOS:&lt;/strong&gt; press &lt;kbd&gt;Cmd&lt;/kbd&gt;+&lt;kbd&gt;Space&lt;/kbd&gt;, type Terminal, and press &lt;kbd&gt;Return&lt;/kbd&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Windows 10 and 11:&lt;/strong&gt; right click the Start button and choose Terminal or Windows PowerShell.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You type or paste a command at the prompt and press &lt;kbd&gt;Enter&lt;/kbd&gt;. In a Linux terminal, paste with &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Shift&lt;/kbd&gt;+&lt;kbd&gt;V&lt;/kbd&gt;; on a Mac, &lt;kbd&gt;Cmd&lt;/kbd&gt;+&lt;kbd&gt;V&lt;/kbd&gt;; in Windows Terminal, &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;V&lt;/kbd&gt; or a right click.&lt;/p&gt;
+
 &lt;h2&gt;Install ffmpeg&lt;/h2&gt;
-&lt;p&gt;ffmpeg is the free command line converter that sits underneath nearly every other audio and video tool. Install it once:&lt;/p&gt;
+&lt;p&gt;ffmpeg is the free command line converter that sits underneath nearly every other audio and video tool. First see whether you already have it:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ffmpeg -version&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If a version banner prints, skip to the next section. If you see "command not found" or "not recognized," install it with the line for your system:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;# Linux Mint, Ubuntu, Debian
 sudo apt install ffmpeg
 
@@ -33,6 +44,21 @@ brew install ffmpeg
 
 # Windows
 winget install Gyan.FFmpeg&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A few notes so nothing surprises you:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;On Linux,&lt;/strong&gt; &lt;code&gt;sudo&lt;/code&gt; asks for your own login password, and nothing appears while you type it. Type it anyway and press &lt;kbd&gt;Enter&lt;/kbd&gt;, then answer &lt;code&gt;Y&lt;/code&gt; when apt asks to continue. If apt says it can't find the package, run &lt;code&gt;sudo apt update&lt;/code&gt; first and try again.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;On a Mac,&lt;/strong&gt; the &lt;code&gt;brew&lt;/code&gt; command comes from Homebrew. If the Mac answers "command not found: brew," install Homebrew with the one line shown on &lt;a href="https://brew.sh/"&gt;its home page&lt;/a&gt;, then run the ffmpeg line.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;On Windows,&lt;/strong&gt; winget is built into current versions of Windows 10 and 11. When it finishes, close the terminal and open a new one, because the old window doesn't know the new program exists yet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Run &lt;code&gt;ffmpeg -version&lt;/code&gt; again. The banner means you're ready. While you're there, confirm your build can write Opus, the codec the main command uses:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ffmpeg -hide_banner -encoders | grep libopus&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;On Windows, swap &lt;code&gt;grep libopus&lt;/code&gt; for &lt;code&gt;findstr libopus&lt;/code&gt;. One matching line means you're set. The standard builds for all three systems include it; if yours prints nothing, use the MP3 version further down.&lt;/p&gt;
+
+&lt;h2&gt;Go to your recording&lt;/h2&gt;
+&lt;p&gt;The terminal works in one folder at a time. Move it to the folder that holds your video and list what's there:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd ~/Videos
+ls&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Recordings often land in Videos, Downloads, or Desktop, so swap the folder name as needed. On Windows the same commands work in PowerShell, as in &lt;code&gt;cd $HOME\Videos&lt;/code&gt; followed by &lt;code&gt;ls&lt;/code&gt;. A shortcut on every system: type &lt;code&gt;cd&lt;/code&gt; and a space, drag the folder from your file manager into the terminal window, and press &lt;kbd&gt;Enter&lt;/kbd&gt;.&lt;/p&gt;
 &lt;p&gt;Before converting, I check the running time in seconds, which tells me how big the output will be:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;ffprobe -v error -show_entries format=duration -of csv=p=0 "recording.mp4"&lt;/code&gt;&lt;/pre&gt;
 
@@ -47,7 +73,9 @@ winget install Gyan.FFmpeg&lt;/code&gt;&lt;/pre&gt;
   &lt;li&gt;&lt;code&gt;-b:a 24k&lt;/code&gt; sets 24 kilobits per second.&lt;/li&gt;
   &lt;li&gt;&lt;code&gt;-application voip&lt;/code&gt; tells Opus to favor intelligible voices over music.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;My 5.9 GB file came out at well under one percent of its original size, and the transcript lost nothing.&lt;/p&gt;
+&lt;p&gt;Replace both file names with your own, keeping the quotes so names with spaces work. ffmpeg prints a running status line while it works; the &lt;code&gt;time=&lt;/code&gt; figure counts up through the recording, and the prompt returns when it's done. Check the result:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ls -lh *.opus&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The size should read a few megabytes per hour. Open the file in any media player and listen for a few seconds to confirm the voices came through. My 5.9 GB file came out at well under one percent of its original size, and the transcript lost nothing.&lt;/p&gt;
 
 &lt;h2&gt;Pick a bitrate&lt;/h2&gt;
 &lt;p&gt;Size is bitrate multiplied by running time, so the arithmetic is easy. For one hour of speech:&lt;/p&gt;
@@ -80,13 +108,21 @@ winget install Gyan.FFmpeg&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;for f in *.mp4; do
   ffmpeg -n -i "$f" -vn -ac 1 -ar 16000 -c:a libopus -b:a 24k -application voip "${f%.*}.opus"
 done&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;code&gt;-n&lt;/code&gt; refuses to overwrite, so any recording that already has an &lt;code&gt;.opus&lt;/code&gt; beside it is skipped. I can rerun the loop safely every time new recordings land in the folder.&lt;/p&gt;
+&lt;p&gt;Run it from inside the folder of recordings. &lt;code&gt;-n&lt;/code&gt; refuses to overwrite, so any recording that already has an &lt;code&gt;.opus&lt;/code&gt; beside it is skipped. I can rerun the loop safely every time new recordings land in the folder.&lt;/p&gt;
 
 &lt;h2&gt;Make it one word&lt;/h2&gt;
-&lt;p&gt;I add this to the end of &lt;code&gt;~/.bashrc&lt;/code&gt; (or &lt;code&gt;~/.zshrc&lt;/code&gt; on a Mac) and run &lt;code&gt;source ~/.bashrc&lt;/code&gt; once:&lt;/p&gt;
+&lt;p&gt;The folder loop above and this shortcut are for Linux and macOS. I add a small function to my shell's settings file so I never retype the flags. Open that file in nano, a simple editor that runs inside the terminal:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Linux
+nano ~/.bashrc
+
+# macOS
+nano ~/.zshrc&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Hold the down arrow to reach the bottom, paste this line, save with &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;O&lt;/kbd&gt; and &lt;kbd&gt;Enter&lt;/kbd&gt;, then exit with &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;X&lt;/kbd&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;toaudio() { ffmpeg -i "$1" -vn -ac 1 -ar 16000 -c:a libopus -b:a 24k -application voip "${1%.*}.opus"; }&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;From then on the whole conversion is:&lt;/p&gt;
+&lt;p&gt;Load the change into the open window with &lt;code&gt;source ~/.bashrc&lt;/code&gt; (or &lt;code&gt;source ~/.zshrc&lt;/code&gt; on a Mac). New terminals pick it up on their own. From then on the whole conversion is:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;toaudio "recording.mp4"&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;On Windows, the same idea works as a PowerShell loop over a folder:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Get-ChildItem *.mp4 | ForEach-Object { ffmpeg -n -i $_.Name -vn -ac 1 -ar 16000 -c:a libopus -b:a 24k -application voip ($_.BaseName + ".opus") }&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2&gt;Then transcribe it&lt;/h2&gt;
 &lt;p&gt;The small file goes anywhere: a paid service, an API, or a copy of Whisper running on your own machine with nothing uploaded. If you publish audio or video, a reviewed transcript is also plain text that search engines and AI assistants can read and quote, which is why I treat it as part of the page and not an afterthought. For how episode text spreads across the web once it is published, read &lt;a href="https://christopherabraham.com/guides/show-notes-cascade/"&gt;the show notes cascade&lt;/a&gt;.&lt;/p&gt;

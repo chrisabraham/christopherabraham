@@ -869,7 +869,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
    "dateModified": "2026-10-31",
    "image": "https://christopherabraham.com/cards/guides-shrink-video-for-transcription.png",
    "inLanguage": "en-US",
-   "wordCount": 917,
+   "wordCount": 1528,
    "citation": [
     {
      "@type": "CreativeWork",
@@ -949,7 +949,9 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <summary>On this page</summary>
   <ol>
     <li><a href="#section-what-a-transcriber-actually-hears">What a transcriber actually hears</a></li>
+    <li><a href="#section-open-a-terminal">Open a terminal</a></li>
     <li><a href="#section-install-ffmpeg">Install ffmpeg</a></li>
+    <li><a href="#section-go-to-your-recording">Go to your recording</a></li>
     <li><a href="#section-the-command">The command</a></li>
     <li><a href="#section-pick-a-bitrate">Pick a bitrate</a></li>
     <li><a href="#section-when-a-service-refuses-opus">When a service refuses Opus</a></li>
@@ -965,8 +967,19 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
 <p>Whisper, the open speech model inside most of today's transcription products, resamples every file it receives to one channel at 16,000 samples per second before it does anything else. Stereo, 48 kHz audio, and generous bitrates are bytes the model discards on arrival. That gives the target: mono, 16 kHz, encoded with a codec designed around the human voice. Anything more is upload time and storage you pay for and the model never uses.</p>
 <p>It also means the original video stays the master. I keep it until the transcript checks out, then decide whether the picture is worth archiving at all.</p>
 
+<h2 id="section-open-a-terminal" tabindex="-1">Open a terminal</h2>
+<p>Everything in this guide is typed into a terminal, the text window where you give your computer commands. Open one this way:</p>
+<ul>
+  <li><strong>Linux Mint and Ubuntu:</strong> press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>, or open the menu and type Terminal.</li>
+  <li><strong>macOS:</strong> press <kbd>Cmd</kbd>+<kbd>Space</kbd>, type Terminal, and press <kbd>Return</kbd>.</li>
+  <li><strong>Windows 10 and 11:</strong> right click the Start button and choose Terminal or Windows PowerShell.</li>
+</ul>
+<p>You type or paste a command at the prompt and press <kbd>Enter</kbd>. In a Linux terminal, paste with <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd>; on a Mac, <kbd>Cmd</kbd>+<kbd>V</kbd>; in Windows Terminal, <kbd>Ctrl</kbd>+<kbd>V</kbd> or a right click.</p>
+
 <h2 id="section-install-ffmpeg" tabindex="-1">Install ffmpeg</h2>
-<p>ffmpeg is the free command line converter that sits underneath nearly every other audio and video tool. Install it once:</p>
+<p>ffmpeg is the free command line converter that sits underneath nearly every other audio and video tool. First see whether you already have it:</p>
+<pre><code>ffmpeg -version</code></pre>
+<p>If a version banner prints, skip to the next section. If you see "command not found" or "not recognized," install it with the line for your system:</p>
 <pre><code># Linux Mint, Ubuntu, Debian
 sudo apt install ffmpeg
 
@@ -975,6 +988,21 @@ brew install ffmpeg
 
 # Windows
 winget install Gyan.FFmpeg</code></pre>
+<p>A few notes so nothing surprises you:</p>
+<ul>
+  <li><strong>On Linux,</strong> <code>sudo</code> asks for your own login password, and nothing appears while you type it. Type it anyway and press <kbd>Enter</kbd>, then answer <code>Y</code> when apt asks to continue. If apt says it can't find the package, run <code>sudo apt update</code> first and try again.</li>
+  <li><strong>On a Mac,</strong> the <code>brew</code> command comes from Homebrew. If the Mac answers "command not found: brew," install Homebrew with the one line shown on <a href="https://brew.sh/">its home page</a>, then run the ffmpeg line.</li>
+  <li><strong>On Windows,</strong> winget is built into current versions of Windows 10 and 11. When it finishes, close the terminal and open a new one, because the old window doesn't know the new program exists yet.</li>
+</ul>
+<p>Run <code>ffmpeg -version</code> again. The banner means you're ready. While you're there, confirm your build can write Opus, the codec the main command uses:</p>
+<pre><code>ffmpeg -hide_banner -encoders | grep libopus</code></pre>
+<p>On Windows, swap <code>grep libopus</code> for <code>findstr libopus</code>. One matching line means you're set. The standard builds for all three systems include it; if yours prints nothing, use the MP3 version further down.</p>
+
+<h2 id="section-go-to-your-recording" tabindex="-1">Go to your recording</h2>
+<p>The terminal works in one folder at a time. Move it to the folder that holds your video and list what's there:</p>
+<pre><code>cd ~/Videos
+ls</code></pre>
+<p>Recordings often land in Videos, Downloads, or Desktop, so swap the folder name as needed. On Windows the same commands work in PowerShell, as in <code>cd $HOME\Videos</code> followed by <code>ls</code>. A shortcut on every system: type <code>cd</code> and a space, drag the folder from your file manager into the terminal window, and press <kbd>Enter</kbd>.</p>
 <p>Before converting, I check the running time in seconds, which tells me how big the output will be:</p>
 <pre><code>ffprobe -v error -show_entries format=duration -of csv=p=0 "recording.mp4"</code></pre>
 
@@ -989,7 +1017,9 @@ winget install Gyan.FFmpeg</code></pre>
   <li><code>-b:a 24k</code> sets 24 kilobits per second.</li>
   <li><code>-application voip</code> tells Opus to favor intelligible voices over music.</li>
 </ul>
-<p>My 5.9 GB file came out at well under one percent of its original size, and the transcript lost nothing.</p>
+<p>Replace both file names with your own, keeping the quotes so names with spaces work. ffmpeg prints a running status line while it works; the <code>time=</code> figure counts up through the recording, and the prompt returns when it's done. Check the result:</p>
+<pre><code>ls -lh *.opus</code></pre>
+<p>The size should read a few megabytes per hour. Open the file in any media player and listen for a few seconds to confirm the voices came through. My 5.9 GB file came out at well under one percent of its original size, and the transcript lost nothing.</p>
 
 <h2 id="section-pick-a-bitrate" tabindex="-1">Pick a bitrate</h2>
 <p>Size is bitrate multiplied by running time, so the arithmetic is easy. For one hour of speech:</p>
@@ -1022,13 +1052,21 @@ winget install Gyan.FFmpeg</code></pre>
 <pre><code>for f in *.mp4; do
   ffmpeg -n -i "$f" -vn -ac 1 -ar 16000 -c:a libopus -b:a 24k -application voip "${f%.*}.opus"
 done</code></pre>
-<p><code>-n</code> refuses to overwrite, so any recording that already has an <code>.opus</code> beside it is skipped. I can rerun the loop safely every time new recordings land in the folder.</p>
+<p>Run it from inside the folder of recordings. <code>-n</code> refuses to overwrite, so any recording that already has an <code>.opus</code> beside it is skipped. I can rerun the loop safely every time new recordings land in the folder.</p>
 
 <h2 id="section-make-it-one-word" tabindex="-1">Make it one word</h2>
-<p>I add this to the end of <code>~/.bashrc</code> (or <code>~/.zshrc</code> on a Mac) and run <code>source ~/.bashrc</code> once:</p>
+<p>The folder loop above and this shortcut are for Linux and macOS. I add a small function to my shell's settings file so I never retype the flags. Open that file in nano, a simple editor that runs inside the terminal:</p>
+<pre><code># Linux
+nano ~/.bashrc
+
+# macOS
+nano ~/.zshrc</code></pre>
+<p>Hold the down arrow to reach the bottom, paste this line, save with <kbd>Ctrl</kbd>+<kbd>O</kbd> and <kbd>Enter</kbd>, then exit with <kbd>Ctrl</kbd>+<kbd>X</kbd>:</p>
 <pre><code>toaudio() { ffmpeg -i "$1" -vn -ac 1 -ar 16000 -c:a libopus -b:a 24k -application voip "${1%.*}.opus"; }</code></pre>
-<p>From then on the whole conversion is:</p>
+<p>Load the change into the open window with <code>source ~/.bashrc</code> (or <code>source ~/.zshrc</code> on a Mac). New terminals pick it up on their own. From then on the whole conversion is:</p>
 <pre><code>toaudio "recording.mp4"</code></pre>
+<p>On Windows, the same idea works as a PowerShell loop over a folder:</p>
+<pre><code>Get-ChildItem *.mp4 | ForEach-Object { ffmpeg -n -i $_.Name -vn -ac 1 -ar 16000 -c:a libopus -b:a 24k -application voip ($_.BaseName + ".opus") }</code></pre>
 
 <h2 id="section-then-transcribe-it" tabindex="-1">Then transcribe it</h2>
 <p>The small file goes anywhere: a paid service, an API, or a copy of Whisper running on your own machine with nothing uploaded. If you publish audio or video, a reviewed transcript is also plain text that search engines and AI assistants can read and quote, which is why I treat it as part of the page and not an afterthought. For how episode text spreads across the web once it is published, read <a href="../../guides/show-notes-cascade/">the show notes cascade</a>.</p>
