@@ -1,10 +1,10 @@
 > A back of the book index to christopherabraham.com: every person, tool, platform, and SEO problem the pages cover, listed A to Z with links to each page.
 >
-> Source: https://christopherabraham.com/site-index/ · Updated 2026-10-29 · By Christopher Abraham
+> Source: https://christopherabraham.com/site-index/ · Updated 2026-10-31 · By Christopher Abraham
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 614 headings across 123 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 618 headings across 124 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -449,6 +449,12 @@ People are listed surname first. Cross-references point to related headings. For
   - disclosure, [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/)
 
 - fetchpriority, [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
+- ffmpeg, **[Shrink Video for Transcription](https://christopherabraham.com/guides/shrink-video-for-transcription/)**
+  - audio extraction for transcription, [Shrink Video for Transcription](https://christopherabraham.com/guides/shrink-video-for-transcription/)
+  - batch conversion, [Shrink Video for Transcription](https://christopherabraham.com/guides/shrink-video-for-transcription/)
+  - splitting long files, [Shrink Video for Transcription](https://christopherabraham.com/guides/shrink-video-for-transcription/)
+  - trimming a recording, [Shrink Video for Transcription](https://christopherabraham.com/guides/shrink-video-for-transcription/)
+
 - firewalls, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
 - Forbes, [AI Visibility Baseline](https://christopherabraham.com/case-studies/ai-visibility-baseline/), [About](https://christopherabraham.com/about/)
 - founding dates, conflated, [AI Visibility Baseline](https://christopherabraham.com/case-studies/ai-visibility-baseline/)
@@ -814,7 +820,10 @@ People are listed surname first. Cross-references point to related headings. For
 - online reputation management, [About](https://christopherabraham.com/about/)
 - on-page SEO, [Services](https://christopherabraham.com/services/), **[On-Page SEO](https://christopherabraham.com/services/on-page-seo/)**
 - Open Graph tags, [Static Websites](https://christopherabraham.com/services/static-sites/), **[Social Share Cards](https://christopherabraham.com/guides/social-share-cards/)**, [Meta Keywords](https://christopherabraham.com/guides/meta-keywords/)
-- OpenAI, [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
+- OpenAI, [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Shrink Video for Transcription](https://christopherabraham.com/guides/shrink-video-for-transcription/)
+- Opus audio codec, [Shrink Video for Transcription](https://christopherabraham.com/guides/shrink-video-for-transcription/). *See also* [ffmpeg](https://christopherabraham.com/site-index/#ix-ffmpeg)
+  - speech bitrates, [Shrink Video for Transcription](https://christopherabraham.com/guides/shrink-video-for-transcription/)
+
 - original research, [Guides](https://christopherabraham.com/guides/), **[Small original research](https://christopherabraham.com/guides/small-original-research/)**, [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
   - AI assistance with, [Small original research](https://christopherabraham.com/guides/small-original-research/)
   - choosing a sample, [Small original research](https://christopherabraham.com/guides/small-original-research/)
@@ -1041,7 +1050,7 @@ People are listed surname first. Cross-references point to related headings. For
   - collection paths, [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)
   - duplicate product markup, [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)
 
-- show notes, **[The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)**
+- show notes, **[The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)**. *See also* [transcription](https://christopherabraham.com/site-index/#ix-transcription)
   - front loading, [The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)
   - position queries, [The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)
   - the owned mirror site, [The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/)
@@ -1161,6 +1170,10 @@ People are listed surname first. Cross-references point to related headings. For
 - Torvalds, Linus, [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
 - Total Blocking Time, [GA4 and PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/)
 - traffic drops, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Migrations](https://christopherabraham.com/services/migrations/), [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
+- transcription, **[Shrink Video for Transcription](https://christopherabraham.com/guides/shrink-video-for-transcription/)**. *See also* [ffmpeg](https://christopherabraham.com/site-index/#ix-ffmpeg); [Whisper](https://christopherabraham.com/site-index/#ix-whisper)
+  - preparing audio, [Shrink Video for Transcription](https://christopherabraham.com/guides/shrink-video-for-transcription/)
+  - upload size caps, [Shrink Video for Transcription](https://christopherabraham.com/guides/shrink-video-for-transcription/)
+
 - Treasury Department, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Tripadvisor, [Business Name Change](https://christopherabraham.com/guides/business-name-change/)
 - two audiences on one site, [Training Gym](https://christopherabraham.com/case-studies/training-gym/)
@@ -1237,6 +1250,7 @@ People are listed surname first. Cross-references point to related headings. For
 - WebP and AVIF, [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
 - website archive recovery, **[Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/)**
 - website inquiry testing, [Website inquiry audit](https://christopherabraham.com/services/inquiry-path-audit/), **[Test website inquiries](https://christopherabraham.com/guides/test-website-inquiries/)**
+- Whisper, [Shrink Video for Transcription](https://christopherabraham.com/guides/shrink-video-for-transcription/). *See also* [transcription](https://christopherabraham.com/site-index/#ix-transcription)
 - white label services, [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/), [Glossary](https://christopherabraham.com/guides/glossary/)
 - Wikidata, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
 - Wikipedia, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
@@ -1290,4 +1304,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated October 29, 2026
+Updated October 31, 2026

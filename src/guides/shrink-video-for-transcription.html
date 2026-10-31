@@ -1,0 +1,86 @@
+name: Shrink Video for Transcription
+title: Shrink a huge video file into small audio for transcribing
+description: One ffmpeg command turns a gigabyte screen recording into a tiny speech file any transcriber accepts, with bitrate math, upload caps, trims, and batch runs.
+type: guide
+published: 2026-10-31
+keywords: ffmpeg audio extraction, video to audio for transcription, Opus speech bitrate, Whisper transcription prep
+sources: FFmpeg codecs documentation | https://ffmpeg.org/ffmpeg-codecs.html ;; OpenAI Whisper | https://github.com/openai/whisper ;; Opus codec | https://opus-codec.org/
+updated: 2026-10-31
+about: FFmpeg | https://en.wikipedia.org/wiki/FFmpeg ;; Opus (audio format) | https://en.wikipedia.org/wiki/Opus_(audio_format)
+mentions: Whisper (speech recognition system) | https://en.wikipedia.org/wiki/Whisper_(speech_recognition_system) ;; MP3 | https://en.wikipedia.org/wiki/MP3
+---
+<h1>How to shrink a huge video to the smallest audio file that still transcribes</h1>
+<p><img src="{root}shrink-video-for-transcription.svg" alt="Doodle in red, green, and blue ink: a fat film reel squeezed through a funnel into one thin sound wave" width="240"></p>
+<p class="lead">Every transcription tool listens and nothing more, from a web upload box to a speech model on your own laptop. A screen recording or a meeting export carries gigabytes of picture the transcriber throws away. I had a 5.9 GB MP4 of a recorded conversation, and a single ffmpeg command turned it into an audio file of roughly 11 MB per hour that transcribed cleanly. Here is that command, what each flag does, and how I tune it for wherever the file goes next.</p>
+
+<h2>What a transcriber actually hears</h2>
+<p>Whisper, the open speech model inside most of today's transcription products, resamples every file it receives to one channel at 16,000 samples per second before it does anything else. Stereo, 48 kHz audio, and generous bitrates are bytes the model discards on arrival. That gives the target: mono, 16 kHz, encoded with a codec designed around the human voice. Anything more is upload time and storage you pay for and the model never uses.</p>
+<p>It also means the original video stays the master. I keep it until the transcript checks out, then decide whether the picture is worth archiving at all.</p>
+
+<h2>Install ffmpeg</h2>
+<p>ffmpeg is the free command line converter that sits underneath nearly every other audio and video tool. Install it once:</p>
+<pre><code># Linux Mint, Ubuntu, Debian
+sudo apt install ffmpeg
+
+# macOS with Homebrew
+brew install ffmpeg
+
+# Windows
+winget install Gyan.FFmpeg</code></pre>
+<p>Before converting, I check the running time in seconds, which tells me how big the output will be:</p>
+<pre><code>ffprobe -v error -show_entries format=duration -of csv=p=0 "recording.mp4"</code></pre>
+
+<h2>The command</h2>
+<pre><code>ffmpeg -i "recording.mp4" -vn -ac 1 -ar 16000 -c:a libopus -b:a 24k -application voip "recording.opus"</code></pre>
+<ul>
+  <li><code>-i "recording.mp4"</code> names the input. Keep the quotes whenever the name has spaces.</li>
+  <li><code>-vn</code> discards the video stream.</li>
+  <li><code>-ac 1</code> folds the sound down to a single channel.</li>
+  <li><code>-ar 16000</code> resamples to 16 kHz, the rate the model listens at.</li>
+  <li><code>-c:a libopus</code> encodes with Opus, the codec inside modern voice and video calls.</li>
+  <li><code>-b:a 24k</code> sets 24 kilobits per second.</li>
+  <li><code>-application voip</code> tells Opus to favor intelligible voices over music.</li>
+</ul>
+<p>My 5.9 GB file came out at well under one percent of its original size, and the transcript lost nothing.</p>
+
+<h2>Pick a bitrate</h2>
+<p>Size is bitrate multiplied by running time, so the arithmetic is easy. For one hour of speech:</p>
+<ul>
+  <li><code>-b:a 16k</code> comes to about 7 MB. Enough for one clear voice in a quiet room.</li>
+  <li><code>-b:a 24k</code> comes to about 11 MB. My default for meetings, interviews, and calls.</li>
+  <li><code>-b:a 32k</code> comes to about 14 MB. I use it for echoing rooms, strong accents, and people talking over each other.</li>
+</ul>
+<p>Under 16k, the model starts missing mumbled words and the short replies buried in crosstalk. The savings are not worth a worse transcript.</p>
+
+<h2>When a service refuses Opus</h2>
+<p>Some upload forms judge a file by its extension. Opus normally lives inside an Ogg container, so naming the output <code>.ogg</code> gets it past many of them with no other change:</p>
+<pre><code>ffmpeg -i "recording.mp4" -vn -ac 1 -ar 16000 -c:a libopus -b:a 24k -application voip "recording.ogg"</code></pre>
+<p>MP3 is accepted everywhere. It needs a little more bitrate to stay as clear:</p>
+<pre><code>ffmpeg -i "recording.mp4" -vn -ac 1 -ar 16000 -c:a libmp3lame -b:a 32k "recording.mp3"</code></pre>
+<p>For apps in the Apple and Microsoft worlds that want M4A:</p>
+<pre><code>ffmpeg -i "recording.mp4" -vn -ac 1 -ar 16000 -c:a aac -b:a 32k "recording.m4a"</code></pre>
+
+<h2>Fit under an upload cap</h2>
+<p>Transcription APIs and web apps limit the size of a single upload. OpenAI's speech to text API has capped files at 25 MB for a long time, so check the current figure for whatever you use. At 24k Opus, 25 MB holds a little over two hours. For anything longer, I cut the audio into hour pieces without encoding it again:</p>
+<pre><code>ffmpeg -i "recording.opus" -f segment -segment_time 3600 -c copy "recording-part-%02d.opus"</code></pre>
+<p>Because <code>-c copy</code> only rewraps the existing audio, the split takes seconds and costs no quality.</p>
+
+<h2>Keep only the part you need</h2>
+<p>Most recordings open with setup chatter. To skip the first ten minutes and keep the next thirty five:</p>
+<pre><code>ffmpeg -ss 00:10:00 -i "recording.mp4" -t 00:35:00 -vn -ac 1 -ar 16000 -c:a libopus -b:a 24k -application voip "excerpt.opus"</code></pre>
+<p>Placing <code>-ss</code> ahead of <code>-i</code> jumps straight to that point instead of decoding everything before it, which matters on a long file.</p>
+
+<h2>Convert a whole folder</h2>
+<pre><code>for f in *.mp4; do
+  ffmpeg -n -i "$f" -vn -ac 1 -ar 16000 -c:a libopus -b:a 24k -application voip "${f%.*}.opus"
+done</code></pre>
+<p><code>-n</code> refuses to overwrite, so any recording that already has an <code>.opus</code> beside it is skipped. I can rerun the loop safely every time new recordings land in the folder.</p>
+
+<h2>Make it one word</h2>
+<p>I add this to the end of <code>~/.bashrc</code> (or <code>~/.zshrc</code> on a Mac) and run <code>source ~/.bashrc</code> once:</p>
+<pre><code>toaudio() { ffmpeg -i "$1" -vn -ac 1 -ar 16000 -c:a libopus -b:a 24k -application voip "${1%.*}.opus"; }</code></pre>
+<p>From then on the whole conversion is:</p>
+<pre><code>toaudio "recording.mp4"</code></pre>
+
+<h2>Then transcribe it</h2>
+<p>The small file goes anywhere: a paid service, an API, or a copy of Whisper running on your own machine with nothing uploaded. If you publish audio or video, a reviewed transcript is also plain text that search engines and AI assistants can read and quote, which is why I treat it as part of the page and not an afterthought. For how episode text spreads across the web once it is published, read <a href="{root}guides/show-notes-cascade/">the show notes cascade</a>.</p>

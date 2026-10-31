@@ -1,6 +1,6 @@
 > Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
 >
-> Source: https://christopherabraham.com/guides/ · Updated 2026-10-28 · By Christopher Abraham
+> Source: https://christopherabraham.com/guides/ · Updated 2026-10-31 · By Christopher Abraham
 
 # SEO guides
 
@@ -30,6 +30,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 ## AI search and structured data
 - [Selling inside AI assistants](https://christopherabraham.com/guides/agentic-checkout/): where buy buttons in ChatGPT and AI Mode stand for a small shop, and the product data work that pays off either way.
 - [Bookings from Google AI Mode](https://christopherabraham.com/guides/ai-mode-bookings/): which reservations and appointments AI Mode can make today, and how a local business becomes bookable.
+- [How to shrink a huge video to the smallest audio file that still transcribes](https://christopherabraham.com/guides/shrink-video-for-transcription/): one ffmpeg command, bitrate math, fallbacks to MP3 and M4A, upload caps, trims, and batch conversion.
 - [The show notes cascade](https://christopherabraham.com/guides/show-notes-cascade/): how podcast directories copy your episode notes across the web, and how to write notes that AI answers quote.
 - [Publish original research without a big budget](https://christopherabraham.com/guides/small-original-research/): a manageable question, repeatable method, honest sample, and evidence readers can inspect.
 - [AI catnip for fall 2026](https://christopherabraham.com/guides/ai-catnip/): original evidence, useful answers, crawler access, and realistic expectations for citations.
@@ -96,4 +97,4 @@ New and updated guides appear in the [full-text RSS feed](https://christopherabr
 
 If you've worked through a guide and the problem is still there, that's usually the point where a second set of eyes on the actual site helps. Every engagement begins with a scoped audit; see the [services](https://christopherabraham.com/services/) or [get in touch](https://christopherabraham.com/contact/).
 
-Updated October 28, 2026
+Updated October 31, 2026

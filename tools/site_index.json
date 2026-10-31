@@ -4984,7 +4984,8 @@
     "guides/ai-search-checklist",
     "guides/seo-news-sources",
     "guides/seo-in-your-repository",
-    "guides/screaming-frog-licence"
+    "guides/screaming-frog-licence",
+    "guides/shrink-video-for-transcription"
    ],
    "subs": {},
    "see": [],
@@ -6607,7 +6608,9 @@
      "guides/show-notes-cascade"
     ]
    },
-   "see": [],
+   "see": [
+    "transcription"
+   ],
    "main": [
     "guides/show-notes-cascade"
    ]
@@ -8300,6 +8303,77 @@
    "main": [
     "guides/give-seo-access"
    ]
+  },
+  "ffmpeg": {
+   "kind": "tool",
+   "pages": [
+    "guides/shrink-video-for-transcription"
+   ],
+   "subs": {
+    "audio extraction for transcription": [
+     "guides/shrink-video-for-transcription"
+    ],
+    "batch conversion": [
+     "guides/shrink-video-for-transcription"
+    ],
+    "splitting long files": [
+     "guides/shrink-video-for-transcription"
+    ],
+    "trimming a recording": [
+     "guides/shrink-video-for-transcription"
+    ]
+   },
+   "see": [],
+   "main": [
+    "guides/shrink-video-for-transcription"
+   ]
+  },
+  "transcription": {
+   "kind": "topic",
+   "pages": [
+    "guides/shrink-video-for-transcription"
+   ],
+   "subs": {
+    "preparing audio": [
+     "guides/shrink-video-for-transcription"
+    ],
+    "upload size caps": [
+     "guides/shrink-video-for-transcription"
+    ]
+   },
+   "see": [
+    "ffmpeg",
+    "Whisper"
+   ],
+   "main": [
+    "guides/shrink-video-for-transcription"
+   ]
+  },
+  "Whisper": {
+   "kind": "tool",
+   "pages": [
+    "guides/shrink-video-for-transcription"
+   ],
+   "subs": {},
+   "see": [
+    "transcription"
+   ],
+   "main": []
+  },
+  "Opus audio codec": {
+   "kind": "tool",
+   "pages": [
+    "guides/shrink-video-for-transcription"
+   ],
+   "subs": {
+    "speech bitrates": [
+     "guides/shrink-video-for-transcription"
+    ]
+   },
+   "see": [
+    "ffmpeg"
+   ],
+   "main": []
   }
  },
  "reviewed": [
@@ -8425,6 +8499,7 @@
   "guides/agentic-checkout",
   "guides/ai-mode-bookings",
   "services/ai-shopping-readiness",
-  "guides/give-seo-access"
+  "guides/give-seo-access",
+  "guides/shrink-video-for-transcription"
  ]
 }

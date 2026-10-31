@@ -5,8 +5,107 @@
   <link>https://christopherabraham.com/guides/</link>
   <description>Guides to indexing, audits, schema, redirects, site speed, and AI search</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 28 Oct 2026 12:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 31 Oct 2026 12:00:00 +0000</lastBuildDate>
   <atom:link href="https://christopherabraham.com/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>How to shrink a huge video to the smallest audio file that still transcribes</title>
+    <link>https://christopherabraham.com/guides/shrink-video-for-transcription/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/shrink-video-for-transcription/</guid>
+    <pubDate>Sat, 31 Oct 2026 12:00:00 +0000</pubDate>
+    <description>One ffmpeg command turns a gigabyte screen recording into a tiny speech file any transcriber accepts, with bitrate math, upload caps, trims, and batch runs.</description>
+    <content:encoded>&lt;h1&gt;How to shrink a huge video to the smallest audio file that still transcribes&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-31"&gt;October 31, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://christopherabraham.com/shrink-video-for-transcription.svg" alt="Doodle in red, green, and blue ink: a fat film reel squeezed through a funnel into one thin sound wave" width="240"&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;Every transcription tool listens and nothing more, from a web upload box to a speech model on your own laptop. A screen recording or a meeting export carries gigabytes of picture the transcriber throws away. I had a 5.9 GB MP4 of a recorded conversation, and a single ffmpeg command turned it into an audio file of roughly 11 MB per hour that transcribed cleanly. Here is that command, what each flag does, and how I tune it for wherever the file goes next.&lt;/p&gt;
+
+&lt;h2&gt;What a transcriber actually hears&lt;/h2&gt;
+&lt;p&gt;Whisper, the open speech model inside most of today's transcription products, resamples every file it receives to one channel at 16,000 samples per second before it does anything else. Stereo, 48 kHz audio, and generous bitrates are bytes the model discards on arrival. That gives the target: mono, 16 kHz, encoded with a codec designed around the human voice. Anything more is upload time and storage you pay for and the model never uses.&lt;/p&gt;
+&lt;p&gt;It also means the original video stays the master. I keep it until the transcript checks out, then decide whether the picture is worth archiving at all.&lt;/p&gt;
+
+&lt;h2&gt;Install ffmpeg&lt;/h2&gt;
+&lt;p&gt;ffmpeg is the free command line converter that sits underneath nearly every other audio and video tool. Install it once:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Linux Mint, Ubuntu, Debian
+sudo apt install ffmpeg
+
+# macOS with Homebrew
+brew install ffmpeg
+
+# Windows
+winget install Gyan.FFmpeg&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Before converting, I check the running time in seconds, which tells me how big the output will be:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ffprobe -v error -show_entries format=duration -of csv=p=0 "recording.mp4"&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;The command&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;ffmpeg -i "recording.mp4" -vn -ac 1 -ar 16000 -c:a libopus -b:a 24k -application voip "recording.opus"&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;-i "recording.mp4"&lt;/code&gt; names the input. Keep the quotes whenever the name has spaces.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;-vn&lt;/code&gt; discards the video stream.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;-ac 1&lt;/code&gt; folds the sound down to a single channel.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;-ar 16000&lt;/code&gt; resamples to 16 kHz, the rate the model listens at.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;-c:a libopus&lt;/code&gt; encodes with Opus, the codec inside modern voice and video calls.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;-b:a 24k&lt;/code&gt; sets 24 kilobits per second.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;-application voip&lt;/code&gt; tells Opus to favor intelligible voices over music.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;My 5.9 GB file came out at well under one percent of its original size, and the transcript lost nothing.&lt;/p&gt;
+
+&lt;h2&gt;Pick a bitrate&lt;/h2&gt;
+&lt;p&gt;Size is bitrate multiplied by running time, so the arithmetic is easy. For one hour of speech:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;-b:a 16k&lt;/code&gt; comes to about 7 MB. Enough for one clear voice in a quiet room.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;-b:a 24k&lt;/code&gt; comes to about 11 MB. My default for meetings, interviews, and calls.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;-b:a 32k&lt;/code&gt; comes to about 14 MB. I use it for echoing rooms, strong accents, and people talking over each other.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Under 16k, the model starts missing mumbled words and the short replies buried in crosstalk. The savings are not worth a worse transcript.&lt;/p&gt;
+
+&lt;h2&gt;When a service refuses Opus&lt;/h2&gt;
+&lt;p&gt;Some upload forms judge a file by its extension. Opus normally lives inside an Ogg container, so naming the output &lt;code&gt;.ogg&lt;/code&gt; gets it past many of them with no other change:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ffmpeg -i "recording.mp4" -vn -ac 1 -ar 16000 -c:a libopus -b:a 24k -application voip "recording.ogg"&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;MP3 is accepted everywhere. It needs a little more bitrate to stay as clear:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ffmpeg -i "recording.mp4" -vn -ac 1 -ar 16000 -c:a libmp3lame -b:a 32k "recording.mp3"&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For apps in the Apple and Microsoft worlds that want M4A:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ffmpeg -i "recording.mp4" -vn -ac 1 -ar 16000 -c:a aac -b:a 32k "recording.m4a"&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Fit under an upload cap&lt;/h2&gt;
+&lt;p&gt;Transcription APIs and web apps limit the size of a single upload. OpenAI's speech to text API has capped files at 25 MB for a long time, so check the current figure for whatever you use. At 24k Opus, 25 MB holds a little over two hours. For anything longer, I cut the audio into hour pieces without encoding it again:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ffmpeg -i "recording.opus" -f segment -segment_time 3600 -c copy "recording-part-%02d.opus"&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Because &lt;code&gt;-c copy&lt;/code&gt; only rewraps the existing audio, the split takes seconds and costs no quality.&lt;/p&gt;
+
+&lt;h2&gt;Keep only the part you need&lt;/h2&gt;
+&lt;p&gt;Most recordings open with setup chatter. To skip the first ten minutes and keep the next thirty five:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ffmpeg -ss 00:10:00 -i "recording.mp4" -t 00:35:00 -vn -ac 1 -ar 16000 -c:a libopus -b:a 24k -application voip "excerpt.opus"&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Placing &lt;code&gt;-ss&lt;/code&gt; ahead of &lt;code&gt;-i&lt;/code&gt; jumps straight to that point instead of decoding everything before it, which matters on a long file.&lt;/p&gt;
+
+&lt;h2&gt;Convert a whole folder&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;for f in *.mp4; do
+  ffmpeg -n -i "$f" -vn -ac 1 -ar 16000 -c:a libopus -b:a 24k -application voip "${f%.*}.opus"
+done&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;-n&lt;/code&gt; refuses to overwrite, so any recording that already has an &lt;code&gt;.opus&lt;/code&gt; beside it is skipped. I can rerun the loop safely every time new recordings land in the folder.&lt;/p&gt;
+
+&lt;h2&gt;Make it one word&lt;/h2&gt;
+&lt;p&gt;I add this to the end of &lt;code&gt;~/.bashrc&lt;/code&gt; (or &lt;code&gt;~/.zshrc&lt;/code&gt; on a Mac) and run &lt;code&gt;source ~/.bashrc&lt;/code&gt; once:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;toaudio() { ffmpeg -i "$1" -vn -ac 1 -ar 16000 -c:a libopus -b:a 24k -application voip "${1%.*}.opus"; }&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;From then on the whole conversion is:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;toaudio "recording.mp4"&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Then transcribe it&lt;/h2&gt;
+&lt;p&gt;The small file goes anywhere: a paid service, an API, or a copy of Whisper running on your own machine with nothing uploaded. If you publish audio or video, a reviewed transcript is also plain text that search engines and AI assistants can read and quote, which is why I treat it as part of the page and not an afterthought. For how episode text spreads across the web once it is published, read &lt;a href="https://christopherabraham.com/guides/show-notes-cascade/"&gt;the show notes cascade&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://ffmpeg.org/ffmpeg-codecs.html"&gt;FFmpeg codecs documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/openai/whisper"&gt;OpenAI Whisper&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://opus-codec.org/"&gt;Opus codec&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content:encoded>
+  </item>
   <item>
     <title>Give your SEO access without handing over your passwords</title>
     <link>https://christopherabraham.com/guides/give-seo-access/</link>
