@@ -1,7 +1,7 @@
 # Christopher Abraham: full text of christopherabraham.com
 
 > Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.
-> Built 2026-10-31. Quote freely with attribution and a link to the source page.
+> Built 2026-11-02. Quote freely with attribution and a link to the source page.
 
 
 ---
@@ -1191,7 +1191,7 @@ Updated October 6, 2026
 ---
 
 Source: https://christopherabraham.com/guides/
-Updated: 2026-10-31
+Updated: 2026-11-02
 
 # SEO guides
 
@@ -1208,6 +1208,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Test your website inquiries from page to inbox](https://christopherabraham.com/guides/test-website-inquiries/): trace submission, receipt, and analytics before investing in more traffic.
 - [Internal linking: stitching your pages together](https://christopherabraham.com/guides/internal-linking/): choose useful destinations, write natural anchors, check section targets, and plan the additions in a downloadable worksheet.
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
+- [Why Google will not index your site](https://christopherabraham.com/guides/why-google-wont-index-your-site/): how to tell a blocked page from a declined one, the six step diagnosis order, and why programmatic sites get declined at scale.
 - [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/): the four tests every listed URL must pass, honest lastmod dates, the tags to drop, and how to audit a sitemap against a crawl.
 - [Why your SEO should work in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/): fixing causes in templates instead of symptoms page by page, what AI coding assistants add, and what to ask before you hire.
 - [How to find near-duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Screaming Frog settings that catch both, what heading problems really cost, and how to settle each duplicate cluster.
@@ -1288,7 +1289,7 @@ New and updated guides appear in the [full-text RSS feed](https://christopherabr
 
 If you've worked through a guide and the problem is still there, that's usually the point where a second set of eyes on the actual site helps. Every engagement begins with a scoped audit; see the [services](https://christopherabraham.com/services/) or [get in touch](https://christopherabraham.com/contact/).
 
-Updated October 31, 2026
+Updated November 2, 2026
 
 
 ---
@@ -7821,6 +7822,179 @@ Updated October 26, 2026
 
 ---
 
+Source: https://christopherabraham.com/services/indexing-audit/
+Updated: 2026-11-02
+
+# Indexing audit
+
+Your pages exist, Google knows about them, and most of them are not in the index. An indexing audit finds out why. It is a comprehensive technical diagnosis of a site Google crawls but will not index, delivered as causes with evidence and a fix list in priority order. The price is a flat $750, invoiced in advance.
+
+## Who it's for
+- Sites where Search Console shows hundreds or thousands of pages in "Crawled, currently not indexed" or "Discovered, currently not indexed."
+- Programmatic sites that published pages at scale and watched Google accept only a fraction of them.
+- Sites that lost indexed pages after a migration, redesign, or template change.
+- Owners who have been told to just wait, and want a verdict instead.
+
+## What the audit covers
+
+### A full crawl
+
+I crawl the entire site with Screaming Frog, in text and rendered modes, and reconcile the crawl against your sitemaps and the URLs Search Console knows. Every page falls into a bucket: indexed, blocked, declined, or unreachable, and the buckets are grouped by template so the patterns are visible.
+
+### Search Console and Bing diagnosis
+
+I read the Page indexing report reason by reason, inspect live examples from each cluster with URL Inspection, and run the same check in Bing Webmaster Tools. Where the two engines disagree, the disagreement itself is evidence, because they render pages and apply robots rules differently.
+
+### Robots, sitemap, and internal linking review
+
+The robots.txt file, meta robots tags, and X-Robots-Tag headers, checked for rules that fence off pages or resources by accident. The sitemap, checked for dead, redirected, and noncanonical URLs. Internal linking, checked for orphan pages, excessive click depth, and important pages reachable only through scripted navigation.
+
+### Backlink audit
+
+I sample the referring domains pointing at the site and separate genuine links from spam and link schemes. If the profile is dense with manipulative links, I prepare a disavow file ready to upload. If the links are ordinary noise Google already ignores, the report says so and you spend nothing fixing them.
+
+### Structure for AI search
+
+Indexed pages are the raw material AI answer engines cite, so the audit also covers how the pages are built: schema and structured data, content chunked into answerable sections, and real differentiation between pages that share a template, so each page gives an answer engine something quotable.
+
+## What you receive
+- A findings report: which pages are blocked, which are declined, the mechanism behind each group, and the evidence for every claim.
+- A prioritized fix list, in the order the fixes should ship.
+- Copy and paste examples for the fixes that have a form: corrected titles, meta descriptions, robots rules, canonical tags, and template wording.
+- A disavow file, if the backlink audit warrants one.
+- A plain statement of which pages should not be indexed at all, and what to do with them instead.
+
+## Price and how it starts
+
+The audit is $750 flat. I invoice in advance through Harvest, and work begins when the invoice is paid and access is in place. I need access to Google Search Console and Bing Webmaster Tools, and any history you can give me: migrations, redesigns, when the indexed count moved, any links you bought. Most audits are delivered within days of access, and the findings hold up on a walkthrough call if you want one.
+
+## What it does not include
+
+Implementing the fixes is separate work. Some clients hand the fix list to their own developer; others hire me to make the changes and verify them, which is covered under [indexing repair](https://christopherabraham.com/services/indexing/) and my broader [technical SEO audit](https://christopherabraham.com/services/seo-audit/) work. The audit stands on its own either way: you keep the report, the fix list, and the examples regardless of who does the implementation.
+
+## Related
+
+For the method behind this audit, read [why Google will not index your site](https://christopherabraham.com/guides/why-google-wont-index-your-site/) and my guide to [reading the Page indexing report](https://christopherabraham.com/guides/page-indexing-report/). Ready to start? See [Hire Me](https://christopherabraham.com/hire-me/) or [contact me](https://christopherabraham.com/contact/).
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+Updated November 2, 2026
+
+
+---
+
+Source: https://christopherabraham.com/guides/why-google-wont-index-your-site/
+Updated: 2026-11-02
+
+# Why Google will not index your site: a diagnosis guide
+
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published November 2, 2026
+
+Google found your pages, crawled them, and quietly decided to leave most of them out of the index. That decision is the problem, and it has a cause. This guide explains how Google makes the call, how to tell a blocked page from a declined one, and the order in which a real diagnosis works through the evidence.
+
+## Why does Google leave pages out of the index?
+
+Crawling, indexing, and ranking are three separate decisions. Google can crawl a page every week and still refuse to index it, because the index is a library with limited shelf space and Google keeps the pages it judges worth storing. A page earns its slot by being reachable, readable, and different enough from everything else already on the shelf.
+
+Search engines are literal. A page surfaces for the words actually on it, in the structure it actually has, and Google evaluates the page it fetched and rendered, which may not be the page you see in your browser. When owners say "Google will not index my site," the cause is almost always one of three things: the page is blocked by a rule, the content never made it into what Google received, or Google read the page fine and decided it added nothing over pages it already holds. Each cause has a different fix, which is why the diagnosis comes before any repair.
+
+## Is the page blocked, or did Google decline it?
+
+Blocked means a rule on your side stopped Google: a noindex tag, a robots.txt disallow, a login wall, or a server error. Declined means Google fetched the page successfully and chose not to keep it. The Page indexing report separates the two, and the distinction decides everything you do next.
+
+Blocked pages are configuration problems. They are usually fast to find and fast to fix, and they are common after migrations, redesigns, and staging sites that leak into production with their restrictions still on. Declined pages are judgment problems. Google saw the content and ranked it below the cutoff for storage. No setting fixes that; the page itself, or the company it keeps on your site, has to change. Most struggling sites have both, and fixing the blocked pages first is what makes the declined count readable.
+
+## What order does an indexing diagnosis follow?
+
+Work from Google's own records outward to the site itself: coverage first, then the rules that gate crawling, then discovery, then the content judgment. Changing content before you know the gates are open wastes the effort, because Google cannot reward a page it never reaches.
+
+### Step 1: Read the coverage states in Search Console
+
+The Page indexing report is Google's own list of decisions, grouped by reason. Start with the counts per reason and the trend for each, then export the example URLs. The two reasons that carry most diagnoses are "Crawled, currently not indexed," where Google fetched and declined, and "Discovered, currently not indexed," where Google knows the URL exists and has not yet spent a crawl on it. The full walkthrough of each reason is in my guide to [reading the Page indexing report](https://christopherabraham.com/guides/page-indexing-report/). Group the examples by directory and template before inspecting any single URL, because indexing problems live in templates, not in individual pages.
+
+### Step 2: Check robots.txt and meta robots
+
+A single disallow line can fence off a whole section, and a noindex left over from a redesign can sit on a template for months. Read the robots.txt file itself rather than a plugin summary of it, check the meta robots tag and the X-Robots-Tag header on representative pages, and confirm that CSS and JavaScript files are crawlable, since blocked resources corrupt rendering and make good pages look empty. Google documents the robots rules it honors in its [robots.txt introduction](https://developers.google.com/search/docs/crawling-indexing/robots/intro).
+
+### Step 3: Audit the sitemap
+
+A sitemap is a claim about which pages matter. Check that the submitted sitemap returns a 200 status, lists only canonical URLs that return 200 themselves, and contains no redirected, noindexed, or deleted pages. A sitemap full of URLs Google has already declined teaches Google to trust it less. On larger sites, split sitemaps by page type so coverage reporting follows the same split and you can see which template is failing.
+
+### Step 4: Trace internal linking and orphan pages
+
+Google discovers and weighs pages largely through links. A page with no internal links is an orphan, and Google treats orphan status as a relevance signal: if the site itself never points at a page, the page rarely matters. Map click depth from the home page, find orphans in the crawl, and check whether important pages are linked with descriptive anchor text or buried behind scripted navigation that renders late. My [guide to internal linking](https://christopherabraham.com/guides/internal-linking/) covers the structure in depth.
+
+### Step 5: Judge duplicate and thin content
+
+This is where most declined pages are decided. Compare each failing template against the pages Google did index and ask what the declined page adds: distinct facts, distinct inventory, a distinct answer. Pages that repeat a sibling with a city name or a filter value swapped are duplicates in Google's accounting even when every word differs. Near duplicates also fight each other through canonical selection, which I cover in the guide to [near duplicates and multiple H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/). Thin pages are not always short; a long page can be thin if its length is boilerplate shared with ten thousand others.
+
+### Step 6: Examine the backlink profile
+
+Spam links rarely keep a whole site out of the index, but a profile full of purchased or hacked links distorts how Google trusts the domain, and a manual action for unnatural links stops indexing cold. Read the links report in Search Console, sample the referring domains, and separate genuine coverage from link schemes. Where the spam is dense and clearly manipulative, a disavow file is the remedy; where it is ordinary internet noise, Google already ignores it and your time belongs elsewhere. My guide to [buying backlinks](https://christopherabraham.com/guides/buying-backlinks/) explains how these profiles form.
+
+## What is different about programmatic sites?
+
+A programmatic site generates pages from a database and a template: one layout, thousands of URLs, with the variables swapped per page. A location page per city, a product page per item in a feed, a comparison page per pair. The model is legitimate and powers many of the most useful pages on the web. It is also the model Google declines most often, because the same machinery that produces ten thousand useful pages produces ten thousand near-identical ones just as easily.
+
+The failure pattern is consistent. A database has 50,000 rows, so the site ships 50,000 pages, each one swapping a name, a price, and two sentences into the same frame. Google crawls a sample, finds that page 4,000 tells it nothing page 40 did not, and stops. The rest sit in "Discovered, currently not indexed" or land in "Crawled, currently not indexed," and the ratio of indexed to published pages collapses. The site owner experiences this as Google refusing the site. Google experiences it as declining to store copies.
+
+Google's spam policies name the pattern directly: scaled content abuse is generating many pages primarily to manipulate rankings without adding value for users, and it applies whether the pages are written by people, templates, or AI. The policy is in Google's [spam policies documentation](https://developers.google.com/search/docs/essentials/spam-policies). The policy does not ban programmatic pages. It bans pages whose only reason to exist is the query they target.
+
+What separates a programmatic page Google keeps from one it declines is unique substance per page. The pages that earn indexing carry data only that page has: real inventory, real prices, local facts, user reviews, computed comparisons, availability. They are also reachable through a sane structure, with category pages that link down to them and enough internal links that crawl attention reaches the tail. And the site publishes at the rate its value supports, which usually means pruning or noindexing the weakest slice of the database so the strong pages stop competing with their own siblings. Pruning feels like losing pages. In practice it is how programmatic sites recover: fewer, better pages, each one visibly different from the next, get indexed at a far higher rate than the full undifferentiated set.
+
+## What does a diagnosis deliver?
+
+A diagnosis ends with causes, evidence, and an order of work: which templates are blocked, which are declined, the mechanism behind each, and the fix sequence ranked by effect. It also says plainly which pages should not be indexed at all. If you want that work done on your site, my [indexing audit](https://christopherabraham.com/services/indexing-audit/) is the fixed price version, and [indexing repair](https://christopherabraham.com/services/indexing/) covers the implementation side.
+
+## Questions buyers ask me
+
+### Google indexed my pages and then dropped them. Why?
+
+Pages fall out when Google recrawls and rejudges them against a rising bar, when the site around them weakens, or when a template change quietly thins them. A drop concentrated in one page type points at that template. A drop across the whole site points at trust, duplication at scale, or a technical change that shipped near the date the fall began.
+
+### Should I request indexing for every excluded URL?
+
+No. Request indexing in Search Console is a nudge for a handful of priority pages after a fix. Submitting hundreds of declined URLs asks Google to rejudge pages that have not changed, and it changes nothing. Fix the template, verify with a live test on two or three examples, and let recrawling do the rest.
+
+### Will a disavow file fix my indexing?
+
+Only when links are the actual cause, which is uncommon. A disavow addresses a manual action or a dense, manipulative link scheme. If your pages are declined for thin or duplicate content, a disavow changes nothing, and the weeks spent building one are weeks the real problem goes unfixed.
+
+### How long does recovery take after the fixes ship?
+
+Blocked pages usually clear within days of the rule being removed and the page being recrawled. Declined pages take longer, because Google has to recrawl, re-render, and reverse a judgment; expect weeks, and judge progress by template, watching the indexed share of each sitemap rather than the site total.
+
+### Can you guarantee my pages will be indexed?
+
+No honest consultant can. Indexing is Google's decision. What I can guarantee is a diagnosis that names the cause with evidence and a fix list that removes every barrier on your side of the fence, which is the part under your control.
+
+### What do you need from me to start an audit?
+
+Access to Google Search Console and Bing Webmaster Tools, the site's URL, and any history you have: migrations, redesigns, traffic changes, link purchases. The audit itself is a flat $750 invoiced in advance, described on the [indexing audit](https://christopherabraham.com/services/indexing-audit/) page.
+
+## Let me help you with this
+
+If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Call +1 202-352-5051](tel:+12023525051) [Email cja@well.com](mailto:cja@well.com)
+
+Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Sources
+- [Google Search Central: Spam policies for Google web search](https://developers.google.com/search/docs/essentials/spam-policies)
+- [Search Console Help: Page indexing report](https://support.google.com/webmasters/answer/7440203)
+- [Google Search Central: Introduction to robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro)
+- [Google Search Central: What is a sitemap?](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview)
+
+**[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+
+---
+
 Source: https://christopherabraham.com/guides/search-console-comparisons/
 Updated: 2026-10-24
 
@@ -8574,7 +8748,7 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 ---
 
 Source: https://christopherabraham.com/sitemap/
-Updated: 2026-10-31
+Updated: 2026-11-02
 
 # Site map
 
@@ -8605,6 +8779,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/): Independent SEO checks before and after a website release: rendering, indexing signals, redirects, media, and evidence your developer can act on.
 - [Website inquiry audits: find where contacts go missing](https://christopherabraham.com/services/inquiry-path-audit/): Find broken contact routes, missing form notifications, and misleading conversion events. Get documented tests, clear repair priorities, and verified retests.
 - [SEO report review](https://christopherabraham.com/services/seo-report-review/): Send me your agency's SEO audit or monthly report. I check its claims against your own Search Console and site data and tell you in writing what holds up.
+- [Indexing audit](https://christopherabraham.com/services/indexing-audit/): A complete indexing audit for a flat $750, invoiced in advance: full crawl, Search Console and Bing diagnosis, backlink review, and a ranked fix list.
 
 ## AI search, schema, and content
 - [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/): Improve how ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google AI Overviews describe and cite your business, with prompt testing, entities, and content.
@@ -8685,6 +8860,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Google Merchant Center free listings for small shops](https://christopherabraham.com/guides/merchant-center-free-listings/): How a small shop gets its products into Google's free listings: the Merchant Center feed, required attributes, shipping, returns, and the errors to fix first.
 - [Apple Maps and Bing Places: local listings past Google](https://christopherabraham.com/guides/apple-and-bing-listings/): Why a local business should claim its Apple Maps place card and its Bing Places listing, what each one feeds, how to set them up, and keeping them consistent.
 - [The FTC fake review rule for small businesses](https://christopherabraham.com/guides/ftc-review-rule/): The FTC's rule on consumer reviews took effect October 21, 2024. What it bans, what it allows, and how to ask customers for reviews without risk to you.
+- [Why Google will not index your site: a diagnosis guide](https://christopherabraham.com/guides/why-google-wont-index-your-site/): Why Google crawls a page and still leaves it out of the index, how to read the evidence, and the order a working indexing diagnosis follows, step by step.
 - [Search Console comparisons that support better decisions](https://christopherabraham.com/guides/search-console-comparisons/): Compare Search Console periods with consistent filters, matched weekdays, and page groups so seasonal demand and changing query mixes do not distort the result.
 - [SEO and AI search advice your business should refuse now](https://christopherabraham.com/guides/seo-advice-to-refuse/): A field guide for owners: the search tactics to decline, the plausible ones that waste money, and the schemes that end with a site removed from Google.
 - [Nobody Mentions You: The AI Search Problem Owners Miss](https://christopherabraham.com/guides/nobody-mentions-you/): A flawless website stays invisible in AI answers when nobody else on the web mentions the company. Earned mentions, purchased applause, and agency questions.
@@ -8727,17 +8903,17 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 31, 2026
+Updated November 2, 2026
 
 
 ---
 
 Source: https://christopherabraham.com/site-index/
-Updated: 2026-10-31
+Updated: 2026-11-02
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 618 headings across 124 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 621 headings across 126 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -8963,7 +9139,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Bing Places, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/), **[Apple and Bing Listings](https://christopherabraham.com/guides/apple-and-bing-listings/)**
   - import from Google, [Apple and Bing Listings](https://christopherabraham.com/guides/apple-and-bing-listings/)
 
-- Bing Webmaster Tools, [Services](https://christopherabraham.com/services/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), **[Search Console](https://christopherabraham.com/services/search-console/)**, [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/)
+- Bing Webmaster Tools, [Services](https://christopherabraham.com/services/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), **[Search Console](https://christopherabraham.com/services/search-console/)**, [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/), [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
   - AI Performance report, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [AI Share of Voice](https://christopherabraham.com/guides/ai-share-of-voice/)
 
 - Bingbot, [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Site Speed](https://christopherabraham.com/services/site-speed/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
@@ -8999,7 +9175,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Caffeinated Magazine, The, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Calendly, [Contact](https://christopherabraham.com/contact/)
 - Camber-Roth, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- canonical tags, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Migrations](https://christopherabraham.com/services/migrations/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/), [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/), [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/)
+- canonical tags, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Migrations](https://christopherabraham.com/services/migrations/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/), [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/), [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/), [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
   - Google overruling, [Indexing](https://christopherabraham.com/services/indexing/)
   - pointing every section home, [Event App Links](https://christopherabraham.com/case-studies/event-app-links/)
 
@@ -9083,7 +9259,7 @@ People are listed surname first. Cross-references point to related headings. For
 - correlation and mechanism, [Small original research](https://christopherabraham.com/guides/small-original-research/), [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/)
 - crawl budget, [Indexing](https://christopherabraham.com/services/indexing/), [Glossary](https://christopherabraham.com/guides/glossary/), [Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)
 - crawl comparison, before and after, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), **[Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/)**, [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/), [Skills and Proof](https://christopherabraham.com/about/skills/)
-- Crawled, currently not indexed, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Indexing](https://christopherabraham.com/services/indexing/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/), [Consent Banner](https://christopherabraham.com/case-studies/consent-banner/)
+- Crawled, currently not indexed, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Indexing](https://christopherabraham.com/services/indexing/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/), [Consent Banner](https://christopherabraham.com/case-studies/consent-banner/), [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
 - crawler purposes, training versus search, [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
 - Create React App, [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Event App Links](https://christopherabraham.com/case-studies/event-app-links/)
 - Crunchbase, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)
@@ -9118,13 +9294,13 @@ People are listed surname first. Cross-references point to related headings. For
   - what writers need, [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/)
 
 - DigitalOcean, [Skills and Proof](https://christopherabraham.com/about/skills/), [Colophon](https://christopherabraham.com/about/colophon/)
-- disavow files, [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), **[Disavowing Links](https://christopherabraham.com/guides/disavow-links/)**
+- disavow files, [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), **[Disavowing Links](https://christopherabraham.com/guides/disavow-links/)**, [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
   - common mistakes, [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
   - file format, [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
   - uploading and replacing, [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
   - when to use one, [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
 
-- Discovered, currently not indexed, [Services](https://christopherabraham.com/services/), [Indexing](https://christopherabraham.com/services/indexing/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/)
+- Discovered, currently not indexed, [Services](https://christopherabraham.com/services/), [Indexing](https://christopherabraham.com/services/indexing/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
 - DKIM, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/), [Skills and Proof](https://christopherabraham.com/about/skills/). *See also* [email authentication](https://christopherabraham.com/site-index/#ix-email-authentication)
 - DMARC, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/), [Lapsed Domains](https://christopherabraham.com/guides/lapsed-domains/), [Skills and Proof](https://christopherabraham.com/about/skills/). *See also* [email authentication](https://christopherabraham.com/site-index/#ix-email-authentication)
 - DNS, [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/), [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/), [Lapsed Domains](https://christopherabraham.com/guides/lapsed-domains/)
@@ -9133,7 +9309,7 @@ People are listed surname first. Cross-references point to related headings. For
   - DNS-over-HTTPS lookups, [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/), [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/)
 
 - Drupal, [Services](https://christopherabraham.com/services/), [About](https://christopherabraham.com/about/), [Skills and Proof](https://christopherabraham.com/about/skills/)
-- duplicate content, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Indexing](https://christopherabraham.com/services/indexing/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/)
+- duplicate content, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Indexing](https://christopherabraham.com/services/indexing/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
 - duplicate-phrasing build check, [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/). *See also* [build checks](https://christopherabraham.com/site-index/#ix-build-checks)
 - Dyson, Esther, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 
@@ -9266,7 +9442,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Google documentation, [Brand name in titles](https://christopherabraham.com/guides/brand-name-in-titles/), [Small original research](https://christopherabraham.com/guides/small-original-research/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
 - Google documentation changelog, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Google Search Central Blog, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
-- Google Search Console, [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), **[Search Console](https://christopherabraham.com/services/search-console/)**, [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/)
+- Google Search Console, [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), **[Search Console](https://christopherabraham.com/services/search-console/)**, [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/), [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
   - Change of Address, [Search Console](https://christopherabraham.com/services/search-console/), [Migrations](https://christopherabraham.com/services/migrations/)
   - Domain properties, [Search Console](https://christopherabraham.com/services/search-console/), [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/)
   - enhancement reports, [Schema](https://christopherabraham.com/services/schema/)
@@ -9277,7 +9453,7 @@ People are listed surname first. Cross-references point to related headings. For
   - users, owners, and verification tokens, [Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)
 
 - Google SEO Starter Guide, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
-- Google spam policies, [Hiring an SEO](https://christopherabraham.com/guides/hiring-an-seo/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/), [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
+- Google spam policies, [Hiring an SEO](https://christopherabraham.com/guides/hiring-an-seo/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/), [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
   - expired domain abuse, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
   - manipulating AI answers, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
   - scaled content abuse, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
@@ -9360,7 +9536,17 @@ People are listed surname first. Cross-references point to related headings. For
 ## I
 - "I was a teenage Russian troll", [About](https://christopherabraham.com/about/)
 - image CDNs, [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/)
-- indexing, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Indexing](https://christopherabraham.com/services/indexing/)**
+- indexing, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Indexing](https://christopherabraham.com/services/indexing/)**, **[Indexing Audit](https://christopherabraham.com/services/indexing-audit/)**, **[Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)**
+- indexing audits, **[Indexing Audit](https://christopherabraham.com/services/indexing-audit/)**, [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/). *See also* [indexing](https://christopherabraham.com/site-index/#ix-indexing)
+  - blocked versus declined pages, [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
+  - the fix list, [Indexing Audit](https://christopherabraham.com/services/indexing-audit/)
+  - what the audit covers, [Indexing Audit](https://christopherabraham.com/services/indexing-audit/)
+
+- indexing diagnosis, [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), **[Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)**. *See also* [indexing audits](https://christopherabraham.com/site-index/#ix-indexing-audits)
+  - coverage states first, [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
+  - programmatic sites, [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
+  - pruning weak pages, [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
+
 - IndexNow, [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/), [Skills and Proof](https://christopherabraham.com/about/skills/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/)
   - Google not a participant, [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
 
@@ -9459,7 +9645,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Majestic, [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
 - Malloy, Judy, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - manipulating AI answers, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/)
-- manual actions, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
+- manual actions, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
 - Markdown copies of pages, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
 - Marketing Conversation, [About](https://christopherabraham.com/about/)
 - master record for listings, **[Apple and Bing Listings](https://christopherabraham.com/guides/apple-and-bing-listings/)**
@@ -9495,7 +9681,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 - Meta Network, The, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - meta refresh, [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
-- meta robots, [Meta Keywords](https://christopherabraham.com/guides/meta-keywords/)
+- meta robots, [Meta Keywords](https://christopherabraham.com/guides/meta-keywords/), [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
 - Meta Sharing Debugger, [Social Share Cards](https://christopherabraham.com/guides/social-share-cards/)
 - meta tags, [Home](https://christopherabraham.com/)
 - meta-externalagent, [AI Search](https://christopherabraham.com/services/ai-search/)
@@ -9523,7 +9709,7 @@ People are listed surname first. Cross-references point to related headings. For
 - NAP (name, address, phone), [Local SEO](https://christopherabraham.com/services/local-seo/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [Service-Area Businesses](https://christopherabraham.com/guides/service-area-business/), [Apple and Bing Listings](https://christopherabraham.com/guides/apple-and-bing-listings/)
 - Narrator, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/)
 - Naval Lodge No. 4, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- near-duplicate pages, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Indexing](https://christopherabraham.com/services/indexing/), **[Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)**, [Skills and Proof](https://christopherabraham.com/about/skills/)
+- near-duplicate pages, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Indexing](https://christopherabraham.com/services/indexing/), **[Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)**, [Skills and Proof](https://christopherabraham.com/about/skills/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
   - differentiate, merge, or canonicalize, [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
   - sources of, [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
 
@@ -9536,7 +9722,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Nginx, [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
 - niche edits, [Glossary](https://christopherabraham.com/guides/glossary/)
 - Node.js, [Skills and Proof](https://christopherabraham.com/about/skills/)
-- noindex, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Indexing](https://christopherabraham.com/services/indexing/), [Migrations](https://christopherabraham.com/services/migrations/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/)
+- noindex, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Indexing](https://christopherabraham.com/services/indexing/), [Migrations](https://christopherabraham.com/services/migrations/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
   - archive pages, [Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)
   - not for canonical selection, [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
 
@@ -9564,7 +9750,7 @@ People are listed surname first. Cross-references point to related headings. For
   - limits and corrections, [Small original research](https://christopherabraham.com/guides/small-original-research/)
   - method notes, [Small original research](https://christopherabraham.com/guides/small-original-research/)
 
-- orphaned pages, [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Glossary](https://christopherabraham.com/guides/glossary/), [Event App Links](https://christopherabraham.com/case-studies/event-app-links/), [Internal Linking Strategy](https://christopherabraham.com/services/internal-linking/), [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
+- orphaned pages, [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Glossary](https://christopherabraham.com/guides/glossary/), [Event App Links](https://christopherabraham.com/case-studies/event-app-links/), [Internal Linking Strategy](https://christopherabraham.com/services/internal-linking/), [Internal Linking](https://christopherabraham.com/guides/internal-linking/), [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
 - Owens Corning, [About](https://christopherabraham.com/about/)
 - Oxford Blues (film), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 
@@ -9579,7 +9765,7 @@ People are listed surname first. Cross-references point to related headings. For
   - Elementor, [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
   - WPBakery, [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
 
-- Page indexing report, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/), [Guides](https://christopherabraham.com/guides/), **[Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/)**, [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/). *See also* [Google Search Console](https://christopherabraham.com/site-index/#ix-google-search-console)
+- Page indexing report, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/), [Guides](https://christopherabraham.com/guides/), **[Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/)**, [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/), [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/). *See also* [Google Search Console](https://christopherabraham.com/site-index/#ix-google-search-console)
   - Alternate page with proper canonical tag, [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/)
   - Blocked by robots.txt, [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/)
   - Crawled, currently not indexed, [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/)
@@ -9635,7 +9821,7 @@ People are listed surname first. Cross-references point to related headings. For
 - privacy, **[Privacy](https://christopherabraham.com/privacy/)**
 - product feeds, **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**, [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/), [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
 - Products, [Products](https://christopherabraham.com/products/)
-- programmatic SEO, **[Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)**
+- programmatic SEO, **[Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)**, [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), **[Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)**
 - prompt sets, [AI Search](https://christopherabraham.com/services/ai-search/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/)
 - Proxima (later Proxicom), [About](https://christopherabraham.com/about/)
 - pull requests, [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Schema](https://christopherabraham.com/services/schema/), **[SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)**, [Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)
@@ -9693,7 +9879,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Rhino Rank, [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/)
 - rich results, [Glossary](https://christopherabraham.com/guides/glossary/)
 - Rich Results Test, [Services](https://christopherabraham.com/services/), [Schema](https://christopherabraham.com/services/schema/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)
-- robots.txt, [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [llms.txt](https://christopherabraham.com/guides/llms-txt/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/)
+- robots.txt, [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [llms.txt](https://christopherabraham.com/guides/llms-txt/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/), [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
 - Ronson, Jon, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Roth, Charles, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - r/slowjogging, [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/), [Skills and Proof](https://christopherabraham.com/about/skills/), **[Off the Clock](https://christopherabraham.com/about/off-the-clock/)**
@@ -9707,13 +9893,13 @@ People are listed surname first. Cross-references point to related headings. For
 - Salt Lake (Honolulu neighborhood), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [About Page for AI](https://christopherabraham.com/guides/about-page-ai/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - sameAs links, [AI Search](https://christopherabraham.com/services/ai-search/), [Schema](https://christopherabraham.com/services/schema/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), **[Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/)**, [Third-Party Proof](https://christopherabraham.com/guides/third-party-proof/), [Lapsed Domains](https://christopherabraham.com/guides/lapsed-domains/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
 - Sanity, [Services](https://christopherabraham.com/services/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), **[Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)**
-- scaled content abuse, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Glossary](https://christopherabraham.com/guides/glossary/)
+- scaled content abuse, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Glossary](https://christopherabraham.com/guides/glossary/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
 - schema markup, [AI visibility](https://christopherabraham.com/services/ai-visibility/), [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/). *See also* [structured data](https://christopherabraham.com/site-index/#ix-structured-data)
 - Schema.org, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)
 - Schema.org validator, [Schema](https://christopherabraham.com/services/schema/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)
 - Schwartz, Barry, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Scottish Rite, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- Screaming Frog SEO Spider, [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [AI Search](https://christopherabraham.com/services/ai-search/), **[Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)**, [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/), [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/), [Skills and Proof](https://christopherabraham.com/about/skills/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/). *See also* [custom extraction](https://christopherabraham.com/site-index/#ix-custom-extraction)
+- Screaming Frog SEO Spider, [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [AI Search](https://christopherabraham.com/services/ai-search/), **[Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)**, [Near Duplicates and H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/), [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/), [Skills and Proof](https://christopherabraham.com/about/skills/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/), [Indexing Audit](https://christopherabraham.com/services/indexing-audit/). *See also* [custom extraction](https://christopherabraham.com/site-index/#ix-custom-extraction)
   - AI integrations, [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
   - crawl comparison mode, [Prove an SEO Fix Worked](https://christopherabraham.com/guides/prove-seo-fixes/)
   - custom extraction, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Social Share Cards](https://christopherabraham.com/guides/social-share-cards/), [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/)
@@ -9812,7 +9998,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Solis, Aleyda, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - source vetting, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - South by Southwest, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- spam backlinks, [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
+- spam backlinks, [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/), [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
   - spikes, [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
 
 - spam updates, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Glossary](https://christopherabraham.com/guides/glossary/). *See also* [Google updates](https://christopherabraham.com/site-index/#ix-google-updates)
@@ -9926,6 +10112,7 @@ People are listed surname first. Cross-references point to related headings. For
   - writing a posting, [Hiring an SEO](https://christopherabraham.com/guides/hiring-an-seo/)
 
 - urban.net, [About](https://christopherabraham.com/about/)
+- URL Inspection, **[Indexing Audit](https://christopherabraham.com/services/indexing-audit/)**. *See also* [Google Search Console](https://christopherabraham.com/site-index/#ix-google-search-console)
 - URL preservation, [Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)
 - Usenet, [About](https://christopherabraham.com/about/)
 
@@ -10017,7 +10204,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 ## X
 - X (Twitter) cards, [Social Share Cards](https://christopherabraham.com/guides/social-share-cards/), [Meta Keywords](https://christopherabraham.com/guides/meta-keywords/)
-- XML sitemaps, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Search Console](https://christopherabraham.com/services/search-console/), [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), **[XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/)**
+- XML sitemaps, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Search Console](https://christopherabraham.com/services/search-console/), [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), **[XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/)**, [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
   - split by page type, [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/), [Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)
 
 - XPath. *See* [custom extraction](https://christopherabraham.com/site-index/#ix-custom-extraction)
@@ -10037,4 +10224,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated October 31, 2026
+Updated November 2, 2026

@@ -1,0 +1,1087 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why Google will not index your site: a diagnosis guide</title>
+<meta name="description" content="Why Google crawls a page and still leaves it out of the index, how to read the evidence, and the order a working indexing diagnosis follows, step by step.">
+<meta name="keywords" content="Google not indexing, indexing diagnosis, crawled currently not indexed, programmatic SEO indexing">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://christopherabraham.com/guides/why-google-wont-index-your-site/">
+<meta name="author" content="Christopher Abraham">
+<link rel="icon" href="../../logo.png" type="image/png">
+<link rel="apple-touch-icon" href="../../logo.png">
+<link rel="manifest" href="../../manifest.webmanifest">
+<link rel="alternate" type="text/markdown" title="This page as Markdown" href="index.md">
+<link rel="alternate" type="application/rss+xml" title="SEO guides (RSS)" href="../../rss.xml">
+<link rel="alternate" type="application/atom+xml" title="SEO guides by Christopher Abraham" href="../../feed.xml">
+<link rel="alternate" type="text/plain" title="llms.txt" href="../../llms.txt">
+<link rel="sitemap" type="application/xml" href="../../sitemap.xml">
+<meta name="theme-color" content="#ffffff">
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'granted'});
+  gtag('consent', 'default', {analytics_storage: 'denied', region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"]});
+  // Global Privacy Control or Do Not Track turns analytics cookies off anywhere.
+  if (navigator.globalPrivacyControl === true || navigator.doNotTrack === '1') gtag('consent', 'default', {analytics_storage: 'denied'});
+  gtag('js', new Date());
+  gtag('config', 'G-F0GTJ4N9X6', {allow_google_signals: false, allow_ad_personalization_signals: false});
+  (function () {
+    // gtag.js loads on the first scroll, tap, or key, or 4 seconds after the page loads,
+    // so it never competes with the page itself. The commands above wait in dataLayer.
+    var done = false;
+    function load() {
+      if (done) return;
+      done = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-F0GTJ4N9X6';
+      document.head.appendChild(s);
+    }
+    ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (e) { addEventListener(e, load, {once: true, passive: true}); });
+    addEventListener('load', function () { setTimeout(load, 4000); });
+  })();
+</script>
+<script type="speculationrules">{"prefetch": [{"where": {"and": [{"href_matches": "/*"}, {"not": {"href_matches": ["/*.md", "/*.txt", "/*.xml"]}}]}, "eagerness": "moderate"}]}</script>
+<link rel="me" href="https://mastodon.social/@chrisa">
+<link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+<meta property="og:site_name" content="Christopher Abraham">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Why Google will not index your site: a diagnosis guide">
+<meta property="og:description" content="Why Google crawls a page and still leaves it out of the index, how to read the evidence, and the order a working indexing diagnosis follows, step by step.">
+<meta property="og:url" content="https://christopherabraham.com/guides/why-google-wont-index-your-site/">
+<meta property="og:image" content="https://christopherabraham.com/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Why Google will not index your site: a diagnosis guide">
+<meta property="article:published_time" content="2026-11-02">
+<meta property="article:modified_time" content="2026-11-02">
+<meta property="article:author" content="https://christopherabraham.com/about/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Why Google will not index your site: a diagnosis guide">
+<meta name="twitter:description" content="Why Google crawls a page and still leaves it out of the index, how to read the evidence, and the order a working indexing diagnosis follows, step by step.">
+<meta name="twitter:image" content="https://christopherabraham.com/social-card.png">
+<meta name="twitter:image:alt" content="Why Google will not index your site: a diagnosis guide">
+<style>
+:root { --orange: #c75000; --blue: #16729e; --teal: #237482; --text: #000; --muted: #333; --link: #284a57; --tab: #8cacbb; --bar: #dee7ec; --rule: #c8d3d8; --bg: #fff; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { margin: 0; color: var(--text); background: var(--bg); font: 18px/1.65 Verdana, "Lucida Grande", Lucida, "DejaVu Sans", Helvetica, Arial, sans-serif; }
+.wrap { max-width: 46rem; margin: 0 auto; padding: 0 1rem; }
+a { color: var(--link); text-decoration: underline; text-underline-offset: .15em; overflow-wrap: anywhere; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid #000; outline-offset: 2px; }
+img { max-width: 100%; height: auto; }
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 1rem; top: .5rem; background: #fff; padding: .5rem; z-index: 1; }
+.top { display: flex; align-items: center; gap: .9rem; padding: 1.25rem 0 .9rem; }
+.top > a { flex: none; line-height: 0; }
+.top img { width: 64px; height: 64px; max-width: none; }
+.brand { font-size: 1.6rem; font-weight: bold; color: var(--orange); text-decoration: none; }
+.brand:hover { text-decoration: underline; }
+.tag { margin: 0; color: var(--muted); font-size: .95rem; line-height: 1.4; }
+nav.tabs { border-bottom: 4px solid var(--bar); }
+nav.tabs ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .3rem; }
+nav.tabs li { margin: 0; }
+nav.tabs a { display: block; padding: .4rem .7rem; border: 1px solid var(--tab); border-bottom: none; text-decoration: none; font-size: .9rem; white-space: nowrap; }
+nav.tabs a:hover { background: var(--bar); text-decoration: underline; }
+nav.tabs a[aria-current] { background: var(--bar); color: #000; font-weight: bold; }
+.crumbs { font-size: .9rem; margin: 1rem 0 0; color: var(--muted); }
+.crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; }
+.crumbs li { margin: 0; }
+.crumbs li + li::before { content: "›"; padding: 0 .4em; }
+blockquote { margin: 0 0 1rem; padding: .25rem 0 .25rem 1rem; border-left: 4px solid var(--tab); }
+blockquote p:last-child { color: var(--muted); font-size: .9rem; }
+main { padding: 1.25rem 0 2rem; }
+h1 { color: var(--blue); font-size: 1.4rem; line-height: 1.25; margin: .25rem 0 1rem; }
+h2 { color: var(--teal); font-size: 1.3rem; line-height: 1.3; margin: 2rem 0 .5rem; }
+h3 { font-size: 1.08rem; line-height: 1.35; margin: 1.5rem 0 .4rem; }
+p, ul, ol, dl, table { margin: 0 0 1rem; }
+li { margin-bottom: .4rem; }
+.lead { font-size: 1.1rem; }
+.byline { color: var(--muted); font-size: .9rem; margin-top: -.5rem; }
+.updated { color: var(--muted); font-size: .9rem; margin-top: 2rem; }
+code { font-family: Consolas, Menlo, monospace; font-size: .92em; background: #f2f5f7; padding: 0 .2em; }
+pre { background: #f2f5f7; padding: .75rem; overflow-x: auto; font-size: .9rem; line-height: 1.45; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+th, td { border: 1px solid var(--rule); padding: .4rem .55rem; text-align: left; vertical-align: top; }
+th { background: var(--bar); }
+dt { font-weight: bold; margin-top: 1rem; }
+dd { margin: .2rem 0 0 0; }
+.portrait { float: right; width: 160px; height: 160px; margin: .25rem 0 1rem 1.25rem; border: 1px solid var(--rule); }
+.button { display: inline-block; margin: 0 .5rem .6rem 0; padding: .6rem 1.1rem; border: 2px solid var(--link); background: var(--bar); color: #000; font-weight: bold; text-decoration: none; }
+.button:hover { text-decoration: underline; }
+.author-box { display: flex; gap: 1rem; align-items: flex-start; border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: 1rem; font-size: .95rem; }
+.author-box img { width: 72px; height: 72px; flex: none; border: 1px solid var(--rule); }
+.author-box p { margin: 0; }
+.help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
+.help-box h2 { margin-top: .75rem; }
+.related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
+.contact li { margin-bottom: .6rem; }
+.index-letters { position: sticky; top: 0; z-index: 1; background: var(--bg); border-bottom: 1px solid var(--rule); margin: 0 0 1rem; }
+.index-letters p { margin: 0; padding: .35rem 0; font-size: 1.05rem; display: flex; flex-wrap: wrap; gap: .1rem .2rem; }
+.index-letters a, .index-letters span { display: inline-block; min-width: 1.9rem; min-height: 1.9rem; line-height: 1.9rem; text-align: center; }
+.index-letters .index-empty { color: #767676; }
+.index-top { font-size: .9rem; margin: -.4rem 0 1.25rem; }
+[id^="ix-"] { scroll-margin-top: 4.5rem; }
+ul.site-index { list-style: none; padding: 0; }
+ul.site-index > li { margin-bottom: .35rem; padding-left: 1.5rem; text-indent: -1.5rem; }
+ul.site-index ul { list-style: none; padding-left: 1.5rem; margin: .15rem 0 .3rem; }
+ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1rem; }
+.site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
+.site-footer p { margin: 0 0 .4rem; text-wrap: balance; }
+.site-footer a { white-space: nowrap; }
+@media (max-width: 34rem) {
+  body { font-size: 17px; }
+  .top img { width: 52px; height: 52px; }
+  nav.tabs a { padding: .45rem .55rem; }
+  h1 { font-size: 1.25rem; }
+  .portrait { width: 112px; height: 112px; margin-left: 1rem; }
+}
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://christopherabraham.com/#website",
+   "url": "https://christopherabraham.com/",
+   "name": "Christopher Abraham",
+   "inLanguage": "en-US",
+   "publisher": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "publishingPrinciples": "https://christopherabraham.com/about/editorial-policy/"
+  },
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://christopherabraham.com/#service-business",
+   "name": "Christopher Abraham, SEO consultant",
+   "url": "https://christopherabraham.com/",
+   "logo": "https://christopherabraham.com/logo.png",
+   "image": "https://christopherabraham.com/social-card.png",
+   "description": "Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.",
+   "founder": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "employee": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "slogan": "Senior SEO help, from the person who does the work",
+   "email": "cja@well.com",
+   "telephone": "+1-202-352-5051",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+   },
+   "location": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.86,
+    "longitude": -77.1
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Arlington, Virginia"
+    },
+    {
+     "@type": "City",
+     "name": "Alexandria, Virginia"
+    },
+    {
+     "@type": "City",
+     "name": "Washington, District of Columbia"
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Washington, DC metropolitan area"
+    },
+    {
+     "@type": "State",
+     "name": "Virginia",
+     "containedInPlace": {
+      "@type": "Country",
+      "name": "United States"
+     }
+    },
+    {
+     "@type": "Country",
+     "name": "United States",
+     "identifier": "US"
+    },
+    {
+     "@type": "Country",
+     "name": "Canada",
+     "identifier": "CA"
+    },
+    {
+     "@type": "Country",
+     "name": "United Kingdom",
+     "identifier": "GB"
+    },
+    {
+     "@type": "Country",
+     "name": "Ireland",
+     "identifier": "IE"
+    },
+    {
+     "@type": "Country",
+     "name": "Australia",
+     "identifier": "AU"
+    },
+    {
+     "@type": "Country",
+     "name": "New Zealand",
+     "identifier": "NZ"
+    },
+    "Worldwide"
+   ],
+   "knowsLanguage": "en",
+   "knowsAbout": [
+    "Search engine optimization",
+    "Technical SEO",
+    "SEO audits",
+    "Indexing",
+    "Google Search Console",
+    "Bing Webmaster Tools",
+    "JavaScript SEO",
+    "Core Web Vitals",
+    "Cloudflare",
+    "Schema markup",
+    "Structured data",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "AI search",
+    "llms.txt",
+    "OpenAI Codex",
+    "Claude Code",
+    "GitHub Copilot",
+    "Gemini",
+    "Grok",
+    "Perplexity",
+    "301 redirects",
+    "Website migrations",
+    "WordPress",
+    "Yoast SEO",
+    "Rank Math",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Local SEO",
+    "Google Business Profile",
+    "Internal linking",
+    "Metadata"
+   ],
+   "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "value": 1
+   },
+   "contactPoint": [
+    {
+     "@type": "ContactPoint",
+     "contactType": "sales",
+     "email": "cja@well.com",
+     "telephone": "+1-202-352-5051",
+     "areaServed": [
+      "US",
+      "CA",
+      "GB",
+      "IE",
+      "AU",
+      "NZ"
+     ],
+     "availableLanguage": "English"
+    }
+   ],
+   "sameAs": [
+    "https://www.upwork.com/freelancers/chrisjabraham",
+    "https://www.linkedin.com/in/chrisabraham",
+    "https://share.google/xZ98ksFq3nhO2OvuF"
+   ],
+   "publishingPrinciples": "https://christopherabraham.com/about/editorial-policy/",
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "SEO services by Christopher Abraham",
+    "itemListElement": [
+     {
+      "@type": "OfferCatalog",
+      "name": "Technical SEO",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/sitewide-technical-seo/#service",
+         "name": "Sitewide technical SEO: crawl, trace, fix, recrawl",
+         "url": "https://christopherabraham.com/services/sitewide-technical-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-audit/#service",
+         "name": "Technical SEO audit",
+         "url": "https://christopherabraham.com/services/seo-audit/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/indexing/#service",
+         "name": "Indexing repair",
+         "url": "https://christopherabraham.com/services/indexing/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/javascript-seo/#service",
+         "name": "JavaScript and headless SEO",
+         "url": "https://christopherabraham.com/services/javascript-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/site-speed/#service",
+         "name": "Core Web Vitals and Cloudflare",
+         "url": "https://christopherabraham.com/services/site-speed/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/search-console/#service",
+         "name": "Search Console, Bing Webmaster Tools, and GA4",
+         "url": "https://christopherabraham.com/services/search-console/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/migrations/#service",
+         "name": "Site migrations and 301 redirects",
+         "url": "https://christopherabraham.com/services/migrations/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/website-archive-recovery/#service",
+         "name": "Website archive recovery",
+         "url": "https://christopherabraham.com/services/website-archive-recovery/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/internal-linking/#service",
+         "name": "Internal linking strategy: stitch your website together",
+         "url": "https://christopherabraham.com/services/internal-linking/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-release-qa/#service",
+         "name": "SEO release QA: check the change before it reaches every page",
+         "url": "https://christopherabraham.com/services/seo-release-qa/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/inquiry-path-audit/#service",
+         "name": "Website inquiry audits: find where contacts go missing",
+         "url": "https://christopherabraham.com/services/inquiry-path-audit/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-report-review/#service",
+         "name": "SEO report review",
+         "url": "https://christopherabraham.com/services/seo-report-review/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/indexing-audit/#service",
+         "name": "Indexing audit",
+         "url": "https://christopherabraham.com/services/indexing-audit/"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "AI search, schema, and content",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ai-search/#service",
+         "name": "AEO and GEO consulting for companies and agencies",
+         "url": "https://christopherabraham.com/services/ai-search/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/schema/#service",
+         "name": "Schema markup and entity SEO",
+         "url": "https://christopherabraham.com/services/schema/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/on-page-seo/#service",
+         "name": "On-page SEO",
+         "url": "https://christopherabraham.com/services/on-page-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/fact-checked-articles/#service",
+         "name": "Fact-checked articles written with AI",
+         "url": "https://christopherabraham.com/services/fact-checked-articles/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ai-visibility/#service",
+         "name": "AI visibility: what the answer engines say about your business, and how to change it",
+         "url": "https://christopherabraham.com/services/ai-visibility/"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "Platforms, local, and ongoing work",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/wordpress-seo/#service",
+         "name": "WordPress SEO",
+         "url": "https://christopherabraham.com/services/wordpress-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/static-sites/#service",
+         "name": "Static websites built for search",
+         "url": "https://christopherabraham.com/services/static-sites/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/podcast-website/#service",
+         "name": "Podcast website SEO",
+         "url": "https://christopherabraham.com/services/podcast-website/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/launch-site/#service",
+         "name": "Launch websites for a book, an album, or a new service",
+         "url": "https://christopherabraham.com/services/launch-site/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ecommerce-seo/#service",
+         "name": "Ecommerce SEO",
+         "url": "https://christopherabraham.com/services/ecommerce-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ai-shopping-readiness/#service",
+         "name": "AI shopping readiness for small online shops",
+         "url": "https://christopherabraham.com/services/ai-shopping-readiness/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/local-seo/#service",
+         "name": "Local SEO and Google Business Profile",
+         "url": "https://christopherabraham.com/services/local-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/gbp-verification/#service",
+         "name": "Google Business Profile verification help",
+         "url": "https://christopherabraham.com/services/gbp-verification/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/local-competitor-recon/#service",
+         "name": "Local competitor recon",
+         "url": "https://christopherabraham.com/services/local-competitor-recon/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/peak-season-readiness/#service",
+         "name": "Peak season readiness",
+         "url": "https://christopherabraham.com/services/peak-season-readiness/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-retainer/#service",
+         "name": "Monthly SEO retainer",
+         "url": "https://christopherabraham.com/services/seo-retainer/"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://christopherabraham.com/#person",
+   "name": "Christopher Abraham",
+   "givenName": "Christopher",
+   "additionalName": "James",
+   "familyName": "Abraham",
+   "alternateName": [
+    "Christopher James Abraham",
+    "Chris Abraham"
+   ],
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://christopherabraham.com/christopher-abraham.jpg",
+    "width": 225,
+    "height": 225,
+    "caption": "Christopher Abraham, SEO consultant"
+   },
+   "url": "https://christopherabraham.com/",
+   "jobTitle": "SEO consultant",
+   "worksFor": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "description": "Christopher Abraham is an independent SEO consultant in Arlington, Virginia, building websites since 1994 and doing SEO since 1998.",
+   "alumniOf": [
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "The George Washington University",
+     "sameAs": "https://en.wikipedia.org/wiki/George_Washington_University"
+    },
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "University of East Anglia",
+     "sameAs": "https://en.wikipedia.org/wiki/University_of_East_Anglia"
+    },
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "University of Hawaiʻi at Mānoa"
+    },
+    {
+     "@type": "EducationalOrganization",
+     "name": "Goethe-Institut"
+    },
+    {
+     "@type": "HighSchool",
+     "name": "Saint Louis School, Honolulu"
+    },
+    {
+     "@type": "ElementarySchool",
+     "name": "Aliamanu Elementary School, Honolulu"
+    }
+   ],
+   "affiliation": [
+    {
+     "@type": "Organization",
+     "name": "Meritus Media",
+     "url": "https://meritusmedia.com/",
+     "description": "Digital PR and marketing agency"
+    },
+    {
+     "@type": "Organization",
+     "name": "Stainless Communications",
+     "url": "https://stainlesscommunications.com/",
+     "description": "Senior-led brand, PR, web, and growth firm"
+    }
+   ],
+   "memberOf": [
+    {
+     "@type": "Organization",
+     "name": "Naval Lodge No. 4, F.A.A.M.",
+     "description": "Masonic lodge on Capitol Hill, Washington, DC, chartered 1805"
+    },
+    {
+     "@type": "Organization",
+     "name": "Scottish Rite of Freemasonry, Southern Jurisdiction",
+     "description": "32nd degree"
+    },
+    {
+     "@type": "Organization",
+     "name": "Phi Kappa Psi, DC Alpha chapter",
+     "description": "Founding father"
+    },
+    {
+     "@type": "Organization",
+     "name": "The WELL",
+     "url": "https://www.well.com/"
+    }
+   ],
+   "award": [
+    "Top Rated on Upwork"
+   ],
+   "homeLocation": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "workLocation": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "nationality": {
+    "@type": "Country",
+    "name": "United States"
+   },
+   "knowsLanguage": "en",
+   "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SEO consultant",
+    "occupationLocation": {
+     "@type": "Country",
+     "name": "United States"
+    },
+    "skills": "Technical SEO, indexing, Google Search Console, schema, Core Web Vitals, migrations, AI search, OpenAI Codex, Claude Code, GitHub Copilot"
+   },
+   "knowsAbout": [
+    "Search engine optimization",
+    "Technical SEO",
+    "SEO audits",
+    "Indexing",
+    "Google Search Console",
+    "Bing Webmaster Tools",
+    "JavaScript SEO",
+    "Core Web Vitals",
+    "Cloudflare",
+    "Schema markup",
+    "Structured data",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "AI search",
+    "llms.txt",
+    "OpenAI Codex",
+    "Claude Code",
+    "GitHub Copilot",
+    "Gemini",
+    "Grok",
+    "Perplexity",
+    "301 redirects",
+    "Website migrations",
+    "WordPress",
+    "Yoast SEO",
+    "Rank Math",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Local SEO",
+    "Google Business Profile",
+    "Internal linking",
+    "Metadata"
+   ],
+   "email": "cja@well.com",
+   "telephone": "+1-202-352-5051",
+   "sameAs": [
+    "https://www.upwork.com/freelancers/chrisjabraham",
+    "https://www.linkedin.com/in/chrisabraham",
+    "https://www.youtube.com/@ChrisAbrahamShow",
+    "https://chrisabraham.com/",
+    "https://biznology.com/author/chrisabraham/",
+    "https://www.huffpost.com/author/chris-abraham",
+    "https://muckrack.com/chrisabraham",
+    "https://rheingold.com/Associates/team_abraham.html",
+    "https://www.reddit.com/user/chrisabraham/",
+    "https://mastodon.social/@chrisa",
+    "https://adage.com/author/chris-abraham/1797"
+   ]
+  },
+  {
+   "@type": "Place",
+   "@id": "https://christopherabraham.com/#place",
+   "name": "Arlington, Virginia",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.86,
+    "longitude": -77.1
+   },
+   "containedInPlace": {
+    "@type": "AdministrativeArea",
+    "name": "Arlington County, Virginia",
+    "containedInPlace": {
+     "@type": "State",
+     "name": "Virginia"
+    }
+   }
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://christopherabraham.com/guides/why-google-wont-index-your-site/#webpage",
+   "url": "https://christopherabraham.com/guides/why-google-wont-index-your-site/",
+   "name": "Why Google will not index your site: a diagnosis guide",
+   "description": "Why Google crawls a page and still leaves it out of the index, how to read the evidence, and the order a working indexing diagnosis follows, step by step.",
+   "isPartOf": {
+    "@id": "https://christopherabraham.com/#website"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "Google not indexing"
+    },
+    {
+     "@type": "Thing",
+     "name": "indexing diagnosis"
+    },
+    {
+     "@type": "Thing",
+     "name": "crawled currently not indexed"
+    },
+    {
+     "@type": "Thing",
+     "name": "programmatic SEO indexing"
+    }
+   ],
+   "primaryImageOfPage": "https://christopherabraham.com/social-card.png",
+   "inLanguage": "en-US",
+   "dateModified": "2026-11-02",
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "keywords": "Google not indexing, indexing diagnosis, crawled currently not indexed, programmatic SEO indexing",
+   "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+     "h1",
+     ".lead"
+    ]
+   },
+   "potentialAction": {
+    "@type": "ReadAction",
+    "target": "https://christopherabraham.com/guides/why-google-wont-index-your-site/"
+   },
+   "breadcrumb": {
+    "@id": "https://christopherabraham.com/guides/why-google-wont-index-your-site/#breadcrumb"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://christopherabraham.com/guides/why-google-wont-index-your-site/#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://christopherabraham.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Guides",
+     "item": "https://christopherabraham.com/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Why Google Won't Index Your Site",
+     "item": "https://christopherabraham.com/guides/why-google-wont-index-your-site/"
+    }
+   ]
+  },
+  {
+   "@type": "TechArticle",
+   "@id": "https://christopherabraham.com/guides/why-google-wont-index-your-site/#article",
+   "headline": "Why Google will not index your site: a diagnosis guide",
+   "description": "Why Google crawls a page and still leaves it out of the index, how to read the evidence, and the order a working indexing diagnosis follows, step by step.",
+   "url": "https://christopherabraham.com/guides/why-google-wont-index-your-site/",
+   "mainEntityOfPage": {
+    "@id": "https://christopherabraham.com/guides/why-google-wont-index-your-site/#webpage"
+   },
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "publisher": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "datePublished": "2026-11-02",
+   "dateModified": "2026-11-02",
+   "image": "https://christopherabraham.com/social-card.png",
+   "inLanguage": "en-US",
+   "wordCount": 1801,
+   "citation": [
+    {
+     "@type": "CreativeWork",
+     "name": "Google Search Central: Spam policies for Google web search",
+     "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Search Console Help: Page indexing report",
+     "url": "https://support.google.com/webmasters/answer/7440203"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Google Search Central: Introduction to robots.txt",
+     "url": "https://developers.google.com/search/docs/crawling-indexing/robots/intro"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Google Search Central: What is a sitemap?",
+     "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview"
+    }
+   ],
+   "keywords": "Google not indexing, indexing diagnosis, crawled currently not indexed, programmatic SEO indexing"
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://christopherabraham.com/guides/why-google-wont-index-your-site/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Google indexed my pages and then dropped them. Why?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Pages fall out when Google recrawls and rejudges them against a rising bar, when the site around them weakens, or when a template change quietly thins them. A drop concentrated in one page type points at that template. A drop across the whole site points at trust, duplication at scale, or a technical change that shipped near the date the fall began."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Should I request indexing for every excluded URL?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Request indexing in Search Console is a nudge for a handful of priority pages after a fix. Submitting hundreds of declined URLs asks Google to rejudge pages that have not changed, and it changes nothing. Fix the template, verify with a live test on two or three examples, and let recrawling do the rest."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Will a disavow file fix my indexing?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Only when links are the actual cause, which is uncommon. A disavow addresses a manual action or a dense, manipulative link scheme. If your pages are declined for thin or duplicate content, a disavow changes nothing, and the weeks spent building one are weeks the real problem goes unfixed."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How long does recovery take after the fixes ship?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Blocked pages usually clear within days of the rule being removed and the page being recrawled. Declined pages take longer, because Google has to recrawl, re-render, and reverse a judgment; expect weeks, and judge progress by template, watching the indexed share of each sitemap rather than the site total."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can you guarantee my pages will be indexed?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No honest consultant can. Indexing is Google's decision. What I can guarantee is a diagnosis that names the cause with evidence and a fix list that removes every barrier on your side of the fence, which is the part under your control."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What do you need from me to start an audit?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Access to Google Search Console and Bing Webmaster Tools, the site's URL, and any history you have: migrations, redesigns, traffic changes, link purchases. The audit itself is a flat $750 invoiced in advance, described on the indexing audit page."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+<header class="top">
+  <a href="../../"><img src="../../logo-128.png" width="64" height="64" alt="Christopher Abraham home" fetchpriority="high"></a>
+  <div>
+    <a class="brand" href="../../">Christopher Abraham</a>
+    <p class="tag">SEO consultant: technical SEO, indexing, schema, and AI search</p>
+  </div>
+</header>
+<nav class="tabs" aria-label="Main">
+  <ul>
+    <li><a href="../../">Home</a></li>
+    <li><a href="../../services/">Services</a></li>
+    <li><a href="../../guides/" aria-current="true">Guides</a></li>
+    <li><a href="../../case-studies/">Case Studies</a></li>
+    <li><a href="../../about/">About</a></li>
+    <li><a href="../../hire-me/">Hire Me</a></li>
+    <li><a href="../../contact/">Contact</a></li>
+  </ul>
+</nav>
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../../guides/">Guides</a></li><li aria-current="page">Why Google Won't Index Your Site</li></ol></nav>
+<main id="main">
+<h1>Why Google will not index your site: a diagnosis guide</h1>
+<p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-11-02">November 2, 2026</time></p>
+<p class="lead">Google found your pages, crawled them, and quietly decided to leave most of them out of the index. That decision is the problem, and it has a cause. This guide explains how Google makes the call, how to tell a blocked page from a declined one, and the order in which a real diagnosis works through the evidence.</p>
+
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-why-does-google-leave-pages-out-of-the-index">Why does Google leave pages out of the index?</a></li>
+    <li><a href="#section-is-the-page-blocked-or-did-google-decline-it">Is the page blocked, or did Google decline it?</a></li>
+    <li><a href="#section-what-order-does-an-indexing-diagnosis-follow">What order does an indexing diagnosis follow?</a></li>
+    <li><a href="#section-what-is-different-about-programmatic-sites">What is different about programmatic sites?</a></li>
+    <li><a href="#section-what-does-a-diagnosis-deliver">What does a diagnosis deliver?</a></li>
+    <li><a href="#section-questions-buyers-ask-me">Questions buyers ask me</a></li>
+  </ol>
+</details>
+
+<h2 id="section-why-does-google-leave-pages-out-of-the-index" tabindex="-1">Why does Google leave pages out of the index?</h2>
+<p>Crawling, indexing, and ranking are three separate decisions. Google can crawl a page every week and still refuse to index it, because the index is a library with limited shelf space and Google keeps the pages it judges worth storing. A page earns its slot by being reachable, readable, and different enough from everything else already on the shelf.</p>
+<p>Search engines are literal. A page surfaces for the words actually on it, in the structure it actually has, and Google evaluates the page it fetched and rendered, which may not be the page you see in your browser. When owners say "Google will not index my site," the cause is almost always one of three things: the page is blocked by a rule, the content never made it into what Google received, or Google read the page fine and decided it added nothing over pages it already holds. Each cause has a different fix, which is why the diagnosis comes before any repair.</p>
+
+<h2 id="section-is-the-page-blocked-or-did-google-decline-it" tabindex="-1">Is the page blocked, or did Google decline it?</h2>
+<p>Blocked means a rule on your side stopped Google: a noindex tag, a robots.txt disallow, a login wall, or a server error. Declined means Google fetched the page successfully and chose not to keep it. The Page indexing report separates the two, and the distinction decides everything you do next.</p>
+<p>Blocked pages are configuration problems. They are usually fast to find and fast to fix, and they are common after migrations, redesigns, and staging sites that leak into production with their restrictions still on. Declined pages are judgment problems. Google saw the content and ranked it below the cutoff for storage. No setting fixes that; the page itself, or the company it keeps on your site, has to change. Most struggling sites have both, and fixing the blocked pages first is what makes the declined count readable.</p>
+
+<h2 id="section-what-order-does-an-indexing-diagnosis-follow" tabindex="-1">What order does an indexing diagnosis follow?</h2>
+<p>Work from Google's own records outward to the site itself: coverage first, then the rules that gate crawling, then discovery, then the content judgment. Changing content before you know the gates are open wastes the effort, because Google cannot reward a page it never reaches.</p>
+
+<h3>Step 1: Read the coverage states in Search Console</h3>
+<p>The Page indexing report is Google's own list of decisions, grouped by reason. Start with the counts per reason and the trend for each, then export the example URLs. The two reasons that carry most diagnoses are "Crawled, currently not indexed," where Google fetched and declined, and "Discovered, currently not indexed," where Google knows the URL exists and has not yet spent a crawl on it. The full walkthrough of each reason is in my guide to <a href="../../guides/page-indexing-report/">reading the Page indexing report</a>. Group the examples by directory and template before inspecting any single URL, because indexing problems live in templates, not in individual pages.</p>
+
+<h3>Step 2: Check robots.txt and meta robots</h3>
+<p>A single disallow line can fence off a whole section, and a noindex left over from a redesign can sit on a template for months. Read the robots.txt file itself rather than a plugin summary of it, check the meta robots tag and the X-Robots-Tag header on representative pages, and confirm that CSS and JavaScript files are crawlable, since blocked resources corrupt rendering and make good pages look empty. Google documents the robots rules it honors in its <a href="https://developers.google.com/search/docs/crawling-indexing/robots/intro">robots.txt introduction</a>.</p>
+
+<h3>Step 3: Audit the sitemap</h3>
+<p>A sitemap is a claim about which pages matter. Check that the submitted sitemap returns a 200 status, lists only canonical URLs that return 200 themselves, and contains no redirected, noindexed, or deleted pages. A sitemap full of URLs Google has already declined teaches Google to trust it less. On larger sites, split sitemaps by page type so coverage reporting follows the same split and you can see which template is failing.</p>
+
+<h3>Step 4: Trace internal linking and orphan pages</h3>
+<p>Google discovers and weighs pages largely through links. A page with no internal links is an orphan, and Google treats orphan status as a relevance signal: if the site itself never points at a page, the page rarely matters. Map click depth from the home page, find orphans in the crawl, and check whether important pages are linked with descriptive anchor text or buried behind scripted navigation that renders late. My <a href="../../guides/internal-linking/">guide to internal linking</a> covers the structure in depth.</p>
+
+<h3>Step 5: Judge duplicate and thin content</h3>
+<p>This is where most declined pages are decided. Compare each failing template against the pages Google did index and ask what the declined page adds: distinct facts, distinct inventory, a distinct answer. Pages that repeat a sibling with a city name or a filter value swapped are duplicates in Google's accounting even when every word differs. Near duplicates also fight each other through canonical selection, which I cover in the guide to <a href="../../guides/near-duplicates-and-h1s/">near duplicates and multiple H1s</a>. Thin pages are not always short; a long page can be thin if its length is boilerplate shared with ten thousand others.</p>
+
+<h3>Step 6: Examine the backlink profile</h3>
+<p>Spam links rarely keep a whole site out of the index, but a profile full of purchased or hacked links distorts how Google trusts the domain, and a manual action for unnatural links stops indexing cold. Read the links report in Search Console, sample the referring domains, and separate genuine coverage from link schemes. Where the spam is dense and clearly manipulative, a disavow file is the remedy; where it is ordinary internet noise, Google already ignores it and your time belongs elsewhere. My guide to <a href="../../guides/buying-backlinks/">buying backlinks</a> explains how these profiles form.</p>
+
+<h2 id="section-what-is-different-about-programmatic-sites" tabindex="-1">What is different about programmatic sites?</h2>
+<p>A programmatic site generates pages from a database and a template: one layout, thousands of URLs, with the variables swapped per page. A location page per city, a product page per item in a feed, a comparison page per pair. The model is legitimate and powers many of the most useful pages on the web. It is also the model Google declines most often, because the same machinery that produces ten thousand useful pages produces ten thousand near-identical ones just as easily.</p>
+<p>The failure pattern is consistent. A database has 50,000 rows, so the site ships 50,000 pages, each one swapping a name, a price, and two sentences into the same frame. Google crawls a sample, finds that page 4,000 tells it nothing page 40 did not, and stops. The rest sit in "Discovered, currently not indexed" or land in "Crawled, currently not indexed," and the ratio of indexed to published pages collapses. The site owner experiences this as Google refusing the site. Google experiences it as declining to store copies.</p>
+<p>Google's spam policies name the pattern directly: scaled content abuse is generating many pages primarily to manipulate rankings without adding value for users, and it applies whether the pages are written by people, templates, or AI. The policy is in Google's <a href="https://developers.google.com/search/docs/essentials/spam-policies">spam policies documentation</a>. The policy does not ban programmatic pages. It bans pages whose only reason to exist is the query they target.</p>
+<p>What separates a programmatic page Google keeps from one it declines is unique substance per page. The pages that earn indexing carry data only that page has: real inventory, real prices, local facts, user reviews, computed comparisons, availability. They are also reachable through a sane structure, with category pages that link down to them and enough internal links that crawl attention reaches the tail. And the site publishes at the rate its value supports, which usually means pruning or noindexing the weakest slice of the database so the strong pages stop competing with their own siblings. Pruning feels like losing pages. In practice it is how programmatic sites recover: fewer, better pages, each one visibly different from the next, get indexed at a far higher rate than the full undifferentiated set.</p>
+
+<h2 id="section-what-does-a-diagnosis-deliver" tabindex="-1">What does a diagnosis deliver?</h2>
+<p>A diagnosis ends with causes, evidence, and an order of work: which templates are blocked, which are declined, the mechanism behind each, and the fix sequence ranked by effect. It also says plainly which pages should not be indexed at all. If you want that work done on your site, my <a href="../../services/indexing-audit/">indexing audit</a> is the fixed price version, and <a href="../../services/indexing/">indexing repair</a> covers the implementation side.</p>
+
+<section class="faq">
+<h2 id="section-questions-buyers-ask-me" tabindex="-1">Questions buyers ask me</h2>
+
+<h3>Google indexed my pages and then dropped them. Why?</h3>
+<p>Pages fall out when Google recrawls and rejudges them against a rising bar, when the site around them weakens, or when a template change quietly thins them. A drop concentrated in one page type points at that template. A drop across the whole site points at trust, duplication at scale, or a technical change that shipped near the date the fall began.</p>
+
+<h3>Should I request indexing for every excluded URL?</h3>
+<p>No. Request indexing in Search Console is a nudge for a handful of priority pages after a fix. Submitting hundreds of declined URLs asks Google to rejudge pages that have not changed, and it changes nothing. Fix the template, verify with a live test on two or three examples, and let recrawling do the rest.</p>
+
+<h3>Will a disavow file fix my indexing?</h3>
+<p>Only when links are the actual cause, which is uncommon. A disavow addresses a manual action or a dense, manipulative link scheme. If your pages are declined for thin or duplicate content, a disavow changes nothing, and the weeks spent building one are weeks the real problem goes unfixed.</p>
+
+<h3>How long does recovery take after the fixes ship?</h3>
+<p>Blocked pages usually clear within days of the rule being removed and the page being recrawled. Declined pages take longer, because Google has to recrawl, re-render, and reverse a judgment; expect weeks, and judge progress by template, watching the indexed share of each sitemap rather than the site total.</p>
+
+<h3>Can you guarantee my pages will be indexed?</h3>
+<p>No honest consultant can. Indexing is Google's decision. What I can guarantee is a diagnosis that names the cause with evidence and a fix list that removes every barrier on your side of the fence, which is the part under your control.</p>
+
+<h3>What do you need from me to start an audit?</h3>
+<p>Access to Google Search Console and Bing Webmaster Tools, the site's URL, and any history you have: migrations, redesigns, traffic changes, link purchases. The audit itself is a flat $750 invoiced in advance, described on the <a href="../../services/indexing-audit/">indexing audit</a> page.</p>
+</section>
+<aside class="help-box" aria-label="Get help">
+  <h2>Let me help you with this</h2>
+  <p>If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.</p>
+  <p><a class="button" href="https://calendly.com/chrisabraham/30">Book a 30 minute call</a> <a class="button" href="tel:+12023525051">Call +1 202-352-5051</a> <a class="button" href="mailto:cja@well.com">Email cja@well.com</a></p>
+  <p>Prefer to hire through Upwork? I'm <a href="https://www.upwork.com/freelancers/chrisjabraham">Top Rated there too</a>.</p>
+</aside>
+<h2>Sources</h2>
+<ul class="sources">
+  <li><a href="https://developers.google.com/search/docs/essentials/spam-policies">Google Search Central: Spam policies for Google web search</a></li>
+  <li><a href="https://support.google.com/webmasters/answer/7440203">Search Console Help: Page indexing report</a></li>
+  <li><a href="https://developers.google.com/search/docs/crawling-indexing/robots/intro">Google Search Central: Introduction to robots.txt</a></li>
+  <li><a href="https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview">Google Search Central: What is a sitemap?</a></li>
+</ul>
+<aside class="author-box" aria-label="About the author">
+  <img src="../../christopher-abraham.jpg" width="72" height="72" alt="">
+  <p><strong><a href="../../about/">Christopher Abraham</a></strong> is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. <a href="../../about/editorial-policy/">How these pages are written</a> · <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a> · <a href="https://www.upwork.com/freelancers/chrisjabraham">Upwork</a></p>
+</aside>
+</main>
+<footer class="site-footer">
+  <p><a href="mailto:cja@well.com">cja@well.com</a>&nbsp;· <a href="tel:+12023525051">+1 202-352-5051</a>&nbsp;· <a href="https://calendly.com/chrisabraham/30">Book a call</a>&nbsp;· <a href="https://www.upwork.com/freelancers/chrisjabraham">Hire me on Upwork</a>&nbsp;· <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a>&nbsp;· <a href="https://www.youtube.com/@ChrisAbrahamShow">YouTube</a></p>
+  <p>© 2026 Christopher Abraham, Arlington,&nbsp;Virginia&nbsp;· <a href="../../faq/">FAQ</a>&nbsp;· <a href="../../about/editorial-policy/">How I write</a>&nbsp;· <a href="../../privacy/">Privacy</a>&nbsp;· <a href="../../sitemap/">Site map</a>&nbsp;· <a href="../../site-index/">Index</a>&nbsp;· <a href="../../guides/glossary/">Glossary</a>&nbsp;· <a href="../../about/colophon/">Colophon</a>&nbsp;· <a href="../../llms.txt">llms.txt</a>&nbsp;· <a href="../../rss.xml">RSS</a></p>
+  <p>Unless a page says otherwise, everything I wrote or made here is free to reuse under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Credit me and link&nbsp;back.</p>
+</footer>
+</div>
+</body>
+</html>

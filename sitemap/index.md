@@ -1,6 +1,6 @@
 > Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.
 >
-> Source: https://christopherabraham.com/sitemap/ · Updated 2026-10-31 · By Christopher Abraham
+> Source: https://christopherabraham.com/sitemap/ · Updated 2026-11-02 · By Christopher Abraham
 
 # Site map
 
@@ -31,6 +31,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/): Independent SEO checks before and after a website release: rendering, indexing signals, redirects, media, and evidence your developer can act on.
 - [Website inquiry audits: find where contacts go missing](https://christopherabraham.com/services/inquiry-path-audit/): Find broken contact routes, missing form notifications, and misleading conversion events. Get documented tests, clear repair priorities, and verified retests.
 - [SEO report review](https://christopherabraham.com/services/seo-report-review/): Send me your agency's SEO audit or monthly report. I check its claims against your own Search Console and site data and tell you in writing what holds up.
+- [Indexing audit](https://christopherabraham.com/services/indexing-audit/): A complete indexing audit for a flat $750, invoiced in advance: full crawl, Search Console and Bing diagnosis, backlink review, and a ranked fix list.
 
 ## AI search, schema, and content
 - [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/): Improve how ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google AI Overviews describe and cite your business, with prompt testing, entities, and content.
@@ -111,6 +112,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Google Merchant Center free listings for small shops](https://christopherabraham.com/guides/merchant-center-free-listings/): How a small shop gets its products into Google's free listings: the Merchant Center feed, required attributes, shipping, returns, and the errors to fix first.
 - [Apple Maps and Bing Places: local listings past Google](https://christopherabraham.com/guides/apple-and-bing-listings/): Why a local business should claim its Apple Maps place card and its Bing Places listing, what each one feeds, how to set them up, and keeping them consistent.
 - [The FTC fake review rule for small businesses](https://christopherabraham.com/guides/ftc-review-rule/): The FTC's rule on consumer reviews took effect October 21, 2024. What it bans, what it allows, and how to ask customers for reviews without risk to you.
+- [Why Google will not index your site: a diagnosis guide](https://christopherabraham.com/guides/why-google-wont-index-your-site/): Why Google crawls a page and still leaves it out of the index, how to read the evidence, and the order a working indexing diagnosis follows, step by step.
 - [Search Console comparisons that support better decisions](https://christopherabraham.com/guides/search-console-comparisons/): Compare Search Console periods with consistent filters, matched weekdays, and page groups so seasonal demand and changing query mixes do not distort the result.
 - [SEO and AI search advice your business should refuse now](https://christopherabraham.com/guides/seo-advice-to-refuse/): A field guide for owners: the search tactics to decline, the plausible ones that waste money, and the schemes that end with a site removed from Google.
 - [Nobody Mentions You: The AI Search Problem Owners Miss](https://christopherabraham.com/guides/nobody-mentions-you/): A flawless website stays invisible in AI answers when nobody else on the web mentions the company. Earned mentions, purchased applause, and agency questions.
@@ -153,4 +155,4 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated October 31, 2026
+Updated November 2, 2026
