@@ -1202,7 +1202,9 @@
     "services/podcast-website",
     "services/seo-retainer",
     "services/seo-audit",
-    "guides/xml-sitemaps"
+    "guides/xml-sitemaps",
+    "services/indexing-audit",
+    "guides/why-google-wont-index-your-site"
    ],
    "subs": {
     "AI Performance report": [
@@ -1444,7 +1446,9 @@
     "services/javascript-seo",
     "guides/ai-built-websites",
     "guides/near-duplicates-and-h1s",
-    "guides/custom-extraction"
+    "guides/custom-extraction",
+    "guides/why-google-wont-index-your-site",
+    "services/indexing-audit"
    ],
    "subs": {
     "Google overruling": [
@@ -2088,7 +2092,9 @@
     "services/indexing",
     "guides/page-indexing-report",
     "case-studies/scroll-gated-products",
-    "case-studies/consent-banner"
+    "case-studies/consent-banner",
+    "services/indexing-audit",
+    "guides/why-google-wont-index-your-site"
    ],
    "subs": {},
    "see": [],
@@ -2275,7 +2281,9 @@
    "pages": [
     "guides/redirect-rules",
     "case-studies/clinic-migration",
-    "guides/disavow-links"
+    "guides/disavow-links",
+    "guides/why-google-wont-index-your-site",
+    "services/indexing-audit"
    ],
    "subs": {
     "when to use one": [
@@ -2301,7 +2309,9 @@
    "pages": [
     "services",
     "services/indexing",
-    "guides/page-indexing-report"
+    "guides/page-indexing-report",
+    "services/indexing-audit",
+    "guides/why-google-wont-index-your-site"
    ],
    "subs": {},
    "see": [],
@@ -2371,7 +2381,8 @@
    "pages": [
     "services/sitewide-technical-seo",
     "services/on-page-seo",
-    "services/indexing"
+    "services/indexing",
+    "guides/why-google-wont-index-your-site"
    ],
    "subs": {},
    "see": [],
@@ -3148,7 +3159,9 @@
     "guides/small-business-schema",
     "guides/redirect-rules",
     "guides/disavow-links",
-    "guides/xml-sitemaps"
+    "guides/xml-sitemaps",
+    "services/indexing-audit",
+    "guides/why-google-wont-index-your-site"
    ],
    "subs": {
     "lost access, recovering": [
@@ -3209,7 +3222,8 @@
     "guides/buying-backlinks",
     "guides/update-recovery-2026",
     "guides/ai-content-seo",
-    "guides/disavow-links"
+    "guides/disavow-links",
+    "guides/why-google-wont-index-your-site"
    ],
    "subs": {
     "scaled content abuse": [
@@ -3695,12 +3709,16 @@
    "pages": [
     "home",
     "services",
-    "services/indexing"
+    "services/indexing",
+    "services/indexing-audit",
+    "guides/why-google-wont-index-your-site"
    ],
    "subs": {},
    "see": [],
    "main": [
-    "services/indexing"
+    "services/indexing",
+    "services/indexing-audit",
+    "guides/why-google-wont-index-your-site"
    ]
   },
   "IndexNow": {
@@ -4319,7 +4337,8 @@
    "kind": "topic",
    "pages": [
     "guides/update-recovery-2026",
-    "guides/disavow-links"
+    "guides/disavow-links",
+    "guides/why-google-wont-index-your-site"
    ],
    "subs": {},
    "see": [],
@@ -4549,7 +4568,9 @@
   "meta robots": {
    "kind": "topic",
    "pages": [
-    "guides/meta-keywords"
+    "guides/meta-keywords",
+    "guides/why-google-wont-index-your-site",
+    "services/indexing-audit"
    ],
    "subs": {},
    "see": [],
@@ -4756,7 +4777,8 @@
     "services/sitewide-technical-seo",
     "services/indexing",
     "guides/near-duplicates-and-h1s",
-    "about/skills"
+    "about/skills",
+    "guides/why-google-wont-index-your-site"
    ],
    "subs": {
     "sources of": [
@@ -4873,7 +4895,8 @@
     "services/indexing",
     "services/migrations",
     "services/on-page-seo",
-    "guides/parked-domain-launch"
+    "guides/parked-domain-launch",
+    "guides/why-google-wont-index-your-site"
    ],
    "subs": {
     "not for canonical selection": [
@@ -5029,7 +5052,9 @@
     "guides/glossary",
     "case-studies/event-app-links",
     "services/internal-linking",
-    "guides/internal-linking"
+    "guides/internal-linking",
+    "guides/why-google-wont-index-your-site",
+    "services/indexing-audit"
    ],
    "subs": {},
    "see": [],
@@ -5105,7 +5130,9 @@
     "services/search-console",
     "guides",
     "guides/page-indexing-report",
-    "guides/xml-sitemaps"
+    "guides/xml-sitemaps",
+    "services/indexing-audit",
+    "guides/why-google-wont-index-your-site"
    ],
    "subs": {
     "Page with redirect": [
@@ -5543,12 +5570,15 @@
   "programmatic SEO": {
    "kind": "topic",
    "pages": [
-    "case-studies/card-price-index"
+    "case-studies/card-price-index",
+    "guides/why-google-wont-index-your-site",
+    "services/indexing-audit"
    ],
    "subs": {},
    "see": [],
    "main": [
-    "case-studies/card-price-index"
+    "case-studies/card-price-index",
+    "guides/why-google-wont-index-your-site"
    ]
   },
   "prompt sets": {
@@ -5958,7 +5988,9 @@
     "services/seo-audit",
     "services/ecommerce-seo",
     "guides/llms-txt",
-    "guides/xml-sitemaps"
+    "guides/xml-sitemaps",
+    "services/indexing-audit",
+    "guides/why-google-wont-index-your-site"
    ],
    "subs": {},
    "see": [],
@@ -6057,7 +6089,8 @@
    "pages": [
     "guides/update-recovery-2026",
     "guides/ai-content-seo",
-    "guides/glossary"
+    "guides/glossary",
+    "guides/why-google-wont-index-your-site"
    ],
    "subs": {},
    "see": [],
@@ -6124,7 +6157,8 @@
     "guides/near-duplicates-and-h1s",
     "guides/custom-extraction",
     "about/skills",
-    "guides/xml-sitemaps"
+    "guides/xml-sitemaps",
+    "services/indexing-audit"
    ],
    "subs": {
     "custom extraction": [
@@ -6807,7 +6841,9 @@
    "kind": "topic",
    "pages": [
     "case-studies/scroll-gated-products",
-    "guides/disavow-links"
+    "guides/disavow-links",
+    "guides/why-google-wont-index-your-site",
+    "services/indexing-audit"
    ],
    "subs": {
     "spikes": [
@@ -8047,7 +8083,9 @@
     "guides/page-indexing-report",
     "guides/ai-search-checklist",
     "guides/redirect-rules",
-    "guides/xml-sitemaps"
+    "guides/xml-sitemaps",
+    "services/indexing-audit",
+    "guides/why-google-wont-index-your-site"
    ],
    "subs": {
     "split by page type": [
@@ -8374,6 +8412,68 @@
     "ffmpeg"
    ],
    "main": []
+  }  ,
+  "indexing audits": {
+   "kind": "topic",
+   "pages": [
+    "services/indexing-audit",
+    "guides/why-google-wont-index-your-site"
+   ],
+   "subs": {
+    "what the audit covers": [
+     "services/indexing-audit"
+    ],
+    "blocked versus declined pages": [
+     "services/indexing-audit",
+     "guides/why-google-wont-index-your-site"
+    ],
+    "the fix list": [
+     "services/indexing-audit"
+    ]
+   },
+   "see": [
+    "indexing"
+   ],
+   "main": [
+    "services/indexing-audit"
+   ]
+  },
+  "indexing diagnosis": {
+   "kind": "topic",
+   "pages": [
+    "guides/why-google-wont-index-your-site",
+    "services/indexing-audit"
+   ],
+   "subs": {
+    "coverage states first": [
+     "guides/why-google-wont-index-your-site"
+    ],
+    "programmatic sites": [
+     "guides/why-google-wont-index-your-site"
+    ],
+    "pruning weak pages": [
+     "guides/why-google-wont-index-your-site"
+    ]
+   },
+   "see": [
+    "indexing audits"
+   ],
+   "main": [
+    "guides/why-google-wont-index-your-site"
+   ]
+  },
+  "URL Inspection": {
+   "kind": "tool",
+   "pages": [
+    "services/indexing-audit"
+   ],
+   "subs": {},
+   "see": [
+    "Google Search Console"
+   ],
+   "main": [
+    "services/indexing-audit"
+   ]
   }
  },
  "reviewed": [
@@ -8500,6 +8600,8 @@
   "guides/ai-mode-bookings",
   "services/ai-shopping-readiness",
   "guides/give-seo-access",
-  "guides/shrink-video-for-transcription"
+  "guides/shrink-video-for-transcription",
+  "services/indexing-audit",
+  "guides/why-google-wont-index-your-site"
  ]
 }
