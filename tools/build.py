@@ -115,6 +115,10 @@ SERVICE_GROUPS[2][1].insert(SERVICE_GROUPS[2][1].index("services/local-competito
 FILES += ["services/website-archive-recovery"]
 SERVICE_GROUPS[0][1].insert(SERVICE_GROUPS[0][1].index("services/migrations/") + 1, "services/website-archive-recovery/")
 
+# Additional service and guide, November 2, 2026.
+FILES += ["services/indexing-audit", "guides/why-google-wont-index-your-site"]
+SERVICE_GROUPS[0][1].append("services/indexing-audit/")
+
 MIN_WORDS = {"guide": 700, "service": 450, "case": 250, "page": 250}
 TODAY = datetime.date.today().isoformat()
 os.chdir(os.path.join(os.path.dirname(__file__), ".."))
