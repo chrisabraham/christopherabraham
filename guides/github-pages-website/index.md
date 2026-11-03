@@ -2,7 +2,7 @@
 >
 > Source: https://christopherabraham.com/guides/github-pages-website/ · Updated 2026-11-03 · By Christopher Abraham
 
-# How to build a website on GitHub Pages and Cloudflare
+# Own Your Website Outright and Never Pay Platform Rent
 
 By [Christopher Abraham](https://christopherabraham.com/about/) · Published November 3, 2026
 
