@@ -1,6 +1,6 @@
 > A back of the book index to christopherabraham.com: every person, tool, platform, and SEO problem the pages cover, listed A to Z with links to each page.
 >
-> Source: https://christopherabraham.com/site-index/ · Updated 2026-11-02 · By Christopher Abraham
+> Source: https://christopherabraham.com/site-index/ · Updated 2026-11-03 · By Christopher Abraham
 
 # Index
 
@@ -1315,4 +1315,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated November 2, 2026
+Updated November 3, 2026

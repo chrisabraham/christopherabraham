@@ -22,7 +22,7 @@ Bad websites were missing from that list; the websites were mostly fine. The pro
 
 Owners tell me they want nothing to do with AI. I understand the sentiment. The AI writes about them anyway. The answer about their business exists today, in production, in front of their customers, whether or not anyone at the business has ever read it. Being summarized has become a condition of being findable at all.
 
-The only choice on the table is whether the summary is accurate—whether it names you, describes what you actually do, and cites your pages as the source. That is a choice you make by tending the record, or one that gets made for you by whoever's record is tidier.
+The only choice on the table is whether the summary is accurate—whether it names you, describes what you actually do, and cites your pages as the source. That is a choice you make by tending the record, or one that gets made for you by whoever's record is tidier. On my own record, [the first name back from ChatGPT](https://chrisabraham.net/2026/11/the-first-name-back.html) was mine, after a practitioner asked who could fix a site Google would not index.
 
 ## Claim it, then measure it
 
