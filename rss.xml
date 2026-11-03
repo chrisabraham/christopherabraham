@@ -5,8 +5,101 @@
   <link>https://christopherabraham.com/guides/</link>
   <description>Guides to indexing, audits, schema, redirects, site speed, and AI search</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 02 Nov 2026 12:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 03 Nov 2026 12:00:00 +0000</lastBuildDate>
   <atom:link href="https://christopherabraham.com/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>How to build a website on GitHub Pages and Cloudflare</title>
+    <link>https://christopherabraham.com/guides/github-pages-website/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/github-pages-website/</guid>
+    <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
+    <description>A step by step build: a Cloudflare domain at wholesale, a free GitHub Pages site, DNS records pasted in, and an AI doing the typing. About $10 a year.</description>
+    <content:encoded>&lt;h1&gt;How to build a website on GitHub Pages and Cloudflare&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-11-03"&gt;November 3, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;A complete small-business website can run on GitHub Pages with a domain bought at wholesale from Cloudflare Registrar: hosting $0, domain about $10 to $15 a year, and an AI chat doing the typing. The build takes an afternoon and needs no software installed.&lt;/p&gt;
+
+&lt;p&gt;Most small-business websites are rented. A builder platform charges $200 to $480 a year, holds the site inside its own system, and deletes the site when payments stop. An alternative exists and it is not a compromise: a folder of plain files, hosted free by GitHub Pages, on a domain bought at wholesale, maintained by pasting text into a browser with an AI doing the typing. Five sites under my name run exactly this way, including this one. The steps below are the full build, in order.&lt;/p&gt;
+
+&lt;h2&gt;Why buy the domain from Cloudflare Registrar?&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.cloudflare.com/products/registrar/"&gt;Cloudflare Registrar&lt;/a&gt; sells domains at the wholesale price charged by the registry. No markup is added, the teaser-year pattern (cheap first year, tripled renewal) is absent, and WHOIS privacy is included rather than sold as an add-on. A .com renewal runs about $10 to $15 a year at recent registry prices. Two settings matter on day one: auto-renew switched on, and two-factor authentication on the account. An expired domain remains the most common cause of death for small websites.&lt;/p&gt;
+
+&lt;h2&gt;What is a repository, in plain terms?&lt;/h2&gt;
+&lt;p&gt;A repository is a folder with a memory. It stores the site's files: pages, images, and a settings file or two. Every saved change becomes a commit, a dated snapshot with a note attached. Any earlier snapshot can be restored, so no edit is permanent unless it is kept. The only vocabulary the build requires is folder, files, and commits. GitHub describes &lt;a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages"&gt;GitHub Pages&lt;/a&gt; as a service that takes HTML, CSS, and JavaScript files directly from a repository and publishes them as a website. Files in, website out.&lt;/p&gt;
+
+&lt;h2&gt;How does GitHub Pages get switched on?&lt;/h2&gt;
+&lt;p&gt;Create a free &lt;a href="https://github.com/pricing"&gt;GitHub&lt;/a&gt; account, create a repository, and open Settings, then Pages, then choose the main branch as the publishing source. GitHub's &lt;a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site"&gt;guide to creating a Pages site&lt;/a&gt; documents the same steps. The site answers within minutes at a free address in the form &lt;code&gt;username.github.io/repository&lt;/code&gt;. The &lt;a href="https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits"&gt;published limits&lt;/a&gt; for the free service (sites up to 1 GB, generous monthly bandwidth) sit far above anything a brochure site, consultancy site, or weblog approaches.&lt;/p&gt;
+
+&lt;h2&gt;Which DNS records connect the domain?&lt;/h2&gt;
+&lt;p&gt;The domain points at GitHub through DNS records, and Cloudflare's DNS is included free with the domain. GitHub documents the records in its guide to &lt;a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site"&gt;managing a custom domain&lt;/a&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;In the repository's Pages settings, enter the custom domain. GitHub adds a small &lt;code&gt;CNAME&lt;/code&gt; file to the repository; leave that file untouched afterward.&lt;/li&gt;
+&lt;li&gt;In Cloudflare's DNS panel for the domain, add a &lt;strong&gt;CNAME&lt;/strong&gt; record: name &lt;code&gt;www&lt;/code&gt;, target &lt;code&gt;username.github.io&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;For the bare domain, add four &lt;strong&gt;A&lt;/strong&gt; records: &lt;code&gt;185.199.108.153&lt;/code&gt;, &lt;code&gt;185.199.109.153&lt;/code&gt;, &lt;code&gt;185.199.110.153&lt;/code&gt;, &lt;code&gt;185.199.111.153&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Set those records to DNS only (the grey cloud) until GitHub verifies the domain.&lt;/li&gt;
+&lt;li&gt;In the Pages settings, enable &lt;strong&gt;Enforce HTTPS&lt;/strong&gt;. GitHub issues the certificate free and renews it automatically.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Propagation usually completes in minutes and occasionally takes a few hours. After verification, the records rarely need attention again. Cloudflare's &lt;a href="https://developers.cloudflare.com/dns/manage-dns-records/"&gt;DNS documentation&lt;/a&gt; explains each record type for anyone who wants the background.&lt;/p&gt;
+
+&lt;h2&gt;What does the first page consist of?&lt;/h2&gt;
+&lt;p&gt;One file named &lt;code&gt;index.html&lt;/code&gt; in the repository is a complete website. The file can be written by an AI chat: supply the business name, city, phone number, services, and the instruction to use only those facts, and ask for a single self-contained HTML page back. Paste the result into GitHub's web editor (Add file, then Create new file), add a commit note, and save. The page is live at the domain within about a minute.&lt;/p&gt;
+
+&lt;h2&gt;How does publishing work after day one?&lt;/h2&gt;
+&lt;p&gt;The daily method is a four-step loop, and none of it requires local tools:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Draft words anywhere.&lt;/strong&gt; Notes, dictation, a customer question answered in full.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paste the words into the AI chat&lt;/strong&gt; and request the finished page or section back, with facts supplied and invented facts forbidden.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paste the returned file into GitHub's web editor&lt;/strong&gt; and commit it with a plain note.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reload the page.&lt;/strong&gt; The change is live; the commit history keeps the prior version for instant rollback.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Images follow the same loop. The AI generates or processes the image, the file is uploaded to the repository through the same Add file menu, and the page references the file by name. Keeping images under a few hundred kilobytes keeps the site fast at no cost.&lt;/p&gt;
+
+&lt;h2&gt;What does this stack actually cost per year?&lt;/h2&gt;
+&lt;p&gt;The domain renewal, about $10 to $15. GitHub Pages hosting is $0. Cloudflare DNS is $0. The HTTPS certificate is $0 and self-renewing. A paid AI subscription, if one is used, buys content production rather than hosting. By contrast, Wix and Squarespace plans run roughly $17 to $40 a month after introductory pricing, and managed WordPress hosting lands in a similar band before plugin and maintenance time is counted. The structural difference matters more than the arithmetic: the files are plain HTML in an account the owner controls, portable to any host, so the site is an owned asset rather than a subscription.&lt;/p&gt;
+
+&lt;h2&gt;What are the honest limits?&lt;/h2&gt;
+&lt;p&gt;GitHub Pages serves static sites only. It has no built-in store or checkout, no form handling, and no per-visitor logic such as logins or dashboards. Selling works through a hosted payment link or checkout from Stripe or PayPal, or through a separate store platform. Forms work through a helper service (Formspree, Basin, and similar) that forwards submissions by email. Anything dynamic is a different project class, with a developer and server hosting. Two companion guides go deeper on adjacent problems: the &lt;a href="https://christopherabraham.com/guides/ai-built-websites/"&gt;AI-built websites guide&lt;/a&gt; lists the checks to run on builder-generated sites, and the &lt;a href="https://christopherabraham.com/guides/seo-in-your-repository/"&gt;SEO in your repository&lt;/a&gt; guide explains why the code itself belongs under the owner's account.&lt;/p&gt;
+
+&lt;h2&gt;When does hiring help still make sense?&lt;/h2&gt;
+&lt;p&gt;A technical partner earns the fee at the seams: registering and configuring the domain and DNS correctly the first time, designing the page structure, keeping the repository tidy, and handling the changes an owner finds fiddly. The sensible division of labor leaves selling, client relationships, and business judgment with the owner, and the plumbing with the partner. Because the underlying stack costs almost nothing and belongs entirely to the owner, the partnership price buys labor and judgment rather than platform rent.&lt;/p&gt;
+
+&lt;section class="faq"&gt;
+&lt;h2&gt;Questions buyers ask me&lt;/h2&gt;
+
+&lt;h3&gt;Is GitHub Pages really free for a business website?&lt;/h3&gt;
+&lt;p&gt;Yes. GitHub's free tier includes GitHub Pages hosting for a site in a public repository, subject to the published size and bandwidth limits. The only recurring charge in this build is the domain renewal at Cloudflare.&lt;/p&gt;
+
+&lt;h3&gt;Does a site built this way rank in Google and appear in AI answers?&lt;/h3&gt;
+&lt;p&gt;Yes, provided each page carries real text in finished HTML at its own URL, which a static site does by construction. Search engines and AI crawlers read the same files a browser receives. Ranking depends on the content itself: specific facts, original answers, and pages that each address one question completely.&lt;/p&gt;
+
+&lt;h3&gt;What happens if GitHub Pages shuts down or an account is lost?&lt;/h3&gt;
+&lt;p&gt;The repository is a folder of plain files. A downloaded copy can be uploaded to any static host (Cloudflare Pages, Netlify, an ordinary web server) and the domain repointed by editing the same DNS records. Nothing in the build is locked to GitHub's platform beyond the free hosting itself.&lt;/p&gt;
+
+&lt;h3&gt;Can this stack run an online store?&lt;/h3&gt;
+&lt;p&gt;Not by itself. The standard pattern is a static site for the business and a hosted checkout or store platform for transactions, linked from the product pages. Businesses whose store is the entire operation usually belong on a dedicated commerce platform from the start.&lt;/p&gt;
+
+&lt;h3&gt;Who owns the site if a consultant builds it?&lt;/h3&gt;
+&lt;p&gt;The owner should, provided the domain sits in the owner's Cloudflare account and the repository sits in the owner's GitHub account. Grant the consultant access to those accounts rather than letting the site live in the consultant's accounts. Ownership of the two accounts is ownership of the site.&lt;/p&gt;
+&lt;/section&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages"&gt;GitHub Docs: What is GitHub Pages?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site"&gt;GitHub Docs: Creating a GitHub Pages site&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site"&gt;GitHub Docs: Managing a custom domain for your GitHub Pages site&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits"&gt;GitHub Docs: GitHub Pages limits&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cloudflare.com/products/registrar/"&gt;Cloudflare Registrar&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developers.cloudflare.com/dns/manage-dns-records/"&gt;Cloudflare Docs: Manage DNS records&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/pricing"&gt;GitHub Pricing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content:encoded>
+  </item>
   <item>
     <title>Why Google will not index your site: a diagnosis guide</title>
     <link>https://christopherabraham.com/guides/why-google-wont-index-your-site/</link>
