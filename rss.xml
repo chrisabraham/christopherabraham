@@ -8,12 +8,12 @@
   <lastBuildDate>Tue, 03 Nov 2026 12:00:00 +0000</lastBuildDate>
   <atom:link href="https://christopherabraham.com/rss.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>How to build a website on GitHub Pages and Cloudflare</title>
+    <title>Own Your Website Outright and Never Pay Platform Rent</title>
     <link>https://christopherabraham.com/guides/github-pages-website/</link>
     <guid isPermaLink="true">https://christopherabraham.com/guides/github-pages-website/</guid>
     <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
     <description>A step by step build: a Cloudflare domain at wholesale, a free GitHub Pages site, DNS records pasted in, and an AI doing the typing. About $10 a year.</description>
-    <content:encoded>&lt;h1&gt;How to build a website on GitHub Pages and Cloudflare&lt;/h1&gt;
+    <content:encoded>&lt;h1&gt;Own Your Website Outright and Never Pay Platform Rent&lt;/h1&gt;
 &lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-11-03"&gt;November 3, 2026&lt;/time&gt;&lt;/p&gt;
 &lt;p class="lead"&gt;A complete small-business website can run on GitHub Pages with a domain bought at wholesale from Cloudflare Registrar: hosting $0, domain about $10 to $15 a year, and an AI chat doing the typing. The build takes an afternoon and needs no software installed.&lt;/p&gt;
 
