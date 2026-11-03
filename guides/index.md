@@ -1,6 +1,6 @@
 > Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
 >
-> Source: https://christopherabraham.com/guides/ · Updated 2026-11-02 · By Christopher Abraham
+> Source: https://christopherabraham.com/guides/ · Updated 2026-11-03 · By Christopher Abraham
 
 # SEO guides
 
@@ -76,6 +76,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 
 ## Domains, DNS, and files for machines
 - [Launch a site on a parked domain](https://christopherabraham.com/guides/parked-domain-launch/): Cloudflare DNS, GitHub Pages, HTTPS, and the caching trap.
+- [How to build a website on GitHub Pages and Cloudflare](https://christopherabraham.com/guides/github-pages-website/): a domain at wholesale, free hosting, the DNS records, and an AI doing the typing for about $10 a year.
 - [Lock down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/): null MX, SPF, DMARC, and an empty DKIM key.
 - [What happens to your old domains when they lapse](https://christopherabraham.com/guides/lapsed-domains/): drop catchers, redirects to strangers, and how to protect yourself.
 - [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/): the format, Markdown copies, llms-full.txt, and robots rules.
@@ -98,4 +99,4 @@ New and updated guides appear in the [full-text RSS feed](https://christopherabr
 
 If you've worked through a guide and the problem is still there, that's usually the point where a second set of eyes on the actual site helps. Every engagement begins with a scoped audit; see the [services](https://christopherabraham.com/services/) or [get in touch](https://christopherabraham.com/contact/).
 
-Updated November 2, 2026
+Updated November 3, 2026
