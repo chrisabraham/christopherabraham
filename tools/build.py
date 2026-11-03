@@ -188,6 +188,8 @@ FILES += ["guides/give-seo-access"]
 # The products page: fixed scope reports with published prices, October 29, 2026, on Chris' ruling via Eunice.
 FILES += ["products"]
 FILES += ["guides/shrink-video-for-transcription"]
+# A guide to building a website on GitHub Pages with a Cloudflare domain, November 3, 2026, promised to a client on a call and published the same day.
+FILES += ["guides/github-pages-website"]
 _g = next(g for g in SERVICE_GROUPS if "services/ecommerce-seo/" in g[1])[1]
 _g.insert(_g.index("services/ecommerce-seo/") + 1, "services/ai-shopping-readiness/")
 
