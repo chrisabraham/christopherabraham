@@ -121,6 +121,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [When Google's AI does the booking, be bookable](https://christopherabraham.com/guides/ai-mode-bookings/): Google's AI Mode now books restaurant tables in nine countries and is testing tickets and local appointments. How a local business becomes one it can book.
 - [Give your SEO access without handing over your passwords](https://christopherabraham.com/guides/give-seo-access/): Search Console, GA4, Business Profile, WordPress, and Shopify all let you invite an SEO by name. Which role to pick for each, and how to take access back.
 - [How to shrink a huge video to the smallest audio file that still transcribes](https://christopherabraham.com/guides/shrink-video-for-transcription/): One ffmpeg command turns a gigabyte screen recording into a tiny speech file any transcriber accepts, with bitrate math, upload caps, trims, and batch runs.
+- [How to build a website on GitHub Pages and Cloudflare](https://christopherabraham.com/guides/github-pages-website/): A step by step build: a Cloudflare domain at wholesale, a free GitHub Pages site, DNS records pasted in, and an AI doing the typing. About $10 a year.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
