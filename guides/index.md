@@ -76,7 +76,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 
 ## Domains, DNS, and files for machines
 - [Launch a site on a parked domain](https://christopherabraham.com/guides/parked-domain-launch/): Cloudflare DNS, GitHub Pages, HTTPS, and the caching trap.
-- [How to build a website on GitHub Pages and Cloudflare](https://christopherabraham.com/guides/github-pages-website/): a domain at wholesale, free hosting, the DNS records, and an AI doing the typing for about $10 a year.
+- [Own Your Website Outright and Never Pay Platform Rent](https://christopherabraham.com/guides/github-pages-website/): a domain at wholesale, free hosting, the DNS records, and an AI doing the typing for about $10 a year.
 - [Lock down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/): null MX, SPF, DMARC, and an empty DKIM key.
 - [What happens to your old domains when they lapse](https://christopherabraham.com/guides/lapsed-domains/): drop catchers, redirects to strangers, and how to protect yourself.
 - [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/): the format, Markdown copies, llms-full.txt, and robots rules.
