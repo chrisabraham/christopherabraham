@@ -22,7 +22,7 @@ Receipts come in three kinds, ranked by how hard they are to forge. The first ki
 
 ## The audit I run on myself
 
-Once a quarter I ask the engines who I am, then I click every citation and count the hands. One hand is mine. Several hands belong to outlets that printed my submissions. The hands that matter belong to people with no obligation to me who attached their names to my work anyway. Then I run the subtraction test: strip away every page I wrote or control and see what remains standing. What remains is the reputation strangers will defend in a room I never enter. Any owner can run this audit in an afternoon. The arithmetic is brutal and clarifying, and it converts a vague anxiety about credibility into a number with a direction.
+Once a quarter I ask the engines who I am, then I click every citation and count the hands. One hand is mine. Several hands belong to outlets that printed my submissions. The hands that matter belong to people with no obligation to me who attached their names to my work anyway. Then I run the subtraction test: strip away every page I wrote or control and see what remains standing. What remains is the reputation strangers will defend in a room I never enter. Any owner can run this audit in an afternoon. The checklist I use for it lives in [my online perception management field guide](https://chrisabraham.net/wiki/online-perception-management-field-guide.html). The arithmetic is brutal and clarifying, and it converts a vague anxiety about credibility into a number with a direction.
 
 ## The working instruction
 
