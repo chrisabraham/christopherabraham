@@ -149,7 +149,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Colophon](https://christopherabraham.com/about/colophon/): How christopherabraham.com is made: handwritten HTML, a small Python generator with strict checks, GitHub Pages, Cloudflare, accessible colors, Lynx testing.
 - [The Machine Answers First Now](https://christopherabraham.com/the-machine-answers-first/): Google's AI answers now sit atop most commercial searches Semrush tracks. A field note on what the machine says about a business and making it name you.
 - [Products: fixed scope, fixed price, no proposal required](https://christopherabraham.com/products/): Eight fixed scope products with the price printed: AI answer reports, search and traffic readouts, a technical snapshot, local visibility, and reinstatement.
-- [What Upwork clients wrote about my SEO work](https://christopherabraham.com/about/reviews/): What Upwork clients wrote after schema, audit, local SEO, Search Console, and migration projects, quoted word for word from my public Upwork history.
+- [What clients and colleagues say about my work](https://christopherabraham.com/about/reviews/): Upwork client reviews of my schema, audit, local, and migration work, plus recommendations from colleagues, clients, and students, quoted as written.
 
 ## Files for machines
 - [sitemap.xml](https://christopherabraham.com/sitemap.xml): the XML sitemap for search engines.

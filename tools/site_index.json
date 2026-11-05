@@ -1210,10 +1210,28 @@
    "see": [],
    "main": []
   },
+  "Bayley, Christian": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "BBC World Service": {
    "kind": "topic",
    "pages": [
     "about/off-the-clock"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "Bell, Gloria": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
    ],
    "subs": {},
    "see": [],
@@ -1224,6 +1242,15 @@
    "pages": [
     "about",
     "about/off-the-clock"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "Bernstein, Michael": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
    ],
    "subs": {},
    "see": [],
@@ -1323,7 +1350,8 @@
   "Biznology": {
    "kind": "topic",
    "pages": [
-    "about"
+    "about",
+    "about/reviews"
    ],
    "subs": {},
    "see": [],
@@ -2177,6 +2205,15 @@
     "guides/core-web-vitals"
    ]
   },
+  "Corradini, Andrew": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "corrections, public": {
    "kind": "topic",
    "pages": [
@@ -2259,11 +2296,29 @@
    "see": [],
    "main": []
   },
+  "Crow, Michael": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "Crunchbase": {
    "kind": "topic",
    "pages": [
     "guides/ai-search-checklist",
     "guides/correct-ai-answers"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "Curry, Bryan": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
    ],
    "subs": {},
    "see": [],
@@ -2684,6 +2739,15 @@
    "see": [],
    "main": []
   },
+  "Ellington, Cris": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "email authentication": {
    "kind": "topic",
    "pages": [
@@ -2694,6 +2758,15 @@
    "main": [
     "guides/non-sending-domain"
    ]
+  },
+  "Emmer, Matthew": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
   },
   "endorsements, Upwork": {
    "kind": "topic",
@@ -2933,6 +3006,15 @@
     "guides/merchant-center-free-listings"
    ]
   },
+  "Freeman, Sunil": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "Freemasonry": {
    "kind": "topic",
    "pages": [],
@@ -3012,6 +3094,24 @@
     "services/search-console",
     "guides/ga4-pagespeed"
    ]
+  },
+  "Gans, Jennifer": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "Garman, Betsy": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
   },
   "GBP performance reports": {
    "kind": "topic",
@@ -3217,6 +3317,15 @@
    "main": [
     "guides/glossary"
    ]
+  },
+  "Godwin, Mike": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
   },
   "Goethe-Institut": {
    "kind": "topic",
@@ -3950,6 +4059,15 @@
    "see": [],
    "main": []
   },
+  "Iauco, Nick": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "image CDNs": {
    "kind": "topic",
    "pages": [
@@ -4254,6 +4372,15 @@
    "see": [],
    "main": []
   },
+  "Kennedy, Steven": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "Kent, Alan (Google Search Relations)": {
    "kind": "person",
    "pages": [
@@ -4304,6 +4431,15 @@
    "kind": "topic",
    "pages": [
     "guides/screaming-frog-licence"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "Krayev, Sergey": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
    ],
    "subs": {},
    "see": [],
@@ -4368,6 +4504,15 @@
    "see": [],
    "main": []
   },
+  "Levine, Dae": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "Lighthouse": {
    "kind": "topic",
    "pages": [
@@ -4381,6 +4526,15 @@
      "guides/accessibility-seo-dividends"
     ]
    },
+   "see": [],
+   "main": []
+  },
+  "Linderholm, Owen": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
    "see": [],
    "main": []
   },
@@ -5006,6 +5160,15 @@
    "see": [],
    "main": []
   },
+  "Moran Cosenza, Eileen": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "Movable Type": {
    "kind": "topic",
    "pages": [
@@ -5159,7 +5322,8 @@
   "New Media Strategies": {
    "kind": "topic",
    "pages": [
-    "about"
+    "about",
+    "about/reviews"
    ],
    "subs": {},
    "see": [],
@@ -6115,6 +6279,17 @@
     "case-studies/event-app-links"
    ]
   },
+  "recommendations, LinkedIn": {
+   "kind": "topic",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "about/reviews"
+   ]
+  },
   "Reddit": {
    "kind": "topic",
    "pages": [
@@ -6250,6 +6425,15 @@
    "pages": [
     "services/search-console",
     "services/indexing"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "reputation management": {
+   "kind": "topic",
+   "pages": [
+    "about/reviews"
    ],
    "subs": {},
    "see": [],
@@ -7582,6 +7766,15 @@
    "see": [],
    "main": []
   },
+  "Suber, Peter": {
+   "kind": "person",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "success-rate claims": {
    "kind": "topic",
    "pages": [
@@ -7649,7 +7842,8 @@
    "kind": "topic",
    "pages": [
     "services/seo-coaching",
-    "about/skills"
+    "about/skills",
+    "about/reviews"
    ],
    "subs": {},
    "see": [],
