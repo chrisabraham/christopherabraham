@@ -190,6 +190,11 @@ FILES += ["products"]
 FILES += ["guides/shrink-video-for-transcription"]
 # A guide to building a website on GitHub Pages with a Cloudflare domain, November 3, 2026, promised to a client on a call and published the same day.
 FILES += ["guides/github-pages-website"]
+# Skills and offerings pass, November 5, 2026: Upwork reviews, coaching, and hosted-builder SEO.
+FILES += ["about/reviews", "services/seo-coaching", "services/website-builder-seo"]
+_g = next(g for g in SERVICE_GROUPS if "services/seo-retainer/" in g[1])[1]
+_g.insert(_g.index("services/wordpress-seo/") + 1, "services/website-builder-seo/")
+_g.insert(_g.index("services/seo-retainer/"), "services/seo-coaching/")
 _g = next(g for g in SERVICE_GROUPS if "services/ecommerce-seo/" in g[1])[1]
 _g.insert(_g.index("services/ecommerce-seo/") + 1, "services/ai-shopping-readiness/")
 

@@ -1,6 +1,6 @@
 > Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.
 >
-> Source: https://christopherabraham.com/sitemap/ · Updated 2026-11-03 · By Christopher Abraham
+> Source: https://christopherabraham.com/sitemap/ · Updated 2026-11-05 · By Christopher Abraham
 
 # Site map
 
@@ -42,6 +42,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 
 ## Platforms, local, and ongoing work
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): WordPress SEO done carefully: Yoast and Rank Math settings, theme and plugin conflicts, page builder bloat, caching, and old installs that need a steady hand.
+- [SEO for sites on Squarespace, Wix, Webflow, and HubSpot](https://christopherabraham.com/services/website-builder-seo/): Technical and on-page SEO inside hosted builders: settings, redirects, schema, speed, and moves between Squarespace, Wix, Webflow, HubSpot, and Shopify.
 - [Static websites built for search](https://christopherabraham.com/services/static-sites/): Static websites on GitHub Pages and Cloudflare, built with OpenAI Codex and Claude Code. Every build checks SEO, links, and copy before the site publishes.
 - [Podcast website SEO](https://christopherabraham.com/services/podcast-website/): I turn a podcast feed into a fast website on your own domain, with a page per episode, transcripts, schema, share cards, and new episodes added each morning.
 - [Launch websites for a book, an album, or a new service](https://christopherabraham.com/services/launch-site/): A fast, findable website for a book, album, film, or new service, on a domain you own, with search basics, share cards, and AI-readable pages from day one.
@@ -51,6 +52,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Google Business Profile verification help](https://christopherabraham.com/services/gbp-verification/): Help for Business Profiles that won't verify: failed video checks, listings nobody can edit, missing owners, and service-area setups Google keeps questioning.
 - [Local competitor recon](https://christopherabraham.com/services/local-competitor-recon/): A structured pull of the Google listings you compete with: categories, ratings, reviews, addresses, hours, and websites, set beside your own profile.
 - [Peak season readiness](https://christopherabraham.com/services/peak-season-readiness/): For businesses that earn most of the year in a few weeks: listings, location pages, AI answers, and tracking made ready well before the rush starts.
+- [SEO coaching and consultations](https://christopherabraham.com/services/seo-coaching/): One-to-one SEO coaching, strategy calls, and second opinions on video, inside your own Search Console and website, with a written follow-up after every session.
 - [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): A monthly SEO retainer with a senior consultant: monitoring, hands on fixes, developer QA, AI search checks, and a plain-English report every month.
 
 ## Guides
@@ -147,6 +149,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Colophon](https://christopherabraham.com/about/colophon/): How christopherabraham.com is made: handwritten HTML, a small Python generator with strict checks, GitHub Pages, Cloudflare, accessible colors, Lynx testing.
 - [The Machine Answers First Now](https://christopherabraham.com/the-machine-answers-first/): Google's AI answers now sit atop most commercial searches Semrush tracks. A field note on what the machine says about a business and making it name you.
 - [Products: fixed scope, fixed price, no proposal required](https://christopherabraham.com/products/): Eight fixed scope products with the price printed: AI answer reports, search and traffic readouts, a technical snapshot, local visibility, and reinstatement.
+- [What Upwork clients wrote about my SEO work](https://christopherabraham.com/about/reviews/): What Upwork clients wrote after schema, audit, local SEO, Search Console, and migration projects, quoted word for word, with the lower ratings left in view.
 
 ## Files for machines
 - [sitemap.xml](https://christopherabraham.com/sitemap.xml): the XML sitemap for search engines.
@@ -156,4 +159,4 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated November 3, 2026
+Updated November 5, 2026

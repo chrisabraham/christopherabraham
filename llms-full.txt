@@ -1,7 +1,7 @@
 # Christopher Abraham: full text of christopherabraham.com
 
 > Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.
-> Built 2026-11-03. Quote freely with attribution and a link to the source page.
+> Built 2026-11-05. Quote freely with attribution and a link to the source page.
 
 
 ---
@@ -38,12 +38,12 @@ The complete list, including [schema markup](https://christopherabraham.com/serv
 
 ## My Upwork record
 
-Most clients find me as [Christopher A. on Upwork](https://www.upwork.com/freelancers/chrisjabraham), where every job, hour, and rating is on the record. Figures as of October 2026:
+Most clients find me as [Christopher A. on Upwork](https://www.upwork.com/freelancers/chrisjabraham), where every job, hour, and rating is on the record. Figures as of November 2026:
 | Job Success | 100% |
 | Badge | Top Rated |
 | Total earnings | $200K+ |
-| Jobs | 127 |
-| Hours | 4,089 |
+| Jobs | 132 |
+| Hours | 4,155 |
 | Usual reply time | 4 to 8 hours |
 
 >
@@ -60,7 +60,7 @@ Client, AI SEO and technical SEO project
 
 Locally, my verified [Google Business Profile](https://share.google/xZ98ksFq3nhO2OvuF) holds a 5.0 rating from 10 Google reviews (as of October 2026).
 
-Clients describe working with me as collaborative, committed to quality, and clearly communicated, according to Upwork's summary of my completed jobs.
+Clients describe working with me as collaborative, committed to quality, and clearly communicated, according to Upwork's summary of my completed jobs. More of their words, quoted exactly and with the lower ratings left in, are on [client reviews](https://christopherabraham.com/about/reviews/).
 
 ## Selected results
 - Found that a Magento store's product specs, FAQs, and reviews loaded only when a shopper scrolled, so Googlebot indexed 300-word shells of 1.2 MB pages. [The scroll-gated products case](https://christopherabraham.com/case-studies/scroll-gated-products/).
@@ -203,6 +203,8 @@ Every service starts from the same place: find out what search engines and AI sy
 - [Business Profile verification help](https://christopherabraham.com/services/gbp-verification/): failed video checks, locked listings, and missing owners.
 - [Local competitor recon](https://christopherabraham.com/services/local-competitor-recon/): a dated evidence table of the rival listings Google shows, with your profile beside them.
 - [Peak season readiness](https://christopherabraham.com/services/peak-season-readiness/): listings, location pages, AI answers, and measurement finished before a short selling window opens.
+- [Squarespace, Wix, Webflow, and HubSpot SEO](https://christopherabraham.com/services/website-builder-seo/): page settings, headings, redirects, schema, and moves between hosted builders.
+- [SEO coaching and consultations](https://christopherabraham.com/services/seo-coaching/): one-to-one sessions in your own Search Console and site, with written notes after each call.
 - [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): steady monitoring, fixes, and reporting from a senior consultant.
 
 ## How each service is delivered
@@ -5666,8 +5668,8 @@ I'm an independent SEO consultant in Arlington, Virginia, across the Potomac fro
 | Based in | Arlington, Virginia 22204, United States |
 | Specialties | Technical SEO audits, indexing, JavaScript SEO, Core Web Vitals, Cloudflare, migrations and 301 redirects, schema markup, AI search (GEO and AEO), WordPress, ecommerce, local SEO, and Umbraco and Next.js development |
 | Timeline | Web development since 1994, SEO since 1998, blogging since 1999 |
-| Upwork | [Christopher A.](https://www.upwork.com/freelancers/chrisjabraham): Top Rated, 100% Job Success, $200K+ earned, 127 jobs, 4,089 hours (as of October 2026) |
-| Education | BA in American Literature, The George Washington University; a year at the University of East Anglia in Norwich, England |
+| Upwork | [Christopher A.](https://www.upwork.com/freelancers/chrisjabraham): Top Rated, 100% Job Success, $200K+ earned, 132 jobs, 4,155 hours (as of November 2026); [client reviews](https://christopherabraham.com/about/reviews/) |
+| Education | BA in American Literature, The George Washington University; a year at the University of East Anglia in Norwich, England; French at the University of Hawaiʻi at Mānoa; German to level A2 at the Goethe-Institut |
 | Email | [cja@well.com](mailto:cja@well.com) |
 
 ## How I got here
@@ -5773,6 +5775,7 @@ Updated: 2026-10-24
 - Fixed a gym whose brand name Google read as an ordinary word, which lifted calls and visits. [Training gym](https://christopherabraham.com/case-studies/training-gym/).
 - Audited how ChatGPT and Perplexity described an AI company's jobs and pay, and planned the fix. [Recruiting answers](https://christopherabraham.com/case-studies/recruiting-answers/).
 - Built JSON-LD graphs, llms.txt files, Markdown twins of every page, and full-text feeds for AI crawlers, on this site and others I run.
+- Answer to every name the work goes by: AI SEO, GEO, AEO, AIO, LLM SEO, LLMO, generative search optimization, and search everywhere optimization. Under all of them, the job is a site that Google AI Overviews, ChatGPT, Perplexity, Gemini, and Bing can crawl, understand, summarize, and cite.
 
 ## Servers, DNS, and email
 - Got my first root access on a Sun SPARCstation running Solaris, the pizza box kind, as the image lab administrator at PNI, Picture Network International.
@@ -5806,9 +5809,32 @@ These are habits, not tools, and they shape every engagement.
 - **I've made myself machine readable.** Two decades of publishing under one name, tied together with structured data so search engines and AI tools know the profiles belong to one person. The method is in [two names, one entity](https://christopherabraham.com/guides/two-names-one-entity/).
 - **I know how online communities behave from the inside.** I moderate a Reddit community of more than 16,000 runners and have for nine years, and Reddit threads turn up constantly in AI answers. The story is [off the clock](https://christopherabraham.com/about/off-the-clock/).
 
+## Analytics, tracking, and shopping feeds
+- Moved sites from Universal Analytics to GA4, and set up GA4 tracking for a web application alongside a WordPress migration.
+- Set up and advised on Google Merchant Center together with Search Console for online shops; the steps are in my guide to [Merchant Center free listings](https://christopherabraham.com/guides/merchant-center-free-listings/).
+- Audited a site's landing pages and conversion tracking before a paid campaign, to confirm the pages and tags worked as they should. I check the site side of paid search; I don't run the ads.
+
+## Domains and how a site shows in results
+- Folded a trading education brand's older domain into its main site with page-level redirects.
+- Put Cloudflare in front of a business's main site and its members' subdomain.
+- Took on domain repair jobs: DNS, hosting, and redirect settings checked and corrected until the domain behaved.
+- Fixed how a site appeared in Google's results: a favicon that wasn't showing and meta descriptions that weren't appearing as written.
+
+## Hosted builders
+- Audited and fixed Squarespace sites, moved one to Webflow, and kept SEO intact through another site's move to Webflow.
+- Did technical SEO for a HubSpot partner agency, and set up a Wix site's SEO from the settings out. The full service is [SEO for Squarespace, Wix, Webflow, and HubSpot](https://christopherabraham.com/services/website-builder-seo/).
+
+## Teaching and second opinions
+- Taught owners the SEO process one to one; one of them left with an on-site checklist built for their own site.
+- Run strategy calls and hour-long video consultations for owners, for agencies that bring me in on their clients' sites, and for other SEOs who want a second opinion. See [SEO coaching and consultations](https://christopherabraham.com/services/seo-coaching/).
+
+## Industries
+
+Anonymized, from my Upwork work history: ecommerce stores selling marine parts, skincare, and air filters, in the United States and Australia; medical clinics and healthcare companies; nursing education; trading education; multifamily housing; home services and emergency restoration; business travel; startups; a Canadian business; a HubSpot partner agency and other agencies that bring me in for their clients; local gyms and closet showrooms; and a theater production's video release. What those clients wrote afterward is on [client reviews](https://christopherabraham.com/about/reviews/).
+
 ## Platforms
 
-WordPress with Yoast, Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal; Squarespace; Wix; Webflow; Next.js, React, and Create React App; Sanity; Vercel, Netlify, Cloudflare, and GitHub Pages; Jekyll and hand-built Python generators; and Plone on the Zope application server, which I've run since the early 2000s.
+WordPress with Yoast, Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal; Squarespace; Wix; Webflow; HubSpot CMS; Next.js, React, and Create React App; Sanity; Vercel, Netlify, Cloudflare, and GitHub Pages; Jekyll and hand-built Python generators; and Plone on the Zope application server, which I've run since the early 2000s.
 
 ## Tools
 
@@ -6023,6 +6049,10 @@ Every engagement follows the same arc: a defined question, a paid audit that ans
 ## Two ways to hire me
 - **On Upwork.** Most of my clients hire me through [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham). Engagements there run as fixed price contracts with milestones, and Upwork handles the contract, invoicing, and payment protection for both sides.
 - **Directly.** Email [cja@well.com](mailto:cja@well.com) and I'll send a written scope.
+
+## Senior help without the agency layers
+
+Every engagement is me doing the work, from the first crawl to the last verification pass, with no account manager in the middle. One recent client chose me over Neil Patel's team for that reason: they wanted direct, senior-level SEO help rather than a large-agency process. What clients have written after the work is on [client reviews](https://christopherabraham.com/about/reviews/), quoted as written.
 
 ## The process
 1. **A short conversation.** You tell me the symptom; I ask what changed, when, and who has access to what. A few emails or a [30 minute call](https://calendly.com/chrisabraham/30) is usually enough.
@@ -8852,8 +8882,273 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 
 ---
 
+Source: https://christopherabraham.com/about/reviews/
+Updated: 2026-11-05
+
+# What Upwork clients wrote about my SEO work
+
+Every quote below comes from the public work history on [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham), copied as the client wrote it, typos included. Where Upwork cuts a long review short on the profile page, an ellipsis marks the cut. I name the kind of project and the month the contract closed, and I leave out the client, because a review is permission to be quoted, and naming them is a separate permission.
+
+## The record behind the quotes
+
+As of November 2026 the profile shows 132 jobs, 4,155 hours, more than $200K earned, a 100% Job Success Score, and the Top Rated badge. Upwork also tallies the endorsements clients tick when a contract ends. Here they are as the profile counts them:
+| Endorsement | Times given |
+| --- | --- |
+| Committed to Quality | 16 |
+| Collaborative | 15 |
+| Clear Communicator | 11 |
+| Solution Oriented | 9 |
+| Reliable | 7 |
+| Professional | 4 |
+| Accountable for Outcomes | 2 |
+| Detail Oriented | 2 |
+
+## Schema and structured data
+
+>
+
+"My Goodness! I can't say enough about Christopher. In a world of consultants, he's an expert. His assistance, commitment, and availability are the best I've experienced from any work-for-hire contract...."
+
+LD+JSON schema for a business with several locations, 5.0, October 2026
+
+That project is the kind described on my [schema markup](https://christopherabraham.com/services/schema/) page: one entity for the brand, one for each location, and markup that matches what each page says.
+
+## Audits and on-page work
+
+>
+
+"Chris did an outstanding job on our project for a Full SEO audit and on-page optimization. His expertise and dedication were evident throughout the process, and the results have been..."
+
+Full SEO audit and on-page optimization, 5.0, May 2024
+
+>
+
+"Five star experience - Christopher analyzed and optimized portions of our website and we've already seen some improvement to our rankings. Communication and quality of work was great."
+
+SEO audit and corrections, 5.0, June 2024
+
+>
+
+"Our company had the pleasure of working with Chris Abraham on a website optimization project and highly recommend him. He was extremely knowledgeable and provided valuable insight into SEO best..."
+
+Site audits over a year-long contract, 5.0, September 2023
+
+>
+
+"Outstanding expert on full-stack SEO. Highly recommend."
+
+WordPress SEO, sitemaps, and configuration for an online store, 5.0, March 2024
+
+>
+
+"Excellent SEO specialist, will definitely hire again!"
+
+SEO review and improvement, 5.0, January 2024
+
+The method behind those engagements is on the [technical SEO audit](https://christopherabraham.com/services/seo-audit/) page.
+
+## Search Console, Merchant Center, and local search
+
+>
+
+"Chris is knowledgeable with SEO. He gave me stellar advice on how to improve my SEO, which is exactly what I was looking for. I would recommend Chris."
+
+Search Console and Merchant Center for an online shop, 5.0, March 2024
+
+>
+
+"Chris is phenomenal. His knowledge and abilities are A++. He get the work done on time and on budget and communicates what is going on as the project is in..."
+
+Google Business Profile work, 5.0, December 2024
+
+>
+
+"Chris is an expert and a gentleman. Highly recommended and wish him the best."
+
+Local SEO audit and fixes, 5.0, June 2023
+
+## Squarespace, Webflow, and Drupal sites
+
+>
+
+"Working with Chris was an absolute delight. He is so knowledgable, so responsive, and so thorough in his work, it helped us take our project to the next level. Can't..."
+
+SEO and site audits for Squarespace sites, 5.0, May 2021
+
+>
+
+"Amazing work, quick turnaround and so fun to work with!! Thank you for making everything so easy and smooth!"
+
+Squarespace to Webflow move, domain and SEO, 5.0, July 2021
+
+>
+
+"Chris is a pleasure to work with. Highly recommended!"
+
+On-site SEO for a Squarespace website, 5.0, February 2023
+
+>
+
+"Christopher Abraham is great."
+
+Drupal website cleanup, 5.0, October 2021
+
+Work on hosted builders now has its own page: [SEO for Squarespace, Wix, Webflow, and HubSpot](https://christopherabraham.com/services/website-builder-seo/).
+
+## Teaching, calls, and AI search
+
+>
+
+"Chris is a very fun guy to work with and was unbelievable in helping me craft a checklist for my on site SEO. It helped making my site SEO optimized..."
+
+An owner who asked to be taught the SEO process, 5.0, October 2020
+
+>
+
+"Good man! Enjoyable conversation and Chris knows his thing"
+
+SEO strategy call, 5.0, October 2020
+
+>
+
+"Very friendly and helpful! Would highly recommend."
+
+SEO consultation, 5.0, November 2023
+
+>
+
+"Chris is the best! He's not only a master of his craft, but also incredibly fun to work with. Chris tackled the tasks with enthusiasm and made insightful suggestions that..."
+
+SEO and digital marketing, 5.0, February 2023
+
+>
+
+"Quick, thorough, and effective!"
+
+SEO with Wikipedia expertise, 5.0, October 2020
+
+Sessions like those are now a service of their own: [SEO coaching and consultations](https://christopherabraham.com/services/seo-coaching/). The AI search work is on [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/).
+
+## The ratings that weren't five stars
+
+A wall of perfect scores tells a careful buyer nothing, so here are the others. The lower ratings in my work history include a 2.0 on a Search Console job in October 2025, a 3.9 on a landing page writing job in June 2021, two 4.0s, a 4.2 on a Cloudflare job, a 4.5, a 4.6, and a 4.8 on a long WordPress migration with analytics setup. One of them came with words:
+
+>
+
+"Chris completed my project successfully after some miscommunication about the SOW in the beginning."
+
+Landing page content, 3.9, June 2021
+
+Every engagement now starts from a written scope, as [Hire Me](https://christopherabraham.com/hire-me/) explains. Every rating stays on the profile, and the Job Success Score reads 100% with all of them counted.
+
+## Check them yourself
+
+Reviews you can't verify are worth little, and my guide to [hiring an SEO on Upwork](https://christopherabraham.com/guides/hiring-an-seo/) says the same about anyone else's. Open [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham), page through the work history, and read every review in place, or [book 30 minutes](https://calendly.com/chrisabraham/30) and ask me about any job on it.
+
+Updated November 5, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/seo-coaching/
+Updated: 2026-11-05
+
+# SEO coaching and consultations
+
+Some owners want the work done. Others want to understand it well enough to do it themselves, or to judge the people they pay to do it. For the second group I run one-to-one sessions on a video call, screen shared, inside your own Search Console, analytics, and website, so everything you learn is about the site you actually have. Owners on Upwork have hired me to teach them the SEO process from the start, to sit in on a strategy decision, and to answer one hard question in an hour.
+
+## Who books these sessions
+- Owners who run their own WordPress, Shopify, Squarespace, or Wix site and want a checklist they can work through themselves after the call.
+- In-house marketers who inherited SEO along with everything else and need a senior person to check their thinking.
+- Founders deciding between an agency, a freelancer, and doing it in-house, who want to know what each option should cost them in effort.
+- Agencies and developers who hit a technical question outside their usual range, such as rendering, canonicals, or a migration plan, and want a second opinion before they tell the client.
+- Anyone who has just read about AI search, GEO, or AEO and wants to know what, if anything, to change on their own site this quarter.
+
+## What a session covers
+
+You name the question before the call, so the hour goes to your site rather than to theory. Common ones:
+- **Reading Search Console.** What the Performance and Page indexing reports are telling you, which warnings matter, and which ones can wait. My guide to the [Page indexing report](https://christopherabraham.com/guides/page-indexing-report/) is the written companion.
+- **Keyword and page strategy.** Which searches your home page and service pages should answer, where two pages compete for the same query, and what to write next.
+- **On-page basics done properly.** Titles, descriptions, headings, internal links, and image text, worked through on your own templates.
+- **Technical triage.** A crawl walked through together, so you can see what a crawler sees and tell a real problem from a cosmetic one.
+- **Local search.** Your Google Business Profile, categories, services, and the location pages behind them.
+- **AI search.** How ChatGPT, Perplexity, Gemini, and Google's AI answers describe you today, checked live during the call.
+- **Vetting help.** How to read an agency proposal or a monthly report, and the questions that show whether someone knows the work. The [hiring guide](https://christopherabraham.com/guides/hiring-an-seo/) covers the same ground in writing.
+
+## How sessions run
+
+You send the site address and the question in writing first. I look at the site before the call, so the session opens with what I found. On the call I share my screen or ask you to share yours, and the session works in your real accounts with read access only; nothing on your site changes unless you make the change yourself while I watch. Afterward you get a written follow-up: the decisions from the call, the steps in order, and the links to the guides that explain each one. That note is the part people keep.
+
+A single session suits one question. A short series suits learning the whole process, one area per session, with homework in between and a check of the homework at the start of the next call.
+
+## What I need from you
+
+The website address, the question or the goal, and read access to Search Console and analytics if the session will touch them. A Search Console login with the Restricted role is enough; my guide on [giving an SEO access](https://christopherabraham.com/guides/give-seo-access/) shows how to grant it without sharing a password.
+
+## When coaching is the wrong fit
+
+If the site is losing traffic fast, or a migration goes live next week, a session will tell you what is wrong without fixing it. In that case the better start is a [technical SEO audit](https://christopherabraham.com/services/seo-audit/) or [migration support](https://christopherabraham.com/services/migrations/), with the fixes made directly. If you mainly want someone to check an agency's numbers, the [SEO report review](https://christopherabraham.com/services/seo-report-review/) is built for exactly that.
+
+## How to book
+
+Sessions are quoted as a fixed fee per session or per series, agreed before the first call. [Book 30 minutes on my calendar](https://calendly.com/chrisabraham/30) to set the question, or hire me for a session through [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+Updated November 5, 2026
+
+
+---
+
+Source: https://christopherabraham.com/services/website-builder-seo/
+Updated: 2026-11-05
+
+# SEO for sites on Squarespace, Wix, Webflow, and HubSpot
+
+A hosted builder takes the server away from you, and most of the SEO problems on those sites come from that trade. You can't edit the robots file freely, the theme decides your heading structure, and the redirects live in a settings panel nobody remembers. I've audited and fixed Squarespace sites, sorted out a Wix site's setup, moved a site from Squarespace to Webflow and kept SEO intact through another Webflow migration, cleaned up after a Squarespace to Shopify move, and done technical SEO for a HubSpot partner agency. The work is knowing exactly what each platform lets you change, and changing all of it.
+
+## What I work on inside the builder
+- **Page settings.** Every page's SEO title, description, and URL slug, written for the search it should win and checked against the rest of the site for duplicates.
+- **Headings and templates.** Builders style headings by look, so a page can end up with five H1s or none. I fix the structure in the editor and in the theme settings that cause it sitewide.
+- **Redirects.** Squarespace's URL mappings, Wix's redirect manager, Webflow's 301 list, and HubSpot's URL redirects tool each work differently. I build the map, load it, and test every old address, using the method in my [rules for 301 redirects](https://christopherabraham.com/guides/redirect-rules/).
+- **Structured data.** What the platform already emits, what it gets wrong, and the JSON-LD to add through the custom code or structured data fields each builder offers. The [small business schema guide](https://christopherabraham.com/guides/small-business-schema/) shows the markup most of these sites need.
+- **Sitemaps and indexing.** Builders generate the sitemap for you, including pages you hid or forgot, such as tag archives, test pages, and old landing pages. I clean the list at the source and confirm the result in Search Console.
+- **Speed.** Oversized images, heavy fonts, embedded widgets, and third-party scripts are the usual weight on a builder site, and most of it can come off without leaving the platform. See [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/).
+- **Search Console and analytics.** Verification, sitemap submission, GA4, and Bing Webmaster Tools set up properly for the platform.
+
+## Moving between platforms
+
+Builder sites change homes more often than most: Squarespace to Webflow for design control, Squarespace or Wix to Shopify when the shop outgrows the site, WordPress to Webflow to escape plugins, or any of them to a static site the owner keeps outright. Each move breaks URLs in its own way. older Squarespace blog posts carry date paths, Shopify forces its own folders for products and collections, and Webflow's CMS collections set their own prefixes. I inventory every old address, including the ones only the Wayback Machine remembers, map each one to its new home, and check the move after launch until Search Console settles. My [Squarespace to Shopify cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/) shows what happens when that inventory is skipped. The full process is on the [site migrations](https://christopherabraham.com/services/migrations/) page.
+
+## When the builder is the problem
+
+Sometimes the honest finding is that the platform can't do what the business needs: a site that must serve several languages properly, a catalog too large for the builder's limits, or markup the platform won't let you add. When that's the case I say so in writing, with the specific limit and the options, which include staying and living with it. If leaving is right, the [static website](https://christopherabraham.com/services/static-sites/) route gives you a site you own, with every old URL kept.
+
+## What I need from you
+
+A contributor or administrator login on the builder with permission to edit pages and settings, access to Search Console, and the list of anything about to change, such as a template switch or a plan downgrade. On HubSpot, the portal access that covers website pages, blog, and URL redirects.
+
+## How it's delivered
+
+A fixed fee for an agreed scope, quoted after I've looked at the site. [Book 30 minutes on my calendar](https://calendly.com/chrisabraham/30) with your site address, or hire me through [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham).
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+Updated November 5, 2026
+
+
+---
+
 Source: https://christopherabraham.com/sitemap/
-Updated: 2026-11-03
+Updated: 2026-11-05
 
 # Site map
 
@@ -8895,6 +9190,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 
 ## Platforms, local, and ongoing work
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): WordPress SEO done carefully: Yoast and Rank Math settings, theme and plugin conflicts, page builder bloat, caching, and old installs that need a steady hand.
+- [SEO for sites on Squarespace, Wix, Webflow, and HubSpot](https://christopherabraham.com/services/website-builder-seo/): Technical and on-page SEO inside hosted builders: settings, redirects, schema, speed, and moves between Squarespace, Wix, Webflow, HubSpot, and Shopify.
 - [Static websites built for search](https://christopherabraham.com/services/static-sites/): Static websites on GitHub Pages and Cloudflare, built with OpenAI Codex and Claude Code. Every build checks SEO, links, and copy before the site publishes.
 - [Podcast website SEO](https://christopherabraham.com/services/podcast-website/): I turn a podcast feed into a fast website on your own domain, with a page per episode, transcripts, schema, share cards, and new episodes added each morning.
 - [Launch websites for a book, an album, or a new service](https://christopherabraham.com/services/launch-site/): A fast, findable website for a book, album, film, or new service, on a domain you own, with search basics, share cards, and AI-readable pages from day one.
@@ -8904,6 +9200,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Google Business Profile verification help](https://christopherabraham.com/services/gbp-verification/): Help for Business Profiles that won't verify: failed video checks, listings nobody can edit, missing owners, and service-area setups Google keeps questioning.
 - [Local competitor recon](https://christopherabraham.com/services/local-competitor-recon/): A structured pull of the Google listings you compete with: categories, ratings, reviews, addresses, hours, and websites, set beside your own profile.
 - [Peak season readiness](https://christopherabraham.com/services/peak-season-readiness/): For businesses that earn most of the year in a few weeks: listings, location pages, AI answers, and tracking made ready well before the rush starts.
+- [SEO coaching and consultations](https://christopherabraham.com/services/seo-coaching/): One-to-one SEO coaching, strategy calls, and second opinions on video, inside your own Search Console and website, with a written follow-up after every session.
 - [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): A monthly SEO retainer with a senior consultant: monitoring, hands on fixes, developer QA, AI search checks, and a plain-English report every month.
 
 ## Guides
@@ -9000,6 +9297,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Colophon](https://christopherabraham.com/about/colophon/): How christopherabraham.com is made: handwritten HTML, a small Python generator with strict checks, GitHub Pages, Cloudflare, accessible colors, Lynx testing.
 - [The Machine Answers First Now](https://christopherabraham.com/the-machine-answers-first/): Google's AI answers now sit atop most commercial searches Semrush tracks. A field note on what the machine says about a business and making it name you.
 - [Products: fixed scope, fixed price, no proposal required](https://christopherabraham.com/products/): Eight fixed scope products with the price printed: AI answer reports, search and traffic readouts, a technical snapshot, local visibility, and reinstatement.
+- [What Upwork clients wrote about my SEO work](https://christopherabraham.com/about/reviews/): What Upwork clients wrote after schema, audit, local SEO, Search Console, and migration projects, quoted word for word, with the lower ratings left in view.
 
 ## Files for machines
 - [sitemap.xml](https://christopherabraham.com/sitemap.xml): the XML sitemap for search engines.
@@ -9009,24 +9307,24 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated November 3, 2026
+Updated November 5, 2026
 
 
 ---
 
 Source: https://christopherabraham.com/site-index/
-Updated: 2026-11-03
+Updated: 2026-11-05
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 621 headings across 127 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 644 headings across 130 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
 [0–9](https://christopherabraham.com/site-index/#ix-letter-0) [A](https://christopherabraham.com/site-index/#ix-letter-a) [B](https://christopherabraham.com/site-index/#ix-letter-b) [C](https://christopherabraham.com/site-index/#ix-letter-c) [D](https://christopherabraham.com/site-index/#ix-letter-d) [E](https://christopherabraham.com/site-index/#ix-letter-e) [F](https://christopherabraham.com/site-index/#ix-letter-f) [G](https://christopherabraham.com/site-index/#ix-letter-g) [H](https://christopherabraham.com/site-index/#ix-letter-h) [I](https://christopherabraham.com/site-index/#ix-letter-i) [J](https://christopherabraham.com/site-index/#ix-letter-j) [K](https://christopherabraham.com/site-index/#ix-letter-k) [L](https://christopherabraham.com/site-index/#ix-letter-l) [M](https://christopherabraham.com/site-index/#ix-letter-m) [N](https://christopherabraham.com/site-index/#ix-letter-n) [O](https://christopherabraham.com/site-index/#ix-letter-o) [P](https://christopherabraham.com/site-index/#ix-letter-p) [Q](https://christopherabraham.com/site-index/#ix-letter-q) [R](https://christopherabraham.com/site-index/#ix-letter-r) [S](https://christopherabraham.com/site-index/#ix-letter-s) [T](https://christopherabraham.com/site-index/#ix-letter-t) [U](https://christopherabraham.com/site-index/#ix-letter-u) [V](https://christopherabraham.com/site-index/#ix-letter-v) [W](https://christopherabraham.com/site-index/#ix-letter-w) [X](https://christopherabraham.com/site-index/#ix-letter-x) [Y](https://christopherabraham.com/site-index/#ix-letter-y) [Z](https://christopherabraham.com/site-index/#ix-letter-z)
 
 ## 0–9
-- 301 redirects, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Migrations](https://christopherabraham.com/services/migrations/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Guides](https://christopherabraham.com/guides/), **[Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)**, [Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/). *See also* [site migrations](https://christopherabraham.com/site-index/#ix-site-migrations)
+- 301 redirects, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Migrations](https://christopherabraham.com/services/migrations/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Guides](https://christopherabraham.com/guides/), **[Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)**, [Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/), [Website Builder SEO](https://christopherabraham.com/services/website-builder-seo/). *See also* [site migrations](https://christopherabraham.com/site-index/#ix-site-migrations)
   - 301 versus 302, 307, and 308, [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
   - 410 for retired pages, [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
   - bulk testing, [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
@@ -9125,9 +9423,9 @@ People are listed surname first. Cross-references point to related headings. For
 - accessibility overlays, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/)
 - ADA (Americans with Disabilities Act), [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
 - Advertising Age, [About](https://christopherabraham.com/about/)
-- AEO (answer engine optimization), [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI visibility](https://christopherabraham.com/services/ai-visibility/). *See also* [AI search](https://christopherabraham.com/site-index/#ix-ai-search); [AI visibility](https://christopherabraham.com/site-index/#ix-ai-visibility)
+- AEO (answer engine optimization), [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [AI Search](https://christopherabraham.com/services/ai-search/), [Skills and Proof](https://christopherabraham.com/about/skills/), [AI visibility](https://christopherabraham.com/services/ai-visibility/). *See also* [AI search](https://christopherabraham.com/site-index/#ix-ai-search); [AI visibility](https://christopherabraham.com/site-index/#ix-ai-visibility)
 - ageism and dates, [About Page for AI](https://christopherabraham.com/guides/about-page-ai/)
-- agencies, working with, [AI Search](https://christopherabraham.com/services/ai-search/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/)
+- agencies, working with, [AI Search](https://christopherabraham.com/services/ai-search/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [Skills and Proof](https://christopherabraham.com/about/skills/), [SEO Coaching](https://christopherabraham.com/services/seo-coaching/)
 - agency reports. *See* [SEO report review](https://christopherabraham.com/site-index/#ix-seo-report-review)
 - agentic checkout, **[Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/)**, [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
   - OpenAI Instant Checkout, [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/)
@@ -9159,7 +9457,7 @@ People are listed surname first. Cross-references point to related headings. For
 - AI Overviews, [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/). *See also* [Google AI Overviews](https://christopherabraham.com/site-index/#ix-google-ai-overviews)
   - share of commercial searches, [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
 
-- AI search, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[AI Search](https://christopherabraham.com/services/ai-search/)**, [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Recruiting Answers](https://christopherabraham.com/case-studies/recruiting-answers/), [AI Visibility Baseline](https://christopherabraham.com/case-studies/ai-visibility-baseline/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/). *See also* [AI answers, correcting](https://christopherabraham.com/site-index/#ix-ai-answers-correcting); [share of voice, AI](https://christopherabraham.com/site-index/#ix-share-of-voice-ai)
+- AI search, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[AI Search](https://christopherabraham.com/services/ai-search/)**, [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Recruiting Answers](https://christopherabraham.com/case-studies/recruiting-answers/), [AI Visibility Baseline](https://christopherabraham.com/case-studies/ai-visibility-baseline/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/), [SEO Coaching](https://christopherabraham.com/services/seo-coaching/). *See also* [AI answers, correcting](https://christopherabraham.com/site-index/#ix-ai-answers-correcting); [share of voice, AI](https://christopherabraham.com/site-index/#ix-share-of-voice-ai)
   - blocking AI crawlers, [Site Speed](https://christopherabraham.com/services/site-speed/), [AI Search](https://christopherabraham.com/services/ai-search/)
   - careers and recruiting questions, [Recruiting Answers](https://christopherabraham.com/case-studies/recruiting-answers/)
   - crawler access, [AI Search](https://christopherabraham.com/services/ai-search/)
@@ -9312,10 +9610,11 @@ People are listed surname first. Cross-references point to related headings. For
 - Claude Code, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Colophon](https://christopherabraham.com/about/colophon/). *See also* [AI coding assistants](https://christopherabraham.com/site-index/#ix-ai-coding-assistants)
 - ClaudeBot, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/). *See also* [AI crawlers](https://christopherabraham.com/site-index/#ix-ai-crawlers)
 - Claude-SearchBot, [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
+- client reviews (Upwork), **[Client Reviews](https://christopherabraham.com/about/reviews/)**
 - client-side rendering, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - clinic migration (anonymized client), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
 - Close Up, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- Cloudflare, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Site Speed](https://christopherabraham.com/services/site-speed/)**, [Migrations](https://christopherabraham.com/services/migrations/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/), [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/), [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), **[Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/)**, [Colophon](https://christopherabraham.com/about/colophon/). *See also* [DNS](https://christopherabraham.com/site-index/#ix-dns)
+- Cloudflare, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Site Speed](https://christopherabraham.com/services/site-speed/)**, [Migrations](https://christopherabraham.com/services/migrations/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/), [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/), [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), **[Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/)**, [Skills and Proof](https://christopherabraham.com/about/skills/), [Colophon](https://christopherabraham.com/about/colophon/). *See also* [DNS](https://christopherabraham.com/site-index/#ix-dns)
   - AI bot blocking, [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/)
   - APO, [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/), [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/)
   - bot settings, [Site Speed](https://christopherabraham.com/services/site-speed/)
@@ -9326,13 +9625,14 @@ People are listed surname first. Cross-references point to related headings. For
   - gray versus orange cloud, [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/), [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/)
   - Polish, [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/)
   - R2 storage, [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/)
-  - Registrar, [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/)
+  - Registrar, [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/), [Build a Website on GitHub Pages](https://christopherabraham.com/guides/github-pages-website/)
   - Rocket Loader, [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/)
   - SSL Full (strict), [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/)
   - Under Attack Mode, [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/)
   - what to budget, [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/)
 
 - CNN Radio, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
+- coaching. *See* [SEO coaching](https://christopherabraham.com/site-index/#ix-seo-coaching)
 - Codex, [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Editorial Policy](https://christopherabraham.com/about/editorial-policy/), [Colophon](https://christopherabraham.com/about/colophon/)
 - Coelaboration, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Collabor8 (8: A Collaborative Hypernarrative Fiction), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -9350,11 +9650,12 @@ People are listed surname first. Cross-references point to related headings. For
 - consent tools, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), **[Consent Banner](https://christopherabraham.com/case-studies/consent-banner/)**, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
   - prior-consent blocking, [Consent Banner](https://christopherabraham.com/case-studies/consent-banner/)
 
+- consultations and strategy calls, [Skills and Proof](https://christopherabraham.com/about/skills/), [Client Reviews](https://christopherabraham.com/about/reviews/), **[SEO Coaching](https://christopherabraham.com/services/seo-coaching/)**
 - contrast, [Colophon](https://christopherabraham.com/about/colophon/)
 - cookie banners, [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
 - cookies, [Privacy](https://christopherabraham.com/privacy/)
 - core updates, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [Glossary](https://christopherabraham.com/guides/glossary/). *See also* [Google updates](https://christopherabraham.com/site-index/#ix-google-updates)
-- Core Web Vitals, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), **[Site Speed](https://christopherabraham.com/services/site-speed/)**, [Search Console](https://christopherabraham.com/services/search-console/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [Guides](https://christopherabraham.com/guides/), **[Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)**
+- Core Web Vitals, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), **[Site Speed](https://christopherabraham.com/services/site-speed/)**, [Search Console](https://christopherabraham.com/services/search-console/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [Guides](https://christopherabraham.com/guides/), **[Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)**, [Website Builder SEO](https://christopherabraham.com/services/website-builder-seo/)
   - common fixes, [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
   - field data versus lab data, [Site Speed](https://christopherabraham.com/services/site-speed/), [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
   - First Input Delay replaced (2024), [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
@@ -9414,7 +9715,9 @@ People are listed surname first. Cross-references point to related headings. For
   - CNAME conflicts, [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/), [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/)
   - DNS-over-HTTPS lookups, [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/), [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/)
 
-- Drupal, [Services](https://christopherabraham.com/services/), [About](https://christopherabraham.com/about/), [Skills and Proof](https://christopherabraham.com/about/skills/)
+- DNS records, [Build a Website on GitHub Pages](https://christopherabraham.com/guides/github-pages-website/)
+- domain repair, [Skills and Proof](https://christopherabraham.com/about/skills/)
+- Drupal, [Services](https://christopherabraham.com/services/), [About](https://christopherabraham.com/about/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Client Reviews](https://christopherabraham.com/about/reviews/)
 - duplicate content, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Indexing](https://christopherabraham.com/services/indexing/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
 - duplicate-phrasing build check, [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/). *See also* [build checks](https://christopherabraham.com/site-index/#ix-build-checks)
 - Dyson, Esther, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -9443,6 +9746,7 @@ People are listed surname first. Cross-references point to related headings. For
 - E-E-A-T, [Third-Party Proof](https://christopherabraham.com/guides/third-party-proof/), [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/), [Glossary](https://christopherabraham.com/guides/glossary/)
 - EFA (Kalamazoo Public Schools), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - email authentication, **[Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/)**
+- endorsements, Upwork, **[Client Reviews](https://christopherabraham.com/about/reviews/)**
 - entities, [AI Search](https://christopherabraham.com/services/ai-search/), **[Schema](https://christopherabraham.com/services/schema/)**, [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), **[Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/)**, [AI visibility](https://christopherabraham.com/services/ai-visibility/). *See also* [structured data](https://christopherabraham.com/site-index/#ix-structured-data)
   - parent organization and branches, [Closet Locations](https://christopherabraham.com/case-studies/closet-locations/)
 
@@ -9463,6 +9767,7 @@ People are listed surname first. Cross-references point to related headings. For
   - Chris as a publisher, [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/)
   - disclosure, [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/)
 
+- favicons in search results, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - fetchpriority, [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
 - ffmpeg, **[Shrink Video for Transcription](https://christopherabraham.com/guides/shrink-video-for-transcription/)**
   - audio extraction for transcription, [Shrink Video for Transcription](https://christopherabraham.com/guides/shrink-video-for-transcription/)
@@ -9477,13 +9782,14 @@ People are listed surname first. Cross-references point to related headings. For
 - free audits, [Hiring an SEO](https://christopherabraham.com/guides/hiring-an-seo/)
 - free listings (Google), **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**
 - Freemasonry. *See* [Naval Lodge No. 4](https://christopherabraham.com/site-index/#ix-naval-lodge-no-4); [Scottish Rite](https://christopherabraham.com/site-index/#ix-scottish-rite)
+- French, [About](https://christopherabraham.com/about/)
 - FTC Endorsement Guides, [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/)
 - FTC rule on fake reviews (2024), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), **[FTC Review Rule](https://christopherabraham.com/guides/ftc-review-rule/)**
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
 ## G
-- GA4 (Google Analytics 4), [Services](https://christopherabraham.com/services/), **[Search Console](https://christopherabraham.com/services/search-console/)**, [AI Search](https://christopherabraham.com/services/ai-search/), **[GA4 and PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/)**
+- GA4 (Google Analytics 4), [Services](https://christopherabraham.com/services/), **[Search Console](https://christopherabraham.com/services/search-console/)**, [AI Search](https://christopherabraham.com/services/ai-search/), **[GA4 and PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/)**, [Skills and Proof](https://christopherabraham.com/about/skills/)
   - AI assistant referrals, [Search Console](https://christopherabraham.com/services/search-console/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
   - consent and cookies, [Privacy](https://christopherabraham.com/privacy/)
   - consent mode, [Search Console](https://christopherabraham.com/services/search-console/)
@@ -9502,9 +9808,10 @@ People are listed surname first. Cross-references point to related headings. For
   - search trends, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
 
 - Gemini, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [AI visibility](https://christopherabraham.com/services/ai-visibility/)
-- GEO (generative engine optimization), [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [AI Search](https://christopherabraham.com/services/ai-search/). *See also* [AI search](https://christopherabraham.com/site-index/#ix-ai-search)
+- GEO (generative engine optimization), [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [AI Search](https://christopherabraham.com/services/ai-search/), [Skills and Proof](https://christopherabraham.com/about/skills/). *See also* [AI search](https://christopherabraham.com/site-index/#ix-ai-search)
 - George Washington University, The, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Georgetown University, [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/), [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
+- German, [About](https://christopherabraham.com/about/)
 - Git repositories, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/), **[SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)**
   - history of Git, [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
   - how Chris works in one, [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
@@ -9515,19 +9822,19 @@ People are listed surname first. Cross-references point to related headings. For
 
 - GitHub Actions, [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/), [Skills and Proof](https://christopherabraham.com/about/skills/)
 - GitHub Copilot, [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
-- GitHub Pages, [Services](https://christopherabraham.com/services/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Colophon](https://christopherabraham.com/about/colophon/), [Privacy](https://christopherabraham.com/privacy/)
+- GitHub Pages, [Services](https://christopherabraham.com/services/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Colophon](https://christopherabraham.com/about/colophon/), [Privacy](https://christopherabraham.com/privacy/), **[Build a Website on GitHub Pages](https://christopherabraham.com/guides/github-pages-website/)**
   - custom domains and HTTPS, [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/)
 
 - GitLab, [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
 - Global Idea Network, [About](https://christopherabraham.com/about/)
 - glossary, **[Glossary](https://christopherabraham.com/guides/glossary/)**
-- Goethe-Institut, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
+- Goethe-Institut, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Google AI Mode, [AI Search](https://christopherabraham.com/services/ai-search/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/), [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/), [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/), [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
 - Google AI Overviews, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Indexing](https://christopherabraham.com/services/indexing/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/)
   - brand search studies, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 
 - Google Apps case study (Abraham Harrison), [About](https://christopherabraham.com/about/)
-- Google Business Profile, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/), [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/), [Skills and Proof](https://christopherabraham.com/about/skills/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/), [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/), [Service-Area Businesses](https://christopherabraham.com/guides/service-area-business/), [Apple and Bing Listings](https://christopherabraham.com/guides/apple-and-bing-listings/), [FTC Review Rule](https://christopherabraham.com/guides/ftc-review-rule/), [Business Profile Verification](https://christopherabraham.com/services/gbp-verification/), [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/). *See also* [local SEO](https://christopherabraham.com/site-index/#ix-local-seo)
+- Google Business Profile, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/), [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/), [Skills and Proof](https://christopherabraham.com/about/skills/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/), [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/), [Service-Area Businesses](https://christopherabraham.com/guides/service-area-business/), [Apple and Bing Listings](https://christopherabraham.com/guides/apple-and-bing-listings/), [FTC Review Rule](https://christopherabraham.com/guides/ftc-review-rule/), [Business Profile Verification](https://christopherabraham.com/services/gbp-verification/), [AI Mode Bookings](https://christopherabraham.com/guides/ai-mode-bookings/), [Client Reviews](https://christopherabraham.com/about/reviews/). *See also* [local SEO](https://christopherabraham.com/site-index/#ix-local-seo)
   - as a source for AI answers, [AI visibility](https://christopherabraham.com/services/ai-visibility/)
   - business name rules, [Service-Area Businesses](https://christopherabraham.com/guides/service-area-business/)
   - Chris’ own rating, [Home](https://christopherabraham.com/)
@@ -9548,7 +9855,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Google documentation, [Brand name in titles](https://christopherabraham.com/guides/brand-name-in-titles/), [Small original research](https://christopherabraham.com/guides/small-original-research/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
 - Google documentation changelog, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Google Search Central Blog, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
-- Google Search Console, [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), **[Search Console](https://christopherabraham.com/services/search-console/)**, [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/), [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
+- Google Search Console, [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Indexing](https://christopherabraham.com/services/indexing/), **[Search Console](https://christopherabraham.com/services/search-console/)**, [Migrations](https://christopherabraham.com/services/migrations/), [AI Search](https://christopherabraham.com/services/ai-search/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [Page Indexing Report](https://christopherabraham.com/guides/page-indexing-report/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/), [Disavowing Links](https://christopherabraham.com/guides/disavow-links/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/), [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/), [SEO Coaching](https://christopherabraham.com/services/seo-coaching/)
   - Change of Address, [Search Console](https://christopherabraham.com/services/search-console/), [Migrations](https://christopherabraham.com/services/migrations/)
   - Domain properties, [Search Console](https://christopherabraham.com/services/search-console/), [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/)
   - enhancement reports, [Schema](https://christopherabraham.com/services/schema/)
@@ -9630,6 +9937,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Howard, Jeremy (Answer.AI), [llms.txt](https://christopherabraham.com/guides/llms-txt/)
 - hreflang, [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Migrations](https://christopherabraham.com/services/migrations/), [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/), [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/)
 - HSTS, [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/), [Glossary](https://christopherabraham.com/guides/glossary/)
+- HubSpot, [Services](https://christopherabraham.com/services/), [Skills and Proof](https://christopherabraham.com/about/skills/), **[Website Builder SEO](https://christopherabraham.com/services/website-builder-seo/)**
 - Hudson racing single, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Huffington Post, The, [About](https://christopherabraham.com/about/)
 - hybrid businesses, **[Service-Area Businesses](https://christopherabraham.com/guides/service-area-business/)**
@@ -9656,6 +9964,7 @@ People are listed surname first. Cross-references point to related headings. For
 - IndexNow, [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/), [Skills and Proof](https://christopherabraham.com/about/skills/), [XML Sitemaps](https://christopherabraham.com/guides/xml-sitemaps/)
   - Google not a participant, [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
 
+- industries served, **[Skills and Proof](https://christopherabraham.com/about/skills/)**
 - internal links, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), **[Internal Linking Strategy](https://christopherabraham.com/services/internal-linking/)**, **[Internal Linking](https://christopherabraham.com/guides/internal-linking/)**
   - anchor wording, [Internal Linking Strategy](https://christopherabraham.com/services/internal-linking/), [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
   - crawl and inventory compared, [Internal Linking](https://christopherabraham.com/guides/internal-linking/)
@@ -9679,6 +9988,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 - Jekyll, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - Jira, [Hire Me](https://christopherabraham.com/hire-me/)
+- Job Success Score, [Home](https://christopherabraham.com/), [About](https://christopherabraham.com/about/), [Client Reviews](https://christopherabraham.com/about/reviews/)
 - John Mueller, [Disavowing Links](https://christopherabraham.com/guides/disavow-links/)
 - jQuery UI tabs, [Consent Banner](https://christopherabraham.com/case-studies/consent-banner/)
 - JSON-LD, [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Schema](https://christopherabraham.com/services/schema/). *See also* [structured data](https://christopherabraham.com/site-index/#ix-structured-data)
@@ -9693,7 +10003,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Kawasaki, Guy, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Kent, Alan (Google Search Relations), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/)
 - keyword cannibalization, [Topic Clusters](https://christopherabraham.com/guides/topic-clusters/)
-- keyword research, [On-Page SEO](https://christopherabraham.com/services/on-page-seo/)
+- keyword research, [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [SEO Coaching](https://christopherabraham.com/services/seo-coaching/)
 - keyword stuffing, [Meta Keywords](https://christopherabraham.com/guides/meta-keywords/)
 - Knowledge Graph, [Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/)
 - known unknowns, [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
@@ -9722,6 +10032,7 @@ People are listed surname first. Cross-references point to related headings. For
 - LiteSpeed Cache, [Site Speed](https://christopherabraham.com/services/site-speed/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
 - Little, Ginny, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - live video call verification, [GBP Video Verification](https://christopherabraham.com/guides/gbp-video-verification/)
+- LLMO, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - llms-full.txt, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
 - llms.txt, [AI Search](https://christopherabraham.com/services/ai-search/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Guides](https://christopherabraham.com/guides/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), **[llms.txt](https://christopherabraham.com/guides/llms-txt/)**, [The Show Notes Cascade](https://christopherabraham.com/guides/show-notes-cascade/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
   - format, [llms.txt](https://christopherabraham.com/guides/llms-txt/)
@@ -9774,7 +10085,7 @@ People are listed surname first. Cross-references point to related headings. For
 - memetic lexicon, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Men Who Stare at Goats, The, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - mentions, off-site, **[Nobody Mentions You](https://christopherabraham.com/guides/nobody-mentions-you/)**. *See also* [digital PR](https://christopherabraham.com/site-index/#ix-digital-pr)
-- Merchant Center, [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/), **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**, [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/), [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/), [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/)
+- Merchant Center, [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/), **[Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)**, [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/), [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/), [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/), [Client Reviews](https://christopherabraham.com/about/reviews/)
   - free listings, [Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)
   - Needs attention tab, [Merchant Center Free Listings](https://christopherabraham.com/guides/merchant-center-free-listings/)
 
@@ -9858,6 +10169,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 - orphaned pages, [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Glossary](https://christopherabraham.com/guides/glossary/), [Event App Links](https://christopherabraham.com/case-studies/event-app-links/), [Internal Linking Strategy](https://christopherabraham.com/services/internal-linking/), [Internal Linking](https://christopherabraham.com/guides/internal-linking/), [Indexing Audit](https://christopherabraham.com/services/indexing-audit/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
 - Owens Corning, [About](https://christopherabraham.com/about/)
+- owning your website, **[Build a Website on GitHub Pages](https://christopherabraham.com/guides/github-pages-website/)**
 - Oxford Blues (film), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
@@ -9865,7 +10177,7 @@ People are listed surname first. Cross-references point to related headings. For
 ## P
 - P0 to P3 priorities, [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/)
 - Pacific Rim Productions, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- page builders, [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Site Speed](https://christopherabraham.com/services/site-speed/), [Static Websites](https://christopherabraham.com/services/static-sites/)
+- page builders, [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [Site Speed](https://christopherabraham.com/services/site-speed/), [Static Websites](https://christopherabraham.com/services/static-sites/). *See also* [website builders, hosted](https://christopherabraham.com/site-index/#ix-website-builders-hosted)
   - Avada, [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
   - Divi, [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
   - Elementor, [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
@@ -9890,8 +10202,10 @@ People are listed surname first. Cross-references point to related headings. For
 - PageSpeed Insights, [Services](https://christopherabraham.com/services/), [Site Speed](https://christopherabraham.com/services/site-speed/), [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/), [GA4 and PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/), [Colophon](https://christopherabraham.com/about/colophon/)
 - paid diagnostics, [Services](https://christopherabraham.com/services/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Local SEO](https://christopherabraham.com/services/local-seo/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/)
 - paid search, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Skills and Proof](https://christopherabraham.com/about/skills/)
+- paid search, site-side checks only, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - parameter URLs, [Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)
 - parked domains, **[Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/)**, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/)
+- Patel, Neil, [Hire Me](https://christopherabraham.com/hire-me/)
 - PDFs, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
 - peak season readiness, **[Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)**
 - pen names and nicknames, [Guides](https://christopherabraham.com/guides/), **[Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/)**
@@ -9944,6 +10258,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 ## R
 - Rank Math, [Services](https://christopherabraham.com/services/), [Schema](https://christopherabraham.com/services/schema/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/)
+- ratings below five stars, **[Client Reviews](https://christopherabraham.com/about/reviews/)**
 - Ray, Lily, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - React, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/), **[Event App Links](https://christopherabraham.com/case-studies/event-app-links/)**
 - Reddit, **[Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/)**
@@ -9978,6 +10293,7 @@ People are listed surname first. Cross-references point to related headings. For
   - employee and family reviews, [FTC Review Rule](https://christopherabraham.com/guides/ftc-review-rule/)
   - incentives, [FTC Review Rule](https://christopherabraham.com/guides/ftc-review-rule/)
   - suppression, [FTC Review Rule](https://christopherabraham.com/guides/ftc-review-rule/)
+  - Upwork client reviews, [Client Reviews](https://christopherabraham.com/about/reviews/)
 
 - RFC 7505, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/)
 - Rheingold Associates, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -10000,7 +10316,7 @@ People are listed surname first. Cross-references point to related headings. For
 - sameAs links, [AI Search](https://christopherabraham.com/services/ai-search/), [Schema](https://christopherabraham.com/services/schema/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), **[Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/)**, [Third-Party Proof](https://christopherabraham.com/guides/third-party-proof/), [Lapsed Domains](https://christopherabraham.com/guides/lapsed-domains/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
 - Sanity, [Services](https://christopherabraham.com/services/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/), **[Headless Local Business](https://christopherabraham.com/case-studies/headless-local/)**
 - scaled content abuse, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [AI Content and SEO](https://christopherabraham.com/guides/ai-content-seo/), [Glossary](https://christopherabraham.com/guides/glossary/), [Why Google Won't Index Your Site](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
-- schema markup, [AI visibility](https://christopherabraham.com/services/ai-visibility/), [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/). *See also* [structured data](https://christopherabraham.com/site-index/#ix-structured-data)
+- schema markup, [AI visibility](https://christopherabraham.com/services/ai-visibility/), [Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/), [Client Reviews](https://christopherabraham.com/about/reviews/). *See also* [structured data](https://christopherabraham.com/site-index/#ix-structured-data)
 - Schema.org, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)
 - Schema.org validator, [Schema](https://christopherabraham.com/services/schema/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)
 - Schwartz, Barry, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
@@ -10024,6 +10340,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Search Engine Journal, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - Search Engine Land, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
 - Search Engine Roundtable, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
+- search everywhere optimization, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - Search performance reporting, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - Search Status Dashboard, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - search tactics to refuse, [SEO Advice to Refuse](https://christopherabraham.com/guides/seo-advice-to-refuse/)
@@ -10031,11 +10348,13 @@ People are listed surname first. Cross-references point to related headings. For
 - seasonal retail, **[Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)**
 - seasonality, [Update Recovery 2026](https://christopherabraham.com/guides/update-recovery-2026/), [Black Friday Pages](https://christopherabraham.com/guides/black-friday-pages/), [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
 - Seasonality, [Search Console Comparisons](https://christopherabraham.com/guides/search-console-comparisons/)
+- second opinions, [Skills and Proof](https://christopherabraham.com/about/skills/), [SEO Coaching](https://christopherabraham.com/services/seo-coaching/)
 - self-serving reviews, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [FTC Review Rule](https://christopherabraham.com/guides/ftc-review-rule/)
 - Semrush, [Services](https://christopherabraham.com/services/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [AI visibility](https://christopherabraham.com/services/ai-visibility/), [The machine answers first](https://christopherabraham.com/the-machine-answers-first/)
 - Sendmail, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - SEO agencies, checking their reports, **[SEO Report Review](https://christopherabraham.com/services/seo-report-review/)**
 - SEO Browser, [The Lynx Test](https://christopherabraham.com/guides/lynx-test/)
+- SEO coaching, [Services](https://christopherabraham.com/services/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Client Reviews](https://christopherabraham.com/about/reviews/), **[SEO Coaching](https://christopherabraham.com/services/seo-coaching/)**
 - SEO news sources, **[SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)**
 - SEO plugins, switched off, **[Plugin Outage](https://christopherabraham.com/case-studies/plugin-outage/)**
 - SEO prioritization, **[SEO Priorities](https://christopherabraham.com/guides/prioritize-seo-work/)**
@@ -10045,7 +10364,7 @@ People are listed surname first. Cross-references point to related headings. For
   - what you receive, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
   - when to bring it in, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
 
-- SEO report review, **[SEO Report Review](https://christopherabraham.com/services/seo-report-review/)**
+- SEO report review, **[SEO Report Review](https://christopherabraham.com/services/seo-report-review/)**, [SEO Coaching](https://christopherabraham.com/services/seo-coaching/)
 - SEOFOMO, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 - separate tracks for separate problems, [Home](https://christopherabraham.com/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Migrations](https://christopherabraham.com/services/migrations/), [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/), [Scroll-Gated Products](https://christopherabraham.com/case-studies/scroll-gated-products/), [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), [Skills and Proof](https://christopherabraham.com/about/skills/)
 - serialized novel (Chris’), **[Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/)**
@@ -10070,7 +10389,7 @@ People are listed surname first. Cross-references point to related headings. For
   - reading competitors from answers, [AI Share of Voice](https://christopherabraham.com/guides/ai-share-of-voice/)
 
 - Shaughnessy, Haydn, [About](https://christopherabraham.com/about/)
-- Shopify, [Services](https://christopherabraham.com/services/), [Site Speed](https://christopherabraham.com/services/site-speed/), [Migrations](https://christopherabraham.com/services/migrations/), [Schema](https://christopherabraham.com/services/schema/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), **[Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)**
+- Shopify, [Services](https://christopherabraham.com/services/), [Site Speed](https://christopherabraham.com/services/site-speed/), [Migrations](https://christopherabraham.com/services/migrations/), [Schema](https://christopherabraham.com/services/schema/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), **[Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)**, [Website Builder SEO](https://christopherabraham.com/services/website-builder-seo/)
   - collaborator accounts, [Give Your SEO Access](https://christopherabraham.com/guides/give-seo-access/)
   - collection paths, [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)
   - duplicate product markup, [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)
@@ -10086,6 +10405,7 @@ People are listed surname first. Cross-references point to related headings. For
 - single page applications, [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/), [Glossary](https://christopherabraham.com/guides/glossary/). *See also* [JavaScript SEO](https://christopherabraham.com/site-index/#ix-javascript-seo)
 - Site Kit by Google, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
 - site migrations, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), **[Migrations](https://christopherabraham.com/services/migrations/)**, [Static Websites](https://christopherabraham.com/services/static-sites/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/). *See also* [301 redirects](https://christopherabraham.com/site-index/#ix-301-redirects)
+  - between hosted builders, [Website Builder SEO](https://christopherabraham.com/services/website-builder-seo/)
   - four outcomes per URL, [Clinic Migration](https://christopherabraham.com/case-studies/clinic-migration/)
   - images and PDFs, [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/), [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
   - launch day checks, [Migrations](https://christopherabraham.com/services/migrations/)
@@ -10111,14 +10431,14 @@ People are listed surname first. Cross-references point to related headings. For
 - special hours, [Peak Season Readiness](https://christopherabraham.com/services/peak-season-readiness/)
 - SPF, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/), [Lapsed Domains](https://christopherabraham.com/guides/lapsed-domains/), [Skills and Proof](https://christopherabraham.com/about/skills/). *See also* [email authentication](https://christopherabraham.com/site-index/#ix-email-authentication)
 - spoofing, [Non-Sending Domain](https://christopherabraham.com/guides/non-sending-domain/)
-- Squarespace, [Services](https://christopherabraham.com/services/), [Migrations](https://christopherabraham.com/services/migrations/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/)
+- Squarespace, [Services](https://christopherabraham.com/services/), [Migrations](https://christopherabraham.com/services/migrations/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Client Reviews](https://christopherabraham.com/about/reviews/), **[Website Builder SEO](https://christopherabraham.com/services/website-builder-seo/)**
 - SRA, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - St. Monica and St. James, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - staging sites, [Indexing](https://christopherabraham.com/services/indexing/), [Migrations](https://christopherabraham.com/services/migrations/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/), [SEO Release QA](https://christopherabraham.com/services/seo-release-qa/)
 - Stainless Communications, [About](https://christopherabraham.com/about/)
-- static websites, [Services](https://christopherabraham.com/services/), **[Static Websites](https://christopherabraham.com/services/static-sites/)**, [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/), [Colophon](https://christopherabraham.com/about/colophon/), [Launch Site](https://christopherabraham.com/services/launch-site/), [Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/)
+- static websites, [Services](https://christopherabraham.com/services/), **[Static Websites](https://christopherabraham.com/services/static-sites/)**, [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Movable Type Novel](https://christopherabraham.com/case-studies/movable-type-novel/), [Colophon](https://christopherabraham.com/about/colophon/), [Launch Site](https://christopherabraham.com/services/launch-site/), [Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/), [Build a Website on GitHub Pages](https://christopherabraham.com/guides/github-pages-website/)
 - stock photography, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- structured data, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Migrations](https://christopherabraham.com/services/migrations/), **[Schema](https://christopherabraham.com/services/schema/)**, [Fact-Checked Articles](https://christopherabraham.com/services/fact-checked-articles/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [Local SEO](https://christopherabraham.com/services/local-seo/), **[Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)**, [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/), [Closet Locations](https://christopherabraham.com/case-studies/closet-locations/). *See also* [entities](https://christopherabraham.com/site-index/#ix-entities)
+- structured data, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [Migrations](https://christopherabraham.com/services/migrations/), **[Schema](https://christopherabraham.com/services/schema/)**, [Fact-Checked Articles](https://christopherabraham.com/services/fact-checked-articles/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), [Local SEO](https://christopherabraham.com/services/local-seo/), **[Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)**, [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/), [Shopify Cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/), [Closet Locations](https://christopherabraham.com/case-studies/closet-locations/), [Website Builder SEO](https://christopherabraham.com/services/website-builder-seo/). *See also* [entities](https://christopherabraham.com/site-index/#ix-entities)
   - alternateName and additionalName, [Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/)
   - Article, BlogPosting, TechArticle type, [Schema](https://christopherabraham.com/services/schema/)
   - BreadcrumbList type, [Schema](https://christopherabraham.com/services/schema/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)
@@ -10153,6 +10473,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Tanaka, Hiroaki, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - TanStack Start, [SEO for AI-Built Websites](https://christopherabraham.com/guides/ai-built-websites/)
 - Task Force Delta, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
+- teaching SEO, [Skills and Proof](https://christopherabraham.com/about/skills/), **[SEO Coaching](https://christopherabraham.com/services/seo-coaching/)**
 - technical SEO, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/)**, [SEO Audit](https://christopherabraham.com/services/seo-audit/)
 - technical SEO audits, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[SEO Audit](https://christopherabraham.com/services/seo-audit/)**, [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [Guides](https://christopherabraham.com/guides/), **[SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/)**, [SEO Report Review](https://christopherabraham.com/services/seo-report-review/). *See also* [verifying fixes](https://christopherabraham.com/site-index/#ix-verifying-fixes)
   - deliverables, [SEO Audit](https://christopherabraham.com/services/seo-audit/)
@@ -10162,7 +10483,7 @@ People are listed surname first. Cross-references point to related headings. For
   - what to leave out, [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/)
 
 - templates, fixing at the source, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [Indexing](https://christopherabraham.com/services/indexing/), [On-Page SEO](https://christopherabraham.com/services/on-page-seo/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/)
-- testimonials, [Home](https://christopherabraham.com/), [Third-Party Proof](https://christopherabraham.com/guides/third-party-proof/), **[FTC Review Rule](https://christopherabraham.com/guides/ftc-review-rule/)**
+- testimonials, [Home](https://christopherabraham.com/), [Third-Party Proof](https://christopherabraham.com/guides/third-party-proof/), **[FTC Review Rule](https://christopherabraham.com/guides/ftc-review-rule/)**, [Client Reviews](https://christopherabraham.com/about/reviews/)
 - text browsers, [Static Websites](https://christopherabraham.com/services/static-sites/), [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/), [The Lynx Test](https://christopherabraham.com/guides/lynx-test/). *See also* [Lynx](https://christopherabraham.com/site-index/#ix-lynx)
 - The WELL, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - The Writer’s Center (Bethesda), [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -10207,13 +10528,15 @@ People are listed surname first. Cross-references point to related headings. For
 
 ## U
 - Umbraco, [Services](https://christopherabraham.com/services/)
+- Universal Analytics, [Skills and Proof](https://christopherabraham.com/about/skills/)
 - Universal Commerce Protocol, **[Selling Inside AI Assistants](https://christopherabraham.com/guides/agentic-checkout/)**, [AI Shopping Readiness](https://christopherabraham.com/services/ai-shopping-readiness/). *See also* [agentic checkout](https://christopherabraham.com/site-index/#ix-agentic-checkout)
 - University of East Anglia, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
-- University of Hawaiʻi, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
+- University of Hawaiʻi, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - University of Maryland, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - University of Oregon, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Upwork, [Home](https://christopherabraham.com/), [SEO Retainer](https://christopherabraham.com/services/seo-retainer/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Two Names, One Entity](https://christopherabraham.com/guides/two-names-one-entity/), **[Hiring an SEO](https://christopherabraham.com/guides/hiring-an-seo/)**
   - Chris’ record, [Home](https://christopherabraham.com/)
+  - client reviews quoted, [Client Reviews](https://christopherabraham.com/about/reviews/)
   - Job Success Score, [Hiring an SEO](https://christopherabraham.com/guides/hiring-an-seo/)
   - writing a posting, [Hiring an SEO](https://christopherabraham.com/guides/hiring-an-seo/)
 
@@ -10272,15 +10595,16 @@ People are listed surname first. Cross-references point to related headings. For
 - WCAG, [Accessible Websites](https://christopherabraham.com/guides/accessible-websites/), [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
 - web fonts, [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
 - WebAIM Million, [Accessibility Dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
-- Webflow, [Services](https://christopherabraham.com/services/)
+- Webflow, [Services](https://christopherabraham.com/services/), [Skills and Proof](https://christopherabraham.com/about/skills/), [Client Reviews](https://christopherabraham.com/about/reviews/), **[Website Builder SEO](https://christopherabraham.com/services/website-builder-seo/)**
 - WebP and AVIF, [Core Web Vitals](https://christopherabraham.com/guides/core-web-vitals/)
 - website archive recovery, **[Website Archive Recovery](https://christopherabraham.com/services/website-archive-recovery/)**
+- website builders, hosted, [Services](https://christopherabraham.com/services/), [Skills and Proof](https://christopherabraham.com/about/skills/), **[Website Builder SEO](https://christopherabraham.com/services/website-builder-seo/)**
 - website inquiry testing, [Website inquiry audit](https://christopherabraham.com/services/inquiry-path-audit/), **[Test website inquiries](https://christopherabraham.com/guides/test-website-inquiries/)**
 - Whisper, [Shrink Video for Transcription](https://christopherabraham.com/guides/shrink-video-for-transcription/). *See also* [transcription](https://christopherabraham.com/site-index/#ix-transcription)
 - white label services, [Buying Backlinks](https://christopherabraham.com/guides/buying-backlinks/), [Glossary](https://christopherabraham.com/guides/glossary/)
 - Wikidata, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
-- Wikipedia, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
-- Wix, [Services](https://christopherabraham.com/services/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/)
+- Wikipedia, [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Client Reviews](https://christopherabraham.com/about/reviews/)
+- Wix, [Services](https://christopherabraham.com/services/), [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Skills and Proof](https://christopherabraham.com/about/skills/), **[Website Builder SEO](https://christopherabraham.com/services/website-builder-seo/)**
 - WooCommerce, [Services](https://christopherabraham.com/services/), [Site Speed](https://christopherabraham.com/services/site-speed/), [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/), [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/), **[Plugin Outage](https://christopherabraham.com/case-studies/plugin-outage/)**
 - WordPress, [Services](https://christopherabraham.com/services/), [Site Speed](https://christopherabraham.com/services/site-speed/), **[WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)**, [Static Websites](https://christopherabraham.com/services/static-sites/), **[WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)**, [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/). *See also* [Yoast SEO](https://christopherabraham.com/site-index/#ix-yoast-seo)
   - accessibility-ready themes, [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/)
@@ -10330,4 +10654,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated November 3, 2026
+Updated November 5, 2026

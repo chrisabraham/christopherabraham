@@ -16,6 +16,10 @@ Every engagement follows the same arc: a defined question, a paid audit that ans
 - **On Upwork.** Most of my clients hire me through [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham). Engagements there run as fixed price contracts with milestones, and Upwork handles the contract, invoicing, and payment protection for both sides.
 - **Directly.** Email [cja@well.com](mailto:cja@well.com) and I'll send a written scope.
 
+## Senior help without the agency layers
+
+Every engagement is me doing the work, from the first crawl to the last verification pass, with no account manager in the middle. One recent client chose me over Neil Patel's team for that reason: they wanted direct, senior-level SEO help rather than a large-agency process. What clients have written after the work is on [client reviews](https://christopherabraham.com/about/reviews/), quoted as written.
+
 ## The process
 1. **A short conversation.** You tell me the symptom; I ask what changed, when, and who has access to what. A few emails or a [30 minute call](https://calendly.com/chrisabraham/30) is usually enough.
 2. **A written scope.** The questions the audit will answer, what you'll receive, the access I'll need, the timeline, and the price.

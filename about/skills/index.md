@@ -40,6 +40,7 @@
 - Fixed a gym whose brand name Google read as an ordinary word, which lifted calls and visits. [Training gym](https://christopherabraham.com/case-studies/training-gym/).
 - Audited how ChatGPT and Perplexity described an AI company's jobs and pay, and planned the fix. [Recruiting answers](https://christopherabraham.com/case-studies/recruiting-answers/).
 - Built JSON-LD graphs, llms.txt files, Markdown twins of every page, and full-text feeds for AI crawlers, on this site and others I run.
+- Answer to every name the work goes by: AI SEO, GEO, AEO, AIO, LLM SEO, LLMO, generative search optimization, and search everywhere optimization. Under all of them, the job is a site that Google AI Overviews, ChatGPT, Perplexity, Gemini, and Bing can crawl, understand, summarize, and cite.
 
 ## Servers, DNS, and email
 - Got my first root access on a Sun SPARCstation running Solaris, the pizza box kind, as the image lab administrator at PNI, Picture Network International.
@@ -73,9 +74,32 @@ These are habits, not tools, and they shape every engagement.
 - **I've made myself machine readable.** Two decades of publishing under one name, tied together with structured data so search engines and AI tools know the profiles belong to one person. The method is in [two names, one entity](https://christopherabraham.com/guides/two-names-one-entity/).
 - **I know how online communities behave from the inside.** I moderate a Reddit community of more than 16,000 runners and have for nine years, and Reddit threads turn up constantly in AI answers. The story is [off the clock](https://christopherabraham.com/about/off-the-clock/).
 
+## Analytics, tracking, and shopping feeds
+- Moved sites from Universal Analytics to GA4, and set up GA4 tracking for a web application alongside a WordPress migration.
+- Set up and advised on Google Merchant Center together with Search Console for online shops; the steps are in my guide to [Merchant Center free listings](https://christopherabraham.com/guides/merchant-center-free-listings/).
+- Audited a site's landing pages and conversion tracking before a paid campaign, to confirm the pages and tags worked as they should. I check the site side of paid search; I don't run the ads.
+
+## Domains and how a site shows in results
+- Folded a trading education brand's older domain into its main site with page-level redirects.
+- Put Cloudflare in front of a business's main site and its members' subdomain.
+- Took on domain repair jobs: DNS, hosting, and redirect settings checked and corrected until the domain behaved.
+- Fixed how a site appeared in Google's results: a favicon that wasn't showing and meta descriptions that weren't appearing as written.
+
+## Hosted builders
+- Audited and fixed Squarespace sites, moved one to Webflow, and kept SEO intact through another site's move to Webflow.
+- Did technical SEO for a HubSpot partner agency, and set up a Wix site's SEO from the settings out. The full service is [SEO for Squarespace, Wix, Webflow, and HubSpot](https://christopherabraham.com/services/website-builder-seo/).
+
+## Teaching and second opinions
+- Taught owners the SEO process one to one; one of them left with an on-site checklist built for their own site.
+- Run strategy calls and hour-long video consultations for owners, for agencies that bring me in on their clients' sites, and for other SEOs who want a second opinion. See [SEO coaching and consultations](https://christopherabraham.com/services/seo-coaching/).
+
+## Industries
+
+Anonymized, from my Upwork work history: ecommerce stores selling marine parts, skincare, and air filters, in the United States and Australia; medical clinics and healthcare companies; nursing education; trading education; multifamily housing; home services and emergency restoration; business travel; startups; a Canadian business; a HubSpot partner agency and other agencies that bring me in for their clients; local gyms and closet showrooms; and a theater production's video release. What those clients wrote afterward is on [client reviews](https://christopherabraham.com/about/reviews/).
+
 ## Platforms
 
-WordPress with Yoast, Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal; Squarespace; Wix; Webflow; Next.js, React, and Create React App; Sanity; Vercel, Netlify, Cloudflare, and GitHub Pages; Jekyll and hand-built Python generators; and Plone on the Zope application server, which I've run since the early 2000s.
+WordPress with Yoast, Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal; Squarespace; Wix; Webflow; HubSpot CMS; Next.js, React, and Create React App; Sanity; Vercel, Netlify, Cloudflare, and GitHub Pages; Jekyll and hand-built Python generators; and Plone on the Zope application server, which I've run since the early 2000s.
 
 ## Tools
 

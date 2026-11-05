@@ -19,8 +19,8 @@ I'm an independent SEO consultant in Arlington, Virginia, across the Potomac fro
 | Based in | Arlington, Virginia 22204, United States |
 | Specialties | Technical SEO audits, indexing, JavaScript SEO, Core Web Vitals, Cloudflare, migrations and 301 redirects, schema markup, AI search (GEO and AEO), WordPress, ecommerce, local SEO, and Umbraco and Next.js development |
 | Timeline | Web development since 1994, SEO since 1998, blogging since 1999 |
-| Upwork | [Christopher A.](https://www.upwork.com/freelancers/chrisjabraham): Top Rated, 100% Job Success, $200K+ earned, 127 jobs, 4,089 hours (as of October 2026) |
-| Education | BA in American Literature, The George Washington University; a year at the University of East Anglia in Norwich, England |
+| Upwork | [Christopher A.](https://www.upwork.com/freelancers/chrisjabraham): Top Rated, 100% Job Success, $200K+ earned, 132 jobs, 4,155 hours (as of November 2026); [client reviews](https://christopherabraham.com/about/reviews/) |
+| Education | BA in American Literature, The George Washington University; a year at the University of East Anglia in Norwich, England; French at the University of Hawaiʻi at Mānoa; German to level A2 at the Goethe-Institut |
 | Email | [cja@well.com](mailto:cja@well.com) |
 
 ## How I got here

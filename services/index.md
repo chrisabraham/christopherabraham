@@ -39,6 +39,8 @@ Every service starts from the same place: find out what search engines and AI sy
 - [Business Profile verification help](https://christopherabraham.com/services/gbp-verification/): failed video checks, locked listings, and missing owners.
 - [Local competitor recon](https://christopherabraham.com/services/local-competitor-recon/): a dated evidence table of the rival listings Google shows, with your profile beside them.
 - [Peak season readiness](https://christopherabraham.com/services/peak-season-readiness/): listings, location pages, AI answers, and measurement finished before a short selling window opens.
+- [Squarespace, Wix, Webflow, and HubSpot SEO](https://christopherabraham.com/services/website-builder-seo/): page settings, headings, redirects, schema, and moves between hosted builders.
+- [SEO coaching and consultations](https://christopherabraham.com/services/seo-coaching/): one-to-one sessions in your own Search Console and site, with written notes after each call.
 - [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): steady monitoring, fixes, and reporting from a senior consultant.
 
 ## How each service is delivered

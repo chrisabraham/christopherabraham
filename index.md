@@ -31,12 +31,12 @@ The complete list, including [schema markup](https://christopherabraham.com/serv
 
 ## My Upwork record
 
-Most clients find me as [Christopher A. on Upwork](https://www.upwork.com/freelancers/chrisjabraham), where every job, hour, and rating is on the record. Figures as of October 2026:
+Most clients find me as [Christopher A. on Upwork](https://www.upwork.com/freelancers/chrisjabraham), where every job, hour, and rating is on the record. Figures as of November 2026:
 | Job Success | 100% |
 | Badge | Top Rated |
 | Total earnings | $200K+ |
-| Jobs | 127 |
-| Hours | 4,089 |
+| Jobs | 132 |
+| Hours | 4,155 |
 | Usual reply time | 4 to 8 hours |
 
 >
@@ -53,7 +53,7 @@ Client, AI SEO and technical SEO project
 
 Locally, my verified [Google Business Profile](https://share.google/xZ98ksFq3nhO2OvuF) holds a 5.0 rating from 10 Google reviews (as of October 2026).
 
-Clients describe working with me as collaborative, committed to quality, and clearly communicated, according to Upwork's summary of my completed jobs.
+Clients describe working with me as collaborative, committed to quality, and clearly communicated, according to Upwork's summary of my completed jobs. More of their words, quoted exactly and with the lower ratings left in, are on [client reviews](https://christopherabraham.com/about/reviews/).
 
 ## Selected results
 - Found that a Magento store's product specs, FAQs, and reviews loaded only when a shopper scrolled, so Googlebot indexed 300-word shells of 1.2 MB pages. [The scroll-gated products case](https://christopherabraham.com/case-studies/scroll-gated-products/).

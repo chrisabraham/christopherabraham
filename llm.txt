@@ -31,6 +31,7 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 ## Platforms, local, and ongoing work
 
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/index.md): WordPress SEO done carefully: Yoast and Rank Math settings, theme and plugin conflicts, page builder bloat, caching, and old installs that need a steady hand.
+- [SEO for sites on Squarespace, Wix, Webflow, and HubSpot](https://christopherabraham.com/services/website-builder-seo/index.md): Technical and on-page SEO inside hosted builders: settings, redirects, schema, speed, and moves between Squarespace, Wix, Webflow, HubSpot, and Shopify.
 - [Static websites built for search](https://christopherabraham.com/services/static-sites/index.md): Static websites on GitHub Pages and Cloudflare, built with OpenAI Codex and Claude Code. Every build checks SEO, links, and copy before the site publishes.
 - [Podcast website SEO](https://christopherabraham.com/services/podcast-website/index.md): I turn a podcast feed into a fast website on your own domain, with a page per episode, transcripts, schema, share cards, and new episodes added each morning.
 - [Launch websites for a book, an album, or a new service](https://christopherabraham.com/services/launch-site/index.md): A fast, findable website for a book, album, film, or new service, on a domain you own, with search basics, share cards, and AI-readable pages from day one.
@@ -40,6 +41,7 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 - [Google Business Profile verification help](https://christopherabraham.com/services/gbp-verification/index.md): Help for Business Profiles that won't verify: failed video checks, listings nobody can edit, missing owners, and service-area setups Google keeps questioning.
 - [Local competitor recon](https://christopherabraham.com/services/local-competitor-recon/index.md): A structured pull of the Google listings you compete with: categories, ratings, reviews, addresses, hours, and websites, set beside your own profile.
 - [Peak season readiness](https://christopherabraham.com/services/peak-season-readiness/index.md): For businesses that earn most of the year in a few weeks: listings, location pages, AI answers, and tracking made ready well before the rush starts.
+- [SEO coaching and consultations](https://christopherabraham.com/services/seo-coaching/index.md): One-to-one SEO coaching, strategy calls, and second opinions on video, inside your own Search Console and website, with a written follow-up after every session.
 - [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/index.md): A monthly SEO retainer with a senior consultant: monitoring, hands on fixes, developer QA, AI search checks, and a plain-English report every month.
 
 ## Guides
@@ -139,6 +141,7 @@ Every engagement starts with a scoped, paid audit or diagnostic. Contact: cja@we
 - [How these pages are written and checked](https://christopherabraham.com/about/editorial-policy/index.md): The standards behind this site: firsthand experience, primary sources, how AI tools are used and checked, anonymized clients, corrections, no paid placements.
 - [Colophon](https://christopherabraham.com/about/colophon/index.md): How christopherabraham.com is made: handwritten HTML, a small Python generator with strict checks, GitHub Pages, Cloudflare, accessible colors, Lynx testing.
 - [Contact Christopher Abraham](https://christopherabraham.com/contact/index.md): Email Christopher Abraham at cja@well.com or call or text him with your site address and the problem. Hire him on Upwork or directly for a scoped audit.
+- [What Upwork clients wrote about my SEO work](https://christopherabraham.com/about/reviews/index.md): What Upwork clients wrote after schema, audit, local SEO, Search Console, and migration projects, quoted word for word, with the lower ratings left in view.
 - [Site map](https://christopherabraham.com/sitemap/index.md): Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.
 - [Index](https://christopherabraham.com/site-index/index.md): A back of the book index to christopherabraham.com: every person, tool, platform, and SEO problem the pages cover, listed A to Z with links to each page.
 

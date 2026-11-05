@@ -27,7 +27,8 @@
     "services/static-sites",
     "guides",
     "guides/redirect-rules",
-    "services/website-archive-recovery"
+    "services/website-archive-recovery",
+    "services/website-builder-seo"
    ],
    "subs": {
     "inventory first": [
@@ -320,6 +321,24 @@
    "see": [],
    "main": []
   },
+  "access for an outside SEO": {
+   "kind": "topic",
+   "pages": [
+    "guides/give-seo-access"
+   ],
+   "subs": {
+    "offboarding": [
+     "guides/give-seo-access"
+    ],
+    "shared passwords, risks of": [
+     "guides/give-seo-access"
+    ]
+   },
+   "see": [],
+   "main": [
+    "guides/give-seo-access"
+   ]
+  },
   "accessibility": {
    "kind": "topic",
    "pages": [
@@ -416,7 +435,8 @@
     "home",
     "services/sitewide-technical-seo",
     "services/ai-search",
-    "services/ai-visibility"
+    "services/ai-visibility",
+    "about/skills"
    ],
    "subs": {},
    "see": [
@@ -438,7 +458,9 @@
    "kind": "topic",
    "pages": [
     "services/ai-search",
-    "services/seo-retainer"
+    "services/seo-retainer",
+    "services/seo-coaching",
+    "about/skills"
    ],
    "subs": {},
    "see": [],
@@ -452,6 +474,41 @@
     "SEO report review"
    ],
    "main": []
+  },
+  "agentic checkout": {
+   "kind": "topic",
+   "pages": [
+    "guides/agentic-checkout",
+    "services/ai-shopping-readiness"
+   ],
+   "subs": {
+    "OpenAI Instant Checkout": [
+     "guides/agentic-checkout"
+    ],
+    "Universal Commerce Protocol": [
+     "guides/agentic-checkout"
+    ],
+    "what to do now": [
+     "guides/agentic-checkout"
+    ]
+   },
+   "see": [],
+   "main": [
+    "guides/agentic-checkout"
+   ]
+  },
+  "Agentic Commerce Protocol": {
+   "kind": "topic",
+   "pages": [
+    "guides/agentic-checkout"
+   ],
+   "subs": {},
+   "see": [
+    "agentic checkout"
+   ],
+   "main": [
+    "guides/agentic-checkout"
+   ]
   },
   "Ahrefs": {
    "kind": "topic",
@@ -579,6 +636,30 @@
    "see": [],
    "main": []
   },
+  "AI Mode bookings": {
+   "kind": "topic",
+   "pages": [
+    "guides/ai-mode-bookings"
+   ],
+   "subs": {
+    "restaurants": [
+     "guides/ai-mode-bookings"
+    ],
+    "local appointments": [
+     "guides/ai-mode-bookings"
+    ],
+    "event tickets": [
+     "guides/ai-mode-bookings"
+    ],
+    "testing": [
+     "guides/ai-mode-bookings"
+    ]
+   },
+   "see": [],
+   "main": [
+    "guides/ai-mode-bookings"
+   ]
+  },
   "AI Overviews": {
    "kind": "topic",
    "pages": [
@@ -609,7 +690,8 @@
     "case-studies/recruiting-answers",
     "case-studies/ai-visibility-baseline",
     "services/ai-visibility",
-    "the-machine-answers-first"
+    "the-machine-answers-first",
+    "services/seo-coaching"
    ],
    "subs": {
     "crawler access": [
@@ -1265,6 +1347,15 @@
     "guides/black-friday-pages"
    ]
   },
+  "black hat SEO": {
+   "kind": "topic",
+   "pages": [
+    "guides/seo-advice-to-refuse"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "blogger outreach": {
    "kind": "topic",
    "pages": [
@@ -1699,6 +1790,17 @@
    ],
    "main": []
   },
+  "client reviews (Upwork)": {
+   "kind": "topic",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "about/reviews"
+   ]
+  },
   "client-side rendering": {
    "kind": "topic",
    "pages": [
@@ -1742,7 +1844,8 @@
     "guides/non-sending-domain",
     "guides/cloudflare-wordpress",
     "guides/wordpress-seo-101",
-    "about/colophon"
+    "about/colophon",
+    "about/skills"
    ],
    "subs": {
     "bot settings": [
@@ -1791,7 +1894,8 @@
      "guides/cloudflare-wordpress"
     ],
     "Registrar": [
-     "guides/cloudflare-wordpress"
+     "guides/cloudflare-wordpress",
+     "guides/github-pages-website"
     ]
    },
    "see": [
@@ -1809,6 +1913,15 @@
    ],
    "subs": {},
    "see": [],
+   "main": []
+  },
+  "coaching": {
+   "kind": "topic",
+   "pages": [],
+   "subs": {},
+   "see": [
+    "SEO coaching"
+   ],
    "main": []
   },
   "Codex": {
@@ -1844,6 +1957,19 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "collaborator account (Shopify)": {
+   "kind": "topic",
+   "pages": [
+    "guides/give-seo-access"
+   ],
+   "subs": {},
+   "see": [
+    "Shopify"
+   ],
+   "main": [
+    "guides/give-seo-access"
+   ]
   },
   "colophon": {
    "kind": "topic",
@@ -1960,6 +2086,19 @@
     "case-studies/consent-banner"
    ]
   },
+  "consultations and strategy calls": {
+   "kind": "topic",
+   "pages": [
+    "services/seo-coaching",
+    "about/skills",
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/seo-coaching"
+   ]
+  },
   "contrast": {
    "kind": "topic",
    "pages": [
@@ -2010,7 +2149,8 @@
     "services/search-console",
     "services/seo-retainer",
     "guides",
-    "guides/core-web-vitals"
+    "guides/core-web-vitals",
+    "services/website-builder-seo"
    ],
    "subs": {
     "LCP, INP, and CLS": [
@@ -2193,6 +2333,19 @@
    "see": [],
    "main": []
   },
+  "delegated owner (Search Console)": {
+   "kind": "topic",
+   "pages": [
+    "guides/give-seo-access"
+   ],
+   "subs": {},
+   "see": [
+    "Google Search Console"
+   ],
+   "main": [
+    "guides/give-seo-access"
+   ]
+  },
   "DemandSphere": {
    "kind": "topic",
    "pages": [
@@ -2365,12 +2518,31 @@
    "see": [],
    "main": []
   },
+  "DNS records": {
+   "kind": "topic",
+   "pages": [
+    "guides/github-pages-website"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "domain repair": {
+   "kind": "topic",
+   "pages": [
+    "about/skills"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "Drupal": {
    "kind": "topic",
    "pages": [
     "services",
     "about",
-    "about/skills"
+    "about/skills",
+    "about/reviews"
    ],
    "subs": {},
    "see": [],
@@ -2523,6 +2695,17 @@
     "guides/non-sending-domain"
    ]
   },
+  "endorsements, Upwork": {
+   "kind": "topic",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "about/reviews"
+   ]
+  },
   "entities": {
    "kind": "topic",
    "pages": [
@@ -2651,6 +2834,15 @@
     "guides/buying-backlinks"
    ]
   },
+  "favicons in search results": {
+   "kind": "topic",
+   "pages": [
+    "about/skills"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "fetchpriority": {
    "kind": "topic",
    "pages": [
@@ -2659,6 +2851,30 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "ffmpeg": {
+   "kind": "tool",
+   "pages": [
+    "guides/shrink-video-for-transcription"
+   ],
+   "subs": {
+    "audio extraction for transcription": [
+     "guides/shrink-video-for-transcription"
+    ],
+    "batch conversion": [
+     "guides/shrink-video-for-transcription"
+    ],
+    "splitting long files": [
+     "guides/shrink-video-for-transcription"
+    ],
+    "trimming a recording": [
+     "guides/shrink-video-for-transcription"
+    ]
+   },
+   "see": [],
+   "main": [
+    "guides/shrink-video-for-transcription"
+   ]
   },
   "firewalls": {
    "kind": "topic",
@@ -2727,6 +2943,15 @@
    ],
    "main": []
   },
+  "French": {
+   "kind": "topic",
+   "pages": [
+    "about"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "FTC Endorsement Guides": {
    "kind": "topic",
    "pages": [
@@ -2755,7 +2980,8 @@
     "services",
     "services/search-console",
     "services/ai-search",
-    "guides/ga4-pagespeed"
+    "guides/ga4-pagespeed",
+    "about/skills"
    ],
    "subs": {
     "AI assistant referrals": [
@@ -2843,7 +3069,8 @@
    "pages": [
     "home",
     "services/sitewide-technical-seo",
-    "services/ai-search"
+    "services/ai-search",
+    "about/skills"
    ],
    "subs": {},
    "see": [
@@ -2867,6 +3094,15 @@
     "guides/earned-mentions",
     "about",
     "about/off-the-clock"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "German": {
+   "kind": "topic",
+   "pages": [
+    "about"
    ],
    "subs": {},
    "see": [],
@@ -2940,7 +3176,8 @@
     "services/podcast-website",
     "guides/redirect-rules",
     "about/colophon",
-    "privacy"
+    "privacy",
+    "guides/github-pages-website"
    ],
    "subs": {
     "custom domains and HTTPS": [
@@ -2948,7 +3185,9 @@
     ]
    },
    "see": [],
-   "main": []
+   "main": [
+    "guides/github-pages-website"
+   ]
   },
   "GitLab": {
    "kind": "topic",
@@ -2982,7 +3221,8 @@
   "Goethe-Institut": {
    "kind": "topic",
    "pages": [
-    "about/off-the-clock"
+    "about/off-the-clock",
+    "about"
    ],
    "subs": {},
    "see": [],
@@ -3050,7 +3290,8 @@
     "services/gbp-verification",
     "guides/apple-and-bing-listings",
     "guides/ftc-review-rule",
-    "guides/ai-mode-bookings"
+    "guides/ai-mode-bookings",
+    "about/reviews"
    ],
    "subs": {
     "suspensions and appeals": [
@@ -3161,7 +3402,8 @@
     "guides/disavow-links",
     "guides/xml-sitemaps",
     "services/indexing-audit",
-    "guides/why-google-wont-index-your-site"
+    "guides/why-google-wont-index-your-site",
+    "services/seo-coaching"
    ],
    "subs": {
     "lost access, recovering": [
@@ -3633,6 +3875,19 @@
    "see": [],
    "main": []
   },
+  "HubSpot": {
+   "kind": "topic",
+   "pages": [
+    "services/website-builder-seo",
+    "about/skills",
+    "services"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/website-builder-seo"
+   ]
+  },
   "Hudson racing single": {
    "kind": "topic",
    "pages": [
@@ -3721,6 +3976,55 @@
     "guides/why-google-wont-index-your-site"
    ]
   },
+  "indexing audits": {
+   "kind": "topic",
+   "pages": [
+    "services/indexing-audit",
+    "guides/why-google-wont-index-your-site"
+   ],
+   "subs": {
+    "what the audit covers": [
+     "services/indexing-audit"
+    ],
+    "blocked versus declined pages": [
+     "services/indexing-audit",
+     "guides/why-google-wont-index-your-site"
+    ],
+    "the fix list": [
+     "services/indexing-audit"
+    ]
+   },
+   "see": [
+    "indexing"
+   ],
+   "main": [
+    "services/indexing-audit"
+   ]
+  },
+  "indexing diagnosis": {
+   "kind": "topic",
+   "pages": [
+    "guides/why-google-wont-index-your-site",
+    "services/indexing-audit"
+   ],
+   "subs": {
+    "coverage states first": [
+     "guides/why-google-wont-index-your-site"
+    ],
+    "programmatic sites": [
+     "guides/why-google-wont-index-your-site"
+    ],
+    "pruning weak pages": [
+     "guides/why-google-wont-index-your-site"
+    ]
+   },
+   "see": [
+    "indexing audits"
+   ],
+   "main": [
+    "guides/why-google-wont-index-your-site"
+   ]
+  },
   "IndexNow": {
    "kind": "topic",
    "pages": [
@@ -3741,6 +4045,17 @@
    },
    "see": [],
    "main": []
+  },
+  "industries served": {
+   "kind": "topic",
+   "pages": [
+    "about/skills"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "about/skills"
+   ]
   },
   "internal links": {
    "kind": "topic",
@@ -3852,6 +4167,17 @@
    "see": [],
    "main": []
   },
+  "Job Success Score": {
+   "kind": "topic",
+   "pages": [
+    "about/reviews",
+    "home",
+    "about"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "John Mueller": {
    "kind": "person",
    "pages": [
@@ -3949,7 +4275,8 @@
   "keyword research": {
    "kind": "topic",
    "pages": [
-    "services/on-page-seo"
+    "services/on-page-seo",
+    "services/seo-coaching"
    ],
    "subs": {},
    "see": [],
@@ -4133,6 +4460,15 @@
    "kind": "topic",
    "pages": [
     "guides/llms-txt"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "LLMO": {
+   "kind": "topic",
+   "pages": [
+    "about/skills"
    ],
    "subs": {},
    "see": [],
@@ -4482,6 +4818,19 @@
    "see": [],
    "main": []
   },
+  "mentions, off-site": {
+   "kind": "topic",
+   "pages": [
+    "guides/nobody-mentions-you"
+   ],
+   "subs": {},
+   "see": [
+    "digital PR"
+   ],
+   "main": [
+    "guides/nobody-mentions-you"
+   ]
+  },
   "Merchant Center": {
    "kind": "topic",
    "pages": [
@@ -4491,7 +4840,9 @@
     "guides/black-friday-pages",
     "services/peak-season-readiness",
     "guides/agentic-checkout",
-    "services/ai-shopping-readiness"
+    "services/ai-shopping-readiness",
+    "about/reviews",
+    "about/skills"
    ],
    "subs": {
     "free listings": [
@@ -5014,6 +5365,21 @@
    "see": [],
    "main": []
   },
+  "Opus audio codec": {
+   "kind": "tool",
+   "pages": [
+    "guides/shrink-video-for-transcription"
+   ],
+   "subs": {
+    "speech bitrates": [
+     "guides/shrink-video-for-transcription"
+    ]
+   },
+   "see": [
+    "ffmpeg"
+   ],
+   "main": []
+  },
   "original research": {
    "kind": "topic",
    "pages": [
@@ -5069,6 +5435,17 @@
    "see": [],
    "main": []
   },
+  "owning your website": {
+   "kind": "topic",
+   "pages": [
+    "guides/github-pages-website"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "guides/github-pages-website"
+   ]
+  },
   "Oxford Blues (film)": {
    "kind": "topic",
    "pages": [
@@ -5118,7 +5495,9 @@
      "services/wordpress-seo"
     ]
    },
-   "see": [],
+   "see": [
+    "website builders, hosted"
+   ],
    "main": []
   },
   "Page indexing report": {
@@ -5227,6 +5606,15 @@
    "see": [],
    "main": []
   },
+  "paid search, site-side checks only": {
+   "kind": "topic",
+   "pages": [
+    "about/skills"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "parameter URLs": {
    "kind": "topic",
    "pages": [
@@ -5247,6 +5635,15 @@
    "main": [
     "guides/parked-domain-launch"
    ]
+  },
+  "Patel, Neil": {
+   "kind": "person",
+   "pages": [
+    "hire-me"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
   },
   "PDFs": {
    "kind": "topic",
@@ -5524,15 +5921,6 @@
    "see": [],
    "main": []
   },
-  "Products": {
-   "kind": "topic",
-   "pages": [
-    "products"
-   ],
-   "subs": {},
-   "see": [],
-   "main": []
-  },
   "prerendering": {
    "kind": "topic",
    "pages": [
@@ -5542,6 +5930,19 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "primary owner (Business Profile)": {
+   "kind": "topic",
+   "pages": [
+    "guides/give-seo-access"
+   ],
+   "subs": {},
+   "see": [
+    "Google Business Profile"
+   ],
+   "main": [
+    "guides/give-seo-access"
+   ]
   },
   "privacy": {
    "kind": "topic",
@@ -5566,6 +5967,15 @@
    "main": [
     "guides/merchant-center-free-listings"
    ]
+  },
+  "Products": {
+   "kind": "topic",
+   "pages": [
+    "products"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
   },
   "programmatic SEO": {
    "kind": "topic",
@@ -5679,6 +6089,17 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "ratings below five stars": {
+   "kind": "topic",
+   "pages": [
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "about/reviews"
+   ]
   },
   "Ray, Lily": {
    "kind": "person",
@@ -5845,6 +6266,20 @@
    "see": [],
    "main": []
   },
+  "reputation provenance": {
+   "kind": "topic",
+   "pages": [
+    "guides/who-wrote-your-reputation"
+   ],
+   "subs": {},
+   "see": [
+    "online reputation management",
+    "mentions, off-site"
+   ],
+   "main": [
+    "guides/who-wrote-your-reputation"
+   ]
+  },
   "Reputation.com": {
    "kind": "topic",
    "pages": [
@@ -5853,6 +6288,19 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "reservation platforms": {
+   "kind": "topic",
+   "pages": [
+    "guides/ai-mode-bookings"
+   ],
+   "subs": {},
+   "see": [
+    "AI Mode bookings"
+   ],
+   "main": [
+    "guides/ai-mode-bookings"
+   ]
   },
   "responsive images": {
    "kind": "topic",
@@ -5915,13 +6363,18 @@
     ],
     "suppression": [
      "guides/ftc-review-rule"
+    ],
+    "Upwork client reviews": [
+     "about/reviews"
     ]
    },
    "see": [
     "fake reviews",
     "self-serving reviews"
    ],
-   "main": []
+   "main": [
+    "about/reviews"
+   ]
   },
   "RFC 7505": {
    "kind": "topic",
@@ -6100,7 +6553,8 @@
    "kind": "topic",
    "pages": [
     "services/ai-visibility",
-    "guides/agentic-checkout"
+    "guides/agentic-checkout",
+    "about/reviews"
    ],
    "subs": {},
    "see": [
@@ -6263,6 +6717,15 @@
    "see": [],
    "main": []
   },
+  "search everywhere optimization": {
+   "kind": "topic",
+   "pages": [
+    "about/skills"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
   "Search performance reporting": {
    "kind": "topic",
    "pages": [
@@ -6277,6 +6740,15 @@
    "pages": [
     "guides/update-recovery-2026",
     "guides/seo-news-sources"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "search tactics to refuse": {
+   "kind": "topic",
+   "pages": [
+    "guides/seo-advice-to-refuse"
    ],
    "subs": {},
    "see": [],
@@ -6320,6 +6792,16 @@
    "kind": "topic",
    "pages": [
     "guides/search-console-comparisons"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "second opinions": {
+   "kind": "topic",
+   "pages": [
+    "services/seo-coaching",
+    "about/skills"
    ],
    "subs": {},
    "see": [],
@@ -6376,6 +6858,20 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "SEO coaching": {
+   "kind": "topic",
+   "pages": [
+    "services/seo-coaching",
+    "services",
+    "about/skills",
+    "about/reviews"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/seo-coaching"
+   ]
   },
   "SEO news sources": {
    "kind": "topic",
@@ -6437,7 +6933,8 @@
   "SEO report review": {
    "kind": "topic",
    "pages": [
-    "services/seo-report-review"
+    "services/seo-report-review",
+    "services/seo-coaching"
    ],
    "subs": {},
    "see": [],
@@ -6605,7 +7102,8 @@
     "services/migrations",
     "guides/small-business-schema",
     "guides/redirect-rules",
-    "case-studies/shopify-cleanup"
+    "case-studies/shopify-cleanup",
+    "services/website-builder-seo"
    ],
    "subs": {
     "duplicate product markup": [
@@ -6727,6 +7225,9 @@
     "images and PDFs": [
      "guides/media-migration",
      "services/seo-release-qa"
+    ],
+    "between hosted builders": [
+     "services/website-builder-seo"
     ]
    },
    "see": [
@@ -6903,11 +7404,16 @@
     "services",
     "services/migrations",
     "guides/small-business-schema",
-    "case-studies/shopify-cleanup"
+    "case-studies/shopify-cleanup",
+    "about/reviews",
+    "services/website-builder-seo",
+    "about/skills"
    ],
    "subs": {},
    "see": [],
-   "main": []
+   "main": [
+    "services/website-builder-seo"
+   ]
   },
   "SRA": {
    "kind": "topic",
@@ -6958,7 +7464,8 @@
     "case-studies/movable-type-novel",
     "about/colophon",
     "services/launch-site",
-    "services/website-archive-recovery"
+    "services/website-archive-recovery",
+    "guides/github-pages-website"
    ],
    "subs": {},
    "see": [],
@@ -6991,7 +7498,8 @@
     "guides/two-names-one-entity",
     "guides/correct-ai-answers",
     "case-studies/shopify-cleanup",
-    "case-studies/closet-locations"
+    "case-studies/closet-locations",
+    "services/website-builder-seo"
    ],
    "subs": {
     "common mistakes": [
@@ -7148,6 +7656,18 @@
    "see": [],
    "main": []
   },
+  "teaching SEO": {
+   "kind": "topic",
+   "pages": [
+    "services/seo-coaching",
+    "about/skills"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/seo-coaching"
+   ]
+  },
   "technical SEO": {
    "kind": "topic",
    "pages": [
@@ -7215,7 +7735,8 @@
    "pages": [
     "home",
     "guides/third-party-proof",
-    "guides/ftc-review-rule"
+    "guides/ftc-review-rule",
+    "about/reviews"
    ],
    "subs": {},
    "see": [],
@@ -7424,6 +7945,27 @@
    "see": [],
    "main": []
   },
+  "transcription": {
+   "kind": "topic",
+   "pages": [
+    "guides/shrink-video-for-transcription"
+   ],
+   "subs": {
+    "preparing audio": [
+     "guides/shrink-video-for-transcription"
+    ],
+    "upload size caps": [
+     "guides/shrink-video-for-transcription"
+    ]
+   },
+   "see": [
+    "ffmpeg",
+    "Whisper"
+   ],
+   "main": [
+    "guides/shrink-video-for-transcription"
+   ]
+  },
   "Treasury Department": {
    "kind": "topic",
    "pages": [
@@ -7461,6 +8003,29 @@
    "see": [],
    "main": []
   },
+  "Universal Analytics": {
+   "kind": "topic",
+   "pages": [
+    "about/skills"
+   ],
+   "subs": {},
+   "see": [],
+   "main": []
+  },
+  "Universal Commerce Protocol": {
+   "kind": "topic",
+   "pages": [
+    "guides/agentic-checkout",
+    "services/ai-shopping-readiness"
+   ],
+   "subs": {},
+   "see": [
+    "agentic checkout"
+   ],
+   "main": [
+    "guides/agentic-checkout"
+   ]
+  },
   "University of East Anglia": {
    "kind": "topic",
    "pages": [
@@ -7474,7 +8039,8 @@
   "University of Hawaiʻi": {
    "kind": "topic",
    "pages": [
-    "about/off-the-clock"
+    "about/off-the-clock",
+    "about"
    ],
    "subs": {},
    "see": [],
@@ -7516,11 +8082,15 @@
     ],
     "writing a posting": [
      "guides/hiring-an-seo"
+    ],
+    "client reviews quoted": [
+     "about/reviews"
     ]
    },
    "see": [],
    "main": [
-    "guides/hiring-an-seo"
+    "guides/hiring-an-seo",
+    "about/reviews"
    ]
   },
   "urban.net": {
@@ -7531,6 +8101,19 @@
    "subs": {},
    "see": [],
    "main": []
+  },
+  "URL Inspection": {
+   "kind": "tool",
+   "pages": [
+    "services/indexing-audit"
+   ],
+   "subs": {},
+   "see": [
+    "Google Search Console"
+   ],
+   "main": [
+    "services/indexing-audit"
+   ]
   },
   "URL preservation": {
    "kind": "topic",
@@ -7859,11 +8442,16 @@
   "Webflow": {
    "kind": "topic",
    "pages": [
-    "services"
+    "services",
+    "about/reviews",
+    "services/website-builder-seo",
+    "about/skills"
    ],
    "subs": {},
    "see": [],
-   "main": []
+   "main": [
+    "services/website-builder-seo"
+   ]
   },
   "WebP and AVIF": {
    "kind": "topic",
@@ -7885,6 +8473,19 @@
     "services/website-archive-recovery"
    ]
   },
+  "website builders, hosted": {
+   "kind": "topic",
+   "pages": [
+    "services/website-builder-seo",
+    "about/skills",
+    "services"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "services/website-builder-seo"
+   ]
+  },
   "website inquiry testing": {
    "kind": "topic",
    "pages": [
@@ -7896,6 +8497,17 @@
    "main": [
     "guides/test-website-inquiries"
    ]
+  },
+  "Whisper": {
+   "kind": "tool",
+   "pages": [
+    "guides/shrink-video-for-transcription"
+   ],
+   "subs": {},
+   "see": [
+    "transcription"
+   ],
+   "main": []
   },
   "white label services": {
    "kind": "topic",
@@ -7919,7 +8531,8 @@
   "Wikipedia": {
    "kind": "topic",
    "pages": [
-    "guides/ai-search-checklist"
+    "guides/ai-search-checklist",
+    "about/reviews"
    ],
    "subs": {},
    "see": [],
@@ -7929,11 +8542,15 @@
    "kind": "topic",
    "pages": [
     "services",
-    "guides/small-business-schema"
+    "guides/small-business-schema",
+    "services/website-builder-seo",
+    "about/skills"
    ],
    "subs": {},
    "see": [],
-   "main": []
+   "main": [
+    "services/website-builder-seo"
+   ]
   },
   "WooCommerce": {
    "kind": "topic",
@@ -8153,327 +8770,6 @@
    "subs": {},
    "see": [],
    "main": []
-  },
-  "black hat SEO": {
-   "kind": "topic",
-   "pages": [
-    "guides/seo-advice-to-refuse"
-   ],
-   "subs": {},
-   "see": [],
-   "main": []
-  },
-  "search tactics to refuse": {
-   "kind": "topic",
-   "pages": [
-    "guides/seo-advice-to-refuse"
-   ],
-   "subs": {},
-   "see": [],
-   "main": []
-  },
-  "mentions, off-site": {
-   "kind": "topic",
-   "pages": [
-    "guides/nobody-mentions-you"
-   ],
-   "subs": {},
-   "see": [
-    "digital PR"
-   ],
-   "main": [
-    "guides/nobody-mentions-you"
-   ]
-  },
-  "reputation provenance": {
-   "kind": "topic",
-   "pages": [
-    "guides/who-wrote-your-reputation"
-   ],
-   "subs": {},
-   "see": [
-    "online reputation management",
-    "mentions, off-site"
-   ],
-   "main": [
-    "guides/who-wrote-your-reputation"
-   ]
-  },
-  "agentic checkout": {
-   "kind": "topic",
-   "pages": [
-    "guides/agentic-checkout",
-    "services/ai-shopping-readiness"
-   ],
-   "subs": {
-    "OpenAI Instant Checkout": [
-     "guides/agentic-checkout"
-    ],
-    "Universal Commerce Protocol": [
-     "guides/agentic-checkout"
-    ],
-    "what to do now": [
-     "guides/agentic-checkout"
-    ]
-   },
-   "see": [],
-   "main": [
-    "guides/agentic-checkout"
-   ]
-  },
-  "Agentic Commerce Protocol": {
-   "kind": "topic",
-   "pages": [
-    "guides/agentic-checkout"
-   ],
-   "subs": {},
-   "see": [
-    "agentic checkout"
-   ],
-   "main": [
-    "guides/agentic-checkout"
-   ]
-  },
-  "Universal Commerce Protocol": {
-   "kind": "topic",
-   "pages": [
-    "guides/agentic-checkout",
-    "services/ai-shopping-readiness"
-   ],
-   "subs": {},
-   "see": [
-    "agentic checkout"
-   ],
-   "main": [
-    "guides/agentic-checkout"
-   ]
-  },
-  "AI Mode bookings": {
-   "kind": "topic",
-   "pages": [
-    "guides/ai-mode-bookings"
-   ],
-   "subs": {
-    "restaurants": [
-     "guides/ai-mode-bookings"
-    ],
-    "local appointments": [
-     "guides/ai-mode-bookings"
-    ],
-    "event tickets": [
-     "guides/ai-mode-bookings"
-    ],
-    "testing": [
-     "guides/ai-mode-bookings"
-    ]
-   },
-   "see": [],
-   "main": [
-    "guides/ai-mode-bookings"
-   ]
-  },
-  "reservation platforms": {
-   "kind": "topic",
-   "pages": [
-    "guides/ai-mode-bookings"
-   ],
-   "subs": {},
-   "see": [
-    "AI Mode bookings"
-   ],
-   "main": [
-    "guides/ai-mode-bookings"
-   ]
-  },
-  "access for an outside SEO": {
-   "kind": "topic",
-   "pages": [
-    "guides/give-seo-access"
-   ],
-   "subs": {
-    "offboarding": [
-     "guides/give-seo-access"
-    ],
-    "shared passwords, risks of": [
-     "guides/give-seo-access"
-    ]
-   },
-   "see": [],
-   "main": [
-    "guides/give-seo-access"
-   ]
-  },
-  "collaborator account (Shopify)": {
-   "kind": "topic",
-   "pages": [
-    "guides/give-seo-access"
-   ],
-   "subs": {},
-   "see": [
-    "Shopify"
-   ],
-   "main": [
-    "guides/give-seo-access"
-   ]
-  },
-  "primary owner (Business Profile)": {
-   "kind": "topic",
-   "pages": [
-    "guides/give-seo-access"
-   ],
-   "subs": {},
-   "see": [
-    "Google Business Profile"
-   ],
-   "main": [
-    "guides/give-seo-access"
-   ]
-  },
-  "delegated owner (Search Console)": {
-   "kind": "topic",
-   "pages": [
-    "guides/give-seo-access"
-   ],
-   "subs": {},
-   "see": [
-    "Google Search Console"
-   ],
-   "main": [
-    "guides/give-seo-access"
-   ]
-  },
-  "ffmpeg": {
-   "kind": "tool",
-   "pages": [
-    "guides/shrink-video-for-transcription"
-   ],
-   "subs": {
-    "audio extraction for transcription": [
-     "guides/shrink-video-for-transcription"
-    ],
-    "batch conversion": [
-     "guides/shrink-video-for-transcription"
-    ],
-    "splitting long files": [
-     "guides/shrink-video-for-transcription"
-    ],
-    "trimming a recording": [
-     "guides/shrink-video-for-transcription"
-    ]
-   },
-   "see": [],
-   "main": [
-    "guides/shrink-video-for-transcription"
-   ]
-  },
-  "transcription": {
-   "kind": "topic",
-   "pages": [
-    "guides/shrink-video-for-transcription"
-   ],
-   "subs": {
-    "preparing audio": [
-     "guides/shrink-video-for-transcription"
-    ],
-    "upload size caps": [
-     "guides/shrink-video-for-transcription"
-    ]
-   },
-   "see": [
-    "ffmpeg",
-    "Whisper"
-   ],
-   "main": [
-    "guides/shrink-video-for-transcription"
-   ]
-  },
-  "Whisper": {
-   "kind": "tool",
-   "pages": [
-    "guides/shrink-video-for-transcription"
-   ],
-   "subs": {},
-   "see": [
-    "transcription"
-   ],
-   "main": []
-  },
-  "Opus audio codec": {
-   "kind": "tool",
-   "pages": [
-    "guides/shrink-video-for-transcription"
-   ],
-   "subs": {
-    "speech bitrates": [
-     "guides/shrink-video-for-transcription"
-    ]
-   },
-   "see": [
-    "ffmpeg"
-   ],
-   "main": []
-  }  ,
-  "indexing audits": {
-   "kind": "topic",
-   "pages": [
-    "services/indexing-audit",
-    "guides/why-google-wont-index-your-site"
-   ],
-   "subs": {
-    "what the audit covers": [
-     "services/indexing-audit"
-    ],
-    "blocked versus declined pages": [
-     "services/indexing-audit",
-     "guides/why-google-wont-index-your-site"
-    ],
-    "the fix list": [
-     "services/indexing-audit"
-    ]
-   },
-   "see": [
-    "indexing"
-   ],
-   "main": [
-    "services/indexing-audit"
-   ]
-  },
-  "indexing diagnosis": {
-   "kind": "topic",
-   "pages": [
-    "guides/why-google-wont-index-your-site",
-    "services/indexing-audit"
-   ],
-   "subs": {
-    "coverage states first": [
-     "guides/why-google-wont-index-your-site"
-    ],
-    "programmatic sites": [
-     "guides/why-google-wont-index-your-site"
-    ],
-    "pruning weak pages": [
-     "guides/why-google-wont-index-your-site"
-    ]
-   },
-   "see": [
-    "indexing audits"
-   ],
-   "main": [
-    "guides/why-google-wont-index-your-site"
-   ]
-  },
-  "URL Inspection": {
-   "kind": "tool",
-   "pages": [
-    "services/indexing-audit"
-   ],
-   "subs": {},
-   "see": [
-    "Google Search Console"
-   ],
-   "main": [
-    "services/indexing-audit"
-   ]
   }
  },
  "reviewed": [
@@ -8602,6 +8898,10 @@
   "guides/give-seo-access",
   "guides/shrink-video-for-transcription",
   "services/indexing-audit",
-  "guides/why-google-wont-index-your-site"
+  "guides/why-google-wont-index-your-site",
+  "about/reviews",
+  "services/seo-coaching",
+  "services/website-builder-seo",
+  "guides/github-pages-website"
  ]
 }
