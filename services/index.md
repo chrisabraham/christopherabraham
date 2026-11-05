@@ -1,6 +1,6 @@
 > SEO and website services: audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search, WordPress, ecommerce, local SEO, and retainers.
 >
-> Source: https://christopherabraham.com/services/ · Updated 2026-10-29 · By Christopher Abraham
+> Source: https://christopherabraham.com/services/ · Updated 2026-10-23 · By Christopher Abraham
 
 # SEO services
 
@@ -11,19 +11,16 @@ Every service starts from the same place: find out what search engines and AI sy
 - [Internal linking strategy](https://christopherabraham.com/services/internal-linking/): contextual text links, clear anchors, useful destinations, and a plan to stitch existing pages together.
 - [SEO release QA](https://christopherabraham.com/services/seo-release-qa/): independent checks of a named redesign, template update, or deployment, before and after it goes live.
 - [Sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/): every URL crawled, each problem traced to the template or code behind it, fixed once, and recrawled to prove it held.
-- [SEO report review](https://christopherabraham.com/services/seo-report-review/): an independent check of an agency's audit or monthly report against your own data.
 - [Technical SEO audit](https://christopherabraham.com/services/seo-audit/): the cause of a traffic loss or a stall, with evidence and a ranked plan.
 - [Indexing repair](https://christopherabraham.com/services/indexing/): pages stuck in "Crawled, currently not indexed," "Discovered, currently not indexed," soft 404s, and canonical conflicts.
 - [JavaScript and headless SEO](https://christopherabraham.com/services/javascript-seo/): React, Next.js, Vue, Alpine.js, Sanity, Vercel, and other stacks where content depends on scripts.
 - [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/): faster pages measured by real visitors, with caching and CDN rules that don't break crawling.
 - [Search Console, Bing Webmaster Tools, and GA4](https://christopherabraham.com/services/search-console/): setup, cleanup, and reports you can trust.
 - [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/): platform moves, domain changes, and redesigns that keep their rankings.
-- [Website archive recovery](https://christopherabraham.com/services/website-archive-recovery/): a lost or broken site rebuilt from the Wayback Machine and old backups, back at its original addresses.
 
 ## AI search, schema, and content
 - [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/): how ChatGPT, Perplexity, Gemini, Claude, Copilot, and AI Overviews describe you, and how to improve it.
 - [AI visibility](https://christopherabraham.com/services/ai-visibility/): audits of what the AI answers say about your business, the claim layer that fixes it, and monthly measurement.
-- [Products with published prices](https://christopherabraham.com/products/): fixed scope reports and case work, from the AI Answer Baseline to profile reinstatement, each with its price printed and no proposal stage.
 - [Schema markup and entity SEO](https://christopherabraham.com/services/schema/): JSON-LD that validates, matches the page, and tells machines who you are.
 - [On-page SEO](https://christopherabraham.com/services/on-page-seo/): titles, descriptions, headings, internal links, and thin or duplicate pages.
 - [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/): drafted from your own material in your voice, then checked claim by claim against sources.
@@ -33,14 +30,9 @@ Every service starts from the same place: find out what search engines and AI sy
 - **Umbraco and Next.js development**: builds and rebuilds on Umbraco and Next.js, with the SEO, structured data, and speed work handled as part of the build.
 - [Static websites built for search](https://christopherabraham.com/services/static-sites/): fast sites on GitHub Pages and Cloudflare with SEO checks on every build, and WordPress brochure sites moved off WordPress.
 - [Podcast website SEO](https://christopherabraham.com/services/podcast-website/): your feed turned into a site with a page, transcript, and share card for every episode, updated each morning.
-- [Launch websites](https://christopherabraham.com/services/launch-site/): a findable site for a book, album, film, or new service, live and submitted weeks before the date.
 - [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Shopify, WooCommerce, and Magento product, category, and faceted pages.
 - [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/): location pages, profiles, categories, and hard cases such as suspensions.
-- [Business Profile verification help](https://christopherabraham.com/services/gbp-verification/): failed video checks, locked listings, and missing owners.
-- [Local competitor recon](https://christopherabraham.com/services/local-competitor-recon/): a dated evidence table of the rival listings Google shows, with your profile beside them.
-- [Peak season readiness](https://christopherabraham.com/services/peak-season-readiness/): listings, location pages, AI answers, and measurement finished before a short selling window opens.
-- [Squarespace, Wix, Webflow, and HubSpot SEO](https://christopherabraham.com/services/website-builder-seo/): page settings, headings, redirects, schema, and moves between hosted builders.
-- [SEO coaching and consultations](https://christopherabraham.com/services/seo-coaching/): one-to-one sessions in your own Search Console and site, with written notes after each call.
+- [Google Business Profile reinstatement](https://christopherabraham.com/services/gbp-reinstatement/): suspended or disabled profiles, priced in three tiers from $800, scoped in writing first.
 - [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): steady monitoring, fixes, and reporting from a senior consultant.
 
 ## How each service is delivered
@@ -49,10 +41,10 @@ Each one begins with a scoped, paid diagnostic. You get findings in writing, a p
 
 ## Platforms and toolbox
 
-The content systems I audit and fix today include WordPress (Yoast, Rank Math, Elementor, WooCommerce), Shopify themes in Liquid, Magento 2 with Hyvä, Umbraco, Drupal, Joomla, HubSpot, Duda, and the hosted builders: Squarespace, Wix, Webflow, and Framer. On the code side I read React, Next.js, Vue, Alpine.js, and older Create React App projects, along with headless setups that pair Sanity with Vercel or Netlify.
+Current work: WordPress with Yoast or Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal and Joomla; Squarespace, Wix, Webflow, and Framer; HubSpot; Duda; and headless and custom builds on React, Next.js, Vue, Create React App, Alpine.js, Sanity, Vercel, and Netlify.
 
-Some sites need a way out before they need SEO. When a site is trapped on a dead platform or a host you'd rather leave, I crawl it and rebuild it as a static site on GitHub Pages or a current stack, every old URL intact, with AI coding assistants doing the repetitive part. A job like that is usually measured in hours. I did it for my own serialized novel, which used to live on legacy hosting. My working setup is Git and GitHub, my own Linux servers on DigitalOcean with root access, and Claude Code and OpenAI Codex for code.
+Site rescue and migration: if your site is stranded on an old platform or a host you want to leave, I can spider it and replicate it on GitHub Pages or a modern stack, usually in hours, not weeks, with AI assistance on the heavy lifting. That is how I moved my own novel's site off legacy hosting and onto GitHub Pages. I work in Git and GitHub, on Linux servers I administer myself (root on DigitalOcean droplets; everything I own runs Linux), with OpenAI Codex and Claude Code as my main coding assistants.
 
-For measurement and checking I use Google Search Console, Bing Webmaster Tools, GA4, Google Tag Manager, PageSpeed Insights, the Rich Results Test, Screaming Frog, and Semrush, with Cloudflare in front of the sites I host. Projects run in Basecamp, and tasks in Todoist.
+Around the platforms: Cloudflare, GitHub Pages, and DigitalOcean; Google Search Console, Bing Webmaster Tools, GA4, and Google Tag Manager; Screaming Frog, Semrush, PageSpeed Insights, and the Rich Results Test; and Basecamp and Todoist to run the work.
 
-Updated October 29, 2026
+Updated October 23, 2026
