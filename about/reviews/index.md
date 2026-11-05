@@ -1,4 +1,4 @@
-> What Upwork clients wrote after schema, audit, local SEO, Search Console, and migration projects, quoted word for word, with the lower ratings left in view.
+> What Upwork clients wrote after schema, audit, local SEO, Search Console, and migration projects, quoted word for word from my public Upwork history.
 >
 > Source: https://christopherabraham.com/about/reviews/ · Updated 2026-11-05 · By Christopher Abraham
 
@@ -145,18 +145,6 @@ SEO and digital marketing, 5.0, February 2023
 SEO with Wikipedia expertise, 5.0, October 2020
 
 Sessions like those are now a service of their own: [SEO coaching and consultations](https://christopherabraham.com/services/seo-coaching/). The AI search work is on [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/).
-
-## The ratings that weren't five stars
-
-A wall of perfect scores tells a careful buyer nothing, so here are the others. The lower ratings in my work history include a 2.0 on a Search Console job in October 2025, a 3.9 on a landing page writing job in June 2021, two 4.0s, a 4.2 on a Cloudflare job, a 4.5, a 4.6, and a 4.8 on a long WordPress migration with analytics setup. One of them came with words:
-
->
-
-"Chris completed my project successfully after some miscommunication about the SOW in the beginning."
-
-Landing page content, 3.9, June 2021
-
-Every engagement now starts from a written scope, as [Hire Me](https://christopherabraham.com/hire-me/) explains. Every rating stays on the profile, and the Job Success Score reads 100% with all of them counted.
 
 ## Check them yourself
 

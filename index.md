@@ -53,7 +53,7 @@ Client, AI SEO and technical SEO project
 
 Locally, my verified [Google Business Profile](https://share.google/xZ98ksFq3nhO2OvuF) holds a 5.0 rating from 10 Google reviews (as of October 2026).
 
-Clients describe working with me as collaborative, committed to quality, and clearly communicated, according to Upwork's summary of my completed jobs. More of their words, quoted exactly and with the lower ratings left in, are on [client reviews](https://christopherabraham.com/about/reviews/).
+Clients describe working with me as collaborative, committed to quality, and clearly communicated, according to Upwork's summary of my completed jobs. More of their words, quoted exactly, are on [client reviews](https://christopherabraham.com/about/reviews/).
 
 ## Selected results
 - Found that a Magento store's product specs, FAQs, and reviews loaded only when a shopper scrolled, so Googlebot indexed 300-word shells of 1.2 MB pages. [The scroll-gated products case](https://christopherabraham.com/case-studies/scroll-gated-products/).
