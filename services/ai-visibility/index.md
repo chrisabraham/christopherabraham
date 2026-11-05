@@ -42,10 +42,4 @@ For the method behind it, see [measuring AI share of voice](https://christophera
 
 [Book a 30 minute call](https://calendly.com/chrisabraham/30)
 
-## Talk it over
-
-Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
-
-[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
-
 Updated October 29, 2026

@@ -40,10 +40,4 @@ Your RSS feed address, your domain or the name you want, the cover art at full s
 
 A build from an existing feed is quoted as a fixed-scope project after a short call. Ongoing additions, such as articles or new page types, are quoted as a fixed fee before the work starts. Terms are on [Hire Me](https://christopherabraham.com/hire-me/). For the static approach in general, see [static websites built for search](https://christopherabraham.com/services/static-sites/).
 
-## Talk it over
-
-Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
-
-[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
-
 Updated October 26, 2026
