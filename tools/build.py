@@ -83,12 +83,10 @@ FILES += ["services/inquiry-path-audit", "guides/test-website-inquiries"]
 SERVICE_GROUPS[0][1].append("services/inquiry-path-audit/")
 # Additional service and article, October 23, 2026.
 FILES += ["services/ai-visibility", "the-machine-answers-first"]
-# Additional guide, October 24, 2026.
-FILES += ["guides/gbp-performance-reports"]
-FILES += ["services/gbp-reinstatement", "services/github-pages-website"]
-SERVICE_GROUPS[1][1].append("services/gbp-reinstatement/")
-SERVICE_GROUPS[1][1].append("services/github-pages-website/")
 SERVICE_GROUPS[1][1].append("services/ai-visibility/")
+# Additional service and guide, November 2, 2026.
+FILES += ["services/indexing-audit", "guides/why-google-wont-index-your-site"]
+SERVICE_GROUPS[0][1].append("services/indexing-audit/")
 
 MIN_WORDS = {"guide": 700, "service": 450, "case": 250, "page": 250}
 TODAY = datetime.date.today().isoformat()
@@ -863,6 +861,13 @@ User-agent: Amzn-User
 Allow: /
 
 Sitemap: https://christopherabraham.com/sitemap.xml
+
+# AI preferences (IETF AIPREF draft, draft-kelley-aipref-training-preference-signal), adopted Nov 10, 2026:
+# Willkommen, bienvenue, welcome. This house welcomes AI crawlers to train on and to cite
+# everything published here; we are here to be read by machines as well as people.
+# AI training: yes, allowed. AI grounding (retrieval and citation in live answers): yes, allowed.
+User-Agent: __usage_ai-training
+Allow: /
 """)
 
 # Feed bodies travel outside the site, so every local resource needs an absolute URL.
