@@ -5,8 +5,95 @@
   <link>https://christopherabraham.com/guides/</link>
   <description>Guides to indexing, audits, schema, redirects, site speed, and AI search</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 26 Oct 2026 12:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 02 Nov 2026 12:00:00 +0000</lastBuildDate>
   <atom:link href="https://christopherabraham.com/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Why Google will not index your site: a diagnosis guide</title>
+    <link>https://christopherabraham.com/guides/why-google-wont-index-your-site/</link>
+    <guid isPermaLink="true">https://christopherabraham.com/guides/why-google-wont-index-your-site/</guid>
+    <pubDate>Mon, 02 Nov 2026 12:00:00 +0000</pubDate>
+    <description>Why Google crawls a page and still leaves it out of the index, how to read the evidence, and the order a working indexing diagnosis follows, step by step.</description>
+    <content:encoded>&lt;h1&gt;Why Google will not index your site: a diagnosis guide&lt;/h1&gt;
+&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-11-02"&gt;November 2, 2026&lt;/time&gt;&lt;/p&gt;
+&lt;p class="lead"&gt;Google found your pages, crawled them, and quietly decided to leave most of them out of the index. That decision is the problem, and it has a cause. This guide explains how Google makes the call, how to tell a blocked page from a declined one, and the order in which a real diagnosis works through the evidence.&lt;/p&gt;
+
+&lt;h2&gt;Why does Google leave pages out of the index?&lt;/h2&gt;
+&lt;p&gt;Crawling, indexing, and ranking are three separate decisions. Google can crawl a page every week and still refuse to index it, because the index is a library with limited shelf space and Google keeps the pages it judges worth storing. A page earns its slot by being reachable, readable, and different enough from everything else already on the shelf.&lt;/p&gt;
+&lt;p&gt;Search engines are literal. A page surfaces for the words actually on it, in the structure it actually has, and Google evaluates the page it fetched and rendered, which may not be the page you see in your browser. When owners say "Google will not index my site," the cause is almost always one of three things: the page is blocked by a rule, the content never made it into what Google received, or Google read the page fine and decided it added nothing over pages it already holds. Each cause has a different fix, which is why the diagnosis comes before any repair.&lt;/p&gt;
+
+&lt;h2&gt;Is the page blocked, or did Google decline it?&lt;/h2&gt;
+&lt;p&gt;Blocked means a rule on your side stopped Google: a noindex tag, a robots.txt disallow, a login wall, or a server error. Declined means Google fetched the page successfully and chose not to keep it. The Page indexing report separates the two, and the distinction decides everything you do next.&lt;/p&gt;
+&lt;p&gt;Blocked pages are configuration problems. They are usually fast to find and fast to fix, and they are common after migrations, redesigns, and staging sites that leak into production with their restrictions still on. Declined pages are judgment problems. Google saw the content and ranked it below the cutoff for storage. No setting fixes that; the page itself, or the company it keeps on your site, has to change. Most struggling sites have both, and fixing the blocked pages first is what makes the declined count readable.&lt;/p&gt;
+
+&lt;h2&gt;What order does an indexing diagnosis follow?&lt;/h2&gt;
+&lt;p&gt;Work from Google's own records outward to the site itself: coverage first, then the rules that gate crawling, then discovery, then the content judgment. Changing content before you know the gates are open wastes the effort, because Google cannot reward a page it never reaches.&lt;/p&gt;
+
+&lt;h3&gt;Step 1: Read the coverage states in Search Console&lt;/h3&gt;
+&lt;p&gt;The Page indexing report is Google's own list of decisions, grouped by reason. Start with the counts per reason and the trend for each, then export the example URLs. The two reasons that carry most diagnoses are "Crawled, currently not indexed," where Google fetched and declined, and "Discovered, currently not indexed," where Google knows the URL exists and has not yet spent a crawl on it. The full walkthrough of each reason is in my guide to &lt;a href="https://christopherabraham.com/guides/page-indexing-report/"&gt;reading the Page indexing report&lt;/a&gt;. Group the examples by directory and template before inspecting any single URL, because indexing problems live in templates, not in individual pages.&lt;/p&gt;
+
+&lt;h3&gt;Step 2: Check robots.txt and meta robots&lt;/h3&gt;
+&lt;p&gt;A single disallow line can fence off a whole section, and a noindex left over from a redesign can sit on a template for months. Read the robots.txt file itself rather than a plugin summary of it, check the meta robots tag and the X-Robots-Tag header on representative pages, and confirm that CSS and JavaScript files are crawlable, since blocked resources corrupt rendering and make good pages look empty. Google documents the robots rules it honors in its &lt;a href="https://developers.google.com/search/docs/crawling-indexing/robots/intro"&gt;robots.txt introduction&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Step 3: Audit the sitemap&lt;/h3&gt;
+&lt;p&gt;A sitemap is a claim about which pages matter. Check that the submitted sitemap returns a 200 status, lists only canonical URLs that return 200 themselves, and contains no redirected, noindexed, or deleted pages. A sitemap full of URLs Google has already declined teaches Google to trust it less. On larger sites, split sitemaps by page type so coverage reporting follows the same split and you can see which template is failing.&lt;/p&gt;
+
+&lt;h3&gt;Step 4: Trace internal linking and orphan pages&lt;/h3&gt;
+&lt;p&gt;Google discovers and weighs pages largely through links. A page with no internal links is an orphan, and Google treats orphan status as a relevance signal: if the site itself never points at a page, the page rarely matters. Map click depth from the home page, find orphans in the crawl, and check whether important pages are linked with descriptive anchor text or buried behind scripted navigation that renders late. My &lt;a href="https://christopherabraham.com/guides/internal-linking/"&gt;guide to internal linking&lt;/a&gt; covers the structure in depth.&lt;/p&gt;
+
+&lt;h3&gt;Step 5: Judge duplicate and thin content&lt;/h3&gt;
+&lt;p&gt;This is where most declined pages are decided. Compare each failing template against the pages Google did index and ask what the declined page adds: distinct facts, distinct inventory, a distinct answer. Pages that repeat a sibling with a city name or a filter value swapped are duplicates in Google's accounting even when every word differs. Near duplicates also fight each other through canonical selection, which I cover in the guide to &lt;a href="https://christopherabraham.com/guides/near-duplicates-and-h1s/"&gt;near duplicates and multiple H1s&lt;/a&gt;. Thin pages are not always short; a long page can be thin if its length is boilerplate shared with ten thousand others.&lt;/p&gt;
+
+&lt;h3&gt;Step 6: Examine the backlink profile&lt;/h3&gt;
+&lt;p&gt;Spam links rarely keep a whole site out of the index, but a profile full of purchased or hacked links distorts how Google trusts the domain, and a manual action for unnatural links stops indexing cold. Read the links report in Search Console, sample the referring domains, and separate genuine coverage from link schemes. Where the spam is dense and clearly manipulative, a disavow file is the remedy; where it is ordinary internet noise, Google already ignores it and your time belongs elsewhere. My guide to &lt;a href="https://christopherabraham.com/guides/buying-backlinks/"&gt;buying backlinks&lt;/a&gt; explains how these profiles form.&lt;/p&gt;
+
+&lt;h2&gt;What is different about programmatic sites?&lt;/h2&gt;
+&lt;p&gt;A programmatic site generates pages from a database and a template: one layout, thousands of URLs, with the variables swapped per page. A location page per city, a product page per item in a feed, a comparison page per pair. The model is legitimate and powers many of the most useful pages on the web. It is also the model Google declines most often, because the same machinery that produces ten thousand useful pages produces ten thousand near-identical ones just as easily.&lt;/p&gt;
+&lt;p&gt;The failure pattern is consistent. A database has 50,000 rows, so the site ships 50,000 pages, each one swapping a name, a price, and two sentences into the same frame. Google crawls a sample, finds that page 4,000 tells it nothing page 40 did not, and stops. The rest sit in "Discovered, currently not indexed" or land in "Crawled, currently not indexed," and the ratio of indexed to published pages collapses. The site owner experiences this as Google refusing the site. Google experiences it as declining to store copies.&lt;/p&gt;
+&lt;p&gt;Google's spam policies name the pattern directly: scaled content abuse is generating many pages primarily to manipulate rankings without adding value for users, and it applies whether the pages are written by people, templates, or AI. The policy is in Google's &lt;a href="https://developers.google.com/search/docs/essentials/spam-policies"&gt;spam policies documentation&lt;/a&gt;. The policy does not ban programmatic pages. It bans pages whose only reason to exist is the query they target.&lt;/p&gt;
+&lt;p&gt;What separates a programmatic page Google keeps from one it declines is unique substance per page. The pages that earn indexing carry data only that page has: real inventory, real prices, local facts, user reviews, computed comparisons, availability. They are also reachable through a sane structure, with category pages that link down to them and enough internal links that crawl attention reaches the tail. And the site publishes at the rate its value supports, which usually means pruning or noindexing the weakest slice of the database so the strong pages stop competing with their own siblings. Pruning feels like losing pages. In practice it is how programmatic sites recover: fewer, better pages, each one visibly different from the next, get indexed at a far higher rate than the full undifferentiated set.&lt;/p&gt;
+
+&lt;h2&gt;What does a diagnosis deliver?&lt;/h2&gt;
+&lt;p&gt;A diagnosis ends with causes, evidence, and an order of work: which templates are blocked, which are declined, the mechanism behind each, and the fix sequence ranked by effect. It also says plainly which pages should not be indexed at all. If you want that work done on your site, my &lt;a href="https://christopherabraham.com/services/indexing-audit/"&gt;indexing audit&lt;/a&gt; is the fixed price version, and &lt;a href="https://christopherabraham.com/services/indexing/"&gt;indexing repair&lt;/a&gt; covers the implementation side.&lt;/p&gt;
+
+&lt;section class="faq"&gt;
+&lt;h2&gt;Questions buyers ask me&lt;/h2&gt;
+
+&lt;h3&gt;Google indexed my pages and then dropped them. Why?&lt;/h3&gt;
+&lt;p&gt;Pages fall out when Google recrawls and rejudges them against a rising bar, when the site around them weakens, or when a template change quietly thins them. A drop concentrated in one page type points at that template. A drop across the whole site points at trust, duplication at scale, or a technical change that shipped near the date the fall began.&lt;/p&gt;
+
+&lt;h3&gt;Should I request indexing for every excluded URL?&lt;/h3&gt;
+&lt;p&gt;No. Request indexing in Search Console is a nudge for a handful of priority pages after a fix. Submitting hundreds of declined URLs asks Google to rejudge pages that have not changed, and it changes nothing. Fix the template, verify with a live test on two or three examples, and let recrawling do the rest.&lt;/p&gt;
+
+&lt;h3&gt;Will a disavow file fix my indexing?&lt;/h3&gt;
+&lt;p&gt;Only when links are the actual cause, which is uncommon. A disavow addresses a manual action or a dense, manipulative link scheme. If your pages are declined for thin or duplicate content, a disavow changes nothing, and the weeks spent building one are weeks the real problem goes unfixed.&lt;/p&gt;
+
+&lt;h3&gt;How long does recovery take after the fixes ship?&lt;/h3&gt;
+&lt;p&gt;Blocked pages usually clear within days of the rule being removed and the page being recrawled. Declined pages take longer, because Google has to recrawl, re-render, and reverse a judgment; expect weeks, and judge progress by template, watching the indexed share of each sitemap rather than the site total.&lt;/p&gt;
+
+&lt;h3&gt;Can you guarantee my pages will be indexed?&lt;/h3&gt;
+&lt;p&gt;No honest consultant can. Indexing is Google's decision. What I can guarantee is a diagnosis that names the cause with evidence and a fix list that removes every barrier on your side of the fence, which is the part under your control.&lt;/p&gt;
+
+&lt;h3&gt;What do you need from me to start an audit?&lt;/h3&gt;
+&lt;p&gt;Access to Google Search Console and Bing Webmaster Tools, the site's URL, and any history you have: migrations, redesigns, traffic changes, link purchases. The audit itself is a flat $750 invoiced in advance, described on the &lt;a href="https://christopherabraham.com/services/indexing-audit/"&gt;indexing audit&lt;/a&gt; page.&lt;/p&gt;
+&lt;/section&gt;
+&lt;aside class="help-box" aria-label="Get help"&gt;
+  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
+  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul class="sources"&gt;
+  &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/essentials/spam-policies"&gt;Google Search Central: Spam policies for Google web search&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://support.google.com/webmasters/answer/7440203"&gt;Search Console Help: Page indexing report&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/crawling-indexing/robots/intro"&gt;Google Search Central: Introduction to robots.txt&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview"&gt;Google Search Central: What is a sitemap?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class="author-box" aria-label="About the author"&gt;
+  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
+&lt;/aside&gt;</content:encoded>
+  </item>
   <item>
     <title>Glossary of SEO and AI search terms</title>
     <link>https://christopherabraham.com/guides/glossary/</link>
@@ -226,64 +313,6 @@
 
 &lt;h2&gt;Where I fit&lt;/h2&gt;
 &lt;p&gt;I run this play on my own show before I recommend it to anyone, and I build the same machinery for clients: notes written for citation, a mirror site with transcripts and permanent episode pages, and a monthly set of position queries that proves whether the answers are moving. If you want the baseline first, my AI visibility audit runs your money queries through the major answer engines and reports what they say about you today. &lt;a href="https://calendly.com/chrisabraham/30"&gt;Book a thirty minute call on my calendar&lt;/a&gt; to talk about your show or your site, or &lt;a href="https://christopherabraham.com/contact/"&gt;write to me through the contact page&lt;/a&gt; if you would rather start in writing.&lt;/p&gt;
-&lt;aside class="help-box" aria-label="Get help"&gt;
-  &lt;h2&gt;Let me help you with this&lt;/h2&gt;
-  &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;
-  &lt;p&gt;&lt;a class="button" href="https://calendly.com/chrisabraham/30"&gt;Book a 30 minute call&lt;/a&gt; &lt;a class="button" href="tel:+12023525051"&gt;Call +1 202-352-5051&lt;/a&gt; &lt;a class="button" href="mailto:cja@well.com"&gt;Email cja@well.com&lt;/a&gt;&lt;/p&gt;
-  &lt;p&gt;Prefer to hire through Upwork? I'm &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Top Rated there too&lt;/a&gt;.&lt;/p&gt;
-&lt;/aside&gt;
-&lt;aside class="author-box" aria-label="About the author"&gt;
-  &lt;img src="https://christopherabraham.com/christopher-abraham.jpg" width="72" height="72" alt=""&gt;
-  &lt;p&gt;&lt;strong&gt;&lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt;&lt;/strong&gt; is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. &lt;a href="https://christopherabraham.com/about/editorial-policy/"&gt;How these pages are written&lt;/a&gt; · &lt;a href="https://www.linkedin.com/in/chrisabraham"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://www.upwork.com/freelancers/chrisjabraham"&gt;Upwork&lt;/a&gt;&lt;/p&gt;
-&lt;/aside&gt;</content:encoded>
-  </item>
-  <item>
-    <title>Reading the new Google Business Profile performance reports</title>
-    <link>https://christopherabraham.com/guides/gbp-performance-reports/</link>
-    <guid isPermaLink="true">https://christopherabraham.com/guides/gbp-performance-reports/</guid>
-    <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
-    <description>Google is testing a rebuilt Performance section for Business Profiles. How to read each new report, Overview first, and what the numbers mean.</description>
-    <content:encoded>&lt;h1&gt;Reading the new Google Business Profile performance reports&lt;/h1&gt;
-&lt;p class="byline"&gt;By &lt;a href="https://christopherabraham.com/about/"&gt;Christopher Abraham&lt;/a&gt; · Published &lt;time datetime="2026-10-24"&gt;October 24, 2026&lt;/time&gt;&lt;/p&gt;
-&lt;p class="lead"&gt;Google is testing a rebuilt Performance section inside Google Business Profile, with an Overview that leads with recommendations and separate sections for Engagement, Reviews, Audience, and Search trends. The test arrived about a day after Google launched its new Business Home portal, and it changes what an owner should look at first. I covered the announcement in &lt;a href="https://chrisabraham.net/2026/10/google-rebuilds-the-scoreboard.html"&gt;my weblog post on the rebuilt scoreboard&lt;/a&gt; and promised a full guide to reading the new reports. This is that guide, section by section, in the order I read them myself.&lt;/p&gt;
-
-&lt;h2&gt;First, check whether you have it&lt;/h2&gt;
-&lt;p&gt;Open your Business Profile and choose Performance. If the page opens with recommendations and the five new section names, your account is in the test and everything below applies to the screens in front of you. If it still shows the familiar single page of totals and charts, you are on the old reports and nothing is wrong with your account.&lt;/p&gt;
-&lt;p&gt;The rollout is gradual and account by account. Search Engine Roundtable reported the test on October 23, 2026, after Jaikishan Raturi of Wisevu and Syed Amir shared screenshots and video of their accounts, and noted that Barry Schwartz did not yet have it in his own account that day. There is no setting to request and no form to submit. While you wait, capture one screenshot of your old totals as a baseline. Old and new figures may not line up neatly, and a saved baseline settles arguments that memory always loses.&lt;/p&gt;
-
-&lt;h2&gt;Overview: start with the recommendations&lt;/h2&gt;
-&lt;p&gt;The Overview is the summary screen, and its most useful addition sits at the top: a short list of recommendations drawn from your profile's completeness and recent performance. Read that list before any chart on the page. It is Google's own prioritised worklist for this profile, and it tells you what the platform currently thinks is unfinished, stale, or worth confirming.&lt;/p&gt;
-&lt;p&gt;A new recommendation usually means one of two things: Google changed what it wants from profiles, or your details drifted out of date as hours, services, and attributes changed in the real business. A recommendation that disappears means the gap it named has closed. Work the list from the top, but verify every item against the business itself before accepting it. A recommendation is a prompt, not an order, and the owner who knows the shop floor outranks the algorithm's guess. Where a suggestion is wrong for your business, decline it and move on with a clear conscience.&lt;/p&gt;
-
-&lt;h2&gt;Engagement: actions, counted honestly&lt;/h2&gt;
-&lt;p&gt;Engagement gathers the actions people took from your profile: the calls, messages, direction requests, website visits, and bookings your listing produced. Look first at the direction of the totals across a whole quarter rather than any single week. Local demand moves with weather, holidays, school terms, and road works, and a quarter smooths most of that noise into a line you can actually read.&lt;/p&gt;
-&lt;p&gt;A rise means more searchers reached the point of acting, which is the only point that pays. A fall means less until you have run the interpretation check two sections below, because some of those actions now happen somewhere else. Before blaming the market, compare each action against the channel that receives it. If calls fall, ring the number on your own profile and confirm it connects to the right desk. Broken plumbing hides inside report totals far more often than lost demand does, and it is cheaper to fix.&lt;/p&gt;
-
-&lt;h2&gt;Reviews: read below the star rating&lt;/h2&gt;
-&lt;p&gt;The Reviews section breaks the detail out instead of compressing everything into one average: how many reviews arrived, how the ratings spread, and the words themselves, close enough to read in place. Look first at the distribution and the pace. Ten reviews carrying two furious outliers tell a different story than a smooth average suggests, and a steady trickle of recent reviews outweighs a proud total gathered years ago.&lt;/p&gt;
-&lt;p&gt;Then read the text as field research. A cluster of new reviews after a menu change, a hire, or a remodel is your customers writing the changelog. Phrases that repeat across reviews are the phrases the next searcher will meet, so note them exactly. Answer every review briefly and without argument, especially the unfair ones, because the reply is written for the reader who comes after. Then fix the operational thing the complaints repeat. Owners tend to read reviews as reputation. Read them as the cheapest customer research you will ever be handed.&lt;/p&gt;
-
-&lt;h2&gt;Audience: who is finding you&lt;/h2&gt;
-&lt;p&gt;Audience gathers the people behind the views into one place, so you can see who the profile reaches instead of guessing from the totals. Look first for a match or a mismatch: whether the audience arriving looks like the customers you actually want to serve. A profile can be busy and wrong at the same time, and busy wrongness still costs you the hours spent answering it.&lt;/p&gt;
-&lt;p&gt;A widening audience after a new service, a move, or a name change usually means the profile started matching new searches, which is growth you can plan around. A narrowing one can mean a competitor opened closer to your best customers, which is a different problem entirely. Hold the audience picture next to your service list and your service area. If strangers keep arriving for something you do not sell, your categories or services are promising it on your behalf. Correct the listing before you correct the customers.&lt;/p&gt;
-
-&lt;h2&gt;Search trends: the customer's own words&lt;/h2&gt;
-&lt;p&gt;Search trends shows the searches that led people to your profile and how those searches are moving over time. Look first at rising terms you did not plan for, and at your core money terms if they start slipping down the list. Both ends of that movement are instructions, one about what to add and one about what to defend.&lt;/p&gt;
-&lt;p&gt;Searchers rename things before businesses do. When a trade term gives way to a plain phrase, the market is rewriting your signage in its own vocabulary, and the profile that answers in that vocabulary wins the next visit. Mirror the winning words in your services, your business description, and the local pages of your website, spelled the way customers spell them. Retire the phrases nobody types anymore, however fond the founder remains of them. Sentiment is not a search strategy.&lt;/p&gt;
-
-&lt;h2&gt;Falling interactions are not falling demand&lt;/h2&gt;
-&lt;p&gt;The old reports trained owners to treat every interaction as demand arriving at the door. That link is weakening. AI answers now resolve questions that used to end with a tap on your profile: the hours, the price range, whether you stock the thing, whether people rate you well. The customer still buys. The tap just happens inside the answer instead, or never happens at all.&lt;/p&gt;
-&lt;p&gt;An October 2026 analysis of three American florists found profile interactions down 26 percent year over year, with website clicks down 30 percent, calls down 21 percent, and direction requests down 15 percent, while the shops traded on. Three shops make a small sample, so treat those figures as a direction rather than a measurement of your market. Still, the direction matches what I see across accounts: when interactions fall while revenue holds, demand did not vanish. The answer moved upstream. Your job shifts from winning the tap to being the business the answer names, which is why I track &lt;a href="https://christopherabraham.com/guides/ai-share-of-voice/"&gt;AI share of voice&lt;/a&gt; alongside these reports every month. Never judge a month by interactions alone again.&lt;/p&gt;
-
-&lt;h2&gt;A monthly routine that takes twenty minutes&lt;/h2&gt;
-&lt;p&gt;Pick one morning a month and give the reports twenty honest minutes, in this order. First, the Overview, clearing or consciously declining each recommendation. Second, Engagement, comparing the month with the month before and with the same month last year. Third, Reviews: the count, the average, the pace, and the three phrases customers repeated most. Fourth, Audience, in a single line about whether the people arriving are the people you want. Fifth, Search trends, choosing one rising term to adopt and one fading term to retire.&lt;/p&gt;
-&lt;p&gt;Write those five lines down in the same place every month. Reports reward memory, and a profile read monthly for a year teaches more than any single deep dive performed in a panic. End the routine by choosing exactly one action for the month ahead. A reading that produces nine worries produces none of the fixes, and the reports will be there next month to grade the one you picked.&lt;/p&gt;
-
-&lt;h2&gt;Mistakes owners make with the old reports&lt;/h2&gt;
-&lt;p&gt;Most of these will survive the redesign, so retire them now. Judging by days, and reading one rainy Tuesday as a trend. Comparing December with January and calling the difference decline. Chasing views, and celebrating impressions while calls and bookings quietly thin out. Treating a drop in calls as lost customers before checking the AI answers, the phone number, and the calendar for an explanation. Never capturing a baseline, so every redesign leaves the owner arguing with a memory. And reading the reports only when something already feels wrong, which guarantees the numbers arrive attached to a bad mood and get believed for the wrong reasons.&lt;/p&gt;
-
-&lt;h2&gt;Where I fit&lt;/h2&gt;
-&lt;p&gt;Reading these reports well is judgement work, and it sits inside the &lt;a href="https://christopherabraham.com/services/local-seo/"&gt;local search work&lt;/a&gt; I do for clients: profile upkeep, a steady review rhythm, and a monthly read of what Google and the AI answers are telling the market about a business. If the new layout has reached your account and you want the first read done properly, &lt;a href="https://calendly.com/chrisabraham/30"&gt;book a thirty minute call on my calendar&lt;/a&gt; and bring your Performance screen with you. I will read it with you from the top, and you will leave knowing which numbers deserve action and which deserve a shrug. If you would rather start in writing, &lt;a href="https://christopherabraham.com/contact/"&gt;write to me through the contact page&lt;/a&gt; and tell me what your reports have been doing.&lt;/p&gt;
 &lt;aside class="help-box" aria-label="Get help"&gt;
   &lt;h2&gt;Let me help you with this&lt;/h2&gt;
   &lt;p&gt;If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.&lt;/p&gt;

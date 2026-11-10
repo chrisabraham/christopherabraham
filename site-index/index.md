@@ -1,10 +1,10 @@
 > A back of the book index to christopherabraham.com: every person, tool, platform, and SEO problem the pages cover, listed A to Z with links to each page.
 >
-> Source: https://christopherabraham.com/site-index/ · Updated 2026-11-05 · By Christopher Abraham
+> Source: https://christopherabraham.com/site-index/ · Updated 2026-11-10 · By Christopher Abraham
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 555 headings across 100 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 555 headings across 99 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -422,14 +422,7 @@ People are listed surname first. Cross-references point to related headings. For
   - finding measurement IDs, [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/)
   - ghost traffic, [Plugin Outage](https://christopherabraham.com/case-studies/plugin-outage/)
 
-- GBP performance reports, **[GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)**. *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
-  - audience, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
-  - engagement, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
-  - monthly reading routine, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
-  - overview recommendations, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
-  - reading mistakes, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
-  - reviews in detail, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
-  - search trends, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
+- GBP performance reports. *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
 
 - Gemini, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/)
 - GEO (generative engine optimization), [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [AI Search](https://christopherabraham.com/services/ai-search/). *See also* [AI search](https://christopherabraham.com/site-index/#ix-ai-search)
@@ -445,7 +438,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 - GitHub Actions, [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/), [Skills and Proof](https://christopherabraham.com/about/skills/)
 - GitHub Copilot, [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
-- GitHub Pages, [Services](https://christopherabraham.com/services/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Colophon](https://christopherabraham.com/about/colophon/), [Privacy](https://christopherabraham.com/privacy/), [GitHub Pages Website](https://christopherabraham.com/services/github-pages-website/)
+- GitHub Pages, [Services](https://christopherabraham.com/services/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Colophon](https://christopherabraham.com/about/colophon/), [Privacy](https://christopherabraham.com/privacy/)
   - custom domains and HTTPS, [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/)
 
 - GitLab, [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
@@ -457,7 +450,7 @@ People are listed surname first. Cross-references point to related headings. For
   - brand search studies, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 
 - Google Apps case study (Abraham Harrison), [About](https://christopherabraham.com/about/)
-- Google Business Profile, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/), [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/), [Skills and Proof](https://christopherabraham.com/about/skills/), [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/). *See also* [local SEO](https://christopherabraham.com/site-index/#ix-local-seo)
+- Google Business Profile, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/), [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/), [Skills and Proof](https://christopherabraham.com/about/skills/). *See also* [local SEO](https://christopherabraham.com/site-index/#ix-local-seo)
   - Chris’ own rating, [Home](https://christopherabraham.com/)
   - inaccurate photos, [Training Gym](https://christopherabraham.com/case-studies/training-gym/)
   - interactions, calls, and direction requests, [Training Gym](https://christopherabraham.com/case-studies/training-gym/)
@@ -466,7 +459,6 @@ People are listed surname first. Cross-references point to related headings. For
   - reviews, [Local SEO](https://christopherabraham.com/services/local-seo/)
   - special hours, [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)
   - suspensions and appeals, [Local SEO](https://christopherabraham.com/services/local-seo/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Skills and Proof](https://christopherabraham.com/about/skills/)
-  - suspensions and reinstatement, [GBP Reinstatement](https://christopherabraham.com/services/gbp-reinstatement/)
   - temporarily closed, [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)
 
 - Google documentation, [Brand name in titles](https://christopherabraham.com/guides/brand-name-in-titles/), [Small original research](https://christopherabraham.com/guides/small-original-research/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
@@ -1169,4 +1161,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated November 5, 2026
+Updated November 10, 2026

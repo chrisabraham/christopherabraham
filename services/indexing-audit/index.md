@@ -53,10 +53,4 @@ Implementing the fixes is separate work. Some clients hand the fix list to their
 
 For the method behind this audit, read [why Google will not index your site](https://christopherabraham.com/guides/why-google-wont-index-your-site/) and my guide to [reading the Page indexing report](https://christopherabraham.com/guides/page-indexing-report/). Ready to start? See [Hire Me](https://christopherabraham.com/hire-me/) or [contact me](https://christopherabraham.com/contact/).
 
-## Talk it over
-
-Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
-
-[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
-
 Updated November 2, 2026

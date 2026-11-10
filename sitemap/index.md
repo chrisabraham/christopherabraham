@@ -1,6 +1,6 @@
 > Every page on christopherabraham.com in one list: SEO services, guides, and anonymized case studies, grouped by section with a one line summary of each.
 >
-> Source: https://christopherabraham.com/sitemap/ · Updated 2026-11-05 · By Christopher Abraham
+> Source: https://christopherabraham.com/sitemap/ · Updated 2026-11-10 · By Christopher Abraham
 
 # Site map
 
@@ -29,14 +29,13 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Internal linking strategy: stitch your website together](https://christopherabraham.com/services/internal-linking/): Internal linking strategy for an established website: contextual text links, descriptive anchors, orphan page recovery, useful hubs, and a measured rollout.
 - [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/): Independent SEO checks before and after a website release: rendering, indexing signals, redirects, media, and evidence your developer can act on.
 - [Website inquiry audits: find where contacts go missing](https://christopherabraham.com/services/inquiry-path-audit/): Find broken contact routes, missing form notifications, and misleading conversion events. Get documented tests, clear repair priorities, and verified retests.
+- [Indexing audit](https://christopherabraham.com/services/indexing-audit/): A complete indexing audit for a flat $750, invoiced in advance: full crawl, Search Console and Bing diagnosis, backlink review, and a ranked fix list.
 
 ## AI search, schema, and content
 - [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/): Improve how ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google AI Overviews describe and cite your business, with prompt testing, entities, and content.
 - [Schema markup and entity SEO](https://christopherabraham.com/services/schema/): Structured data that validates, matches the visible page, and connects your organization, people, products, and locations as entities for Google and AI.
 - [On-page SEO](https://christopherabraham.com/services/on-page-seo/): On page SEO fixed at the template level: titles and meta descriptions, headings, internal links, thin and duplicate pages, and carefully edited AI drafts.
 - [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/): SEO articles drafted with AI from your own material, written to your voice rules, then checked claim by claim against sources before anything is published.
-- [Google Business Profile reinstatement and repair](https://christopherabraham.com/services/gbp-reinstatement/): A suspended Google Business Profile is a priced case, in three tiers from 800 dollars, scoped in writing first. No guarantee and no refund games.
-- [I build your website on GitHub Pages: $1,500 flat](https://christopherabraham.com/services/github-pages-website/): A flat 1500 dollars: design, build, domain and DNS, launch on GitHub Pages. Hosting is free forever and every file is yours to keep and move.
 - [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/): A fixed-price audit of what Google AI Overviews, ChatGPT, Perplexity, and Gemini say about your business, a sprint to fix the sources, and monthly checks.
 
 ## Platforms, local, and ongoing work
@@ -95,7 +94,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/): Build useful paths through your existing pages with contextual links, clear anchor text, working section targets, and an internal linking worksheet.
 - [Moving a website? Check its images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/): Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.
 - [Your website form says success. Did anyone get the inquiry?](https://christopherabraham.com/guides/test-website-inquiries/): Trace a test inquiry from landing page to form, confirmation, inbox, and reporting. Find delivery failures and false conversion counts before buying traffic.
-- [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/): Google is testing a rebuilt Performance section for Business Profiles. How to read each new report, Overview first, and what the numbers mean.
+- [Why Google will not index your site: a diagnosis guide](https://christopherabraham.com/guides/why-google-wont-index-your-site/): Why Google crawls a page and still leaves it out of the index, how to read the evidence, and the order a working indexing diagnosis follows, step by step.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
@@ -122,4 +121,4 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated November 5, 2026
+Updated November 10, 2026

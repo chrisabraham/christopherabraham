@@ -1,7 +1,7 @@
 # Christopher Abraham: full text of christopherabraham.com
 
 > Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.
-> Built 2026-11-05. Quote freely with attribution and a link to the source page.
+> Built 2026-11-10. Quote freely with attribution and a link to the source page.
 
 
 ---
@@ -6515,70 +6515,153 @@ Updated October 29, 2026
 
 ---
 
-Source: https://christopherabraham.com/guides/gbp-performance-reports/
-Updated: 2026-10-24
+Source: https://christopherabraham.com/services/indexing-audit/
+Updated: 2026-11-02
 
-# Reading the new Google Business Profile performance reports
+# Indexing audit
 
-By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 24, 2026
+Your pages exist, Google knows about them, and most of them are not in the index. An indexing audit finds out why. It is a comprehensive technical diagnosis of a site Google crawls but will not index, delivered as causes with evidence and a fix list in priority order. The price is a flat $750, invoiced in advance.
 
-Google is testing a rebuilt Performance section inside Google Business Profile, with an Overview that leads with recommendations and separate sections for Engagement, Reviews, Audience, and Search trends. The test arrived about a day after Google launched its new Business Home portal, and it changes what an owner should look at first. I covered the announcement in [my weblog post on the rebuilt scoreboard](https://chrisabraham.net/2026/10/google-rebuilds-the-scoreboard.html) and promised a full guide to reading the new reports. This is that guide, section by section, in the order I read them myself.
+## Who it's for
+- Sites where Search Console shows hundreds or thousands of pages in "Crawled, currently not indexed" or "Discovered, currently not indexed."
+- Programmatic sites that published pages at scale and watched Google accept only a fraction of them.
+- Sites that lost indexed pages after a migration, redesign, or template change.
+- Owners who have been told to just wait, and want a verdict instead.
 
-## First, check whether you have it
+## What the audit covers
 
-Open your Business Profile and choose Performance. If the page opens with recommendations and the five new section names, your account is in the test and everything below applies to the screens in front of you. If it still shows the familiar single page of totals and charts, you are on the old reports and nothing is wrong with your account.
+### A full crawl
 
-The rollout is gradual and account by account. Search Engine Roundtable reported the test on October 23, 2026, after Jaikishan Raturi of Wisevu and Syed Amir shared screenshots and video of their accounts, and noted that Barry Schwartz did not yet have it in his own account that day. There is no setting to request and no form to submit. While you wait, capture one screenshot of your old totals as a baseline. Old and new figures may not line up neatly, and a saved baseline settles arguments that memory always loses.
+I crawl the entire site with Screaming Frog, in text and rendered modes, and reconcile the crawl against your sitemaps and the URLs Search Console knows. Every page falls into a bucket: indexed, blocked, declined, or unreachable, and the buckets are grouped by template so the patterns are visible.
 
-## Overview: start with the recommendations
+### Search Console and Bing diagnosis
 
-The Overview is the summary screen, and its most useful addition sits at the top: a short list of recommendations drawn from your profile's completeness and recent performance. Read that list before any chart on the page. It is Google's own prioritised worklist for this profile, and it tells you what the platform currently thinks is unfinished, stale, or worth confirming.
+I read the Page indexing report reason by reason, inspect live examples from each cluster with URL Inspection, and run the same check in Bing Webmaster Tools. Where the two engines disagree, the disagreement itself is evidence, because they render pages and apply robots rules differently.
 
-A new recommendation usually means one of two things: Google changed what it wants from profiles, or your details drifted out of date as hours, services, and attributes changed in the real business. A recommendation that disappears means the gap it named has closed. Work the list from the top, but verify every item against the business itself before accepting it. A recommendation is a prompt, not an order, and the owner who knows the shop floor outranks the algorithm's guess. Where a suggestion is wrong for your business, decline it and move on with a clear conscience.
+### Robots, sitemap, and internal linking review
 
-## Engagement: actions, counted honestly
+The robots.txt file, meta robots tags, and X-Robots-Tag headers, checked for rules that fence off pages or resources by accident. The sitemap, checked for dead, redirected, and noncanonical URLs. Internal linking, checked for orphan pages, excessive click depth, and important pages reachable only through scripted navigation.
 
-Engagement gathers the actions people took from your profile: the calls, messages, direction requests, website visits, and bookings your listing produced. Look first at the direction of the totals across a whole quarter rather than any single week. Local demand moves with weather, holidays, school terms, and road works, and a quarter smooths most of that noise into a line you can actually read.
+### Backlink audit
 
-A rise means more searchers reached the point of acting, which is the only point that pays. A fall means less until you have run the interpretation check two sections below, because some of those actions now happen somewhere else. Before blaming the market, compare each action against the channel that receives it. If calls fall, ring the number on your own profile and confirm it connects to the right desk. Broken plumbing hides inside report totals far more often than lost demand does, and it is cheaper to fix.
+I sample the referring domains pointing at the site and separate genuine links from spam and link schemes. If the profile is dense with manipulative links, I prepare a disavow file ready to upload. If the links are ordinary noise Google already ignores, the report says so and you spend nothing fixing them.
 
-## Reviews: read below the star rating
+### Structure for AI search
 
-The Reviews section breaks the detail out instead of compressing everything into one average: how many reviews arrived, how the ratings spread, and the words themselves, close enough to read in place. Look first at the distribution and the pace. Ten reviews carrying two furious outliers tell a different story than a smooth average suggests, and a steady trickle of recent reviews outweighs a proud total gathered years ago.
+Indexed pages are the raw material AI answer engines cite, so the audit also covers how the pages are built: schema and structured data, content chunked into answerable sections, and real differentiation between pages that share a template, so each page gives an answer engine something quotable.
 
-Then read the text as field research. A cluster of new reviews after a menu change, a hire, or a remodel is your customers writing the changelog. Phrases that repeat across reviews are the phrases the next searcher will meet, so note them exactly. Answer every review briefly and without argument, especially the unfair ones, because the reply is written for the reader who comes after. Then fix the operational thing the complaints repeat. Owners tend to read reviews as reputation. Read them as the cheapest customer research you will ever be handed.
+## What you receive
+- A findings report: which pages are blocked, which are declined, the mechanism behind each group, and the evidence for every claim.
+- A prioritized fix list, in the order the fixes should ship.
+- Copy and paste examples for the fixes that have a form: corrected titles, meta descriptions, robots rules, canonical tags, and template wording.
+- A disavow file, if the backlink audit warrants one.
+- A plain statement of which pages should not be indexed at all, and what to do with them instead.
 
-## Audience: who is finding you
+## Price and how it starts
 
-Audience gathers the people behind the views into one place, so you can see who the profile reaches instead of guessing from the totals. Look first for a match or a mismatch: whether the audience arriving looks like the customers you actually want to serve. A profile can be busy and wrong at the same time, and busy wrongness still costs you the hours spent answering it.
+The audit is $750 flat. I invoice in advance through Harvest, and work begins when the invoice is paid and access is in place. I need access to Google Search Console and Bing Webmaster Tools, and any history you can give me: migrations, redesigns, when the indexed count moved, any links you bought. Most audits are delivered within days of access, and the findings hold up on a walkthrough call if you want one.
 
-A widening audience after a new service, a move, or a name change usually means the profile started matching new searches, which is growth you can plan around. A narrowing one can mean a competitor opened closer to your best customers, which is a different problem entirely. Hold the audience picture next to your service list and your service area. If strangers keep arriving for something you do not sell, your categories or services are promising it on your behalf. Correct the listing before you correct the customers.
+## What it does not include
 
-## Search trends: the customer's own words
+Implementing the fixes is separate work. Some clients hand the fix list to their own developer; others hire me to make the changes and verify them, which is covered under [indexing repair](https://christopherabraham.com/services/indexing/) and my broader [technical SEO audit](https://christopherabraham.com/services/seo-audit/) work. The audit stands on its own either way: you keep the report, the fix list, and the examples regardless of who does the implementation.
 
-Search trends shows the searches that led people to your profile and how those searches are moving over time. Look first at rising terms you did not plan for, and at your core money terms if they start slipping down the list. Both ends of that movement are instructions, one about what to add and one about what to defend.
+## Related
 
-Searchers rename things before businesses do. When a trade term gives way to a plain phrase, the market is rewriting your signage in its own vocabulary, and the profile that answers in that vocabulary wins the next visit. Mirror the winning words in your services, your business description, and the local pages of your website, spelled the way customers spell them. Retire the phrases nobody types anymore, however fond the founder remains of them. Sentiment is not a search strategy.
+For the method behind this audit, read [why Google will not index your site](https://christopherabraham.com/guides/why-google-wont-index-your-site/) and my guide to [reading the Page indexing report](https://christopherabraham.com/guides/page-indexing-report/). Ready to start? See [Hire Me](https://christopherabraham.com/hire-me/) or [contact me](https://christopherabraham.com/contact/).
 
-## Falling interactions are not falling demand
+Updated November 2, 2026
 
-The old reports trained owners to treat every interaction as demand arriving at the door. That link is weakening. AI answers now resolve questions that used to end with a tap on your profile: the hours, the price range, whether you stock the thing, whether people rate you well. The customer still buys. The tap just happens inside the answer instead, or never happens at all.
 
-An October 2026 analysis of three American florists found profile interactions down 26 percent year over year, with website clicks down 30 percent, calls down 21 percent, and direction requests down 15 percent, while the shops traded on. Three shops make a small sample, so treat those figures as a direction rather than a measurement of your market. Still, the direction matches what I see across accounts: when interactions fall while revenue holds, demand did not vanish. The answer moved upstream. Your job shifts from winning the tap to being the business the answer names, which is why I track [AI share of voice](https://christopherabraham.com/guides/ai-share-of-voice/) alongside these reports every month. Never judge a month by interactions alone again.
+---
 
-## A monthly routine that takes twenty minutes
+Source: https://christopherabraham.com/guides/why-google-wont-index-your-site/
+Updated: 2026-11-02
 
-Pick one morning a month and give the reports twenty honest minutes, in this order. First, the Overview, clearing or consciously declining each recommendation. Second, Engagement, comparing the month with the month before and with the same month last year. Third, Reviews: the count, the average, the pace, and the three phrases customers repeated most. Fourth, Audience, in a single line about whether the people arriving are the people you want. Fifth, Search trends, choosing one rising term to adopt and one fading term to retire.
+# Why Google will not index your site: a diagnosis guide
 
-Write those five lines down in the same place every month. Reports reward memory, and a profile read monthly for a year teaches more than any single deep dive performed in a panic. End the routine by choosing exactly one action for the month ahead. A reading that produces nine worries produces none of the fixes, and the reports will be there next month to grade the one you picked.
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published November 2, 2026
 
-## Mistakes owners make with the old reports
+Google found your pages, crawled them, and quietly decided to leave most of them out of the index. That decision is the problem, and it has a cause. This guide explains how Google makes the call, how to tell a blocked page from a declined one, and the order in which a real diagnosis works through the evidence.
 
-Most of these will survive the redesign, so retire them now. Judging by days, and reading one rainy Tuesday as a trend. Comparing December with January and calling the difference decline. Chasing views, and celebrating impressions while calls and bookings quietly thin out. Treating a drop in calls as lost customers before checking the AI answers, the phone number, and the calendar for an explanation. Never capturing a baseline, so every redesign leaves the owner arguing with a memory. And reading the reports only when something already feels wrong, which guarantees the numbers arrive attached to a bad mood and get believed for the wrong reasons.
+## Why does Google leave pages out of the index?
 
-## Where I fit
+Crawling, indexing, and ranking are three separate decisions. Google can crawl a page every week and still refuse to index it, because the index is a library with limited shelf space and Google keeps the pages it judges worth storing. A page earns its slot by being reachable, readable, and different enough from everything else already on the shelf.
 
-Reading these reports well is judgement work, and it sits inside the [local search work](https://christopherabraham.com/services/local-seo/) I do for clients: profile upkeep, a steady review rhythm, and a monthly read of what Google and the AI answers are telling the market about a business. If the new layout has reached your account and you want the first read done properly, [book a thirty minute call on my calendar](https://calendly.com/chrisabraham/30) and bring your Performance screen with you. I will read it with you from the top, and you will leave knowing which numbers deserve action and which deserve a shrug. If you would rather start in writing, [write to me through the contact page](https://christopherabraham.com/contact/) and tell me what your reports have been doing.
+Search engines are literal. A page surfaces for the words actually on it, in the structure it actually has, and Google evaluates the page it fetched and rendered, which may not be the page you see in your browser. When owners say "Google will not index my site," the cause is almost always one of three things: the page is blocked by a rule, the content never made it into what Google received, or Google read the page fine and decided it added nothing over pages it already holds. Each cause has a different fix, which is why the diagnosis comes before any repair.
+
+## Is the page blocked, or did Google decline it?
+
+Blocked means a rule on your side stopped Google: a noindex tag, a robots.txt disallow, a login wall, or a server error. Declined means Google fetched the page successfully and chose not to keep it. The Page indexing report separates the two, and the distinction decides everything you do next.
+
+Blocked pages are configuration problems. They are usually fast to find and fast to fix, and they are common after migrations, redesigns, and staging sites that leak into production with their restrictions still on. Declined pages are judgment problems. Google saw the content and ranked it below the cutoff for storage. No setting fixes that; the page itself, or the company it keeps on your site, has to change. Most struggling sites have both, and fixing the blocked pages first is what makes the declined count readable.
+
+## What order does an indexing diagnosis follow?
+
+Work from Google's own records outward to the site itself: coverage first, then the rules that gate crawling, then discovery, then the content judgment. Changing content before you know the gates are open wastes the effort, because Google cannot reward a page it never reaches.
+
+### Step 1: Read the coverage states in Search Console
+
+The Page indexing report is Google's own list of decisions, grouped by reason. Start with the counts per reason and the trend for each, then export the example URLs. The two reasons that carry most diagnoses are "Crawled, currently not indexed," where Google fetched and declined, and "Discovered, currently not indexed," where Google knows the URL exists and has not yet spent a crawl on it. The full walkthrough of each reason is in my guide to [reading the Page indexing report](https://christopherabraham.com/guides/page-indexing-report/). Group the examples by directory and template before inspecting any single URL, because indexing problems live in templates, not in individual pages.
+
+### Step 2: Check robots.txt and meta robots
+
+A single disallow line can fence off a whole section, and a noindex left over from a redesign can sit on a template for months. Read the robots.txt file itself rather than a plugin summary of it, check the meta robots tag and the X-Robots-Tag header on representative pages, and confirm that CSS and JavaScript files are crawlable, since blocked resources corrupt rendering and make good pages look empty. Google documents the robots rules it honors in its [robots.txt introduction](https://developers.google.com/search/docs/crawling-indexing/robots/intro).
+
+### Step 3: Audit the sitemap
+
+A sitemap is a claim about which pages matter. Check that the submitted sitemap returns a 200 status, lists only canonical URLs that return 200 themselves, and contains no redirected, noindexed, or deleted pages. A sitemap full of URLs Google has already declined teaches Google to trust it less. On larger sites, split sitemaps by page type so coverage reporting follows the same split and you can see which template is failing.
+
+### Step 4: Trace internal linking and orphan pages
+
+Google discovers and weighs pages largely through links. A page with no internal links is an orphan, and Google treats orphan status as a relevance signal: if the site itself never points at a page, the page rarely matters. Map click depth from the home page, find orphans in the crawl, and check whether important pages are linked with descriptive anchor text or buried behind scripted navigation that renders late. My [guide to internal linking](https://christopherabraham.com/guides/internal-linking/) covers the structure in depth.
+
+### Step 5: Judge duplicate and thin content
+
+This is where most declined pages are decided. Compare each failing template against the pages Google did index and ask what the declined page adds: distinct facts, distinct inventory, a distinct answer. Pages that repeat a sibling with a city name or a filter value swapped are duplicates in Google's accounting even when every word differs. Near duplicates also fight each other through canonical selection, which I cover in the guide to [near duplicates and multiple H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/). Thin pages are not always short; a long page can be thin if its length is boilerplate shared with ten thousand others.
+
+### Step 6: Examine the backlink profile
+
+Spam links rarely keep a whole site out of the index, but a profile full of purchased or hacked links distorts how Google trusts the domain, and a manual action for unnatural links stops indexing cold. Read the links report in Search Console, sample the referring domains, and separate genuine coverage from link schemes. Where the spam is dense and clearly manipulative, a disavow file is the remedy; where it is ordinary internet noise, Google already ignores it and your time belongs elsewhere. My guide to [buying backlinks](https://christopherabraham.com/guides/buying-backlinks/) explains how these profiles form.
+
+## What is different about programmatic sites?
+
+A programmatic site generates pages from a database and a template: one layout, thousands of URLs, with the variables swapped per page. A location page per city, a product page per item in a feed, a comparison page per pair. The model is legitimate and powers many of the most useful pages on the web. It is also the model Google declines most often, because the same machinery that produces ten thousand useful pages produces ten thousand near-identical ones just as easily.
+
+The failure pattern is consistent. A database has 50,000 rows, so the site ships 50,000 pages, each one swapping a name, a price, and two sentences into the same frame. Google crawls a sample, finds that page 4,000 tells it nothing page 40 did not, and stops. The rest sit in "Discovered, currently not indexed" or land in "Crawled, currently not indexed," and the ratio of indexed to published pages collapses. The site owner experiences this as Google refusing the site. Google experiences it as declining to store copies.
+
+Google's spam policies name the pattern directly: scaled content abuse is generating many pages primarily to manipulate rankings without adding value for users, and it applies whether the pages are written by people, templates, or AI. The policy is in Google's [spam policies documentation](https://developers.google.com/search/docs/essentials/spam-policies). The policy does not ban programmatic pages. It bans pages whose only reason to exist is the query they target.
+
+What separates a programmatic page Google keeps from one it declines is unique substance per page. The pages that earn indexing carry data only that page has: real inventory, real prices, local facts, user reviews, computed comparisons, availability. They are also reachable through a sane structure, with category pages that link down to them and enough internal links that crawl attention reaches the tail. And the site publishes at the rate its value supports, which usually means pruning or noindexing the weakest slice of the database so the strong pages stop competing with their own siblings. Pruning feels like losing pages. In practice it is how programmatic sites recover: fewer, better pages, each one visibly different from the next, get indexed at a far higher rate than the full undifferentiated set.
+
+## What does a diagnosis deliver?
+
+A diagnosis ends with causes, evidence, and an order of work: which templates are blocked, which are declined, the mechanism behind each, and the fix sequence ranked by effect. It also says plainly which pages should not be indexed at all. If you want that work done on your site, my [indexing audit](https://christopherabraham.com/services/indexing-audit/) is the fixed price version, and [indexing repair](https://christopherabraham.com/services/indexing/) covers the implementation side.
+
+## Questions buyers ask me
+
+### Google indexed my pages and then dropped them. Why?
+
+Pages fall out when Google recrawls and rejudges them against a rising bar, when the site around them weakens, or when a template change quietly thins them. A drop concentrated in one page type points at that template. A drop across the whole site points at trust, duplication at scale, or a technical change that shipped near the date the fall began.
+
+### Should I request indexing for every excluded URL?
+
+No. Request indexing in Search Console is a nudge for a handful of priority pages after a fix. Submitting hundreds of declined URLs asks Google to rejudge pages that have not changed, and it changes nothing. Fix the template, verify with a live test on two or three examples, and let recrawling do the rest.
+
+### Will a disavow file fix my indexing?
+
+Only when links are the actual cause, which is uncommon. A disavow addresses a manual action or a dense, manipulative link scheme. If your pages are declined for thin or duplicate content, a disavow changes nothing, and the weeks spent building one are weeks the real problem goes unfixed.
+
+### How long does recovery take after the fixes ship?
+
+Blocked pages usually clear within days of the rule being removed and the page being recrawled. Declined pages take longer, because Google has to recrawl, re-render, and reverse a judgment; expect weeks, and judge progress by template, watching the indexed share of each sitemap rather than the site total.
+
+### Can you guarantee my pages will be indexed?
+
+No honest consultant can. Indexing is Google's decision. What I can guarantee is a diagnosis that names the cause with evidence and a fix list that removes every barrier on your side of the fence, which is the part under your control.
+
+### What do you need from me to start an audit?
+
+Access to Google Search Console and Bing Webmaster Tools, the site's URL, and any history you have: migrations, redesigns, traffic changes, link purchases. The audit itself is a flat $750 invoiced in advance, described on the [indexing audit](https://christopherabraham.com/services/indexing-audit/) page.
 
 ## Let me help you with this
 
@@ -6588,166 +6671,19 @@ If you'd rather have this done than do it yourself, it's exactly the work I do f
 
 Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/freelancers/chrisjabraham).
 
+## Sources
+- [Google Search Central: Spam policies for Google web search](https://developers.google.com/search/docs/essentials/spam-policies)
+- [Search Console Help: Page indexing report](https://support.google.com/webmasters/answer/7440203)
+- [Google Search Central: Introduction to robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro)
+- [Google Search Central: What is a sitemap?](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview)
+
 **[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 
 ---
 
-Source: https://christopherabraham.com/services/gbp-reinstatement/
-Updated: 2026-11-05
-
-# Google Business Profile reinstatement and repair
-
-When Google suspends or disables your Business Profile, your business disappears from Maps and from the local results at the exact moment a customer is looking for you. Reinstatement is a case, not a lottery ticket. It is priced by how much investigation and repair the case needs, the price is agreed in writing before work starts, and nobody sells you a guarantee Google never gave anyone.
-
-## The three tiers
-
-### Tier 1, $800: a straightforward case
-
-A suspension or reinstatement with a readable cause. The price covers a diagnosis of the suspension from the profile and Google's notice, the compliance fixes to the profile itself that the appeal needs (name, address, categories, photos, hours), one properly built appeal or reinstatement submission with the supporting evidence in front, and status updates until Google decides.
-
-### Tier 2, $1,000: a complex case, including a rejected appeal
-
-Everything in Tier 1, plus a review of the prior rejection: what was filed, what Google answered, and what has to change before anything is filed again. Where the profile's address or service area setup is part of the problem, that gets rebuilt. The evidence packet (business documents, signage, licensing) is assembled to Google's current standard, and a second submission is included if the first response requires one.
-
-### Tier 3, $1,200 and up: extensive investigation and remediation
-
-Everything in Tier 2, plus the cases with archaeology in them: multiple profiles or duplicates, a hijacked or merged listing, and remediation across the wider footprint (website, citations, directories) where those are feeding the profile problem. Tier 3 is scoped and quoted per case in writing before work begins. The "and up" is honest: nobody promises a fixed ceiling on a case nobody has opened yet.
-
-## How a case runs
-1. **Assessment.** Every case is assessed individually first. Which tier a case belongs in is a judgment made from the profile, the notices, and the documents, and it is agreed in writing before work starts.
-2. **The case is built.** Diagnosis, compliance fixes, and an appeal where the strongest evidence comes first and nothing is claimed that the documents cannot support.
-3. **Google decides.** On Google's timeline, which is slow and inconsistent. You get status updates until it does, not silence.
-
-## What no tier includes
-
-**No guarantee of reinstatement.** Google decides, and anyone who promises you otherwise is selling you something that does not exist. What the price buys is the diagnosis, the compliance work, and a properly built case. There is no refund if Google says no, and there is no pay-on-success pricing: a case worked properly and refused by Google was still worked properly.
-
-Ongoing profile management, review responses, and posting after the case closes are separate services with their own prices, as is SEO work beyond what the case itself requires.
-
-## Proof it works
-
-A Canadian hypnotherapy office disappeared from Google Maps after a suspension. The listing was corrected, the proof was organized, and the profile was restored on appeal. The full account is in [the profile reinstatement case study](https://christopherabraham.com/case-studies/profile-reinstated/). The wider local practice (location pages, categories, multi-location cleanup) is on the [local SEO page](https://christopherabraham.com/services/local-seo/).
-
-## Start
-
-Thirty minutes: [book a 30 minute call](https://calendly.com/chrisabraham/30). Bring the suspension notice, whatever Google has sent you, and access to the profile if you still have it. The assessment names your tier; the tier names your price; both go in writing before any work starts.
-
-[Book a 30 minute call](https://calendly.com/chrisabraham/30)
-
-## Questions
-
-### How much does Google Business Profile reinstatement cost?
-
-It is priced in three tiers: $800 for a straightforward case, $1,000 for a complex case including a rejected appeal, and $1,200 and up for extensive investigation and remediation. Your tier is agreed in writing after an assessment, before work starts.
-
-### Can you guarantee my profile will be reinstated?
-
-No, and nobody can. Google decides. The price buys a diagnosis, the compliance fixes, and a properly built appeal with the strongest evidence first. There is no refund if Google refuses, and no pay-on-success pricing.
-
-### Google already rejected my appeal. Is it over?
-
-Not necessarily. A rejected appeal is a Tier 2 case: the rejection itself is evidence. What was filed, what Google answered, and what changed since are the starting point for a second, better-built submission.
-
-### How long does reinstatement take?
-
-The case work is prompt; Google's decision is not. Google answers on its own timeline, which runs from days to weeks and is inconsistent. You receive status updates until the decision lands.
-
-### My business has no storefront. Can its profile be reinstated?
-
-Service-area businesses (no address shown, areas served instead) have their own rules, and a wrong address setup is a common cause of suspension. Rebuilding the service-area setup is part of Tier 2 and Tier 3 work where it is part of the problem.
-
-Updated November 5, 2026
-
-
----
-
-Source: https://christopherabraham.com/services/github-pages-website/
-Updated: 2026-11-05
-
-# I build your website on GitHub Pages: $1,500 flat
-
-I build websites on GitHub Pages for a flat $1,500. You get a complete site, designed from an example you choose, written and assembled with AI under my direction, and delivered into accounts you own: your domain at Cloudflare, your code in your GitHub repository, every file yours to keep. Hosting is free. The domain runs about $10 a year at Cloudflare's wholesale price, paid by you to Cloudflare. When I hand over a site, I hand over the whole thing.
-
-Every site I run for myself lives on this stack. This page does. The build is the one I use daily, offered as a service.
-
-## Why these sites load fast and read well
-
-A GitHub Pages site is finished HTML. A browser asks for a page and receives the page, served from a global network. Nothing gets assembled on the server, because there is no server application, no database, and no page builder in the path. Speed follows from that construction, and PageSpeed scores in the top class are the normal result.
-
-Search engines and answer engines read the same construction. Each page carries semantic HTML a crawler can parse without guessing, schema that states the facts of the business, a sitemap, an llms.txt for AI crawlers, direct-answer blocks that say plainly what you do and who it is for, and FAQs written in the questions your buyers actually ask. I have spent thirty years getting pages indexed and cited; that discipline is built into the page structure from the first file.
-
-## The whole house, not just the framing
-
-Most web developers build a frame: foundation, framing, Tyvek, drywall. The house stands, and everything that makes it work is somebody else's job. I build the whole house: the architecture, the plumbing, the electricity, the interior, and the feng shui besides. The site launches connected to Google and Bing, registered in Google Search Console and Bing Webmaster Tools, with every URL submitted to both, schema on the pages, alt text on the images, and the ancillary work done that most builds never touch. I make your housepage a homepage.
-
-## Bring me a site you like
-
-You do not need to describe a design. Show me a site you want to emulate or base yours on, and in many cases the sky is the limit. A competitor's layout, a site from another trade that gets the feel right, a page you have admired for years: I build your version of it, carrying your offer and your words.
-
-A word about how my own sites look. They look the way they do on purpose: my weblog is kept at a 2004 aesthetic and my other sites at 2003, because that is my taste and I keep it deliberately. It is not the ceiling of the build and it is not a house style imposed on clients. Your site does not have to look like mine. It can look however you like: the design follows the example you bring, not the one I keep for myself.
-
-The limits are real and I state them up front. Design and layout emulation is wide open. A static site does not run native web-app machinery: no store checkout of its own, no member logins, no customer database. Forms, scheduling, and payments work through third-party tools embedded in the pages, which is how most small sites run them anyway. My guide lays out the limits and the workarounds in full: ../../guides/github-pages-website/
-
-## The manual is free; the $1,500 is the labor
-
-I published the whole method as a free, step-by-step guide: ../../guides/github-pages-website/ Read it and you can build one of these yourself; clients have. The $1,500 pays for the work done for you: the design decisions, the writing and structure, the DNS, the deployment, and a launched site at the end instead of a project on your list.
-
-## What the $1,500 includes
-- **Design** modeled on the example you bring, built around your business.
-- **The build:** 10 pages, structured for Google and for AI answer engines.
-- **Domain and DNS setup:** your domain at Cloudflare at wholesale, records configured and tested.
-- **Deployment** to GitHub Pages from a repository in your own GitHub account.
-- **Search structure:** titles and descriptions, schema, image alt text, sitemap, llms.txt, direct-answer blocks, FAQ sections.
-- **Search engines wired in:** Google Search Console and Bing Webmaster Tools connected and verified, the sitemap submitted, and every page URL submitted directly to Google and Bing at launch.
-- **A contact route that works:** a form wired to a form service, or a booking link, live at launch.
-- **Handover:** the site live on your domain, checked on phone and desktop, with a walkthrough of what you own and how updates get made.
-
-The site goes live within two weeks after I have your example and your materials. The price covers two rounds of revisions. One flat fee, quoted before work starts; the domain, about $10 a year to Cloudflare, is the only recurring cost the site itself ever carries.
-
-## Keeping it current, if you want that
-
-Some clients take the site and run it themselves, which the handover is designed to allow. Others keep me on through the AI Presence retainer, $500 a month: updates and new pages, continuing search and AI-visibility work, and a watch on how the answer engines present your business. Month to month, no lock-in, and the site stays yours regardless.
-
-## Common questions
-
-### Why is it so fast?
-
-The pages are finished files. GitHub's network hands a browser the complete page, and there is no database query, no plugin stack, and no page builder between the request and the answer. Static sites post top-class PageSpeed scores because there is very little that can slow one down.
-
-### Do I own it?
-
-Completely. Domain in your name, repository in your account, files in your hands. You can hire anyone to work on it, move it, or leave it exactly as delivered. Nothing about the site depends on me after launch unless you want it to.
-
-### What can't it do?
-
-A static site cannot run its own checkout, member logins, or database. Those are server applications. Forms, booking, and payment links run through established third-party services placed in the pages, and my guide explains exactly where the line sits: ../../guides/github-pages-website/
-
-### What does it cost after launch?
-
-About $10 a year, for the domain, paid to Cloudflare. Hosting costs nothing and keeps costing nothing. The care retainer is optional at $500 a month.
-
-### What do I have to supply?
-
-An example site you like, the facts of your offer, and whatever materials you have: logo, photos, existing copy. I draft the rest. If you have nothing but the example and a phone call's worth of facts, that is enough to start.
-
-### I already have a website. Can you rebuild it this way?
-
-In most cases, yes. The content carries over, the design follows your example, and the domain points to the new build when it launches. Functions that need a server, like a store, stay on the tool that runs them and get linked from the new site.
-
-## Start
-
-Book 30 minutes and bring the site you want to emulate: https://calendly.com/chrisabraham/30
-
-Or email me at cabraham@gmail.com with the example site in the message. I will tell you straight whether this build fits what you need before you spend anything.
-
-Updated November 5, 2026
-
-
----
-
 Source: https://christopherabraham.com/sitemap/
-Updated: 2026-11-05
+Updated: 2026-11-10
 
 # Site map
 
@@ -6776,14 +6712,13 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Internal linking strategy: stitch your website together](https://christopherabraham.com/services/internal-linking/): Internal linking strategy for an established website: contextual text links, descriptive anchors, orphan page recovery, useful hubs, and a measured rollout.
 - [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/): Independent SEO checks before and after a website release: rendering, indexing signals, redirects, media, and evidence your developer can act on.
 - [Website inquiry audits: find where contacts go missing](https://christopherabraham.com/services/inquiry-path-audit/): Find broken contact routes, missing form notifications, and misleading conversion events. Get documented tests, clear repair priorities, and verified retests.
+- [Indexing audit](https://christopherabraham.com/services/indexing-audit/): A complete indexing audit for a flat $750, invoiced in advance: full crawl, Search Console and Bing diagnosis, backlink review, and a ranked fix list.
 
 ## AI search, schema, and content
 - [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/): Improve how ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google AI Overviews describe and cite your business, with prompt testing, entities, and content.
 - [Schema markup and entity SEO](https://christopherabraham.com/services/schema/): Structured data that validates, matches the visible page, and connects your organization, people, products, and locations as entities for Google and AI.
 - [On-page SEO](https://christopherabraham.com/services/on-page-seo/): On page SEO fixed at the template level: titles and meta descriptions, headings, internal links, thin and duplicate pages, and carefully edited AI drafts.
 - [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/): SEO articles drafted with AI from your own material, written to your voice rules, then checked claim by claim against sources before anything is published.
-- [Google Business Profile reinstatement and repair](https://christopherabraham.com/services/gbp-reinstatement/): A suspended Google Business Profile is a priced case, in three tiers from 800 dollars, scoped in writing first. No guarantee and no refund games.
-- [I build your website on GitHub Pages: $1,500 flat](https://christopherabraham.com/services/github-pages-website/): A flat 1500 dollars: design, build, domain and DNS, launch on GitHub Pages. Hosting is free forever and every file is yours to keep and move.
 - [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/): A fixed-price audit of what Google AI Overviews, ChatGPT, Perplexity, and Gemini say about your business, a sprint to fix the sources, and monthly checks.
 
 ## Platforms, local, and ongoing work
@@ -6842,7 +6777,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/): Build useful paths through your existing pages with contextual links, clear anchor text, working section targets, and an internal linking worksheet.
 - [Moving a website? Check its images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/): Keep images, PDFs, and share cards working during a website move. Inventory old media URLs, test the new files, and find references to the retiring host.
 - [Your website form says success. Did anyone get the inquiry?](https://christopherabraham.com/guides/test-website-inquiries/): Trace a test inquiry from landing page to form, confirmation, inbox, and reporting. Find delivery failures and false conversion counts before buying traffic.
-- [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/): Google is testing a rebuilt Performance section for Business Profiles. How to read each new report, Overview first, and what the numbers mean.
+- [Why Google will not index your site: a diagnosis guide](https://christopherabraham.com/guides/why-google-wont-index-your-site/): Why Google crawls a page and still leaves it out of the index, how to read the evidence, and the order a working indexing diagnosis follows, step by step.
 
 ## Case studies
 - [Equipment retailer: product details that loaded only on scroll](https://christopherabraham.com/case-studies/scroll-gated-products/): An equipment retailer on Magento and Hyvä lost organic traffic because Alpine.js loaded specs and reviews only on scroll. How the cause was isolated and proven.
@@ -6869,17 +6804,17 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [llm.txt](https://christopherabraham.com/llm.txt): the same summary as llms.txt, at the other common address.
 - [robots.txt](https://christopherabraham.com/robots.txt): crawler rules; every search engine and AI crawler is welcome.
 
-Updated November 5, 2026
+Updated November 10, 2026
 
 
 ---
 
 Source: https://christopherabraham.com/site-index/
-Updated: 2026-11-05
+Updated: 2026-11-10
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 555 headings across 100 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 555 headings across 99 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -7297,14 +7232,7 @@ People are listed surname first. Cross-references point to related headings. For
   - finding measurement IDs, [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/)
   - ghost traffic, [Plugin Outage](https://christopherabraham.com/case-studies/plugin-outage/)
 
-- GBP performance reports, **[GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)**. *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
-  - audience, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
-  - engagement, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
-  - monthly reading routine, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
-  - overview recommendations, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
-  - reading mistakes, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
-  - reviews in detail, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
-  - search trends, [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/)
+- GBP performance reports. *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
 
 - Gemini, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/)
 - GEO (generative engine optimization), [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [AI Search](https://christopherabraham.com/services/ai-search/). *See also* [AI search](https://christopherabraham.com/site-index/#ix-ai-search)
@@ -7320,7 +7248,7 @@ People are listed surname first. Cross-references point to related headings. For
 
 - GitHub Actions, [Podcast Site](https://christopherabraham.com/case-studies/podcast-site/), [Skills and Proof](https://christopherabraham.com/about/skills/)
 - GitHub Copilot, [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
-- GitHub Pages, [Services](https://christopherabraham.com/services/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Colophon](https://christopherabraham.com/about/colophon/), [Privacy](https://christopherabraham.com/privacy/), [GitHub Pages Website](https://christopherabraham.com/services/github-pages-website/)
+- GitHub Pages, [Services](https://christopherabraham.com/services/), [Static Websites](https://christopherabraham.com/services/static-sites/), [Podcast Website SEO](https://christopherabraham.com/services/podcast-website/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Colophon](https://christopherabraham.com/about/colophon/), [Privacy](https://christopherabraham.com/privacy/)
   - custom domains and HTTPS, [Parked Domain Launch](https://christopherabraham.com/guides/parked-domain-launch/)
 
 - GitLab, [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
@@ -7332,7 +7260,7 @@ People are listed surname first. Cross-references point to related headings. For
   - brand search studies, [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/)
 
 - Google Apps case study (Abraham Harrison), [About](https://christopherabraham.com/about/)
-- Google Business Profile, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/), [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/), [Skills and Proof](https://christopherabraham.com/about/skills/), [GBP Performance Reports](https://christopherabraham.com/guides/gbp-performance-reports/). *See also* [local SEO](https://christopherabraham.com/site-index/#ix-local-seo)
+- Google Business Profile, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), **[Local SEO](https://christopherabraham.com/services/local-seo/)**, [Small Business Schema](https://christopherabraham.com/guides/small-business-schema/), [Redirect Rules](https://christopherabraham.com/guides/redirect-rules/), [Business Name Change](https://christopherabraham.com/guides/business-name-change/), [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Training Gym](https://christopherabraham.com/case-studies/training-gym/), [Skills and Proof](https://christopherabraham.com/about/skills/). *See also* [local SEO](https://christopherabraham.com/site-index/#ix-local-seo)
   - Chris’ own rating, [Home](https://christopherabraham.com/)
   - inaccurate photos, [Training Gym](https://christopherabraham.com/case-studies/training-gym/)
   - interactions, calls, and direction requests, [Training Gym](https://christopherabraham.com/case-studies/training-gym/)
@@ -7341,7 +7269,6 @@ People are listed surname first. Cross-references point to related headings. For
   - reviews, [Local SEO](https://christopherabraham.com/services/local-seo/)
   - special hours, [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)
   - suspensions and appeals, [Local SEO](https://christopherabraham.com/services/local-seo/), [Profile Reinstated](https://christopherabraham.com/case-studies/profile-reinstated/), [Skills and Proof](https://christopherabraham.com/about/skills/)
-  - suspensions and reinstatement, [GBP Reinstatement](https://christopherabraham.com/services/gbp-reinstatement/)
   - temporarily closed, [Holiday Hours](https://christopherabraham.com/guides/holiday-hours/)
 
 - Google documentation, [Brand name in titles](https://christopherabraham.com/guides/brand-name-in-titles/), [Small original research](https://christopherabraham.com/guides/small-original-research/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
@@ -8044,4 +7971,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated November 5, 2026
+Updated November 10, 2026
