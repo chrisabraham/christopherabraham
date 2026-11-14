@@ -38,12 +38,12 @@ The complete list, including [schema markup](https://christopherabraham.com/serv
 
 ## My Upwork record
 
-Most clients find me as [Christopher A. on Upwork](https://www.upwork.com/freelancers/chrisjabraham), where every job, hour, and rating is on the record. Figures as of October 2026:
+Most clients find me as [Christopher A. on Upwork](https://www.upwork.com/freelancers/chrisjabraham), where every job, hour, and rating is on the record. Figures as of November 2026:
 | Job Success | 100% |
 | Badge | Top Rated |
 | Total earnings | $200K+ |
-| Jobs | 127 |
-| Hours | 4,089 |
+| Jobs | 132 |
+| Hours | 4,155 |
 | Usual reply time | 4 to 8 hours |
 
 >
@@ -60,7 +60,7 @@ Client, AI SEO and technical SEO project
 
 Locally, my verified [Google Business Profile](https://share.google/xZ98ksFq3nhO2OvuF) holds a 5.0 rating from 10 Google reviews (as of October 2026).
 
-Clients describe working with me as collaborative, committed to quality, and clearly communicated, according to Upwork's summary of my completed jobs.
+Clients describe working with me as collaborative, committed to quality, and clearly communicated, according to Upwork's summary of my completed jobs. More of their words, quoted exactly, are on [client reviews](https://christopherabraham.com/about/reviews/).
 
 ## Selected results
 - Found that a Magento store's product specs, FAQs, and reviews loaded only when a shopper scrolled, so Googlebot indexed 300-word shells of 1.2 MB pages. [The scroll-gated products case](https://christopherabraham.com/case-studies/scroll-gated-products/).
@@ -122,6 +122,7 @@ Every service starts from the same place: find out what search engines and AI sy
 - [Podcast website SEO](https://christopherabraham.com/services/podcast-website/): your feed turned into a site with a page, transcript, and share card for every episode, updated each morning.
 - [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Shopify, WooCommerce, and Magento product, category, and faceted pages.
 - [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/): location pages, profiles, categories, and hard cases such as suspensions.
+- [Google Business Profile reinstatement](https://christopherabraham.com/services/gbp-reinstatement/): suspended or disabled profiles, priced in three tiers from $800, scoped in writing first.
 - [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/): steady monitoring, fixes, and reporting from a senior consultant.
 
 ## How each service is delivered
@@ -212,7 +213,7 @@ Updated October 15, 2026
 ---
 
 Source: https://christopherabraham.com/services/seo-audit/
-Updated: 2026-10-06
+Updated: 2026-10-24
 
 # Technical SEO audit
 
@@ -265,7 +266,11 @@ Traffic losses rarely have a single cause, and the most dangerous move is to tel
 
 Many clients have me implement the fixes I can reach, such as metadata, redirects, schema, and plugin or Cloudflare settings, and then verify the developer's work against the acceptance criteria. Others take the report to their own team. Either way the report stands on its own. Scope, timeline, and price are agreed before the audit starts. See [Hire Me](https://christopherabraham.com/hire-me/), or read [what a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/).
 
-Updated October 6, 2026
+## Choose work your team can finish
+
+An audit needs an order of work that respects the people available to implement it. My [guide to setting SEO priorities](https://christopherabraham.com/guides/prioritize-seo-work/) explains how to weigh business relevance, diagnostic confidence, dependencies, and delivery effort without pretending to forecast a ranking gain.
+
+Updated October 24, 2026
 
 
 ---
@@ -809,7 +814,7 @@ Updated October 15, 2026
 ---
 
 Source: https://christopherabraham.com/services/podcast-website/
-Updated: 2026-10-14
+Updated: 2026-10-26
 
 # Podcast website SEO
 
@@ -847,9 +852,9 @@ Your RSS feed address, your domain or the name you want, the cover art at full s
 
 ## How it's delivered
 
-A standard build from an existing feed takes about an afternoon of my time, and it's quoted as a fixed-scope project after a short call. Ongoing additions, such as articles or new page types, can be billed by the hour. Terms are on [Hire Me](https://christopherabraham.com/hire-me/). For the static approach in general, see [static websites built for search](https://christopherabraham.com/services/static-sites/).
+A build from an existing feed is quoted as a fixed-scope project after a short call. Ongoing additions, such as articles or new page types, are quoted as a fixed fee before the work starts. Terms are on [Hire Me](https://christopherabraham.com/hire-me/). For the static approach in general, see [static websites built for search](https://christopherabraham.com/services/static-sites/).
 
-Updated October 14, 2026
+Updated October 26, 2026
 
 
 ---
@@ -910,7 +915,7 @@ Updated October 6, 2026
 ---
 
 Source: https://christopherabraham.com/services/local-seo/
-Updated: 2026-10-06
+Updated: 2026-10-24
 
 # Local SEO and Google Business Profile
 
@@ -947,7 +952,11 @@ Profile performance data, calls and direction requests, local pack positions mea
 
 See [a therapy practice's suspended profile reinstated](https://christopherabraham.com/case-studies/profile-reinstated/) and [a multi-state brand untangled from its first showroom](https://christopherabraham.com/case-studies/closet-locations/).
 
-Updated October 6, 2026
+## Seasonal measurement and release planning
+
+For businesses with a short selling season, I establish comparable reporting windows and a consistent map sampling setup before demand rises. I distinguish profile actions from qualified inquiries and help schedule website changes around peak trading. The [seasonal local measurement guide](https://christopherabraham.com/guides/seasonal-local-seo/) explains the baseline and the questions it can answer.
+
+Updated October 24, 2026
 
 
 ---
@@ -962,7 +971,7 @@ After the audit and the big fixes, sites drift. Plugins update, developers ship 
 ## What a month includes
 - **Monitoring.** Search Console and Bing Webmaster Tools for indexing changes, crawl errors, manual actions, and Core Web Vitals; analytics for unusual drops; uptime and redirect checks on key pages.
 - **A monthly crawl.** Compared with last month's, so new 404s, redirect chains, duplicate titles, and noindex tags are caught within weeks of appearing.
-- **Hands-on fixes.** Metadata, redirects, schema, internal links, and plugin or Cloudflare settings, within the hours on the retainer.
+- **Hands-on fixes.** Metadata, redirects, schema, internal links, and plugin or Cloudflare settings, within the scope the retainer covers.
 - **Developer QA.** I review releases that touch templates, routing, or head tags, before they ship when possible and right after when not.
 - **Content support.** Briefs for new pages, edits for SEO, and refreshes of pages that are slipping.
 - **AI search checks.** A stable set of prompts run across the major assistants, tracked over time.
@@ -976,7 +985,7 @@ After the audit and the big fixes, sites drift. Plugins update, developers ship 
 
 ## How it's structured
 
-A retainer covers a set number of hours each month, agreed in advance and billed at the start of the month, or run as a weekly hourly contract on Upwork. Priorities are set together at the start of each month and adjusted when something urgent comes up. Unused hours don't roll over indefinitely; if months run consistently light, I'll suggest a smaller plan.
+A retainer is a fixed monthly fee for an agreed scope of work, set in writing before the month starts and billed at its start, direct or as a fixed price contract on Upwork. Priorities are set together at the start of each month and adjusted when something urgent comes up. If months run consistently light, I'll suggest a smaller plan.
 
 ## Starting a retainer
 
@@ -1000,25 +1009,39 @@ Updated October 6, 2026
 ---
 
 Source: https://christopherabraham.com/guides/
-Updated: 2026-10-20
+Updated: 2026-11-03
 
 # SEO guides
 
 These guides cover the questions clients ask me most, written so you can act on them yourself. Each one is self-contained, with links to related guides and to the glossary for terms.
 
+## Seasonal businesses
+- [Black Friday sale pages that keep their rankings](https://christopherabraham.com/guides/black-friday-pages/): one permanent address reused every year, when to publish, and what to do with the page in January.
+- [Search Console comparisons that support better decisions](https://christopherabraham.com/guides/search-console-comparisons/): consistent periods, page groups, and honest reporting.
+- [Prioritize SEO work with limited developer time](https://christopherabraham.com/guides/prioritize-seo-work/): a practical method with an illustrative example and verification steps.
+- [Measure seasonal local SEO before the busy weeks arrive](https://christopherabraham.com/guides/seasonal-local-seo/): a practical workflow with explicit decisions and verifiable evidence.
+
 ## Indexing and audits
+- [Give your SEO access without handing over your passwords](https://christopherabraham.com/guides/give-seo-access/): the role to pick in Search Console, GA4, Business Profile, WordPress, and Shopify, and the offboarding list.
 - [Test your website inquiries from page to inbox](https://christopherabraham.com/guides/test-website-inquiries/): trace submission, receipt, and analytics before investing in more traffic.
 - [Internal linking: stitching your pages together](https://christopherabraham.com/guides/internal-linking/): choose useful destinations, write natural anchors, check section targets, and plan the additions in a downloadable worksheet.
 - [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/): what each exclusion reason means, which ones matter, and how to trace a count back to the template behind it.
+- [Why Google will not index your site](https://christopherabraham.com/guides/why-google-wont-index-your-site/): how to tell a blocked page from a declined one, the six step diagnosis order, and why programmatic sites get declined at scale.
+- [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/): the four tests every listed URL must pass, honest lastmod dates, the tags to drop, and how to audit a sitemap against a crawl.
 - [Why your SEO should work in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/): fixing causes in templates instead of symptoms page by page, what AI coding assistants add, and what to ask before you hire.
 - [How to find near-duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/): Screaming Frog settings that catch both, what heading problems really cost, and how to settle each duplicate cluster.
 - [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/): XPath and regex for heading counts, canonicals, robots tags, JSON-LD types, missing alt text, and tag IDs.
+- [Spam link spikes and the disavow file](https://christopherabraham.com/guides/disavow-links/): what Google does with junk links, the few cases that call for a disavow, the exact file format, and the mistakes that cost rankings.
 - [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/): before-and-after crawls, the four change columns, change detection, and Search Console validation.
 - [Is a Screaming Frog licence worth $279 a year?](https://christopherabraham.com/guides/screaming-frog-licence/): what the free 500 URL version leaves out and everything the paid crawler can do, from JavaScript rendering to the new MCP server.
 - [What a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/): how to tell a useful audit from a tool export, before and after you pay for one.
 - [How to hire an SEO on Upwork](https://christopherabraham.com/guides/hiring-an-seo/): five screening questions that expose real skill, the red flags, and a safer paid first step.
 
 ## AI search and structured data
+- [Selling inside AI assistants](https://christopherabraham.com/guides/agentic-checkout/): where buy buttons in ChatGPT and AI Mode stand for a small shop, and the product data work that pays off either way.
+- [Bookings from Google AI Mode](https://christopherabraham.com/guides/ai-mode-bookings/): which reservations and appointments AI Mode can make today, and how a local business becomes bookable.
+- [How to shrink a huge video to the smallest audio file that still transcribes](https://christopherabraham.com/guides/shrink-video-for-transcription/): one ffmpeg command, bitrate math, fallbacks to MP3 and M4A, upload caps, trims, and batch conversion.
+- [The show notes cascade](https://christopherabraham.com/guides/show-notes-cascade/): how podcast directories copy your episode notes across the web, and how to write notes that AI answers quote.
 - [Publish original research without a big budget](https://christopherabraham.com/guides/small-original-research/): a manageable question, repeatable method, honest sample, and evidence readers can inspect.
 - [AI catnip for fall 2026](https://christopherabraham.com/guides/ai-catnip/): original evidence, useful answers, crawler access, and realistic expectations for citations.
 - [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/): crawler access, server-rendered content, entities, answer-shaped pages, llms.txt, and measurement.
@@ -1027,6 +1050,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Reddit and AI answers](https://christopherabraham.com/guides/reddit-ai-answers/): why threads shape what Google and ChatGPT say about you, what moderators remove, and honest participation.
 - [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/): five types, example JSON-LD, and the rules that keep it accurate.
 - [Topic clusters for AI search](https://christopherabraham.com/guides/topic-clusters/): one hub, one page per buyer question, and no two pages competing for the same query.
+- [Google Merchant Center free listings for small shops](https://christopherabraham.com/guides/merchant-center-free-listings/): the feed, required attributes, shipping and returns, and the errors to fix first.
 
 ## Migrations and performance
 - [Check images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/): inventory media, inspect the new files, find old references, and record the handover.
@@ -1037,15 +1061,22 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [Load Google Analytics 4 without hurting PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/): load gtag.js after the first scroll or tap, keep every pageview command, and know the cost.
 
 ## Local listings
+- [Reading the rebuilt Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/): each new section in plain terms, starting with Overview.
 - [How to change a business name without losing your reviews](https://christopherabraham.com/guides/business-name-change/): edit the listing you have, let the sign go first, and connect the old name on the web.
 - [Will Google penalize AI-written content?](https://christopherabraham.com/guides/ai-content-seo/): what Google said in 2023 and in October 2026, fake authors, scaled content abuse, the data, and a safe way to use AI.
 - [Cloudflare for WordPress](https://christopherabraham.com/guides/cloudflare-wordpress/): gray cloud or orange, what the free plan already does, APO and Polish, the setup steps, and what to budget.
 - [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/): the day one settings, the plugins I recommend, archive pages, alt text, descriptive links, speed, and accessibility.
 - [Where to get reliable SEO and AI search news](https://christopherabraham.com/guides/seo-news-sources/): primary sources first, the daily trade press and who owns it, and three habits that keep you from repeating mistakes.
 - [Hit by a 2026 Google update?](https://christopherabraham.com/guides/update-recovery-2026/): line the drop up with the calendar, rule out reporting quirks, find the pages that lost, and fix them in order.
+- [Google Business Profile video verification](https://christopherabraham.com/guides/gbp-video-verification/): the single take Google wants, what storefronts and service-area businesses must show, and what to do after a rejection.
 - [Holiday hours on Google Business Profile](https://christopherabraham.com/guides/holiday-hours/): special hours versus temporarily closed, a calendar for the season, and multiple locations.
+- [Service-area businesses on Google Business Profile](https://christopherabraham.com/guides/service-area-business/): removing the address, choosing service areas, and the phone number that matches everywhere.
+- [Apple Maps and Bing Places: local listings past Google](https://christopherabraham.com/guides/apple-and-bing-listings/): claiming the place card and the Bing listing, and keeping one master record.
+- [The FTC fake review rule for small businesses](https://christopherabraham.com/guides/ftc-review-rule/): what the 2024 rule bans, what it allows, review gating, and staff reviews.
 
 ## Your name, your entity, and AI answers
+- [Nobody mentions you](https://christopherabraham.com/guides/nobody-mentions-you/): why a flawless site stays out of AI answers without outside mentions, and the questions to put to an agency.
+- [Who wrote your reputation](https://christopherabraham.com/guides/who-wrote-your-reputation/): an owner's audit of praise and provenance, from someone who wrote much of his own.
 - [How to measure your share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/): a fixed question set, who gets named, the tone, and the sources cited, run monthly.
 - [How to correct what AI search says about you](https://christopherabraham.com/guides/correct-ai-answers/): trace each wrong fact to its source and publish corrections that stick.
 - [One person, two names](https://christopherabraham.com/guides/two-names-one-entity/): connecting a nickname, pen name, or formal name into a single entity with schema and sameAs.
@@ -1054,6 +1085,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 
 ## Domains, DNS, and files for machines
 - [Launch a site on a parked domain](https://christopherabraham.com/guides/parked-domain-launch/): Cloudflare DNS, GitHub Pages, HTTPS, and the caching trap.
+- [Own Your Website Outright and Never Pay Platform Rent](https://christopherabraham.com/guides/github-pages-website/): a domain at wholesale, free hosting, the DNS records, and an AI doing the typing for about $10 a year.
 - [Lock down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/): null MX, SPF, DMARC, and an empty DKIM key.
 - [What happens to your old domains when they lapse](https://christopherabraham.com/guides/lapsed-domains/): drop catchers, redirects to strangers, and how to protect yourself.
 - [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/): the format, Markdown copies, llms-full.txt, and robots rules.
@@ -1064,6 +1096,7 @@ These guides cover the questions clients ask me most, written so you can act on 
 - [The Lynx test](https://christopherabraham.com/guides/lynx-test/): see your site the way search engines and AI crawlers read it, in a text-only browser.
 
 ## Reference
+- [SEO and AI search advice to refuse](https://christopherabraham.com/guides/seo-advice-to-refuse/): the tactics to decline, the plausible ones that waste money, and the schemes that get a site removed.
 - [Glossary of SEO and AI search terms](https://christopherabraham.com/guides/glossary/): short definitions of the vocabulary used across this site, from AEO to XML sitemap.
 - [Index of the whole site](https://christopherabraham.com/site-index/): every person, tool, platform, and problem these pages cover, A to Z, the way a reference book does it.
 
@@ -1075,7 +1108,7 @@ New and updated guides appear in the [full-text RSS feed](https://christopherabr
 
 If you've worked through a guide and the problem is still there, that's usually the point where a second set of eyes on the actual site helps. Every engagement begins with a scoped audit; see the [services](https://christopherabraham.com/services/) or [get in touch](https://christopherabraham.com/contact/).
 
-Updated October 20, 2026
+Updated November 3, 2026
 
 
 ---
@@ -4495,11 +4528,11 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 ---
 
 Source: https://christopherabraham.com/guides/glossary/
-Updated: 2026-10-15
+Updated: 2026-10-26
 
 # Glossary of SEO and AI search terms
 
-By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026 · Updated October 15, 2026
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026 · Updated October 26, 2026
 
 The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need. To find every page that discusses a term, use the [index](https://christopherabraham.com/site-index/).
 
@@ -4542,6 +4575,12 @@ Building a page in the visitor's browser with JavaScript, so the HTML the server
 **CLS (Cumulative Layout Shift)**
 The Core Web Vital that scores how far things jump around on screen during loading. Aim for 0.1 or lower.
 
+**Collaborator account**
+Shopify's door for outside help: a partner reaches only the admin sections the merchant approves, without taking a staff seat. A request code keeps strangers from asking. See [Give your SEO access](https://christopherabraham.com/guides/give-seo-access/).
+
+**Comparison cohort**
+A fixed group of pages evaluated across reporting periods so changes in the page inventory can be distinguished from changes in performance. See [Search Console comparisons](https://christopherabraham.com/guides/search-console-comparisons/).
+
 **Core update**
 A broad change Google makes to how it ranks everything, several times a year. Pages can rise or fall without anything being wrong with them; Google lists each one on its Search Status Dashboard.
 
@@ -4556,6 +4595,9 @@ Software that requests pages on its own to read them, such as Googlebot, Bingbot
 
 **Custom extraction**
 A crawler feature that pulls a chosen piece of every page, by XPath, CSS selector, or regex, into a column, so one crawl can audit headings, schema types, or tracking codes sitewide. Recipes are in [custom extraction](https://christopherabraham.com/guides/custom-extraction/).
+
+**Delegated owner**
+A Search Console owner added by another owner rather than by placing a verification token on the site. Same powers as a verified owner, and the access ends the moment an owner removes it. See [Give your SEO access](https://christopherabraham.com/guides/give-seo-access/).
 
 **Digital PR**
 Earning coverage and mentions on other people's sites, newsletters, and shows by giving writers something worth using. The sentences those mentions contain now feed AI answers; see [digital PR for AI search](https://christopherabraham.com/guides/earned-mentions/).
@@ -4575,17 +4617,26 @@ Category filters for attributes like color, size, or price. Left open to crawler
 **Field data**
 Speed and responsiveness figures gathered from actual visits, as opposed to one synthetic test run on a single machine.
 
+**Free listings**
+Unpaid product results Google shows across Shopping, Search, Images, Lens, and Maps, fed by a store's Merchant Center data. See [Merchant Center free listings](https://christopherabraham.com/guides/merchant-center-free-listings/).
+
 **GEO (generative engine optimization)**
 Work aimed at how generative AI tools portray and cite a company or a page. In practice it overlaps almost entirely with AEO and AI SEO.
 
 **Google Business Profile**
 The free Google listing that puts a business on Maps and in local results, carrying its hours, categories, photos, and reviews.
 
+**GTIN (Global Trade Item Number)**
+The barcode number a manufacturer assigns to a product, such as a UPC or EAN. Resellers put it in their product feed; makers of their own goods mark it as not applicable.
+
 **hreflang**
 Markup that pairs each language or country edition of a page with the audience that should see it.
 
 **HSTS**
 A security header telling browsers to reach a site only over HTTPS for a set period, so no visit ever falls back to an unencrypted connection.
+
+**Hybrid business**
+A business that both receives customers at a posted address and travels to them, such as a tile showroom with installation crews. Its profile shows the address and a service area. See [service-area businesses](https://christopherabraham.com/guides/service-area-business/).
 
 **Index**
 The store of pages a search engine considers eligible for results. Nothing ranks until it's in there.
@@ -4632,11 +4683,17 @@ A page nothing else on the site links to. Only a sitemap entry or an outside lin
 **Permalink**
 The permanent address of a single post or page. In WordPress, the Permalinks settings screen decides its pattern; the post name pattern produces readable addresses.
 
+**Place card**
+Apple Maps' listing for a business: name, hours, phone, photos, and actions such as booking, managed through Apple's business tools. See [Apple and Bing listings](https://christopherabraham.com/guides/apple-and-bing-listings/).
+
 **Placed article**
 An article published on another site through a paid arrangement, usually carrying a link back. Google expects the link to be marked rel="sponsored"; see [why I turn down backlink work](https://christopherabraham.com/guides/buying-backlinks/).
 
 **Prerendering**
 Generating a finished HTML copy of a JavaScript page ahead of time and serving it to crawlers or visitors, so the content is readable without running scripts.
+
+**Primary owner**
+The single account on a Google Business Profile that can transfer the profile to someone else. It should belong to the business, never to a vendor. See [Give your SEO access](https://christopherabraham.com/guides/give-seo-access/).
 
 **Pull request**
 A proposed change to a code repository, shown line by line for review before it's merged. SEO fixes made this way are recorded, reviewable, and easy to undo; see [SEO in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/).
@@ -4652,6 +4709,9 @@ A link attribute that tells Google a link was paid for, so it passes no ranking 
 
 **Rendering**
 Running a page's scripts to produce what a browser finally shows. Anything that exists only after this step can escape crawlers that skip it.
+
+**Review gating**
+Screening customers before asking for a public review, so only satisfied ones reach the review site. Google's policies forbid it, and the FTC warns it can mislead. See [the FTC review rule](https://christopherabraham.com/guides/ftc-review-rule/).
 
 **Rich results**
 Search listings dressed up with extra details drawn from structured data, like star ratings, prices, or breadcrumb trails.
@@ -4670,6 +4730,9 @@ Google's free owner dashboard: clicks and impressions, index status, Core Web Vi
 
 **Server-side rendering (SSR)**
 Assembling the complete HTML on the server so a crawler gets every word in the first response, no scripts required.
+
+**Service-area business**
+A business on Google that travels to its customers, such as a plumber or mobile groomer, and hides its street address from the public profile. It verifies by showing its tools, vehicle, and nearby street markers. See [video verification](https://christopherabraham.com/guides/gbp-video-verification/).
 
 **Single page application (SPA)**
 A website that loads one HTML shell and swaps content in with JavaScript as people click, instead of loading a new page for each address. Many AI app builders produce them.
@@ -4691,6 +4754,9 @@ One hub page that defines a subject, plus a set of pages that each answer a sing
 
 **Vibe coding**
 Building software by describing what you want to an AI tool and accepting what it writes, with little reading of the code itself. Andrej Karpathy coined the phrase in February 2025.
+
+**Video verification**
+Google's way of confirming a Business Profile from a single unedited phone recording of at least 30 seconds that shows the location, the business, and proof the owner runs it. Explained in [my video verification guide](https://christopherabraham.com/guides/gbp-video-verification/).
 
 **White label**
 A service delivered under someone else's brand: an agency resells the work, and its client never sees the vendor's name.
@@ -5418,8 +5484,8 @@ I'm an independent SEO consultant in Arlington, Virginia, across the Potomac fro
 | Based in | Arlington, Virginia 22204, United States |
 | Specialties | Technical SEO audits, indexing, JavaScript SEO, Core Web Vitals, Cloudflare, migrations and 301 redirects, schema markup, AI search (GEO and AEO), WordPress, ecommerce, local SEO, and Umbraco and Next.js development |
 | Timeline | Web development since 1994, SEO since 1998, blogging since 1999 |
-| Upwork | [Christopher A.](https://www.upwork.com/freelancers/chrisjabraham): Top Rated, 100% Job Success, $200K+ earned, 127 jobs, 4,089 hours (as of October 2026) |
-| Education | BA in American Literature, The George Washington University; a year at the University of East Anglia in Norwich, England |
+| Upwork | [Christopher A.](https://www.upwork.com/freelancers/chrisjabraham): Top Rated, 100% Job Success, $200K+ earned, 132 jobs, 4,155 hours (as of November 2026); [client reviews](https://christopherabraham.com/about/reviews/) |
+| Education | BA in American Literature, The George Washington University; a year at the University of East Anglia in Norwich, England; French at the University of Hawaiʻi at Mānoa; German to level A2 at the Goethe-Institut |
 | Email | [cja@well.com](mailto:cja@well.com) |
 
 ## How I got here
@@ -5485,7 +5551,7 @@ Updated October 14, 2026
 ---
 
 Source: https://christopherabraham.com/about/skills/
-Updated: 2026-10-15
+Updated: 2026-10-24
 
 # Technical SEO skills, and the proof for each one
 
@@ -5495,6 +5561,7 @@ Updated: 2026-10-15
 - Full site crawls in Screaming Frog with JavaScript rendering, run in raw and rendered modes and compared, so I can see which content exists only after scripts run.
 - Custom extraction with XPath and regex to audit every URL for heading counts, canonicals, robots tags, schema types, and tracking IDs. My [extraction recipes](https://christopherabraham.com/guides/custom-extraction/) are published.
 - Near-duplicate detection and multiple H1 audits across entire sites, with a decision per cluster. See [how I find both](https://christopherabraham.com/guides/near-duplicates-and-h1s/).
+- XML sitemap audits that compare the file, a crawl, and Search Console, so every listed URL is canonical, indexable, and dated honestly. My checklist is in [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/).
 - Before-and-after crawl comparisons to prove a fix landed on every URL, described in [proving an SEO fix worked](https://christopherabraham.com/guides/prove-seo-fixes/).
 - Crawl and index management for a programmatic site of more than 20,000 pages: segmented sitemaps, robots rules for parameter URLs, and baselines per segment. [Programmatic price index](https://christopherabraham.com/case-studies/card-price-index/).
 
@@ -5509,12 +5576,14 @@ Updated: 2026-10-15
 - Made metadata changes in a client's Sanity and Vercel codebase through a GitHub pull request the developer reviewed and merged, then verified prerendering. [Headless local business](https://christopherabraham.com/case-studies/headless-local/).
 - Read whole repositories with OpenAI Codex and Claude Code to trace a crawl finding to the component or import script that causes it, checking every answer against the live site.
 - Built SEO checks into the build of sites I run, so a page with a bad title, a duplicate description, a broken internal link, or borrowed phrasing fails before it publishes. That's how this site is built.
+- Turned a podcast RSS feed into a static site that rebuilds itself every day, with a page, share card, and alt text for each of 458 episodes. [Podcast site](https://christopherabraham.com/case-studies/podcast-site/).
 - Automated IndexNow submissions with GitHub Actions, gated on the new sitemap actually being live.
 - Built a 12,000 line command line assistant in Python with 140 end-to-end tests, directing Claude Code the way a technical lead directs a team.
 
 ## Migrations, redirects, and recovery
 - Audited a Squarespace to Shopify move that left 3,400 broken URLs and duplicate product paths, and did the theme schema work. [Shopify cleanup](https://christopherabraham.com/case-studies/shopify-cleanup/).
 - Rebuilt the redirect map for a site that had lived on three platforms over fourteen years, by pulling every URL the Wayback Machine ever captured, testing all 848 against the live site, and redirecting every one that had ever served a page.
+- Moved my own 17 year Movable Type blog to static hosting with all 953 of its old addresses still answering, three feed formats and the TrackBack files included. [Movable Type novel](https://christopherabraham.com/case-studies/movable-type-novel/).
 - Diagnosed a WooCommerce store's loss of indexing, traffic, and AI referrals after its SEO plugin was switched off, and checked the recovery. [Plugin outage](https://christopherabraham.com/case-studies/plugin-outage/).
 
 ## Schema, entities, and AI search
@@ -5522,6 +5591,7 @@ Updated: 2026-10-15
 - Fixed a gym whose brand name Google read as an ordinary word, which lifted calls and visits. [Training gym](https://christopherabraham.com/case-studies/training-gym/).
 - Audited how ChatGPT and Perplexity described an AI company's jobs and pay, and planned the fix. [Recruiting answers](https://christopherabraham.com/case-studies/recruiting-answers/).
 - Built JSON-LD graphs, llms.txt files, Markdown twins of every page, and full-text feeds for AI crawlers, on this site and others I run.
+- Answer to every name the work goes by: AI SEO, GEO, AEO, AIO, LLM SEO, LLMO, generative search optimization, and search everywhere optimization. Under all of them, the job is a site that Google AI Overviews, ChatGPT, Perplexity, Gemini, and Bing can crawl, understand, summarize, and cite.
 
 ## Servers, DNS, and email
 - Got my first root access on a Sun SPARCstation running Solaris, the pizza box kind, as the image lab administrator at PNI, Picture Network International.
@@ -5537,6 +5607,8 @@ Updated: 2026-10-15
 
 ## Local search and Google Business Profile
 - Got a suspended profile reinstated with a documented appeal. [Profile reinstated](https://christopherabraham.com/case-studies/profile-reinstated/).
+- Rescue profiles stuck in failed verification: reconcile the listing with the real business and its paperwork, then script the owner's one-take video so it shows every proof Google asks for. My [video verification checklist](https://christopherabraham.com/guides/gbp-video-verification/) is published.
+- Build appeals like a legal brief: the most authoritative document first, nothing that exposes private data, and no date claimed that the paperwork doesn't support.
 
 ## Data
 - Wrote Python pipelines that built an 88,900 contact master list, merged two 28,800 record exports at 94% email coverage, and caught an AI-built tracker inventing its data.
@@ -5553,9 +5625,32 @@ These are habits, not tools, and they shape every engagement.
 - **I've made myself machine readable.** Two decades of publishing under one name, tied together with structured data so search engines and AI tools know the profiles belong to one person. The method is in [two names, one entity](https://christopherabraham.com/guides/two-names-one-entity/).
 - **I know how online communities behave from the inside.** I moderate a Reddit community of more than 16,000 runners and have for nine years, and Reddit threads turn up constantly in AI answers. The story is [off the clock](https://christopherabraham.com/about/off-the-clock/).
 
+## Analytics, tracking, and shopping feeds
+- Moved sites from Universal Analytics to GA4, and set up GA4 tracking for a web application alongside a WordPress migration.
+- Set up and advised on Google Merchant Center together with Search Console for online shops; the steps are in my guide to [Merchant Center free listings](https://christopherabraham.com/guides/merchant-center-free-listings/).
+- Audited a site's landing pages and conversion tracking before a paid campaign, to confirm the pages and tags worked as they should. I check the site side of paid search; I don't run the ads.
+
+## Domains and how a site shows in results
+- Folded a trading education brand's older domain into its main site with page-level redirects.
+- Put Cloudflare in front of a business's main site and its members' subdomain.
+- Took on domain repair jobs: DNS, hosting, and redirect settings checked and corrected until the domain behaved.
+- Fixed how a site appeared in Google's results: a favicon that wasn't showing and meta descriptions that weren't appearing as written.
+
+## Hosted builders
+- Audited and fixed Squarespace sites, moved one to Webflow, and kept SEO intact through another site's move to Webflow.
+- Did technical SEO for a HubSpot partner agency, and set up a Wix site's SEO from the settings out. The full service is [SEO for Squarespace, Wix, Webflow, and HubSpot](https://christopherabraham.com/services/website-builder-seo/).
+
+## Teaching and second opinions
+- Taught owners the SEO process one to one; one of them left with an on-site checklist built for their own site.
+- Run strategy calls and hour-long video consultations for owners, for agencies that bring me in on their clients' sites, and for other SEOs who want a second opinion. See [SEO coaching and consultations](https://christopherabraham.com/services/seo-coaching/).
+
+## Industries
+
+Anonymized, from my Upwork work history: ecommerce stores selling marine parts, skincare, and air filters, in the United States and Australia; medical clinics and healthcare companies; nursing education; trading education; multifamily housing; home services and emergency restoration; business travel; startups; a Canadian business; a HubSpot partner agency and other agencies that bring me in for their clients; local gyms and closet showrooms; and a theater production's video release. What those clients wrote afterward is on [client reviews](https://christopherabraham.com/about/reviews/).
+
 ## Platforms
 
-WordPress with Yoast, Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal; Squarespace; Wix; Webflow; Next.js, React, and Create React App; Sanity; Vercel, Netlify, Cloudflare, and GitHub Pages; Jekyll and hand-built Python generators; and Plone on the Zope application server, which I've run since the early 2000s.
+WordPress with Yoast, Rank Math, Elementor, and WooCommerce; Shopify and Liquid; Magento 2 and Hyvä; Umbraco; Drupal; Squarespace; Wix; Webflow; HubSpot CMS; Next.js, React, and Create React App; Sanity; Vercel, Netlify, Cloudflare, and GitHub Pages; Jekyll and hand-built Python generators; and Plone on the Zope application server, which I've run since the early 2000s.
 
 ## Tools
 
@@ -5569,7 +5664,11 @@ Paid search and paid social. Everything here is organic.
 
 Want this on your site? [Send me the URL and the problem](https://christopherabraham.com/contact/), or see how I work on [Hire Me](https://christopherabraham.com/hire-me/). The longer story is on the [About page](https://christopherabraham.com/about/), and the full bio is at [chrisabraham.com/bio](https://chrisabraham.com/bio).
 
-Updated October 15, 2026
+## Reporting that survives a second reading
+
+I separate the pages already on a site from newly published pages when interpreting growth, record the filters behind a comparison, and distinguish a deployed fix from a later change in search performance. My guide to [Search Console comparisons](https://christopherabraham.com/guides/search-console-comparisons/) sets out that method so a client can question the conclusion and inspect the evidence.
+
+Updated October 24, 2026
 
 
 ---
@@ -5751,15 +5850,25 @@ Updated October 15, 2026
 ---
 
 Source: https://christopherabraham.com/hire-me/
-Updated: 2026-10-06
+Updated: 2026-10-27
 
 # Hire me
+
+## Cut to the chase (TL;DR)
+
+You clicked Hire me, so the hiring part comes first. **Book a call:** [30 minutes on my calendar](https://calendly.com/chrisabraham/30). **Call or text:** [+1 202-352-5051](tel:+12023525051); texting is welcome and often faster. **Upwork:** hire me through [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham), where the contract and payment protection live. The process below is the detail, for after the first conversation.
+
+[Search my name before you hire me](https://www.google.com/search?q=chris+abraham+seo)
 
 Every engagement follows the same arc: a defined question, a paid audit that answers it, a ranked plan, the fixes, and a verification pass once the fixes are live. Here's how each step works and what I need from you.
 
 ## Two ways to hire me
-- **On Upwork.** Most of my clients hire me through [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham). Upwork handles contracts, time tracking, invoicing, and payment protection for both sides. Hourly and fixed-price contracts both work there.
-- **Directly.** Email [cja@well.com](mailto:cja@well.com) and I'll send a written scope and an invoice. Direct engagements are paid in advance: the audit up front, retainers at the start of each month.
+- **On Upwork.** Most of my clients hire me through [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham). Engagements there run as fixed price contracts with milestones, and Upwork handles the contract, invoicing, and payment protection for both sides.
+- **Directly.** Email [cja@well.com](mailto:cja@well.com) and I'll send a written scope.
+
+## Senior help without the agency layers
+
+Every engagement is me doing the work, from the first crawl to the last verification pass, with no account manager in the middle. One recent client chose me over Neil Patel's team for that reason: they wanted direct, senior-level SEO help rather than a large-agency process. What clients have written after the work is on [client reviews](https://christopherabraham.com/about/reviews/), quoted as written.
 
 ## The process
 1. **A short conversation.** You tell me the symptom; I ask what changed, when, and who has access to what. A few emails or a [30 minute call](https://calendly.com/chrisabraham/30) is usually enough.
@@ -5781,7 +5890,7 @@ I keep every engagement in writing: Upwork messages, email, or your project tool
 
 ## Pricing
 
-I quote hourly or a fixed price per milestone, whichever fits the job. Audits are scoped and priced before they start, so you know the cost of an answer before you commit to it. Retainers cover a set number of hours each month with a monthly report. My current hourly rate is on [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham).
+I quote every engagement as a fixed fee. Audits are scoped and priced before they start, so you know the cost of an answer before you commit to it. Follow-on work is quoted per milestone on the same basis, and retainers are a fixed monthly fee for an agreed scope, with a report every month. The price is settled in conversation before the work begins, never by a clock.
 
 ## What I sell, and what nobody can
 
@@ -5789,7 +5898,7 @@ I sell expertise, diagnosis, and hands-on work. Rankings, indexing decisions, AI
 
 Questions about time zones, access, and invoicing are answered in the [FAQ](https://christopherabraham.com/faq/). Ready to start? Head to [contact](https://christopherabraham.com/contact/).
 
-Updated October 6, 2026
+Updated October 27, 2026
 
 
 ---
@@ -5857,9 +5966,15 @@ Updated October 6, 2026
 ---
 
 Source: https://christopherabraham.com/contact/
-Updated: 2026-10-06
+Updated: 2026-10-27
 
 # Contact Christopher Abraham
+
+## Cut to the chase (TL;DR)
+
+Three fast ways in. **Book a call:** [my Calendly](https://calendly.com/chrisabraham/30) holds 30-minute slots. **Call or text:** [+1 202-352-5051](tel:+12023525051). Texts are welcome, and often fastest. **Upwork:** [hire me there](https://www.upwork.com/freelancers/chrisjabraham) if you want the contract and payment protection handled for you.
+
+[Search my name before you hire me](https://www.google.com/search?q=chris+abraham+seo)
 
 Send me your site's address and a few lines about what's happening. I'll reply with my first read and the questions I'd want answered.
 - Email: [cja@well.com](mailto:cja@well.com)
@@ -5891,7 +6006,7 @@ If you found me there, send an invitation or a message to Christopher A. directl
 
 I work from Arlington, Virginia 22204, on US Eastern time, with clients across the United States, Canada, the United Kingdom, Ireland, Australia, and New Zealand. My process is on [Hire Me](https://christopherabraham.com/hire-me/), and practical questions are answered in the [FAQ](https://christopherabraham.com/faq/).
 
-Updated October 6, 2026
+Updated October 27, 2026
 
 
 ---
@@ -6313,94 +6428,89 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 ---
 
 Source: https://christopherabraham.com/services/ai-visibility/
-Updated: 2026-10-23
+Updated: 2026-10-29
 
-# The answer on top is the new front door.
+# AI visibility: what the answer engines say about your business, and how to change it
 
-Google's AI Overviews now appear for 88% of commercial searches, nearly double what they covered a year ago. Your customers meet an AI's version of your business before they ever reach your website. I make sure that answer names you, describes you correctly, and cites you—and then I prove it, monthly, in writing.
+For buying searches, the first thing a customer reads is increasingly a paragraph written by a machine. In August 2026, Google showed an AI Overview for 88% of the 400 US commercial keywords Semrush tracks, close to double its share a year earlier, according to [Search Engine Land](https://searchengineland.com/google-ai-overviews-nearly-double-commercial-keywords-498078). I find out what those paragraphs say about you, fix the sources they draw on, and report on them every month.
 
-## The problem, plainly
+## Why the answer gets it wrong
 
-Search used to be a list of links. Now it's an answer, written by a machine, assembled from whatever the machine could find, verify, and trust about you. If your name, address, services, and facts are scattered or inconsistent, the answer names your competitor instead. Review searches—"best," "near me," "which one should I pick"—moved furthest of all. That is the exact moment a customer chooses.
+An AI answer is assembled from whatever the system can find and cross-check: your website, your Google Business Profile, directory listings, reviews, and what other sites say about you. When those sources disagree on your name, address, services, or hours, the system picks whichever version it can corroborate, and that is often a competitor's. "Best," "near me," and "which should I choose" searches have shifted the most, and those are the searches where a customer makes up their mind.
 
-You don't get to opt out of being summarized. You only get to choose whether the summary is accurate.
+## Three ways to work with me
 
-## What I do
+### 1. AI Visibility Audit: $750, fixed price
 
-### 1. AI Visibility Audit—$750 flat
+I run the searches that bring you business through Google AI Overviews, ChatGPT, Perplexity, and Gemini and record every answer: correct, wrong, missing, or naming a rival. Then I compare your name, address, phone, and services across your site, your Business Profile, and the main directories. You receive a written report with each fix ranked by impact. You own it, and any developer or agency can act on it.
 
-I check where your business appears, and where it doesn't, across Google AI Overviews, ChatGPT, Perplexity, and Gemini, for the searches that actually bring you money. I record what the AI answers say about you: right, wrong, or your competitor's name. I check your entity and name-address-phone consistency across your website, your Google Business Profile, and the directories. You get a written report with the fix list in priority order.
+### 2. The Claim Sprint
 
-No retainer. No vague deliverable. A document you can hand to anyone.
+The sprint repairs what the audit finds, in two layers.
+- The technical base: a full crawl, a Search Console review, titles and meta descriptions, and broken links and redirects.
+- The claim layer: entity schema with sameAs links, an llms.txt file, one canonical page that explains what the business is, and FAQ markup, so an assistant has something precise to quote.
 
-### 2. The Claim Sprint—$1,500 flat
+Changes I can make directly, I make. Anything inside your developer's codebase reaches them as a ticket with the exact change and a way to check it, the same way I work on [release QA](https://christopherabraham.com/services/seo-release-qa/). The sprint is scoped and priced in conversation, once the audit shows what needs doing: [book a thirty minute call](https://calendly.com/chrisabraham/30) to talk it through.
 
-The audit tells you what's broken. The sprint fixes the layer that fixes it:
-- Technical foundation: full crawl, Search Console review, titles and metas, broken links and redirects
-- The claim layer: entity schema with sameAs links, an llms.txt file, a canonical "what is this business" page, and FAQ schema, so the machines can quote you instead of guessing at you
+### 3. AI Presence, Measured
 
-One honest note: I am an SEO, not a web developer. Anything that belongs in a developer's hands comes back to you as a precise, written fix list your developer can execute without a meeting.
+Answers move. A competitor publishes, a directory updates, and the assistant that recommended you in March names somebody else by June. Each month I rerun your search set across Google AI Overviews, ChatGPT, and Perplexity and send a short written report: what moved, what the answers say now, and the next fix. Measurement is arranged in conversation, once I know your search set: [book a thirty minute call](https://calendly.com/chrisabraham/30) to set it up.
 
-### 3. AI Presence, Measured—$500/month
+## Where it's already running
+- A fireworks retailer with several locations: a baseline, then monthly measurement across Google Search, Maps, ChatGPT, and Perplexity.
+- A therapy practice: the complete audit, with every listing checked against what the assistants read.
+- A media company: the claim layer itself, with entity schema, llms.txt, an explainer page, and a baseline.
 
-AI answers drift. Competitors publish, directories change, and the answer that named you in March may name someone else in June. Every month I re-run your money-query set across Google AI Overviews, ChatGPT, and Perplexity, and you get a written receipt: what changed, what the answers say now, and what gets fixed next.
+For the method behind it, see [measuring AI share of voice](https://christopherabraham.com/guides/ai-share-of-voice/) and my own [AI visibility baseline](https://christopherabraham.com/case-studies/ai-visibility-baseline/), published with the unflattering numbers.
 
-## Proof this is already working
-- A multi-location fireworks retailer has AI-answer presence measurement built into its engagement: a baseline first, then measured monthly across Google Search, Maps, ChatGPT, and Perplexity.
-- A therapy practice received the full audit treatment: entity and name-address-phone consistency checked against everything the AI systems read.
-- A media company's engagement included the claim layer itself: entity schema, llms.txt, a canonical explainer page, and an AI-presence baseline.
-- The audit has already sold at this price as a pilot for a communications firm. The price is the price because it has been paid.
-
-## How it works
-1. **Book a call.** Thirty minutes: [book a 30 minute call](https://calendly.com/chrisabraham/30). Bring your website and the searches you wish you won.
-2. **Get the audit.** A written report, in priority order, that you own outright.
-3. **Decide.** Run the sprint with me, hand the fix list to your own people, or put the measurement on monthly. No lock-in either way. Money and commitments in writing, always.
-
-The answer on top of Google is being written about your business today, with or without you. Make it yours.
+## How to start
+1. **A thirty-minute call.** [Pick a time](https://calendly.com/chrisabraham/30) and bring your site and the searches you most want to win.
+2. **The audit.** A written, ranked report that belongs to you.
+3. **Your choice.** Run the sprint with me, hand the list to your own team, or add monthly measurement. Scope and price are agreed in writing before any work starts.
 
 [Book a 30 minute call](https://calendly.com/chrisabraham/30)
 
-Updated October 23, 2026
+Updated October 29, 2026
 
 
 ---
 
 Source: https://christopherabraham.com/the-machine-answers-first/
-Updated: 2026-10-23
+Updated: 2026-10-29
 
 # The Machine Answers First Now
 
 *A field note from the SEO work*
 
-I have done search work long enough to remember when the whole job was ten blue links and an argument about their order. That world is gone, and I do not think it is coming back. When somebody searches for a business like yours now, the first thing they meet is not a list. It is a paragraph, written by a machine, in a confident tone, before a single link appears.
+I have done search work long enough to remember when the whole job was ten blue links and an argument about their order. That world is gone, and I do not think it is coming back. When somebody searches for a business like yours now, the first thing they meet is a paragraph, written by a machine, in a confident tone, before a single link appears.
 
-The numbers caught up with what I was already seeing. Search Engine Land, reporting Semrush's tracking, puts it plainly: Google's AI Overviews appeared for 88% of the commercial keywords Semrush tracked in August 2026. That is nearly double the share those answers held in September 2025. In the space of a year, the machine's answer went from an experiment to the front of the line.
+The numbers caught up with what I was already seeing. [Search Engine Land](https://searchengineland.com/google-ai-overviews-nearly-double-commercial-keywords-498078), reporting Semrush's tracking of 400 US desktop commercial keywords, found Google's AI Overviews on 88% of them in August 2026. That is nearly double the share those answers held in September 2025. In the space of a year, the machine's answer went from an experiment to the front of the line.
 
 ## What I keep seeing in the work
 
-The answer on top is assembled, not written. The machine gathers what it can find about a business—its website, its Google Business Profile, its directory listings, reviews, stray mentions—and it trusts whatever agrees with itself. Then it summarizes. Here is what that looks like from where I sit:
+The answer on top is assembled from parts. The machine gathers what it can find about a business—its website, its Google Business Profile, its directory listings, reviews, stray mentions—and it trusts whatever agrees with itself. Then it summarizes. Here is what that looks like from where I sit:
 
 A multi-location retailer I work with needs to be the named answer in four different towns, for four different stores, and the facts for those stores have to be right town by town. A therapy practice I audited had its name, address, and phone number disagreeing with each other across the very sources the machines read first, so the machines hedged, and hedging means somebody else gets named. A media company found that its own name was being patiently explained to the world by everyone except the company itself.
 
-Notice what is missing from that list: bad websites. The websites were mostly fine. The problem is that a business no longer speaks with one voice in one place. It speaks in fragments, scattered across a decade of listings, profiles, and pages, and the machine is the first reader who ever tried to hear all of it at once. It believes the fragments that agree. It discards the ones that don't. Sometimes the fragment it discards is your phone number.
+Bad websites were missing from that list; the websites were mostly fine. The problem is that a business no longer speaks with one voice in one place. It speaks in fragments, scattered across a decade of listings, profiles, and pages, and the machine is the first reader who ever tried to hear all of it at once. It believes the fragments that agree. It discards the ones that don't. Sometimes the fragment it discards is your phone number.
 
 ## You do not get to opt out of being summarized
 
-Owners tell me they want nothing to do with AI. I understand the sentiment, and it changes nothing. The AI does them. The answer about their business exists today, in production, in front of their customers, whether or not anyone at the business has ever read it. Being summarized is no longer a strategy decision. It is a condition of being findable at all.
+Owners tell me they want nothing to do with AI. I understand the sentiment. The AI writes about them anyway. The answer about their business exists today, in production, in front of their customers, whether or not anyone at the business has ever read it. Being summarized has become a condition of being findable at all.
 
-The only choice on the table is whether the summary is accurate—whether it names you, describes what you actually do, and cites your pages as the source. That is a choice you make by tending the record, or one that gets made for you by whoever's record is tidier.
+The only choice on the table is whether the summary is accurate—whether it names you, describes what you actually do, and cites your pages as the source. That is a choice you make by tending the record, or one that gets made for you by whoever's record is tidier. On my own record, [the first name back from ChatGPT](https://chrisabraham.net/2026/11/the-first-name-back.html) was mine, after a practitioner asked who could fix a site Google would not index.
 
 ## Claim it, then measure it
 
-The fix is unglamorous, which is how you know it is real. First, you claim your entity: one canonical account of what the business is, stated on your own site, tied together with entity schema and sameAs links, an llms.txt file for the machines that read those, and a page that answers "what is this business" so plainly that a summarizer can quote it instead of improvising. Second, you fix the disagreements: the listings, the profile, and the site telling one story. Third—and this is the part almost nobody does—you measure. AI answers drift. A competitor publishes, a directory changes, and the answer that named you in the spring names someone else by summer. So the money questions get re-asked every month, and the changes get written down.
+The fix is unglamorous. First, you claim your entity: one canonical account of what the business is, stated on your own site, tied together with entity schema and sameAs links, an llms.txt file for the machines that read those, and a page that answers "what is this business" so plainly that a summarizer can quote it instead of improvising. Second, you fix the disagreements: the listings, the profile, and the site telling one story. Third—and this is the part almost nobody does—you measure. AI answers drift. A competitor publishes, a directory changes, and the answer that named you in the spring names someone else by summer. So the money questions get re-asked every month, and the changes get written down.
 
-That is the work I sell, and I sell it in pieces so you can stop wherever it stops making sense: an AI Visibility Audit for $750 that tells you exactly what the answers say about you today, a Claim Sprint for $1,500 that fixes the layer underneath, and AI Presence, Measured at $500 a month for the receipt that keeps it true.
+That is the work I sell, and I sell it in pieces so you can stop wherever it stops making sense: an AI Visibility Audit for $750 that tells you exactly what the answers say about you today, a Claim Sprint that fixes the layer underneath, and AI Presence, Measured, the monthly receipt that keeps it true. The sprint and the measurement are scoped in conversation, once the audit shows what your record needs.
 
 ## Let's have a chat about it
 
 If you have never actually read what the machine says about your business, you are flying on instruments somebody else set. Let's have a chat about it. I can help. Thirty minutes, bring your website and the searches you wish you won: [book a 30 minute call](https://calendly.com/chrisabraham/30).
 
-Updated October 23, 2026
+Updated October 29, 2026
 
 
 ---
@@ -6547,7 +6657,7 @@ Blocked pages usually clear within days of the rule being removed and the page b
 
 ### Can you guarantee my pages will be indexed?
 
-No honest consultant can. Indexing is Google's decision. What I can guarantee is a diagnosis that names the cause with evidence and a fix list that removes every barrier on your side of the fence, which is the part either of us controls.
+No honest consultant can. Indexing is Google's decision. What I can guarantee is a diagnosis that names the cause with evidence and a fix list that removes every barrier on your side of the fence, which is the part under your control.
 
 ### What do you need from me to start an audit?
 
@@ -6634,7 +6744,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [SEO guides](https://christopherabraham.com/guides/): Practical SEO guides: reading the Page indexing report, AI search readiness, judging audits, small business schema, 301 redirects, and Core Web Vitals.
 - [Case studies](https://christopherabraham.com/case-studies/): Anonymized SEO case studies: hidden product content, consent tools blocking Google, React apps, migrations, programmatic indexing, schema, and local listings.
 - [About Christopher Abraham](https://christopherabraham.com/about/): Christopher Abraham is an SEO consultant in Arlington, VA, working on AI search, rendering forensics, and modern stacks, with SEO experience dating to 1998.
-- [Hire me](https://christopherabraham.com/hire-me/): How an SEO engagement runs: a scoped, paid audit first, then hourly or fixed-price work through Upwork or direct, with every finding and decision in writing.
+- [Hire me](https://christopherabraham.com/hire-me/): How an SEO engagement runs: a scoped audit first, then fixed fee work through Upwork or direct, with every finding and decision kept in writing.
 - [Frequently asked questions](https://christopherabraham.com/faq/): Practical answers about an SEO engagement: what access is needed, how long audits take, time zones, Upwork contracts, invoicing, reports, and confidentiality.
 - [Contact Christopher Abraham](https://christopherabraham.com/contact/): Email Christopher Abraham at cja@well.com or call or text him with your site address and the problem. Hire him on Upwork or directly for a scoped audit.
 - [Privacy](https://christopherabraham.com/privacy/): How christopherabraham.com uses Google Analytics with consent mode, why visitors in Europe and the UK get no analytics cookies, and what happens to your email.
@@ -6658,7 +6768,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [Schema markup and entity SEO](https://christopherabraham.com/services/schema/): Structured data that validates, matches the visible page, and connects your organization, people, products, and locations as entities for Google and AI.
 - [On-page SEO](https://christopherabraham.com/services/on-page-seo/): On page SEO fixed at the template level: titles and meta descriptions, headings, internal links, thin and duplicate pages, and carefully edited AI drafts.
 - [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/): SEO articles drafted with AI from your own material, written to your voice rules, then checked claim by claim against sources before anything is published.
-- [The answer on top is the new front door.](https://christopherabraham.com/services/ai-visibility/): AI answers now top 88% of commercial searches. I audit what they say about your business, fix the claim layer underneath, and measure it monthly, in writing.
+- [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/): A fixed-price audit of what Google AI Overviews, ChatGPT, Perplexity, and Gemini say about your business, a sprint to fix the sources, and monthly checks.
 
 ## Platforms, local, and ongoing work
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): WordPress SEO done carefully: Yoast and Rank Math settings, theme and plugin conflicts, page builder bloat, caching, and old installs that need a steady hand.
