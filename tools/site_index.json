@@ -2684,8 +2684,7 @@
     "services/podcast-website",
     "guides/redirect-rules",
     "about/colophon",
-    "privacy",
-    "services/github-pages-website"
+    "privacy"
    ],
    "subs": {
     "custom domains and HTTPS": [
@@ -2784,8 +2783,7 @@
     "guides/holiday-hours",
     "case-studies/profile-reinstated",
     "case-studies/training-gym",
-    "about/skills",
-    "guides/gbp-performance-reports"
+    "about/skills"
    ],
    "subs": {
     "suspensions and appeals": [
@@ -2817,9 +2815,6 @@
     ],
     "interactions, calls, and direction requests": [
      "case-studies/training-gym"
-    ],
-    "suspensions and reinstatement": [
-     "services/gbp-reinstatement"
     ]
    },
    "see": [
@@ -4551,7 +4546,8 @@
   "online reputation management": {
    "kind": "topic",
    "pages": [
-    "about"
+    "about",
+    "metanoia"
    ],
    "subs": {},
    "see": [],
@@ -5311,7 +5307,8 @@
   "Reputation.com": {
    "kind": "topic",
    "pages": [
-    "about"
+    "about",
+    "metanoia"
    ],
    "subs": {},
    "see": [],
@@ -7359,39 +7356,41 @@
     "guides/show-notes-cascade"
    ]
   },
-  "GBP performance reports": {
+  "Metanoia": {
    "kind": "topic",
    "pages": [
-    "guides/gbp-performance-reports"
+    "metanoia"
    ],
-   "subs": {
-    "overview recommendations": [
-     "guides/gbp-performance-reports"
-    ],
-    "engagement": [
-     "guides/gbp-performance-reports"
-    ],
-    "reviews in detail": [
-     "guides/gbp-performance-reports"
-    ],
-    "audience": [
-     "guides/gbp-performance-reports"
-    ],
-    "search trends": [
-     "guides/gbp-performance-reports"
-    ],
-    "monthly reading routine": [
-     "guides/gbp-performance-reports"
-    ],
-    "reading mistakes": [
-     "guides/gbp-performance-reports"
-    ]
-   },
+   "subs": {},
    "see": [
-    "Google Business Profile"
+    "Online perception management"
    ],
    "main": [
-    "guides/gbp-performance-reports"
+    "metanoia"
+   ]
+  },
+  "Online perception management": {
+   "kind": "topic",
+   "pages": [
+    "metanoia"
+   ],
+   "subs": {},
+   "see": [
+    "Metanoia"
+   ],
+   "main": [
+    "metanoia"
+   ]
+  },
+  "Mea maxima culpa marketing": {
+   "kind": "topic",
+   "pages": [
+    "metanoia"
+   ],
+   "subs": {},
+   "see": [],
+   "main": [
+    "metanoia"
    ]
   }
  },
@@ -7491,8 +7490,6 @@
   "services/inquiry-path-audit",
   "guides/test-website-inquiries",
   "guides/show-notes-cascade",
-  "guides/gbp-performance-reports",
-  "services/gbp-reinstatement",
-  "services/github-pages-website"
+  "metanoia"
  ]
 }

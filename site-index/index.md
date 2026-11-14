@@ -1,10 +1,10 @@
 > A back of the book index to christopherabraham.com: every person, tool, platform, and SEO problem the pages cover, listed A to Z with links to each page.
 >
-> Source: https://christopherabraham.com/site-index/ · Updated 2026-11-10 · By Christopher Abraham
+> Source: https://christopherabraham.com/site-index/ · Updated 2026-11-14 · By Christopher Abraham
 
 # Index
 
-This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 555 headings across 99 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
+This is an index in the old sense, the kind at the back of a good book. I read every page on this site and listed the people, tools, platforms, problems, and ideas each one covers: 557 headings across 100 pages. Each locator is the short name of a page, and a bold one marks the page devoted to that subject. Hover over a name to see the full title.
 
 People are listed surname first. Cross-references point to related headings. For definitions, the [glossary](https://christopherabraham.com/guides/glossary/) is the place to start; for a plain list of pages, the [site map](https://christopherabraham.com/sitemap/).
 
@@ -422,8 +422,6 @@ People are listed surname first. Cross-references point to related headings. For
   - finding measurement IDs, [Custom Extraction Recipes](https://christopherabraham.com/guides/custom-extraction/)
   - ghost traffic, [Plugin Outage](https://christopherabraham.com/case-studies/plugin-outage/)
 
-- GBP performance reports. *See also* [Google Business Profile](https://christopherabraham.com/site-index/#ix-google-business-profile)
-
 - Gemini, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/), [Reddit and AI Answers](https://christopherabraham.com/guides/reddit-ai-answers/), [Earned Mentions for AI Search](https://christopherabraham.com/guides/earned-mentions/)
 - GEO (generative engine optimization), [Home](https://christopherabraham.com/), [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [AI Search](https://christopherabraham.com/services/ai-search/). *See also* [AI search](https://christopherabraham.com/site-index/#ix-ai-search)
 - George Washington University, The, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
@@ -653,6 +651,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Marketing Conversation, [About](https://christopherabraham.com/about/)
 - material connection, [Glossary](https://christopherabraham.com/guides/glossary/)
 - MCP (Model Context Protocol), [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
+- Mea maxima culpa marketing, **[Metanoia](https://christopherabraham.com/metanoia/)**
 - measurement journals, [AI catnip](https://christopherabraham.com/guides/ai-catnip/)
 - mechanisms versus symptoms, [SEO Audit Deliverables](https://christopherabraham.com/guides/seo-audit-deliverables/)
 - media migration, **[Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)**
@@ -682,6 +681,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Meta Sharing Debugger, [Social Share Cards](https://christopherabraham.com/guides/social-share-cards/)
 - meta tags, [Home](https://christopherabraham.com/)
 - meta-externalagent, [AI Search](https://christopherabraham.com/services/ai-search/)
+- Metanoia, **[Metanoia](https://christopherabraham.com/metanoia/)**. *See also* [Online perception management](https://christopherabraham.com/site-index/#ix-online-perception-management)
 - Metasystems Design Group, [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - Microsoft Copilot, [Home](https://christopherabraham.com/), [Services](https://christopherabraham.com/services/), [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/), [AI Search](https://christopherabraham.com/services/ai-search/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [Correcting AI Answers](https://christopherabraham.com/guides/correct-ai-answers/)
 - Microsoft Teams, [Card Price Index](https://christopherabraham.com/case-studies/card-price-index/)
@@ -733,7 +733,8 @@ People are listed surname first. Cross-references point to related headings. For
 ## O
 - OAI-SearchBot, [AI Search](https://christopherabraham.com/services/ai-search/), [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/)
 - Ollama, [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/)
-- online reputation management, [About](https://christopherabraham.com/about/)
+- Online perception management, **[Metanoia](https://christopherabraham.com/metanoia/)**. *See also* [Metanoia](https://christopherabraham.com/site-index/#ix-metanoia)
+- online reputation management, [About](https://christopherabraham.com/about/), [Metanoia](https://christopherabraham.com/metanoia/)
 - on-page SEO, [Services](https://christopherabraham.com/services/), **[On-Page SEO](https://christopherabraham.com/services/on-page-seo/)**
 - Open Graph tags, [Static Websites](https://christopherabraham.com/services/static-sites/), **[Social Share Cards](https://christopherabraham.com/guides/social-share-cards/)**, [Meta Keywords](https://christopherabraham.com/guides/meta-keywords/)
 - OpenAI, [AI catnip](https://christopherabraham.com/guides/ai-catnip/), [AI Search Checklist](https://christopherabraham.com/guides/ai-search-checklist/), [SEO News Sources](https://christopherabraham.com/guides/seo-news-sources/), [Screaming Frog Licence](https://christopherabraham.com/guides/screaming-frog-licence/), [SEO in Your Repository](https://christopherabraham.com/guides/seo-in-your-repository/)
@@ -844,7 +845,7 @@ People are listed surname first. Cross-references point to related headings. For
 - Renaissance Weekend, [About](https://christopherabraham.com/about/), [Off the Clock](https://christopherabraham.com/about/off-the-clock/)
 - rendering, [Sitewide Technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [SEO Audit](https://christopherabraham.com/services/seo-audit/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/)
 - reports, disagreeing, [Indexing](https://christopherabraham.com/services/indexing/), [Search Console](https://christopherabraham.com/services/search-console/)
-- Reputation.com, [About](https://christopherabraham.com/about/)
+- Reputation.com, [About](https://christopherabraham.com/about/), [Metanoia](https://christopherabraham.com/metanoia/)
 - responsive images, [Image and PDF Migrations](https://christopherabraham.com/guides/media-migration/)
 - retainers, [Services](https://christopherabraham.com/services/), **[SEO Retainer](https://christopherabraham.com/services/seo-retainer/)**
   - ending, [SEO Retainer](https://christopherabraham.com/services/seo-retainer/)
@@ -1161,4 +1162,4 @@ People are listed surname first. Cross-references point to related headings. For
 
 [Back to the letters](https://christopherabraham.com/site-index/#index-letters)
 
-Updated November 10, 2026
+Updated November 14, 2026
