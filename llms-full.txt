@@ -6389,7 +6389,7 @@ Updated October 14, 2026
 ---
 
 Source: https://christopherabraham.com/about/
-Updated: 2026-10-14
+Updated: 2026-11-19
 
 # About Christopher Abraham
 
@@ -6410,6 +6410,7 @@ I'm an independent SEO consultant in Arlington, Virginia, across the Potomac fro
 | Timeline | Web development since 1994, SEO since 1998, blogging since 1999 |
 | Upwork | [Christopher A.](https://www.upwork.com/freelancers/chrisjabraham): Top Rated, 100% Job Success, $200K+ earned, 132 jobs, 4,155 hours (as of November 2026); [client reviews](https://christopherabraham.com/about/reviews/) |
 | Education | BA in American Literature, The George Washington University; a year at the University of East Anglia in Norwich, England; French at the University of Hawaiʻi at Mānoa; German to level A2 at the Goethe-Institut |
+| CV | [Full CV and résumé](https://gerris.ai/about/cv/), with a PDF, for contract and full-time roles |
 | Email | [cja@well.com](mailto:cja@well.com) |
 
 ## How I got here
@@ -6466,10 +6467,12 @@ For the technical inventory, every skill with the case study that proves it, see
 ## Check my work
 - [My Upwork profile](https://www.upwork.com/freelancers/chrisjabraham), with job history and client feedback.
 - [My LinkedIn profile](https://www.linkedin.com/in/chrisabraham).
+- [My CV](https://gerris.ai/about/cv/), the full career record kept current on Gerris AI.
+- [Gerris Corp](https://gerriscorp.com/), my consultancy since 2012, for reputation management, influencer marketing, and SEO.
 - [Case studies](https://christopherabraham.com/case-studies/), written up with the evidence and anonymized.
 - [Guides](https://christopherabraham.com/guides/) that show how I think about indexing, audits, schema, and AI search.
 
-Updated October 14, 2026
+Updated November 19, 2026
 
 
 ---
@@ -9134,83 +9137,37 @@ Updated November 5, 2026
 ---
 
 Source: https://christopherabraham.com/services/github-pages-website/
-Updated: 2026-11-05
+Updated: 2026-11-19
 
-# I build your website on GitHub Pages: $1,500 flat
+# A website on GitHub Pages, built with the SEO already done
 
-I build websites on GitHub Pages for a flat $1,500. You get a complete site, designed from an example you choose, written and assembled with AI under my direction, and delivered into accounts you own: your domain at Cloudflare, your code in your GitHub repository, every file yours to keep. Hosting is free. The domain runs about $10 a year at Cloudflare's wholesale price, paid by you to Cloudflare. When I hand over a site, I hand over the whole thing.
+Most new websites launch and then wait for someone to do the search work. I build small business sites on GitHub Pages with that work finished on the first day: every page crawlable as plain HTML, titles and descriptions written for the searches that matter, structured data that names the business, and the site registered with Google and Bing before anyone announces it. The domain sits in your Cloudflare account and the code in your GitHub repository, so the finished site belongs to you outright.
 
-Every site I run for myself lives on this stack. This page does. The build is the one I use daily, offered as a service.
+## Who this suits
 
-## Why these sites load fast and read well
+This build fits a business whose website exists to be found, read, and trusted: a practice, a consultancy, a trade, a local shop without online checkout, an author or a speaker. It suits owners who are tired of paying monthly for a builder they don't control, and owners whose WordPress site has become a maintenance job with a few pages attached. If your site needs a shopping cart, member logins, or a customer database, a static site is the wrong tool, and I'll say so on the first call.
 
-A GitHub Pages site is finished HTML. A browser asks for a page and receives the page, served from a global network. Nothing gets assembled on the server, because there is no server application, no database, and no page builder in the path. Speed follows from that construction, and PageSpeed scores in the top class are the normal result.
+## What an SEO adds to the build
 
-Search engines and answer engines read the same construction. Each page carries semantic HTML a crawler can parse without guessing, schema that states the facts of the business, a sitemap, an llms.txt for AI crawlers, direct-answer blocks that say plainly what you do and who it is for, and FAQs written in the questions your buyers actually ask. I have spent thirty years getting pages indexed and cited; that discipline is built into the page structure from the first file.
+Plenty of people can put pages on GitHub Pages. The difference here is what happens between the design and the launch. Before a site goes live, I check it the way a crawler will meet it:
+- **Indexing.** Every page answers 200, carries its own canonical URL, and sits in an XML sitemap that lists only pages meant for search.
+- **Titles and headings.** One clear H1 per page, unique titles near sixty characters, and descriptions that read like an answer to the search.
+- **Structured data.** JSON-LD for the business, its services, and its people, matching what the visible page says.
+- **Search Console and Bing Webmaster Tools.** Both verified in your name, the sitemap submitted, and the first pages requested for indexing.
+- **AI crawlers.** A robots.txt that welcomes the search and answer engines by name, and an llms.txt that tells them where the important pages are.
+- **Accessibility and speed.** Alt text, real links, readable contrast, and pages light enough that Core Web Vitals take care of themselves.
 
-## The whole house, not just the framing
+## Where the full offer lives
 
-Most web developers build a frame: foundation, framing, Tyvek, drywall. The house stands, and everything that makes it work is somebody else's job. I build the whole house: the architecture, the plumbing, the electricity, the interior, and the feng shui besides. The site launches connected to Google and Bing, registered in Google Search Console and Bing Webmaster Tools, with every URL submitted to both, schema on the pages, alt text on the images, and the ancillary work done that most builds never touch. I make your housepage a homepage.
+I run this build through [Gerris AI, my AI search practice](https://gerris.ai/services/github-pages-websites/), and that page carries the complete description: what's included, how the handover works, and the kinds of sites that don't belong on GitHub Pages. Each build is scoped in writing before work starts, after a conversation about your business and the site you want.
 
-## Bring me a site you like
+## If you would rather build it yourself
 
-You do not need to describe a design. Show me a site you want to emulate or base yours on, and in many cases the sky is the limit. A competitor's layout, a site from another trade that gets the feel right, a page you have admired for years: I build your version of it, carrying your offer and your words.
+The method isn't a secret. My guide to [owning your website outright on GitHub Pages](https://christopherabraham.com/guides/github-pages-website/) walks through the domain, the DNS records, the repository, and the launch, and clients have followed it to a working site of their own. The companion guides cover [launching on a parked domain](https://christopherabraham.com/guides/parked-domain-launch/) and [locking down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/). If you get partway and want a second pair of eyes on the SEO before launch, a short review is often all it takes.
 
-A word about how my own sites look. They look the way they do on purpose: my weblog is kept at a 2004 aesthetic and my other sites at 2003, because that is my taste and I keep it deliberately. It is not the ceiling of the build and it is not a house style imposed on clients. Your site does not have to look like mine. It can look however you like: the design follows the example you bring, not the one I keep for myself.
+## How this differs from my other site work
 
-The limits are real and I state them up front. Design and layout emulation is wide open. A static site does not run native web-app machinery: no store checkout of its own, no member logins, no customer database. Forms, scheduling, and payments work through third-party tools embedded in the pages, which is how most small sites run them anyway. My guide lays out the limits and the workarounds in full: ../../guides/github-pages-website/
-
-## The manual is free; the $1,500 is the labor
-
-I published the whole method as a free, [step-by-step guide](https://christopherabraham.com/guides/github-pages-website/). Read it and you can build one of these yourself; clients have. The $1,500 pays for the work done for you: the design decisions, the writing and structure, the DNS, the deployment, and a launched site at the end instead of a project on your list.
-
-## What the $1,500 includes
-- **Design** modeled on the example you bring, built around your business.
-- **The build:** 10 pages, structured for Google and for AI answer engines.
-- **Domain and DNS setup:** your domain at Cloudflare at wholesale, records configured and tested.
-- **Deployment** to GitHub Pages from a repository in your own GitHub account.
-- **Search structure:** titles and descriptions, schema, image alt text, sitemap, llms.txt, direct-answer blocks, FAQ sections.
-- **Search engines wired in:** Google Search Console and Bing Webmaster Tools connected and verified, the sitemap submitted, and every page URL submitted directly to Google and Bing at launch.
-- **A contact route that works:** a form wired to a form service, or a booking link, live at launch.
-- **Handover:** the site live on your domain, checked on phone and desktop, with a walkthrough of what you own and how updates get made.
-
-The site goes live within two weeks after I have your example and your materials. The price covers two rounds of revisions. One flat fee, quoted before work starts; the domain, about $10 a year to Cloudflare, is the only recurring cost the site itself ever carries.
-
-## Keeping it current, if you want that
-
-Some clients take the site and run it themselves, which the handover is designed to allow. Others keep me on through the AI Presence retainer, $500 a month: updates and new pages, continuing search and AI-visibility work, and a watch on how the answer engines present your business. Month to month, no lock-in, and the site stays yours regardless.
-
-## Common questions
-
-### Why is it so fast?
-
-The pages are finished files. GitHub's network hands a browser the complete page, and there is no database query, no plugin stack, and no page builder between the request and the answer. Static sites post top-class PageSpeed scores because there is very little that can slow one down.
-
-### Do I own it?
-
-Completely. Domain in your name, repository in your account, files in your hands. You can hire anyone to work on it, move it, or leave it exactly as delivered. Nothing about the site depends on me after launch unless you want it to.
-
-### What can't it do?
-
-A static site cannot run its own checkout, member logins, or database. Those are server applications. Forms, booking, and payment links run through established third-party services placed in the pages, and my guide explains exactly where the line sits: ../../guides/github-pages-website/
-
-### What does it cost after launch?
-
-About $10 a year, for the domain, paid to Cloudflare. Hosting costs nothing and keeps costing nothing. The care retainer is optional at $500 a month.
-
-### What do I have to supply?
-
-An example site you like, the facts of your offer, and whatever materials you have: logo, photos, existing copy. I draft the rest. If you have nothing but the example and a phone call's worth of facts, that is enough to start.
-
-### I already have a website. Can you rebuild it this way?
-
-In most cases, yes. The content carries over, the design follows your example, and the domain points to the new build when it launches. Functions that need a server, like a store, stay on the tool that runs them and get linked from the new site.
-
-## Start
-
-Book 30 minutes and bring the site you want to emulate: https://calendly.com/chrisabraham/30
-
-Or email me at cabraham@gmail.com with the example site in the message. I will tell you straight whether this build fits what you need before you spend anything.
+My [static website work](https://christopherabraham.com/services/static-sites/) covers moving an existing site off WordPress or a dead platform with every old URL kept, and [launch websites](https://christopherabraham.com/services/launch-site/) cover a site timed to a book, an album, or a new service. This page is for a business that wants a fresh site, built new, owned outright, and ready for search on day one.
 
 ## Guides on this work
 
@@ -9228,7 +9185,7 @@ Every engagement starts with a conversation about your site and what you need. P
 
 [Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
-Updated November 5, 2026
+Updated November 19, 2026
 
 
 ---
@@ -10326,7 +10283,7 @@ More guides on platforms, domains, and new sites:
 - [WordPress SEO 101: the settings and habits that matter most](https://christopherabraham.com/guides/wordpress-seo-101/)
 
 When you want it done for you:
-- [I build your website on GitHub Pages: $1,500 flat](https://christopherabraham.com/services/github-pages-website/)
+- [A website on GitHub Pages, built with the SEO already done](https://christopherabraham.com/services/github-pages-website/)
 - [Static websites built for search](https://christopherabraham.com/services/static-sites/)
 - [Launch websites for a book, an album, or a new service](https://christopherabraham.com/services/launch-site/)
 
@@ -10786,7 +10743,7 @@ Every page on this site, grouped by section, with a one-line summary of each. Se
 - [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/): WordPress SEO done carefully: Yoast and Rank Math settings, theme and plugin conflicts, page builder bloat, caching, and old installs that need a steady hand.
 - [SEO for sites on Squarespace, Wix, Webflow, and HubSpot](https://christopherabraham.com/services/website-builder-seo/): Technical and on-page SEO inside hosted builders: settings, redirects, schema, speed, and moves between Squarespace, Wix, Webflow, HubSpot, and Shopify.
 - [Static websites built for search](https://christopherabraham.com/services/static-sites/): Static websites on GitHub Pages and Cloudflare, built with OpenAI Codex and Claude Code. Every build checks SEO, links, and copy before the site publishes.
-- [I build your website on GitHub Pages: $1,500 flat](https://christopherabraham.com/services/github-pages-website/): A flat 1500 dollars: design, build, domain and DNS, launch on GitHub Pages. Hosting is free forever and every file is yours to keep and move.
+- [A website on GitHub Pages, built with the SEO already done](https://christopherabraham.com/services/github-pages-website/): A business website built on GitHub Pages with the SEO done before launch: indexing, schema, sitemaps, and Search Console, on your own domain and repository.
 - [Podcast website SEO](https://christopherabraham.com/services/podcast-website/): I turn a podcast feed into a fast website on your own domain, with a page per episode, transcripts, schema, share cards, and new episodes added each morning.
 - [Launch websites for a book, an album, or a new service](https://christopherabraham.com/services/launch-site/): A fast, findable website for a book, album, film, or new service, on a domain you own, with search basics, share cards, and AI-readable pages from day one.
 - [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/): Ecommerce SEO for Shopify, WooCommerce, and Magento: product and category templates, faceted navigation, duplicate URLs, product schema, and AI answers.

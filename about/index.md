@@ -1,6 +1,6 @@
 > Christopher Abraham is an SEO consultant in Arlington, VA, working on AI search, rendering forensics, and modern stacks, with SEO experience dating to 1998.
 >
-> Source: https://christopherabraham.com/about/ · Updated 2026-10-14 · By Christopher Abraham
+> Source: https://christopherabraham.com/about/ · Updated 2026-11-19 · By Christopher Abraham
 
 # About Christopher Abraham
 
@@ -21,6 +21,7 @@ I'm an independent SEO consultant in Arlington, Virginia, across the Potomac fro
 | Timeline | Web development since 1994, SEO since 1998, blogging since 1999 |
 | Upwork | [Christopher A.](https://www.upwork.com/freelancers/chrisjabraham): Top Rated, 100% Job Success, $200K+ earned, 132 jobs, 4,155 hours (as of November 2026); [client reviews](https://christopherabraham.com/about/reviews/) |
 | Education | BA in American Literature, The George Washington University; a year at the University of East Anglia in Norwich, England; French at the University of Hawaiʻi at Mānoa; German to level A2 at the Goethe-Institut |
+| CV | [Full CV and résumé](https://gerris.ai/about/cv/), with a PDF, for contract and full-time roles |
 | Email | [cja@well.com](mailto:cja@well.com) |
 
 ## How I got here
@@ -77,7 +78,9 @@ For the technical inventory, every skill with the case study that proves it, see
 ## Check my work
 - [My Upwork profile](https://www.upwork.com/freelancers/chrisjabraham), with job history and client feedback.
 - [My LinkedIn profile](https://www.linkedin.com/in/chrisabraham).
+- [My CV](https://gerris.ai/about/cv/), the full career record kept current on Gerris AI.
+- [Gerris Corp](https://gerriscorp.com/), my consultancy since 2012, for reputation management, influencer marketing, and SEO.
 - [Case studies](https://christopherabraham.com/case-studies/), written up with the evidence and anonymized.
 - [Guides](https://christopherabraham.com/guides/) that show how I think about indexing, audits, schema, and AI search.
 
-Updated October 14, 2026
+Updated November 19, 2026

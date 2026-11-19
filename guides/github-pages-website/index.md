@@ -90,7 +90,7 @@ More guides on platforms, domains, and new sites:
 - [WordPress SEO 101: the settings and habits that matter most](https://christopherabraham.com/guides/wordpress-seo-101/)
 
 When you want it done for you:
-- [I build your website on GitHub Pages: $1,500 flat](https://christopherabraham.com/services/github-pages-website/)
+- [A website on GitHub Pages, built with the SEO already done](https://christopherabraham.com/services/github-pages-website/)
 - [Static websites built for search](https://christopherabraham.com/services/static-sites/)
 - [Launch websites for a book, an album, or a new service](https://christopherabraham.com/services/launch-site/)
 

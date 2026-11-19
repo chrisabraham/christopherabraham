@@ -75,8 +75,9 @@ FILES += ['services/internal-linking', 'services/seo-release-qa', 'guides/intern
 SERVICE_GROUPS[0][1].extend(['services/internal-linking/', 'services/seo-release-qa/'])
 
 # The island rule: this site stands alone. None of these may appear in any source or generated page.
-ISLAND = [r"(?i)gerris", r"(?i)gerriscorp", r"(?i)hillmole", r"(?i)hill mole",
-          r"(?i)substack"]  # "podcast" and his show allowed (owner, 2026-10-14: the show is the podcast-site case study)
+# Flotilla (owner, 2026-11-19: "stitch gerris.ai and christopherabraham.com and gerriscorp.com as well as even
+# chrisabraham.net ... I love SEO flotillas"): Gerris, gerriscorp.com, and gerris.ai may now be named and linked.
+ISLAND = [r"(?i)hillmole", r"(?i)hill mole", r"(?i)substack"]  # "podcast" and his show allowed (owner, 2026-10-14: the show is the podcast-site case study)
 # The sibling site, built from the same kind of material. Pages here may not borrow its phrasing.
 _HERE = os.path.dirname(os.path.abspath(__file__))
 # SIBLING_DIR (set in CI) wins; locally the checkout may be named gerris or gerriscorp.
@@ -145,7 +146,7 @@ GBP = "https://share.google/xZ98ksFq3nhO2OvuF"  # Google Business Profile "Chris
 PROFILES = [UPWORK, LINKEDIN, YOUTUBE, "https://chrisabraham.com/", "https://biznology.com/author/chrisabraham/",
             "https://www.huffpost.com/author/chris-abraham", "https://muckrack.com/chrisabraham",
             "https://rheingold.com/Associates/team_abraham.html", "https://www.reddit.com/user/chrisabraham/", "https://mastodon.social/@chrisa",
-            "https://adage.com/author/chris-abraham/1797"]
+            "https://adage.com/author/chris-abraham/1797", "https://chrisabraham.net/"]
 
 
 
@@ -464,7 +465,11 @@ PERSON = {
                  {"@type": "EducationalOrganization", "name": "Goethe-Institut"},
                  {"@type": "HighSchool", "name": "Saint Louis School, Honolulu"},
                  {"@type": "ElementarySchool", "name": "Aliamanu Elementary School, Honolulu"}],
-    "affiliation": [{"@type": "Organization", "name": "Meritus Media", "url": "https://meritusmedia.com/",
+    "affiliation": [{"@type": "Organization", "@id": "https://gerriscorp.com/#org", "name": "Gerris Corp", "url": "https://gerriscorp.com/",
+                     "description": "Chris Abraham's consultancy for online reputation management, influencer marketing, and SEO, Arlington, Virginia, founded 2012"},
+                    {"@type": "Organization", "@id": "https://gerris.ai/#organization", "name": "Gerris AI", "url": "https://gerris.ai/",
+                     "description": "The AI search visibility practice of Gerris Corp"},
+                    {"@type": "Organization", "name": "Meritus Media", "url": "https://meritusmedia.com/",
                      "description": "Digital PR and marketing agency"},
                     {"@type": "Organization", "name": "Stainless Communications", "url": "https://stainlesscommunications.com/",
                      "description": "Senior-led brand, PR, web, and growth firm"}],
@@ -791,6 +796,7 @@ def render(p):
 <footer class="site-footer">
   <p><a href="mailto:{EMAIL}">{EMAIL}</a>&nbsp;· <a href="tel:{TEL}">{PHONE}</a>&nbsp;· <a href="{CALENDLY}">Book a call</a>&nbsp;· <a href="{UPWORK}">Hire me on Upwork</a>&nbsp;· <a href="{LINKEDIN}">LinkedIn</a>&nbsp;· <a href="{YOUTUBE}">YouTube</a></p>
   <p>© {TODAY[:4]} Christopher Abraham, Arlington,&nbsp;Virginia&nbsp;· <a href="{r}faq/">FAQ</a>&nbsp;· <a href="{r}about/editorial-policy/">How I write</a>&nbsp;· <a href="{r}privacy/">Privacy</a>&nbsp;· <a href="{r}sitemap/">Site map</a>&nbsp;· <a href="{r}site-index/">Index</a>&nbsp;· <a href="{r}guides/glossary/">Glossary</a>&nbsp;· <a href="{r}about/colophon/">Colophon</a>&nbsp;· <a href="{r}llms.txt">llms.txt</a>&nbsp;· <a href="{r}rss.xml">RSS</a></p>
+  <p>My other sites: <a href="https://gerriscorp.com/">Gerris Corp</a>, reputation, influencer marketing, and SEO&nbsp;· <a href="https://gerris.ai/">Gerris AI</a>, AI search visibility&nbsp;· <a href="https://chrisabraham.net/">my weblog</a>&nbsp;· <a href="https://chrisabraham.com/">chrisabraham.com</a>&nbsp;· <a href="https://thechrisabrahamshow.com/">The Chris Abraham Show</a></p>
   <p>Unless a page says otherwise, everything I wrote or made here is free to reuse under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Credit me and link&nbsp;back.</p>
 </footer>
 </div>
@@ -1152,15 +1158,21 @@ if os.path.isdir(SIBLING):
             w = re.findall(r"[a-z0-9']+", t.lower())
             _sib_sh[os.path.relpath(root_dir, SIBLING)] = {" ".join(w[i:i + 6]) for i in range(len(w) - 5)}
             _sib_sent |= {x.strip(" #*>-") for x in re.split(r"(?<=[.!?])\s+|\n", t) if len(x.split()) >= 8}
+    def _unquoted(p):
+        # Quoting the same primary source on two sites is citation, not borrowed phrasing (owner, 2026-11-19).
+        t = text_of(re.sub(r"<pre>.*?</pre>|<blockquote>.*?</blockquote>|<q>.*?</q>", " ", p["body"], flags=re.S))
+        t = re.sub(r'["\u201c][^"\u201c\u201d]{1,3000}["\u201d]', lambda m: " " if len(m.group(0).split()) >= 6 else m.group(0), t)
+        return t, re.findall(r"[a-z0-9']+", t.lower())
     for p in pages:
         if p["path"] in ("sitemap/", "site-index/"):
             continue
-        mine = _sh.get(p["path"]) or set()
+        _t, _w = _unquoted(p)
+        mine = {" ".join(_w[i:i + 6]) for i in range(len(_w) - 5)}
         for other, theirs in _sib_sh.items():
             share = len(mine & theirs) / (len(mine) or 1)
             if share > 0.10:
                 problems.append(f"/{p['path']} shares {share:.0%} of its phrasing with sibling /{other}")
-        for sentence in re.split(r"(?<=[.!?])\s+", _words(p)[0]):
+        for sentence in re.split(r"(?<=[.!?])\s+", _t):
             if len(sentence.split()) >= 8 and sentence.strip() in _sib_sent and "Amazon Associate" not in sentence:  # the required Associates disclosure is identical by design
                 problems.append(f"/{p['path']} repeats a sibling sentence: {sentence[:80]}")
 else:
