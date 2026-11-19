@@ -2043,17 +2043,17 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 ---
 
 Source: https://christopherabraham.com/guides/small-business-schema/
-Updated: 2026-10-06
+Updated: 2026-11-19
 
 # The schema markup a small business actually needs
 
-By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026 · Updated November 19, 2026
 
 Schema.org has more than 800 types. A typical small business needs about five. This guide covers which ones, shows example code, and lists the rules that keep structured data accurate enough for Google and AI systems to trust.
 
 ## Why bother
 
-Structured data states your facts in a format machines don't have to guess at. It can earn rich results in Google, such as review stars, FAQs, and breadcrumbs, and it helps search engines and AI assistants connect your business, its location, and its services into one clear entity. It won't rescue a weak page, but it makes a good page unambiguous.
+Structured data states your facts in a format machines don't have to guess at. It can earn rich results in Google, such as review stars and product details, and it helps search engines and AI assistants connect your business, its location, and its services into one clear entity. It won't rescue a weak page, but it makes a good page unambiguous.
 
 ## The five you need
 
@@ -2112,7 +2112,7 @@ Describes where the page sits in your site. Most SEO plugins generate this autom
 
 ### 4. FAQPage, only where questions are visible
 
-Mark up FAQs only when the questions and answers are visible on the page. Google shows FAQ rich results for few sites now, but the markup still helps AI systems match your answers to questions.
+Mark up FAQs only when the questions and answers are visible on the page. Google stopped showing FAQ rich results in Search on May 7, 2026, so the markup no longer changes how your listing looks, but it still states your questions and answers in a form AI systems can match to the questions people ask.
 
 ### 5. Person, for the owner or practitioner
 
@@ -2175,6 +2175,7 @@ Prefer to hire through Upwork? I'm [Top Rated there too](https://www.upwork.com/
 - [Google Search Central: Introduction to structured data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data)
 - [Google Search Central: Local business structured data](https://developers.google.com/search/docs/appearance/structured-data/local-business)
 - [Schema.org: Person](https://schema.org/Person)
+- [Google Search Central: FAQPage structured data and the 2026 deprecation](https://developers.google.com/search/docs/appearance/structured-data/faqpage)
 
 **[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 

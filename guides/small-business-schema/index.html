@@ -57,7 +57,7 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="The schema markup a small business actually needs">
 <meta property="article:published_time" content="2026-10-06">
-<meta property="article:modified_time" content="2026-10-06">
+<meta property="article:modified_time" content="2026-11-19">
 <meta property="article:author" content="https://christopherabraham.com/about/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="The schema markup a small business actually needs, with code">
@@ -862,7 +862,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
    ],
    "primaryImageOfPage": "https://christopherabraham.com/cards/guides-small-business-schema.png",
    "inLanguage": "en-US",
-   "dateModified": "2026-10-06",
+   "dateModified": "2026-11-19",
    "author": {
     "@id": "https://christopherabraham.com/#person"
    },
@@ -922,10 +922,10 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
     "@id": "https://christopherabraham.com/#service-business"
    },
    "datePublished": "2026-10-06",
-   "dateModified": "2026-10-06",
+   "dateModified": "2026-11-19",
    "image": "https://christopherabraham.com/cards/guides-small-business-schema.png",
    "inLanguage": "en-US",
-   "wordCount": 761,
+   "wordCount": 782,
    "citation": [
     {
      "@type": "CreativeWork",
@@ -941,6 +941,11 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
      "@type": "CreativeWork",
      "name": "Schema.org: Person",
      "url": "https://schema.org/Person"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Google Search Central: FAQPage structured data and the 2026 deprecation",
+     "url": "https://developers.google.com/search/docs/appearance/structured-data/faqpage"
     }
    ],
    "keywords": "local business schema, small business structured data, JSON-LD examples"
@@ -973,7 +978,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../../guides/">Guides</a></li><li aria-current="page">Small Business Schema</li></ol></nav>
 <main id="main">
 <h1>The schema markup a small business actually needs</h1>
-<p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-06">October 6, 2026</time></p>
+<p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-10-06">October 6, 2026</time> · Updated <time datetime="2026-11-19">November 19, 2026</time></p>
 <p class="lead">Schema.org has more than 800 types. A typical small business needs about five. This guide covers which ones, shows example code, and lists the rules that keep structured data accurate enough for Google and AI systems to trust.</p>
 
 <details class="guide-contents">
@@ -990,7 +995,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
 </details>
 
 <h2 id="section-why-bother" tabindex="-1">Why bother</h2>
-<p>Structured data states your facts in a format machines don't have to guess at. It can earn rich results in Google, such as review stars, FAQs, and breadcrumbs, and it helps search engines and AI assistants connect your business, its location, and its services into one clear entity. It won't rescue a weak page, but it makes a good page unambiguous.</p>
+<p>Structured data states your facts in a format machines don't have to guess at. It can earn rich results in Google, such as review stars and product details, and it helps search engines and AI assistants connect your business, its location, and its services into one clear entity. It won't rescue a weak page, but it makes a good page unambiguous.</p>
 
 <h2 id="section-the-five-you-need" tabindex="-1">The five you need</h2>
 <h3>1. LocalBusiness or Organization, on the home page</h3>
@@ -1037,7 +1042,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
 <p>Describes where the page sits in your site. Most SEO plugins generate this automatically if breadcrumbs are turned on.</p>
 
 <h3>4. FAQPage, only where questions are visible</h3>
-<p>Mark up FAQs only when the questions and answers are visible on the page. Google shows FAQ rich results for few sites now, but the markup still helps AI systems match your answers to questions.</p>
+<p>Mark up FAQs only when the questions and answers are visible on the page. Google stopped showing FAQ rich results in Search on May 7, 2026, so the markup no longer changes how your listing looks, but it still states your questions and answers in a form AI systems can match to the questions people ask.</p>
 
 <h3>5. Person, for the owner or practitioner</h3>
 <p>If customers choose you partly because of who you are, such as a lawyer, therapist, consultant, or chef, add Person markup on the About page with name, job title, image, and sameAs links to professional profiles, connected to the business with <code>worksFor</code>.</p>
@@ -1103,6 +1108,7 @@ ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1
   <li><a href="https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data">Google Search Central: Introduction to structured data</a></li>
   <li><a href="https://developers.google.com/search/docs/appearance/structured-data/local-business">Google Search Central: Local business structured data</a></li>
   <li><a href="https://schema.org/Person">Schema.org: Person</a></li>
+  <li><a href="https://developers.google.com/search/docs/appearance/structured-data/faqpage">Google Search Central: FAQPage structured data and the 2026 deprecation</a></li>
 </ul>
 <aside class="author-box" aria-label="About the author">
   <img src="../../christopher-abraham.jpg" width="72" height="72" alt="">
