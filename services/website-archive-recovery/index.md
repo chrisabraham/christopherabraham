@@ -38,6 +38,13 @@ The domain name, or the domains the site lived on over the years; any backups, e
 
 For sites that are alive but stuck on an old platform, see [static websites built for search](https://christopherabraham.com/services/static-sites/) and [site migrations and 301 redirects](https://christopherabraham.com/services/migrations/).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/)
+- [Moving a website? Check its images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/)
+- [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/)
+
 ## Talk it over
 
 Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.

@@ -74,6 +74,16 @@ Accessibility decays as content is added: a new image without alt text, a color 
 
 Related: [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/) and [on-page SEO](https://christopherabraham.com/services/on-page-seo/).
 
+## Related reading
+
+More guides on accessibility and text-only reading:
+- [Accessibility as SEO: the search, AI, and trust dividends](https://christopherabraham.com/guides/accessibility-seo-dividends/)
+- [The Lynx test: see your website the way crawlers and AI read it](https://christopherabraham.com/guides/lynx-test/)
+
+When you want it done for you:
+- [Sitewide technical SEO: crawl, trace, fix, recrawl](https://christopherabraham.com/services/sitewide-technical-seo/)
+- [On-page SEO](https://christopherabraham.com/services/on-page-seo/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

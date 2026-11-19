@@ -51,6 +51,18 @@ Clients sometimes run their pages through an AI detector and panic at the score.
 
 I use AI tools every day, for research, drafts, and checking my own work. Every guide on this site is drafted with AI assistance under my direction, checked claim by claim against named sources, and published with those sources listed at the bottom. That is the standard I'd hold any client's site to. For the broader picture of this year's updates, see [my 2026 update recovery checklist](https://christopherabraham.com/guides/update-recovery-2026/); if you're worried about pages you've already published, [send me the site](https://christopherabraham.com/contact/) and I'll tell you which ones need a human pass.
 
+## Related reading
+
+More guides on content, titles, and earned links:
+- [Topic clusters for AI search, without your pages competing with each other](https://christopherabraham.com/guides/topic-clusters/)
+- [How to publish useful original research without a big budget](https://christopherabraham.com/guides/small-original-research/)
+- [Digital PR for AI search: how to earn mentions the answer engines repeat](https://christopherabraham.com/guides/earned-mentions/)
+- [I turn down backlink work. Here's the one agency I recommend instead](https://christopherabraham.com/guides/buying-backlinks/)
+
+When you want it done for you:
+- [On-page SEO](https://christopherabraham.com/services/on-page-seo/)
+- [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

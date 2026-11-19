@@ -66,6 +66,18 @@ The best time to collect third-party proof was years ago; the second best is now
 
 Related: [an About page AI trusts](https://christopherabraham.com/guides/about-page-ai/) and [entity SEO for people with two names](https://christopherabraham.com/guides/two-names-one-entity/).
 
+## Related reading
+
+More guides on your name, your entity, and AI answers:
+- [How to write an About page that search engines and AI trust](https://christopherabraham.com/guides/about-page-ai/)
+- [Nobody Mentions You: The AI Search Problem Owners Miss](https://christopherabraham.com/guides/nobody-mentions-you/)
+- [Who Wrote Your Reputation and What AI Search Believes](https://christopherabraham.com/guides/who-wrote-your-reputation/)
+- [How to measure your share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/)
+
+When you want it done for you:
+- [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/)
+- [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

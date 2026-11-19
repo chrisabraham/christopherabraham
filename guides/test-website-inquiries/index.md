@@ -59,6 +59,19 @@ Once delivery works, review a suitable period of actual inquiries with the busin
 
 I offer a [website inquiry audit](https://christopherabraham.com/services/inquiry-path-audit/) for this investigation, with a defined route list and written findings. If the evidence instead points toward discovery or indexing, a [technical SEO audit](https://christopherabraham.com/services/seo-audit/) is the next useful step.
 
+## Related reading
+
+More guides on measurement and proof:
+- [How to load Google Analytics 4 without hurting PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/)
+- [Hit by a 2026 Google update? A recovery checklist that works](https://christopherabraham.com/guides/update-recovery-2026/)
+- [Search Console comparisons that support better decisions](https://christopherabraham.com/guides/search-console-comparisons/)
+- [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/)
+
+When you want it done for you:
+- [Search Console, Bing Webmaster Tools, and GA4](https://christopherabraham.com/services/search-console/)
+- [Website inquiry audits: find where contacts go missing](https://christopherabraham.com/services/inquiry-path-audit/)
+- [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

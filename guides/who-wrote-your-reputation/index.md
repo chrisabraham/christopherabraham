@@ -30,6 +30,18 @@ Keep writing the record. The vacuum law grants no retirement, and a silent year 
 
 [Search my name before you hire me](https://www.google.com/search?q=chris+abraham+seo)
 
+## Related reading
+
+More guides on your name, your entity, and AI answers:
+- [How to measure your share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/)
+- [How to correct what AI search says about you](https://christopherabraham.com/guides/correct-ai-answers/)
+- [One person, two names: entity SEO for pen names and nicknames](https://christopherabraham.com/guides/two-names-one-entity/)
+- [Proving expertise with third-party sources](https://christopherabraham.com/guides/third-party-proof/)
+
+When you want it done for you:
+- [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/)
+- [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

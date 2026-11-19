@@ -1,6 +1,6 @@
 > A bilingual film review site was indexed by Bing but nearly invisible in Google. A consent platform blocked the script that displayed every article to bots.
 >
-> Source: https://christopherabraham.com/case-studies/consent-banner/ · Updated 2026-10-06 · By Christopher Abraham
+> Source: https://christopherabraham.com/case-studies/consent-banner/ · Updated 2026-11-19 · By Christopher Abraham
 
 # Film review site: a consent tool that emptied every article for Google
 
@@ -33,8 +33,8 @@ Side-by-side browser sessions, one consenting and one not, showed the tabs empty
 
 ## Why it matters
 
-Consent platforms are installed by legal and marketing teams and almost never tested against crawlers. If your site uses one, load a page with consent declined and check what's left. See [reading the Page indexing report](https://christopherabraham.com/guides/page-indexing-report/).
+Consent platforms are installed by legal and marketing teams and almost never tested against crawlers. If your site uses one, load a page with consent declined and check what's left. See [reading the Page indexing report](https://christopherabraham.com/guides/page-indexing-report/). When the content depends on a script, my [JavaScript SEO work](https://christopherabraham.com/services/javascript-seo/) starts with exactly this test: the page as a crawler gets it, compared with the page a person sees.
 
 **[Christopher Abraham](https://christopherabraham.com/about/)** is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. [How these pages are written](https://christopherabraham.com/about/editorial-policy/) · [LinkedIn](https://www.linkedin.com/in/chrisabraham) · [Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
-Updated October 6, 2026
+Updated November 19, 2026

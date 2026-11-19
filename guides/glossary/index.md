@@ -1,10 +1,10 @@
 > Plain-English definitions of SEO and AI search terms: AEO, GEO, canonical tags, crawl budget, entities, INP, IndexNow, llms.txt, soft 404s, and many more.
 >
-> Source: https://christopherabraham.com/guides/glossary/ · Updated 2026-10-26 · By Christopher Abraham
+> Source: https://christopherabraham.com/guides/glossary/ · Updated 2026-11-19 · By Christopher Abraham
 
 # Glossary of SEO and AI search terms
 
-By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026 · Updated October 26, 2026
+By [Christopher Abraham](https://christopherabraham.com/about/) · Published October 6, 2026 · Updated November 19, 2026
 
 The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need. To find every page that discusses a term, use the [index](https://christopherabraham.com/site-index/).
 
@@ -14,11 +14,17 @@ A permanent forwarding instruction from an old address to a new one, which passe
 **AEO (answer engine optimization)**
 Shaping pages so that systems which reply with an answer rather than a list of links, from featured snippets to voice assistants to chatbots, can lift a passage and credit it.
 
+**Agentic browser**
+A web browser with an AI assistant built in that can carry out multi-step tasks on a user's behalf, such as comparing products or filling a cart. ChatGPT Atlas and Perplexity Comet are examples. They read pages the way a careful screen reader does, so clean HTML and real buttons matter. See [selling inside AI assistants](https://christopherabraham.com/guides/agentic-checkout/).
+
 **AI Overviews**
 The generated summaries Google places on many results pages, citing the sites they borrowed from. AI Mode extends the idea into a back-and-forth conversation.
 
 **AI share of voice**
 The share of relevant buyer questions where an AI assistant names your brand, measured against the competitors it names instead, tracked with the same question set every month. Method in [measuring share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/).
+
+**AIO (AI optimization)**
+A label with two meanings in circulation: some use it for all work on AI visibility, others for winning citations in Google's AI Overviews specifically. Ask anyone who sells it which one they mean.
 
 **Alt text**
 Words attached to an image in the markup that describe it for people using screen readers and give crawlers a clue about the picture's subject.
@@ -93,10 +99,19 @@ Speed and responsiveness figures gathered from actual visits, as opposed to one 
 Unpaid product results Google shows across Shopping, Search, Images, Lens, and Maps, fed by a store's Merchant Center data. See [Merchant Center free listings](https://christopherabraham.com/guides/merchant-center-free-listings/).
 
 **GEO (generative engine optimization)**
-Work aimed at how generative AI tools portray and cite a company or a page. In practice it overlaps almost entirely with AEO and AI SEO.
+Work aimed at how generative AI tools portray and cite a company or a page. The name comes from a 2023 research paper of the same title by Pranjal Aggarwal and colleagues, presented at KDD 2024. In practice it overlaps almost entirely with AEO and AI SEO.
 
 **Google Business Profile**
 The free Google listing that puts a business on Maps and in local results, carrying its hours, categories, photos, and reviews.
+
+**Google-Extended**
+A robots.txt token that tells Google whether content it crawls may be used to train Gemini models and to ground their answers. Google states that it has no effect on inclusion or ranking in Google Search.
+
+**GPTBot**
+OpenAI's crawler for collecting training data. Blocking it doesn't block OAI-SearchBot, which feeds ChatGPT search, because OpenAI treats each of its bots separately. See [the AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/).
+
+**Grounding**
+Tying an AI model's answer to sources it retrieves at the moment of the question, instead of relying only on what it learned in training. Pages that get retrieved and quoted during grounding are the ones that earn citations.
 
 **GTIN (Global Trade Item Number)**
 The barcode number a manufacturer assigns to a product, such as a UPC or EAN. Resellers put it in their product feed; makers of their own goods mark it as not applicable.
@@ -124,6 +139,9 @@ Google's preferred way to write structured data: a JSON object inside its own sc
 
 **LCP (Largest Contentful Paint)**
 The Core Web Vital that times how long the biggest image or text block in the opening view takes to finish drawing. Aim for 2.5 s or lower.
+
+**LLMO (large language model optimization)**
+Another name for shaping how large language models describe a brand: consistent facts, clear entities, and outside sources the models can trust. In practice it covers the same work as GEO and AEO.
 
 **llms.txt**
 A suggested standard: a Markdown summary kept at the top level of a domain, pointing language models to the pages most worth reading.
@@ -167,8 +185,14 @@ Generating a finished HTML copy of a JavaScript page ahead of time and serving i
 **Primary owner**
 The single account on a Google Business Profile that can transfer the profile to someone else. It should belong to the business, never to a vendor. See [Give your SEO access](https://christopherabraham.com/guides/give-seo-access/).
 
+**Product availability**
+The stock status a product page declares in its structured data and its Merchant Center feed, such as InStock, OutOfStock, BackOrder, or Discontinued. The value should match what the page tells shoppers. See [out-of-stock and discontinued product pages](https://christopherabraham.com/guides/out-of-stock-products/).
+
 **Pull request**
 A proposed change to a code repository, shown line by line for review before it's merged. SEO fixes made this way are recorded, reviewable, and easy to undo; see [SEO in your Git repository](https://christopherabraham.com/guides/seo-in-your-repository/).
+
+**Query fan-out**
+Google's name for how AI Mode answers a question: it splits the question into subtopics and runs many searches at once, then writes one answer from the results. A page can be cited for a subquestion the user never typed.
 
 **Reddit Answers**
 Reddit's own AI search, launched in December 2024, which summarizes discussions from across the site in reply to a question.
@@ -206,6 +230,9 @@ Assembling the complete HTML on the server so a crawler gets every word in the f
 **Service-area business**
 A business on Google that travels to its customers, such as a plumber or mobile groomer, and hides its street address from the public profile. It verifies by showing its tools, vehicle, and nearby street markers. See [video verification](https://christopherabraham.com/guides/gbp-video-verification/).
 
+**Share of model**
+A newer name for AI share of voice: how often an AI assistant names your brand, compared with competitors, across a fixed set of questions. See [measuring share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/).
+
 **Single page application (SPA)**
 A website that loads one HTML shell and swaps content in with JavaScript as people click, instead of loading a new page for each address. Many AI app builders produce them.
 
@@ -235,6 +262,9 @@ A service delivered under someone else's brand: an agency resells the work, and 
 
 **XML sitemap**
 A machine-readable list of the addresses a site wants crawled, often with the date each last changed.
+
+**Zero-click search**
+A search that ends on the results page or inside an AI answer without a visit to any website. Rankings and mentions can rise while clicks fall, which is why I report both.
 
 These terms are used throughout the [guides](https://christopherabraham.com/guides/) and [services](https://christopherabraham.com/services/) pages.
 

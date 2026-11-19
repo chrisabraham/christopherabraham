@@ -32,6 +32,16 @@ Recon reads public listing data. It doesn't create profiles, contact competitors
 
 The setup questions behind most findings are covered in my guides to [service-area businesses](https://christopherabraham.com/guides/service-area-business/), [Apple Maps and Bing Places](https://christopherabraham.com/guides/apple-and-bing-listings/), and [Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/). Broader local work sits under [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/)
+- [Google Business Profile video verification: plan the take before you press record](https://christopherabraham.com/guides/gbp-video-verification/)
+- [How to change a business name without losing your Google reviews](https://christopherabraham.com/guides/business-name-change/)
+- [Holiday hours on Google: set them before you need them](https://christopherabraham.com/guides/holiday-hours/)
+- [Service-area businesses on Google Business Profile](https://christopherabraham.com/guides/service-area-business/)
+- [Apple Maps and Bing Places: local listings past Google](https://christopherabraham.com/guides/apple-and-bing-listings/)
+
 ## Talk it over
 
 Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.

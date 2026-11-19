@@ -62,6 +62,19 @@ Only a property owner can upload, and the tool works with URL prefix properties,
 
 I don't sell link building, for reasons I explain in [why I turn down backlink work](https://christopherabraham.com/guides/buying-backlinks/), and I don't sell disavow files by the thousand lines. I review the profile against Search Console's data, keep the file conservative, and treat links as one hypothesis among several, as in [the clinic migration](https://christopherabraham.com/case-studies/clinic-migration/), where I rebuilt an inherited file to keep legitimate domains. If a spike landed in the same month as a traffic loss, start with a [technical SEO audit](https://christopherabraham.com/services/seo-audit/) that finds the cause before anyone uploads anything.
 
+## Related reading
+
+More guides on indexing and crawling:
+- [Why Google will not index your site: a diagnosis guide](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
+- [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/)
+- [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/)
+- [How to find near-duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
+
+When you want it done for you:
+- [Indexing audit](https://christopherabraham.com/services/indexing-audit/)
+- [Indexing repair](https://christopherabraham.com/services/indexing/)
+- [Internal linking strategy: stitch your website together](https://christopherabraham.com/services/internal-linking/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

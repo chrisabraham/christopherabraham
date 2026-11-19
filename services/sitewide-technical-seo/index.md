@@ -64,4 +64,20 @@ This sweep draws on several narrower services: the [technical SEO audit](https:/
 
 To start, [send me your site and what's bothering you about it](https://christopherabraham.com/contact/), or see how engagements run on [Hire Me](https://christopherabraham.com/hire-me/).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [Why Google will not index your site: a diagnosis guide](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
+- [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/)
+- [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/)
+- [How to find near-duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
+- [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/)
+- [Spam link spikes and the disavow file: when to act at all](https://christopherabraham.com/guides/disavow-links/)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 15, 2026

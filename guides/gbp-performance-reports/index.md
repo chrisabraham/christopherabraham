@@ -64,6 +64,19 @@ Most of these will survive the redesign, so retire them now. Judging by days, an
 
 Reading these reports well is judgement work, and it sits inside the [local search work](https://christopherabraham.com/services/local-seo/) I do for clients: profile upkeep, a steady review rhythm, and a monthly read of what Google and the AI answers are telling the market about a business. If the new layout has reached your account and you want the first read done properly, [book a thirty minute call on my calendar](https://calendly.com/chrisabraham/30) and bring your Performance screen with you. I will read it with you from the top, and you will leave knowing which numbers deserve action and which deserve a shrug. If you would rather start in writing, [write to me through the contact page](https://christopherabraham.com/contact/) and tell me what your reports have been doing.
 
+## Related reading
+
+More guides on local listings and Business Profile:
+- [Google Business Profile video verification: plan the take before you press record](https://christopherabraham.com/guides/gbp-video-verification/)
+- [How to change a business name without losing your Google reviews](https://christopherabraham.com/guides/business-name-change/)
+- [Holiday hours on Google: set them before you need them](https://christopherabraham.com/guides/holiday-hours/)
+- [Service-area businesses on Google Business Profile](https://christopherabraham.com/guides/service-area-business/)
+
+When you want it done for you:
+- [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/)
+- [Google Business Profile verification help](https://christopherabraham.com/services/gbp-verification/)
+- [Google Business Profile reinstatement and repair](https://christopherabraham.com/services/gbp-reinstatement/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

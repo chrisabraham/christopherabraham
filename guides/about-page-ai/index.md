@@ -70,6 +70,18 @@ An About page should be readable with scripts off: plain HTML text, a compressed
 
 Related: [finding third-party proof](https://christopherabraham.com/guides/third-party-proof/), [correcting AI answers](https://christopherabraham.com/guides/correct-ai-answers/), and an example in practice, [my own About page](https://christopherabraham.com/about/).
 
+## Related reading
+
+More guides on your name, your entity, and AI answers:
+- [Nobody Mentions You: The AI Search Problem Owners Miss](https://christopherabraham.com/guides/nobody-mentions-you/)
+- [Who Wrote Your Reputation and What AI Search Believes](https://christopherabraham.com/guides/who-wrote-your-reputation/)
+- [How to measure your share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/)
+- [How to correct what AI search says about you](https://christopherabraham.com/guides/correct-ai-answers/)
+
+When you want it done for you:
+- [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/)
+- [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

@@ -58,6 +58,18 @@ Pick the strongest one, usually the oldest or the one with the most links, move 
 
 For a store with more than a handful of seasonal pages, I map them, merge them, and set the redirects as part of [ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/) work. For the store-hours side of the holidays, see the [holiday hours checklist](https://christopherabraham.com/guides/holiday-hours/).
 
+## Related reading
+
+More guides on online stores and the selling season:
+- [Google Merchant Center free listings for small shops](https://christopherabraham.com/guides/merchant-center-free-listings/)
+- [Selling inside AI assistants: the real state of play](https://christopherabraham.com/guides/agentic-checkout/)
+- [Out-of-stock and discontinued product pages](https://christopherabraham.com/guides/out-of-stock-products/)
+
+When you want it done for you:
+- [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/)
+- [Peak season readiness](https://christopherabraham.com/services/peak-season-readiness/)
+- [AI shopping readiness for small online shops](https://christopherabraham.com/services/ai-shopping-readiness/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

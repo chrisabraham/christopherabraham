@@ -36,4 +36,20 @@ A podcast feed is a natural source for a static site, with a page per episode ad
 
 A fixed-scope build quoted after a short call, or a migration scoped from an inventory of your current site. Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [Own Your Website Outright and Never Pay Platform Rent](https://christopherabraham.com/guides/github-pages-website/)
+- [Launch a site on a parked domain with Cloudflare and GitHub Pages](https://christopherabraham.com/guides/parked-domain-launch/)
+- [How to lock down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/)
+- [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/)
+- [Social share cards: Open Graph tags and images that fit](https://christopherabraham.com/guides/social-share-cards/)
+- [The Lynx test: see your website the way crawlers and AI read it](https://christopherabraham.com/guides/lynx-test/)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 15, 2026

@@ -40,6 +40,16 @@ The domain, or the name you'd like; the cover or key art at full resolution; the
 
 A fixed-scope build, quoted after a short call, on a site you own from the first commit. The broader approach is on the [static websites](https://christopherabraham.com/services/static-sites/) page, and terms are on [Hire Me](https://christopherabraham.com/hire-me/).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [Launch a site on a parked domain with Cloudflare and GitHub Pages](https://christopherabraham.com/guides/parked-domain-launch/)
+- [Own Your Website Outright and Never Pay Platform Rent](https://christopherabraham.com/guides/github-pages-website/)
+- [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/)
+- [Social share cards: Open Graph tags and images that fit](https://christopherabraham.com/guides/social-share-cards/)
+- [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/)
+- [How to lock down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/)
+
 ## Talk it over
 
 Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.

@@ -88,6 +88,19 @@ No honest consultant can. Indexing is Google's decision. What I can guarantee is
 
 Access to Google Search Console and Bing Webmaster Tools, the site's URL, and any history you have: migrations, redesigns, traffic changes, link purchases. The audit itself is a flat $750 invoiced in advance, described on the [indexing audit](https://christopherabraham.com/services/indexing-audit/) page.
 
+## Related reading
+
+More guides on indexing and crawling:
+- [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/)
+- [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/)
+- [How to find near-duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
+- [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/)
+
+When you want it done for you:
+- [Indexing audit](https://christopherabraham.com/services/indexing-audit/)
+- [Indexing repair](https://christopherabraham.com/services/indexing/)
+- [Internal linking strategy: stitch your website together](https://christopherabraham.com/services/internal-linking/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

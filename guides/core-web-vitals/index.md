@@ -69,6 +69,17 @@ Core Web Vitals won't lift weak content above strong content. But between compar
 
 For hands-on help, see [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/). Terms are defined in the [glossary](https://christopherabraham.com/guides/glossary/).
 
+## Related reading
+
+More guides on migrations, redirects, and speed:
+- [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/)
+- [Moving a website? Check its images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/)
+
+When you want it done for you:
+- [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/)
+- [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
+- [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

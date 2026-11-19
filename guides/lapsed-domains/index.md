@@ -51,6 +51,19 @@ When a company closes or a partnership ends, decide who keeps each domain and fo
 
 Related: [using old sources as evidence of expertise](https://christopherabraham.com/guides/third-party-proof/) and [choosing sameAs links carefully](https://christopherabraham.com/guides/two-names-one-entity/).
 
+## Related reading
+
+More guides on platforms, domains, and new sites:
+- [WordPress SEO 101: the settings and habits that matter most](https://christopherabraham.com/guides/wordpress-seo-101/)
+- [Cloudflare for WordPress: setup, plans, and what to budget](https://christopherabraham.com/guides/cloudflare-wordpress/)
+- [SEO for websites built with AI app builders: what to check before you launch](https://christopherabraham.com/guides/ai-built-websites/)
+- [Own Your Website Outright and Never Pay Platform Rent](https://christopherabraham.com/guides/github-pages-website/)
+
+When you want it done for you:
+- [Launch websites for a book, an album, or a new service](https://christopherabraham.com/services/launch-site/)
+- [Website archive recovery](https://christopherabraham.com/services/website-archive-recovery/)
+- [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

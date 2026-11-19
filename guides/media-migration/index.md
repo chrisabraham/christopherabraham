@@ -56,6 +56,17 @@ Close each inventory row with the destination checked, the references updated, t
 
 My [clinic migration case study](https://christopherabraham.com/case-studies/clinic-migration/) describes repository analysis that exposed references to the previous media library. I can review this part of your move through [migration oversight](https://christopherabraham.com/services/migrations/) or a focused [SEO release QA review](https://christopherabraham.com/services/seo-release-qa/).
 
+## Related reading
+
+More guides on migrations, redirects, and speed:
+- [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/)
+- [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/)
+
+When you want it done for you:
+- [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/)
+- [Website archive recovery](https://christopherabraham.com/services/website-archive-recovery/)
+- [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

@@ -122,6 +122,19 @@ The math is embarrassing in hindsight. $279 a year is about 76 cents a day. One 
 
 If you want to see what a properly configured crawl turns up on your own site, [that's where my audits start](https://christopherabraham.com/services/seo-audit/). For what the finished audit should look like, see [what a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/).
 
+## Related reading
+
+More guides on audits, crawlers, and working with an SEO:
+- [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/)
+- [Why your SEO should work in your Git repository, with AI at their side](https://christopherabraham.com/guides/seo-in-your-repository/)
+- [How to choose the next SEO fix when developer time is scarce](https://christopherabraham.com/guides/prioritize-seo-work/)
+- [What a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/)
+
+When you want it done for you:
+- [Technical SEO audit](https://christopherabraham.com/services/seo-audit/)
+- [SEO report review](https://christopherabraham.com/services/seo-report-review/)
+- [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

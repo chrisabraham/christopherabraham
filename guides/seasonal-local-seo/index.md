@@ -56,6 +56,19 @@ After the peak, compare the agreed windows and identify what deserves investigat
 
 I help owners establish this baseline and connect it to practical website and listing work through [local SEO consulting](https://christopherabraham.com/services/local-seo/). For the individual report definitions, see [Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/); for customer information ahead of holidays, use the [special hours checklist](https://christopherabraham.com/guides/holiday-hours/). A useful first engagement starts with the locations, the selling calendar, and the data already available.
 
+## Related reading
+
+More guides on local listings and Business Profile:
+- [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/)
+- [Google Business Profile video verification: plan the take before you press record](https://christopherabraham.com/guides/gbp-video-verification/)
+- [How to change a business name without losing your Google reviews](https://christopherabraham.com/guides/business-name-change/)
+- [Holiday hours on Google: set them before you need them](https://christopherabraham.com/guides/holiday-hours/)
+
+When you want it done for you:
+- [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/)
+- [Google Business Profile verification help](https://christopherabraham.com/services/gbp-verification/)
+- [Google Business Profile reinstatement and repair](https://christopherabraham.com/services/gbp-reinstatement/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

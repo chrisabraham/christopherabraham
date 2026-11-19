@@ -53,6 +53,15 @@ One agency's ad this month promises a 100 percent success rate at increasing AI 
 
 Every guide on this site starts with these sources and ends with a list of them, so you can check my work the same way. For what the news has added up to this year, see [my recovery checklist for 2026 Google updates](https://christopherabraham.com/guides/update-recovery-2026/) and [my AI search checklist](https://christopherabraham.com/guides/ai-search-checklist/), or [ask me what a headline means for your site](https://christopherabraham.com/contact/).
 
+## Related reading
+
+More guides on reference:
+- [SEO and AI search advice your business should refuse now](https://christopherabraham.com/guides/seo-advice-to-refuse/)
+
+When you want it done for you:
+- [SEO coaching and consultations](https://christopherabraham.com/services/seo-coaching/)
+- [SEO report review](https://christopherabraham.com/services/seo-report-review/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

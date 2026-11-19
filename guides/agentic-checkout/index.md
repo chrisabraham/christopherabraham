@@ -53,6 +53,18 @@ Google's help pages describe the program and its requirements but do not set out
 
 If you want a second pair of eyes on your feed and product pages before you apply, my [AI shopping readiness review](https://christopherabraham.com/services/ai-shopping-readiness/) covers both, or [book a 30 minute call](https://calendly.com/chrisabraham/30).
 
+## Related reading
+
+More guides on online stores and the selling season:
+- [Out-of-stock and discontinued product pages](https://christopherabraham.com/guides/out-of-stock-products/)
+- [Black Friday sale pages that keep their rankings](https://christopherabraham.com/guides/black-friday-pages/)
+- [Google Merchant Center free listings for small shops](https://christopherabraham.com/guides/merchant-center-free-listings/)
+
+When you want it done for you:
+- [Ecommerce SEO](https://christopherabraham.com/services/ecommerce-seo/)
+- [Peak season readiness](https://christopherabraham.com/services/peak-season-readiness/)
+- [AI shopping readiness for small online shops](https://christopherabraham.com/services/ai-shopping-readiness/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

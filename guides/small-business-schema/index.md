@@ -107,6 +107,19 @@ With more than one location, the home page describes the Organization, and each 
 
 For help with markup that validates and stays accurate, see [schema markup and entity SEO](https://christopherabraham.com/services/schema/).
 
+## Related reading
+
+More guides on aI search and structured data:
+- [Reddit and AI answers: what a moderator wants brands to know](https://christopherabraham.com/guides/reddit-ai-answers/)
+- [When Google's AI does the booking, be bookable](https://christopherabraham.com/guides/ai-mode-bookings/)
+- [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/)
+- [AI catnip for fall 2026: become the source worth citing](https://christopherabraham.com/guides/ai-catnip/)
+
+When you want it done for you:
+- [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/)
+- [Schema markup and entity SEO](https://christopherabraham.com/services/schema/)
+- [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

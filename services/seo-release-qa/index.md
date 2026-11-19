@@ -42,4 +42,20 @@ The review answers whether the named release meets its agreed search requirement
 
 For a release involving old images or downloads, start with my [image and PDF migration checklist](https://christopherabraham.com/guides/media-migration/). To arrange a review, [send me the release brief and staging address](https://christopherabraham.com/contact/); scope and terms follow the process on [Hire Me](https://christopherabraham.com/hire-me/).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [What a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/)
+- [How to hire an SEO on Upwork: the questions that reveal real skill](https://christopherabraham.com/guides/hiring-an-seo/)
+- [Give your SEO access without handing over your passwords](https://christopherabraham.com/guides/give-seo-access/)
+- [Is a Screaming Frog licence worth $279 a year? Mine was](https://christopherabraham.com/guides/screaming-frog-licence/)
+- [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/)
+- [Why your SEO should work in your Git repository, with AI at their side](https://christopherabraham.com/guides/seo-in-your-repository/)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 15, 2026

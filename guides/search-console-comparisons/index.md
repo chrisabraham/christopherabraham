@@ -49,6 +49,19 @@ My guide to [verifying an SEO fix](https://christopherabraham.com/guides/prove-s
 
 I bring this reporting discipline to [SEO audits](https://christopherabraham.com/services/seo-audit/): preserve the baseline, identify the affected group, and explain what the next decision rests on. An owner should be able to challenge the conclusion using the evidence delivered with it.
 
+## Related reading
+
+More guides on measurement and proof:
+- [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/)
+- [Your website form says success. Did anyone get the inquiry?](https://christopherabraham.com/guides/test-website-inquiries/)
+- [How to load Google Analytics 4 without hurting PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/)
+- [Hit by a 2026 Google update? A recovery checklist that works](https://christopherabraham.com/guides/update-recovery-2026/)
+
+When you want it done for you:
+- [Search Console, Bing Webmaster Tools, and GA4](https://christopherabraham.com/services/search-console/)
+- [Website inquiry audits: find where contacts go missing](https://christopherabraham.com/services/inquiry-path-audit/)
+- [Monthly SEO retainer](https://christopherabraham.com/services/seo-retainer/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

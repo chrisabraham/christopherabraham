@@ -60,6 +60,19 @@ If your website lists an email address, it should be on a domain that really doe
 
 For the full setup of parking a domain on Cloudflare and GitHub Pages, see [launching a site on a parked domain](https://christopherabraham.com/guides/parked-domain-launch/). Domains that do send email need SPF, DKIM, and DMARC configured for every service that sends on their behalf, a different job entirely.
 
+## Related reading
+
+More guides on platforms, domains, and new sites:
+- [What happens to your old domains when they lapse](https://christopherabraham.com/guides/lapsed-domains/)
+- [WordPress SEO 101: the settings and habits that matter most](https://christopherabraham.com/guides/wordpress-seo-101/)
+- [Cloudflare for WordPress: setup, plans, and what to budget](https://christopherabraham.com/guides/cloudflare-wordpress/)
+- [SEO for websites built with AI app builders: what to check before you launch](https://christopherabraham.com/guides/ai-built-websites/)
+
+When you want it done for you:
+- [Launch websites for a book, an album, or a new service](https://christopherabraham.com/services/launch-site/)
+- [Static websites built for search](https://christopherabraham.com/services/static-sites/)
+- [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

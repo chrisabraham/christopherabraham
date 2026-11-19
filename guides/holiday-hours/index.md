@@ -52,6 +52,19 @@ On the day, Google shows your special hours in place of the regular ones. Search
 
 Running several locations, or not sure your listing shows what you think it does? See [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/), or [send me the listing](https://christopherabraham.com/contact/) and I'll take a look.
 
+## Related reading
+
+More guides on local listings and Business Profile:
+- [Service-area businesses on Google Business Profile](https://christopherabraham.com/guides/service-area-business/)
+- [Apple Maps and Bing Places: local listings past Google](https://christopherabraham.com/guides/apple-and-bing-listings/)
+- [The FTC fake review rule for small businesses](https://christopherabraham.com/guides/ftc-review-rule/)
+- [Measure seasonal local SEO before the busy weeks arrive](https://christopherabraham.com/guides/seasonal-local-seo/)
+
+When you want it done for you:
+- [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/)
+- [Google Business Profile verification help](https://christopherabraham.com/services/gbp-verification/)
+- [Google Business Profile reinstatement and repair](https://christopherabraham.com/services/gbp-reinstatement/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

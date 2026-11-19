@@ -42,4 +42,20 @@ For the method behind it, see [measuring AI share of voice](https://christophera
 
 [Book a 30 minute call](https://calendly.com/chrisabraham/30)
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/)
+- [AI catnip for fall 2026: become the source worth citing](https://christopherabraham.com/guides/ai-catnip/)
+- [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/)
+- [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/)
+- [Reddit and AI answers: what a moderator wants brands to know](https://christopherabraham.com/guides/reddit-ai-answers/)
+- [When Google's AI does the booking, be bookable](https://christopherabraham.com/guides/ai-mode-bookings/)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 29, 2026

@@ -48,6 +48,19 @@ Once a month, search Reddit and Google for your brand with "reddit" added, then 
 
 My own community has nothing for sale and never has; I explain why on [off the clock](https://christopherabraham.com/about/off-the-clock/). That's exactly why I'm useful to a brand that wants to take part properly: I can review how Reddit and the AI answers built from it describe you, tell you which threads matter, and write a participation plan your team can follow without getting banned. [Send me your brand name and category](https://christopherabraham.com/contact/) and I'll tell you what I find.
 
+## Related reading
+
+More guides on aI search and structured data:
+- [When Google's AI does the booking, be bookable](https://christopherabraham.com/guides/ai-mode-bookings/)
+- [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/)
+- [AI catnip for fall 2026: become the source worth citing](https://christopherabraham.com/guides/ai-catnip/)
+- [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/)
+
+When you want it done for you:
+- [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/)
+- [Schema markup and entity SEO](https://christopherabraham.com/services/schema/)
+- [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

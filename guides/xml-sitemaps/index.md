@@ -90,6 +90,19 @@ Whenever a page is added, removed, or meaningfully changed. Generate it from the
 
 If your sitemap and Search Console disagree and you can't tell why, that's the kind of thing I sort out in a [crawling and indexing engagement](https://christopherabraham.com/services/indexing/). The bigger picture of crawl health is in my [site-wide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) work.
 
+## Related reading
+
+More guides on indexing and crawling:
+- [How to find near-duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
+- [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/)
+- [Spam link spikes and the disavow file: when to act at all](https://christopherabraham.com/guides/disavow-links/)
+- [Why Google will not index your site: a diagnosis guide](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
+
+When you want it done for you:
+- [Indexing audit](https://christopherabraham.com/services/indexing-audit/)
+- [Indexing repair](https://christopherabraham.com/services/indexing/)
+- [Internal linking strategy: stitch your website together](https://christopherabraham.com/services/internal-linking/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

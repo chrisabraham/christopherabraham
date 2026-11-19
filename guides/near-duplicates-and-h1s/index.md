@@ -62,6 +62,19 @@ After the changes ship, crawl again with the same settings and compare the two c
 
 This is part of the full crawl and repair work I describe on [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/). If heading and title patterns are the main issue, see [on-page SEO](https://christopherabraham.com/services/on-page-seo/). Unfamiliar terms are in the [glossary](https://christopherabraham.com/guides/glossary/).
 
+## Related reading
+
+More guides on indexing and crawling:
+- [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/)
+- [Spam link spikes and the disavow file: when to act at all](https://christopherabraham.com/guides/disavow-links/)
+- [Why Google will not index your site: a diagnosis guide](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
+- [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/)
+
+When you want it done for you:
+- [Indexing audit](https://christopherabraham.com/services/indexing-audit/)
+- [Indexing repair](https://christopherabraham.com/services/indexing/)
+- [Internal linking strategy: stitch your website together](https://christopherabraham.com/services/internal-linking/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

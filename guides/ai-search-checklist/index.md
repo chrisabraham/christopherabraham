@@ -62,6 +62,19 @@ If you only do three things this month, make them these: confirm crawlers can re
 
 For help running the checklist against your own site, see [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/). Terms used here are defined in the [glossary](https://christopherabraham.com/guides/glossary/).
 
+## Related reading
+
+More guides on aI search and structured data:
+- [AI catnip for fall 2026: become the source worth citing](https://christopherabraham.com/guides/ai-catnip/)
+- [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/)
+- [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/)
+- [Reddit and AI answers: what a moderator wants brands to know](https://christopherabraham.com/guides/reddit-ai-answers/)
+
+When you want it done for you:
+- [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/)
+- [Schema markup and entity SEO](https://christopherabraham.com/services/schema/)
+- [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

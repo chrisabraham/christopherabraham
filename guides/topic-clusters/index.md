@@ -46,6 +46,18 @@ I plan clusters from real buyer questions, find the pages already competing with
 
 Once the questions and their pages are mapped, the [internal linking guide](https://christopherabraham.com/guides/internal-linking/) takes that structure down to individual sentences and destinations, with a worksheet for recording each proposed connection.
 
+## Related reading
+
+More guides on content, titles, and earned links:
+- [How to publish useful original research without a big budget](https://christopherabraham.com/guides/small-original-research/)
+- [Digital PR for AI search: how to earn mentions the answer engines repeat](https://christopherabraham.com/guides/earned-mentions/)
+- [I turn down backlink work. Here's the one agency I recommend instead](https://christopherabraham.com/guides/buying-backlinks/)
+- [Meta keywords in 2026: ignored, mostly harmless, used honestly](https://christopherabraham.com/guides/meta-keywords/)
+
+When you want it done for you:
+- [On-page SEO](https://christopherabraham.com/services/on-page-seo/)
+- [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

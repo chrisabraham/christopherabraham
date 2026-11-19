@@ -1,0 +1,1150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What to do with out-of-stock and discontinued product pages</title>
+<meta name="description" content="When a product sells out or retires: keep the URL for a restock, redirect a true replacement, return a 404 when nothing fits, and keep availability accurate.">
+<meta name="keywords" content="out of stock product page SEO, discontinued products, product availability schema, soft 404 ecommerce">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://christopherabraham.com/guides/out-of-stock-products/">
+<meta name="author" content="Christopher Abraham">
+<link rel="icon" href="../../logo.png" type="image/png">
+<link rel="apple-touch-icon" href="../../logo.png">
+<link rel="manifest" href="../../manifest.webmanifest">
+<link rel="alternate" type="text/markdown" title="This page as Markdown" href="index.md">
+<link rel="alternate" type="application/rss+xml" title="SEO guides (RSS)" href="../../rss.xml">
+<link rel="alternate" type="application/atom+xml" title="SEO guides by Christopher Abraham" href="../../feed.xml">
+<link rel="alternate" type="text/plain" title="llms.txt" href="../../llms.txt">
+<link rel="sitemap" type="application/xml" href="../../sitemap.xml">
+<meta name="theme-color" content="#ffffff">
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'granted'});
+  gtag('consent', 'default', {analytics_storage: 'denied', region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"]});
+  // Global Privacy Control or Do Not Track turns analytics cookies off anywhere.
+  if (navigator.globalPrivacyControl === true || navigator.doNotTrack === '1') gtag('consent', 'default', {analytics_storage: 'denied'});
+  gtag('js', new Date());
+  gtag('config', 'G-F0GTJ4N9X6', {allow_google_signals: false, allow_ad_personalization_signals: false});
+  (function () {
+    // gtag.js loads on the first scroll, tap, or key, or 4 seconds after the page loads,
+    // so it never competes with the page itself. The commands above wait in dataLayer.
+    var done = false;
+    function load() {
+      if (done) return;
+      done = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-F0GTJ4N9X6';
+      document.head.appendChild(s);
+    }
+    ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (e) { addEventListener(e, load, {once: true, passive: true}); });
+    addEventListener('load', function () { setTimeout(load, 4000); });
+  })();
+</script>
+<script type="speculationrules">{"prefetch": [{"where": {"and": [{"href_matches": "/*"}, {"not": {"href_matches": ["/*.md", "/*.txt", "/*.xml"]}}]}, "eagerness": "moderate"}]}</script>
+<link rel="me" href="https://mastodon.social/@chrisa">
+<link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+<meta property="og:site_name" content="Christopher Abraham">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="What to do with out-of-stock and discontinued product pages">
+<meta property="og:description" content="When a product sells out or retires: keep the URL for a restock, redirect a true replacement, return a 404 when nothing fits, and keep availability accurate.">
+<meta property="og:url" content="https://christopherabraham.com/guides/out-of-stock-products/">
+<meta property="og:image" content="https://christopherabraham.com/cards/guides-out-of-stock-products.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Out-of-stock and discontinued product pages">
+<meta property="article:published_time" content="2026-11-19">
+<meta property="article:modified_time" content="2026-11-19">
+<meta property="article:author" content="https://christopherabraham.com/about/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What to do with out-of-stock and discontinued product pages">
+<meta name="twitter:description" content="When a product sells out or retires: keep the URL for a restock, redirect a true replacement, return a 404 when nothing fits, and keep availability accurate.">
+<meta name="twitter:image" content="https://christopherabraham.com/cards/guides-out-of-stock-products.png">
+<meta name="twitter:image:alt" content="Out-of-stock and discontinued product pages">
+<style>
+:root { --orange: #c75000; --blue: #16729e; --teal: #237482; --text: #000; --muted: #333; --link: #284a57; --tab: #8cacbb; --bar: #dee7ec; --rule: #c8d3d8; --bg: #fff; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { margin: 0; color: var(--text); background: var(--bg); font: 18px/1.65 Verdana, "Lucida Grande", Lucida, "DejaVu Sans", Helvetica, Arial, sans-serif; }
+.wrap { max-width: 46rem; margin: 0 auto; padding: 0 1rem; }
+a { color: var(--link); text-decoration: underline; text-underline-offset: .15em; overflow-wrap: anywhere; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid #000; outline-offset: 2px; }
+img { max-width: 100%; height: auto; }
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 1rem; top: .5rem; background: #fff; padding: .5rem; z-index: 1; }
+.top { display: flex; align-items: center; gap: .9rem; padding: 1.25rem 0 .9rem; }
+.top > a { flex: none; line-height: 0; }
+.top img { width: 64px; height: 64px; max-width: none; }
+.brand { font-size: 1.6rem; font-weight: bold; color: var(--orange); text-decoration: none; }
+.brand:hover { text-decoration: underline; }
+.tag { margin: 0; color: var(--muted); font-size: .95rem; line-height: 1.4; }
+nav.tabs { border-bottom: 4px solid var(--bar); }
+nav.tabs ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .3rem; }
+nav.tabs li { margin: 0; }
+nav.tabs a { display: block; padding: .4rem .7rem; border: 1px solid var(--tab); border-bottom: none; text-decoration: none; font-size: .9rem; white-space: nowrap; }
+nav.tabs a:hover { background: var(--bar); text-decoration: underline; }
+nav.tabs a[aria-current] { background: var(--bar); color: #000; font-weight: bold; }
+.crumbs { font-size: .9rem; margin: 1rem 0 0; color: var(--muted); }
+.crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; }
+.crumbs li { margin: 0; }
+.crumbs li + li::before { content: "›"; padding: 0 .4em; }
+blockquote { margin: 0 0 1rem; padding: .25rem 0 .25rem 1rem; border-left: 4px solid var(--tab); }
+blockquote p:last-child { color: var(--muted); font-size: .9rem; }
+main { padding: 1.25rem 0 2rem; }
+h1 { color: var(--blue); font-size: 1.4rem; line-height: 1.25; margin: .25rem 0 1rem; }
+h2 { color: var(--teal); font-size: 1.3rem; line-height: 1.3; margin: 2rem 0 .5rem; }
+h3 { font-size: 1.08rem; line-height: 1.35; margin: 1.5rem 0 .4rem; }
+p, ul, ol, dl, table { margin: 0 0 1rem; }
+li { margin-bottom: .4rem; }
+.lead { font-size: 1.1rem; }
+.byline { color: var(--muted); font-size: .9rem; margin-top: -.5rem; }
+.updated { color: var(--muted); font-size: .9rem; margin-top: 2rem; }
+code { font-family: Consolas, Menlo, monospace; font-size: .92em; background: #f2f5f7; padding: 0 .2em; }
+pre { background: #f2f5f7; padding: .75rem; overflow-x: auto; font-size: .9rem; line-height: 1.45; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+th, td { border: 1px solid var(--rule); padding: .4rem .55rem; text-align: left; vertical-align: top; }
+th { background: var(--bar); }
+dt { font-weight: bold; margin-top: 1rem; }
+dd { margin: .2rem 0 0 0; }
+.portrait { float: right; width: 160px; height: 160px; margin: .25rem 0 1rem 1.25rem; border: 1px solid var(--rule); }
+.button { display: inline-block; margin: 0 .5rem .6rem 0; padding: .6rem 1.1rem; border: 2px solid var(--link); background: var(--bar); color: #000; font-weight: bold; text-decoration: none; }
+.button:hover { text-decoration: underline; }
+.author-box { display: flex; gap: 1rem; align-items: flex-start; border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: 1rem; font-size: .95rem; }
+.author-box img { width: 72px; height: 72px; flex: none; border: 1px solid var(--rule); }
+.author-box p { margin: 0; }
+.help-box { border: 2px solid var(--rule); margin-top: 2rem; padding: .25rem 1rem 1rem; }
+.help-box h2 { margin-top: .75rem; }
+.related { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.guide-contents { border: 1px solid var(--rule); margin: 1.5rem 0; padding: .65rem .85rem; font-size: .95rem; }
+.guide-contents summary { color: var(--link); cursor: pointer; font-weight: bold; }
+.guide-contents ol { margin: .75rem 0 .25rem; padding-left: 1.5rem; }
+.guide-contents li { margin-bottom: .35rem; }
+h2[id] { scroll-margin-top: 1rem; }
+.contact li { margin-bottom: .6rem; }
+.index-letters { position: sticky; top: 0; z-index: 1; background: var(--bg); border-bottom: 1px solid var(--rule); margin: 0 0 1rem; }
+.index-letters p { margin: 0; padding: .35rem 0; font-size: 1.05rem; display: flex; flex-wrap: wrap; gap: .1rem .2rem; }
+.index-letters a, .index-letters span { display: inline-block; min-width: 1.9rem; min-height: 1.9rem; line-height: 1.9rem; text-align: center; }
+.index-letters .index-empty { color: #767676; }
+.index-top { font-size: .9rem; margin: -.4rem 0 1.25rem; }
+[id^="ix-"] { scroll-margin-top: 4.5rem; }
+ul.site-index { list-style: none; padding: 0; }
+ul.site-index > li { margin-bottom: .35rem; padding-left: 1.5rem; text-indent: -1.5rem; }
+ul.site-index ul { list-style: none; padding-left: 1.5rem; margin: .15rem 0 .3rem; }
+ul.site-index ul li { margin-bottom: .15rem; text-indent: -1rem; padding-left: 1rem; }
+.site-footer { border-top: 1px solid var(--rule); padding: 1rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
+.site-footer p { margin: 0 0 .4rem; text-wrap: balance; }
+.site-footer a { white-space: nowrap; }
+@media (max-width: 34rem) {
+  body { font-size: 17px; }
+  .top img { width: 52px; height: 52px; }
+  nav.tabs a { padding: .45rem .55rem; }
+  h1 { font-size: 1.25rem; }
+  .portrait { width: 112px; height: 112px; margin-left: 1rem; }
+}
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://christopherabraham.com/#website",
+   "url": "https://christopherabraham.com/",
+   "name": "Christopher Abraham",
+   "inLanguage": "en-US",
+   "publisher": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "publishingPrinciples": "https://christopherabraham.com/about/editorial-policy/"
+  },
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://christopherabraham.com/#service-business",
+   "name": "Christopher Abraham, SEO consultant",
+   "url": "https://christopherabraham.com/",
+   "logo": "https://christopherabraham.com/logo.png",
+   "image": "https://christopherabraham.com/social-card.png",
+   "description": "Independent SEO consulting by Christopher Abraham: technical SEO audits, indexing repair, JavaScript SEO, site speed, migrations, schema, AI search visibility, and local SEO.",
+   "founder": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "employee": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "slogan": "Senior SEO help, from the person who does the work",
+   "email": "cja@well.com",
+   "telephone": "+1-202-352-5051",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+   },
+   "location": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.86,
+    "longitude": -77.1
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Arlington, Virginia"
+    },
+    {
+     "@type": "City",
+     "name": "Alexandria, Virginia"
+    },
+    {
+     "@type": "City",
+     "name": "Washington, District of Columbia"
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Washington, DC metropolitan area"
+    },
+    {
+     "@type": "State",
+     "name": "Virginia",
+     "containedInPlace": {
+      "@type": "Country",
+      "name": "United States"
+     }
+    },
+    {
+     "@type": "Country",
+     "name": "United States",
+     "identifier": "US"
+    },
+    {
+     "@type": "Country",
+     "name": "Canada",
+     "identifier": "CA"
+    },
+    {
+     "@type": "Country",
+     "name": "United Kingdom",
+     "identifier": "GB"
+    },
+    {
+     "@type": "Country",
+     "name": "Ireland",
+     "identifier": "IE"
+    },
+    {
+     "@type": "Country",
+     "name": "Australia",
+     "identifier": "AU"
+    },
+    {
+     "@type": "Country",
+     "name": "New Zealand",
+     "identifier": "NZ"
+    },
+    "Worldwide"
+   ],
+   "knowsLanguage": "en",
+   "knowsAbout": [
+    "Search engine optimization",
+    "Technical SEO",
+    "SEO audits",
+    "Indexing",
+    "Google Search Console",
+    "Bing Webmaster Tools",
+    "JavaScript SEO",
+    "Core Web Vitals",
+    "Cloudflare",
+    "Schema markup",
+    "Structured data",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "AI search",
+    "llms.txt",
+    "OpenAI Codex",
+    "Claude Code",
+    "GitHub Copilot",
+    "Gemini",
+    "Grok",
+    "Perplexity",
+    "301 redirects",
+    "Website migrations",
+    "WordPress",
+    "Yoast SEO",
+    "Rank Math",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Local SEO",
+    "Google Business Profile",
+    "Internal linking",
+    "Metadata"
+   ],
+   "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "value": 1
+   },
+   "contactPoint": [
+    {
+     "@type": "ContactPoint",
+     "contactType": "sales",
+     "email": "cja@well.com",
+     "telephone": "+1-202-352-5051",
+     "areaServed": [
+      "US",
+      "CA",
+      "GB",
+      "IE",
+      "AU",
+      "NZ"
+     ],
+     "availableLanguage": "English"
+    }
+   ],
+   "sameAs": [
+    "https://www.upwork.com/freelancers/chrisjabraham",
+    "https://www.linkedin.com/in/chrisabraham",
+    "https://share.google/xZ98ksFq3nhO2OvuF"
+   ],
+   "publishingPrinciples": "https://christopherabraham.com/about/editorial-policy/",
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "SEO services by Christopher Abraham",
+    "itemListElement": [
+     {
+      "@type": "OfferCatalog",
+      "name": "Technical SEO",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/sitewide-technical-seo/#service",
+         "name": "Sitewide technical SEO: crawl, trace, fix, recrawl",
+         "url": "https://christopherabraham.com/services/sitewide-technical-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-audit/#service",
+         "name": "Technical SEO audit",
+         "url": "https://christopherabraham.com/services/seo-audit/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/indexing/#service",
+         "name": "Indexing repair",
+         "url": "https://christopherabraham.com/services/indexing/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/javascript-seo/#service",
+         "name": "JavaScript and headless SEO",
+         "url": "https://christopherabraham.com/services/javascript-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/site-speed/#service",
+         "name": "Core Web Vitals and Cloudflare",
+         "url": "https://christopherabraham.com/services/site-speed/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/search-console/#service",
+         "name": "Search Console, Bing Webmaster Tools, and GA4",
+         "url": "https://christopherabraham.com/services/search-console/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/migrations/#service",
+         "name": "Site migrations and 301 redirects",
+         "url": "https://christopherabraham.com/services/migrations/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/website-archive-recovery/#service",
+         "name": "Website archive recovery",
+         "url": "https://christopherabraham.com/services/website-archive-recovery/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/internal-linking/#service",
+         "name": "Internal linking strategy: stitch your website together",
+         "url": "https://christopherabraham.com/services/internal-linking/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-release-qa/#service",
+         "name": "SEO release QA: check the change before it reaches every page",
+         "url": "https://christopherabraham.com/services/seo-release-qa/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/inquiry-path-audit/#service",
+         "name": "Website inquiry audits: find where contacts go missing",
+         "url": "https://christopherabraham.com/services/inquiry-path-audit/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-report-review/#service",
+         "name": "SEO report review",
+         "url": "https://christopherabraham.com/services/seo-report-review/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/indexing-audit/#service",
+         "name": "Indexing audit",
+         "url": "https://christopherabraham.com/services/indexing-audit/"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "AI search, schema, and content",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ai-search/#service",
+         "name": "AEO and GEO consulting for companies and agencies",
+         "url": "https://christopherabraham.com/services/ai-search/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/schema/#service",
+         "name": "Schema markup and entity SEO",
+         "url": "https://christopherabraham.com/services/schema/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/on-page-seo/#service",
+         "name": "On-page SEO",
+         "url": "https://christopherabraham.com/services/on-page-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/fact-checked-articles/#service",
+         "name": "Fact-checked articles written with AI",
+         "url": "https://christopherabraham.com/services/fact-checked-articles/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ai-visibility/#service",
+         "name": "AI visibility: what the answer engines say about your business, and how to change it",
+         "url": "https://christopherabraham.com/services/ai-visibility/"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "Platforms, local, and ongoing work",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/wordpress-seo/#service",
+         "name": "WordPress SEO",
+         "url": "https://christopherabraham.com/services/wordpress-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/website-builder-seo/#service",
+         "name": "SEO for sites on Squarespace, Wix, Webflow, and HubSpot",
+         "url": "https://christopherabraham.com/services/website-builder-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/static-sites/#service",
+         "name": "Static websites built for search",
+         "url": "https://christopherabraham.com/services/static-sites/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/github-pages-website/#service",
+         "name": "I build your website on GitHub Pages: $1,500 flat",
+         "url": "https://christopherabraham.com/services/github-pages-website/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/podcast-website/#service",
+         "name": "Podcast website SEO",
+         "url": "https://christopherabraham.com/services/podcast-website/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/launch-site/#service",
+         "name": "Launch websites for a book, an album, or a new service",
+         "url": "https://christopherabraham.com/services/launch-site/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ecommerce-seo/#service",
+         "name": "Ecommerce SEO",
+         "url": "https://christopherabraham.com/services/ecommerce-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/ai-shopping-readiness/#service",
+         "name": "AI shopping readiness for small online shops",
+         "url": "https://christopherabraham.com/services/ai-shopping-readiness/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/local-seo/#service",
+         "name": "Local SEO and Google Business Profile",
+         "url": "https://christopherabraham.com/services/local-seo/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/gbp-verification/#service",
+         "name": "Google Business Profile verification help",
+         "url": "https://christopherabraham.com/services/gbp-verification/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/gbp-reinstatement/#service",
+         "name": "Google Business Profile reinstatement and repair",
+         "url": "https://christopherabraham.com/services/gbp-reinstatement/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/local-competitor-recon/#service",
+         "name": "Local competitor recon",
+         "url": "https://christopherabraham.com/services/local-competitor-recon/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/peak-season-readiness/#service",
+         "name": "Peak season readiness",
+         "url": "https://christopherabraham.com/services/peak-season-readiness/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-coaching/#service",
+         "name": "SEO coaching and consultations",
+         "url": "https://christopherabraham.com/services/seo-coaching/"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "@id": "https://christopherabraham.com/services/seo-retainer/#service",
+         "name": "Monthly SEO retainer",
+         "url": "https://christopherabraham.com/services/seo-retainer/"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://christopherabraham.com/#person",
+   "name": "Christopher Abraham",
+   "givenName": "Christopher",
+   "additionalName": "James",
+   "familyName": "Abraham",
+   "alternateName": [
+    "Christopher James Abraham",
+    "Chris Abraham"
+   ],
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://christopherabraham.com/christopher-abraham.jpg",
+    "width": 225,
+    "height": 225,
+    "caption": "Christopher Abraham, SEO consultant"
+   },
+   "url": "https://christopherabraham.com/",
+   "jobTitle": "SEO consultant",
+   "worksFor": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "description": "Christopher Abraham is an independent SEO consultant in Arlington, Virginia, building websites since 1994 and doing SEO since 1998.",
+   "alumniOf": [
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "The George Washington University",
+     "sameAs": "https://en.wikipedia.org/wiki/George_Washington_University"
+    },
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "University of East Anglia",
+     "sameAs": "https://en.wikipedia.org/wiki/University_of_East_Anglia"
+    },
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "University of Hawaiʻi at Mānoa"
+    },
+    {
+     "@type": "EducationalOrganization",
+     "name": "Goethe-Institut"
+    },
+    {
+     "@type": "HighSchool",
+     "name": "Saint Louis School, Honolulu"
+    },
+    {
+     "@type": "ElementarySchool",
+     "name": "Aliamanu Elementary School, Honolulu"
+    }
+   ],
+   "affiliation": [
+    {
+     "@type": "Organization",
+     "name": "Meritus Media",
+     "url": "https://meritusmedia.com/",
+     "description": "Digital PR and marketing agency"
+    },
+    {
+     "@type": "Organization",
+     "name": "Stainless Communications",
+     "url": "https://stainlesscommunications.com/",
+     "description": "Senior-led brand, PR, web, and growth firm"
+    }
+   ],
+   "memberOf": [
+    {
+     "@type": "Organization",
+     "name": "Naval Lodge No. 4, F.A.A.M.",
+     "description": "Masonic lodge on Capitol Hill, Washington, DC, chartered 1805"
+    },
+    {
+     "@type": "Organization",
+     "name": "Scottish Rite of Freemasonry, Southern Jurisdiction",
+     "description": "32nd degree"
+    },
+    {
+     "@type": "Organization",
+     "name": "Phi Kappa Psi, DC Alpha chapter",
+     "description": "Founding father"
+    },
+    {
+     "@type": "Organization",
+     "name": "The WELL",
+     "url": "https://www.well.com/"
+    }
+   ],
+   "award": [
+    "Top Rated on Upwork"
+   ],
+   "homeLocation": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "workLocation": {
+    "@id": "https://christopherabraham.com/#place"
+   },
+   "nationality": {
+    "@type": "Country",
+    "name": "United States"
+   },
+   "knowsLanguage": "en",
+   "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SEO consultant",
+    "occupationLocation": {
+     "@type": "Country",
+     "name": "United States"
+    },
+    "skills": "Technical SEO, indexing, Google Search Console, schema, Core Web Vitals, migrations, AI search, OpenAI Codex, Claude Code, GitHub Copilot"
+   },
+   "knowsAbout": [
+    "Search engine optimization",
+    "Technical SEO",
+    "SEO audits",
+    "Indexing",
+    "Google Search Console",
+    "Bing Webmaster Tools",
+    "JavaScript SEO",
+    "Core Web Vitals",
+    "Cloudflare",
+    "Schema markup",
+    "Structured data",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "AI search",
+    "llms.txt",
+    "OpenAI Codex",
+    "Claude Code",
+    "GitHub Copilot",
+    "Gemini",
+    "Grok",
+    "Perplexity",
+    "301 redirects",
+    "Website migrations",
+    "WordPress",
+    "Yoast SEO",
+    "Rank Math",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Local SEO",
+    "Google Business Profile",
+    "Internal linking",
+    "Metadata"
+   ],
+   "email": "cja@well.com",
+   "telephone": "+1-202-352-5051",
+   "sameAs": [
+    "https://www.upwork.com/freelancers/chrisjabraham",
+    "https://www.linkedin.com/in/chrisabraham",
+    "https://www.youtube.com/@ChrisAbrahamShow",
+    "https://chrisabraham.com/",
+    "https://biznology.com/author/chrisabraham/",
+    "https://www.huffpost.com/author/chris-abraham",
+    "https://muckrack.com/chrisabraham",
+    "https://rheingold.com/Associates/team_abraham.html",
+    "https://www.reddit.com/user/chrisabraham/",
+    "https://mastodon.social/@chrisa",
+    "https://adage.com/author/chris-abraham/1797"
+   ]
+  },
+  {
+   "@type": "Place",
+   "@id": "https://christopherabraham.com/#place",
+   "name": "Arlington, Virginia",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Arlington",
+    "addressRegion": "VA",
+    "postalCode": "22204",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.86,
+    "longitude": -77.1
+   },
+   "containedInPlace": {
+    "@type": "AdministrativeArea",
+    "name": "Arlington County, Virginia",
+    "containedInPlace": {
+     "@type": "State",
+     "name": "Virginia"
+    }
+   }
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://christopherabraham.com/guides/out-of-stock-products/#webpage",
+   "url": "https://christopherabraham.com/guides/out-of-stock-products/",
+   "name": "What to do with out-of-stock and discontinued product pages",
+   "description": "When a product sells out or retires: keep the URL for a restock, redirect a true replacement, return a 404 when nothing fits, and keep availability accurate.",
+   "isPartOf": {
+    "@id": "https://christopherabraham.com/#website"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "out of stock product page SEO"
+    },
+    {
+     "@type": "Thing",
+     "name": "discontinued products"
+    },
+    {
+     "@type": "Thing",
+     "name": "product availability schema"
+    },
+    {
+     "@type": "Thing",
+     "name": "soft 404 ecommerce"
+    }
+   ],
+   "primaryImageOfPage": "https://christopherabraham.com/cards/guides-out-of-stock-products.png",
+   "inLanguage": "en-US",
+   "dateModified": "2026-11-19",
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "keywords": "out of stock product page SEO, discontinued products, product availability schema, soft 404 ecommerce",
+   "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+     "h1",
+     ".lead"
+    ]
+   },
+   "potentialAction": {
+    "@type": "ReadAction",
+    "target": "https://christopherabraham.com/guides/out-of-stock-products/"
+   },
+   "breadcrumb": {
+    "@id": "https://christopherabraham.com/guides/out-of-stock-products/#breadcrumb"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://christopherabraham.com/guides/out-of-stock-products/#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://christopherabraham.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Guides",
+     "item": "https://christopherabraham.com/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Out-of-Stock Products",
+     "item": "https://christopherabraham.com/guides/out-of-stock-products/"
+    }
+   ]
+  },
+  {
+   "@type": "TechArticle",
+   "@id": "https://christopherabraham.com/guides/out-of-stock-products/#article",
+   "headline": "Out-of-stock and discontinued product pages",
+   "description": "When a product sells out or retires: keep the URL for a restock, redirect a true replacement, return a 404 when nothing fits, and keep availability accurate.",
+   "url": "https://christopherabraham.com/guides/out-of-stock-products/",
+   "mainEntityOfPage": {
+    "@id": "https://christopherabraham.com/guides/out-of-stock-products/#webpage"
+   },
+   "author": {
+    "@id": "https://christopherabraham.com/#person"
+   },
+   "publisher": {
+    "@id": "https://christopherabraham.com/#service-business"
+   },
+   "datePublished": "2026-11-19",
+   "dateModified": "2026-11-19",
+   "image": "https://christopherabraham.com/cards/guides-out-of-stock-products.png",
+   "inLanguage": "en-US",
+   "wordCount": 1331,
+   "citation": [
+    {
+     "@type": "CreativeWork",
+     "name": "Google Search Central: Merchant listing (Product, Offer) structured data",
+     "url": "https://developers.google.com/search/docs/appearance/structured-data/merchant-listing"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Google Search Central: How HTTP status codes and network errors affect Google Search",
+     "url": "https://developers.google.com/search/docs/crawling-indexing/http-network-errors"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Google Search Central: Redirects and Google Search",
+     "url": "https://developers.google.com/search/docs/crawling-indexing/301-redirects"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Search Console Help: Page indexing report",
+     "url": "https://support.google.com/webmasters/answer/7440203"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Google Merchant Center Help: Availability",
+     "url": "https://support.google.com/merchants/answer/6324448"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "Shopify Help Center: Selling out of stock products",
+     "url": "https://help.shopify.com/en/manual/products/inventory/getting-started-with-inventory/selling-when-out-of-stock"
+    },
+    {
+     "@type": "CreativeWork",
+     "name": "WooCommerce: Products settings",
+     "url": "https://woocommerce.com/document/configuring-woocommerce-settings/products/"
+    }
+   ],
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "E-commerce",
+     "sameAs": "https://en.wikipedia.org/wiki/E-commerce"
+    },
+    {
+     "@type": "Thing",
+     "name": "Product (business)",
+     "sameAs": "https://en.wikipedia.org/wiki/Product_(business)"
+    }
+   ],
+   "mentions": [
+    {
+     "@type": "Thing",
+     "name": "Google Search Console",
+     "sameAs": "https://en.wikipedia.org/wiki/Google_Search_Console"
+    },
+    {
+     "@type": "Thing",
+     "name": "Google Merchant Center",
+     "sameAs": "https://en.wikipedia.org/wiki/Google_Merchant_Center"
+    },
+    {
+     "@type": "Thing",
+     "name": "Shopify",
+     "sameAs": "https://en.wikipedia.org/wiki/Shopify"
+    },
+    {
+     "@type": "Thing",
+     "name": "WooCommerce",
+     "sameAs": "https://en.wikipedia.org/wiki/WooCommerce"
+    }
+   ],
+   "keywords": "out of stock product page SEO, discontinued products, product availability schema, soft 404 ecommerce"
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://christopherabraham.com/guides/out-of-stock-products/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Should I delete out-of-stock products from my store?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Only if they are never coming back. A product that will restock should keep its page and URL live, with the description, reviews, and an honest note about availability, so it keeps its search history for the day the stock returns."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is it bad to redirect discontinued products to the home page?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. A redirect helps only when the destination meets the same need. Send a discontinued product to a true replacement if one exists, keep it as a reference page if owners still need its specifications, and otherwise let it return a 404."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What availability value should a sold-out product use in structured data?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Use OutOfStock for a product that is temporarily unavailable, BackOrder or PreOrder when orders are still taken, and Discontinued when it's gone for good. Google's merchant listing documentation allows one value per offer, and the value should match the page and the Merchant Center feed."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+<header class="top">
+  <a href="../../"><img src="../../logo-128.png" width="64" height="64" alt="Christopher Abraham home" fetchpriority="high"></a>
+  <div>
+    <a class="brand" href="../../">Christopher Abraham</a>
+    <p class="tag">SEO consultant: technical SEO, indexing, schema, and AI search</p>
+  </div>
+</header>
+<nav class="tabs" aria-label="Main">
+  <ul>
+    <li><a href="../../">Home</a></li>
+    <li><a href="../../services/">Services</a></li>
+    <li><a href="../../guides/" aria-current="true">Guides</a></li>
+    <li><a href="../../case-studies/">Case Studies</a></li>
+    <li><a href="../../about/">About</a></li>
+    <li><a href="../../hire-me/">Hire Me</a></li>
+    <li><a href="../../contact/">Contact</a></li>
+  </ul>
+</nav>
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../../guides/">Guides</a></li><li aria-current="page">Out-of-Stock Products</li></ol></nav>
+<main id="main">
+<h1>Out-of-stock and discontinued product pages</h1>
+<p class="byline">By <a href="../../about/">Christopher Abraham</a> · Published <time datetime="2026-11-19">November 19, 2026</time></p>
+<p class="lead">Every store eventually has to decide what happens to a product page when the shelf is empty. Most stores never make the decision on purpose, so the platform makes it for them: the page vanishes from the category, the URL starts returning an error, or the product sits there for years with an "unavailable" badge and nothing else to say. Each of those defaults has a cost in search. The fix is a short written policy that sorts every empty product into one of four cases and treats each case the same way every time.</p>
+
+<details class="guide-contents">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#section-sold-out-for-now-or-gone-for-good">Sold out for now, or gone for good</a></li>
+    <li><a href="#section-case-one-the-product-is-coming-back">Case one: the product is coming back</a></li>
+    <li><a href="#section-case-two-there-s-a-true-replacement">Case two: there&#x27;s a true replacement</a></li>
+    <li><a href="#section-case-three-nothing-fits">Case three: nothing fits</a></li>
+    <li><a href="#section-case-four-variants-and-colorways">Case four: variants and colorways</a></li>
+    <li><a href="#section-tell-machines-the-same-thing-you-tell-shoppers">Tell machines the same thing you tell shoppers</a></li>
+    <li><a href="#section-write-the-policy-down">Write the policy down</a></li>
+    <li><a href="#section-questions-about-out-of-stock-pages">Questions about out-of-stock pages</a></li>
+  </ol>
+</details>
+
+<h2 id="section-sold-out-for-now-or-gone-for-good" tabindex="-1">Sold out for now, or gone for good</h2>
+<p>The first question is whether the product is coming back. A product that is sold out with a restock date, on backorder, or seasonal is temporarily unavailable, and its page should stay exactly where it is. The URL has collected links, reviews, and search history, and all of that is waiting for the stock to arrive. A product the manufacturer has stopped making, or one you have decided to stop carrying, is permanently unavailable, and it needs a different treatment.</p>
+<p>Store owners usually know the answer, but the store itself rarely records it. The inventory count says zero in both cases. I ask clients for one extra field per product, or a tag, that separates "restocking" from "retired," because every later decision depends on it and nobody can tell the two apart from the outside.</p>
+
+<h2 id="section-case-one-the-product-is-coming-back" tabindex="-1">Case one: the product is coming back</h2>
+<p>Keep the page live, keep it returning a 200 status, and keep it in the XML sitemap. Then make the page useful to the person who lands on it while the product is out:</p>
+<ul>
+  <li>Say plainly that it's out of stock, and give the expected date if you have one.</li>
+  <li>Offer a back-in-stock email signup, and link the two or three closest alternatives that are in stock now.</li>
+  <li>Leave the description, specifications, photos, and reviews in place. A page stripped down to a title and a "sold out" badge looks empty to Google, and Search Console can report it as a soft 404, the label Google uses for a page that answers 200 but reads like an error or a blank.</li>
+</ul>
+<p>Shopify and WooCommerce both have settings that change what happens at zero stock, and they are worth checking before the holidays. Shopify's "Continue selling when out of stock" keeps taking orders past zero, which suits preorders and products already on the truck. WooCommerce's "Out of stock visibility" box hides out-of-stock items from the store catalog. Hiding them pulls the product out of category pages and internal search, which also removes the internal links pointing at it, so I leave that box unticked for products that are coming back. Before changing either setting on a live store, load one affected product URL and look at what it actually returns.</p>
+
+<h2 id="section-case-two-there-s-a-true-replacement" tabindex="-1">Case two: there's a true replacement</h2>
+<p>When a product is retired and a successor does the same job, a 301 redirect from the old URL to the new product is the right call. Google treats a permanent redirect as a signal that the destination should be the canonical URL and shows the new page in results. The test is whether a shopper who searched for the old model would be satisfied to land on the new one. A newer version of the same item, the same product under a new SKU, or a renamed product all pass. A different brand at a similar price usually doesn't.</p>
+<p>Some retired products still get traffic from people who own them and need parts, manuals, or compatibility answers. Those pages earn their keep as reference pages: mark the product discontinued, keep the specifications and support material, and link the replacement prominently. Redirecting them throws away the reason people come.</p>
+
+<h2 id="section-case-three-nothing-fits" tabindex="-1">Case three: nothing fits</h2>
+<p>If the product is gone and there's no close successor, let the URL return a 404 or a 410. Google's documentation says it handles every 4xx status other than 429 the same way: the URL drops out of the index, and Google crawls it less over time. A 404 here is the honest answer, and Search Console's own help says a 404 isn't necessarily a problem when a page was removed with no replacement.</p>
+<p>The tempting shortcut is to redirect every dead product to the home page or to the top of a category. A redirect only helps when the destination answers the same need, and a shopper who clicked a specific product and arrived on the home page has learned nothing. I send a retired product to its category only when the category is a fair substitute, such as a single colorway of an item that is still sold in other colors. Otherwise the page gets a helpful 404 template with search and the main categories, and the URL comes out of the sitemap.</p>
+
+<h2 id="section-case-four-variants-and-colorways" tabindex="-1">Case four: variants and colorways</h2>
+<p>When one size or color sells out on a product that is otherwise available, the product page stays as it is. The work is in making the sold-out variant clear on the page and in the data: grey out the option, say it's out of stock, and keep the variant's own availability accurate in the structured data and the product feed. If variants have their own URLs, treat each variant URL by the same four cases.</p>
+
+<h2 id="section-tell-machines-the-same-thing-you-tell-shoppers" tabindex="-1">Tell machines the same thing you tell shoppers</h2>
+<p>The page, the structured data, and the Merchant Center feed should all agree about availability. On the page, Product markup carries an <code>offers.availability</code> value, and Google's merchant listing documentation accepts one value per offer, including InStock, OutOfStock, BackOrder, PreOrder, SoldOut, and Discontinued. In Merchant Center, the <code>availability</code> attribute takes in_stock, out_of_stock, preorder, or backorder, and preorder and backorder items also need an availability date that matches the shipping date shown on the page.</p>
+<p>Mismatches are the common failure. A theme that hardcodes InStock in its JSON-LD, or a feed that syncs once a day while the store sells out in an hour, tells Google one thing and shoppers another. My <a href="../../guides/small-business-schema/">small business schema guide</a> covers the Product markup itself, and the <a href="../../guides/merchant-center-free-listings/">Merchant Center free listings guide</a> covers the feed.</p>
+
+<h2 id="section-write-the-policy-down" tabindex="-1">Write the policy down</h2>
+<p>The policy fits on one page: the restocking and retired tag, the rule for each of the four cases, who decides which replacement is close enough, and a monthly check. For the check, I export every product with zero stock, compare it against the URLs that return 404 or redirect, and look in Search Console's Page indexing report for soft 404s on product templates. The <a href="../../guides/page-indexing-report/">Page indexing report guide</a> explains how to trace those counts back to the template, and the <a href="../../guides/redirect-rules/">301 redirect rules</a> cover how to build and test the redirect map in bulk.</p>
+<p>After the holidays is the natural time to run it, when the season's best sellers have sold through and the January catalog cleanup starts. A store that writes the policy in November makes those January decisions in an afternoon.</p>
+
+<section class="faq">
+<h2 id="section-questions-about-out-of-stock-pages" tabindex="-1">Questions about out-of-stock pages</h2>
+<h3>Should I delete out-of-stock products from my store?</h3>
+<p>Only if they are never coming back. A product that will restock should keep its page and URL live, with the description, reviews, and an honest note about availability, so it keeps its search history for the day the stock returns.</p>
+<h3>Is it bad to redirect discontinued products to the home page?</h3>
+<p>Yes. A redirect helps only when the destination meets the same need. Send a discontinued product to a true replacement if one exists, keep it as a reference page if owners still need its specifications, and otherwise let it return a 404.</p>
+<h3>What availability value should a sold-out product use in structured data?</h3>
+<p>Use OutOfStock for a product that is temporarily unavailable, BackOrder or PreOrder when orders are still taken, and Discontinued when it's gone for good. Google's merchant listing documentation allows one value per offer, and the value should match the page and the Merchant Center feed.</p>
+</section>
+<aside class="related" aria-label="Related reading">
+  <h2>Related reading</h2>
+  <p>More guides on online stores and the selling season:</p>
+  <ul>
+    <li><a href="../../guides/black-friday-pages/">Black Friday sale pages that keep their rankings</a></li>
+    <li><a href="../../guides/merchant-center-free-listings/">Google Merchant Center free listings for small shops</a></li>
+    <li><a href="../../guides/agentic-checkout/">Selling inside AI assistants: the real state of play</a></li>
+  </ul>
+  <p>When you want it done for you:</p>
+  <ul>
+    <li><a href="../../services/ecommerce-seo/">Ecommerce SEO</a></li>
+    <li><a href="../../services/peak-season-readiness/">Peak season readiness</a></li>
+    <li><a href="../../services/ai-shopping-readiness/">AI shopping readiness for small online shops</a></li>
+  </ul>
+</aside>
+<aside class="help-box" aria-label="Get help">
+  <h2>Let me help you with this</h2>
+  <p>If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.</p>
+  <p><a class="button" href="https://calendly.com/chrisabraham/30">Book a 30 minute call</a> <a class="button" href="tel:+12023525051">Call +1 202-352-5051</a> <a class="button" href="mailto:cja@well.com">Email cja@well.com</a></p>
+  <p>Prefer to hire through Upwork? I'm <a href="https://www.upwork.com/freelancers/chrisjabraham">Top Rated there too</a>.</p>
+</aside>
+<h2>Sources</h2>
+<ul class="sources">
+  <li><a href="https://developers.google.com/search/docs/appearance/structured-data/merchant-listing">Google Search Central: Merchant listing (Product, Offer) structured data</a></li>
+  <li><a href="https://developers.google.com/search/docs/crawling-indexing/http-network-errors">Google Search Central: How HTTP status codes and network errors affect Google Search</a></li>
+  <li><a href="https://developers.google.com/search/docs/crawling-indexing/301-redirects">Google Search Central: Redirects and Google Search</a></li>
+  <li><a href="https://support.google.com/webmasters/answer/7440203">Search Console Help: Page indexing report</a></li>
+  <li><a href="https://support.google.com/merchants/answer/6324448">Google Merchant Center Help: Availability</a></li>
+  <li><a href="https://help.shopify.com/en/manual/products/inventory/getting-started-with-inventory/selling-when-out-of-stock">Shopify Help Center: Selling out of stock products</a></li>
+  <li><a href="https://woocommerce.com/document/configuring-woocommerce-settings/products/">WooCommerce: Products settings</a></li>
+</ul>
+<aside class="author-box" aria-label="About the author">
+  <img src="../../christopher-abraham.jpg" width="72" height="72" alt="">
+  <p><strong><a href="../../about/">Christopher Abraham</a></strong> is an independent SEO consultant in Arlington, Virginia, Top Rated on Upwork with 100% Job Success, who writes from his own client work and checks every claim against primary sources. He has built websites since 1994 and practiced SEO since 1998. <a href="../../about/editorial-policy/">How these pages are written</a> · <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a> · <a href="https://www.upwork.com/freelancers/chrisjabraham">Upwork</a></p>
+</aside>
+</main>
+<footer class="site-footer">
+  <p><a href="mailto:cja@well.com">cja@well.com</a>&nbsp;· <a href="tel:+12023525051">+1 202-352-5051</a>&nbsp;· <a href="https://calendly.com/chrisabraham/30">Book a call</a>&nbsp;· <a href="https://www.upwork.com/freelancers/chrisjabraham">Hire me on Upwork</a>&nbsp;· <a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a>&nbsp;· <a href="https://www.youtube.com/@ChrisAbrahamShow">YouTube</a></p>
+  <p>© 2026 Christopher Abraham, Arlington,&nbsp;Virginia&nbsp;· <a href="../../faq/">FAQ</a>&nbsp;· <a href="../../about/editorial-policy/">How I write</a>&nbsp;· <a href="../../privacy/">Privacy</a>&nbsp;· <a href="../../sitemap/">Site map</a>&nbsp;· <a href="../../site-index/">Index</a>&nbsp;· <a href="../../guides/glossary/">Glossary</a>&nbsp;· <a href="../../about/colophon/">Colophon</a>&nbsp;· <a href="../../llms.txt">llms.txt</a>&nbsp;· <a href="../../rss.xml">RSS</a></p>
+  <p>Unless a page says otherwise, everything I wrote or made here is free to reuse under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Credit me and link&nbsp;back.</p>
+</footer>
+</div>
+</body>
+</html>

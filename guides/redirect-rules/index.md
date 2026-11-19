@@ -63,6 +63,17 @@ Migrations are a common moment to review backlinks. Disavow only genuinely manip
 
 For a full move, see [site migrations and 301 redirects](https://christopherabraham.com/services/migrations/), or [a clinic's redirect decisions URL by URL](https://christopherabraham.com/case-studies/clinic-migration/).
 
+## Related reading
+
+More guides on migrations, redirects, and speed:
+- [Moving a website? Check its images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/)
+- [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/)
+
+When you want it done for you:
+- [Site migrations and 301 redirects](https://christopherabraham.com/services/migrations/)
+- [Website archive recovery](https://christopherabraham.com/services/website-archive-recovery/)
+- [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

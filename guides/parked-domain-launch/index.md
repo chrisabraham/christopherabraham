@@ -68,6 +68,19 @@ Load the home page, one deep page, and a missing page to see the custom 404. Con
 
 For a full migration from an existing site rather than a parked domain, see [site migrations and 301 redirects](https://christopherabraham.com/services/migrations/).
 
+## Related reading
+
+More guides on platforms, domains, and new sites:
+- [How to lock down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/)
+- [What happens to your old domains when they lapse](https://christopherabraham.com/guides/lapsed-domains/)
+- [WordPress SEO 101: the settings and habits that matter most](https://christopherabraham.com/guides/wordpress-seo-101/)
+- [Cloudflare for WordPress: setup, plans, and what to budget](https://christopherabraham.com/guides/cloudflare-wordpress/)
+
+When you want it done for you:
+- [Launch websites for a book, an album, or a new service](https://christopherabraham.com/services/launch-site/)
+- [Static websites built for search](https://christopherabraham.com/services/static-sites/)
+- [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

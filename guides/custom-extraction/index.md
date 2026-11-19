@@ -59,6 +59,19 @@ Check a few rows by hand before you trust a recipe. View the source of one page,
 
 Custom extraction is how I make a full crawl answer the specific questions in a [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) engagement. For the licence question itself, read [whether a Screaming Frog licence is worth it](https://christopherabraham.com/guides/screaming-frog-licence/), and for two problems these recipes surface constantly, see [finding near duplicates and multiple H1s](https://christopherabraham.com/guides/near-duplicates-and-h1s/).
 
+## Related reading
+
+More guides on audits, crawlers, and working with an SEO:
+- [Why your SEO should work in your Git repository, with AI at their side](https://christopherabraham.com/guides/seo-in-your-repository/)
+- [How to choose the next SEO fix when developer time is scarce](https://christopherabraham.com/guides/prioritize-seo-work/)
+- [What a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/)
+- [How to hire an SEO on Upwork: the questions that reveal real skill](https://christopherabraham.com/guides/hiring-an-seo/)
+
+When you want it done for you:
+- [Technical SEO audit](https://christopherabraham.com/services/seo-audit/)
+- [SEO report review](https://christopherabraham.com/services/seo-report-review/)
+- [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

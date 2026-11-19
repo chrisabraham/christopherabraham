@@ -1,6 +1,6 @@
 > Ecommerce SEO for Shopify, WooCommerce, and Magento: product and category templates, faceted navigation, duplicate URLs, product schema, and AI answers.
 >
-> Source: https://christopherabraham.com/services/ecommerce-seo/ · Updated 2026-10-06 · By Christopher Abraham
+> Source: https://christopherabraham.com/services/ecommerce-seo/ · Updated 2026-11-19 · By Christopher Abraham
 
 # Ecommerce SEO
 
@@ -11,7 +11,7 @@ Online stores have the hardest SEO problems at the largest scale: thousands of p
 - Specifications, FAQs, and reviews present in the server HTML, not hidden behind tabs or scroll triggers that crawlers never trigger.
 - Product schema with price, availability, brand, GTIN or MPN, and real review data, emitted once, without a duplicate block from the theme.
 - Variant handling that avoids a separate indexable URL for every color and size unless each one earns search traffic.
-- A clear policy for out-of-stock and discontinued products: keep, redirect, or retire.
+- A clear policy for [out-of-stock and discontinued products](https://christopherabraham.com/guides/out-of-stock-products/): keep, redirect, or retire.
 
 ## Category pages
 
@@ -49,4 +49,18 @@ I prioritize by revenue, not page count: the categories and products that earn t
 
 Two stores I've worked on: [a Magento retailer whose product content never rendered for Googlebot](https://christopherabraham.com/case-studies/scroll-gated-products/) and [a specialty shop cleaning up after a move to Shopify](https://christopherabraham.com/case-studies/shopify-cleanup/).
 
-Updated October 6, 2026
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [Out-of-stock and discontinued product pages](https://christopherabraham.com/guides/out-of-stock-products/)
+- [Black Friday sale pages that keep their rankings](https://christopherabraham.com/guides/black-friday-pages/)
+- [Google Merchant Center free listings for small shops](https://christopherabraham.com/guides/merchant-center-free-listings/)
+- [Selling inside AI assistants: the real state of play](https://christopherabraham.com/guides/agentic-checkout/)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
+Updated November 19, 2026

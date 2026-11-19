@@ -50,6 +50,19 @@ The booking completes on the partner's system, so any fee is whatever your reser
 
 If you want me to run the customer test for your business and compare you with the competitors who keep winning it, [book a 30 minute call](https://calendly.com/chrisabraham/30) or reach me on [Upwork](https://www.upwork.com/freelancers/chrisjabraham).
 
+## Related reading
+
+More guides on aI search and structured data:
+- [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/)
+- [AI catnip for fall 2026: become the source worth citing](https://christopherabraham.com/guides/ai-catnip/)
+- [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/)
+- [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/)
+
+When you want it done for you:
+- [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/)
+- [Schema markup and entity SEO](https://christopherabraham.com/services/schema/)
+- [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

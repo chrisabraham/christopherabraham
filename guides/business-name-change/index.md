@@ -53,6 +53,19 @@ A rename lands better when regulars hear it from you before they notice it on a 
 
 Renaming soon? I can plan the sequence and handle the listings and the website side. See [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/) or [tell me about the change](https://christopherabraham.com/contact/).
 
+## Related reading
+
+More guides on local listings and Business Profile:
+- [Holiday hours on Google: set them before you need them](https://christopherabraham.com/guides/holiday-hours/)
+- [Service-area businesses on Google Business Profile](https://christopherabraham.com/guides/service-area-business/)
+- [Apple Maps and Bing Places: local listings past Google](https://christopherabraham.com/guides/apple-and-bing-listings/)
+- [The FTC fake review rule for small businesses](https://christopherabraham.com/guides/ftc-review-rule/)
+
+When you want it done for you:
+- [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/)
+- [Google Business Profile verification help](https://christopherabraham.com/services/gbp-verification/)
+- [Google Business Profile reinstatement and repair](https://christopherabraham.com/services/gbp-reinstatement/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

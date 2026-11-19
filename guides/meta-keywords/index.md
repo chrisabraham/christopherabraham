@@ -70,6 +70,18 @@ Everything the keywords tag once promised now comes from elsewhere: the title ta
 
 For the elements that do carry weight, see [on-page SEO](https://christopherabraham.com/services/on-page-seo/). Terms are defined in the [glossary](https://christopherabraham.com/guides/glossary/).
 
+## Related reading
+
+More guides on content, titles, and earned links:
+- [Social share cards: Open Graph tags and images that fit](https://christopherabraham.com/guides/social-share-cards/)
+- [When to keep your brand name in your page titles, and when to let it go](https://christopherabraham.com/guides/brand-name-in-titles/)
+- [Will Google penalize AI-written content? What Google actually says](https://christopherabraham.com/guides/ai-content-seo/)
+- [Topic clusters for AI search, without your pages competing with each other](https://christopherabraham.com/guides/topic-clusters/)
+
+When you want it done for you:
+- [On-page SEO](https://christopherabraham.com/services/on-page-seo/)
+- [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

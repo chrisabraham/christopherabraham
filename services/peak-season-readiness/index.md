@@ -33,6 +33,14 @@ The selling calendar for each location, including opening and closing dates; acc
 
 The measurement side is laid out in [measuring seasonal local SEO](https://christopherabraham.com/guides/seasonal-local-seo/), store hours in the [holiday hours checklist](https://christopherabraham.com/guides/holiday-hours/), and recurring sale pages in [Black Friday pages that keep their rankings](https://christopherabraham.com/guides/black-friday-pages/). For year-round local work, see [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [Out-of-stock and discontinued product pages](https://christopherabraham.com/guides/out-of-stock-products/)
+- [Black Friday sale pages that keep their rankings](https://christopherabraham.com/guides/black-friday-pages/)
+- [Google Merchant Center free listings for small shops](https://christopherabraham.com/guides/merchant-center-free-listings/)
+- [Selling inside AI assistants: the real state of play](https://christopherabraham.com/guides/agentic-checkout/)
+
 ## Talk it over
 
 Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.

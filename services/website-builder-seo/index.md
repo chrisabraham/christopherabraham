@@ -31,6 +31,16 @@ A contributor or administrator login on the builder with permission to edit page
 
 A fixed fee for an agreed scope, quoted after I've looked at the site. [Book 30 minutes on my calendar](https://calendly.com/chrisabraham/30) with your site address, or hire me through [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [SEO for websites built with AI app builders: what to check before you launch](https://christopherabraham.com/guides/ai-built-websites/)
+- [Why Google will not index your site: a diagnosis guide](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
+- [When to keep your brand name in your page titles, and when to let it go](https://christopherabraham.com/guides/brand-name-in-titles/)
+- [Social share cards: Open Graph tags and images that fit](https://christopherabraham.com/guides/social-share-cards/)
+- [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/)
+- [WordPress SEO 101: the settings and habits that matter most](https://christopherabraham.com/guides/wordpress-seo-101/)
+
 ## Talk it over
 
 Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.

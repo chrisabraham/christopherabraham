@@ -47,6 +47,19 @@ Most AI builders can sync a project to GitHub. Do it on day one, in an account y
 
 Rendering problems are my specialty; I once found 2,000 event pages Google had never discovered in a React app, and the [case study](https://christopherabraham.com/case-studies/event-app-links/) shows how. If you built your site with an AI tool and it isn't showing up in search, [send me the URL](https://christopherabraham.com/contact/). I'll tell you what the crawlers see, and if there's a problem, I'll write the fix in a form you can paste straight back into the builder. More on that work is on my [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/) page.
 
+## Related reading
+
+More guides on platforms, domains, and new sites:
+- [Own Your Website Outright and Never Pay Platform Rent](https://christopherabraham.com/guides/github-pages-website/)
+- [Launch a site on a parked domain with Cloudflare and GitHub Pages](https://christopherabraham.com/guides/parked-domain-launch/)
+- [How to lock down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/)
+- [What happens to your old domains when they lapse](https://christopherabraham.com/guides/lapsed-domains/)
+
+When you want it done for you:
+- [SEO for sites on Squarespace, Wix, Webflow, and HubSpot](https://christopherabraham.com/services/website-builder-seo/)
+- [JavaScript and headless SEO](https://christopherabraham.com/services/javascript-seo/)
+- [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

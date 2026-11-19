@@ -46,4 +46,20 @@ Bing's index feeds Copilot and several other AI assistants, and Bing Webmaster T
 
 Indexing problems on React, Next.js, and other script-heavy sites are covered under [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/). For a walkthrough of the report itself, read [how to read the Page indexing report](https://christopherabraham.com/guides/page-indexing-report/). A real example: [indexing a 20,000-page programmatic site](https://christopherabraham.com/case-studies/card-price-index/).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [Why Google will not index your site: a diagnosis guide](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
+- [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/)
+- [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/)
+- [How to find near-duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
+- [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/)
+- [Spam link spikes and the disavow file: when to act at all](https://christopherabraham.com/guides/disavow-links/)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

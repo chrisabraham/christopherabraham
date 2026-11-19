@@ -60,6 +60,18 @@ Keep the same question set and run it once a month. Track which errors disappear
 
 For businesses, the full approach is under [AI SEO, GEO, and AEO](https://christopherabraham.com/services/ai-search/). For people, the companion guides are [one person, two names](https://christopherabraham.com/guides/two-names-one-entity/) and [writing an About page AI trusts](https://christopherabraham.com/guides/about-page-ai/).
 
+## Related reading
+
+More guides on your name, your entity, and AI answers:
+- [One person, two names: entity SEO for pen names and nicknames](https://christopherabraham.com/guides/two-names-one-entity/)
+- [Proving expertise with third-party sources](https://christopherabraham.com/guides/third-party-proof/)
+- [How to write an About page that search engines and AI trust](https://christopherabraham.com/guides/about-page-ai/)
+- [Nobody Mentions You: The AI Search Problem Owners Miss](https://christopherabraham.com/guides/nobody-mentions-you/)
+
+When you want it done for you:
+- [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/)
+- [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

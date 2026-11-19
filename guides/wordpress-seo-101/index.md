@@ -76,6 +76,19 @@ Keep WordPress, your theme, and your plugins updated; hacked sites get spam page
 
 Inherited a WordPress site and not sure what's been done to it? [Send me the address](https://christopherabraham.com/contact/) and I'll tell you what I'd fix first, or see how I handle [WordPress SEO for clients](https://christopherabraham.com/services/wordpress-seo/).
 
+## Related reading
+
+More guides on platforms, domains, and new sites:
+- [Cloudflare for WordPress: setup, plans, and what to budget](https://christopherabraham.com/guides/cloudflare-wordpress/)
+- [SEO for websites built with AI app builders: what to check before you launch](https://christopherabraham.com/guides/ai-built-websites/)
+- [Own Your Website Outright and Never Pay Platform Rent](https://christopherabraham.com/guides/github-pages-website/)
+- [Launch a site on a parked domain with Cloudflare and GitHub Pages](https://christopherabraham.com/guides/parked-domain-launch/)
+
+When you want it done for you:
+- [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
+- [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/)
+- [SEO for sites on Squarespace, Wix, Webflow, and HubSpot](https://christopherabraham.com/services/website-builder-seo/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

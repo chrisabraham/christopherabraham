@@ -28,6 +28,15 @@ Run every pitch through three questions before money moves. First: show me a cli
 
 Buy the record. Publish under real names, with real experience, on a site that answers customer questions in the words your best people use across the counter. Google's quality guidelines give that record a name, [E-E-A-T](https://christopherabraham.com/guides/glossary/#e-e-a-t): experience, expertise, authoritativeness, and trustworthiness, earned in public and assessed in the open. Keep the information current: Google's AI reads today's pages today, while the standalone chatbots answer from a memory months old, so a business that updates its facts competes where freshness counts. When an AI answer gets your business wrong, correct the record at the source; my guide to [correcting AI answers](https://christopherabraham.com/guides/correct-ai-answers/) walks through that work. Refuse the three tiers, fund the record, and let your competitors rent the shortcuts. One more refusal belongs on the list, and it is the easiest to keep: refuse to panic. Every update produces a week of frightened buying, and the frightened buy the tiers. The record compounds quietly through all of it.
 
+## Related reading
+
+More guides on reference:
+- [Where to get reliable SEO and AI search news in 2026](https://christopherabraham.com/guides/seo-news-sources/)
+
+When you want it done for you:
+- [SEO coaching and consultations](https://christopherabraham.com/services/seo-coaching/)
+- [SEO report review](https://christopherabraham.com/services/seo-report-review/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

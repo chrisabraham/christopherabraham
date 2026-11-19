@@ -44,4 +44,19 @@ A short report naming each failing template, the resource responsible, and the e
 
 WordPress with WP Rocket, LiteSpeed Cache, or W3 Total Cache; WooCommerce; Shopify themes; Magento; static sites; and Next.js. For WordPress specifics, see [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/)
+- [How to load Google Analytics 4 without hurting PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/)
+- [Cloudflare for WordPress: setup, plans, and what to budget](https://christopherabraham.com/guides/cloudflare-wordpress/)
+- [Moving a website? Check its images and PDFs before closing the old host](https://christopherabraham.com/guides/media-migration/)
+- [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

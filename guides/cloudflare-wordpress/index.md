@@ -49,6 +49,19 @@ If a site runs on a hosted builder such as Shopify, Squarespace, or Wix, the bui
 
 For the rest of the WordPress basics, see [WordPress SEO 101](https://christopherabraham.com/guides/wordpress-seo-101/), and for what the speed scores mean, my [Core Web Vitals guide](https://christopherabraham.com/guides/core-web-vitals/). Want Cloudflare set up on your site without the guesswork? [Tell me about it](https://christopherabraham.com/contact/).
 
+## Related reading
+
+More guides on platforms, domains, and new sites:
+- [SEO for websites built with AI app builders: what to check before you launch](https://christopherabraham.com/guides/ai-built-websites/)
+- [Own Your Website Outright and Never Pay Platform Rent](https://christopherabraham.com/guides/github-pages-website/)
+- [Launch a site on a parked domain with Cloudflare and GitHub Pages](https://christopherabraham.com/guides/parked-domain-launch/)
+- [How to lock down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/)
+
+When you want it done for you:
+- [WordPress SEO](https://christopherabraham.com/services/wordpress-seo/)
+- [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/)
+- [SEO for sites on Squarespace, Wix, Webflow, and HubSpot](https://christopherabraham.com/services/website-builder-seo/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

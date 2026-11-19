@@ -87,6 +87,19 @@ Open the file in a browser and read it as a stranger would. Then paste its URL i
 
 This site publishes all of these: [llms.txt](https://christopherabraham.com/llms.txt), [llms-full.txt](https://christopherabraham.com/llms-full.txt), and a Markdown copy of every page. For the wider picture, see the [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/).
 
+## Related reading
+
+More guides on aI search and structured data:
+- [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/)
+- [Reddit and AI answers: what a moderator wants brands to know](https://christopherabraham.com/guides/reddit-ai-answers/)
+- [When Google's AI does the booking, be bookable](https://christopherabraham.com/guides/ai-mode-bookings/)
+- [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/)
+
+When you want it done for you:
+- [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/)
+- [Schema markup and entity SEO](https://christopherabraham.com/services/schema/)
+- [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

@@ -50,4 +50,20 @@ I'm comfortable inside a fifteen-year-old WordPress site with a custom theme nob
 
 An example of what goes wrong when the SEO plugin is switched off: [recovering a WooCommerce store's indexing](https://christopherabraham.com/case-studies/plugin-outage/).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [WordPress SEO 101: the settings and habits that matter most](https://christopherabraham.com/guides/wordpress-seo-101/)
+- [Cloudflare for WordPress: setup, plans, and what to budget](https://christopherabraham.com/guides/cloudflare-wordpress/)
+- [How to load Google Analytics 4 without hurting PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/)
+- [Core Web Vitals in plain English](https://christopherabraham.com/guides/core-web-vitals/)
+- [Ten rules for 301 redirects that keep your rankings](https://christopherabraham.com/guides/redirect-rules/)
+- [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

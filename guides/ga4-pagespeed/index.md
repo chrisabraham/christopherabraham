@@ -62,6 +62,19 @@ Deferring analytics is the right first move only when analytics is the problem. 
 
 I find what is actually slowing a site, measure the fix before it ships, and explain the trade-offs to the people who own the analytics. If your PageSpeed scores are stuck and nobody can say why, [send me the URL](https://christopherabraham.com/contact/).
 
+## Related reading
+
+More guides on measurement and proof:
+- [Hit by a 2026 Google update? A recovery checklist that works](https://christopherabraham.com/guides/update-recovery-2026/)
+- [Search Console comparisons that support better decisions](https://christopherabraham.com/guides/search-console-comparisons/)
+- [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/)
+- [Your website form says success. Did anyone get the inquiry?](https://christopherabraham.com/guides/test-website-inquiries/)
+
+When you want it done for you:
+- [Core Web Vitals and Cloudflare](https://christopherabraham.com/services/site-speed/)
+- [Search Console, Bing Webmaster Tools, and GA4](https://christopherabraham.com/services/search-console/)
+- [Website inquiry audits: find where contacts go missing](https://christopherabraham.com/services/inquiry-path-audit/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

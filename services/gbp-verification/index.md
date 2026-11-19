@@ -35,6 +35,16 @@ Manager or owner access if anyone has it, the business registration and a recent
 
 A written diagnostic first, quoted as a fixed fee. The remedy is then scoped and quoted the same way before work begins, so the price of the whole case is known up front. Suspensions and broader local work sit under [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/). Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/)
+- [Google Business Profile video verification: plan the take before you press record](https://christopherabraham.com/guides/gbp-video-verification/)
+- [How to change a business name without losing your Google reviews](https://christopherabraham.com/guides/business-name-change/)
+- [Holiday hours on Google: set them before you need them](https://christopherabraham.com/guides/holiday-hours/)
+- [Service-area businesses on Google Business Profile](https://christopherabraham.com/guides/service-area-business/)
+- [Apple Maps and Bing Places: local listings past Google](https://christopherabraham.com/guides/apple-and-bing-listings/)
+
 ## Talk it over
 
 Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.

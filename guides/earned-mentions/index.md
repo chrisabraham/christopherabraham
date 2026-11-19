@@ -40,6 +40,18 @@ Keep a simple log: outlet, date, the sentence that describes you, and whether it
 
 I've taught influencer marketing as a guest lecturer at Georgetown, run outreach teams, and spent years on both sides of the pitch: as the person asking for coverage and as an editor deciding what to run. If you want an outreach plan that earns accurate mentions without buying anything you'd have to hide, [tell me who you are and who you want to reach](https://christopherabraham.com/contact/). More about my background is on the [About page](https://christopherabraham.com/about/).
 
+## Related reading
+
+More guides on content, titles, and earned links:
+- [I turn down backlink work. Here's the one agency I recommend instead](https://christopherabraham.com/guides/buying-backlinks/)
+- [Meta keywords in 2026: ignored, mostly harmless, used honestly](https://christopherabraham.com/guides/meta-keywords/)
+- [Social share cards: Open Graph tags and images that fit](https://christopherabraham.com/guides/social-share-cards/)
+- [When to keep your brand name in your page titles, and when to let it go](https://christopherabraham.com/guides/brand-name-in-titles/)
+
+When you want it done for you:
+- [On-page SEO](https://christopherabraham.com/services/on-page-seo/)
+- [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

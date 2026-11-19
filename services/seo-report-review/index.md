@@ -36,6 +36,16 @@ The review stands on its own. You get the findings whether you keep your agency,
 
 A fixed-scope review, quoted as one fixed fee from the size of the report and the site. Payment terms are settled in conversation before the review starts. Terms are on [Hire Me](https://christopherabraham.com/hire-me/).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [What a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/)
+- [How to hire an SEO on Upwork: the questions that reveal real skill](https://christopherabraham.com/guides/hiring-an-seo/)
+- [Give your SEO access without handing over your passwords](https://christopherabraham.com/guides/give-seo-access/)
+- [Is a Screaming Frog licence worth $279 a year? Mine was](https://christopherabraham.com/guides/screaming-frog-licence/)
+- [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/)
+- [Why your SEO should work in your Git repository, with AI at their side](https://christopherabraham.com/guides/seo-in-your-repository/)
+
 ## Talk it over
 
 Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.

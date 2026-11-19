@@ -63,4 +63,20 @@ The case work is prompt; Google's decision is not. Google answers on its own tim
 
 Service-area businesses (no address shown, areas served instead) have their own rules, and a wrong address setup is a common cause of suspension. Rebuilding the service-area setup is part of Tier 2 and Tier 3 work where it is part of the problem.
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [Google Business Profile video verification: plan the take before you press record](https://christopherabraham.com/guides/gbp-video-verification/)
+- [How to change a business name without losing your Google reviews](https://christopherabraham.com/guides/business-name-change/)
+- [Service-area businesses on Google Business Profile](https://christopherabraham.com/guides/service-area-business/)
+- [The FTC fake review rule for small businesses](https://christopherabraham.com/guides/ftc-review-rule/)
+- [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/)
+- [Holiday hours on Google: set them before you need them](https://christopherabraham.com/guides/holiday-hours/)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated November 5, 2026

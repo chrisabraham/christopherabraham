@@ -60,6 +60,19 @@ Select one strong article. Improve its opening answer, add one verifiable exampl
 
 That is my version of AI catnip: material someone can confidently build on, delivered through a site that works. For a broader technical review, use the [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/). New Guides also appear in the [full-text RSS feed](https://christopherabraham.com/rss.xml), which can be imported into a feed reader or publishing system.
 
+## Related reading
+
+More guides on aI search and structured data:
+- [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/)
+- [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/)
+- [Reddit and AI answers: what a moderator wants brands to know](https://christopherabraham.com/guides/reddit-ai-answers/)
+- [When Google's AI does the booking, be bookable](https://christopherabraham.com/guides/ai-mode-bookings/)
+
+When you want it done for you:
+- [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/)
+- [Schema markup and entity SEO](https://christopherabraham.com/services/schema/)
+- [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

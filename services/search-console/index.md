@@ -41,4 +41,19 @@ A surprising number of businesses can't log into their own Search Console. The p
 
 Ongoing monitoring is part of every [retainer](https://christopherabraham.com/services/seo-retainer/). For the indexing report in detail, see the [Page indexing guide](https://christopherabraham.com/guides/page-indexing-report/).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [Search Console comparisons that support better decisions](https://christopherabraham.com/guides/search-console-comparisons/)
+- [How to prove an SEO fix actually worked](https://christopherabraham.com/guides/prove-seo-fixes/)
+- [Your website form says success. Did anyone get the inquiry?](https://christopherabraham.com/guides/test-website-inquiries/)
+- [How to load Google Analytics 4 without hurting PageSpeed](https://christopherabraham.com/guides/ga4-pagespeed/)
+- [Hit by a 2026 Google update? A recovery checklist that works](https://christopherabraham.com/guides/update-recovery-2026/)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

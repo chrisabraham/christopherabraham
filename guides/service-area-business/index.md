@@ -68,6 +68,19 @@ If you work from home, list the areas you serve and your phone number instead. Y
 
 If your profile is stuck, mismatched, or unverified, that's work I take on through [local SEO consulting](https://christopherabraham.com/services/local-seo/) and, for profiles nobody can edit, [Business Profile verification help](https://christopherabraham.com/services/gbp-verification/).
 
+## Related reading
+
+More guides on local listings and Business Profile:
+- [Apple Maps and Bing Places: local listings past Google](https://christopherabraham.com/guides/apple-and-bing-listings/)
+- [The FTC fake review rule for small businesses](https://christopherabraham.com/guides/ftc-review-rule/)
+- [Measure seasonal local SEO before the busy weeks arrive](https://christopherabraham.com/guides/seasonal-local-seo/)
+- [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/)
+
+When you want it done for you:
+- [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/)
+- [Google Business Profile verification help](https://christopherabraham.com/services/gbp-verification/)
+- [Google Business Profile reinstatement and repair](https://christopherabraham.com/services/gbp-reinstatement/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

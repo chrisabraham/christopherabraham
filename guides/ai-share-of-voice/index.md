@@ -51,6 +51,18 @@ Bing Webmaster Tools now reports citations of your pages in Copilot answers, and
 
 I build and run these question sets for companies and agencies, and I use the results to decide what to fix first. If you want a baseline for your brand, [tell me who you compete with and who your buyers are](https://christopherabraham.com/contact/). When the answers about you are wrong, my guide to [correcting AI answers](https://christopherabraham.com/guides/correct-ai-answers/) walks through tracing each error to its source.
 
+## Related reading
+
+More guides on your name, your entity, and AI answers:
+- [How to correct what AI search says about you](https://christopherabraham.com/guides/correct-ai-answers/)
+- [One person, two names: entity SEO for pen names and nicknames](https://christopherabraham.com/guides/two-names-one-entity/)
+- [Proving expertise with third-party sources](https://christopherabraham.com/guides/third-party-proof/)
+- [How to write an About page that search engines and AI trust](https://christopherabraham.com/guides/about-page-ai/)
+
+When you want it done for you:
+- [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/)
+- [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

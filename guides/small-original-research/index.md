@@ -67,6 +67,18 @@ Pick one recurring technical question and a small public sample. Reserve one ses
 
 The result may be a short, useful reference rather than a headline announcement. That is enough. A reader who can repeat your test has something more valuable than an unsupported prediction. For the credibility surrounding the author, see [how to document expertise with independent sources](https://christopherabraham.com/guides/third-party-proof/).
 
+## Related reading
+
+More guides on content, titles, and earned links:
+- [Digital PR for AI search: how to earn mentions the answer engines repeat](https://christopherabraham.com/guides/earned-mentions/)
+- [I turn down backlink work. Here's the one agency I recommend instead](https://christopherabraham.com/guides/buying-backlinks/)
+- [Meta keywords in 2026: ignored, mostly harmless, used honestly](https://christopherabraham.com/guides/meta-keywords/)
+- [Social share cards: Open Graph tags and images that fit](https://christopherabraham.com/guides/social-share-cards/)
+
+When you want it done for you:
+- [On-page SEO](https://christopherabraham.com/services/on-page-seo/)
+- [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

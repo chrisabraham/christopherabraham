@@ -58,6 +58,19 @@ After the links are live, watch the destination pages over time and keep other c
 
 I offer [internal linking strategy and implementation](https://christopherabraham.com/services/internal-linking/) as a focused engagement. A good first brief is the site address, the pages that matter most to the business, and the parts of the archive that visitors rarely find.
 
+## Related reading
+
+More guides on indexing and crawling:
+- [Spam link spikes and the disavow file: when to act at all](https://christopherabraham.com/guides/disavow-links/)
+- [Why Google will not index your site: a diagnosis guide](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
+- [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/)
+- [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/)
+
+When you want it done for you:
+- [Indexing audit](https://christopherabraham.com/services/indexing-audit/)
+- [Indexing repair](https://christopherabraham.com/services/indexing/)
+- [Internal linking strategy: stitch your website together](https://christopherabraham.com/services/internal-linking/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

@@ -45,4 +45,20 @@ Yes. A review can cover a particular service, a group of related guides, an ecom
 
 My [practical internal linking guide](https://christopherabraham.com/guides/internal-linking/) includes a planning worksheet. For help with your own pages, [send me the site and the destinations you want people to find](https://christopherabraham.com/contact/). This can also sit inside [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/) or an [ongoing SEO retainer](https://christopherabraham.com/services/seo-retainer/).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [Why Google will not index your site: a diagnosis guide](https://christopherabraham.com/guides/why-google-wont-index-your-site/)
+- [How to read the Page indexing report in Search Console](https://christopherabraham.com/guides/page-indexing-report/)
+- [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/)
+- [How to find near-duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
+- [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/)
+- [Spam link spikes and the disavow file: when to act at all](https://christopherabraham.com/guides/disavow-links/)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 15, 2026

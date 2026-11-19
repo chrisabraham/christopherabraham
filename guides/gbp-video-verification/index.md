@@ -55,6 +55,19 @@ Google's help page warns that changing the business name, address, or category w
 
 I take on profiles that keep failing verification, along with suspensions, duplicates, and listings stranded with a former agency. I start by reconciling the profile against the real business and its paperwork, then script the video with the owner so the single take shows everything Google asks for. Google makes the decision, and no one can promise its outcome, but a prepared take removes the avoidable reasons to fail. See [local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/), the [reinstated profile case](https://christopherabraham.com/case-studies/profile-reinstated/), or [send me the listing](https://christopherabraham.com/contact/).
 
+## Related reading
+
+More guides on local listings and Business Profile:
+- [How to change a business name without losing your Google reviews](https://christopherabraham.com/guides/business-name-change/)
+- [Holiday hours on Google: set them before you need them](https://christopherabraham.com/guides/holiday-hours/)
+- [Service-area businesses on Google Business Profile](https://christopherabraham.com/guides/service-area-business/)
+- [Apple Maps and Bing Places: local listings past Google](https://christopherabraham.com/guides/apple-and-bing-listings/)
+
+When you want it done for you:
+- [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/)
+- [Google Business Profile verification help](https://christopherabraham.com/services/gbp-verification/)
+- [Google Business Profile reinstatement and repair](https://christopherabraham.com/services/gbp-reinstatement/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

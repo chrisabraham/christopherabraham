@@ -53,6 +53,18 @@ Platforms cache what they fetch. Meta notes that changing the image for a URL do
 
 Share cards don't move rankings directly. They decide whether a shared link gets clicked, and clicks bring the visits, links, and mentions that do matter. I check them in every audit and build them into every site I make; see [static websites built for search](https://christopherabraham.com/services/static-sites/) and [podcast website SEO](https://christopherabraham.com/services/podcast-website/).
 
+## Related reading
+
+More guides on content, titles, and earned links:
+- [When to keep your brand name in your page titles, and when to let it go](https://christopherabraham.com/guides/brand-name-in-titles/)
+- [Will Google penalize AI-written content? What Google actually says](https://christopherabraham.com/guides/ai-content-seo/)
+- [Topic clusters for AI search, without your pages competing with each other](https://christopherabraham.com/guides/topic-clusters/)
+- [How to publish useful original research without a big budget](https://christopherabraham.com/guides/small-original-research/)
+
+When you want it done for you:
+- [On-page SEO](https://christopherabraham.com/services/on-page-seo/)
+- [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

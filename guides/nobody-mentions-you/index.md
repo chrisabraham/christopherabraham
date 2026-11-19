@@ -30,6 +30,18 @@ Three questions separate a mention strategy from a mention purchase. First: show
 
 Start the record now. Give one publication a story worth printing, give one partner a reason to name you, answer one customer question so well that strangers cite it, and measure the answers again next quarter. The engines are already reading the room. Make sure the room is talking about you.
 
+## Related reading
+
+More guides on your name, your entity, and AI answers:
+- [Who Wrote Your Reputation and What AI Search Believes](https://christopherabraham.com/guides/who-wrote-your-reputation/)
+- [How to measure your share of voice in AI answers](https://christopherabraham.com/guides/ai-share-of-voice/)
+- [How to correct what AI search says about you](https://christopherabraham.com/guides/correct-ai-answers/)
+- [One person, two names: entity SEO for pen names and nicknames](https://christopherabraham.com/guides/two-names-one-entity/)
+
+When you want it done for you:
+- [AI visibility: what the answer engines say about your business, and how to change it](https://christopherabraham.com/services/ai-visibility/)
+- [AEO and GEO consulting for companies and agencies](https://christopherabraham.com/services/ai-search/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

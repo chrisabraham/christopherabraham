@@ -52,6 +52,18 @@ Keep every change reversible. Export the current titles or keep them in version 
 
 A cleaner title gives a searcher a clearer reason to pick your result and gives Google less boilerplate to rewrite. It cannot repair thin pages, broken redirects, or a missing image library. Treat it as one tidy, measurable improvement. If traffic has fallen, keep looking for the larger cause; my guide to [recovering from a 2026 Google update](https://christopherabraham.com/guides/update-recovery-2026/) walks through finding it, and the [ten rules for 301 redirects](https://christopherabraham.com/guides/redirect-rules/) cover the migration mistakes that cost the most.
 
+## Related reading
+
+More guides on content, titles, and earned links:
+- [Will Google penalize AI-written content? What Google actually says](https://christopherabraham.com/guides/ai-content-seo/)
+- [Topic clusters for AI search, without your pages competing with each other](https://christopherabraham.com/guides/topic-clusters/)
+- [How to publish useful original research without a big budget](https://christopherabraham.com/guides/small-original-research/)
+- [Digital PR for AI search: how to earn mentions the answer engines repeat](https://christopherabraham.com/guides/earned-mentions/)
+
+When you want it done for you:
+- [On-page SEO](https://christopherabraham.com/services/on-page-seo/)
+- [Fact-checked articles written with AI](https://christopherabraham.com/services/fact-checked-articles/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

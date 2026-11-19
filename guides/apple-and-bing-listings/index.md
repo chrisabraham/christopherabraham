@@ -64,6 +64,19 @@ Both platforms have a dispute or ownership-request process. Start it from the li
 
 Listing cleanup across Google, Apple, and Bing is part of my [local SEO work](https://christopherabraham.com/services/local-seo/), and the [AI search checklist](https://christopherabraham.com/guides/ai-search-checklist/) shows where these listings fit in a broader visibility plan.
 
+## Related reading
+
+More guides on local listings and Business Profile:
+- [The FTC fake review rule for small businesses](https://christopherabraham.com/guides/ftc-review-rule/)
+- [Measure seasonal local SEO before the busy weeks arrive](https://christopherabraham.com/guides/seasonal-local-seo/)
+- [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/)
+- [Google Business Profile video verification: plan the take before you press record](https://christopherabraham.com/guides/gbp-video-verification/)
+
+When you want it done for you:
+- [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/)
+- [Google Business Profile verification help](https://christopherabraham.com/services/gbp-verification/)
+- [Google Business Profile reinstatement and repair](https://christopherabraham.com/services/gbp-reinstatement/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

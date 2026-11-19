@@ -188,6 +188,15 @@ Get-ChildItem *.mp4 | ForEach-Object { ffmpeg -n -i $_.Name -vn -ac 1 -ar 16000 
 
 The small file goes anywhere: a paid service, an API, or a copy of Whisper running on your own machine with nothing uploaded. If you publish audio or video, a reviewed transcript is also plain text that search engines and AI assistants can read and quote, which is why I treat it as part of the page and not an afterthought. For how episode text spreads across the web once it is published, read [the show notes cascade](https://christopherabraham.com/guides/show-notes-cascade/).
 
+## Related reading
+
+More guides on podcasts and video:
+- [The show notes cascade: podcasting as an AI search strategy](https://christopherabraham.com/guides/show-notes-cascade/)
+
+When you want it done for you:
+- [Podcast website SEO](https://christopherabraham.com/services/podcast-website/)
+- [Static websites built for search](https://christopherabraham.com/services/static-sites/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

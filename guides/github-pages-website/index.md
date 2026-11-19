@@ -81,6 +81,19 @@ Not by itself. The standard pattern is a static site for the business and a host
 
 The owner should, provided the domain sits in the owner's Cloudflare account and the repository sits in the owner's GitHub account. Grant the consultant access to those accounts rather than letting the site live in the consultant's accounts. Ownership of the two accounts is ownership of the site.
 
+## Related reading
+
+More guides on platforms, domains, and new sites:
+- [Launch a site on a parked domain with Cloudflare and GitHub Pages](https://christopherabraham.com/guides/parked-domain-launch/)
+- [How to lock down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/)
+- [What happens to your old domains when they lapse](https://christopherabraham.com/guides/lapsed-domains/)
+- [WordPress SEO 101: the settings and habits that matter most](https://christopherabraham.com/guides/wordpress-seo-101/)
+
+When you want it done for you:
+- [I build your website on GitHub Pages: $1,500 flat](https://christopherabraham.com/services/github-pages-website/)
+- [Static websites built for search](https://christopherabraham.com/services/static-sites/)
+- [Launch websites for a book, an album, or a new service](https://christopherabraham.com/services/launch-site/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

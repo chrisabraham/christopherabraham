@@ -59,6 +59,19 @@ Bing Webmaster Tools has its own URL Inspection and index coverage reports. When
 
 If the cause isn't obvious after a few inspections, or if important pages keep falling out, a structured diagnosis saves time. See [indexing repair](https://christopherabraham.com/services/indexing/), or a real example where [a consent tool caused the exclusions](https://christopherabraham.com/case-studies/consent-banner/).
 
+## Related reading
+
+More guides on indexing and crawling:
+- [XML sitemaps that tell the truth](https://christopherabraham.com/guides/xml-sitemaps/)
+- [How to find near-duplicate pages and multiple H1s across a whole site](https://christopherabraham.com/guides/near-duplicates-and-h1s/)
+- [Internal linking: stitching your pages into a useful website](https://christopherabraham.com/guides/internal-linking/)
+- [Spam link spikes and the disavow file: when to act at all](https://christopherabraham.com/guides/disavow-links/)
+
+When you want it done for you:
+- [Indexing audit](https://christopherabraham.com/services/indexing-audit/)
+- [Indexing repair](https://christopherabraham.com/services/indexing/)
+- [Internal linking strategy: stitch your website together](https://christopherabraham.com/services/internal-linking/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

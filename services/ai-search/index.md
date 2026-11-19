@@ -55,4 +55,20 @@ My own baseline from October 2026: named in every answer that asked about me by 
 
 Technical access problems can be fixed in days. Changes in how assistants describe you follow their crawl and retrieval cycles, which take weeks to months. Start with my [AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/), or see [a company that wanted accurate AI answers for job seekers](https://christopherabraham.com/case-studies/recruiting-answers/). For the parts of the work you can do yourself, read how to [correct what AI says about you](https://christopherabraham.com/guides/correct-ai-answers/), how to [earn the mentions answers repeat](https://christopherabraham.com/guides/earned-mentions/), and what [llms.txt](https://christopherabraham.com/guides/llms-txt/) does and doesn't do.
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [The AI search readiness checklist](https://christopherabraham.com/guides/ai-search-checklist/)
+- [AI catnip for fall 2026: become the source worth citing](https://christopherabraham.com/guides/ai-catnip/)
+- [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/)
+- [The schema markup a small business actually needs](https://christopherabraham.com/guides/small-business-schema/)
+- [Reddit and AI answers: what a moderator wants brands to know](https://christopherabraham.com/guides/reddit-ai-answers/)
+- [When Google's AI does the booking, be bookable](https://christopherabraham.com/guides/ai-mode-bookings/)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 14, 2026

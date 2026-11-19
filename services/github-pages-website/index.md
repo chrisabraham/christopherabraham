@@ -28,7 +28,7 @@ The limits are real and I state them up front. Design and layout emulation is wi
 
 ## The manual is free; the $1,500 is the labor
 
-I published the whole method as a free, step-by-step guide: ../../guides/github-pages-website/ Read it and you can build one of these yourself; clients have. The $1,500 pays for the work done for you: the design decisions, the writing and structure, the DNS, the deployment, and a launched site at the end instead of a project on your list.
+I published the whole method as a free, [step-by-step guide](https://christopherabraham.com/guides/github-pages-website/). Read it and you can build one of these yourself; clients have. The $1,500 pays for the work done for you: the design decisions, the writing and structure, the DNS, the deployment, and a launched site at the end instead of a project on your list.
 
 ## What the $1,500 includes
 - **Design** modeled on the example you bring, built around your business.
@@ -77,5 +77,21 @@ In most cases, yes. The content carries over, the design follows your example, a
 Book 30 minutes and bring the site you want to emulate: https://calendly.com/chrisabraham/30
 
 Or email me at cabraham@gmail.com with the example site in the message. I will tell you straight whether this build fits what you need before you spend anything.
+
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [Own Your Website Outright and Never Pay Platform Rent](https://christopherabraham.com/guides/github-pages-website/)
+- [Launch a site on a parked domain with Cloudflare and GitHub Pages](https://christopherabraham.com/guides/parked-domain-launch/)
+- [How to lock down a domain that never sends email](https://christopherabraham.com/guides/non-sending-domain/)
+- [Social share cards: Open Graph tags and images that fit](https://christopherabraham.com/guides/social-share-cards/)
+- [How to write an llms.txt file](https://christopherabraham.com/guides/llms-txt/)
+- [The Lynx test: see your website the way crawlers and AI read it](https://christopherabraham.com/guides/lynx-test/)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
 
 Updated November 5, 2026

@@ -41,4 +41,20 @@ See [a therapy practice's suspended profile reinstated](https://christopherabrah
 
 For businesses with a short selling season, I establish comparable reporting windows and a consistent map sampling setup before demand rises. I distinguish profile actions from qualified inquiries and help schedule website changes around peak trading. The [seasonal local measurement guide](https://christopherabraham.com/guides/seasonal-local-seo/) explains the baseline and the questions it can answer.
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/)
+- [Google Business Profile video verification: plan the take before you press record](https://christopherabraham.com/guides/gbp-video-verification/)
+- [How to change a business name without losing your Google reviews](https://christopherabraham.com/guides/business-name-change/)
+- [Holiday hours on Google: set them before you need them](https://christopherabraham.com/guides/holiday-hours/)
+- [Service-area businesses on Google Business Profile](https://christopherabraham.com/guides/service-area-business/)
+- [Apple Maps and Bing Places: local listings past Google](https://christopherabraham.com/guides/apple-and-bing-listings/)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 24, 2026

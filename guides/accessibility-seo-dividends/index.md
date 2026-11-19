@@ -50,6 +50,16 @@ The Justice Department considers business websites covered by the ADA, and nearl
 
 Run Lighthouse or PageSpeed Insights and watch the Accessibility, SEO, and Agentic Browsing scores together; they tend to rise as a group. Then look at the page in a text browser, as described in [the Lynx test](https://christopherabraham.com/guides/lynx-test/), to see what screen readers and crawlers both receive. No badge, no overlay, no announcement needed. Just a better site.
 
+## Related reading
+
+More guides on accessibility and text-only reading:
+- [The Lynx test: see your website the way crawlers and AI read it](https://christopherabraham.com/guides/lynx-test/)
+- [Website accessibility without overlays](https://christopherabraham.com/guides/accessible-websites/)
+
+When you want it done for you:
+- [Sitewide technical SEO: crawl, trace, fix, recrawl](https://christopherabraham.com/services/sitewide-technical-seo/)
+- [On-page SEO](https://christopherabraham.com/services/on-page-seo/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

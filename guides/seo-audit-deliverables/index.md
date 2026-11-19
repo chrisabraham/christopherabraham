@@ -71,6 +71,19 @@ The audit's value shows up when fixes ship. Ask whether the auditor will verify 
 
 My own approach is described under [technical SEO audit](https://christopherabraham.com/services/seo-audit/). A worked example: [the scroll-gated product pages case](https://christopherabraham.com/case-studies/scroll-gated-products/).
 
+## Related reading
+
+More guides on audits, crawlers, and working with an SEO:
+- [How to hire an SEO on Upwork: the questions that reveal real skill](https://christopherabraham.com/guides/hiring-an-seo/)
+- [Give your SEO access without handing over your passwords](https://christopherabraham.com/guides/give-seo-access/)
+- [Is a Screaming Frog licence worth $279 a year? Mine was](https://christopherabraham.com/guides/screaming-frog-licence/)
+- [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/)
+
+When you want it done for you:
+- [Technical SEO audit](https://christopherabraham.com/services/seo-audit/)
+- [SEO report review](https://christopherabraham.com/services/seo-report-review/)
+- [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

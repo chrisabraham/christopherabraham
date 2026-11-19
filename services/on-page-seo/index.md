@@ -48,4 +48,20 @@ On WordPress, much of this runs through Yoast or Rank Math; see [WordPress SEO](
 
 For a project centered on the connections between pages, see [internal linking strategy](https://christopherabraham.com/services/internal-linking/). The [link planning guide and worksheet](https://christopherabraham.com/guides/internal-linking/) show how I choose placements, anchor wording, and destinations.
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [When to keep your brand name in your page titles, and when to let it go](https://christopherabraham.com/guides/brand-name-in-titles/)
+- [Will Google penalize AI-written content? What Google actually says](https://christopherabraham.com/guides/ai-content-seo/)
+- [Topic clusters for AI search, without your pages competing with each other](https://christopherabraham.com/guides/topic-clusters/)
+- [How to publish useful original research without a big budget](https://christopherabraham.com/guides/small-original-research/)
+- [Digital PR for AI search: how to earn mentions the answer engines repeat](https://christopherabraham.com/guides/earned-mentions/)
+- [I turn down backlink work. Here's the one agency I recommend instead](https://christopherabraham.com/guides/buying-backlinks/)
+
+## Talk it over
+
+Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.
+
+[Book a 30 minute call](https://calendly.com/chrisabraham/30) [Hire me on Upwork](https://www.upwork.com/freelancers/chrisjabraham)
+
 Updated October 6, 2026

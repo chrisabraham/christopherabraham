@@ -46,6 +46,19 @@ Fixed price suits a well-defined deliverable, such as an audit, a migration plan
 
 I'm a technical SEO consultant on Upwork, and I like postings that ask hard questions, because they're the ones where I can show my thinking. If your problem sounds like indexing, rendering, migrations, local listings, or AI search visibility, [tell me what happened](https://christopherabraham.com/contact/), or see how I work on [hiring me](https://christopherabraham.com/hire-me/).
 
+## Related reading
+
+More guides on audits, crawlers, and working with an SEO:
+- [Give your SEO access without handing over your passwords](https://christopherabraham.com/guides/give-seo-access/)
+- [Is a Screaming Frog licence worth $279 a year? Mine was](https://christopherabraham.com/guides/screaming-frog-licence/)
+- [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/)
+- [Why your SEO should work in your Git repository, with AI at their side](https://christopherabraham.com/guides/seo-in-your-repository/)
+
+When you want it done for you:
+- [Technical SEO audit](https://christopherabraham.com/services/seo-audit/)
+- [SEO report review](https://christopherabraham.com/services/seo-report-review/)
+- [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

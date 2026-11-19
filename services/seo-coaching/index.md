@@ -42,6 +42,12 @@ If the site is losing traffic fast, or a migration goes live next week, a sessio
 
 Sessions are quoted as a fixed fee per session or per series, agreed before the first call. [Book 30 minutes on my calendar](https://calendly.com/chrisabraham/30) to set the question, or hire me for a session through [my Upwork profile](https://www.upwork.com/freelancers/chrisjabraham).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [SEO and AI search advice your business should refuse now](https://christopherabraham.com/guides/seo-advice-to-refuse/)
+- [Where to get reliable SEO and AI search news in 2026](https://christopherabraham.com/guides/seo-news-sources/)
+
 ## Talk it over
 
 Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.

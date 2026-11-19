@@ -48,6 +48,15 @@ None of this counts until you check what the machines actually say. Monthly, run
 
 I run this play on my own show before I recommend it to anyone, and I build the same machinery for clients: notes written for citation, a mirror site with transcripts and permanent episode pages, and a monthly set of position queries that proves whether the answers are moving. If you want the baseline first, my AI visibility audit runs your money queries through the major answer engines and reports what they say about you today. [Book a thirty minute call on my calendar](https://calendly.com/chrisabraham/30) to talk about your show or your site, or [write to me through the contact page](https://christopherabraham.com/contact/) if you would rather start in writing.
 
+## Related reading
+
+More guides on podcasts and video:
+- [How to shrink a huge video to the smallest audio file that still transcribes](https://christopherabraham.com/guides/shrink-video-for-transcription/)
+
+When you want it done for you:
+- [Podcast website SEO](https://christopherabraham.com/services/podcast-website/)
+- [Static websites built for search](https://christopherabraham.com/services/static-sites/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

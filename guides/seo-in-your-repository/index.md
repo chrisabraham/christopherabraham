@@ -57,6 +57,19 @@ For the broader hiring checklist, see [how to hire an SEO on Upwork](https://chr
 
 I've built websites since 1994 and practiced SEO since 1998, and today I work the way modern sites are built: in the repository, through pull requests, with AI coding assistants doing the heavy reading under my direction. If your site lives in GitHub and your SEO lives in a spreadsheet, [send me the site](https://christopherabraham.com/contact/) or see my [sitewide technical SEO](https://christopherabraham.com/services/sitewide-technical-seo/), [JavaScript SEO](https://christopherabraham.com/services/javascript-seo/), and [technical audit](https://christopherabraham.com/services/seo-audit/) services. I'll tell you what the code is doing to your search visibility and how to fix it.
 
+## Related reading
+
+More guides on audits, crawlers, and working with an SEO:
+- [How to choose the next SEO fix when developer time is scarce](https://christopherabraham.com/guides/prioritize-seo-work/)
+- [What a technical SEO audit should give you](https://christopherabraham.com/guides/seo-audit-deliverables/)
+- [How to hire an SEO on Upwork: the questions that reveal real skill](https://christopherabraham.com/guides/hiring-an-seo/)
+- [Give your SEO access without handing over your passwords](https://christopherabraham.com/guides/give-seo-access/)
+
+When you want it done for you:
+- [Technical SEO audit](https://christopherabraham.com/services/seo-audit/)
+- [SEO report review](https://christopherabraham.com/services/seo-report-review/)
+- [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

@@ -40,6 +40,14 @@ It shares the foundation. My [ecommerce SEO](https://christopherabraham.com/serv
 
 To get started, [book a 30 minute call](https://calendly.com/chrisabraham/30) and send me your store address, or hire me through [Upwork](https://www.upwork.com/freelancers/chrisjabraham).
 
+## Guides on this work
+
+Free guides that cover the same ground, if you would rather start on your own:
+- [Out-of-stock and discontinued product pages](https://christopherabraham.com/guides/out-of-stock-products/)
+- [Black Friday sale pages that keep their rankings](https://christopherabraham.com/guides/black-friday-pages/)
+- [Google Merchant Center free listings for small shops](https://christopherabraham.com/guides/merchant-center-free-listings/)
+- [Selling inside AI assistants: the real state of play](https://christopherabraham.com/guides/agentic-checkout/)
+
 ## Talk it over
 
 Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.

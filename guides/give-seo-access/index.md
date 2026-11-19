@@ -70,6 +70,19 @@ Keep a short list of every invitation you send during the engagement. Offboardin
 
 I can send you the exact invitations a piece of work needs and the role for each, so the first week goes to the work instead of to logins. If you are staring at a profile or property that a former vendor still controls, [book a call](https://calendly.com/chrisabraham/30) or reach me through [Upwork](https://www.upwork.com/freelancers/chrisjabraham).
 
+## Related reading
+
+More guides on audits, crawlers, and working with an SEO:
+- [Is a Screaming Frog licence worth $279 a year? Mine was](https://christopherabraham.com/guides/screaming-frog-licence/)
+- [Screaming Frog custom extraction recipes for sitewide SEO audits](https://christopherabraham.com/guides/custom-extraction/)
+- [Why your SEO should work in your Git repository, with AI at their side](https://christopherabraham.com/guides/seo-in-your-repository/)
+- [How to choose the next SEO fix when developer time is scarce](https://christopherabraham.com/guides/prioritize-seo-work/)
+
+When you want it done for you:
+- [Technical SEO audit](https://christopherabraham.com/services/seo-audit/)
+- [SEO report review](https://christopherabraham.com/services/seo-report-review/)
+- [SEO release QA: check the change before it reaches every page](https://christopherabraham.com/services/seo-release-qa/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.

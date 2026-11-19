@@ -68,6 +68,19 @@ No. A review written to order by someone who wasn't your customer is a fake revi
 
 For honest ways to earn mentions that AI tools and search engines trust, see my guide to [earned mentions](https://christopherabraham.com/guides/earned-mentions/). Review strategy for local businesses is part of my [local SEO work](https://christopherabraham.com/services/local-seo/).
 
+## Related reading
+
+More guides on local listings and Business Profile:
+- [Measure seasonal local SEO before the busy weeks arrive](https://christopherabraham.com/guides/seasonal-local-seo/)
+- [Reading the new Google Business Profile performance reports](https://christopherabraham.com/guides/gbp-performance-reports/)
+- [Google Business Profile video verification: plan the take before you press record](https://christopherabraham.com/guides/gbp-video-verification/)
+- [How to change a business name without losing your Google reviews](https://christopherabraham.com/guides/business-name-change/)
+
+When you want it done for you:
+- [Local SEO and Google Business Profile](https://christopherabraham.com/services/local-seo/)
+- [Google Business Profile verification help](https://christopherabraham.com/services/gbp-verification/)
+- [Google Business Profile reinstatement and repair](https://christopherabraham.com/services/gbp-reinstatement/)
+
 ## Let me help you with this
 
 If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.
