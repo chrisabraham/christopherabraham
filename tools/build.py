@@ -47,7 +47,7 @@ SITE = "https://christopherabraham.com/"
 PREVIEW_BASE = "/christopherabraham/"
 TABS = [("", "Home"), ("services/", "Services"), ("guides/", "Guides"), ("case-studies/", "Case Studies"),
         ("about/", "About"), ("hire-me/", "Hire Me"), ("contact/", "Contact")]
-FILES = ["index",
+FILES = ["index", "guides/seasonal-local-seo",
          "services/index",
          "services/sitewide-technical-seo", "services/seo-audit", "services/indexing", "services/javascript-seo", "services/site-speed",
          "services/search-console", "services/migrations",
@@ -78,17 +78,55 @@ SERVICE_GROUPS[0][1].extend(['services/internal-linking/', 'services/seo-release
 ISLAND = [r"(?i)gerris", r"(?i)gerriscorp", r"(?i)hillmole", r"(?i)hill mole",
           r"(?i)substack"]  # "podcast" and his show allowed (owner, 2026-10-14: the show is the podcast-site case study)
 # The sibling site, built from the same kind of material. Pages here may not borrow its phrasing.
-SIBLING = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "gerris")
+_HERE = os.path.dirname(os.path.abspath(__file__))
+# SIBLING_DIR (set in CI) wins; locally the checkout may be named gerris or gerriscorp.
+SIBLING = os.environ.get("SIBLING_DIR") or next(
+    (d for d in (os.path.join(_HERE, "..", "..", n) for n in ("gerris", "gerriscorp")) if os.path.isdir(d)),
+    os.path.join(_HERE, "..", "..", "gerris"))
 FILES += ["services/inquiry-path-audit", "guides/test-website-inquiries"]
+# Added by Claude in the Claude app, October 24, 2026.
+FILES += ["guides/disavow-links"]
 SERVICE_GROUPS[0][1].append("services/inquiry-path-audit/")
 # Additional service and article, October 23, 2026.
 FILES += ["services/ai-visibility", "the-machine-answers-first"]
+# Additional guide, October 24, 2026.
+FILES += ["guides/gbp-performance-reports"]
+FILES += ["guides/gbp-video-verification"]
 SERVICE_GROUPS[1][1].append("services/ai-visibility/")
+
+# Additional guide, October 24, 2026, written by Claude Code.
+FILES += ["guides/xml-sitemaps"]
+
+FILES += ["guides/prioritize-seo-work"]
+
+# Five guides and three services, October 26, 2026, written by Claude Code.
+FILES += ["guides/service-area-business", "guides/black-friday-pages", "guides/merchant-center-free-listings",
+          "guides/apple-and-bing-listings", "guides/ftc-review-rule",
+          "services/launch-site", "services/seo-report-review", "services/gbp-verification"]
+SERVICE_GROUPS[0][1].append("services/seo-report-review/")
+SERVICE_GROUPS[2][1].insert(SERVICE_GROUPS[2][1].index("services/podcast-website/") + 1, "services/launch-site/")
+SERVICE_GROUPS[2][1].insert(SERVICE_GROUPS[2][1].index("services/local-seo/") + 1, "services/gbp-verification/")
+
+# Two services harvested from documented work, October 26, 2026, written by Claude Code.
+FILES += ["services/local-competitor-recon", "services/peak-season-readiness"]
+SERVICE_GROUPS[2][1].insert(SERVICE_GROUPS[2][1].index("services/gbp-verification/") + 1, "services/local-competitor-recon/")
+SERVICE_GROUPS[2][1].insert(SERVICE_GROUPS[2][1].index("services/local-competitor-recon/") + 1, "services/peak-season-readiness/")
+# Website archive recovery, October 26, 2026, written by Claude Code (Chris' instruction via Eunice).
+FILES += ["services/website-archive-recovery"]
+SERVICE_GROUPS[0][1].insert(SERVICE_GROUPS[0][1].index("services/migrations/") + 1, "services/website-archive-recovery/")
+
 # Additional service and guide, November 2, 2026.
 FILES += ["services/indexing-audit", "guides/why-google-wont-index-your-site"]
-# Position article, November 14, 2026.
-FILES += ["metanoia"]
 SERVICE_GROUPS[0][1].append("services/indexing-audit/")
+
+# Restored 2026-11-19: Eunice's Nov 5 services and Nov 14 article, re-added after a stale build.py dropped them from FILES.
+FILES += ["services/gbp-reinstatement", "services/github-pages-website", "metanoia"]
+_g = next(g for g in SERVICE_GROUPS if "services/gbp-verification/" in g[1])[1]
+_g.insert(_g.index("services/gbp-verification/") + 1, "services/gbp-reinstatement/")
+_g.insert(_g.index("services/static-sites/") + 1, "services/github-pages-website/")
+
+# Out-of-stock guide and the related-reading topic map, November 19, 2026, written by Claude Code.
+FILES += ["guides/out-of-stock-products"]
 
 MIN_WORDS = {"guide": 700, "service": 450, "case": 250, "page": 250}
 TODAY = datetime.date.today().isoformat()
@@ -101,9 +139,10 @@ TEL = "+12023525051"
 UPWORK = "https://www.upwork.com/freelancers/chrisjabraham"
 CALENDLY = "https://calendly.com/chrisabraham/30"
 LINKEDIN = "https://www.linkedin.com/in/chrisabraham"
+YOUTUBE = "https://www.youtube.com/@ChrisAbrahamShow"  # The Chris Abraham Show on YouTube
 GBP = "https://share.google/xZ98ksFq3nhO2OvuF"  # Google Business Profile "Chris Abraham" (verified)
 # Profiles and bylines published as Chris Abraham: the same person, for search engines and AI.
-PROFILES = [UPWORK, LINKEDIN, "https://chrisabraham.com/", "https://biznology.com/author/chrisabraham/",
+PROFILES = [UPWORK, LINKEDIN, YOUTUBE, "https://chrisabraham.com/", "https://biznology.com/author/chrisabraham/",
             "https://www.huffpost.com/author/chris-abraham", "https://muckrack.com/chrisabraham",
             "https://rheingold.com/Associates/team_abraham.html", "https://www.reddit.com/user/chrisabraham/", "https://mastodon.social/@chrisa",
             "https://adage.com/author/chris-abraham/1797"]
@@ -146,6 +185,28 @@ def finish(p):
 
 
 pages = []
+FILES += ["guides/search-console-comparisons"]
+FILES += ["guides/seo-advice-to-refuse"]
+FILES += ["guides/nobody-mentions-you"]
+FILES += ["guides/who-wrote-your-reputation"]
+# Two guides and a service on AI shopping and booking, October 28, 2026, written by Claude in the Claude app.
+FILES += ["guides/agentic-checkout", "guides/ai-mode-bookings", "services/ai-shopping-readiness"]
+
+# A guide on inviting an SEO by role instead of sharing passwords, October 28, 2026, written by Claude Code.
+FILES += ["guides/give-seo-access"]
+# The products page: fixed scope reports with published prices, October 29, 2026, on Chris' ruling via Eunice.
+FILES += ["products"]
+FILES += ["guides/shrink-video-for-transcription"]
+# A guide to building a website on GitHub Pages with a Cloudflare domain, November 3, 2026, promised to a client on a call and published the same day.
+FILES += ["guides/github-pages-website"]
+# Skills and offerings pass, November 5, 2026: Upwork reviews, coaching, and hosted-builder SEO.
+FILES += ["about/reviews", "services/seo-coaching", "services/website-builder-seo"]
+_g = next(g for g in SERVICE_GROUPS if "services/seo-retainer/" in g[1])[1]
+_g.insert(_g.index("services/wordpress-seo/") + 1, "services/website-builder-seo/")
+_g.insert(_g.index("services/seo-retainer/"), "services/seo-coaching/")
+_g = next(g for g in SERVICE_GROUPS if "services/ecommerce-seo/" in g[1])[1]
+_g.insert(_g.index("services/ecommerce-seo/") + 1, "services/ai-shopping-readiness/")
+
 for f in FILES:
     head, body = open(f"src/{f}.html", encoding="utf-8").read().split("\n---\n", 1)
     p = dict(line.split(": ", 1) for line in head.strip().splitlines())
@@ -177,6 +238,13 @@ def site_map_body():
         out += [f'<h2>{title}</h2>', '<ul>'] + [li(by_path[x]) for x in paths] + ['</ul>']
     for title, tab in (("Guides", "guides/"), ("Case studies", "case-studies/")):
         out += [f'<h2>{title}</h2>', '<ul>'] + [li(q) for q in pages if q["tab"] == tab and q["path"] != tab] + ['</ul>']
+    # Anything not listed above (About subpages, field notes, pages added later) still gets a line.
+    listed = {"", "services/", "guides/", "case-studies/", "about/", "hire-me/", "faq/", "contact/", "privacy/"}
+    listed |= {x for _, paths in SERVICE_GROUPS for x in paths}
+    listed |= {q["path"] for q in pages if q["tab"] in ("guides/", "case-studies/")}
+    rest = [q for q in pages if q["path"] not in listed and q["src"] != "(generated)"]
+    if rest:
+        out += ['<h2>About, notes, and more</h2>', '<ul>'] + [li(q) for q in rest] + ['</ul>']
     out += ['<h2>Files for machines</h2>', '<ul>',
             '  <li><a href="{root}sitemap.xml">sitemap.xml</a>: the XML sitemap for search engines.</li>',
             '  <li><a href="{root}llms.txt">llms.txt</a>: a plain summary of the site for language models, linking to Markdown versions of every page.</li>',
@@ -494,11 +562,50 @@ def schema(p):
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, indent=1, ensure_ascii=False)
 
 
+# Related reading (2026-11-19): one topic map (tools/related.json) links every guide to its
+# neighbors and to the services that do the work, and every service back to its guides.
+_REL = json.load(open("tools/related.json", encoding="utf-8"))
+RELATED, SERVICE_GUIDES, GUIDE_SERVICES = _REL["topics"], _REL.get("service_guides", {}), _REL.get("guide_services", {})
+
+
+def related_html(p, r):
+    slug = p["path"].split("/")[1] if p["path"].count("/") == 2 else ""
+    li = lambda q, label: f'<li><a href="{r}{q["path"]}">{html.escape(label)}</a></li>'
+    if p["kind"] == "guide":
+        topic = next((t for t in RELATED if slug in t["guides"]), None)
+        if not topic:
+            return ""
+        g = topic["guides"]
+        i = g.index(slug)
+        sibs = [by_path[f"guides/{s}/"] for s in (g[i + 1:] + g[:i])[:4] if f"guides/{s}/" in by_path]
+        picks = GUIDE_SERVICES.get(slug, []) + [s for s in topic["services"] if s not in GUIDE_SERVICES.get(slug, [])]
+        svcs = [by_path[f"services/{s}/"] for s in picks[:3] if f"services/{s}/" in by_path]
+        out = f'\n<aside class="related" aria-label="Related reading">\n  <h2>Related reading</h2>\n'
+        if sibs:
+            out += f'  <p>More guides on {topic["name"][0].lower() + topic["name"][1:]}:</p>\n  <ul>\n' + "".join(f"    {li(q, q['h1'])}\n" for q in sibs) + "  </ul>\n"
+        if svcs:
+            out += '  <p>When you want it done for you:</p>\n  <ul>\n' + "".join(f"    {li(q, q['h1'])}\n" for q in svcs) + "  </ul>\n"
+        return out + "</aside>"
+    if p["kind"] == "service":
+        seen = list(SERVICE_GUIDES.get(slug, []))
+        for t in RELATED:
+            if slug in t["services"]:
+                seen += [s for s in t["guides"] if s not in seen]
+        guides = [by_path[f"guides/{s}/"] for s in seen[:6] if f"guides/{s}/" in by_path]
+        if not guides:
+            return ""
+        return ('\n<aside class="related" aria-label="Guides on this work">\n  <h2>Guides on this work</h2>\n'
+                '  <p>Free guides that cover the same ground, if you would rather start on your own:</p>\n  <ul>\n'
+                + "".join(f"    {li(q, q['h1'])}\n" for q in guides) + "  </ul>\n</aside>")
+    return ""
+
+
 def body_html(p, *, contents=True):
     r = p["root"] or "./"
     body = p["body"].replace("{root}", r)
     if p["kind"] == "guide" and contents:
         body = add_guide_contents(body, p["words"])
+    body += related_html(p, r)
     if p["kind"] == "guide":
         by = (f'<p class="byline">By <a href="{r}about/">Christopher Abraham</a> · Published <time datetime="{p.get("published", p["updated"])}">{nice(p.get("published", p["updated"]))}</time>'
               + (f' · Updated <time datetime="{p["updated"]}">{nice(p["updated"])}</time>' if p.get("published", p["updated"]) != p["updated"] else "") + "</p>")
@@ -510,6 +617,14 @@ def body_html(p, *, contents=True):
   <p>If you'd rather have this done than do it yourself, it's exactly the work I do for clients. Tell me about your site and I'll tell you where I'd start.</p>
   <p><a class="button" href="{CALENDLY}">Book a 30 minute call</a> <a class="button" href="tel:{TEL}">Call {PHONE}</a> <a class="button" href="mailto:{EMAIL}">Email {EMAIL}</a></p>
   <p>Prefer to hire through Upwork? I'm <a href="{UPWORK}">Top Rated there too</a>.</p>
+</aside>"""
+    if p["kind"] == "service":
+        # Every service page closes on two routes only: a call or Upwork (owner, 2026-10-26).
+        body += f"""
+<aside class="help-box" aria-label="Talk it over">
+  <h2>Talk it over</h2>
+  <p>Every engagement starts with a conversation about your site and what you need. Pick whichever route suits you.</p>
+  <p><a class="button" href="{CALENDLY}">Book a 30 minute call</a> <a class="button" href="{UPWORK}">Hire me on Upwork</a></p>
 </aside>"""
     if p["sources"]:
         body += ('\n<h2>Sources</h2>\n<ul class="sources">\n'
@@ -674,7 +789,7 @@ def render(p):
 {body_html(p)}
 </main>
 <footer class="site-footer">
-  <p><a href="mailto:{EMAIL}">{EMAIL}</a>&nbsp;· <a href="tel:{TEL}">{PHONE}</a>&nbsp;· <a href="{CALENDLY}">Book a call</a>&nbsp;· <a href="{UPWORK}">Hire me on Upwork</a>&nbsp;· <a href="{LINKEDIN}">LinkedIn</a></p>
+  <p><a href="mailto:{EMAIL}">{EMAIL}</a>&nbsp;· <a href="tel:{TEL}">{PHONE}</a>&nbsp;· <a href="{CALENDLY}">Book a call</a>&nbsp;· <a href="{UPWORK}">Hire me on Upwork</a>&nbsp;· <a href="{LINKEDIN}">LinkedIn</a>&nbsp;· <a href="{YOUTUBE}">YouTube</a></p>
   <p>© {TODAY[:4]} Christopher Abraham, Arlington,&nbsp;Virginia&nbsp;· <a href="{r}faq/">FAQ</a>&nbsp;· <a href="{r}about/editorial-policy/">How I write</a>&nbsp;· <a href="{r}privacy/">Privacy</a>&nbsp;· <a href="{r}sitemap/">Site map</a>&nbsp;· <a href="{r}site-index/">Index</a>&nbsp;· <a href="{r}guides/glossary/">Glossary</a>&nbsp;· <a href="{r}about/colophon/">Colophon</a>&nbsp;· <a href="{r}llms.txt">llms.txt</a>&nbsp;· <a href="{r}rss.xml">RSS</a></p>
   <p>Unless a page says otherwise, everything I wrote or made here is free to reuse under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Credit me and link&nbsp;back.</p>
 </footer>
@@ -935,6 +1050,8 @@ open(".well-known/security.txt", "w", encoding="utf-8").write(
 sections = [(title, [by_path[x] for x in paths]) for title, paths in SERVICE_GROUPS] + [
     ("Guides", [p for p in pages if p["tab"] == "guides/"]),
     ("About and working together", [p for p in pages if p["tab"] in ("", "case-studies/", "about/", "work-with-me/", "contact/", "sitemap/", "site-index/")])]
+_in_llms = {id(p) for _, group in sections for p in group}
+sections.append(("Hiring, FAQ, notes, and policies", [p for p in pages if id(p) not in _in_llms]))
 llms = f"""# Christopher Abraham, SEO consultant
 
 > {ORG["description"]} Based in Arlington, Virginia. Building websites since 1994 and doing SEO since 1998.
@@ -1047,7 +1164,7 @@ if os.path.isdir(SIBLING):
             if len(sentence.split()) >= 8 and sentence.strip() in _sib_sent and "Amazon Associate" not in sentence:  # the required Associates disclosure is identical by design
                 problems.append(f"/{p['path']} repeats a sibling sentence: {sentence[:80]}")
 else:
-    print("note: sibling site not found, skipping the borrowed-phrasing check")
+    problems.append(f"sibling site not found at {SIBLING}: clone chrisabraham/gerriscorp beside this repo or set SIBLING_DIR")
 for key in ("title", "description", "h1"):
     seen = [p[key] for p in pages]
     for s in set(seen):
@@ -1060,5 +1177,28 @@ for p in pages:
     print(f"  {p['words']:5d}  {p['kind']:7s} /{p['path']}")
 if unindexed:
     print(f"site index: {len(unindexed)} page(s) not indexed yet: {', '.join(unindexed)} (read each one and add its entries to tools/site_index.json)")
+# The guides index is hand-curated, so a new guide can silently miss it (twelve did, 2026-10-23 to 10-28).
+import pathlib
+_guides_index = pathlib.Path("src/guides/index.html").read_text(encoding="utf-8")
+_orphans = sorted(f.stem for f in pathlib.Path("src/guides").glob("*.html")
+                  if f.stem not in ("index", "glossary") and f"guides/{f.stem}/" not in _guides_index)
+# Every guide sits in exactly one topic of tools/related.json, and every service in at least one.
+_topic_guides = [s for t in RELATED for s in t["guides"]]
+for f in pathlib.Path("src/guides").glob("*.html"):
+    if f.stem not in ("index", "glossary") and _topic_guides.count(f.stem) != 1:
+        problems.append(f"tools/related.json: guide {f.stem} appears in {_topic_guides.count(f.stem)} topics (needs exactly 1)")
+for f in pathlib.Path("src/services").glob("*.html"):
+    if f.stem != "index" and not any(f.stem in t["services"] for t in RELATED):
+        problems.append(f"tools/related.json: service {f.stem} is in no topic")
+for t in RELATED:
+    for s in t["guides"]:
+        if f"guides/{s}/" not in by_path: problems.append(f"tools/related.json: no guide {s}")
+    for s in t["services"]:
+        if f"services/{s}/" not in by_path: problems.append(f"tools/related.json: no service {s}")
+for k, v in list(SERVICE_GUIDES.items()) + list(GUIDE_SERVICES.items()):
+    for s in [k] + v:
+        if f"guides/{s}/" not in by_path and f"services/{s}/" not in by_path: problems.append(f"tools/related.json: override names unknown page {s}")
+if _orphans:
+    print(f"guides index: {len(_orphans)} guide(s) not listed on /guides/: {', '.join(_orphans)} (add a line to src/guides/index.html)")
 for x in problems: print("PROBLEM:", x)
 sys.exit(1 if problems else 0)

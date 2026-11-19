@@ -4,7 +4,7 @@ description: Plain-English definitions of SEO and AI search terms: AEO, GEO, can
 type: guide
 published: 2026-10-06
 keywords: SEO glossary, AI search terms, SEO definitions
-updated: 2026-10-26
+updated: 2026-11-19
 ---
 <h1>Glossary of SEO and AI search terms</h1>
 <p class="lead">The vocabulary of search and AI visibility, one or two sentences per term. Every entry carries an anchor, so a link can point straight at the definition you need. To find every page that discusses a term, use the <a href="{root}site-index/">index</a>.</p>
@@ -14,10 +14,14 @@ updated: 2026-10-26
   <dd>A permanent forwarding instruction from an old address to a new one, which passes nearly all of the old page's ranking signals along.</dd>
   <dt id="aeo">AEO (answer engine optimization)</dt>
   <dd>Shaping pages so that systems which reply with an answer rather than a list of links, from featured snippets to voice assistants to chatbots, can lift a passage and credit it.</dd>
+  <dt id="agentic-browser">Agentic browser</dt>
+  <dd>A web browser with an AI assistant built in that can carry out multi-step tasks on a user's behalf, such as comparing products or filling a cart. ChatGPT Atlas and Perplexity Comet are examples. They read pages the way a careful screen reader does, so clean HTML and real buttons matter. See <a href="{root}guides/agentic-checkout/">selling inside AI assistants</a>.</dd>
   <dt id="ai-overviews">AI Overviews</dt>
   <dd>The generated summaries Google places on many results pages, citing the sites they borrowed from. AI Mode extends the idea into a back-and-forth conversation.</dd>
   <dt id="ai-share-of-voice">AI share of voice</dt>
   <dd>The share of relevant buyer questions where an AI assistant names your brand, measured against the competitors it names instead, tracked with the same question set every month. Method in <a href="{root}guides/ai-share-of-voice/">measuring share of voice in AI answers</a>.</dd>
+  <dt id="aio">AIO (AI optimization)</dt>
+  <dd>A label with two meanings in circulation: some use it for all work on AI visibility, others for winning citations in Google's AI Overviews specifically. Ask anyone who sells it which one they mean.</dd>
   <dt id="alt-text">Alt text</dt>
   <dd>Words attached to an image in the markup that describe it for people using screen readers and give crawlers a clue about the picture's subject.</dd>
   <dt id="anchor-text">Anchor text</dt>
@@ -40,7 +44,6 @@ updated: 2026-10-26
   <dd>Shopify's door for outside help: a partner reaches only the admin sections the merchant approves, without taking a staff seat. A request code keeps strangers from asking. See <a href="{root}guides/give-seo-access/">Give your SEO access</a>.</dd>
   <dt id="comparison-cohort">Comparison cohort</dt>
   <dd>A fixed group of pages evaluated across reporting periods so changes in the page inventory can be distinguished from changes in performance. See <a href="{root}guides/search-console-comparisons/">Search Console comparisons</a>.</dd>
-
   <dt id="core-update">Core update</dt>
   <dd>A broad change Google makes to how it ranks everything, several times a year. Pages can rise or fall without anything being wrong with them; Google lists each one on its Search Status Dashboard.</dd>
   <dt id="core-web-vitals">Core Web Vitals</dt>
@@ -68,9 +71,15 @@ updated: 2026-10-26
   <dt id="free-listings">Free listings</dt>
   <dd>Unpaid product results Google shows across Shopping, Search, Images, Lens, and Maps, fed by a store's Merchant Center data. See <a href="{root}guides/merchant-center-free-listings/">Merchant Center free listings</a>.</dd>
   <dt id="geo">GEO (generative engine optimization)</dt>
-  <dd>Work aimed at how generative AI tools portray and cite a company or a page. In practice it overlaps almost entirely with AEO and AI SEO.</dd>
+  <dd>Work aimed at how generative AI tools portray and cite a company or a page. The name comes from a 2023 research paper of the same title by Pranjal Aggarwal and colleagues, presented at KDD 2024. In practice it overlaps almost entirely with AEO and AI SEO.</dd>
   <dt id="google-business-profile">Google Business Profile</dt>
   <dd>The free Google listing that puts a business on Maps and in local results, carrying its hours, categories, photos, and reviews.</dd>
+  <dt id="google-extended">Google-Extended</dt>
+  <dd>A robots.txt token that tells Google whether content it crawls may be used to train Gemini models and to ground their answers. Google states that it has no effect on inclusion or ranking in Google Search.</dd>
+  <dt id="gptbot">GPTBot</dt>
+  <dd>OpenAI's crawler for collecting training data. Blocking it doesn't block OAI-SearchBot, which feeds ChatGPT search, because OpenAI treats each of its bots separately. See <a href="{root}guides/ai-search-checklist/">the AI search readiness checklist</a>.</dd>
+  <dt id="grounding">Grounding</dt>
+  <dd>Tying an AI model's answer to sources it retrieves at the moment of the question, instead of relying only on what it learned in training. Pages that get retrieved and quoted during grounding are the ones that earn citations.</dd>
   <dt id="gtin">GTIN (Global Trade Item Number)</dt>
   <dd>The barcode number a manufacturer assigns to a product, such as a UPC or EAN. Resellers put it in their product feed; makers of their own goods mark it as not applicable.</dd>
   <dt id="hreflang">hreflang</dt>
@@ -89,6 +98,8 @@ updated: 2026-10-26
   <dd>Google's preferred way to write structured data: a JSON object inside its own script element, kept apart from what visitors see.</dd>
   <dt id="lcp">LCP (Largest Contentful Paint)</dt>
   <dd>The Core Web Vital that times how long the biggest image or text block in the opening view takes to finish drawing. Aim for 2.5 s or lower.</dd>
+  <dt id="llmo">LLMO (large language model optimization)</dt>
+  <dd>Another name for shaping how large language models describe a brand: consistent facts, clear entities, and outside sources the models can trust. In practice it covers the same work as GEO and AEO.</dd>
   <dt id="llms-txt">llms.txt</dt>
   <dd>A suggested standard: a Markdown summary kept at the top level of a domain, pointing language models to the pages most worth reading.</dd>
   <dt id="material-connection">Material connection</dt>
@@ -117,8 +128,12 @@ updated: 2026-10-26
   <dd>Generating a finished HTML copy of a JavaScript page ahead of time and serving it to crawlers or visitors, so the content is readable without running scripts.</dd>
   <dt id="primary-owner">Primary owner</dt>
   <dd>The single account on a Google Business Profile that can transfer the profile to someone else. It should belong to the business, never to a vendor. See <a href="{root}guides/give-seo-access/">Give your SEO access</a>.</dd>
+  <dt id="product-availability">Product availability</dt>
+  <dd>The stock status a product page declares in its structured data and its Merchant Center feed, such as InStock, OutOfStock, BackOrder, or Discontinued. The value should match what the page tells shoppers. See <a href="{root}guides/out-of-stock-products/">out-of-stock and discontinued product pages</a>.</dd>
   <dt id="pull-request">Pull request</dt>
   <dd>A proposed change to a code repository, shown line by line for review before it's merged. SEO fixes made this way are recorded, reviewable, and easy to undo; see <a href="{root}guides/seo-in-your-repository/">SEO in your Git repository</a>.</dd>
+  <dt id="query-fan-out">Query fan-out</dt>
+  <dd>Google's name for how AI Mode answers a question: it splits the question into subtopics and runs many searches at once, then writes one answer from the results. A page can be cited for a subquestion the user never typed.</dd>
   <dt id="reddit-answers">Reddit Answers</dt>
   <dd>Reddit's own AI search, launched in December 2024, which summarizes discussions from across the site in reply to a question.</dd>
   <dt id="redirect-chain">Redirect chain</dt>
@@ -143,6 +158,8 @@ updated: 2026-10-26
   <dd>Assembling the complete HTML on the server so a crawler gets every word in the first response, no scripts required.</dd>
   <dt id="service-area-business">Service-area business</dt>
   <dd>A business on Google that travels to its customers, such as a plumber or mobile groomer, and hides its street address from the public profile. It verifies by showing its tools, vehicle, and nearby street markers. See <a href="{root}guides/gbp-video-verification/">video verification</a>.</dd>
+  <dt id="share-of-model">Share of model</dt>
+  <dd>A newer name for AI share of voice: how often an AI assistant names your brand, compared with competitors, across a fixed set of questions. See <a href="{root}guides/ai-share-of-voice/">measuring share of voice in AI answers</a>.</dd>
   <dt id="spa">Single page application (SPA)</dt>
   <dd>A website that loads one HTML shell and swaps content in with JavaScript as people click, instead of loading a new page for each address. Many AI app builders produce them.</dd>
   <dt id="site-reputation-abuse">Site reputation abuse</dt>
@@ -163,6 +180,8 @@ updated: 2026-10-26
   <dd>A service delivered under someone else's brand: an agency resells the work, and its client never sees the vendor's name.</dd>
   <dt id="xml-sitemap">XML sitemap</dt>
   <dd>A machine-readable list of the addresses a site wants crawled, often with the date each last changed.</dd>
+  <dt id="zero-click-search">Zero-click search</dt>
+  <dd>A search that ends on the results page or inside an AI answer without a visit to any website. Rankings and mentions can rise while clicks fall, which is why I report both.</dd>
 </dl>
 
 <p>These terms are used throughout the <a href="{root}guides/">guides</a> and <a href="{root}services/">services</a> pages.</p>

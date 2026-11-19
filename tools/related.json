@@ -1,0 +1,316 @@
+{
+ "_about": "One topic map drives the related-reading blocks on guides and services (tools/build.py). Every guide belongs to exactly one topic; the build fails if a guide is missing or doubled. Services are listed in the order they should be suggested. service_guides and guide_services override the topic defaults where a topic's order would suggest the wrong pages first.",
+ "topics": [
+  {
+   "name": "Indexing and crawling",
+   "guides": [
+    "why-google-wont-index-your-site",
+    "page-indexing-report",
+    "xml-sitemaps",
+    "near-duplicates-and-h1s",
+    "internal-linking",
+    "disavow-links"
+   ],
+   "services": [
+    "indexing-audit",
+    "indexing",
+    "internal-linking",
+    "sitewide-technical-seo"
+   ]
+  },
+  {
+   "name": "Audits, crawlers, and working with an SEO",
+   "guides": [
+    "seo-audit-deliverables",
+    "hiring-an-seo",
+    "give-seo-access",
+    "screaming-frog-licence",
+    "custom-extraction",
+    "seo-in-your-repository",
+    "prioritize-seo-work"
+   ],
+   "services": [
+    "seo-audit",
+    "seo-report-review",
+    "seo-release-qa",
+    "seo-retainer"
+   ]
+  },
+  {
+   "name": "Measurement and proof",
+   "guides": [
+    "search-console-comparisons",
+    "prove-seo-fixes",
+    "test-website-inquiries",
+    "ga4-pagespeed",
+    "update-recovery-2026"
+   ],
+   "services": [
+    "search-console",
+    "inquiry-path-audit",
+    "seo-retainer"
+   ]
+  },
+  {
+   "name": "Migrations, redirects, and speed",
+   "guides": [
+    "redirect-rules",
+    "media-migration",
+    "core-web-vitals"
+   ],
+   "services": [
+    "migrations",
+    "website-archive-recovery",
+    "site-speed"
+   ]
+  },
+  {
+   "name": "Platforms, domains, and new sites",
+   "guides": [
+    "wordpress-seo-101",
+    "cloudflare-wordpress",
+    "ai-built-websites",
+    "github-pages-website",
+    "parked-domain-launch",
+    "non-sending-domain",
+    "lapsed-domains"
+   ],
+   "services": [
+    "wordpress-seo",
+    "website-builder-seo",
+    "javascript-seo",
+    "static-sites",
+    "launch-site",
+    "github-pages-website"
+   ]
+  },
+  {
+   "name": "Content, titles, and earned links",
+   "guides": [
+    "brand-name-in-titles",
+    "ai-content-seo",
+    "topic-clusters",
+    "small-original-research",
+    "earned-mentions",
+    "buying-backlinks",
+    "meta-keywords",
+    "social-share-cards"
+   ],
+   "services": [
+    "on-page-seo",
+    "fact-checked-articles"
+   ]
+  },
+  {
+   "name": "AI search and structured data",
+   "guides": [
+    "ai-search-checklist",
+    "ai-catnip",
+    "llms-txt",
+    "small-business-schema",
+    "reddit-ai-answers",
+    "ai-mode-bookings"
+   ],
+   "services": [
+    "ai-search",
+    "schema",
+    "ai-visibility"
+   ]
+  },
+  {
+   "name": "Podcasts and video",
+   "guides": [
+    "show-notes-cascade",
+    "shrink-video-for-transcription"
+   ],
+   "services": [
+    "podcast-website",
+    "static-sites"
+   ]
+  },
+  {
+   "name": "Your name, your entity, and AI answers",
+   "guides": [
+    "nobody-mentions-you",
+    "who-wrote-your-reputation",
+    "ai-share-of-voice",
+    "correct-ai-answers",
+    "two-names-one-entity",
+    "third-party-proof",
+    "about-page-ai"
+   ],
+   "services": [
+    "ai-visibility",
+    "ai-search"
+   ]
+  },
+  {
+   "name": "Local listings and Business Profile",
+   "guides": [
+    "gbp-performance-reports",
+    "gbp-video-verification",
+    "business-name-change",
+    "holiday-hours",
+    "service-area-business",
+    "apple-and-bing-listings",
+    "ftc-review-rule",
+    "seasonal-local-seo"
+   ],
+   "services": [
+    "local-seo",
+    "gbp-verification",
+    "gbp-reinstatement",
+    "local-competitor-recon"
+   ]
+  },
+  {
+   "name": "Online stores and the selling season",
+   "guides": [
+    "out-of-stock-products",
+    "black-friday-pages",
+    "merchant-center-free-listings",
+    "agentic-checkout"
+   ],
+   "services": [
+    "ecommerce-seo",
+    "peak-season-readiness",
+    "ai-shopping-readiness"
+   ]
+  },
+  {
+   "name": "Accessibility and text-only reading",
+   "guides": [
+    "accessible-websites",
+    "accessibility-seo-dividends",
+    "lynx-test"
+   ],
+   "services": [
+    "sitewide-technical-seo",
+    "on-page-seo"
+   ]
+  },
+  {
+   "name": "Reference",
+   "guides": [
+    "seo-advice-to-refuse",
+    "seo-news-sources"
+   ],
+   "services": [
+    "seo-coaching",
+    "seo-report-review"
+   ]
+  }
+ ],
+ "service_guides": {
+  "javascript-seo": [
+   "ai-built-websites",
+   "why-google-wont-index-your-site",
+   "lynx-test",
+   "page-indexing-report",
+   "screaming-frog-licence",
+   "core-web-vitals"
+  ],
+  "wordpress-seo": [
+   "wordpress-seo-101",
+   "cloudflare-wordpress",
+   "ga4-pagespeed",
+   "core-web-vitals",
+   "redirect-rules",
+   "small-business-schema"
+  ],
+  "static-sites": [
+   "github-pages-website",
+   "parked-domain-launch",
+   "non-sending-domain",
+   "llms-txt",
+   "social-share-cards",
+   "lynx-test"
+  ],
+  "launch-site": [
+   "parked-domain-launch",
+   "github-pages-website",
+   "xml-sitemaps",
+   "social-share-cards",
+   "small-business-schema",
+   "non-sending-domain"
+  ],
+  "website-builder-seo": [
+   "ai-built-websites",
+   "why-google-wont-index-your-site",
+   "brand-name-in-titles",
+   "social-share-cards",
+   "small-business-schema"
+  ],
+  "site-speed": [
+   "core-web-vitals",
+   "ga4-pagespeed",
+   "cloudflare-wordpress",
+   "media-migration"
+  ],
+  "seo-retainer": [
+   "prioritize-seo-work",
+   "prove-seo-fixes",
+   "search-console-comparisons",
+   "seo-audit-deliverables",
+   "update-recovery-2026"
+  ],
+  "github-pages-website": [
+   "github-pages-website",
+   "parked-domain-launch",
+   "non-sending-domain",
+   "social-share-cards",
+   "llms-txt",
+   "lynx-test"
+  ],
+  "gbp-reinstatement": [
+   "gbp-video-verification",
+   "business-name-change",
+   "service-area-business",
+   "ftc-review-rule",
+   "gbp-performance-reports"
+  ]
+ },
+ "guide_services": {
+  "github-pages-website": [
+   "github-pages-website",
+   "static-sites",
+   "launch-site"
+  ],
+  "parked-domain-launch": [
+   "launch-site",
+   "static-sites"
+  ],
+  "non-sending-domain": [
+   "launch-site",
+   "static-sites"
+  ],
+  "lapsed-domains": [
+   "launch-site",
+   "website-archive-recovery"
+  ],
+  "wordpress-seo-101": [
+   "wordpress-seo",
+   "site-speed"
+  ],
+  "cloudflare-wordpress": [
+   "wordpress-seo",
+   "site-speed"
+  ],
+  "ai-built-websites": [
+   "website-builder-seo",
+   "javascript-seo"
+  ],
+  "ga4-pagespeed": [
+   "site-speed",
+   "search-console"
+  ],
+  "core-web-vitals": [
+   "site-speed",
+   "wordpress-seo"
+  ],
+  "update-recovery-2026": [
+   "seo-audit",
+   "seo-retainer"
+  ]
+ }
+}
